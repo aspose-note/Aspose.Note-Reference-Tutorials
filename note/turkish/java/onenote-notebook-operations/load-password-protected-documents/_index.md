@@ -59,7 +59,7 @@ String dataDir = "Your Document Directory";
 
 NotebookLoadOptions loadOptions = new NotebookLoadOptions();
 loadOptions.setDeferredLoading(true);
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2", loadOptions);
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2", loadOptions);
 notebook.loadChildDocument(dataDir + "Neuer Abschnitt 1.one");
 ```
 
@@ -105,7 +105,7 @@ Yukarıdaki adımları izleyerek, artık Java'da şifre korumalı onenote not de
 ---
 
 **Son Güncelleme:** 2026-04-24  
-**Test Edilen Versiyon:** Aspose.Note 24.12 for Java  
+**Test Edilen Sürüm:** Aspose.Note 26.4 for Java  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -59,7 +59,7 @@ String dataDir = "Your Document Directory";
 
 NotebookLoadOptions loadOptions = new NotebookLoadOptions();
 loadOptions.setDeferredLoading(true);
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2", loadOptions);
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2", loadOptions);
 notebook.loadChildDocument(dataDir + "Neuer Abschnitt 1.one");
 ```
 
@@ -105,7 +105,7 @@ Seguendo i passaggi sopra, ora hai una solida base per caricare notebook OneNote
 ---
 
 **Ultimo aggiornamento:** 2026-04-24  
-**Testato con:** Aspose.Note 24.12 per Java  
+**Testato con:** Aspose.Note 26.4 per Java  
 **Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

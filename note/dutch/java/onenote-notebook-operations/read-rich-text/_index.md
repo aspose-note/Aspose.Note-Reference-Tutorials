@@ -132,9 +132,9 @@ A5: U kunt ondersteuning en hulp vinden op het [Aspose.Note‑forum](https://for
 
 ---
 
-**Laatst bijgewerkt:** 2026-04-24  
-**Getest met:** Aspose.Note for Java 23.12  
-**Auteur:** Aspose  
+**Laatst bijgewerkt:** 2026-04-24
+**Getest met:** Aspose.Note voor Java 26.4
+**Auteur:** Aspose 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -31,7 +31,7 @@ En este tutorial, descubrirá **cómo eliminar un nodo**—específicamente un n
 
 Antes de comenzar, asegúrese de que tiene los siguientes requisitos previamente configurados:
 
-1. **Java Development Kit (JDK)** – Asegúrese de que tiene Java instalado en su sistema. Puede descargar e instalar el último JDK desde [aquí](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+1. **Java Development Kit (JDK)** – Asegúrese de que tiene Java instalado en su sistema. Puede descargar e instalar el último JDK desde [aquí](https://www.oracle.com/java/technologies/downloads/).
 
 2. **Aspose.Note para Java** – Descargue e instale la biblioteca Aspose.Note para Java desde el [sitio web](https://purchase.aspose.com/buy). También puede obtener una prueba gratuita desde [aquí](https://releases.aspose.com/).
 
@@ -142,7 +142,7 @@ En este tutorial, hemos recorrido **cómo eliminar un nodo**—específicamente 
 ---
 
 **Última actualización:** 2026-01-02
-**Probado con:** Aspose.Note 24.11 para Java
+**Probado con:** Aspose.Note 26.4 para Java
 **Autor:** Aspose 
 
 ---

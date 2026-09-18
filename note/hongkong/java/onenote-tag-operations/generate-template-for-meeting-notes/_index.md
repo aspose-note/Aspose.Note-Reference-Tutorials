@@ -1,27 +1,46 @@
 ---
-title: 在 OneNote 中產生會議筆記範本 - Aspose.Note
-linktitle: 在 OneNote 中產生會議筆記範本 - Aspose.Note
+date: 2026-03-03
+description: 學習如何在 OneNote 中建立大綱，並使用 Aspose.Note for Java 產生會議記錄範本。輕鬆自訂字型樣式並加入核取方塊。
+linktitle: Create Outline in OneNote – Meeting Notes Template
 second_title: Aspose.Note Java API
-description: 與 Aspose.Note for Java 增強協作！了解如何逐步建立動態會議記錄範本。立即下載庫！
-weight: 14
+title: 在 OneNote 中建立大綱 – 會議筆記範本
 url: /zh-hant/java/onenote-tag-operations/generate-template-for-meeting-notes/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 OneNote 中產生會議筆記範本 - Aspose.Note
+# 在 OneNote 中建立大綱 – 會議筆記範本
 
-## 介紹
-在當今快節奏的世界中，高效的會議組織和記錄對於成功協作至關重要。 Aspose.Note for Java 提供了一個強大的解決方案，用於在 OneNote 中產生會議記錄範本。在本逐步指南中，我們將探索如何使用 Aspose.Note 建立一個範本來捕捉會議的精髓，使筆記變得輕而易舉。
-## 先決條件
-在深入學習本教程之前，請確保您具備以下先決條件：
-- 對 Java 程式設計有基本的了解
-- 安裝了 Java 函式庫的 Aspose.Note。你可以下載它[這裡](https://releases.aspose.com/note/java/).
-- Java 整合開發環境 (IDE)，例如 Eclipse 或 IntelliJ。
-## 導入包
-首先，將必要的套件匯入到您的 Java 專案中。這是一個範例片段：
+## Introduction
+在當今節奏快速的世界中，高效地 **在 OneNote 中建立大綱** 對於清晰的會議文件至關重要。Aspose.Note for Java 提供了一種強大的方式來 **產生會議筆記範本**，您可以自訂、加入核取方塊，並精確設定字型樣式。於本分步指南中，我們將示範如何建立可重複使用的會議議程範本，說明 **如何加入核取方塊**、**在 OneNote 中加入清單**，以及 **customize font style onenote** 以獲得精緻外觀。
+
+## Quick Answers
+- **「在 OneNote 中建立大綱」是什麼意思？** 它指的是以程式方式在 OneNote 檔案內建立階層結構（標題、章節、項目符號）。  
+- **哪個函式庫可以協助完成此工作？** Aspose.Note for Java。  
+- **我可以在大綱中加入核取方塊嗎？** 可以 – 使用 `NoteCheckBox.createBlueCheckBox()`。  
+- **我需要授權嗎？** 提供免費試用版；正式環境需購買商業授權。  
+- **支援的 Java 版本為何？** Java 8 及以上。
+
+## What is “create outline in OneNote”?
+在 OneNote 中建立大綱指的是定義一個包含標題、 多個大綱章節，並可選擇加入編號清單或核取方塊的頁面。此結構與您在 OneNote 使用者介面手動輸入標題與項目符號的方式相同，但由程式自動產生。
+
+## Why use Aspose.Note for meeting agenda templates?
+- **一致性：** 每次會議皆以相同的清晰版面開始。  
+- **自動化：** 減少手動輸入，確保所有必要章節（議程、行動項目、筆記）皆已包含。  
+- **客製化：** 可變更字型、顏色，並加入互動式核取方塊以追蹤任務。  
+- **整合性：** 可於任何 Java IDE 使用，且能與其他 Aspose 函式庫（如 PDF、試算表等）結合。
+
+## Prerequisites
+- 具備 Java 程式設計的基本概念。  
+- 已安裝 Aspose.Note for Java 函式庫。您可於 [此處](https://releases.aspose.com/note/java/) 下載。  
+- 使用 Eclipse 或 IntelliJ IDEA 等開發環境。  
+
+## Import Packages
+首先，匯入我們將使用的類別。此程式碼片段與原始教學完全相同。
+
 ```java
 import com.aspose.note.*;
 import java.io.IOException;
@@ -31,12 +50,14 @@ import java.time.Instant;
 import java.util.Date;
 import java.util.Locale;
 ```
-## 第 1 步：建立文檔結構
-首先建立 OneNote 文件的基本結構，包括標題和大綱。
+
+## Step 1: Create Document Structure
+我們先建立文件，設定標題，並準備段落樣式，以便稍後 **customize font style onenote**。
+
 ```java
-//文檔目錄的路徑。
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
-//建立Document類別的對象
+// Create an object of the Document class
 ParagraphStyle headerStyle = new ParagraphStyle()
                                     .setFontName("Calibri")
                                     .setFontSize(16);
@@ -54,8 +75,14 @@ Page page = new Page();
 page.setTitle(title);
 d.appendChildLast(page);
 ```
-## 第 2 步：概述要點
-現在，概述會議的要點，並將其分為幾個部分。
+
+*我們所做的：*  
+- 定義兩個 `ParagraphStyle` 物件（`headerStyle` 用於標題，`bodyStyle` 用於一般文字）。  
+- 建立 `Document`，並加入包含當前日期的 `Title`，為頁面提供清晰的標題。
+
+## Step 2: Outline Important Points
+接著，我們透過加入 `Outline` 物件並填入「Important」等章節，**在 OneNote 中建立大綱**。此處即為議程項目所在。
+
 ```java
 Outline outline = page.appendChildLast(new Outline());
 outline.setVerticalOffset(30);
@@ -73,8 +100,14 @@ for (String e: new String[] { "First", "Second", "Third" })
     restartFlag = false;
 }
 ```
-## 第 3 步：突出顯示行動項目
-接下來，為操作項目建立一個部分，並用複選框標記它們。
+
+*此舉的重要性：*  
+- `Outline` 物件代表您在 OneNote 中看到的階層清單。  
+- 使用 `createListNumberingStyle` 產生可於每個新章節重新開始的編號清單。
+
+## Step 3: Highlight Action Items (How to add checkboxes)
+行動項目需要視覺提示。透過為每個 `RichText` 元素附加核取方塊標籤，我們即可在大綱內直接 **how to add checkboxes**。
+
 ```java
 richText = outline.appendChildLast(new OutlineElement()).appendChildLast(new RichText());
 richText.append("TO DO");
@@ -92,25 +125,63 @@ for (String e: new String[] { "First", "Second", "Third" })
     restartFlag = false;
 }
 ```
-## 步驟 4：儲存文檔
-最後，將 OneNote 文件與產生的會議記錄一起儲存。
+
+*小技巧：* 使用 `NoteCheckBox.createBlueCheckBox()` 取得藍色核取方塊；若需其他顏色亦可選擇。
+
+## Step 4: Save the Document
+最後，將 OneNote 檔案寫入磁碟。此檔案可直接於 OneNote 桌面應用程式開啟。
+
 ```java
-//儲存 OneNote 文檔
+// Save OneNote document
 d.save(Paths.get(dataDir, "meetingNotes.one").toString());
 ```
-## 結論
-借助 Aspose.Note for Java，建立會議記錄的綜合範本成為一個無縫過程。本教學引導您完成這些步驟，確保您可以有效地擷取和組織會議中的重要資訊。
-## 經常問的問題
-### 我可以自訂會議記錄中的字體樣式嗎？
-是的，Aspose.Note 允許您為標題和正文定義自訂字體樣式。
-### Aspose.Note 與其他 Java 函式庫相容嗎？
-Aspose.Note 可以與其他 Java 程式庫無縫整合以擴展功能。
-### 如何在會議記錄中新增其他部分？
-您可以按照教學中演示的相同模式輕鬆擴展大綱結構。
-### Aspose.Note 有任何許可注意事項嗎？
-請參閱[Aspose.Note 文檔](https://reference.aspose.com/note/java/)了解許可詳細資訊。
-### Aspose.Note 有試用版嗎？
-是的，您可以訪問[在這裡免費試用](https://releases.aspose.com/).
+
+## Common Issues and Solutions
+| 問題 | 解決方案 |
+|-------|----------|
+| **核取方塊未顯示** | 確認在設定段落樣式後已呼叫 `richText.getTags().add(NoteCheckBox.createBlueCheckBox())`。 |
+| **字型在 OneNote 中顯示不同** | 確認使用的字型名稱（例如「Calibri」）已安裝於開啟 OneNote 檔案的電腦上。 |
+| **大綱未縮排** | 調整 `Outline` 物件的 `setVerticalOffset` 與 `setHorizontalOffset`。 |
+| **編號意外重新開始** | 正確使用 `restartFlag`；僅在新章節的第一個清單設為 `true`。 |
+
+## Frequently Asked Questions
+### 我可以自訂會議筆記的字型樣式嗎？
+可以，Aspose.Note 允許您為標題與正文定義自訂字型樣式。
+
+### Aspose.Note 能與其他 Java 函式庫相容嗎？
+Aspose.Note 可無縫整合其他 Java 函式庫，以擴充功能。
+
+### 我該如何為會議筆記新增其他章節？
+只要遵循本教學示範的相同模式，即可輕鬆擴充大綱結構。
+
+### 使用 Aspose.Note 有哪些授權考量？
+請參閱 [Aspose.Note 文件](https://reference.aspose.com/note/java/) 了解授權細節。
+
+### 是否提供 Aspose.Note 的試用版？
+可以，您可於 [此處](https://releases.aspose.com/) 取得免費試用版。
+
+## FAQ
+**Q: 如何在 OneNote 中加入清單而不使用核取方塊？**  
+A: 您可以建立項目符號清單並手動標記項目，但使用 `NoteCheckBox` 可提供與 OneNote UI 同步的互動式核取方塊。
+
+**Q: 我可以使用此範本建立每週重複的會議議程範本嗎？**  
+A: 當然可以。只需變更日期格式或傳入自訂標題字串，即可在每週重複使用相同結構。
+
+**Q: 什麼是 **customize font style onenote** 的最佳品牌化方式？**  
+A: 定義帶有公司字型名稱、大小與顏色的 `ParagraphStyle` 物件，然後如 Step 1 所示套用至每個 `RichText` 元素。
+
+**Q: Aspose.Note 是否支援將大綱匯出為 PDF？**  
+A: 支援。儲存 OneNote 檔案後，可使用 Aspose.Note 讀取並透過 `Document.save("output.pdf", SaveFormat.Pdf)` 匯出為 PDF。
+
+**Q: 是否有辦法以程式方式將核取方塊標記為已完成？**  
+A: 您可以在加入 `NoteCheckBox` 標籤時，將 `Checked` 屬性設為 `true` 以設定核取方塊狀態。
+
+---
+
+**最後更新：** 2026-03-03  
+**測試環境：** Aspose.Note for Java 24.11（撰寫時的最新版本）  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

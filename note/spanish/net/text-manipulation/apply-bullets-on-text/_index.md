@@ -41,7 +41,7 @@ Aspose.Note.Document doc = new Aspose.Note.Document();
 // Inicializar objeto de clase de página
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 // Inicializar objeto de clase de esquema
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 ## Paso 3: establecer el estilo de texto predeterminado
 ```csharp
@@ -51,8 +51,8 @@ ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, Font
 ## Paso 4: crea elementos de esquema con viñetas
 ```csharp
 // Inicializar objetos de clase OutlineElement y aplicar viñetas
-OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("*", "Arial", 10) };
-RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
+OutlineElement outlineElem1 = new OutlineElement() { NumberList = new NumberList("*", "Arial", 10) };
+RichText text1 = new RichText() { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
 // Repita para otros elementos del esquema.
 ```

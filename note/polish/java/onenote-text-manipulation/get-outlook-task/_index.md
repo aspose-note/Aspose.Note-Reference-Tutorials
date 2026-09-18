@@ -1,26 +1,47 @@
 ---
-title: Pobierz zadanie programu Outlook w programie OneNote — Aspose.Note
-linktitle: Pobierz zadanie programu Outlook w programie OneNote — Aspose.Note
-second_title: Aspose.Note API Java
-description: Odkryj potencjał Aspose.Note dla Java w łatwym wyodrębnianiu szczegółów zadań programu Outlook z dokumentów OneNote. Ulepsz swój rozwój w języku Java dzięki tej solidnej bibliotece.
-weight: 10
+date: 2026-03-27
+description: Dowiedz się, jak wyodrębnić szczegóły zadań OneNote Outlook przy użyciu
+  Aspose.Note dla Javy – szybkie i niezawodne rozwiązanie dla programistów Javy.
+linktitle: Get Outlook Task in OneNote - Aspose.Note
+second_title: Aspose.Note Java API
+title: Jak wyodrębnić zadanie z zadań OneNote Outlook – Aspose.Note
 url: /pl/java/onenote-text-manipulation/get-outlook-task/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Pobierz zadanie programu Outlook w programie OneNote — Aspose.Note
+# Jak wyodrębnić zadanie z OneNote Outlook Tasks
 
-## Wstęp
-Witamy w świecie Aspose.Note dla Java – potężnego narzędzia, które umożliwia programistom Java płynną pracę z plikami Microsoft OneNote. W tym przewodniku krok po kroku przeprowadzimy Cię przez proces wyodrębniania informacji o zadaniach programu Outlook z dokumentu OneNote za pomocą Aspose.Note dla Java.
-## Warunki wstępne
-Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
-- Zestaw Java Development Kit (JDK): Upewnij się, że w systemie jest zainstalowana Java.
--  Aspose.Note dla Java: Pobierz i zainstaluj bibliotekę Aspose.Note z[strona pobierania](https://releases.aspose.com/note/java/).
-## Importuj pakiety
-Rozpocznij od zaimportowania niezbędnych pakietów do projektu Java. Dodaj następujące wiersze na początku pliku Java:
+## Wprowadzenie
+Jeśli potrzebujesz **how to extract task** informacji, które znajdują się wewnątrz strony OneNote — szczególnie zadań Outlook — Aspose.Note for Java ułatwia to zadanie. W tym praktycznym samouczku przeprowadzimy Cię krok po kroku przez pobieranie właściwości zadania (status, termin, czas utworzenia itp.) z dokumentu OneNote, a następnie wyświetlenie ich w konsoli. Po zakończeniu będziesz mieć wielokrotnego użytku fragment kodu, który możesz wstawić w dowolnym projekcie Java pracującym z plikami OneNote.
+
+## Szybkie odpowiedzi
+- **Co obejmuje ten samouczek?** Wyodrębnianie szczegółów zadania Outlook z pliku OneNote przy użyciu Aspose.Note for Java.  
+- **Jak długo trwa implementacja?** Około 10‑15 minut dla podstawowej konfiguracji.  
+- **Wymagania wstępne?** Java JDK, biblioteka Aspose.Note for Java oraz plik OneNote zawierający zadania.  
+- **Czy potrzebna jest licencja?** Wymagana jest tymczasowa lub pełna licencja Aspose.Note do użytku produkcyjnego.  
+- **Czy mogę uruchomić to na dowolnym systemie operacyjnym?** Tak – biblioteka jest niezależna od platformy, o ile Java działa.
+
+## Czym jest wyodrębnianie zadań z OneNote?
+Wyodrębnianie zadania oznacza odczytanie znacznika `NoteTask`, który OneNote przechowuje dla każdego zadania połączonego z Outlookiem. Znacznik zawiera metadane, takie jak czas zakończenia, termin oraz status, które można programowo uzyskać za pomocą modelu obiektowego Aspose.Note.
+
+## Dlaczego wyodrębniać informacje o zadaniach?
+- **Automatyzacja:** Synchronizuj zadania z własnym systemem zarządzania zadaniami.  
+- **Raportowanie:** Generuj niestandardowe raporty postępu zadań w wielu notesach.  
+- **Migracja:** Przenieś zadania z OneNote do innych platform (np. Microsoft Planner, Jira).  
+
+## Prerequisites
+Before you start, make sure you have:
+
+- **Java Development Kit (JDK)** – dowolna aktualna wersja (8 lub wyższa).  
+- **Aspose.Note for Java** – pobierz go ze [strony pobierania](https://releases.aspose.com/note/java/).  
+
+## Importowanie pakietów
+Begin by importing the necessary classes into your Java source file:
+
 ```java
 import java.io.IOException;
 import java.util.List;
@@ -29,33 +50,43 @@ import com.aspose.note.ITag;
 import com.aspose.note.NoteTask;
 import com.aspose.note.RichText;
 ```
-## Krok 1: Skonfiguruj swój projekt
-Utwórz nowy projekt Java i dołącz bibliotekę Aspose.Note do zależności swojego projektu. Upewnij się, że struktura Twojego projektu jest zorganizowana i masz dedykowany katalog na swoje dokumenty.
+
+## Krok 1: Konfiguracja projektu
+Utwórz nowy projekt Java (Maven, Gradle lub zwykłe IDE) i dodaj plik JAR Aspose.Note do ścieżki klas. Przechowuj pliki OneNote w dedykowanym folderze, na przykład `data/`.
+
 ## Krok 2: Załaduj dokument OneNote
-Użyj poniższego kodu, aby załadować dokument OneNote do Aspose.Note:
+Load the `.one` file you want to inspect:
+
 ```java
 String dataDir = "Your Document Directory";
 Document doc = new Document(dataDir + "Sample1.one");
 ```
-Pamiętaj, aby zastąpić „Katalog Twoich dokumentów” ścieżką do dokumentu OneNote.
+
+> **Wskazówka:** Użyj ścieżki bezwzględnej lub właściwości konfiguracyjnej, jeśli Twoja aplikacja działa w różnych środowiskach.
+
 ## Krok 3: Pobierz węzły RichText
-Wyodrębnij wszystkie węzły RichText z dokumentu, używając następującego kodu:
+All textual elements are represented by `RichText` nodes. Grab them all:
+
 ```java
 List<RichText> nodes = (List<RichText>) doc.getChildNodes(RichText.class);
 ```
-## Krok 4: Iteruj przez każdy węzeł
-Przejdź przez każdy węzeł RichText i sprawdź, czy zawiera on znacznik NoteTask:
+
+## Krok 4: Iteracja przez każdy węzeł
+Search each `RichText` node for a `NoteTask` tag:
+
 ```java
 for (RichText richText : nodes) {
     for (ITag tag : richText.getTags()) {
         if (tag.getClass() == NoteTask.class) {
-            // Twój kod do obsługi NoteTask
+            // Your code to handle NoteTask
         }
     }
 }
 ```
+
 ## Krok 5: Pobierz właściwości zadania
-Pobierz i wydrukuj różne właściwości NoteTask, takie jak czas ukończenia, czas utworzenia, termin, status i ikona:
+Once you have a `NoteTask` instance, you can read its properties:
+
 ```java
 NoteTask noteTask = (NoteTask) tag;
 System.out.println("Completed Time: " + noteTask.getCompletedTime());
@@ -64,20 +95,42 @@ System.out.println("Due Date: " + noteTask.getDueDate());
 System.out.println("Status: " + noteTask.getStatus());
 System.out.println("Icon: " + noteTask.getIcon());
 ```
-Powtórz ten proces dla wszystkich węzłów NoteTask w dokumencie.
-## Wniosek
-Gratulacje! Pomyślnie nauczyłeś się używać Aspose.Note dla Java do wyodrębniania informacji o zadaniach programu Outlook z dokumentu OneNote. Ta potężna biblioteka otwiera świat możliwości dla programistów Java pracujących z plikami Microsoft OneNote.
-## Często zadawane pytania
-### P: Czy mogę używać Aspose.Note dla Java z innymi frameworkami Java?
-O: Tak, Aspose.Note for Java jest kompatybilny z różnymi frameworkami Java, zapewniając elastyczność integracji.
-### P: Czy dostępna jest bezpłatna wersja próbna Aspose.Note dla Java?
- Odp.: Tak, możesz skorzystać z bezpłatnej wersji próbnej Aspose.Note dla języka Java[Tutaj](https://releases.aspose.com/).
-### P: Jak mogę uzyskać wsparcie dla Aspose.Note dla Java?
- O: Odwiedź[Forum Aspose.Note](https://forum.aspose.com/c/note/28) uzyskać wsparcie społeczności lub poznać opcje wsparcia premium.
-### P: Gdzie mogę znaleźć szczegółową dokumentację Aspose.Note dla Java?
- Odp.: Patrz[Aspose.Note dla dokumentacji Java](https://reference.aspose.com/note/java/) w celu uzyskania szczegółowych informacji.
-### P: Jak uzyskać tymczasową licencję na Aspose.Note dla Java?
- Odp.: Zdobądź tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/).
+
+> **Uwaga:** Uruchom pętlę dla każdego węzła `NoteTask`, aby wyodrębnić informacje ze wszystkich zadań w dokumencie.
+
+## Typowe problemy i rozwiązania
+| Problem | Dlaczego się pojawia | Rozwiązanie |
+|---------|----------------------|-------------|
+| `NullPointerException` on `noteTask` | Znacznik nie jest `NoteTask`. | Dodaj sprawdzenie null lub zweryfikuj `tag instanceof NoteTask`. |
+| Brak wyjścia dla dat | Zadanie w OneNote nie ma terminu. | Sprawdź, czy `noteTask.getDueDate()` jest `null` przed wypisaniem. |
+| Biblioteka nie znaleziona w czasie wykonywania | JAR nie znajduje się w ścieżce klas. | Upewnij się, że plik JAR Aspose.Note jest uwzględniony w konfiguracji budowania. |
+
+## Najczęściej zadawane pytania
+
+**P:** Czy mogę używać Aspose.Note for Java z innymi frameworkami Java?  
+**O:** Tak, Aspose.Note for Java integruje się płynnie ze Spring, Jakarta EE, Android oraz każdym standardowym środowiskiem Java.
+
+**P:** Czy dostępna jest darmowa wersja próbna Aspose.Note for Java?  
+**O:** Tak, możesz wypróbować darmową wersję próbną Aspose.Note for Java [tutaj](https://releases.aspose.com/).
+
+**P:** Jak mogę uzyskać wsparcie dla Aspose.Note for Java?  
+**O:** Odwiedź [forum Aspose.Note](https://forum.aspose.com/c/note/28) aby uzyskać pomoc społeczności lub zakup plan wsparcia premium.
+
+**P:** Gdzie mogę znaleźć szczegółową dokumentację Aspose.Note for Java?  
+**O:** Zapoznaj się z [dokumentacją Aspose.Note for Java](https://reference.aspose.com/note/java/) aby uzyskać szczegółowe odniesienia API i przykłady.
+
+**P:** Jak uzyskać tymczasową licencję dla Aspose.Note for Java?  
+**O:** Pobierz tymczasową licencję [tutaj](https://purchase.aspose.com/temporary-license/).
+
+## Zakończenie
+Teraz opanowałeś **how to extract task** szczegóły z OneNote przy użyciu Aspose.Note for Java. Ta możliwość otwiera drzwi do automatyzacji, raportowania i scenariuszy migracji, które wcześniej były ręczne i podatne na błędy. Śmiało rozbuduj przykład — zapisz wyodrębnione dane w bazie danych, wyślij je do zewnętrznej usługi lub połącz z inną zawartością OneNote.
+
+---
+
+**Ostatnia aktualizacja:** 2026-03-27  
+**Testowano z:** Aspose.Note for Java 24.11 (najnowsza w momencie pisania)  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

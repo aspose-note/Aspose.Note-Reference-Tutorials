@@ -59,7 +59,7 @@ String dataDir = "Your Document Directory";
 
 NotebookLoadOptions loadOptions = new NotebookLoadOptions();
 loadOptions.setDeferredLoading(true);
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2", loadOptions);
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2", loadOptions);
 notebook.loadChildDocument(dataDir + "Neuer Abschnitt 1.one");
 ```
 
@@ -105,7 +105,7 @@ Bằng cách thực hiện các bước trên, bạn đã có nền tảng vữn
 ---
 
 **Cập nhật lần cuối:** 2026-04-24  
-**Kiểm tra với:** Aspose.Note 24.12 cho Java  
+**Kiểm tra với:** Aspose.Note 26.4 cho Java  
 **Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

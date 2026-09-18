@@ -134,9 +134,9 @@ A5: Μπορείτε να βρείτε υποστήριξη και βοήθει�
 
 ---
 
-**Τελευταία ενημέρωση:** 2026-04-24  
-**Δοκιμή με:** Aspose.Note for Java 23.12  
-**Συγγραφέας:** Aspose  
+**Last Updated:** 2026-04-24  
+**Tested With:** Aspose.Note for Java 26.4  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

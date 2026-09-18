@@ -87,7 +87,7 @@ doc.save(dataDir);
 在本教程中，我们探索了利用 Aspose.Note for Java 通过创建具有锁定列的表来增强 OneNote 体验的过程。此功能为您的笔记添加了新的组织和结构层。
 ## 常见问题解答
 ### Aspose.Note for Java 是否与所有 Java 版本兼容？
-是的，Aspose.Note for Java 与 Java 6 及更高版本兼容。
+是的，Aspose.Note for Java 与 Java SE 7 及更高版本兼容。
 ### 我可以进一步自定义表格的外观吗？
 绝对地！ Aspose.Note for Java 提供了广泛的自定义表格选项，例如调整边框、单元格间距等。
 ### 购买前是否有试用版？

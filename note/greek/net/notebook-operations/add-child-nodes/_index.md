@@ -47,7 +47,7 @@ using System.Collections.Generic;
 string dataDir = "Your Document Directory";
 
 // Φορτώστε ένα Σημειωματάριο OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Βήμα 2: Προσθήκη νέου θυγατρικού κόμβου

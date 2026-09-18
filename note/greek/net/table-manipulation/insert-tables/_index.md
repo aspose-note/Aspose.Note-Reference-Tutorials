@@ -47,10 +47,10 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 Στη συνέχεια, αρχικοποιήστε τις σειρές και τα κελιά του πίνακα για τη δομή του πίνακα.
 ```csharp
-TableRow row1 = new TableRow(doc);
-TableCell cell11 = new TableCell(doc);
-TableCell cell12 = new TableCell(doc);
-TableCell cell13 = new TableCell(doc);
+TableRow row1 = new TableRow();
+TableCell cell11 = new TableCell();
+TableCell cell12 = new TableCell();
+TableCell cell13 = new TableCell();
 ```
 
 ## Βήμα 3: Συμπληρώστε τα κελιά του πίνακα
@@ -75,7 +75,7 @@ row1.AppendChildLast(cell13);
 
 Δημιουργήστε το αντικείμενο πίνακα και ορίστε τις ιδιότητές του, όπως ορατότητα περιγράμματος και πλάτη στηλών.
 ```csharp
-Table table = new Table(doc)
+Table table = new Table()
 {
     IsBordersVisible = true,
     Columns = { new TableColumn { Width = 200 }, new TableColumn { Width = 200 }, new TableColumn { Width = 200 } }
@@ -94,8 +94,8 @@ table.AppendChildLast(row2);
 
 Ενσωματώστε τον πίνακα στη δομή του εγγράφου προσθέτοντάς τον στο περίγραμμα.
 ```csharp
-Outline outline = new Outline(doc);
-OutlineElement outlineElem = new OutlineElement(doc);
+Outline outline = new Outline();
+OutlineElement outlineElem = new OutlineElement();
 outlineElem.AppendChildLast(table);
 outline.AppendChildLast(outlineElem);
 page.AppendChildLast(outline);

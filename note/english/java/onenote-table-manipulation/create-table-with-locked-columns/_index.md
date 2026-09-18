@@ -87,7 +87,7 @@ Congratulations! You have successfully created a table with locked columns in On
 In this tutorial, we explored the process of utilizing Aspose.Note for Java to enhance your OneNote experience by creating tables with locked columns. This functionality adds a new layer of organization and structure to your notes.
 ## FAQs
 ### Is Aspose.Note for Java compatible with all Java versions?
-Yes, Aspose.Note for Java is compatible with Java 6 and later versions.
+Yes, Aspose.Note for Java is compatible with Java SE 7 and later versions.
 ### Can I customize the appearance of the table further?
 Absolutely! Aspose.Note for Java provides extensive options for customizing tables, such as adjusting borders, cell spacing, and more.
 ### Is there a trial version available before purchasing?

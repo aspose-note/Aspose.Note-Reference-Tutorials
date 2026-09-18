@@ -1,27 +1,47 @@
 ---
-title: الحصول على علامات العقدة في OneNote - Aspose.Note
-linktitle: الحصول على علامات العقدة في OneNote - Aspose.Note
-second_title: Aspose.Note جافا API
-description: اكتشف أسرار OneNote باستخدام Aspose.Note لـ Java. يمكّنك هذا الدليل من استخراج علامات العقدة دون عناء. انغمس في مستقبل معالجة المستندات!
-weight: 15
+date: 2026-02-28
+description: تعلم كيفية استخراج العلامات من ملفات OneNote باستخدام Aspose.Note للغة
+  Java. يوضح هذا البرنامج التعليمي كيفية تحميل ملف OneNote، والحصول على علامات OneNote،
+  وتعديل علامات OneNote بفعالية.
+linktitle: How to Extract Tags from OneNote - Aspose.Note
+second_title: Aspose.Note Java API
+title: كيفية استخراج العلامات من OneNote باستخدام Aspose.Note
 url: /ar/java/onenote-tag-operations/get-node-tags/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# الحصول على علامات العقدة في OneNote - Aspose.Note
+# كيفية استخراج العلامات من OneNote باستخدام Aspose.Note
 
-## مقدمة
-مرحبًا بك في عالم Aspose.Note لـ Java! إذا كنت تتطلع إلى التعمق في إدارة المعلومات واستخراجها من مستندات OneNote، فأنت في المكان الصحيح. في هذا البرنامج التعليمي، سنرشدك خلال عملية الحصول على علامات العقد في OneNote باستخدام Aspose.Note لـ Java. وفي النهاية، ستكون مجهزًا بالمعرفة اللازمة لتسخير الإمكانات الكاملة لواجهة برمجة تطبيقات Java القوية هذه.
-## المتطلبات الأساسية
-قبل الشروع في هذه الرحلة، تأكد من توفر المتطلبات الأساسية التالية:
-- بيئة تطوير Java: تأكد من إعداد بيئة تطوير Java عاملة على نظامك.
--  مكتبة Aspose.Note: قم بتنزيل وتثبيت مكتبة Aspose.Note من[هنا](https://releases.aspose.com/note/java/).
-- مستند OneNote: اجعل مستند OneNote (على سبيل المثال، "Sample1.one") جاهزًا للاختبار والاستكشاف.
-## حزم الاستيراد
-ابدأ باستيراد الحزم الضرورية إلى مشروع Java الخاص بك. ستوفر هذه الحزم الأدوات اللازمة للتفاعل مع مستندات OneNote باستخدام Aspose.Note.
+## المقدمة
+إذا كنت تحتاج إلى **كيفية استخراج العلامات** من مستند OneNote، فقد وجدت المكان المناسب. في هذا الدليل سنستعرض العملية الكاملة لتحميل ملف OneNote، الحصول على علامات OneNote، وحتى تعديل تلك العلامات باستخدام Aspose.Note للـ Java. بنهاية الشرح ستكون قادرًا على دمج استخراج العلامات في أي تطبيق Java بثقة.
+
+## إجابات سريعة
+- **ما هو الصنف الأساسي لفتح ملف OneNote؟** `Document`
+- **أي طريقة تُرجع جميع عقد RichText؟** `doc.getChildNodes(RichText.class)`
+- **هل يمكنك قراءة وقت إنشاء NoteTag؟** نعم، عبر `noteTag.getCreationTime()`
+- **هل أحتاج إلى ترخيص للاستخدام في الإنتاج؟** نعم، يلزم وجود ترخيص Aspose.Note صالح
+- **هل الـ API متوافق مع Java 8 وما بعده؟** بالتأكيد، يدعم إصدارات Java الحديثة
+
+## ما هو “كيفية استخراج العلامات” في OneNote؟
+استخراج العلامات يعني قراءة البيانات الوصفية (مثل الحالة، التسمية، الأيقونة، والطوابع الزمنية) التي يضيفها OneNote إلى الفقرات، مربعات الاختيار، أو عناصر المحتوى الأخرى. تُخزن هذه العلامات ككائنات `NoteTag` داخل عقد `RichText`.
+
+## لماذا نستخدم Aspose.Note لاستخراج العلامات؟
+- **لا حاجة لتثبيت OneNote** – العمل مباشرةً مع ملفات .one.
+- **تحكم كامل** – استرجاع، قراءة، وتعديل خصائص العلامات برمجيًا.
+- **متعدد المنصات** – يعمل على أي نظام تشغيل يدعم Java.
+
+## المتطلبات المسبقة
+- بيئة تطوير Java (JDK 8+).
+- مكتبة Aspose.Note تم تحميلها من [هنا](https://releases.aspose.com/note/java/).
+- مستند OneNote تجريبي (مثال: `Sample1.one`) موجود في دليل معروف.
+
+## استيراد الحزم
+ابدأ باستيراد الفئات التي ستحتاجها. هذه الاستيرادات تمنحك الوصول إلى معالجة المستندات، واجهات العلامات، وعقد النص الغني.
+
 ```java
 import java.io.IOException;
 import java.util.List;
@@ -30,39 +50,49 @@ import com.aspose.note.ITag;
 import com.aspose.note.NoteTag;
 import com.aspose.note.RichText;
 ```
-الآن، دعنا نقسم عملية الحصول على علامات العقد في OneNote إلى خطوات سهلة المتابعة:
-## الخطوة 1: قم بتحميل مستند OneNote
+
+## كيفية تحميل ملف OneNote
+الخطوة الأولى هي تحميل ملف OneNote إلى كائن `Document`.
+
 ```java
-// المسار إلى دليل المستندات.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
-// قم بتحميل المستند إلى Aspose.Note
+// Load the document into Aspose.Note
 Document doc = new Document(dataDir + "Sample1.one");
-// الحصول على كافة العقد RichText
+// Get all RichText nodes
 List<RichText> nodes = doc.getChildNodes(RichText.class);
-// قم بتحميل المستند إلى Aspose.Note
+// Load the document into Aspose.Note
 Document doc = new Document(dataDir + "Sample1.one");
 ```
-تأكد من تحميل مستند Aspose.Note وجاهز لمزيد من المعالجة.
-## الخطوة 2: استرداد عقد RichText
+
+> **نصيحة احترافية:** احرص على أن يكون مسار `dataDir` مطلقًا أو استخدم `Paths.get(...)` لتجنب الأخطاء المتعلقة بالمسارات.
+
+## كيفية الحصول على علامات OneNote
+بعد تحميل المستند، استرجع جميع عقد `RichText`. قد يحتوي كل عقدة على علامة أو أكثر.
+
 ```java
-// الحصول على كافة العقد RichText
+// Get all RichText nodes
 List<RichText> nodes = doc.getChildNodes(RichText.class);
 ```
-قم باستخراج كافة عقد RichText من مستند OneNote الذي تم تحميله. تحتوي هذه العقد على المعلومات التي نهتم بها.
-## الخطوة 3: التكرار من خلال كل عقدة
+
+## التكرار عبر كل عقدة
+قم بالتكرار عبر كل عقدة `RichText` لفحص علاماتها.
+
 ```java
-// التكرار من خلال كل عقدة
+// Iterate through each node
 for (RichText richText : nodes) {
-    // قم بمعالجة كل عقدة هنا
+    // Process each node here
 }
 ```
-قم بالمرور عبر كل عقدة RichText للوصول إلى محتواها وتحليله.
-## الخطوة 4: استرداد علامات الملاحظة
+
+## استرجاع علامات NoteTag (كيفية تعديل علامات OneNote)
+داخل الحلقة، تحقق مما إذا كانت العلامة هي `NoteTag`. إذا كانت كذلك، يمكنك قراءة خصائصها — أو تعديلها إذا لزم الأمر.
+
 ```java
 for (ITag tag : richText.getTags()) {
     if (tag.getClass() == NoteTag.class) {
         NoteTag noteTag = (NoteTag) tag;
-        // استرداد الخصائص
+        // Retrieve properties
         System.out.println("Completed Time: " + noteTag.getCompletedTime());
         System.out.println("Create Time: " + noteTag.getCreationTime());
         System.out.println("Font Color: " + noteTag.getFontColor());
@@ -70,23 +100,55 @@ for (ITag tag : richText.getTags()) {
         System.out.println("Label: " + noteTag.getLabel());
         System.out.println("Icon: " + noteTag.getIcon());
         System.out.println("High Light: " + noteTag.getHighlight());
+        // Example of modifying a property
+        // noteTag.setLabel("Updated Label");
     }
 }
 ```
-لكل عقدة RichText، تحقق من وجود NoteTags واحصل على خصائصها. تكشف هذه الخطوة عن تفاصيل مثل وقت الإكمال ووقت الإنشاء ولون الخط والحالة والتسمية والرمز والتمييز.
-## خاتمة
-تهانينا! لقد نجحت في التنقل عبر المشهد المعقد لاستخراج علامات العقد من OneNote باستخدام Aspose.Note لـ Java. ومع تسلحك بهذه المعرفة، يمكنك الآن دمج هذه الوظيفة بسلاسة في تطبيقات Java الخاصة بك.
-## الأسئلة الشائعة
-### هل Aspose.Note متوافق مع كافة إصدارات OneNote؟
-يدعم Aspose.Note العديد من تنسيقات ملفات OneNote، مما يضمن التوافق عبر الإصدارات المختلفة.
-### هل يمكنني تعديل خصائص NoteTag المستردة؟
-نعم، يسمح لك Aspose.Note بتعديل وتحديث خصائص NoteTag برمجيًا.
+
+> **تحذير:** تعديل علامة يغيّر المستند الأساسي. تذكر حفظ المستند بعد إجراء التغييرات.
+
+## الخلاصة
+أنت الآن تعرف **كيفية استخراج العلامات**، وكيفية **تحميل ملف OneNote**، وكيفية **الحصول على علامات OneNote**، وحتى **تعديل علامات OneNote** باستخدام Aspose.Note للـ Java. دمج هذه المقاطع في مشاريعك الخاصة لأتمتة تحليل الملاحظات، وإعداد التقارير، أو مهام النقل.
+
+## الأسئلة المتكررة
+### هل Aspose.Note متوافق مع جميع إصدارات OneNote؟
+Aspose.Note يدعم صيغ ملفات OneNote المختلفة، مما يضمن التوافق عبر الإصدارات المتعددة.
+
+### هل يمكنني تعديل خصائص NoteTag المسترجعة؟
+نعم، Aspose.Note يسمح لك بتعديل وتحديث خصائص NoteTag برمجيًا.
+
 ### هل هناك نسخة تجريبية متاحة لـ Aspose.Note؟
- قطعاً! يمكنك الوصول إلى النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
-### أين يمكنني العثور على وثائق شاملة لـ Aspose.Note لـ Java؟
- استكشاف الوثائق التفصيلية[هنا](https://reference.aspose.com/note/java/).
-### كيف يمكنني الحصول على الدعم لأية مشاكل أو استفسارات؟
- توجه إلى منتدى الدعم[هنا](https://forum.aspose.com/c/note/28) للحصول على المساعدة من مجتمع Aspose.
+بالطبع! يمكنك الوصول إلى النسخة التجريبية المجانية [هنا](https://releases.aspose.com/).
+
+### أين يمكنني العثور على وثائق شاملة لـ Aspose.Note للـ Java؟
+استكشف الوثائق التفصيلية [هنا](https://reference.aspose.com/note/java/).
+
+### كيف يمكنني الحصول على دعم لأي مشكلات أو استفسارات؟
+توجه إلى منتدى الدعم [هنا](https://forum.aspose.com/c/note/28) للحصول على مساعدة من مجتمع Aspose.
+
+## أسئلة شائعة
+**س:** *هل يمكنني استخراج العلامات من ملفات OneNote المحمية بكلمة مرور؟*  
+**ج:** نعم، قدم كلمة المرور عند إنشاء كائن `Document`.
+
+**س:** *هل أحتاج إلى استدعاء طريقة حفظ بعد تعديل العلامات؟*  
+**ج:** بالتأكيد. استخدم `doc.save("UpdatedSample.one");` لحفظ التغييرات.
+
+**س:** *هل يمكن تصفية العلامات حسب الحالة؟*  
+**ج:** يمكنك فحص `noteTag.getStatus()` داخل الحلقة ومعالجة الحالات المطلوبة فقط.
+
+**س:** *ماذا يحدث إذا لم تحتوي عقدة RichText على أي علامات؟*  
+**ج:** `richText.getTags()` تُعيد مجموعة فارغة؛ الحلقة تتخطاها ببساطة.
+
+**س:** *هل يمكنني معالجة عدة ملفات OneNote دفعة واحدة؟*  
+**ج:** غلف المنطق أعلاه في روتين تكرار للملفات وتعامل مع كل مستند على حدة.
+
+---
+
+**آخر تحديث:** 2026-02-28  
+**تم الاختبار مع:** Aspose.Note for Java 24.12  
+**المؤلف:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

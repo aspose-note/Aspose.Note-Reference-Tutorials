@@ -49,7 +49,7 @@ NotebookLoadOptions loadOptions = new NotebookLoadOptions { InstantLoading = tru
 इसके बाद, नोटबुक फ़ाइल का पथ निर्दिष्ट करें और निर्दिष्ट लोड विकल्पों का उपयोग करके नोटबुक ऑब्जेक्ट को प्रारंभ करें।
 
 ```csharp
-String inputFile = "Notizbuch öffnen.onetoc2";
+String inputFile = "Notebook.onetoc2";
 String dataDir = "Your Document Directory";
 Notebook notebook = new Notebook(dataDir + inputFile, loadOptions);
 ```

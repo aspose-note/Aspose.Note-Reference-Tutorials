@@ -135,7 +135,7 @@ R5: Puedes encontrar soporte y asistencia en el [Aspose.Note forum](https://foru
 ---
 
 **Última actualización:** 2026-04-24  
-**Probado con:** Aspose.Note for Java 23.12  
+**Probado con:** Aspose.Note for Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

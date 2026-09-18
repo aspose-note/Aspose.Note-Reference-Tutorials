@@ -132,7 +132,7 @@ A5：您可於 [Aspose.Note 論壇](https://forum.aspose.com/c/note/28) 獲得�
 ---
 
 **最後更新：** 2026-04-24  
-**測試環境：** Aspose.Note for Java 23.12  
+**測試環境：** Aspose.Note for Java 26.4  
 **作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

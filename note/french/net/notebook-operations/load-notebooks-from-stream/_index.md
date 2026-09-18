@@ -49,7 +49,7 @@ Assurez-vous d'avoir configuré votre environnement de développement avec Visua
 ```csharp
 string dataDir = "Your Document Directory";
 
-FileStream stream = new FileStream(dataDir + "Notizbuch öffnen.onetoc2", FileMode.Open);
+FileStream stream = new FileStream(dataDir + "Notebook.onetoc2", FileMode.Open);
 ```
 
 ## Étape 3 : initialiser l'objet bloc-notes

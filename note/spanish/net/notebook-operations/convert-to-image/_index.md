@@ -42,7 +42,7 @@ Para comenzar, necesitamos cargar el cuaderno de OneNote que queremos convertir.
 
 ```csharp
 string dataDir = "Your Document Directory";
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Paso 2: guarde el cuaderno como una imagen

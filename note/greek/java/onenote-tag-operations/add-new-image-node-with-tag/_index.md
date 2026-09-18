@@ -58,7 +58,7 @@ OutlineElement outlineElem = new OutlineElement();
 ## Βήμα 5: Φόρτωση και εισαγωγή εικόνας
 ```java
 // φορτώστε μια εικόνα
-Image image = new Image(null, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 // εισαγάγετε εικόνα στον κόμβο του εγγράφου
 outlineElem.appendChildLast(image);
 ```

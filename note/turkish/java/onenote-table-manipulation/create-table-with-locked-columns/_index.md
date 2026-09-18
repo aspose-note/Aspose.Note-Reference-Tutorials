@@ -87,7 +87,7 @@ Tebrikler! Aspose.Note for Java'yı kullanarak OneNote'ta kilitli sütunlara sah
 Bu eğitimde, kilitli sütunlara sahip tablolar oluşturarak OneNote deneyiminizi geliştirmek için Aspose.Note for Java'yı kullanma sürecini araştırdık. Bu işlevsellik, notlarınıza yeni bir düzenleme ve yapı katmanı ekler.
 ## SSS
 ### Aspose.Note for Java tüm Java sürümleriyle uyumlu mu?
-Evet, Aspose.Note for Java, Java 6 ve sonraki sürümlerle uyumludur.
+Evet, Aspose.Note for Java, Java SE 7 ve sonraki sürümlerle uyumludur.
 ### Tablonun görünümünü daha da özelleştirebilir miyim?
 Kesinlikle! Aspose.Note for Java, tabloları özelleştirmek için kenarlıkları ayarlama, hücre aralığını ayarlama ve daha fazlası gibi kapsamlı seçenekler sunar.
 ### Satın almadan önce deneme sürümü mevcut mu?

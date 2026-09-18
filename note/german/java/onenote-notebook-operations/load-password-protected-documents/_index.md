@@ -60,7 +60,7 @@ String dataDir = "Your Document Directory";
 
 NotebookLoadOptions loadOptions = new NotebookLoadOptions();
 loadOptions.setDeferredLoading(true);
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2", loadOptions);
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2", loadOptions);
 notebook.loadChildDocument(dataDir + "Neuer Abschnitt 1.one");
 ```
 
@@ -107,7 +107,7 @@ Wenn Sie die obigen Schritte befolgt haben, verfügen Sie nun über eine solide 
 ---
 
 **Zuletzt aktualisiert:** 2026-04-24  
-**Getestet mit:** Aspose.Note 24.12 für Java  
+**Getestet mit:** Aspose.Note 26.4 für Java  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

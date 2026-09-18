@@ -44,7 +44,7 @@ using System.Collections.Generic;
 string dataDir = "Your Document Directory";
 
 // Laden Sie ein OneNote-Notizbuch
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
  In diesem Schritt laden wir das OneNote-Notizbuch mit`Notebook` Klasse, bereitgestellt von Aspose.Note.

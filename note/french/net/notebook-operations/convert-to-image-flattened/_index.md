@@ -48,7 +48,7 @@ Tout d’abord, chargez le bloc-notes OneNote que vous souhaitez convertir dans 
 string dataDir = "Your Document Directory";
 
 // Charger un bloc-notes OneNote
-var notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Étape 2 : définir les options d'enregistrement

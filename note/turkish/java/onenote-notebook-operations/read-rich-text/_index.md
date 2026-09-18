@@ -133,9 +133,9 @@ A5: Destek ve yardım için [Aspose.Note forum](https://forum.aspose.com/c/note/
 
 ---
 
-**Last Updated:** 2026-04-24  
-**Tested With:** Aspose.Note for Java 23.12  
-**Author:** Aspose  
+**Son Güncelleme:** 2026-04-24
+**Test Edildiği Sürüm:** Aspose.Note for Java 26.4
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

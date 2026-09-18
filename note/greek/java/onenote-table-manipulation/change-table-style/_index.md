@@ -46,7 +46,7 @@ for (Table table : nodes) {
     setRowStyle(table.getFirstChild(), Color.GRAY, true, true);
     // Επισημάνετε την πρώτη σειρά μετά το κεφάλι.
     boolean flag = false;
-    List<TableRow> rows = table.getChildren();
+    List<TableRow> rows = table.getChildNodes(TableRow.class);
     for (int i = 1; i < rows.size(); ++i) {
         setRowStyle(rows.get(i), flag ? Color.lightGray : new java.awt.Color(-1, true), false, false);
         flag = !flag;

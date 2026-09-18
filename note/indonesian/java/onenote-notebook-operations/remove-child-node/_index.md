@@ -31,7 +31,7 @@ Dalam tutorial ini, Anda akan mempelajari **cara menghapus node** — khusus
 
 Sebelum memulai, pastikan Anda telah menyiapkan prasyarat berikut:
 
-1. **Java Development Kit (JDK)** – Pastikan Java terpasang di sistem Anda. Anda dapat mengunduh dan menginstal JDK terbaru dari [sini](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+1. **Java Development Kit (JDK)** – Pastikan Java terpasang di sistem Anda. Anda dapat mengunduh dan menginstal JDK terbaru dari [sini](https://www.oracle.com/java/technologies/downloads/).
 
 2. **Aspose.Note untuk Java** – Unduh dan instal pustaka Aspose.Note untuk Java dari [situs web](https://purchase.aspose.com/buy). Anda juga dapat memperoleh versi percobaan gratis dari [sini](https://releases.aspose.com/).
 
@@ -136,7 +136,7 @@ Dalam tutorial ini, kami telah menjelaskan **cara menghapus node** — khusu
 ---
 
 **Terakhir Diperbarui:** 2026-01-02  
-**Diuji Dengan:** Aspose.Note 24.11 untuk Java  
+**Diuji Dengan:** Aspose.Note 26.4 untuk Java  
 **Penulis:** Aspose  
 
 ---

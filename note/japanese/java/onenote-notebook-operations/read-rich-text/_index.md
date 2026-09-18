@@ -130,7 +130,7 @@ A5: [Aspose.Note forum](https://forum.aspose.com/c/note/28) でサポートと�
 ---
 
 **最終更新日:** 2026-04-24  
-**テスト済みバージョン:** Aspose.Note for Java 23.12  
+**テスト環境:** Aspose.Note for Java 26.4  
 **作者:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

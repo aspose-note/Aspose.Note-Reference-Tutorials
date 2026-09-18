@@ -47,7 +47,7 @@ Načtěte existující poznámkový blok, kam chcete přidat podřízený uzel. 
 string dataDir = "Your Document Directory";
 
 // Načtěte poznámkový blok OneNotu
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Krok 2: Připojte nový podřízený uzel

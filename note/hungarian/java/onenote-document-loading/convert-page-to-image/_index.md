@@ -134,7 +134,7 @@ A: Látogassa meg az [Aspose.Note fórumot](https://forum.aspose.com/c/note/28) 
 ---
 
 **Utolsó frissítés:** 2025-11-29  
-**Tesztelve a következővel:** Aspose.Note for Java 24.12  
+**Tesztelve a következővel:** Aspose.Note for Java 26.4  
 **Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

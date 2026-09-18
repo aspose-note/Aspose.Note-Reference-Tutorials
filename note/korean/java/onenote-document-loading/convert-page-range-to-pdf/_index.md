@@ -120,7 +120,7 @@ A: 물론 가능합니다. `.one` 파일 컬렉션을 순회하면서 동일한 
 ---
 
 **Last Updated:** 2025-11-30  
-**Tested With:** Aspose.Note for Java 24.11  
+**Tested With:** Aspose.Note for Java 26.4  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

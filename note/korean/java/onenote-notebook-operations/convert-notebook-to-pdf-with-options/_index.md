@@ -45,7 +45,7 @@ import com.aspose.note.PdfSaveOptions;
 ```java
 String dataDir = "Your Document Directory";
 // OneNote 전자 필기장 로드
-Notebook notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## 2단계: PDF 저장 옵션 지정

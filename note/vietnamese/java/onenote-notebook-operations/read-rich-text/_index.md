@@ -134,9 +134,9 @@ A5: Bạn có thể tìm hỗ trợ và trợ giúp tại [diễn đàn Aspose.N
 
 ---
 
-**Cập nhật lần cuối:** 2026-04-24  
-**Kiểm tra với:** Aspose.Note for Java 23.12  
-**Tác giả:** Aspose  
+**Last Updated:** 2026-04-24  
+**Tested With:** Aspose.Note for Java 26.4  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

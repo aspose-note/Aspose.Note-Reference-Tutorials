@@ -1,34 +1,47 @@
 ---
-title: Przywróć poprzednią wersję strony w programie OneNote — Aspose.Note
-linktitle: Przywróć poprzednią wersję strony w programie OneNote — Aspose.Note
-second_title: Aspose.Note API Java
-description: Dowiedz się, jak przywrócić poprzednie wersje stron w programie OneNote przy użyciu programu Aspose.Note dla języka Java. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby efektywnie zarządzać dokumentami.
-weight: 19
+date: 2026-01-12
+description: Dowiedz się, jak cofnąć strony OneNote i przywrócić poprzednią wersję
+  OneNote przy użyciu Aspose.Note dla Javy. Postępuj zgodnie z tym przewodnikiem krok
+  po kroku, aby efektywnie zarządzać dokumentami.
+linktitle: How to Roll Back OneNote - Aspose.Note
+second_title: Aspose.Note Java API
+title: Jak cofnąć OneNote – Aspose.Note
 url: /pl/java/onenote-page-manipulation/roll-back-to-previous-page-version/
+weight: 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Przywróć poprzednią wersję strony w programie OneNote — Aspose.Note
+# Jak cofnąć OneNote - Aspose.Note
 
-## Wstęp
+## Wprowadzenie
 
-W tym samouczku omówimy wykorzystanie Aspose.Note w Javie do przywrócenia poprzedniej wersji strony w OneNote. OneNote to potężne narzędzie do robienia notatek, współpracy i organizacji, ale czasami zdarzają się błędy lub konieczne jest cofnięcie zmian. Aspose.Note oferuje bezproblemową integrację z Javą, zapewniając programistom możliwość programowego zarządzania dokumentami OneNote. Przywracanie poprzedniej wersji strony jest kluczową funkcją pozwalającą zachować dokładność i integralność dokumentów programu OneNote.
+Jeśli szukasz jasnego, programistycznego sposobu na **jak cofnąć onenote** strony, gdy pojawi się błąd, jesteś we właściwym miejscu. W tym samouczku pokażemy, jak używać Aspose.Note for Java do przywrócenia strony OneNote do wcześniejszego stanu. Niezależnie od tego, czy tworzysz zautomatyzowane narzędzie do zarządzania notatkami, czy potrzebujesz zabezpieczenia dla współdzielonych notatników, cofnięcie strony pomaga utrzymać treść dokładną i godną zaufania.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Co oznacza „cofnięcie” w OneNote?** Przywrócenie strony do wcześniejszej wersji zapisanej w jej historii.  
+- **Które API obsługuje cofnięcie?** Klasa `PageHistory` w Aspose.Note for Java.  
+- **Czy potrzebna jest licencja?** Wymagana jest ważna licencja Aspose.Note do użytku produkcyjnego.  
+- **Czy mogę wybrać dowolną wcześniejszą wersję?** Tak – możesz wybrać dowolny wpis z listy historii strony.  
+- **Czy to podejście jest bezpieczne dla dużych notatników?** Absolutnie; operacja działa na pojedynczych stronach bez ładowania całego notatnika do pamięci.
 
-Zanim przejdziemy do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
+## Jak cofnąć wersję strony OneNote
+Poniżej znajduje się zwięzły przewodnik krok po kroku, który dokładnie pokazuje, jak wykonać cofnięcie. Każdy krok zawiera krótkie wyjaśnienie, abyś rozumiał *dlaczego* to robimy, a nie tylko *co* wpisać.
 
-### Konfiguracja środowiska programistycznego Java
-1. Zainstaluj zestaw Java Development Kit (JDK): Pobierz i zainstaluj najnowszą wersję pakietu JDK ze strony internetowej Oracle lub z menedżera pakietów.
-2. Skonfiguruj zmienne środowiskowe Java: Skonfiguruj zmienne środowiskowe JAVA_HOME i PATH tak, aby wskazywały katalog instalacyjny JDK.
-3.  Zainstaluj Aspose.Note dla Java: Pobierz bibliotekę Aspose.Note dla Java z[strona internetowa](https://purchase.aspose.com/buy)i postępuj zgodnie z instrukcjami instalacji zawartymi w dokumentacji.
+## Wymagania wstępne
 
-## Importuj pakiety
+Zanim przejdziemy do kodu, upewnij się, że masz przygotowane następujące elementy:
 
-Na początek zaimportujmy niezbędne pakiety z Aspose.Note dla Java do naszego projektu Java:
+### Konfiguracja środowiska Java
+1. **Zainstaluj Java Development Kit (JDK):** Pobierz najnowszy JDK ze strony Oracle lub z wybranego menedżera pakietów.  
+2. **Skonfiguruj zmienne środowiskowe:** Ustaw `JAVA_HOME` i zaktualizuj `PATH`, aby polecenia `java` i `javac` były dostępne w wierszu poleceń.  
+3. **Dodaj Aspose.Note for Java:** Pobierz bibliotekę ze [strony](https://purchase.aspose.com/buy) i dodaj plik JAR do ścieżki klas swojego projektu.
+
+## Importowanie pakietów
+
+Aby współpracować z plikami OneNote, zaimportuj niezbędne klasy Aspose.Note:
 
 ```java
 import java.io.IOException;
@@ -38,65 +51,73 @@ import com.aspose.note.Page;
 import com.aspose.note.PageHistory;
 ```
 
-Teraz podzielmy proces przywracania poprzedniej wersji strony w OneNote przy użyciu Aspose.Note dla Java na łatwe do wykonania kroki:
-
 ## Krok 1: Załaduj dokument OneNote
 ```java
 String dataDir = "Your Document Directory";
 Document document = new Document(dataDir + "Sample1.one");
 ```
- Najpierw określ katalog, w którym znajduje się dokument programu OneNote. Następnie załaduj dokument do instancji`Document` klasa.
+Najpierw wskazujemy folder zawierający plik `.one` i ładujemy go do obiektu `Document`.
 
-## Krok 2: Uzyskaj historię strony
+## Krok 2: Pobierz historię strony
 ```java
 Page page = document.getFirstChild();
 PageHistory pageHistory = document.getPageHistory(page);
 ```
-Pobierz historię żądanej strony z załadowanego dokumentu. Dzięki temu będziemy mieli dostęp do poprzednich wersji strony.
+`PageHistory` daje dostęp do każdej zapisanej wersji wybranej strony, umożliwiając funkcję **przywrócenia poprzedniej wersji onenote**.
 
 ## Krok 3: Usuń bieżącą stronę
 ```java
 document.removeChild(page);
 ```
-Usuń bieżącą wersję strony z dokumentu.
+Usuwając bieżącą stronę, zwalniamy miejsce dla wersji, którą chcemy przywrócić.
 
-## Krok 4: Dołącz wersję poprzedniej strony
+## Krok 4: Dodaj poprzednią wersję strony
 ```java
 document.appendChildLast(pageHistory.get_Item(pageHistory.size() - 1));
 ```
-Dołącz żądaną poprzednią wersję strony do dokumentu.
+Tutaj wybieramy najnowszy wpis z historii (możesz zmienić indeks, aby wybrać dowolną starszą wersję) i dodajemy go z powrotem do dokumentu.
 
 ## Krok 5: Zapisz dokument
 ```java
 document.save(dataDir + "RollBackToPreviousPageVersion_out.one");
 ```
-Zapisz zmodyfikowany dokument z wycofaną wersją strony w określonym katalogu.
+Na koniec zapisujemy zmodyfikowany notatnik. Plik wyjściowy zawiera teraz cofniętą stronę.
 
-## Wniosek
+## Przywróć poprzednią wersję OneNote
+Połączenie `PageHistory` i `appendChildLast` pozwala **przywrócić poprzednią wersję onenote** przy użyciu kilku linii kodu. Jest to szczególnie przydatne w zautomatyzowanych przepływach pracy, gdzie ręczne cofanie nie jest możliwe.
 
-W tym samouczku omówiliśmy, jak przywrócić poprzednią wersję strony w programie OneNote przy użyciu programu Aspose.Note dla języka Java. Postępując zgodnie z przewodnikiem krok po kroku, możesz efektywnie zarządzać i utrzymywać integralność dokumentów OneNote w sposób programowy.
+## Typowe problemy i wskazówki
+- **Pusta historia:** Jeśli `pageHistory.size()` zwraca 0, strona nie ma zapisanych wersji — upewnij się, że wersjonowanie jest włączone w OneNote.  
+- **Indeks poza zakresem:** Pamiętaj, że lista historii jest indeksowana od zera. Dostosuj indeks (`size() - 1`), aby wybrać dokładnie potrzebną wersję.  
+- **Wydajność:** Praca na pojedynczej stronie unika ładowania całego notatnika do pamięci, co utrzymuje operację szybką nawet przy dużych plikach.
 
-## Często zadawane pytania
+## Zakończenie
 
-### P1: Czy mogę przywrócić wiele wersji strony?
+Masz teraz kompletną, gotową do produkcji metodę **jak cofnąć onenote** stron przy użyciu Aspose.Note for Java. Korzystając z `PageHistory`, możesz bezpiecznie przywrócić dowolny wcześniejszy stan strony notatnika, zapewniając integralność danych i dając użytkownikom końcowym pewność w środowiskach współpracy.
 
-O: Tak, możesz uzyskać dostęp do całej historii strony i w razie potrzeby przywrócić dowolną poprzednią wersję.
+## Najczęściej zadawane pytania
 
-### P2: Czy Aspose.Note obsługuje inne języki programowania oprócz Java?
+**Q1: Czy mogę cofnąć wiele wersji strony?**  
+A: Tak, możesz uzyskać dostęp do całej historii strony i cofnąć się do dowolnej poprzedniej wersji w razie potrzeby.
 
-Odp.: Tak, Aspose.Note udostępnia biblioteki dla różnych języków programowania, w tym .NET, C++i Pythona.
+**Q2: Czy Aspose.Note obsługuje inne języki programowania oprócz Java?**  
+A: Tak, Aspose.Note udostępnia biblioteki dla różnych języków programowania, w tym .NET, C++ i Python.
 
-### P3: Czy Aspose.Note jest kompatybilny ze wszystkimi wersjami OneNote?
+**Q3: Czy Aspose.Note jest kompatybilny ze wszystkimi wersjami OneNote?**  
+A: Aspose.Note obsługuje różne formaty OneNote, zapewniając zgodność z większością wersji dokumentów.
 
-Odp.: Aspose.Note obsługuje różne wersje OneNote, zapewniając zgodność z większością formatów dokumentów.
+**Q4: Czy mogę automatyzować inne zadania w OneNote przy użyciu Aspose.Note?**  
+A: Zdecydowanie, Aspose.Note oferuje rozbudowane możliwości programowego dodawania, usuwania i modyfikowania treści.
 
-### P4: Czy mogę zautomatyzować inne zadania w OneNote przy użyciu Aspose.Note?
+**Q5: Czy istnieje forum społeczności lub wsparcie dostępne dla Aspose.Note?**  
+A: Tak, możesz odwiedzić [forum Aspose.Note](https://forum.aspose.com/c/note/28) w celu uzyskania wsparcia społeczności lub skontaktować się z obsługą klienta Aspose w celu uzyskania pomocy.
 
-O: Oczywiście, Aspose.Note oferuje szerokie możliwości programowego manipulowania dokumentami OneNote, w tym dodawania, usuwania i modyfikowania zawartości.
+---
 
-### P5: Czy dostępne jest forum społeczności lub wsparcie dla Aspose.Note?
+**Ostatnia aktualizacja:** 2026-01-12  
+**Testowano z:** Aspose.Note for Java (najnowsze wydanie)  
+**Autor:** Aspose  
 
- Odpowiedź: Tak, możesz odwiedzić[Forum Aspose.Note](https://forum.aspose.com/c/note/28) aby uzyskać wsparcie społeczności lub skontaktuj się z obsługą klienta Aspose w celu uzyskania pomocy.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

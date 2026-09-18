@@ -129,9 +129,9 @@ A5：您可以在[Aspose.Note 论坛](https://forum.aspose.com/c/note/28)获取�
 
 ---
 
-**最后更新：** 2026-04-24  
-**测试环境：** Aspose.Note for Java 23.12  
-**作者：** Aspose  
+**Last Updated:** 2026-04-24  
+**Tested With:** Aspose.Note for Java 26.4  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -133,9 +133,9 @@ A5: Anda dapat menemukan dukungan dan bantuan di [forum Aspose.Note](https://for
 
 ---
 
-**Terakhir Diperbarui:** 2026-04-24  
-**Diuji Dengan:** Aspose.Note for Java 23.12  
-**Penulis:** Aspose  
+**Last Updated:** 2026-04-24  
+**Tested With:** Aspose.Note for Java 26.4  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

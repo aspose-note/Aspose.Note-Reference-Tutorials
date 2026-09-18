@@ -134,9 +134,9 @@ A5: Unterstützung und Hilfe finden Sie im [Aspose.Note Forum](https://forum.asp
 
 ---
 
-**Zuletzt aktualisiert:** 2026-04-24  
-**Getestet mit:** Aspose.Note for Java 23.12  
-**Autor:** Aspose  
+**Last Updated:** 2026-04-24  
+**Tested With:** Aspose.Note for Java 26.4  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -44,7 +44,7 @@ using System.Collections.Generic;
 string dataDir = "Your Document Directory";
 
 // OneNote 전자 필기장 로드
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
  이 단계에서는 다음을 사용하여 OneNote 노트북을 로드합니다.`Notebook` Aspose.Note에서 제공하는 클래스입니다.

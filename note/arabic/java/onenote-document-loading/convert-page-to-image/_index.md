@@ -131,7 +131,7 @@ System.out.println("File saved: " + dataDir + "ConvertSpecificPageToImage_out.jp
 ج: قم بزيارة [منتدى Aspose.Note](https://forum.aspose.com/c/note/28) أو راجع الوثائق الرسمية [هنا](https://reference.aspose.com/note/java/).
 
 **آخر تحديث:** 2025-11-29  
-**تم الاختبار مع:** Aspose.Note for Java 24.12  
+**تم الاختبار مع:** Aspose.Note for Java 26.4  
 **المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

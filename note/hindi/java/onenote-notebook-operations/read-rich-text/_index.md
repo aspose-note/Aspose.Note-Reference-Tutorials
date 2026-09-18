@@ -134,7 +134,7 @@ A5: आप सपोर्ट और सहायता [Aspose.Note forum](http
 ---
 
 **अंतिम अपडेट:** 2026-04-24  
-**परीक्षण किया गया:** Aspose.Note for Java 23.12  
+**परीक्षित संस्करण:** Aspose.Note for Java 26.4  
 **लेखक:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

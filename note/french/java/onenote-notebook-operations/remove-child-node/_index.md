@@ -32,7 +32,7 @@ Dans ce tutoriel, vous découvrirez **comment supprimer un nœud** — plus 
 
 Avant de commencer, assurez‑vous que les prérequis suivants sont en place :
 
-1. **Java Development Kit (JDK)** – Vérifiez que Java est installé sur votre système. Vous pouvez télécharger et installer le dernier JDK depuis [ici](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+1. **Java Development Kit (JDK)** – Vérifiez que Java est installé sur votre système. Vous pouvez télécharger et installer le dernier JDK depuis [ici](https://www.oracle.com/java/technologies/downloads/).
 
 2. **Aspose.Note pour Java** – Téléchargez et installez la bibliothèque Aspose.Note pour Java depuis le [site web](https://purchase.aspose.com/buy). Vous pouvez également obtenir une version d’essai gratuite depuis [ici](https://releases.aspose.com/).
 
@@ -137,7 +137,7 @@ Dans ce tutoriel, nous avons parcouru **comment supprimer un nœud** — plu
 ---
 
 **Dernière mise à jour :** 2026-01-02  
-**Testé avec :** Aspose.Note 24.11 pour Java  
+**Testé avec :** Aspose.Note 26.4 pour Java  
 **Auteur :** Aspose  
 
 ---

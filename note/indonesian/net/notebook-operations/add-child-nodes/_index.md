@@ -47,7 +47,7 @@ Muat buku catatan yang ada tempat Anda ingin menambahkan simpul anak. Anda dapat
 string dataDir = "Your Document Directory";
 
 // Memuat Buku Catatan OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Langkah 2: Tambahkan Node Anak Baru

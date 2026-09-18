@@ -45,7 +45,7 @@ using System.Collections.Generic;
 string dataDir = "Your Document Directory";
 
 // قم بتحميل دفتر ملاحظات OneNote
-var notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
  في هذه الخطوة، نحدد الدليل الذي يوجد به ملف دفتر الملاحظات الخاص بنا ونقوم بتحميله في تطبيقنا باستخدام ملف`Notebook` الفئة المقدمة من Aspose.Note.

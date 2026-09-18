@@ -60,7 +60,7 @@ String dataDir = "Your Document Directory";
 
 NotebookLoadOptions loadOptions = new NotebookLoadOptions();
 loadOptions.setDeferredLoading(true);
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2", loadOptions);
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2", loadOptions);
 notebook.loadChildDocument(dataDir + "Neuer Abschnitt 1.one");
 ```
 
@@ -105,9 +105,9 @@ notebook.loadChildDocument(dataDir + "Locked Pass2.one", documentLoadOptions2);
 
 ---
 
-**Last Updated:** 2026-04-24  
-**Tested With:** Aspose.Note 24.12 for Java  
-**Author:** Aspose  
+**Τελευταία ενημέρωση:** 2026-04-24  
+**Δοκιμασμένο με:** Aspose.Note 26.4 for Java  
+**Συγγραφέας:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

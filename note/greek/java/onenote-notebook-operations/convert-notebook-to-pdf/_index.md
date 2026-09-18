@@ -24,7 +24,7 @@ weight: 15
 - **Τι καλύπτει αυτό το σεμινάριο;** Μετατροπή ενός σημειωματάριου OneNote (.one) σε αρχείο PDF με το Aspose.Note για Java.
 - **Ποια βιβλιοθήκη εργασίας;** Aspose.Note for Java (διατίθεται δωρεάν δοκιμαστική έκδοση).
 - **Χρειάζομαι άδεια;** Απαιτείται άδεια για παραγωγική χρήση· η δοκιμαστική έκδοση λειτουργεί για ανάπτυξη και δοκιμές.
-- **Ποια έκδοση Java υποστηρίζεται;** Οποιαδήποτε JDK 8+ (το παράδειγμα του JDK 15).
+- **Ποια έκδοση Java υποστηρίζεται;** Οποιαδήποτε JDK 8+ (το παράδειγμα του JDK 8).
 - **Μπορώ να μετατρέψω μαζικά πολλά notebooks;** Ναι—τυλίξτε τον κώδικα σε βρόχο για επεξεργασία πολλαπλών αρχείων.
 
 ## Τι είναι η "μετατροπή onenote σε pdf";
@@ -38,7 +38,7 @@ weight: 15
 
 ## Προαπαιτούμενα
 
-1. **Java Development Kit (JDK)** – Βεβαιωθείτε ότι το JDK είναι εγκατεστημένο. Μπορείτε να κατεβάσετε από την [Oracle website](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+1. **Java Development Kit (JDK)** – Βεβαιωθείτε ότι το JDK είναι εγκατεστημένο. Μπορείτε να κατεβάσετε από την [Oracle website](https://www.oracle.com/java/technologies/downloads/).
 2. **Aspose.Note for Java Library** – Κατεβάστε το τελευταίο JAR από την [Aspose website](https://releases.aspose.com/note/java/). Προσθέστε το JAR στο classpath του έργου σας.
 
 ## Εισαγωγή πακέτων
@@ -125,7 +125,7 @@ System.out.println("File saved: " + dataDir + "ConvertToPdf_out.pdf");
 ---
 
 **Τελευταία ενημέρωση: ** 02-01-2026
-**Δοκιμασμένο με:** Aspose.Note 24.12 για Java
+**Δοκιμασμένο με:** Aspose.Note 26.4 για Java
 **Συγγραφέας:** Aspose  
 
 ---

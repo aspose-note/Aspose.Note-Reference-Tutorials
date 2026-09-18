@@ -132,7 +132,7 @@ A5: Você pode encontrar suporte e assistência no [forum Aspose.Note](https://f
 ---
 
 **Última atualização:** 2026-04-24  
-**Testado com:** Aspose.Note for Java 23.12  
+**Testado com:** Aspose.Note for Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

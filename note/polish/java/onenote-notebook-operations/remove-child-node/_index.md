@@ -31,7 +31,7 @@ W tym samouczku dowiesz się **jak usunąć węzeł** — konkretnie węzeł
 
 Przed rozpoczęciem upewnij się, że masz przygotowane następujące elementy:
 
-1. **Java Development Kit (JDK)** – Upewnij się, że Java jest zainstalowana w Twoim systemie. Najnowszy JDK możesz pobrać i zainstalować [tutaj](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+1. **Java Development Kit (JDK)** – Upewnij się, że Java jest zainstalowana w Twoim systemie. Najnowszy JDK możesz pobrać i zainstalować [tutaj](https://www.oracle.com/java/technologies/downloads/).
 
 2. **Aspose.Note for Java** – Pobierz i zainstaluj bibliotekę Aspose.Note for Java ze [strony internetowej](https://purchase.aspose.com/buy). Darmową wersję próbną możesz uzyskać [tutaj](https://releases.aspose.com/).
 
@@ -136,7 +136,7 @@ W tym samouczku przedstawiliśmy **jak usunąć węzeł** — konkretnie wę
 ---
 
 **Ostatnia aktualizacja:** 2026-01-02  
-**Testowano z:** Aspose.Note 24.11 for Java  
+**Testowano z:** Aspose.Note 26.4 for Java  
 **Autor:** Aspose  
 
 ---

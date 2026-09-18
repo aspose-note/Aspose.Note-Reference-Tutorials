@@ -1,32 +1,47 @@
 ---
-title: Konvertera anteckningsbok till bild med alternativ i OneNote - Aspose.Note
-linktitle: Konvertera anteckningsbok till bild med alternativ i OneNote - Aspose.Note
+date: 2026-03-24
+description: Lär dig hur du sparar OneNote som PNG med alternativ med hjälp av Aspose.Note
+  för Java. Den här guiden visar hur du exporterar OneNote som bild, ställer in bildupplösning
+  i Java och konverterar OneNote till bild programatiskt.
+linktitle: Convert Notebook to Image with Options in OneNote - Aspose.Note
 second_title: Aspose.Note Java API
-description: Lär dig hur du konverterar en anteckningsbok till en bild med alternativ med Aspose.Note för Java. Följ vår steg-för-steg handledning för sömlös integration i dina Java-applikationer.
-weight: 14
+title: Spara OneNote som PNG med alternativ – Konvertera anteckningsbok till bild
+  med Aspose.Note
 url: /sv/java/onenote-notebook-operations/convert-notebook-to-image-with-options/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Konvertera anteckningsbok till bild med alternativ i OneNote - Aspose.Note
+# Spara OneNote som PNG med alternativ – Konvertera anteckningsbok till bild
 
 ## Introduktion
 
-I den här handledningen kommer vi att fördjupa oss i processen att konvertera en anteckningsbok till en bild med olika alternativ med Aspose.Note för Java. Aspose.Note är ett kraftfullt Java API som gör det möjligt för utvecklare att arbeta med Microsoft OneNote-filer programmatiskt, vilket möjliggör sömlös integration i deras Java-applikationer.
+I den här handledningen kommer du att upptäcka hur du **sparar OneNote som PNG** med full kontroll över bildinställningarna med Aspose.Note för Java. Oavsett om du behöver exportera OneNote som bild för rapportering, generering av miniatyrer eller arkivering, så kommer stegen nedan att guida dig genom att konvertera en OneNote‑anteckningsbok till en bild medan du **ställer in bildupplösning i Java‑stil** för skarpa resultat.
+
+## Snabba svar
+- **Kan jag välja bildformatet?** Ja – du kan exportera till PNG, JPEG, BMP osv. genom att justera `SaveFormat`.
+- **Hur kontrollerar jag bildkvaliteten?** Använd `ImageSaveOptions.setResolution()` för att definiera DPI (t.ex. 400 dpi).
+- **Behöver jag en licens för produktion?** En kommersiell licens krävs för icke‑testanvändning.
+- **Är API:et kompatibelt med Java 8+?** Absolut, Aspose.Note stödjer Java 8 och nyare.
+- **Kan jag batch‑processa flera anteckningsböcker?** Ja – loopa igenom anteckningsböcker och tillämpa samma sparalternativ.
+
+## Vad är “save onenote as png”?
+Att spara OneNote som PNG innebär att konvertera hela anteckningsboken (eller specifika sektioner) till rasterbilder. PNG är förlustfri, vilket gör den idealisk för att bevara den visuella integriteten hos anteckningar, teckningar och inbäddade media.
+
+## Varför exportera OneNote som bild med alternativ?
+Att exportera OneNote som bild gör det möjligt att dela innehåll med användare som inte har OneNote installerat, bädda in anteckningar på webbsidor eller generera högupplösta PDF‑filer. Med Aspose.Note kan du **konvertera OneNote till bild** samtidigt som du anpassar upplösning, färgdjup och utdataformat – allt från Java‑kod.
 
 ## Förutsättningar
 
-Innan vi börjar, se till att du har följande förutsättningar på plats:
-
-1. Java Development Kit (JDK): Se till att du har JDK installerat på ditt system.
-2. Aspose.Note för Java JAR-filer: Ladda ner Aspose.Note for Java-biblioteket från[här](https://releases.aspose.com/note/java/) och inkludera det i ditt projekts klassväg.
+1. Java Development Kit (JDK) installerat på din maskin.  
+2. Aspose.Note för Java JAR‑filer. Ladda ner biblioteket från [here](https://releases.aspose.com/note/java/) och lägg till det i ditt projekts classpath.
 
 ## Importera paket
 
-Låt oss först importera de nödvändiga paketen för vår Java-applikation:
+Först, importera de klasser vi behöver:
 
 ```java
 import java.io.IOException;
@@ -37,19 +52,19 @@ import com.aspose.note.NotebookImageSaveOptions;
 import com.aspose.note.SaveFormat;
 ```
 
-## Steg 1: Ladda anteckningsboken
+## Steg‑för‑steg‑guide
 
-För att börja måste vi ladda OneNote-anteckningsboken som vi vill konvertera till en bild.
+### Steg 1: Ladda anteckningsboken
+Ladda den OneNote‑anteckningsbok du vill konvertera.
 
 ```java
 String dataDir = "Your Document Directory";
-// Ladda en OneNote-anteckningsbok
+// Load a OneNote Notebook
 Notebook notebook = new Notebook(dataDir + "test.onetoc2");
 ```
 
-## Steg 2: Ställ in sparalternativ
-
-Därefter kommer vi att definiera bildsparalternativen, inklusive önskat format (PNG, JPEG, etc.) och upplösning.
+### Steg 2: Ställ in sparalternativ
+Skapa en `NotebookImageSaveOptions`‑instans, välj PNG som format och **ställ in bildupplösning i Java‑stil**.
 
 ```java
 NotebookImageSaveOptions notebookSaveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
@@ -59,45 +74,52 @@ ImageSaveOptions documentSaveOptions = notebookSaveOptions.getDocumentSaveOption
 documentSaveOptions.setResolution(400);
 ```
 
-## Steg 3: Spara anteckningsboken som bild
-
-Nu sparar vi anteckningsboken som en bild med de angivna alternativen.
+### Steg 3: Spara anteckningsboken som bild
+Definiera utdatavägen och anropa `save`‑metoden. Detta kommer att **spara OneNote som PNG** med den upplösning du angav.
 
 ```java
 dataDir = dataDir + "ExportNotebooktoImagewithOptions_out.png";
 
-// Spara anteckningsboken
+// Save the Notebook
 notebook.save(dataDir, notebookSaveOptions);
 ```
 
+## Vanliga problem & tips
+
+- **Upplösning inte tillämpad:** Se till att du anropar `getDocumentSaveOptions()` innan du ställer in upplösningen; annars används standard‑DPI.  
+- **Filen hittades inte:** Verifiera att `dataDir` pekar på rätt mapp och att `test.onetoc2` finns.  
+- **Stora anteckningsböcker:** För mycket stora anteckningsböcker, överväg att öka JVM‑heap‑storleken (`-Xmx`) för att undvika `OutOfMemoryError`.
+
 ## Slutsats
 
-I den här handledningen har vi lärt oss hur man konverterar en anteckningsbok till en bild med olika alternativ med Aspose.Note för Java. Genom att följa dessa steg kan du sömlöst integrera den här funktionen i dina Java-applikationer, vilket öppnar upp möjligheter att manipulera OneNote-filer programmatiskt.
+Du vet nu hur du **sparar OneNote som PNG** med anpassade alternativ, effektivt **exporterar OneNote som bild** och **konverterar OneNote till bild** samtidigt som du styr upplösningen. Integrera dessa kodsnuttar i dina Java‑applikationer för att automatisera bearbetning av anteckningsböcker, generera miniatyrer eller skapa arkiveringskopior med perfekt visuell kvalitet.
 
-## FAQ's
+## Vanliga frågor
 
-### F1: Kan Aspose.Note hantera komplexa OneNote-filer?
+### Q1: Kan Aspose.Note hantera komplexa OneNote‑filer?
+A1: Ja, Aspose.Note kan hantera komplexa OneNote‑filer effektivt, vilket gör att du kan utföra olika operationer på dem programatiskt.
 
-S1: Ja, Aspose.Note kan hantera komplexa OneNote-filer effektivt, så att du kan utföra olika operationer på dem programmatiskt.
+### Q2: Är Aspose.Note för Java lätt att integrera i befintliga projekt?
+A2: Absolut! Aspose.Note för Java erbjuder ett enkelt API som är lätt att integrera i dina Java‑projekt, vilket sparar tid och ansträngning.
 
-### F2: Är Aspose.Note för Java lätt att integrera i befintliga projekt?
+### Q3: Kan jag anpassa bildutdata när jag konverterar en anteckningsbok?
+A3: Ja, Aspose.Note låter dig anpassa bildutdata genom att specificera alternativ som upplösning, format med mera.
 
-A2: Absolut! Aspose.Note för Java tillhandahåller ett enkelt API som är lätt att integrera i dina Java-projekt, vilket sparar tid och ansträngning.
+### Q4: Erbjuder Aspose.Note support för utvecklare?
+A4: Ja, Aspose erbjuder utmärkt support för utvecklare via sina forum och dokumentation, vilket säkerställer smidig integration och felsökning.
 
-### F3: Kan jag anpassa bilden när jag konverterar en bärbar dator?
+### Q5: Finns en gratis provversion av Aspose.Note för Java?
+A5: Ja, du kan få en gratis provversion av Aspose.Note för Java från [here](https://releases.aspose.com/).
 
-S3: Ja, Aspose.Note låter dig anpassa bildutmatningen genom att ange alternativ som upplösning, format och mer.
-
-### F4: Erbjuder Aspose.Note stöd för utvecklare?
-
-S4: Ja, Aspose ger utmärkt stöd för utvecklare genom deras forum och dokumentation, vilket säkerställer smidig integration och felsökning.
-
-### F5: Finns det en gratis testversion tillgänglig för Aspose.Note för Java?
-
- S5: Ja, du kan använda en gratis testversion av Aspose.Note för Java från[här](https://releases.aspose.com/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Senast uppdaterad:** 2026-03-24  
+**Testat med:** Aspose.Note för Java (senaste)  
+**Författare:** Aspose

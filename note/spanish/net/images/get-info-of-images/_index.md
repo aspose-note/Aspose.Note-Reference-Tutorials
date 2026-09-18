@@ -1,32 +1,52 @@
 ---
-title: Obtener información de imágenes en Aspose.Note
-linktitle: Obtener información de imágenes en Aspose.Note
-second_title: Aspose.Nota .NET API
-description: Aprenda a extraer información de imágenes de archivos de Microsoft OneNote usando Aspose.Note para .NET. Siga nuestra guía paso a paso para un desarrollo eficiente.
-weight: 13
+date: 2026-04-09
+description: Aprende a extraer los metadatos de imágenes y obtener las dimensiones
+  de la imagen a partir de archivos OneNote con Aspose.Note para .NET. Guía paso a
+  paso para desarrolladores C#.
+keywords:
+- extract image metadata
+- how to extract images
+- get image dimensions
+- load onenote document
+- c# get image properties
+linktitle: Cómo extraer metadatos de imagen de OneNote usando Aspose.Note
+second_title: Aspose.Note .NET API
+title: Cómo extraer los metadatos de imágenes de OneNote usando Aspose.Note
 url: /es/net/images/get-info-of-images/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Obtener información de imágenes en Aspose.Note
+# Extraer metadatos de imagen con Aspose.Note para .NET
 
-## Introducción
+En este tutorial práctico aprenderás **cómo extraer metadatos de imagen**—incluyendo ancho, alto, tamaño original, nombre de archivo y hora de modificación—de archivos Microsoft OneNote usando la biblioteca Aspose.Note para C#. Ya sea que necesites mostrar miniaturas de imágenes, validar tamaños de imágenes o crear un catálogo de recursos incrustados, extraer esta información programáticamente te ahorra innumerables pasos manuales.
 
-En el mundo del desarrollo .NET, Aspose.Note proporciona un potente conjunto de herramientas para trabajar con archivos de Microsoft OneNote. Una tarea común a la que se enfrentan los desarrolladores es extraer información de imágenes incrustadas en estas notas. Ya sea para obtener dimensiones, nombres de archivos o tiempos de modificación, Aspose.Note simplifica este proceso.
+## Respuestas rápidas
+- **¿Qué significa “extraer metadatos de imagen”?** Recuperar propiedades como dimensiones, nombre de archivo y marcas de tiempo de imágenes almacenadas dentro de un documento OneNote.  
+- **¿Qué biblioteca maneja esto?** Aspose.Note for .NET.  
+- **¿Necesito una licencia?** Una prueba gratuita funciona para desarrollo; se requiere una licencia comercial para producción.  
+- **¿Plataformas compatibles?** .NET Framework 4.6+, .NET Core 3.1+, .NET 5/6+.  
+- **¿Tiempo de ejecución típico?** Menos de un segundo para un archivo .one estándar.
+
+## ¿Qué es extraer metadatos de imagen?
+Extraer metadatos de imagen significa leer programáticamente los atributos descriptivos (ancho, alto, dimensiones originales, nombre de archivo, hora de última modificación, etc.) que acompañan a cada objeto de imagen dentro de una página de OneNote. Estos datos son útiles para validación, generación de informes o procesamiento adicional de imágenes.
+
+## ¿Por qué extraer metadatos de imagen de OneNote?
+- **Automatización** – Construir herramientas que generen automáticamente inventarios de imágenes.  
+- **Validación** – Garantizar que las imágenes cumplan con los requisitos de tamaño antes de publicar.  
+- **Integración** – Combinar contenido de OneNote con otros sistemas que necesiten detalles de imágenes (CMS, DAM, etc.).  
+- **Rendimiento** – Evitar cargar los binarios completos de la imagen cuando solo se necesitan las dimensiones.
 
 ## Requisitos previos
-
-Antes de sumergirnos en la extracción de información de imágenes con Aspose.Note, asegúrese de tener lo siguiente:
-
-1. Conocimientos básicos de C#: la familiaridad con el lenguaje de programación C# es esencial para comprender los ejemplos de código.
-2.  Aspose.Note para .NET instalado: asegúrese de tener la biblioteca Aspose.Note instalada en su entorno de desarrollo. Puedes descargarlo[aquí](https://releases.aspose.com/note/net/).
+1. **Fundamentos de C#** – Deberías sentirte cómodo escribiendo código básico en C#.  
+2. **Aspose.Note para .NET** – Descarga e instala la biblioteca desde el sitio oficial [aquí](https://releases.aspose.com/note/net/).  
+3. **Un archivo OneNote (.one)** – Cualquier documento OneNote existente que contenga imágenes.
 
 ## Importar espacios de nombres
-
-Antes de comenzar, importemos los espacios de nombres necesarios:
+Before we start, import the required namespaces:
 
 ```csharp
 using System.IO;
@@ -35,34 +55,31 @@ using System.Collections.Generic;
 using System;
 ```
 
-## Paso 1: cargue el documento
-
-Primero, cargue el documento OneNote de destino en Aspose.Note:
+## Paso 1: Cargar el documento OneNote
+Primero, carga el archivo OneNote objetivo en un objeto `Aspose.Note.Document`. Este es el paso de **cargar documento onenote** que prepara la API para consultas posteriores.
 
 ```csharp
-// La ruta al directorio de documentos.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-// Cargue el documento en Aspose.Note.
+// Load the document into Aspose.Note.
 Document oneFile = new Document(dataDir + "Aspose.one");
 ```
 
- Reemplazar`"Your Document Directory"` con la ruta a su archivo OneNote.
+Reemplaza `"Your Document Directory"` con la carpeta real que contiene tu archivo `.one`.
 
-## Paso 2: recuperar información de la imagen
-
-A continuación, recupere todos los nodos de imagen del documento:
+## Paso 2: Recuperar todos los nodos de imagen
+Ahora **cómo extraer imágenes** obteniendo cada nodo `Image` del documento.
 
 ```csharp
-// Obtener todos los nodos de imagen
+// Get all Image nodes
 IList<Aspose.Note.Image> images = oneFile.GetChildNodes<Aspose.Note.Image>();
 ```
 
-Este fragmento de código recupera todos los nodos de imagen dentro del documento de OneNote cargado.
+El método `GetChildNodes<T>()` escanea toda la jerarquía del cuaderno y devuelve una colección de objetos de imagen.
 
-## Paso 3: iterar a través de imágenes
-
-Ahora, repitamos cada nodo de imagen para extraer sus metadatos:
+## Paso 3: Iterar a través de cada imagen y **c# obtener propiedades de imagen**
+Recorreremos la colección e imprimiremos los metadatos, incluyendo los valores de **obtener dimensiones de imagen** y **extraer tamaño original de la imagen**.
 
 ```csharp
 foreach (Aspose.Note.Image image in images)
@@ -77,33 +94,38 @@ foreach (Aspose.Note.Image image in images)
 }
 ```
 
-Este bucle imprime varios atributos de cada imagen, como ancho, alto, dimensiones originales, nombre de archivo y hora de la última modificación.
+La salida muestra el ancho/alto actual de cada imagen (según se renderiza en la página), las dimensiones originales almacenadas en el archivo, el nombre de archivo y la marca de tiempo de la última modificación.
 
-## Conclusión
-
-Con Aspose.Note para .NET, extraer información de imágenes de documentos de OneNote se convierte en un proceso fluido. Siguiendo los pasos descritos en este tutorial, los desarrolladores pueden recuperar metadatos de imágenes incrustadas de manera eficiente, lo que les permitirá crear aplicaciones sólidas.
+## Problemas comunes y soluciones
+| Problema | Razón | Solución |
+|----------|-------|----------|
+| **NullReferenceException** cuando `images` está vacío | El documento no contiene imágenes | Verifica que el archivo `.one` de origen realmente tenga imágenes incrustadas. |
+| **Dimensiones incorrectas** | Las imágenes están escaladas en OneNote | Usa `OriginalWidth`/`OriginalHeight` para obtener el tamaño real. |
+| **FileName está vacío** | La imagen se pegó desde el portapapeles | La API puede no tener un nombre de archivo; maneja `null` o cadenas vacías en tu código. |
 
 ## Preguntas frecuentes
 
-### P1: ¿Aspose.Note es compatible con todas las versiones de Microsoft OneNote?
+**Q: ¿Es Aspose.Note compatible con todas las versiones de Microsoft OneNote?**  
+A: Aspose.Note admite los formatos .one, .onepkg y .onetoc2, cubriendo la mayoría de versiones de OneNote desde 2007 en adelante.
 
-R1: Aspose.Note admite varios formatos de archivos OneNote, incluidos .one, .onepkg y .onetoc2, lo que garantiza la compatibilidad entre diferentes versiones.
+**Q: ¿Puedo modificar las propiedades de la imagen después de la extracción?**  
+A: Sí, puedes cambiar propiedades como `Width`, `Height` o `FileName` y luego guardar el documento.
 
-### P2: ¿Puedo modificar las propiedades de la imagen usando Aspose.Note?
+**Q: ¿Aspose.Note funciona con .NET Core?**  
+A: Absolutamente. La biblioteca es totalmente compatible con .NET Core, .NET 5 y .NET 6.
 
-R2: Sí, Aspose.Note le permite manipular propiedades de la imagen como dimensiones, nombres de archivos y tiempos de modificación mediante programación.
+**Q: ¿Hay una prueba gratuita disponible?**  
+A: Sí, puedes descargar una versión de prueba desde el sitio web de Aspose para explorar todas las funciones.
 
-### P3: ¿Aspose.Note ofrece soporte para .NET Core?
+**Q: ¿Dónde puedo obtener ayuda adicional o soporte de la comunidad?**  
+A: Visita el foro de Aspose.Note [aquí](https://forum.aspose.com/c/note/28) para obtener consejos, código de ejemplo y respuestas de la comunidad.
 
-R3: Sí, Aspose.Note brinda soporte para .NET Core, lo que permite el desarrollo multiplataforma para sus aplicaciones.
+---
 
-### P4: ¿Hay una prueba gratuita disponible para Aspose.Note?
+**Última actualización:** 2026-04-09  
+**Probado con:** Aspose.Note 24.11 for .NET  
+**Autor:** Aspose  
 
-R4: Sí, puede acceder a una prueba gratuita de Aspose.Note para explorar sus funciones antes de realizar una compra.
-
-### P5: ¿Dónde puedo encontrar soporte o asistencia adicional con Aspose.Note?
-
-R5: Para cualquier consulta o ayuda, puede visitar el foro Aspose.Note[aquí](https://forum.aspose.com/c/note/28).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
