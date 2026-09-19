@@ -72,7 +72,7 @@ Before we embark on this journey of understanding metered licensing with Aspose.
 
 1. Installation of Aspose.Note for .NET: Ensure that you have downloaded and installed Aspose.Note for .NET. You can obtain the latest version from the [download page](https://releases.aspose.com/note/net/).
 
-2. Access to Aspose.Note Documentation: Familiarize yourself with the Aspose.Note for .NET documentation, which provides detailed insights into its various features and functionalities. You can refer to the documentation [here](https://reference.aspose.com/note/net/).
+2. Access to Aspose.Note Documentation: Familiarize yourself with the Aspose.Note for .NET documentation, which provides detailed insights into its various features and functionalities. You can refer to the [Aspose.Note .NET documentation](https://reference.aspose.com/note/net/).
 
 ## Import Namespaces
 
@@ -87,7 +87,7 @@ using System.IO;
 
 `Document` represents a OneNote notebook loaded into memory. Load it with `new Document("source.one")` and call `Save("output.pdf", SaveFormat.Pdf)` to convert the notebook to PDF. The operation respects your metered license, automatically deducting credits. `Save` also handles tables, images, and embedded objects, preserving layout fidelity.
 
-### Step 1: Set Metered Key
+### Step 1: set metered key
 
 `Metered` is the class that manages metered licensing operations.
 
@@ -99,7 +99,7 @@ Metered metered = new Metered();
 metered.SetMeteredKey("MyPublicKey", "MyPrivateKey");
 ```
 
-### Step 2: Perform Document Operation
+### Step 2: perform document operation
 
 `Document` loads and represents a OneNote file for manipulation.
 
@@ -108,7 +108,7 @@ metered.SetMeteredKey("MyPublicKey", "MyPrivateKey");
 Document document = new Document(Path.Combine(dataDir, "Aspose.one"));
 ```
 
-### Step 3: Save Document
+### Step 3: save document
 
 `Save` writes the document to the specified file and format.
 
@@ -128,13 +128,13 @@ Convert OneNote to PDF by loading the `.one` file into the `Document` class and 
 
 Aspose.Note supports **50+ input formats** (including `.one`, `.onepkg`, `.onez`) and can output **PDF, XPS, HTML, and image formats**. Metered licensing processes documents without loading the entire file into memory, enabling conversion of **multi‑hundred‑page notebooks** while keeping RAM usage under **100 MB**. This efficiency translates to lower infrastructure costs and predictable licensing spend.
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 - **Invalid key error:** Verify that the public and private keys match the ones issued for your account; whitespace or line‑break characters cause failures.  
 - **Unexpected credit deduction:** Ensure you call `MeteredLicense.ResetConsumption()` after test runs to avoid counting development usage against production credits.  
 - **PDF output is blank:** Confirm that the source OneNote file is not password‑protected; metered licensing does not decrypt secured notebooks automatically.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: What is metered licensing?**  
 A: Metered licensing is a usage‑based model where you purchase a pool of credits and the API deducts credits for each operation you perform.
@@ -164,9 +164,9 @@ Console.WriteLine($"Consumption quantity before operation: {Metered.GetConsumpti
 
 ## Related Tutorials
 
-- [Metered Licensing with Aspose.Note](/note/net/licensing/metered-licensing/)
-- [Save to PDF in Aspose.Note](/note/net/loading-and-saving-operations/save-to-pdf/)
-- [Convert Notebooks to PDF in Aspose Note .NET](/note/net/notebook-operations/convert-to-pdf/)
+- [Metered Licensing with Aspose.Note](../../net/licensing/metered-licensing/)
+- [Save to PDF in Aspose.Note](../../net/loading-and-saving-operations/save-to-pdf/)
+- [Convert Notebooks to PDF in Aspose Note .NET](../../net/notebook-operations/convert-to-pdf/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

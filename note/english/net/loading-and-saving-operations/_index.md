@@ -38,9 +38,13 @@ schemas:
       Core, and .NET 5/6/7 applications.
 ---
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
+
+
+
+
 
 # How to Load OneNote Documents with Aspose.Note for .NET
 
@@ -99,7 +103,7 @@ Assign a title to a page before saving: `page.Title = "Quarterly Summary";`. Add
 
 Aspose.Note also lets you set **metadata** such as author, creation date, and tags, which are retained when you **save OneNote as PDF** or **export OneNote to image**.
 
-## Common Use Cases
+## Common use cases
 
 - **Automated reporting** – Load a OneNote template, inject data, and export to PDF for distribution.  
 - **Content migration** – Convert legacy OneNote notebooks to HTML or Markdown for modern documentation platforms.  
@@ -109,16 +113,16 @@ Aspose.Note also lets you set **metadata** such as author, creation date, and ta
 ## Loading and Saving Operations Tutorials
 
 ### [Consequent Export Operations in Aspose.Note](./consequent-export-operations/)
-Navigate through the intricacies [here](./consequent-export-operations/).
+Navigate through the intricacies in the **Consequent Export Operations** tutorial.
 
 ### [Convert Specific Page to Image in Aspose.Note](./convert-specific-page-to-image/)
-Learn how to convert specific pages of Microsoft OneNote documents to images programmatically using Aspose.Note for .NET. Explore the guide [here](./convert-specific-page-to-image/).
+Learn how to convert specific pages of Microsoft OneNote documents to images programmatically using Aspose.Note for .NET. Explore the **Convert Specific Page to Image** guide.
 
 ### [Create Document with Rich Text in Aspose.Note](./create-doc-with-rich-text/)
-Craft rich‑text OneNote documents with code examples. Detailed steps are available [here](./create-doc-with-rich-text/).
+Craft rich‑text OneNote documents with code examples. Detailed steps are available in the **Create Document with Rich Text** tutorial.
 
 ### [Create Document with Page Title in Aspose.Note](./create-doc-with-page-title/)
-Create documents with titled pages and improve navigation. Follow the tutorial [here](./create-doc-with-page-title/).
+Create documents with titled pages and improve navigation. Follow the **Create Document with Page Title** tutorial.
 
 ### [Create OneNote Document and Save to HTML in Aspose.Note](./create-onenote-doc-save-to-html/)
 
@@ -155,9 +159,9 @@ Create documents with titled pages and improve navigation. Follow the tutorial [
 ### [Specify Save Options in Aspose.Note](./specify-save-options/)
 
 ### [User-Saving Callbacks in Aspose.Note](./user-saving-callbacks/)
-Customize saving fonts, CSS, and images. Detailed instructions are available [here](./user-saving-callbacks/).
+Customize saving fonts, CSS, and images. Detailed instructions are available in the **User-Saving Callbacks** tutorial.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: How do I load an encrypted OneNote file?**  
 A: Pass the password to the `Document.Load` overload: `Document.Load("file.one", "password")`. Aspose.Note decrypts the notebook in memory.
@@ -180,7 +184,7 @@ A: No. A single Aspose.Note for .NET license covers .NET Framework, .NET Core, a
 **Tested With:** Aspose.Note 24.12 for .NET  
 **Author:** Aspose  
 
-{{< blocks/products/pf/main-container >}}
+
 
 ## Related Tutorials
 
@@ -188,7 +192,9 @@ A: No. A single Aspose.Note for .NET license covers .NET Framework, .NET Core, a
 - [Save Document to OneNote Format in Aspose.Note](/note/net/loading-and-saving-operations/save-doc-to-onenote-format/)
 - [Convert Notebooks to PDF in Aspose Note .NET](/note/net/notebook-operations/convert-to-pdf/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

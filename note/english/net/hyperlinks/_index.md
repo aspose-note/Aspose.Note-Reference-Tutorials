@@ -87,6 +87,22 @@ Open the `.one` file you want to enrich.
 Instantiate a `Hyperlink` object with the URL (e.g., `https://example.com`) and set it on the paragraph you wish to make clickable.  
 *Again, the method call is `paragraph.Hyperlink = new Hyperlink(url);`.*
 
+```csharp
+using Aspose.Note;
+
+// Load the existing OneNote document
+Document doc = new Document("input.one");
+
+// Locate the paragraph you want to hyperlink (example: first paragraph)
+Paragraph para = doc.GetChildNodes<Paragraph>(true)[0];
+
+// Create and assign the hyperlink
+para.Hyperlink = new Hyperlink("https://example.com");
+
+// Save the updated document
+doc.Save("output.one");
+```
+
 ### Step 3: Save the updated document
 Persist the changes with `document.Save("output.one")`. The saved file now contains an active hyperlink that opens the specified address when clicked.
 
@@ -95,7 +111,7 @@ Persist the changes with `document.Save("output.one")`. The saved file now conta
 - **Incorrect URL format** – Ensure URLs include the protocol (`http://` or `https://`) to avoid broken links.  
 - **Large documents** – When adding thousands of links, batch the operations to keep memory usage low; Aspose.Note processes links lazily, so performance remains stable.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I link to a specific OneNote page instead of an external URL?**  
 A: Yes, use the `Hyperlink` constructor that accepts a OneNote page ID; the link will open directly in the OneNote client.
@@ -118,7 +134,7 @@ A: Apply a `RichText` style to the paragraph before attaching the `Hyperlink`; t
 
 ## Hyperlinks Tutorials
 
-### [Add Hyperlinks in Aspose.Note Documents](./add-hyperlinks/)
+### [Add hyperlinks in Aspose.Note documents](./add-hyperlinks/)
 Learn how to add hyperlinks to Aspose.Note documents using Aspose.Note for .NET. Enhance document interactivity with this step-by-step tutorial.
 
 ## Conclusion
