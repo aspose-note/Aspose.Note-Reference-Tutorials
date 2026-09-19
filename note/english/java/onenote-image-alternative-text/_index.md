@@ -1,5 +1,5 @@
 ---
-title: "Make OneNote Accessible Java – Image Alternative Text"
+title: "Add Image Alternative Text to OneNote with Aspose.Note for Java"
 linktitle: OneNote Image Alternative Text
 second_title: Aspose.Note Java API
 description: "Learn how to make onenote accessible java by adding alt text to images using Java and Aspose.Note. This step‑by‑step tutorial shows you the exact steps to improve accessibility and meet WCAG 2.1."
@@ -12,7 +12,7 @@ keywords:
   - aspose.note java
 schemas:
 - type: TechArticle
-  headline: Make OneNote Accessible Java – Image Alternative Text
+  headline: Add Image Alternative Text to OneNote with Aspose.Note for Java
   description: Learn how to make onenote accessible java by adding alt text to images
     using Java and Aspose.Note. This step‑by‑step tutorial shows you the exact steps
     to improve accessibility and meet WCAG 2.1.
@@ -77,16 +77,31 @@ Its `AlternativeText` property holds the descriptive text for accessibility.
 
 Load the OneNote file, iterate through its pages, locate each `Image` object, and set its `AlternativeText` property. This whole process can be completed in under 20 lines of Java code and takes less than a minute to run on a typical workstation.
 
-## Adding Alternative Text to OneNote Images with Java
-### [Add Alternative Text to Image in OneNote using Java](./add-alternative-text-to-image/)
+```java
+// Load a OneNote document
+OneNoteDocument doc = new OneNoteDocument("sample.one");
+
+// Iterate pages
+for (Page page : doc.getPages()) {
+    for (Image img : page.getImages()) {
+        img.setAlternativeText("Description of the image");
+    }
+}
+
+// Save changes
+doc.save("sample_updated.one");
+```
+
+## Adding alternative text to oneNote images with java
+### [Add alternative text to image in OneNote using Java]({{< relref "./add-alternative-text-to-image/_index.md" >}})
 
 Java’s versatility and Aspose.Note’s capabilities come together seamlessly in this step‑by‑step guide. We walk you through opening a OneNote file, locating images, and assigning meaningful alternative text. The concise code snippets (shown in the linked sub‑tutorial) make this task straightforward, letting you focus on content rather than boilerplate.
 
-## The Accessibility Advantage
+## The accessibility advantage
 
 By incorporating alternative text, you not only comply with WCAG 2.1 but also empower users with diverse needs. Imagine a visually impaired colleague or a student using a screen reader—now they can understand the content of your OneNote images instantly. This small addition bridges a big gap.
 
-## Elevating User Experience
+## Elevating user experience
 
 Accessibility isn’t a checklist item; it enhances overall usability. When you follow our guide, the same document becomes friendlier for everyone—search engines can index the alt text, and future developers can maintain the notebook more easily.
 
@@ -94,13 +109,13 @@ Accessibility isn’t a checklist item; it enhances overall usability. When you 
 
 This tutorial is a resource for developers who want to embed accessibility into their applications from the start. Whether you’re building a note‑management system or a batch‑processing tool, the principles covered here—*add alt text java* and *image alt text tutorial*—are reusable across projects.
 
-## Common Pitfalls & Tips
+## Common pitfalls & tips
 
 - **Pro tip:** Keep alt text concise (under 125 characters) but descriptive enough to convey the image’s purpose.  
 - **Pitfall:** Setting alt text on decorative images isn’t necessary; use an empty string (`""`) to signal that the image can be ignored.  
 - **Pitfall:** Forgetting to save the document after modifications will result in no changes being persisted.  
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Do I need to reinstall OneNote after adding alt text?**  
 A: No. The changes are saved directly in the *.one* file, and OneNote will display the updated alt text automatically.
@@ -121,8 +136,8 @@ A: Any recent version that supports Java 8+; we tested with the latest stable 
 
 In the realm of OneNote image alternative text, Java and Aspose.Note are powerful allies. By following this tutorial you’ll not only add alt text—you’ll actively **make onenote accessible java**, fostering inclusivity and improving the overall quality of your digital content. Dive in, code with confidence, and make a lasting impact on accessibility.
 
-## OneNote Image Alternative Text Tutorials
-### [Add Alternative Text to Image in OneNote using Java](./add-alternative-text-to-image/)
+## OneNote image alternative text tutorials
+### [Add alternative text to image in OneNote using Java]({{< relref "./add-alternative-text-to-image/_index.md" >}})
 Learn how to add alternative text to images in OneNote documents using Java with Aspose.Note, enhancing accessibility and inclusivity.
 
 ---
@@ -131,15 +146,17 @@ Learn how to add alternative text to images in OneNote documents using Java with
 **Tested With:** Aspose.Note Java API (latest stable release)  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
+
 
 ## Related Tutorials
 
-- [Create OneNote Document with Aspose.Note for Java – Comprehensive Tutorials](/note/java/)
-- [How to Save OneNote Documents with Aspose.Note for Java](/note/java/onenote-document-saving/)
-- [How to Save OneNote as PDF with Aspose.Note for Java](/note/java/onenote-document-loading/load-save-format/)
-
+- [Create OneNote Document with Aspose.Note for Java – Comprehensive Tutorials]({{< relref "note/java/_index.md" >}})
+- [How to Save OneNote Documents with Aspose.Note for Java]({{< relref "note/java/onenote-document-saving/_index.md" >}})
+- [How to Save OneNote as PDF with Aspose.Note for Java]({{< relref "note/java/onenote-document-loading/load-save-format/_index.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -1,5 +1,5 @@
 ---
-title: Append PDF Files – Import into OneNote with Aspose.Note
+title: Append PDF Files and Import into OneNote using Aspose.Note for .NET
 linktitle: Import
 second_title: Aspose.Note .NET API
 description: Learn how to append PDF files and import them into OneNote using Aspose.Note for .NET. Step‑by‑step guide covers merge options and integration.
@@ -24,9 +24,9 @@ schemas:
     for .NET. Step‑by‑step guide covers merge options and integration.
   steps:
   - name: '**Download and Install:** Begin by downloading and installing the Aspose.Note
-      for .NET library. Don''t worry; it''s a breeze! [Download Here](https://downloads.aspose.com/note/net).'
+      for .NET library. Don''t worry; it''s a breeze! [Download Aspose.Note for .NET](https://downloads.aspose.com/note/net).'
     text: '**Download and Install:** Begin by downloading and installing the Aspose.Note
-      for .NET library. Don''t worry; it''s a breeze! [Download Here](https://downloads.aspose.com/note/net).'
+      for .NET library. Don''t worry; it''s a breeze! [Download Aspose.Note for .NET](https://downloads.aspose.com/note/net).'
   - name: '**Import PDF Functionality:** Familiarize yourself with the import PDF
       functionality provided by Aspose.Note. It''s the secret sauce behind the seamless
       integration of PDF documents.'
@@ -46,7 +46,7 @@ schemas:
   - name: '**OneNote Integration:** Ah, the pièce de résistance! Our tutorial wouldn''t
       be complete without OneNote integration. Explore the harmony between Aspose.Note
       and OneNote, unlocking a world of collaborative possibilities.'
-    text: '**OneNote Integration:** Ah, the pièce de résistance! Our tutorial wouldn''t
+    text: '**OneNote Integration:** Ah, the pièce de résistance! Our tutorial won''t
       be complete without OneNote integration. Explore the harmony between Aspose.Note
       and OneNote, unlocking a world of collaborative possibilities.'
 - type: FAQPage
@@ -93,6 +93,24 @@ It provides a rich API to import, export, and edit OneNote notebooks directly fr
 ## How to append PDF files to a OneNote notebook?
 Load your target OneNote notebook, then call the `AppendPdf` method (or equivalent) with the PDF stream you wish to add. `AppendPdf` is a method that appends the pages of a PDF to a OneNote notebook. Aspose.Note reads the PDF, converts each page into a OneNote page, and inserts them at the end of the notebook in a single operation. This approach preserves images, vectors, and text layers, ensuring the resulting notebook looks identical to the source PDF.
 
+```csharp
+using Aspose.Note;
+using System.IO;
+
+// Load existing OneNote notebook
+var notebook = new Document("MyNotebook.one");
+
+// Load PDF file stream
+using (FileStream pdfStream = File.OpenRead("sample.pdf"))
+{
+    // Append PDF pages to the notebook
+    notebook.AppendPdf(pdfStream);
+}
+
+// Save the updated notebook
+notebook.Save("MyNotebook_Updated.one");
+```
+
 ## Import PDF Documents into Aspose.Note
 
 Welcome to the gateway of knowledge! In this tutorial, we'll walk you through the process of importing PDF documents into Aspose.Note for .NET. Imagine a world where merging PDFs seamlessly is just a few clicks away. Well, buckle up; that world is within your reach!
@@ -101,13 +119,13 @@ Welcome to the gateway of knowledge! In this tutorial, we'll walk you through th
 
 Before we delve into the intricacies, ensure you have Aspose.Note for .NET installed. If not, head to [Aspose.Note for .NET](https://products.aspose.com/note/net) to get the magic started. Once you have the toolkit in your arsenal, follow these simple steps to kickstart the PDF import extravaganza.
 
-1. **Download and Install:** Begin by downloading and installing the Aspose.Note for .NET library. Don't worry; it's a breeze! [Download Here](https://downloads.aspose.com/note/net).
+1. **Download and Install:** Begin by downloading and installing the Aspose.Note for .NET library. Don't worry; it's a breeze! [Download Aspose.Note for .NET](https://downloads.aspose.com/note/net).
 
 2. **Import PDF Functionality:** Familiarize yourself with the import PDF functionality provided by Aspose.Note. It's the secret sauce behind the seamless integration of PDF documents.
 
 ### Merge Options
 
-Now, let's talk about the spice – merge options. Aspose.Note for .NET offers a variety of options to tailor the merging process according to your needs. Here's a sneak peek into the merge options wonderland:
+Now, let's talk about the spice – merge options. Aspose.Note for .NET offers a variety of options to tailor the merging process according to your needs. Here’s a sneak peek into the merge options wonderland:
 
 1. **Appending PDF Documents:** Combine PDFs effortlessly by **appending PDF files** one after another. Achieve a cohesive document with a seamless flow.
 
@@ -130,7 +148,7 @@ Remember, in the realm of Aspose.Note, your documents are not just files; they a
 ### [Import PDF Documents into Aspose.Note](./import-pdf-documents/)
 Learn how to import PDF documents into Aspose.Note for .NET effortlessly using various merge options for seamless integration.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I append PDF files to an existing OneNote notebook that already contains sections?**  
 A: Yes, the API lets you target a specific section or the notebook root, and the appended pages are added after the last existing page.
@@ -159,8 +177,9 @@ A: Yes, the generated .one files are fully compatible with both the desktop clie
 - [Convert Notebooks to PDF in Aspose Note .NET](/note/net/notebook-operations/convert-to-pdf/)
 - [OneNote Document Manipulation with Aspose.Note for .NET](/note/net/loading-and-saving-operations/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
-{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
