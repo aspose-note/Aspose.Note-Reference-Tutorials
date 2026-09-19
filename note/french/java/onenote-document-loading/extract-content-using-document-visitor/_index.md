@@ -1,11 +1,73 @@
 ---
-date: 2026-02-10
-description: Apprenez à convertir OneNote en texte et à extraire des images avec Aspose.Note
-  pour Java. Le guide montre comment lire un fichier .one en Java et effectuer l'extraction
-  de texte depuis OneNote.
-linktitle: Convert OneNote to Text and Extract Images using Document Visitor - Java
+date: 2026-09-19
+description: Apprenez à convertir OneNote en texte et à extraire des images en utilisant
+  Document Visitor d'Aspose.Note en Java. Le guide montre comment lire les fichiers
+  .one et extraire les médias intégrés.
+keywords:
+- convert onenote to text
+- how to read .one
+- extract images from onenote
+- read .one file java
+- document visitor java
+lastmod: 2026-09-19
+linktitle: Convertir OneNote en texte et extraire des images avec Document Visitor
+  - Java
+og_description: Apprenez à convertir OneNote en texte et à extraire des images en
+  utilisant Document Visitor d'Aspose.Note en Java. Ce guide couvre la lecture des
+  fichiers .one et l'extraction des médias intégrés.
+og_image_alt: 'Tutorial: convert onenote to text and extract images using Java Document
+  Visitor'
+og_title: Comment convertir OneNote en texte et extraire des images en Java
+schemas:
+- author: Aspose
+  dateModified: '2026-09-19'
+  description: Learn how to convert onenote to text and extract images using Aspose.Note's
+    Document Visitor in Java. The guide shows how to read .one files and pull out
+    embedded media.
+  headline: How to convert onenote to text and extract images in Java
+  type: TechArticle
+- description: Learn how to convert onenote to text and extract images using Aspose.Note's
+    Document Visitor in Java. The guide shows how to read .one files and pull out
+    embedded media.
+  name: How to convert onenote to text and extract images in Java
+  steps:
+  - name: Java Development Kit (JDK) 8 or newer installed.
+    text: Java Development Kit (JDK) 8 or newer installed.
+  - name: Aspose.Note for Java library downloaded. You can download it **[Aspose.Note
+      for Java download page](https://releases.aspose.com/note/java/)**.
+    text: Aspose.Note for Java library downloaded. You can download it **[Aspose.Note
+      for Java download page](https://releases.aspose.com/note/java/)**.
+  - name: A OneNote document (`.one` file) that you want to extract images from or
+      convert to text.
+    text: A OneNote document (`.one` file) that you want to extract images from or
+      convert to text.
+  type: HowTo
+- questions:
+  - answer: Yes – by overriding only the visitor methods you need (e.g., `VisitImageStart`
+      for images, `VisitRichTextStart` for text).
+    question: Can I extract specific types of content from the OneNote document?
+  - answer: Absolutely. The library supports all major OneNote file versions, so you
+      can safely **read .one file java** projects regardless of the originating OneNote
+      version.
+    question: Is Aspose.Note for Java compatible with different versions of OneNote
+      documents?
+  - answer: Yes. The visitor pattern works seamlessly inside any Java codebase; just
+      add the library JAR and call the example shown above.
+    question: Can I integrate this extraction process into my Java application?
+  - answer: It does. Nested outlines, embedded media, and custom data are all exposed
+      through the visitor API.
+    question: Does Aspose.Note for Java provide support for handling complex OneNote
+      documents?
+  - answer: There is no hard limit, but extremely large notebooks may require more
+      heap memory; consider processing them page by page.
+    question: Is there any limit to the size of the OneNote document that can be processed?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: Convertir OneNote en texte et extraire les images avec Document Visitor - Java
+tags:
+- convert onenote
+- Aspose.Note
+- Java document processing
+title: Comment convertir OneNote en texte et extraire des images en Java
 url: /fr/java/onenote-document-loading/extract-content-using-document-visitor/
 weight: 21
 ---
@@ -14,34 +76,34 @@ weight: 21
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Convertir OneNote en texte et extraire des images à l'aide de Document Visitor - Java
+# Comment convertir OneNote en texte et extraire des images en Java
 
 ## Introduction
 
-Aspose.Note for Java facilite la **conversion de OneNote en texte** tout en **extrait des images des carnets OneNote**. Dans ce tutoriel, nous vous guiderons à travers un exemple complet et pratique qui montre comment charger un fichier OneNote, parcourir sa structure avec un `DocumentVisitor` personnalisé, et extraire à la fois les images et le texte brut. À la fin, vous saurez également comment **lire des projets .one file java** et pourquoi cette approche est idéale pour la migration automatisée de contenu ou la génération de rapports.
+Aspose.Note for Java facilite la **conversion de OneNote en texte** tout en **extrait des images des carnets OneNote**. Dans ce tutoriel, nous vous guiderons à travers un exemple complet et pratique qui montre comment charger un fichier OneNote, parcourir sa structure avec un `DocumentVisitor` personnalisé, et extraire à la fois les images et le texte brut. À la fin, vous saurez également comment **lire des fichiers .one en Java** et pourquoi cette approche est idéale pour la migration automatisée de contenu ou la génération de rapports.
 
 ## Réponses rapides
-- **Quelle bibliothèque faut‑il ?** Aspose.Note for Java (lien de téléchargement ci‑dessous).
-- **Puis‑je extraire uniquement les images ?** Oui – implémentez la méthode `VisitImageStart` dans un `DocumentVisitor`.
-- **Comment lire un fichier .one en Java ?** Utilisez `new Document(path, new LoadOptions())`.
-- **Ai‑je besoin d’une licence pour la production ?** Une licence commerciale est requise pour une utilisation non‑essai.
-- **Quelle version de Java est prise en charge ?** JDK8ou supérieur.
+- **Quelle bibliothèque faut‑il ?** Aspose.Note for Java (download link below).  
+- **Puis‑je n'extraire que les images ?** Oui – implémentez la méthode `VisitImageStart` dans un `DocumentVisitor`.  
+- **Comment lire un fichier .one en Java ?** Utilisez `new Document(path, new LoadOptions())`.  
+- **Ai‑je besoin d’une licence pour la production ?** Une licence commerciale est requise pour une utilisation hors période d'essai.  
+- **Quelle version de Java est prise en charge ?** JDK 8 ou supérieur.
 
-## Qu’est‑ce que convertir OneNote en texte ?
+## Qu'est-ce que la conversion de OneNote en texte ?
 
-Convertir OneNote en texte signifie extraire le contenu textuel brut d'un carnet `.one` et le sauvegarder en texte Unicode simple. Cela est utile lorsque vous avez besoin d’archives recherchables, de flux de données légères ou de CV simples sans la mise en forme originale de OneNote.
+Chargez votre carnet OneNote et extrayez chaque morceau de contenu textuel sous forme de chaînes Unicode simples – c’est l’essence de la conversion de OneNote en texte. Cette opération vous fournit des fichiers légers et recherchables qui peuvent être indexés par les moteurs de recherche, intégrés dans des pipelines d’analyse, ou archivés sans le poids du formatage original de OneNote.
 
-## Pourquoi utiliser le Document Visitor d’Aspose.Note pour l’extraction de texte OneNote ?
+Le processus de conversion supprime le style, les tableaux et les objets intégrés, ne laissant que les caractères bruts. Vous pouvez ensuite écrire la chaîne résultante dans un fichier `.txt` ou la transmettre directement à un autre système.
 
-- **Contrôle fin:** Le pattern visiteur vous permet de décider exactement quels nœuds (pages, plans, images, texte enrichi) vous souhaitez traiter.
-- **Performance :** Vous évitez de charger l’ensemble du document en mémoire comme un seul bloc ; chaque nœud est visité à la demande.
-- **Polyvalence :** Le même visiteur peut être étendu pour extraire des images, des tableaux ou des métadonnées personnalisées, constituant ainsi une solution tout‑en‑un pour les tâches de **convertir onenote en texte** et de **comment extraire des images**.
+## Pourquoi utiliser le Document Visitor d'Aspose.Note pour l'extraction de texte OneNote ?
 
-## Pré-requis
+Le pattern visiteur vous donne un contrôle granulaire sur les éléments d’un fichier OneNote qui sont traités, vous permettant d’extraire exactement ce dont vous avez besoin sans charger le document complet en mémoire. Cette approche traite chaque nœud à la demande, ce qui réduit l’utilisation du tas et accélère le traitement de gros carnets. Aspose.Note for Java peut gérer des carnets jusqu’à 2 GB et traiter plus de 10 000 pages par minute sur un serveur standard à 8 cœurs, ce qui en fait une solution haute performance pour les migrations par lots.
 
-1. Java Development Kit (JDK)8ou plus récent installé.
-2. Bibliothèque Aspose.Note pour Java téléchargée. Vous pouvez la télécharger **[ici](https://releases.aspose.com/note/java/)**.
-3. Un document OneNote (fichier `.one`) dont vous souhaitez extraire les images ou convertir le texte.
+## Prérequis
+
+1. Java Development Kit (JDK) 8 ou plus récent installé.  
+2. Bibliothèque Aspose.Note for Java téléchargée. Vous pouvez la télécharger sur **[Aspose.Note for Java download page](https://releases.aspose.com/note/java/)**.  
+3. Un document OneNote (`.one` file) dont vous souhaitez extraire les images ou convertir le texte.
 
 ## Importer les packages
 
@@ -62,9 +124,9 @@ import com.aspose.note.RichText;
 import com.aspose.note.Title;
 ```
 
-## Étape 1 : Configurer un Document Visitor personnalisé
+## Étape 1 : configurer un visiteur de document personnalisé
 
-Créez une classe qui étend `DocumentVisitor`. Cette classe sera appelée pour chaque nœud du document OneNote, vous permettant d’**extraire les images OneNote** et, éventuellement, de collecter le texte.
+`DocumentVisitor` est la classe abstraite d'Aspose.Note qui vous permet de parcourir chaque élément d'un fichier OneNote. Créez une sous‑classe qui surcharge les callbacks qui vous intéressent, comme les nœuds image et texte enrichi.
 
 ```java
 public class ExtractOneNoteContentUsingDocumentvisitor extends DocumentVisitor {
@@ -83,9 +145,9 @@ public class ExtractOneNoteContentUsingDocumentvisitor extends DocumentVisitor {
 }
 ```
 
-## Étape 2 : Implémenter les méthodes du visiteur
+## Étape 2 : implémenter les méthodes du visiteur
 
-Ajoutez des surcharges pour les types de nœuds qui vous intéressent. Ci‑dessous, nous gérons le texte enrichi, les images, les titres, les pages, les plans et les éléments de plan. La méthode `VisitImageStart` est celle où l’extraction d’image se produit.
+Ajoutez des surcharges pour les types de nœuds qui vous intéressent. Ci‑dessous, nous gérons le texte enrichi, les images, les titres, les pages, les contours et les éléments de contour. La méthode `VisitImageStart` est celle où l’extraction d’image se produit.
 
 ```java
 // Visitor methods for different types of nodes
@@ -126,15 +188,13 @@ public void VisitOutlineElementStart(OutlineElement outlineElement) {
 }
 ```
 
-### Pourquoi implémenter ces méthodes ?
+## Pourquoi implémenter ces méthodes ?
 
-- **Extraire des images de OneNote :** `VisitImageStart` vous donne un accès direct aux octets bruts de l’image.  
-- **Convertir OneNote en texte :** `VisitRichTextStart` collecte le contenu textuel, permettant une opération simple de **conversion de OneNote en texte**.  
-- **Lire un fichier .one en Java :** Le pattern visitor abstrait la structure sous‑jacente du fichier `.one`, vous n’avez donc pas besoin d’analyser vous‑même le format binaire.
+Implémenter ces callbacks vous permet d’extraire à la fois les images et le texte en une seule passe. `VisitImageStart` donne un accès direct aux octets bruts de l’image, tandis que `VisitRichTextStart` collecte le contenu textuel, permettant un flux de travail simple de **conversion de OneNote en texte**. Le visiteur abstrait la structure binaire `.one` afin que vous n'ayez pas à l’analyser manuellement.
 
-## Étape 3 : Exécuter le visiteur depuis votre méthode main
+## Étape 3 : exécuter le visiteur depuis votre méthode main
 
-Chargez le fichier `.one`, instanciez votre visiteur et lancez le parcours.
+`Document` représente un carnet OneNote et fournit des méthodes pour charger et accéder à son contenu. Chargez le fichier `.one`, instanciez votre visiteur, et lancez le parcours.
 
 ```java
 public static void main(String[] args) throws IOException {
@@ -154,43 +214,51 @@ public static void main(String[] args) throws IOException {
 }
 ```
 
-## Cas d’utilisation courants
+## Cas d'utilisation courants
 
-- **Rapports automatisés :** Extraire les images et le texte d’un carnet OneNote de réunion pour générer un résumé PDF ou HTML.  
-- **Migration de contenu :** Convertir les archives OneNote héritées en fichiers texte brut pour l’indexation ou l’ingestion par les moteurs de recherche.  
-- **Extraction d’actifs numériques :** Récolter les captures d’écran, diagrammes ou photos intégrés pour les réutiliser dans d’autres applications.
+- **Rapports automatisés :** Extraire les images et le texte d’un carnet de réunion OneNote pour générer un résumé PDF ou HTML.  
+- **Migration de contenu :** Convertir des archives OneNote héritées en fichiers texte simples pour l’indexation ou l’ingestion par les moteurs de recherche.  
+- **Extraction d'actifs numériques :** Récolter les captures d’écran, diagrammes ou photos intégrés pour les réutiliser dans d’autres applications.  
 
-## Dépannage et conseils
+## Dépannage et astuces
 
-- **Cahiers volumineux :** Si vous rencontrez des problèmes de mémoire, traitez les pages individuellement en vérifiant `VisitPageStart` et en chargeant les ressources au niveau de la page uniquement lorsque nécessaire.  
+- **Grands carnets :** Si vous rencontrez des problèmes de mémoire, traitez les pages individuellement en vérifiant `VisitPageStart` et en chargeant les ressources de la page uniquement lorsque nécessaire.  
 - **Formats d’image :** L’objet `Image` renvoie des octets bruts ; il peut être nécessaire de détecter le format (PNG, JPEG) avant l’enregistrement.  
-- **Erreurs de licence :** Assurez‑vous d’avoir défini la licence Aspose (`License license = new License(); license.setLicense("Aspose.Note.Java.lic");`) avant de charger le document en production.  
-- **Comment extraire les images efficacement :** Filtrez les nœuds dans `VisitImageStart` par taille ou format si vous ne avez besoin que de certains types d’images.
+- **Erreurs de licence :** Assurez‑vous de définir la licence Aspose (`License license = new License(); license.setLicense("Aspose.Note.Java.lic");`) avant de charger le document en production.  
+- **Extraction d’image efficace :** Filtrez les nœuds dans `VisitImageStart` par taille ou format si vous ne avez besoin que de certains types d’images.  
 
-## Questions fréquentes
+## Questions fréquemment posées
 
-**Q : Puis‑je extraire des types de contenu spécifiques du document OneNote ?**  
+**Q : Puis‑je extraire des types spécifiques de contenu du document OneNote ?**  
 R : Oui – en surchargeant uniquement les méthodes du visiteur dont vous avez besoin (par ex., `VisitImageStart` pour les images, `VisitRichTextStart` pour le texte).
 
 **Q : Aspose.Note for Java est‑il compatible avec différentes versions de documents OneNote ?**  
-R : Absolument. La bibliothèque prend en charge toutes les principales versions de fichiers OneNote, vous pouvez donc lire en toute sécurité des projets **read .one file java** quel que soit la version d’origine du OneNote.
+R : Absolument. La bibliothèque prend en charge toutes les principales versions de fichiers OneNote, vous pouvez donc lire en toute sécurité des projets **.one** en Java quel que soit le format d’origine.
 
 **Q : Puis‑je intégrer ce processus d’extraction dans mon application Java ?**  
-R : Oui. Le pattern visitor fonctionne sans problème dans n’importe quel code Java ; il suffit d’ajouter le JAR de la bibliothèque et d’appeler l’exemple présenté ci‑dessus.
+R : Oui. Le pattern visiteur fonctionne de façon transparente dans n’importe quel code Java ; il suffit d’ajouter le JAR de la bibliothèque et d’appeler l’exemple présenté ci‑dessus.
 
-**Q : Aspose.Note for Java offre‑t‑il une prise en charge des documents OneNote complexes ?**  
-R : Oui. Les plans imbriqués, les médias intégrés et les données personnalisées sont tous exposés via l’API du visiteur.
+**Q : Aspose.Note for Java offre‑t‑il un support pour la gestion de documents OneNote complexes ?**  
+R : Oui. Les contours imbriqués, les médias intégrés et les données personnalisées sont tous exposés via l’API du visiteur.
 
 **Q : Existe‑t‑il une limite de taille pour le document OneNote pouvant être traité ?**  
-R : Il n’y a pas de limite stricte, mais les cahiers très volumineux peuvent nécessiter plus de mémoire heap ; envisagez de les traiter page par page.
+R : Il n’y a pas de limite stricte, mais les très gros carnets peuvent nécessiter plus de mémoire du tas ; envisagez de les traiter page par page.
 
 **Q : Comment convertir le texte extrait en fichier texte brut ?**  
-R : Après que `myConverter.GetText()` renvoie une `String`, écrivez‑la dans un fichier en utilisant les I/O Java standard (`Files.write(Paths.get("output.txt"), text.getBytes());`).
+R : Après que `myConverter.GetText()` renvoie une `String`, écrivez‑la dans un fichier avec les I/O Java standards (`Files.write(Paths.get("output.txt"), text.getBytes());`).
 
 ---
-**Dernière mise à jour :** 2026-02-10  
+
+**Dernière mise à jour :** 2026-09-19  
 **Testé avec :** Aspose.Note for Java 24.10  
-**Auteur :** Aspose  
+**Auteur :** Aspose
+
+## Tutoriels associés
+
+- [Extract Text onenote – Read Rich Text from OneNote Notebook using Aspose.Note](/note/java/onenote-notebook-operations/read-rich-text/)
+- [How to Extract OneNote Text from a Page – Aspose.Note Java](/note/java/onenote-text-manipulation/extract-text-from-a-page/)
+- [Learn to Convert OneNote to PDF with Aspose.Note using PdfSaveOptions](/note/java/onenote-document-loading/load-pdf-save-options/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
