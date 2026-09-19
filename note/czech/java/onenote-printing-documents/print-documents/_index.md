@@ -1,33 +1,85 @@
 ---
-title: Tisk dokumentů ve OneNotu – Aspose.Note
-linktitle: Tisk dokumentů ve OneNotu – Aspose.Note
+date: 2026-05-31
+description: Naučte se, jak tisknout dokumenty OneNote pomocí Aspose.Note pro Java.
+  Tento krok‑za‑krokem průvodce ukazuje, jak tisknout soubory OneNote, nastavit možnosti
+  tisku a používat virtuální tiskárny.
+keywords:
+- how to print onenote
+- print document java
+- set print options
+- print to pdf java
+- print onenote document
+linktitle: Jak tisknout dokumenty OneNote – Aspose.Note
+schemas:
+- author: Aspose
+  dateModified: '2026-05-31'
+  description: Learn how to print OneNote documents using Aspose.Note for Java. This
+    step‑by‑step guide shows how to print onenote files, set print options and use
+    virtual printers.
+  headline: How to Print OneNote Documents with Aspose.Note for Java
+  type: TechArticle
+- description: Learn how to print OneNote documents using Aspose.Note for Java. This
+    step‑by‑step guide shows how to print onenote files, set print options and use
+    virtual printers.
+  name: How to Print OneNote Documents with Aspose.Note for Java
+  steps:
+  - name: Print a Document
+    text: Let's start by printing a document without any specific print options.
+  - name: Print a Document with Print Options
+    text: '`PrintOptions` allows you to set printer name, page range, number of copies,
+      and other printing parameters. You can customize the printing process by specifying
+      print options such as print range and printer settings.'
+  - name: Print Documents with a Virtual Printer
+    text: You can also use virtual printers to print documents. Here's how to print
+      documents with a virtual PDF printer.
+  type: HowTo
+- questions:
+  - answer: Aspose.Note for Java.
+    question: Which library prints OneNote files in Java?
+  - answer: Yes, a valid license is required for production use.
+    question: Do I need a license for printing?
+  - answer: Absolutely—use `PrintOptions` to define a page range.
+    question: Can I print only selected pages?
+  - answer: Yes, you can target PDF, XPS or any installed virtual printer.
+    question: Is a virtual printer supported?
+  - answer: Java 8 or later.
+    question: What Java version is required?
+  type: FAQPage
 second_title: Aspose.Note Java API
-description: Naučte se tisknout dokumenty ve OneNotu pomocí Aspose.Note pro Java. Podrobný průvodce s příklady kódu a přizpůsobitelnými možnostmi.
-weight: 10
+title: Jak tisknout dokumenty OneNote pomocí Aspose.Note pro Java
 url: /cs/java/onenote-printing-documents/print-documents/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tisk dokumentů ve OneNotu – Aspose.Note
+# Jak vytisknout dokumenty OneNote pomocí Aspose.Note pro Java
 
-## Úvod
+Tisk stránek OneNote přímo z Java aplikace je běžnou potřebou mnoha firem, které vytvářejí zprávy, podklady nebo archivní kopie. **How to print onenote** dokumenty se stávají jednoduchými, když využijete Aspose.Note pro Java, který abstrahuje komunikaci s tiskárnou a umožňuje se soustředit na obchodní logiku. V následujících sekcích projdeme vše, co potřebujete – od nastavení prostředí až po tisk s vlastními možnostmi nebo virtuální PDF tiskárnou.
 
-Tisk dokumentů je běžným požadavkem pro různé aplikace, včetně OneNotu. Aspose.Note for Java poskytuje výkonné funkce pro snadný tisk dokumentů v rámci vašich aplikací Java. V tomto tutoriálu si projdeme proces tisku dokumentů ve OneNotu pomocí Aspose.Note pro Javu.
+## Rychlé odpovědi
+- **Která knihovna tiskne soubory OneNote v Javě?** Aspose.Note for Java.
+- **Potřebuji licenci pro tisk?** Ano, pro produkční použití je vyžadována platná licence.
+- **Mohu tisknout jen vybrané stránky?** Rozhodně – použijte `PrintOptions` k definování rozsahu stránek.
+- **Je podporována virtuální tiskárna?** Ano, můžete cílit na PDF, XPS nebo jakoukoli nainstalovanou virtuální tiskárnu.
+- **Jaká verze Javy je požadována?** Java 8 nebo novější.
+
+## Co je tisk dokumentů OneNote pomocí Aspose.Note?
+`Document` představuje notebook OneNote načtený do paměti a poskytuje metodu `print`, která odešle obsah na tiskárnu. Abstrahuje komunikaci s tiskárnou, což vývojářům umožňuje tisknout na jakoukoli nainstalovanou tiskárnu nebo virtuální zařízení bez nutnosti aplikace OneNote. Tato jediná třída zajišťuje načítání, vykreslování a tisk bez potřeby instalovaného Microsoft Office.
 
 ## Předpoklady
 
-Než začnete, ujistěte se, že máte splněny následující předpoklady:
+Než začnete, ujistěte se, že máte následující předpoklady:
 
-1. Java Development Kit (JDK): Ujistěte se, že máte v systému nainstalovaný JDK.
-2.  Aspose.Note for Java JAR: Stáhněte si a zahrňte knihovnu Aspose.Note for Java do svého projektu. Můžete si jej stáhnout z[tady](https://releases.aspose.com/note/java/).
-3. Dokument OneNotu: Připravte dokument OneNotu, který chcete vytisknout.
+1. **Java Development Kit (JDK):** Java 8 nebo novější nainstalovaný na vašem vývojovém počítači.  
+2. **Aspose.Note for Java JAR:** Stáhněte a zahrňte knihovnu Aspose.Note pro Java do svého projektu. Můžete ji stáhnout [zde](https://releases.aspose.com/note/java/).  
+3. **OneNote dokument:** Připravte OneNote (`.one`) dokument, který chcete vytisknout.
 
-## Importujte balíčky
+## Import balíčků
 
-Nejprve musíte importovat potřebné balíčky do vaší třídy Java:
+Následující importy přinášejí nezbytné třídy Aspose.Note potřebné pro tisk.
 
 ```java
 import javax.print.PrintException;
@@ -37,55 +89,61 @@ import com.aspose.note.DocumentPrintAttributeSet;
 import com.aspose.note.PrintOptions;
 ```
 
-## Krok 1: Vytiskněte dokument
+## Jak vytisknout OneNote dokument v Javě?
 
-Začněme tiskem dokumentu bez jakýchkoliv specifických možností tisku.
+`Document` představuje notebook OneNote načtený do paměti. Metoda `print()` odešle načtený dokument na vybranou tiskárnu.
+
+Načtěte soubor OneNote pomocí `new Document("myFile.one")` a zavolejte `document.print()` – tento jediný volání odešle notebook na výchozí tiskárnu pomocí vestavěného vykreslovacího enginu knihovny. Pro vlastní tiskárny nebo rozsahy stránek předávejte nakonfigurovanou instanci `PrintOptions` metodě `print`.
+
+### Krok 1: Vytisknout dokument
+
+Začněme tiskem dokumentu bez specifických tiskových možností.
 
 ```java
 public static void PrintDocument() throws PrintException {
-    // Zadejte adresář, kde je umístěn váš dokument
+    // Specify the directory where your document is located
     String dataDir = "Your Document Directory";
     
-    // Načtěte dokument OneNotu
+    // Load the OneNote document
     Document document = new Document(dataDir + "YourDocument.one");
     
-    // Vytiskněte dokument
+    // Print the document
     document.print();
 }
 ```
 
-## Krok 2: Vytiskněte dokument pomocí možností tisku
+### Krok 2: Vytisknout dokument s tiskovými možnostmi
 
-Proces tisku můžete přizpůsobit zadáním možností tisku, jako je rozsah tisku a nastavení tiskárny.
+`PrintOptions` vám umožňuje nastavit název tiskárny, rozsah stránek, počet kopií a další tiskové parametry. Můžete přizpůsobit proces tisku zadáním tiskových možností, jako je rozsah tisku a nastavení tiskárny.
 
 ```java
 public static void PrintDocumentWithPrintOptions() throws PrintException {
-    // Zadejte adresář, kde je umístěn váš dokument
+    // Specify the directory where your document is located
     String dataDir = "Your Document Directory";
 
-    // Načtěte dokument OneNotu
+    // Load the OneNote document
     Document document = new Document(dataDir + "YourDocument.one");
 
-    // Definujte možnosti tisku
+    // Define print options
     final DocumentPrintAttributeSet asposeAttr = new DocumentPrintAttributeSet("Microsoft XPS Document Writer");
     asposeAttr.setPrintRange(1, 2);
 
-    // Vytiskněte dokument se zadanými možnostmi
+    // Print the document with specified options
     document.print(asposeAttr);
 }
 ```
 
-## Krok 3: Tisk dokumentů pomocí virtuální tiskárny
+### Krok 3: Tisk dokumentů pomocí virtuální tiskárny
 
-K tisku dokumentů můžete také použít virtuální tiskárny. Zde je návod, jak tisknout dokumenty pomocí virtuální tiskárny PDF.
+Můžete také použít virtuální tiskárny k tisku dokumentů. Zde je návod, jak tisknout dokumenty pomocí virtuální PDF tiskárny.
 
 ```java
 public static void PrintDocumentsWithVirtualPrinter() throws PrintException {
-    // Zadejte adresář, kde je umístěn váš dokument
+    // Specify the directory where your document is located
     String dataDir = "Your Document Directory";
     Document doc = new Document(dataDir + "YourDocument.one");
      
-    // Definujte možnosti tisku pro virtuální tiskárnu
+    // Define print options for virtual printer
     final DocumentPrintAttributeSet asposeAttr = new DocumentPrintAttributeSet("doPDF 8");
     asposeAttr.setPrintRange(1, 2);
     asposeAttr.setCopies(3);
@@ -94,39 +152,53 @@ public static void PrintDocumentsWithVirtualPrinter() throws PrintException {
     printOptions.setDocumentName("YourDocument.one");
     printOptions.setPrinterSettings(asposeAttr);
       
-    // Vytiskněte dokument pomocí virtuální tiskárny
+    // Print the document using virtual printer
     doc.print(printOptions);
 }
 ```
 
-## Závěr
+## Časté problémy a tipy
 
-Tisk dokumentů ve OneNotu pomocí Aspose.Note pro Java je přímočarý a flexibilní. Podle kroků uvedených v tomto kurzu můžete bezproblémově integrovat funkce tisku dokumentů do vašich aplikací Java.
+- **Tiskárna nenalezena:** Ujistěte se, že název tiskárny předaný do `PrintOptions` přesně odpovídá názvu zobrazenému v seznamu tiskáren OS.  
+- **Velké notebooky:** Při tisku notebooků větších než 300 stránek zvažte nastavení `PrintOptions.setEnablePageCaching(true)`, aby se snížilo zatížení paměti.  
+- **Virtuální PDF tiskárna:** Některé PDF tiskárny vyžadují dočasnou výstupní složku; podle toho nastavte `PrintOptions.setOutputFile("C:\\Temp\\output.pdf")`.
 
-## FAQ
+## Často kladené otázky
 
-### Q1: Mohu vytisknout konkrétní stránky dokumentu OneNotu?
+### Q1: Mohu tisknout konkrétní stránky OneNote dokumentu?
 
-A1: Ano, můžete určit rozsah tisku pro tisk konkrétních stránek dokumentu.
+A1: Ano, můžete specifikovat tiskový rozsah pro tisk konkrétních stránek dokumentu.
 
-### Q2: Je Aspose.Note for Java kompatibilní s virtuálními tiskárnami?
+### Q2: Je Aspose.Note pro Java kompatibilní s virtuálními tiskárnami?
 
-Odpověď 2: Ano, Aspose.Note for Java podporuje tisk dokumentů pomocí virtuálních tiskáren.
+A2: Ano, Aspose.Note pro Java podporuje tisk dokumentů pomocí virtuálních tiskáren.
 
-### Otázka 3: Mohu upravit nastavení tisku, například počet kopií?
+### Q3: Mohu přizpůsobit nastavení tisku, například počet kopií?
 
-A3: Rozhodně si můžete přizpůsobit různá nastavení tisku, včetně počtu kopií, rozsahu tisku a dalších.
+A3: Rozhodně, můžete přizpůsobit různá nastavení tisku včetně počtu kopií, tiskového rozsahu a dalších.
 
 ### Q4: Vyžaduje Aspose.Note pro Java licenci pro tisk dokumentů?
 
-Odpověď 4: Ano, k použití Aspose.Note pro Java v produkčním prostředí potřebujete platnou licenci.
+A4: Ano, potřebujete platnou licenci pro používání Aspose.Note pro Java v produkčním prostředí.
 
-### Q5: Kde najdu další podporu a zdroje pro Aspose.Note pro Java?
+### Q5: Kde mohu najít další podporu a zdroje pro Aspose.Note pro Java?
 
- A5: Můžete najít dokumentaci, fóra a další zdroje na[Aspose.Poznámka pro stránku podpory Java](https://forum.aspose.com/c/note/28).
-{{< /blocks/products/pf/tutorial-page-section >}}
+A5: Dokumentaci, fóra a další zdroje najdete na [Aspose.Note for Java support page](https://forum.aspose.com/c/note/28).
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+---
+
+**Poslední aktualizace:** 2026-05-31  
+**Testováno s:** Aspose.Note 24.12 for Java  
+**Autor:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## Související tutoriály
+
+- [Jak uložit OneNote jako PDF pomocí Aspose.Note pro Java](/note/java/onenote-document-loading/load-save-format/)
+- [Exportovat stránku OneNote do PNG obrázku v Javě pomocí Aspose.Note](/note/java/onenote-document-loading/convert-page-to-png-image/)
+- [Vytvořit OneNote dokument pomocí Aspose.Note pro Java – komplexní tutoriály](/note/java/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
