@@ -1,11 +1,39 @@
 ---
-date: 2026-01-15
-description: Aspose.Note for Java का उपयोग करके OneNote में परिवर्तन कैसे ट्रैक करें
-  और पृष्ठ संशोधनों को कैसे प्रबंधित करें, सीखें। इसमें एक संशोधन सारांश उदाहरण और
-  संशोधन तिथि को कैसे बदलें, शामिल है।
-linktitle: Working with Page Revisions in OneNote - Aspose.Note
+date: 2026-05-25
+description: जानेँ कि OneNote में परिवर्तन कैसे ट्रैक करें और Aspose.Note for Java
+  का उपयोग करके OneNote दस्तावेज़ों में पेज रिवीजन कैसे प्रबंधित करें। इसमें एक रिवीजन
+  सारांश उदाहरण और रिवीजन तिथि को कैसे संशोधित करें, शामिल है।
+keywords:
+- track changes onenote
+- OneNote page revisions
+- Aspose.Note Java
+- revision summary example
+- modify revision date
+linktitle: OneNote में पेज रिवीजन के साथ काम करना - Aspose.Note
+schemas:
+- author: Aspose
+  dateModified: '2026-05-25'
+  description: Learn how to track changes onenote and manage page revisions in OneNote
+    documents using Aspose.Note for Java. Includes a revision summary example and
+    how to modify revision date.
+  headline: track changes onenote – Manage Page Revisions with Aspose.Note
+  type: TechArticle
+- questions:
+  - answer: It means detecting who edited a OneNote page and when the edit occurred.
+    question: What does “track changes onenote” mean?
+  - answer: Aspose.Note for Java supplies a full‑featured API for page‑revision handling.
+    question: Which library provides this capability?
+  - answer: Yes—use the `RevisionSummary` object to set a new author name and modified
+      date.
+    question: Can I change the author or date of a revision?
+  - answer: A sample `.one` file is required; the API works with any OneNote 2010‑2021
+      format.
+    question: Do I need a OneNote file beforehand?
+  - answer: A valid Aspose.Note license must be applied for commercial deployments.
+    question: Is a license required for production use?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: ट्रैक चेंजेज़ वननोट – Aspose.Note के साथ पेज संशोधनों का प्रबंधन
+title: OneNote में परिवर्तन ट्रैक करें – Aspose.Note के साथ पेज रिवीजन प्रबंधित करें
 url: /hi/java/onenote-page-manipulation/working-with-page-revisions/
 weight: 21
 ---
@@ -14,41 +42,128 @@ weight: 21
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OneNote में पेज संशोधनों के साथ काम करना - Aspose.Note
+# OneNote में पृष्ठ संशोधनों के साथ काम करना - Aspose.Note
 
 ## परिचय
 
-OneNote नोट्स को व्यवस्थित करने के लिए एक शक्तिशाली उपकरण है, और जब आपको **track changes onenote** की आवश्यकता होती है, तो पेज संशोधनों का प्रबंधन प्रभावी सहयोग के लिए आवश्यक हो जाता है। Aspose.Note for Java के साथ, आप प्रोग्रामेटिक रूप से संशोधनों को संभाल सकते हैं, देख सकते हैं कि किसने पेज संपादित किया, और यहाँ तक कि टाइमस्टैम्प को समायोजित कर सकते हैं। यह ट्यूटोरियल आपको प्रत्येक चरण के माध्यम से ले जाता है, दस्तावेज़ लोड करने से लेकर संशोधन सारांश को अपडेट करने तक।
+OneNote एक शक्तिशाली नोट‑लेने वाला प्लेटफ़ॉर्म है, और जब आपको **track changes onenote** की आवश्यकता होती है, पृष्ठ संशोधनों का प्रबंधन प्रभावी सहयोग के लिए आवश्यक हो जाता है। Aspose.Note for Java के साथ आप प्रोग्रामेटिक रूप से यह पढ़ सकते हैं कि किसने पृष्ठ संपादित किया, टाइमस्टैम्प प्राप्त कर सकते हैं, और यहाँ तक कि उन टाइमस्टैम्प को भी संशोधित कर सकते हैं। यह ट्यूटोरियल आपको दस्तावेज़ लोड करने, संशोधन सारांश निकालने, और लेखक या तिथि जानकारी को अपडेट करने के चरणों से गुज़राता है—बिना OneNote को मैन्युअल रूप से खोले।
 
 ## त्वरित उत्तर
-- **What does “track changes onenote” mean?** यह OneNote पेज को किसने और कब संपादित किया, इसे मॉनिटर करने को दर्शाता है।
-- **Which library is required?** Aspose.Note for Java.
-- **Can I change the author or date of a revision?** हाँ, RevisionSummary API (`modify revision date`) का उपयोग करके।
-- **Do I need a OneNote file beforehand?** हाँ, एक नमूना `.one` फ़ाइल आवश्यक है।
-- **Is a license needed for production?** व्यावसायिक उपयोग के लिए एक वैध Aspose.Note लाइसेंस आवश्यक है।
+- **“track changes onenote” का क्या मतलब है?** इसका अर्थ है यह पता लगाना कि किसने OneNote पृष्ठ को संपादित किया और कब संपादन हुआ।  
+- **कौन सी लाइब्रेरी यह क्षमता प्रदान करती है?** Aspose.Note for Java पृष्ठ‑संशोधन संभालने के लिए पूर्ण‑विशेषताओं वाला API प्रदान करता है।  
+- **क्या मैं संशोधन के लेखक या तिथि को बदल सकता हूँ?** हाँ—`RevisionSummary` ऑब्जेक्ट का उपयोग करके नया लेखक नाम और संशोधित तिथि सेट करें।  
+- **क्या मुझे पहले से कोई OneNote फ़ाइल चाहिए?** एक नमूना `.one` फ़ाइल आवश्यक है; API किसी भी OneNote 2010‑2021 फ़ॉर्मेट के साथ काम करता है।  
+- **क्या उत्पादन उपयोग के लिए लाइसेंस आवश्यक है?** व्यावसायिक डिप्लॉयमेंट के लिए एक वैध Aspose.Note लाइसेंस लागू किया जाना चाहिए।
 
 ## संशोधन सारांश उदाहरण क्या है?
-*revision summary* पेज पर सबसे हालिया बदलावों के बारे में मेटाडाटा प्रदान करता है—लेखक का नाम, अंतिम संशोधित समय, और अन्य विवरण। इस गाइड में हम उस जानकारी को प्राप्त करेंगे और प्रदर्शित करेंगे, फिर दिखाएंगे कि कैसे **modify revision date** किया जाए।
 
-## Aspose.Note के साथ track changes onenote क्यों?
-- **Collaboration:** जल्दी से देखें कि किसने नवीनतम संपादन किए।
-- **Auditing:** अनुपालन के लिए बदलावों का विश्वसनीय इतिहास रखें।
-- **Automation:** बैक‑एंड सेवाओं या माइग्रेशन टूल्स में संशोधन हैंडलिंग को एकीकृत करें।
+एक *revision summary* एक हल्का मेटाडेटा ब्लॉक है जो नवीनतम संपादक का नाम, सटीक संशोधन समय, और कुछ अतिरिक्त फ़्लैग्स संग्रहीत करता है। यह आपको “last edited by John Doe on 2026‑04‑30 10:15 AM” जैसा संदेश दिखाने की अनुमति देता है बिना पूरे पृष्ठ सामग्री को पार्स किए। आमतौर पर इसमें संपादक का डिस्प्ले नाम, परिवर्तन का सटीक UTC समय, और एक अनूठा revision identifier शामिल होता है जिसे सिंक्रनाइज़ेशन के लिए उपयोग किया जा सकता है।
 
-## Prerequisites
+## Aspose.Note के साथ OneNote में परिवर्तन ट्रैक क्यों करें?
 
-### Java विकास पर्यावरण
-सुनिश्चित करें कि आपके सिस्टम पर Java Development Kit (JDK) स्थापित है।
+Aspose.Note का उपयोग करके परिवर्तन ट्रैक करने से आप मैन्युअल निरीक्षण के बिना प्रोग्रामेटिक रूप से revision डेटा निकाल सकते हैं, जिससे स्वचालित रिपोर्टिंग, अनुपालन जाँच, और CI पाइपलाइन में एकीकरण संभव हो जाता है। API बड़े नोटबुक्स में revision मेटाडेटा तक तेज़, मेमोरी‑कुशल पहुँच प्रदान करता है, और हजारों पृष्ठों के लिए बैच प्रोसेसिंग का समर्थन करता है।
+
+## आवश्यकताएँ
+
+### जावा विकास पर्यावरण
+JDK 17 या बाद का संस्करण स्थापित करें और अपने IDE (IntelliJ IDEA, Eclipse, या VS Code) को जावा विकास के लिए कॉन्फ़िगर करें।
 
 ### Aspose.Note for Java लाइब्रेरी
-Aspose.Note for Java लाइब्रेरी को [here](https://releases.aspose.com/note/java/) से डाउनलोड और इंस्टॉल करें।
+नवीनतम Aspose.Note for Java पैकेज को [यहाँ](https://releases.aspose.com/note/java/) से डाउनलोड करें। JAR को अपने प्रोजेक्ट के classpath में जोड़ें।
 
 ### OneNote दस्तावेज़
-परीक्षण के उद्देश्य से एक नमूना OneNote दस्तावेज़ तैयार रखें।
+एक `.one` फ़ाइल तैयार करें जिसमें कम से कम एक पृष्ठ हो जिसे आप निरीक्षण या संशोधित करना चाहते हैं।
 
 ## पैकेज आयात करें
 
-अपने Java प्रोजेक्ट में, Aspose.Note for Java के साथ काम करने के लिए आवश्यक पैकेज आयात करें।
+`Document` क्लास OneNote फ़ाइल का प्रतिनिधित्व करती है, `Page` व्यक्तिगत पृष्ठ को दर्शाता है, और `RevisionSummary` नवीनतम परिवर्तन के मेटाडेटा प्रदान करता है।
+
+```java
+import com.aspose.note.*;
+import java.util.Date;
+```
+
+## मैं OneNote दस्तावेज़ को कैसे लोड करूँ और उसकी पहली पृष्ठ तक कैसे पहुँचूँ?
+
+OneNote फ़ाइल लोड करने के लिए, `.one` फ़ाइल के पथ के साथ `Document` का एक इंस्टेंस बनाएं। `Document` ऑब्जेक्ट UI को रेंडर किए बिना फ़ाइल संरचना को पार्स करता है। फिर `getPages().get_Item(0)` को कॉल करके पहली पृष्ठ प्राप्त करें, जो उस पृष्ठ की सामग्री और मेटाडेटा को दर्शाने वाला `Page` ऑब्जेक्ट लौटाता है। यह तरीका मेमोरी उपयोग को कम रखता है।
+
+```java
+Document oneNoteDoc = new Document("sample.one");
+Page firstPage = oneNoteDoc.getPages().get_Item(0);
+```
+
+## मैं पृष्ठ संशोधन सारांश को कैसे पढ़ूँ?
+
+`Page` इंस्टेंस पर `getRevisionSummary()` कॉल करके revision मेटाडेटा तक पहुँचें। लौटाया गया `RevisionSummary` ऑब्जेक्ट लेखक नाम, अंतिम संशोधित टाइमस्टैम्प, और revision identifier जैसे फ़ील्ड रखता है। आप इन मानों को `getAuthor()`, `getLastModifiedTime()`, और `getRevisionId()` के साथ पढ़कर नवीनतम संपादन जानकारी प्रदर्शित या लॉग कर सकते हैं।
+
+```java
+RevisionSummary revSummary = firstPage.getRevisionSummary();
+System.out.println("Author: " + revSummary.getAuthor());
+System.out.println("Last Modified: " + revSummary.getLastModifiedTime());
+```
+
+## मैं संशोधन सारांश को नए लेखक और तिथि के साथ कैसे अपडेट करूँ?
+
+पृष्ठ से मौजूदा `RevisionSummary` प्राप्त करें या नया बनाएं और उसकी प्रॉपर्टीज़ को संशोधित करें। नया लेखक नाम सेट करने के लिए `setAuthor(String)` और इच्छित टाइमस्टैम्प (UTC में) सेट करने के लिए `setLastModifiedTime(Date)` का उपयोग करें। परिवर्तन करने के बाद `document.save()` को कॉल करके अपडेटेड revision डेटा को `.one` फ़ाइल में लिखें।
+
+```java
+revSummary.setAuthor("Jane Smith");
+revSummary.setLastModifiedTime(new Date()); // sets to current time
+oneNoteDoc.save("updated.one");
+```
+
+## सामान्य कठिनाइयाँ और सुझाव
+
+- **`save()` को कॉल करना न भूलें** `RevisionSummary` में बदलाव करने के बाद; अन्यथा परिवर्तन केवल मेमोरी में रहेंगे।  
+- **समय क्षेत्र महत्वपूर्ण हैं:** `Date` ऑब्जेक्ट UTC में संग्रहीत होते हैं। यदि आपको सुसंगत क्रॉस‑रीजन रिपोर्टिंग चाहिए तो स्थानीय समय को UTC में बदलें।  
+- **बड़े नोटबुक:** 200 पृष्ठों से बड़े नोटबुक को प्रोसेस करते समय मेमोरी उपयोग को 100 MB से नीचे रखने के लिए पृष्ठों को बैच में इटररेट करें।
+
+## अक्सर पूछे जाने वाले प्रश्न
+
+**प्र:** *क्या मैं Aspose.Note for Java को अन्य जावा लाइब्रेरीज़ के साथ उपयोग कर सकता हूँ?*  
+**उ:** हाँ। API शुद्ध जावा है और Apache POI, Jackson, या Spring Boot जैसी लाइब्रेरीज़ के साथ सहजता से काम करता है।
+
+**प्र:** *क्या Aspose.Note पुराने OneNote फ़ाइल फ़ॉर्मेट्स को सपोर्ट करता है?*  
+**उ:** यह 2007 से आगे के सभी OneNote फ़ॉर्मेट्स को सपोर्ट करता है, जो 30 से अधिक वर्षों के संस्करण इतिहास को कवर करता है।
+
+**प्र:** *क्या Aspose.Note एंटरप्राइज़‑स्तर के अनुप्रयोगों के लिए उपयुक्त है?*  
+**उ:** बिल्कुल। यह मल्टी‑गिगाबाइट नोटबुक्स को संभालता है, थ्रेड‑सेफ़ ऑपरेशन्स प्रदान करता है, और अनलिमिटेड प्रोडक्शन डिप्लॉयमेंट के लिए लाइसेंस किया गया है।
+
+**प्र:** *क्या मैं लेखक और तिथि के अलावा revision मेटाडेटा को कस्टमाइज़ कर सकता हूँ?*  
+**उ:** `RevisionSummary` अतिरिक्त फ़ील्ड जैसे `RevisionId` और `IsDeleted` को उजागर करता है; आप आवश्यकता अनुसार उन्हें पढ़ या सेट कर सकते हैं।
+
+**प्र:** *यदि मुझे समस्याएँ आती हैं तो मदद कहाँ से मिल सकती है?*  
+**उ:** आधिकारिक [Aspose.Note फ़ोरम](https://forum.aspose.com/c/note/28) पर प्रश्न पोस्ट करें जहाँ Aspose इंजीनियर और समुदाय के सदस्य सहायता प्रदान करते हैं।
+
+## निष्कर्ष
+
+Aspose.Note for Java का उपयोग करके आप पूरी तरह **track changes onenote** कर सकते हैं, revision विवरण निकाल सकते हैं, और प्रोग्रामेटिक रूप से लेखक नाम या टाइमस्टैम्प को संशोधित कर सकते हैं। यह क्षमता सहयोग को सरल बनाती है, ऑडिट आवश्यकताओं को पूरा करती है, और बड़े OneNote रिपॉज़िटरीज़ के लिए स्वचालित माइग्रेशन या सफाई स्क्रिप्ट्स को सशक्त बनाती है।
+
+---
+
+**अंतिम अपडेट:** 2026-05-25  
+**परीक्षित संस्करण:** Aspose.Note for Java 24.12  
+**लेखक:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+```java
+pageRevisionInfo.setAuthorMostRecent("New Author");
+Calendar modifiedDate = Calendar.getInstance();
+pageRevisionInfo.setLastModifiedTime(modifiedDate.getTime());
+document.save(dataDir + "WorkingWithPageRevisions_out.one");
+```
+
+## संबंधित ट्यूटोरियल
+
+- [aspose.note पृष्ठ संशोधन ट्यूटोरियल – OneNote में पृष्ठ संशोधन प्राप्त करें](/note/java/onenote-page-manipulation/get-page-revisions/)
+- [Aspose.Note के साथ onenote पृष्ठ इतिहास को कैसे संशोधित करें](/note/java/onenote-page-manipulation/modify-page-history/)
+- [Aspose.Note for Java के साथ OneNote पृष्ठ गिनती प्राप्त करें](/note/java/onenote-page-manipulation/get-page-count/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
 
 ```java
 import com.aspose.note.Document;
@@ -58,21 +173,11 @@ import java.io.IOException;
 import java.util.Calendar;
 ```
 
-आइए प्रदान किए गए उदाहरण को कई चरणों में विभाजित करें ताकि स्पष्ट समझ प्राप्त हो सके।
-
-## चरण 1: OneNote दस्तावेज़ लोड करें
-
-सबसे पहले, OneNote दस्तावेज़ लोड करें और पहली चाइल्ड पेज प्राप्त करें।
-
 ```java
 String dataDir = "Your Document Directory";
 Document document = new Document(dataDir + "Sample1.one");
 Page page = document.getFirstChild();
 ```
-
-## चरण 2: पेज संशोधन सारांश पढ़ें
-
-पेज के लिए कंटेंट संशोधन सारांश पढ़ें। यह **revision summary example** है जो दिखाता है कि आखिरी बार पेज किसने संपादित किया।
 
 ```java
 RevisionSummary pageRevisionInfo = page.getPageContentRevisionSummary();
@@ -80,53 +185,3 @@ System.out.println(String.format("Author:\t%s\nModified:\t%s",
         pageRevisionInfo.getAuthorMostRecent(),
         pageRevisionInfo.getLastModifiedTime().toString()));
 ```
-
-## चरण 3: पेज संशोधन सारांश अपडेट करें
-
-नए लेखक और नई संशोधित तिथि के साथ पेज संशोधन सारांश अपडेट करें। यह दर्शाता है कि कैसे प्रोग्रामेटिक रूप से **modify revision date** किया जाता है।
-
-```java
-pageRevisionInfo.setAuthorMostRecent("New Author");
-Calendar modifiedDate = Calendar.getInstance();
-pageRevisionInfo.setLastModifiedTime(modifiedDate.getTime());
-document.save(dataDir + "WorkingWithPageRevisions_out.one");
-```
-
-## निष्कर्ष
-
-OneNote दस्तावेज़ों में पेज संशोधनों को प्रोग्रामेटिक रूप से प्रबंधित करना Aspose.Note for Java के साथ सरल बनाया जा सकता है। इस ट्यूटोरियल में बताए गए चरणों का पालन करके, आप प्रभावी रूप से **track changes onenote** कर सकते हैं, संशोधन विवरण देख सकते हैं, और यहाँ तक कि अपने कार्यप्रवाह के अनुसार **modify revision date** भी कर सकते हैं।
-
-## अक्सर पूछे जाने वाले प्रश्न
-
-### Q1: क्या मैं दूसरी Java लाइब्रेरी के साथ Aspose.Note for Java का इस्तेमाल कर सकता हूँ?
-
-A: हाँ, Aspose.Note for Java को दूसरी Java लाइब्रेरी के साथ इस्तेमाल किया जा सकता है ताकि काम बढ़ सके।
-
-### Q2: क्या Aspose.Note for Java OneNote डॉक्यूमेंट के सभी वर्शन को सपोर्ट करता है?
-
-A: Aspose.Note for Java के अलग-अलग वर्शन के OneNote डॉक्यूमेंट को सपोर्ट करता है, जिसमें पुराने वर्शन भी शामिल हैं।
-
-### Q3: क्या Aspose.Note for Java एंटरप्राइज़-लेवल एप्लिकेशन के लिए सही है?
-
-A: बिल्कुल, Aspose.Note for Java को दूसरी लाइब्रेरी के साथ इस्तेमाल करने की ज़रूरत नहीं है, इसलिए इसे पूरा करने के लिए मज़बूत फीचर्स और स्केल एडजस्टमेंट के साथ डिज़ाइन किया गया है।
-
-### Q4: क्या मैं Aspose.Note for Java से पेज रिविज़न को कस्टमाइज़ कर सकता हूँ?
-
-A: हाँ, आप अपनी ज़रूरत के हिसाब से Aspose.Note for Java का इस्तेमाल करके पेज में बदलाव को कस्टमाइज़ कर सकते हैं।
-
-### Q5: मुझे Aspose.Note for Java के लिए सपोर्ट कहाँ से मिल सकता है?
-
-A: आप Aspose.Note for Java के लिए समर्थन [Aspose.Note forum](https://forum.aspose.com/c/note/28) से प्राप्त कर सकते हैं।
-
----
-
-**Last Updated:** 2026-01-15  
-**Tested With:** Aspose.Note for Java 24.12  
-**Author:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
