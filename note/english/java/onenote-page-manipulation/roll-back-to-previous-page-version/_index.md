@@ -1,6 +1,6 @@
 ---
-title: How to Restore Previous OneNote Version – Aspose.Note
-linktitle: How to Restore Previous OneNote Version – Aspose.Note
+title: How to Restore a Previous OneNote Version Using Aspose.Note for Java
+linktitle: How to Restore a Previous OneNote Version Using Aspose.Note for Java
 second_title: Aspose.Note Java API
 description: Learn how to restore previous OneNote version and roll back OneNote pages using Aspose.Note for Java. Follow this step‑by‑step guide for efficient document management.
 weight: 19
@@ -13,14 +13,14 @@ keywords:
 - recover previous onenote page
 schemas:
 - type: TechArticle
-  headline: How to Restore Previous OneNote Version – Aspose.Note
+  headline: How to Restore a Previous OneNote Version Using Aspose.Note for Java
   description: Learn how to restore previous OneNote version and roll back OneNote
     pages using Aspose.Note for Java. Follow this step‑by‑step guide for efficient
     document management.
   dateModified: '2026-05-25'
   author: Aspose
 - type: HowTo
-  name: How to Restore Previous OneNote Version – Aspose.Note
+  name: How to Restore a Previous OneNote Version Using Aspose.Note for Java
   description: Learn how to restore previous OneNote version and roll back OneNote
     pages using Aspose.Note for Java. Follow this step‑by‑step guide for efficient
     document management.
@@ -79,7 +79,7 @@ Aspose.Note can process notebooks with **thousands of pages** while keeping memo
 
 Before we dive into the code, make sure you have the following ready:
 
-### Java Development Environment Setup
+### Java development environment setup
 1. **Install Java Development Kit (JDK):** Grab the latest JDK from the Oracle website or your preferred package manager.  
 2. **Configure Environment Variables:** Set `JAVA_HOME` and update `PATH` so the `java` and `javac` commands are reachable from the command line.  
 3. **Add Aspose.Note for Java:** Download the library from the [website](https://purchase.aspose.com/buy) and add the JAR to your project's classpath.
@@ -100,7 +100,7 @@ import com.aspose.note.PageHistory;
 
 Load the target notebook, fetch the desired historical entry with `PageHistory`, remove the current page, and append the selected version back to the document – all in under ten lines of Java code. This approach guarantees that only the specific page is touched, preserving the rest of the notebook untouched and keeping memory consumption minimal.
 
-## Step 1: Load OneNote Document
+## Step 1: load oneNote document
 
 `Document` is Aspose.Note's top‑level object that represents a single OneNote file in memory. We first point to the folder that holds the `.one` file and load it into a `Document` instance.
 
@@ -110,7 +110,7 @@ Document document = new Document(dataDir + "Sample1.one");
 ```
 We first point to the folder that holds the `.one` file and load it into a `Document` object.
 
-## Step 2: Get Page History
+## Step 2: get page history
 
 `PageHistory` provides access to every saved version of a selected page, enabling the **restore previous onenote version** capability. By calling `getHistory()` you receive a list you can iterate or index directly.
 
@@ -120,7 +120,7 @@ PageHistory pageHistory = document.getPageHistory(page);
 ```
 `PageHistory` gives you access to every saved version of the selected page, enabling the **restore previous onenote version** capability.
 
-## Step 3: Remove Current Page
+## Step 3: remove current page
 
 `Page` represents an individual page within a OneNote notebook. Removing the current page creates space for the historical version you intend to bring back.
 
@@ -129,7 +129,7 @@ document.removeChild(page);
 ```
 By removing the current page we make room for the version we want to bring back.
 
-## Step 4: Append Previous Page Version
+## Step 4: append previous page version
 
 `appendChildLast` adds a node to the end of a document’s children collection. Here we pick the most recent historical entry (you can change the index to target any older version) and add it back to the document.
 
@@ -138,7 +138,7 @@ document.appendChildLast(pageHistory.get_Item(pageHistory.size() - 1));
 ```
 Here we pick the most recent historical entry (you can change the index to target any older version) and add it back to the document.
 
-## Step 5: Save Document
+## Step 5: save document
 
 Saving writes the modified notebook back to disk, producing a file that now contains the rolled‑back page. The operation writes only the changed page, so large notebooks remain fast to process.
 
@@ -147,14 +147,14 @@ document.save(dataDir + "RollBackToPreviousPageVersion_out.one");
 ```
 Finally, persist the modified notebook. The output file now contains the rolled‑back page.
 
-## Common Issues & Tips
+## Common issues & tips
 - **Empty History:** If `pageHistory.size()` returns 0, the page has no saved versions—ensure that versioning is enabled in OneNote.  
 - **Index Out of Bounds:** Remember that the history list is zero‑based. Adjust the index (`size() - 1`) to target the exact version you need.  
 - **Performance:** Working with a single page avoids loading the whole notebook into memory, keeping the operation fast even for notebooks with **10,000+ pages**.  
 - **Reading .one files in Java:** Use `Document.load("path/to/file.one")` to read a OneNote file; Aspose.Note fully supports the `.one` format without requiring Microsoft Office installed.  
 - **Recover previous OneNote page safely:** Always back up the original `.one` file before performing batch rollbacks, especially when automating across many notebooks.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q1: Can I roll back multiple versions of a page?**  
 A: Yes, you can access the entire page history and restore any previous version by selecting the appropriate index from the `PageHistory` list.
@@ -177,15 +177,15 @@ A: Yes, you can visit the [Aspose.Note forum](https://forum.aspose.com/c/note/28
 **Tested With:** Aspose.Note for Java (latest release)  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Related Tutorials
 
 - [How to Save OneNote Page Version – Push Current Page Version in OneNote - Aspose.Note](/note/java/onenote-page-manipulation/push-current-page-version/)
 - [Aspose Java Tutorial - Get Information about Pages in OneNote - Aspose.Note](/note/java/onenote-page-manipulation/get-information-about-pages/)
 - [Get OneNote Page Count with Aspose.Note for Java](/note/java/onenote-page-manipulation/get-page-count/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
