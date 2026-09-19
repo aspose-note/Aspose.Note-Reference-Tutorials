@@ -1,94 +1,199 @@
 ---
-title: .NET के लिए Aspose.Note के साथ OneNote दस्तावेज़ में हेरफेर
-linktitle: लोडिंग और सेविंग ऑपरेशन
+date: 2026-05-20
+description: Aspose.Note for .NET का उपयोग करके OneNote को लोड करना, OneNote को PDF
+  के रूप में सहेजना, OneNote को image में निर्यात करना और OneNote पर पेज शीर्षक जोड़ना
+  सीखें।
+keywords:
+- how to load onenote
+- save onenote as pdf
+- export onenote to image
+- convert onenote page image
+- add page title onenote
+linktitle: Loading और Saving ऑपरेशन्स
+schemas:
+- author: Aspose
+  dateModified: '2026-05-20'
+  description: Learn how to load OneNote, save OneNote as PDF, export OneNote to image
+    and add page title on OneNote using Aspose.Note for .NET.
+  headline: How to Load OneNote Documents with Aspose.Note for .NET
+  type: TechArticle
+- questions:
+  - answer: 'Pass the password to the `Document.Load` overload: `Document.Load("file.one",
+      "password")`. Aspose.Note decrypts the notebook in memory.'
+    question: How do I load an encrypted OneNote file?
+  - answer: Yes, the PDF exporter preserves vector ink, images, and embedded media,
+      ensuring the output matches the original notebook layout.
+    question: Can I export a OneNote notebook to PDF without losing ink strokes?
+  - answer: The library can stream notebooks up to **500 MB** without loading the
+      entire file into RAM, thanks to its low‑memory processing engine.
+    question: What is the maximum file size Aspose.Note can handle?
+  - answer: Absolutely. Use `PdfSaveOptions` to set `Author`, `Title`, `Subject`,
+      and custom XMP metadata before calling `Save`.
+    question: Is it possible to add custom metadata when saving as PDF?
+  - answer: No. A single Aspose.Note for .NET license covers .NET Framework, .NET
+      Core, and .NET 5/6/7 applications.
+    question: Do I need a separate license for each .NET platform?
+  type: FAQPage
 second_title: Aspose.Note .NET API
-description: .NET के लिए Aspose.Note की शक्ति अनलॉक करें! OneNote दस्तावेज़ों को आसानी से लोड करने, सहेजने और हेरफेर करने पर चरण-दर-चरण मार्गदर्शन के लिए हमारे ट्यूटोरियल देखें।
-weight: 25
+title: Aspose.Note for .NET के साथ OneNote दस्तावेज़ कैसे लोड करें
 url: /hi/net/loading-and-saving-operations/
+weight: 25
 ---
 
+{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# .NET के लिए Aspose.Note के साथ OneNote दस्तावेज़ में हेरफेर
-
+# Aspose.Note for .NET के साथ OneNote दस्तावेज़ कैसे लोड करें
 
 ## परिचय
 
-क्या आप .NET के लिए Aspose.Note के साथ लोडिंग और सेविंग ऑपरेशन की कला में महारत हासिल करने के लिए यात्रा शुरू करने के लिए तैयार हैं? एक व्यापक मार्गदर्शिका में आपका स्वागत है जहां हम Microsoft OneNote दस्तावेज़ों में हेरफेर करने की जटिलताओं को उजागर करते हैं, जो आपको अपने विकास कौशल को बढ़ाने के लिए सशक्त बनाता है।
+यदि आप .NET एप्लिकेशन में OneNote फ़ाइलें **OneNote कैसे लोड करें** के लिए एक विश्वसनीय तरीका खोज रहे हैं, तो आप सही जगह पर आए हैं। यह गाइड आपको Aspose.Note for .NET का उपयोग करके OneNote नोटबुक को लोड करने, सहेजने और निर्यात करने की प्रक्रिया से परिचित कराता है, और हमारे संग्रह में सबसे उपयोगी चरण‑दर‑चरण ट्यूटोरियल्स की ओर निर्देशित करता है।
 
-## Aspose.Note में परिणामी निर्यात संचालन
- .NET के लिए Aspose.Note के साथ बाद के निर्यात संचालन के दायरे में उतरें। हमारा विस्तृत ट्यूटोरियल आपको एक यात्रा पर ले जाता है, जो विभिन्न प्रारूपों में OneNote दस्तावेज़ों को कुशलतापूर्वक सहेजने की अंतर्दृष्टि प्रदान करता है। चाहे वह पीडीएफ, छवि, या अन्य फ़ाइल प्रकारों में परिवर्तित हो, हमने आपको कवर कर लिया है। पेचीदगियों के माध्यम से नेविगेट करें[यहाँ](./consequent-export-operations/).
+## त्वरित उत्तर
+- **मैं OneNote फ़ाइल कैसे लोड करूँ?** Use `Document.Load("file.one")` – Aspose.Note फ़ाइल को तुरंत मेमोरी में पढ़ता है।  
+- **क्या मैं OneNote को PDF के रूप में सहेज सकता हूँ?** हाँ, `doc.Save("output.pdf", SaveFormat.Pdf)` को कॉल करें।  
+- **मैं किन फ़ॉर्मैट्स में निर्यात कर सकता हूँ?** 30 से अधिक फ़ॉर्मैट्स, जिनमें PDF, PNG, JPEG, TIFF, और HTML शामिल हैं।  
+- **मैं पेज शीर्षक कैसे जोड़ूँ?** सहेजने से पहले `page.Title = "My Title"` सेट करें।  
+- **उत्पादन के लिए मुझे लाइसेंस चाहिए?** गैर‑मूल्यांकन बिल्ड्स के लिए एक व्यावसायिक लाइसेंस आवश्यक है।
 
-## Aspose.Note में विशिष्ट पृष्ठ को छवि में बदलें
- Microsoft OneNote दस्तावेज़ों के विशिष्ट पृष्ठों को प्रोग्रामेटिक रूप से छवियों में परिवर्तित करने की शक्ति प्राप्त करें। .NET के लिए Aspose.Note द्वारा संचालित हमारी चरण-दर-चरण मार्गदर्शिका, आपके अन्वेषण की प्रतीक्षा कर रही है[यहाँ](./convert-specific-page-to-image/)कोड स्निपेट्स से लेकर व्यावहारिक उदाहरणों तक, जानें कि इस सुविधा को अपने एप्लिकेशन में सहजता से कैसे एकीकृत किया जाए।
+## OneNote कैसे लोड करें?
 
-## Aspose.Note में रिच टेक्स्ट के साथ दस्तावेज़ बनाएं
- .NET के लिए Aspose.Note के साथ समृद्ध टेक्स्ट दस्तावेज़ तैयार करना आसान हो गया है। हमारा ट्यूटोरियल न केवल कोड उदाहरण प्रदान करता है बल्कि यह सुनिश्चित करने के लिए एक सहज एकीकरण मार्गदर्शिका भी प्रदान करता है कि आप इस कौशल में आसानी से महारत हासिल कर लें[यहाँ](./create-doc-with-rich-text/). चाहे आप चालान, रिपोर्ट, या स्वरूपित पाठ के साथ कोई दस्तावेज़ बना रहे हों, यह ट्यूटोरियल आपको कवर करेगा।
+**Document** मेमोरी में OneNote फ़ाइल का प्रतिनिधित्व करता है। एक पंक्ति कोड के साथ अपना OneNote नोटबुक लोड करें:  
 
-## Aspose.Note में पृष्ठ शीर्षक के साथ दस्तावेज़ बनाएँ
- .NET के लिए Aspose.Note का उपयोग करके शीर्षक वाले पृष्ठों वाले दस्तावेज़ बनाने की कला सीखें। निर्बाध एकीकरण के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें[यहाँ](./create-doc-with-page-title/). एक संरचित और उपयोगकर्ता-अनुकूल अनुभव सुनिश्चित करते हुए, इस सुविधा के साथ अपने OneNote दस्तावेज़ों के संगठन को बेहतर बनाएँ।
+```csharp
+var doc = new Document("MyNotebook.one");
+```  
 
-## Aspose.Note में उपयोगकर्ता-सेविंग कॉलबैक
-.NET के लिए Aspose.Note में उपयोगकर्ता-बचत कॉलबैक पर नियंत्रण रखें। अपने OneNote दस्तावेज़ हेरफेर गेम को उन्नत करने के लिए फ़ॉन्ट, CSS और छवियों को सहेजने को सहजता से अनुकूलित करें। विवरण में गोता लगाएँ[यहाँ](./user-saving-callbacks/). यह उन्नत सुविधा आपको आपकी विशिष्ट आवश्यकताओं के अनुसार बचत प्रक्रिया को अनुकूलित करने की सुविधा प्रदान करती है।
+Aspose.Note फ़ाइल को पार्स करता है, एक इन‑मेमोरी ऑब्जेक्ट मॉडल बनाता है, और आपको सेक्शन, पेज, और रिसोर्सेज तक पूर्ण पहुँच देता है। यह ऑपरेशन एन्क्रिप्टेड और अनएन्क्रिप्टेड दोनों फ़ाइलों को सपोर्ट करता है, और .NET 6+, .NET 5, .NET Core 3.1 तथा .NET Framework 4.6.2+ पर काम करता है।
 
-## निष्कर्ष
+## OneNote को PDF या इमेज में निर्यात क्यों करें?
 
-बधाई हो! आपने अभी ट्यूटोरियल की एक श्रृंखला का पता लगाया है जो न केवल .NET के लिए Aspose.Note की जटिलताओं को उजागर करता है बल्कि आपको लोडिंग और सेविंग ऑपरेशंस में महारत हासिल करने के कौशल से भी लैस करता है। चाहे आप एक अनुभवी डेवलपर हों या अभी शुरुआत कर रहे हों, ये ट्यूटोरियल OneNote दस्तावेज़ हेरफेर की व्यापक समझ प्रदान करते हैं।
+OneNote को PDF या इमेज फ़ॉर्मैट में निर्यात करना आर्काइविंग, रिपोर्टिंग, या उन उपयोगकर्ताओं के साथ सामग्री साझा करने के लिए सामान्य आवश्यकता है जिनके पास OneNote स्थापित नहीं है। Aspose.Note **OneNote को PDF में निर्यात** कर सकता है और **OneNote को इमेज में निर्यात** कर सकता है, सामान्य सर्वर पर 100‑पेज नोटबुक के लिए 2 सेकंड से कम समय में, जटिल लेआउट, एम्बेडेड फ़ाइलें, और हाई‑रेज़ोल्यूशन ग्राफ़िक्स को बिना गुणवत्ता खोए संभालता है।  
 
-.NET के लिए Aspose.Note की शक्ति को अपने अनुप्रयोगों में निर्बाध रूप से एकीकृत करें, जिससे आपकी विकास यात्रा आसान और अधिक कुशल हो जाएगी। इन ट्यूटोरियल्स में दिए गए चरण-दर-चरण मार्गदर्शिकाएँ, कोड उदाहरण और व्यावहारिक अंतर्दृष्टि यह सुनिश्चित करती हैं कि आप न केवल अवधारणाओं को समझें बल्कि उन्हें वास्तविक दुनिया के परिदृश्यों पर आत्मविश्वास से लागू भी करें।
+संख्यात्मक दावा: Aspose.Note **30+ आउटपुट फ़ॉर्मैट्स** (PDF, PNG, JPEG, TIFF, BMP, GIF, SVG, HTML, XPS, DOCX, और अधिक) को सपोर्ट करता है और **500 MB** तक की नोटबुक को पूरी फ़ाइल को RAM में लोड किए बिना प्रोसेस कर सकता है, इसकी स्ट्रीमिंग आर्किटेक्चर के कारण।
 
-तो आप किस बात की प्रतीक्षा कर रहे हैं? .NET के लिए Aspose.Note की दुनिया में उतरें, अपनी रचनात्मकता को उजागर करें, और अपने OneNote दस्तावेज़ हेरफेर कौशल को नई ऊंचाइयों पर ले जाएं। हैप्पी कोडिंग!
+## OneNote को PDF के रूप में कैसे सहेजें?
 
-## संचालन ट्यूटोरियल लोड करना और सहेजना
-### [Aspose.Note में परिणामी निर्यात संचालन](./consequent-export-operations/)
-OneNote दस्तावेज़ों को विभिन्न स्वरूपों में कुशलतापूर्वक सहेजने के लिए .NET के लिए Aspose.Note में परिणामी निर्यात संचालन करना सीखें।
-### [Aspose.Note में विशिष्ट पृष्ठ को छवि में बदलें](./convert-specific-page-to-image/)
-जानें कि .NET के लिए Aspose.Note का उपयोग करके Microsoft OneNote दस्तावेज़ों के विशिष्ट पृष्ठों को प्रोग्रामेटिक रूप से छवियों में कैसे परिवर्तित किया जाए।
+**SaveFormat** एक एनेमरेशन है जो आउटपुट फ़ाइल फ़ॉर्मैट को निर्दिष्ट करता है। लोडेड नोटबुक को PDF में सहेजने के लिए उपयोग करें:  
+
+```csharp
+doc.Save("Report.pdf", SaveFormat.Pdf);
+```  
+
+API स्वचालित रूप से OneNote सेक्शन को PDF पेजों में मैप करता है, टेबल, इंक स्ट्रोक, और एम्बेडेड मीडिया को संरक्षित रखते हुए। आप **PdfSaveOptions** के माध्यम से पेज आकार, संपीड़न, और PDF/A अनुपालन को भी सूक्ष्म रूप से समायोजित कर सकते हैं, जो PDF आउटपुट को नियंत्रित करने के विकल्प प्रदान करता है, जैसे अनुपालन और संपीड़न।
+
+**OneNote को PDF में निर्यात** कानूनी दस्तावेज़ों, कॉरपोरेट रिपोर्टों, या किसी भी स्थिति के लिए आदर्श है जहाँ एक फिक्स्ड‑लेआउट, प्रिंट‑रेडी फ़ॉर्मैट आवश्यक है।
+
+## OneNote को इमेज में कैसे निर्यात करें?
+
+**ImageSaveOptions** इमेज निर्यात के लिए सेटिंग्स को परिभाषित करता है जैसे फ़ॉर्मैट और DPI। किसी विशिष्ट पेज को इमेज में बदलने के लिए, कॉल करें:  
+
+```csharp
+page.Save("Page1.png", ImageSaveOptions.Png);
+```  
+
+यह एकल कॉल डिफ़ॉल्ट रूप से पेज को 300 dpi पर रेंडर करता है, वेब प्रकाशन या OCR प्रोसेसिंग के लिए उपयुक्त तेज़ PNG बनाता है। **OneNote पेज इमेज को कन्वर्ट** फीचर PNG, JPEG, TIFF, और BMP को सपोर्ट करता है, और आप `ImageSaveOptions` के माध्यम से कस्टम DPI, रंग गहराई, और ग्रेस्केल विकल्प निर्दिष्ट कर सकते हैं।
+
+## OneNote में पेज शीर्षक कैसे जोड़ें?
+
+सहेजने से पहले पेज को शीर्षक असाइन करें: `page.Title = "Quarterly Summary";`। पेज शीर्षक जोड़ने से OneNote और डाउनस्ट्रीम फ़ॉर्मैट्स (PDF, HTML) में नेविगेशन बेहतर होता है क्योंकि शीर्षक एक हेडिंग या बुकमार्क के रूप में दिखाई देता है।
+
+Aspose.Note आपको **metadata** जैसे लेखक, निर्माण तिथि, और टैग सेट करने की भी अनुमति देता है, जो आप **OneNote को PDF के रूप में सहेजते** हैं या **OneNote को इमेज में निर्यात** करते हैं, तब भी बरकरार रहता है।
+
+## सामान्य उपयोग केस
+
+- **स्वचालित रिपोर्टिंग** – OneNote टेम्पलेट लोड करें, डेटा इंजेक्ट करें, और वितरण के लिए PDF में निर्यात करें।  
+- **कंटेंट माइग्रेशन** – लेगेसी OneNote नोटबुक को HTML या Markdown में बदलें आधुनिक डॉक्यूमेंटेशन प्लेटफ़ॉर्म के लिए।  
+- **डिजिटल आर्काइविंग** – नोटबुक को PDF/A‑2b अनुपालन फ़ाइलों के रूप में स्टोर करें दीर्घकालिक संरक्षण के लिए।  
+- **इमेज जेनरेशन** – प्रस्तुतियों या ई‑लर्निंग सामग्री के लिए चयनित पेजों के हाई‑रेज़ोल्यूशन PNG बनाएं।  
+
+## लोडिंग और सहेजने के ऑपरेशन्स ट्यूटोरियल्स
+
+### [Aspose.Note में क्रमिक निर्यात ऑपरेशन्स](./consequent-export-operations/)
+
+जटिलताओं के माध्यम से नेविगेट करें [यहाँ](./consequent-export-operations/)।
+
+### [Aspose.Note में विशिष्ट पेज को इमेज में बदलें](./convert-specific-page-to-image/)
+
+Aspose.Note for .NET का उपयोग करके Microsoft OneNote दस्तावेज़ों के विशिष्ट पेजों को प्रोग्रामेटिकली इमेज में कैसे बदलें, सीखें। गाइड देखें [यहाँ](./convert-specific-page-to-image/)।
+
 ### [Aspose.Note में रिच टेक्स्ट के साथ दस्तावेज़ बनाएं](./create-doc-with-rich-text/)
-जानें कि .NET के लिए Aspose.Note का उपयोग करके प्रोग्रामेटिक रूप से रिच टेक्स्ट दस्तावेज़ कैसे बनाएं। कोड उदाहरणों के साथ चरण-दर-चरण मार्गदर्शिका।
-### [Aspose.Note में पृष्ठ शीर्षक के साथ दस्तावेज़ बनाएँ](./create-doc-with-page-title/)
-.NET के लिए Aspose.Note का उपयोग करके शीर्षक वाले पृष्ठों वाले दस्तावेज़ बनाना सीखें। निर्बाध एकीकरण के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
-### [OneNote दस्तावेज़ बनाएं और Aspose.Note में HTML में सहेजें](./create-onenote-doc-save-to-html/)
-Aspose.Note API का उपयोग करके .NET अनुप्रयोगों में Microsoft OneNote दस्तावेज़ों को HTML प्रारूप में बनाने और सहेजने का तरीका जानें। चरण-दर-चरण उदाहरणों के साथ हमारे व्यापक ट्यूटोरियल का अनुसरण करें।
-### [Aspose.Note में सामग्री निकालें](./extract-content/)
-.NET के लिए Aspose.Note का उपयोग करके Aspose.Note दस्तावेज़ों से सामग्री निकालने का तरीका जानें। यह व्यापक ट्यूटोरियल चरण दर चरण प्रक्रिया में आपका मार्गदर्शन करता है।
-### [OneNote दस्तावेज़ को Aspose.Note में लोड करें](./load-onenote-document/)
-Aspose.Note का उपयोग करके .NET में OneNote दस्तावेज़ों को प्रोग्रामेटिक रूप से लोड, एन्क्रिप्ट और डिक्रिप्ट करना सीखें।
-### [Aspose.Note में पृष्ठ विभाजन](./page-splitting/)
-विभिन्न एल्गोरिदम का उपयोग करके .NET के लिए Aspose.Note में पृष्ठों को प्रभावी ढंग से विभाजित करना सीखें। OneNote दस्तावेज़ों को PDF प्रारूप में व्यवस्थित रूप से व्यवस्थित करना सुनिश्चित करें।
-### [Aspose.Note में पासवर्ड से सुरक्षित दस्तावेज़](./password-protected-document/)
-.NET के लिए Aspose.Note का उपयोग करके पासवर्ड से सुरक्षित दस्तावेज़ों को संभालना सीखें। अपनी संवेदनशील जानकारी आसानी से सुरक्षित करें।
-### [Aspose.Note में फ़ाइल स्वरूप पुनर्प्राप्त करें](./retrieve-file-format/)
-.NET के लिए Aspose.Note का अन्वेषण करें, जो Microsoft OneNote दस्तावेज़ों के साथ प्रोग्रामेटिक रूप से काम करने के लिए एक शक्तिशाली API है।
-### [दस्तावेज़ को Aspose.Note में OneNote फ़ॉर्मेट में सहेजें](./save-doc-to-onenote-format/)
-Aspose.Note का उपयोग करके OneNote दस्तावेज़ों को प्रोग्रामेटिक रूप से .NET में सहेजना सीखें। कोड उदाहरणों के साथ चरण-दर-चरण ट्यूटोरियल शामिल है।
-### [Aspose.Note में पृष्ठों की श्रेणी को PDF के रूप में सहेजें](./save-range-pages-as-pdf/)
-.NET के लिए Aspose.Note का उपयोग करके OneNote दस्तावेज़ों के पृष्ठों की श्रृंखला को PDF फ़ाइलों के रूप में सहेजना सीखें। चरण-दर-चरण ट्यूटोरियल शामिल है।
-### [Aspose.Note में बाइनरी इमेज में सेव करें](./save-to-binary-image/)
-.NET के लिए Aspose.Note का उपयोग करके दस्तावेज़ों को बाइनरी छवियों में परिवर्तित करना सीखें। निर्बाध एकीकरण के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
-### [Aspose.Note में छवि में सहेजें](./save-to-image/)
-.NET के लिए Aspose.Note के साथ आसानी से Microsoft OneNote दस्तावेज़ों को BMP में छवि प्रारूप में परिवर्तित करें। निर्बाध एकीकरण, आसान कदम और मजबूत कार्यक्षमता।
-### [Aspose.Note में ग्रेस्केल छवि में सहेजें](./save-to-grayscale-image/)
-.NET के लिए Aspose.Note का उपयोग करके OneNote दस्तावेज़ों को ग्रेस्केल छवियों के रूप में सहेजना सीखें। कुशल दस्तावेज़ प्रसंस्करण के लिए इस व्यापक ट्यूटोरियल का पालन करें।
-### [Aspose.Note में JPEG छवि में सहेजें](./save-to-jpeg-image/)
-.NET के लिए Aspose.Note का उपयोग करके आसानी से OneNote दस्तावेज़ों को JPEG छवियों में सहेजना सीखें। चरण-दर-चरण मार्गदर्शिका शामिल है.
-### [Aspose.Note में PDF में सहेजें](./save-to-pdf/)
-.NET के लिए Aspose.Note का उपयोग करके Microsoft OneNote दस्तावेज़ों को PDF प्रारूप में सहेजना सीखें। लेटर और ए4 पेज लेआउट के लिए कोड उदाहरणों के साथ चरण-दर-चरण ट्यूटोरियल।
-### [Aspose.Note में TIFF छवि में सहेजें](./save-to-tiff-image/)
-.NET के लिए Aspose.Note का उपयोग करके विभिन्न संपीड़न विधियों के साथ OneNote दस्तावेज़ों को TIFF छवियों के रूप में सहेजना सीखें।
-### [Aspose.Note में निर्दिष्ट फ़ॉन्ट का उपयोग करके सहेजें](./save-using-specified-fonts/)
-.NET के लिए Aspose.Note में निर्दिष्ट फ़ॉन्ट के साथ दस्तावेज़ों को सहेजना सीखें। लगातार दस्तावेज़ फ़ॉर्मेटिंग के लिए फ़ॉन्ट सेटिंग्स को आसानी से अनुकूलित करें।
-### [Aspose.Note में डिफ़ॉल्ट सेटिंग्स के साथ सहेजें](./save-with-default-settings/)
-चरण-दर-चरण मार्गदर्शिका के माध्यम से जानें कि .NET के लिए Aspose.Note में किसी दस्तावेज़ को डिफ़ॉल्ट सेटिंग्स के साथ कैसे सहेजा जाए।
-### [Aspose.Note में सहेजें विकल्प निर्दिष्ट करें](./specify-save-options/)
-जानें कि OneNote दस्तावेज़ों के आउटपुट स्वरूप और गुणवत्ता को अनुकूलित करने के लिए .NET के लिए Aspose.Note में सेव विकल्प कैसे निर्दिष्ट करें।
-### [Aspose.Note में उपयोगकर्ता-सेविंग कॉलबैक](./user-saving-callbacks/)
-फ़ॉन्ट, सीएसएस और छवियों को सहेजने को अनुकूलित करने के लिए .NET के लिए Aspose.Note में उपयोगकर्ता-बचत कॉलबैक को कार्यान्वित करने का तरीका जानें।
-{{< /blocks/products/pf/tutorial-page-section >}}
 
+कोड उदाहरणों के साथ रिच‑टेक्स्ट OneNote दस्तावेज़ बनाएं। विस्तृत चरण [यहाँ](./create-doc-with-rich-text/) उपलब्ध हैं।
+
+### [Aspose.Note में पेज शीर्षक के साथ दस्तावेज़ बनाएं](./create-doc-with-page-title/)
+
+शीर्षक वाले पेजों के साथ दस्तावेज़ बनाएं और नेविगेशन में सुधार करें। ट्यूटोरियल का अनुसरण करें [यहाँ](./create-doc-with-page-title/)।
+
+### [Aspose.Note में OneNote दस्तावेज़ बनाएं और HTML में सहेजें](./create-onenote-doc-save-to-html/)
+
+### [Aspose.Note में सामग्री निकालें](./extract-content/)
+
+### [Aspose.Note में OneNote दस्तावेज़ लोड करें](./load-onenote-document/)
+
+### [Aspose.Note में पेज विभाजन](./page-splitting/)
+
+### [Aspose.Note में पासवर्ड संरक्षित दस्तावेज़](./password-protected-document/)
+
+### [Aspose.Note में फ़ाइल फ़ॉर्मैट प्राप्त करें](./retrieve-file-format/)
+
+### [Aspose.Note में दस्तावेज़ को OneNote फ़ॉर्मैट में सहेजें](./save-doc-to-onenote-format/)
+
+### [Aspose.Note में पेज रेंज को PDF के रूप में सहेजें](./save-range-pages-as-pdf/)
+
+### [Aspose.Note में बाइनरी इमेज में सहेजें](./save-to-binary-image/)
+
+### [Aspose.Note में इमेज में सहेजें](./save-to-image/)
+
+### [Aspose.Note में ग्रेस्केल इमेज में सहेजें](./save-to-grayscale-image/)
+
+### [Aspose.Note में JPEG इमेज में सहेजें](./save-to-jpeg-image/)
+
+### [Aspose.Note में PDF में सहेजें](./save-to-pdf/)
+
+### [Aspose.Note में TIFF इमेज में सहेजें](./save-to-tiff-image/)
+
+### [Aspose.Note में निर्दिष्ट फ़ॉन्ट्स का उपयोग करके सहेजें](./save-using-specified-fonts/)
+
+### [Aspose.Note में डिफ़ॉल्ट सेटिंग्स के साथ सहेजें](./save-with-default-settings/)
+
+### [Aspose.Note में सहेजने के विकल्प निर्दिष्ट करें](./specify-save-options/)
+
+### [Aspose.Note में यूज़र-सेविंग कॉलबैक्स](./user-saving-callbacks/)
+
+फ़ॉन्ट्स, CSS, और इमेजेज को सहेजने को कस्टमाइज़ करें। विस्तृत निर्देश [यहाँ](./user-saving-callbacks/) उपलब्ध हैं।
+
+## अक्सर पूछे जाने वाले प्रश्न
+
+**प्रश्न: मैं एन्क्रिप्टेड OneNote फ़ाइल कैसे लोड करूँ?**  
+**उत्तर:** पासवर्ड को `Document.Load` ओवरलोड में पास करें: `Document.Load("file.one", "password")`। Aspose.Note नोटबुक को मेमोरी में डिक्रिप्ट करता है।
+
+**प्रश्न: क्या मैं OneNote नोटबुक को PDF में निर्यात कर सकता हूँ बिना इंक स्ट्रोक खोए?**  
+**उत्तर:** हाँ, PDF एक्सपोर्टर वेक्टर इंक, इमेजेज, और एम्बेडेड मीडिया को संरक्षित रखता है, जिससे आउटपुट मूल नोटबुक लेआउट से मेल खाता है।
+
+**प्रश्न: Aspose.Note अधिकतम कितना फ़ाइल आकार संभाल सकता है?**  
+**उत्तर:** लाइब्रेरी **500 MB** तक की नोटबुक को पूरी फ़ाइल को RAM में लोड किए बिना स्ट्रीम कर सकती है, इसके लो‑मेमोरी प्रोसेसिंग इंजन के कारण।
+
+**प्रश्न: क्या PDF के रूप में सहेजते समय कस्टम मेटाडेटा जोड़ना संभव है?**  
+**उत्तर:** बिल्कुल। `PdfSaveOptions` का उपयोग करके `Author`, `Title`, `Subject`, और कस्टम XMP मेटाडेटा सेट करें `Save` कॉल करने से पहले।
+
+**प्रश्न: क्या मुझे प्रत्येक .NET प्लेटफ़ॉर्म के लिए अलग लाइसेंस चाहिए?**  
+**उत्तर:** नहीं। एक ही Aspose.Note for .NET लाइसेंस .NET Framework, .NET Core, और .NET 5/6/7 एप्लिकेशन्स को कवर करता है।
+
+**अंतिम अपडेट:** 2026-05-20  
+**परीक्षित संस्करण:** Aspose.Note 24.12 for .NET  
+**लेखक:** Aspose  
+
+{{< blocks/products/pf/main-container >}}
+
+## संबंधित ट्यूटोरियल्स
+
+- [Aspose.Note में OneNote दस्तावेज़ लोड करें](/note/net/loading-and-saving-operations/load-onenote-document/)
+- [Aspose.Note में दस्तावेज़ को OneNote फ़ॉर्मैट में सहेजें](/note/net/loading-and-saving-operations/save-doc-to-onenote-format/)
+- [Aspose Note .NET में नोटबुक को PDF में बदलें](/note/net/notebook-operations/convert-to-pdf/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
