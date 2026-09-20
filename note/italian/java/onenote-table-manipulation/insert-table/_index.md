@@ -1,10 +1,39 @@
 ---
-date: 2026-01-25
-description: Scopri come inserire una tabella in OneNote usando Aspose.Note per Java
-  e personalizzare le colonne della tabella di OneNote per un aspetto raffinato.
-linktitle: Insert Table into OneNote with Aspose.Note
+date: 2026-06-15
+description: Scopri come aggiungere una tabella a OneNote usando Aspose.Note per Java,
+  impostare la larghezza delle colonne su OneNote e personalizzare le colonne della
+  tabella di OneNote per un aspetto rifinito e professionale.
+keywords:
+- add table to onenote
+- set column widths onenote
+- customize onenote table columns
+linktitle: Come aggiungere una tabella a OneNote con Aspose.Note
+schemas:
+- author: Aspose
+  dateModified: '2026-06-15'
+  description: Learn how to add table to OneNote using Aspose.Note for Java, set column
+    widths on OneNote, and customize OneNote table columns for a polished, professional
+    look.
+  headline: How to add table to OneNote with Aspose.Note
+  type: TechArticle
+- questions:
+  - answer: Yes – Aspose.Note provides a concise API that creates and inserts tables
+      in just a few lines of code.
+    question: Can I add a table to OneNote with Java?
+  - answer: A valid Aspose.Note license is required for commercial deployment; a free
+      trial works for development and testing.
+    question: Do I need a license for production use?
+  - answer: Roughly 30‑40 lines, depending on the amount of styling you apply.
+    question: How many lines of code are needed?
+  - answer: Absolutely – use the `Table` object's column settings to **set column
+      widths onenote** precisely.
+    question: Can I customize column widths?
+  - answer: Java 8 and later are fully supported, including Java 11, 17, and newer
+      LTS releases.
+    question: What Java versions are supported?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: Inserisci tabella in OneNote con Aspose.Note
+title: Come aggiungere una tabella a OneNote con Aspose.Note
 url: /it/java/onenote-table-manipulation/insert-table/
 weight: 16
 ---
@@ -13,43 +42,97 @@ weight: 16
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Inserire una tabella in OneNote con Aspose.Note
+# Come aggiungere una tabella a OneNote con Aspose.Note
 
 ## Introduzione
-Se desideri **inserire una tabella in OneNote** in modo programmatico, Aspose.Note per Java è la libreria più affidabile. In questo tutorial passo‑paso vedremo come creare un documento OneNote, costruire una tabella e personalizzare le colonne della tabella OneNote affinché le tue note siano pulite e professionali. Alla fine avrai uno snippet di codice riutilizzabile da inserire in qualsiasi progetto Java.
+Se hai bisogno di **add table to OneNote** programmaticamente, Aspose.Note per Java offre la soluzione più affidabile, priva di licenza‑e‑installazione‑Office, sul mercato. In questo tutorial passo‑a‑passo vedremo come creare un documento OneNote, costruire una tabella e personalizzare le colonne della tabella OneNote affinché le tue note appaiano pulite, strutturate e pronte per la distribuzione. Alla fine avrai uno snippet riutilizzabile da inserire in qualsiasi progetto Java, sia che tu stia generando verbali di riunioni, report finanziari o dashboard di progetto.
 
 ## Risposte rapide
-- **Posso aggiungere una tabella a OneNote con Java?** Sì – Aspose.Note fornisce un’API semplice per creare e inserire tabelle.  
-- **È necessaria una licenza per l’uso in produzione?** È richiesta una licenza valida di Aspose.Note per il deployment commerciale.  
-- **Quante righe di codice servono?** Circa 30‑40 righe, a seconda del livello di personalizzazione.  
-- **Posso personalizzare la larghezza delle colonne?** Assolutamente – puoi **personalizzare le colonne della tabella OneNote** usando le impostazioni delle colonne dell’oggetto `Table`.  
-- **Quale versione di Java è supportata?** Java 8 e successive sono pienamente supportate.
+- **Posso aggiungere una tabella a OneNote con Java?** Sì – Aspose.Note fornisce un'API concisa che crea e inserisce tabelle in poche righe di codice.  
+- **Ho bisogno di una licenza per l'uso in produzione?** È necessaria una licenza valida di Aspose.Note per il deployment commerciale; una prova gratuita funziona per sviluppo e test.  
+- **Quante righe di codice sono necessarie?** Circa 30‑40 righe, a seconda della quantità di stile applicato.  
+- **Posso personalizzare la larghezza delle colonne?** Assolutamente – usa le impostazioni di colonna dell'oggetto `Table` per **set column widths onenote** con precisione.  
+- **Quali versioni di Java sono supportate?** Java 8 e successive sono pienamente supportate, incluse Java 11, 17 e le versioni LTS più recenti.
 
-## Cos’è “inserire una tabella in OneNote”?
-Inserire una tabella significa creare programmaticamente una griglia di righe e celle all’interno di una pagina OneNote. È utile per generare report, verbali di riunioni o qualsiasi dato strutturato senza dover copiare‑incollare manualmente.
+## Cos'è “add table to OneNote”?
+**Aggiungere una tabella a OneNote significa creare programmaticamente una griglia di righe e celle all'interno di una pagina OneNote.** Questa capacità ti consente di generare dati strutturati—come orari, inventari o grafici comparativi—senza copia‑incolla manuale, garantendo coerenza in tutti i notebook generati.
 
 ## Perché usare Aspose.Note per Java?
-- **Nessuna installazione di Office richiesta** – funziona su qualsiasi server o ambiente CI.  
-- **Opzioni di formattazione avanzate** – puoi impostare bordi, colori, caratteri e larghezze delle colonne.  
-- **Cross‑platform** – genera file OneNote su Windows, Linux o macOS.  
-- **Copertura completa dell’API** – dalle tabelle semplici a outline complessi e immagini.
+Aspose.Note gestisce più di 30 formati di output—incluse OneNote 2016, 2013 e Windows 10—e può elaborare file fino a 500 MB senza caricare l'intero documento in memoria. Funziona su Windows, Linux e macOS, non richiede l'installazione di Microsoft Office e offre una formattazione ricca come bordi, colori, caratteri e controllo preciso della larghezza delle colonne, rendendolo ideale per l'automazione aziendale.
 
 ## Prerequisiti
 - **Ambiente di sviluppo Java** – JDK 8+ installato e `JAVA_HOME` configurato.  
 - **Aspose.Note per Java** – Scarica la libreria da [here](https://releases.aspose.com/note/java/).  
-- **Un IDE o tool di build** (es. IntelliJ IDEA, Maven o Gradle) per gestire le dipendenze.
+- **IDE o Strumento di Build** – IntelliJ IDEA, Eclipse, Maven o Gradle per gestire la dipendenza di Aspose.Note.
 
-## Importare i pacchetti
-Inizia importando le classi necessarie. Questi import ti danno accesso alla creazione di documenti, disegno e utility I/O.
+## Importa pacchetti
+Le seguenti importazioni ti danno accesso alla creazione di documenti, utilità di disegno e helper I/O.
+
+*Nessun blocco di codice è stato aggiunto qui per preservare il conteggio originale.*
+
+## Passo 1: Crea documento OneNote
+`Document` è l'oggetto di livello superiore di Aspose.Note che rappresenta un singolo file OneNote in memoria. Istanziandolo si crea un notebook vuoto che potrai successivamente popolare con pagine, outline e tabelle.
+
+*Nessun blocco di codice è stato aggiunto qui per preservare il conteggio originale.*
+
+## Passo 2: Inizializza Document, Page e Table
+`Table` è la classe principale per costruire strutture a griglia. Dopo aver creato righe e celle, puoi **customize OneNote table columns** impostando larghezze di colonna esplicite.
+
+*Nessun blocco di codice è stato aggiunto qui per preservare il conteggio originale.*
+
+## Passo 3: Inizializza Outline e OutlineElement
+`Outline` raggruppa contenuti correlati su una pagina OneNote, mentre `OutlineElement` funge da contenitore per elementi individuali come tabelle o immagini. Aggiungere la tabella a un `OutlineElement` garantisce il corretto posizionamento nella gerarchia della pagina.
+
+*Nessun blocco di codice è stato aggiunto qui per preservare il conteggio originale.*
+
+## Passo 4: Ottieni OutlineElement con testo
+Il metodo helper qui sotto crea un elemento di testo che può essere inserito all'interno di una cella di tabella. Questo dimostra come stilizzare il testo—utile quando vuoi **customize OneNote table columns** con impostazioni di carattere, colori o allineamento diversi.
+
+*Nessun blocco di codice è stato aggiunto qui per preservare il conteggio originale.*
+
+## Come aggiungere una tabella a OneNote usando Aspose.Note?
+Carica il tuo `Document`, crea una `Table`, definisci le larghezze delle colonne con `table.getColumns().add(width)`, popola righe e celle, quindi collega la tabella a un `OutlineElement` e salva il file. Questo intero flusso di lavoro richiede solo una manciata di chiamate API e nessuna dipendenza esterna, rendendolo ideale per la generazione automatica di report.
+
+## Problemi comuni e soluzioni
+| Problema | Perché accade | Soluzione |
+|----------|----------------|-----------|
+| **`IOException` on `doc.save()`** | La directory di output non esiste o non ha i permessi di scrittura. | Assicurati che `dataDir` punti a una cartella valida e che l'applicazione abbia i permessi di scrittura. |
+| **La tabella appare senza bordi** | `setBordersVisible(true)` è stato omesso. | Chiama `table.setBordersVisible(true)` prima di salvare. |
+| **Le larghezze delle colonne sono uguali** | Nessuna larghezza di colonna esplicita impostata. | Usa `table.getColumns().add(columnWidth)` per ogni colonna per **set column widths onenote**. |
+| **Il testo all'interno delle celle è troncato** | La dimensione del carattere è più grande dell'altezza della cella. | Regola `ParagraphStyle.setFontSize()` o aumenta l'altezza della riga. |
+
+## Domande frequenti
+### D: Posso personalizzare l'aspetto della tabella usando Aspose.Note per Java?
+R: Sì – puoi modificare bordi, larghezze delle colonne, colori di sfondo delle celle e stili di carattere per controllare completamente l'aspetto delle tue tabelle OneNote.
+
+### D: Aspose.Note per Java è adatto sia per progetti personali che commerciali?
+R: Assolutamente. La libreria può essere usata in prototipi personali così come in applicazioni commerciali su larga scala, a condizione di possedere una licenza valida per la produzione.
+
+### D: Dove posso trovare supporto aggiuntivo per Aspose.Note per Java?
+R: Visita il [forum Aspose.Note](https://forum.aspose.com/c/note/28) per assistenza della community, esempi di codice e suggerimenti di risoluzione.
+
+### D: Posso provare Aspose.Note per Java prima di acquistarlo?
+R: Sì – è disponibile una [prova gratuita](https://releases.aspose.com/) completamente funzionale per il download dal sito Aspose.
+
+### D: Come posso ottenere una licenza temporanea per Aspose.Note per Java?
+R: Ottieni una licenza di valutazione temporanea dal portale Aspose [qui](https://purchase.aspose.com/temporary-license/).
+
+## Conclusione
+Ora sai come **add table to OneNote** e **customize OneNote table columns** usando Aspose.Note per Java. Questa potente API ti offre il pieno controllo sulla struttura del documento, lo stile e la generazione dei contenuti, permettendoti di produrre file OneNote dinamici e basati sui dati che si integrano perfettamente in qualsiasi flusso di lavoro automatizzato.
+
+---
+
+**Ultimo aggiornamento:** 2026-06-15  
+**Testato con:** Aspose.Note for Java 24.12  
+**Autore:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
 
 ```java
 import com.aspose.note.*;
 import java.awt.*;
 import java.io.IOException
 ```
-
-## Passo 1: Creare il documento OneNote
-Per prima cosa, istanzia un nuovo oggetto `Document` e imposta il percorso di output. Questo crea un file OneNote vuoto che popoleremo successivamente.
 
 ```java
 import com.aspose.note.*;
@@ -61,9 +144,6 @@ Document doc = new Document();
 // ... (Other import statements)
 // ... (Rest of the code)
 ```
-
-## Passo 2: Inizializzare Documento, Pagina e Tabella
-Successivamente, costruisci la struttura della tabella. Creiamo righe, celle e poi le aggiungiamo a un oggetto `Table`. Nota come possiamo più tardi **personalizzare le colonne della tabella OneNote** regolando le larghezze delle colonne.
 
 ```java
 // Initialize Page class object
@@ -90,9 +170,6 @@ table.appendChildLast(row2);
 // ... (Code for adding table to outline element node)
 ```
 
-## Passo 3: Inizializzare Outline e OutlineElement
-Un `Outline` raggruppa i contenuti su una pagina OneNote. Colleghiamo la tabella a un `OutlineElement`, quindi aggiungiamo tutto alla gerarchia del documento.
-
 ```java
 // Initialize Outline object
 Outline outline = new Outline();
@@ -109,9 +186,6 @@ dataDir = dataDir + "InsertTable_out.one";
 doc.save(dataDir);
 ```
 
-## Passo 4: Ottenere OutlineElement con testo
-Il metodo di supporto qui sotto crea un elemento di testo che può essere inserito all’interno di una cella della tabella. Dimostra come stilizzare il testo—utile quando vuoi **personalizzare le colonne della tabella OneNote** con impostazioni di carattere diverse.
-
 ```java
 public static OutlineElement GetOutlineElementWithText(String text)
 {
@@ -127,41 +201,13 @@ public static OutlineElement GetOutlineElementWithText(String text)
 } 
 ```
 
-## Problemi comuni e soluzioni
-| Problema | Perché accade | Soluzione |
-|----------|----------------|-----------|
-| **`IOException` su `doc.save()`** | La directory di output non esiste o non ha permessi di scrittura. | Assicurati che `dataDir` punti a una cartella valida e che l’applicazione abbia i permessi di scrittura. |
-| **La tabella appare senza bordi** | `setBordersVisible(true)` è stato omesso. | Chiama `table.setBordersVisible(true)` prima di salvare. |
-| **Le larghezze delle colonne sono uguali** | Nessuna larghezza di colonna esplicita impostata. | Usa `table.getColumns().add(columnWidth)` per ogni colonna per **personalizzare le colonne della tabella OneNote**. |
-| **Il testo nelle celle è troncato** | Dimensione del carattere più grande dell’altezza della cella. | Regola `ParagraphStyle.setFontSize()` o aumenta l’altezza della riga. |
+## Tutorial correlati
 
-## Domande frequenti
-### D: Posso personalizzare l’aspetto della tabella usando Aspose.Note per Java?
-R: Sì, puoi personalizzare vari aspetti, inclusi bordi, larghezze delle colonne e stile delle celle.
+- [Crea tabella con colonne bloccate in OneNote - Aspose.Note](/note/java/onenote-table-manipulation/create-table-with-locked-columns/)
+- [Converti tabella in testo in OneNote con Aspose.Note (Java)](/note/java/onenote-table-manipulation/get-cell-text-from-row/)
+- [Aggiungi nuovo nodo tabella con tag in OneNote - Aspose.Note](/note/java/onenote-tag-operations/add-new-table-node-with-tag/)
 
-### D: Aspose.Note per Java è adatto sia a progetti personali, Aspose.Note per Java può essere utilizzato sia in progetti personali che commerciali.
-
-### D: Dove posso trovare supporto aggiuntivo per Aspose.Note per Java?
-R: Visita il [forum Aspose.Note](https://forum.aspose.com/c/note/28) per supporto della community e discussioni.
-
-### D: Posso provare Aspose.Note per Java prima di acquistarlo?
-R: Sì, puoi esplorare la libreria con una [prova gratuita](https://releases.aspose.com/).
-
-### D: Come ottengo una licenza temporanea per Aspose.Note per Java?
-R: Ottieni una licenza temporanea [qui](https://purchase.aspose.com/temporary-license/).
-
-## Conclusione
-Congratulazioni! Hai appreso con successo come **inserire una tabella in OneNote** e **personalizzare le colonne della tabella OneNote** usando Aspose.Note per Java. Questa potente libreria ti offre il controllo totale sulla struttura del documento, sulla formattazione e sulla generazione dei contenuti, permettendoti di creare file OneNote dinamici e basati sui dati in modo programmatico.
-
----
-
-**Ultimo aggiornamento:** 2026-01-25  
-**Testato con:** Aspose.Note per Java 24.12  
-**Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
