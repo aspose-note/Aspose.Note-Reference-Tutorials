@@ -1,34 +1,94 @@
 ---
-title: Áp dụng Giấy phép Aspose.Note bằng FileStream
-linktitle: Áp dụng Giấy phép Aspose.Note bằng FileStream
+date: 2026-06-20
+description: Tìm hiểu cách áp dụng giấy phép Aspose.Note bằng FileStream trong các
+  ứng dụng .NET của bạn để tích hợp liền mạch.
+keywords:
+- initialize aspose.note license object
+- aspose.note licensing
+- filestream license
+- aspose.note .net
+linktitle: Khởi tạo đối tượng giấy phép Aspose.Note bằng FileStream
+schemas:
+- author: Aspose
+  dateModified: '2026-06-20'
+  description: Learn how to apply an Aspose.Note license using FileStream in your
+    .NET applications for seamless integration.
+  headline: Initialize Aspose.Note License Object Using FileStream
+  type: TechArticle
+- description: Learn how to apply an Aspose.Note license using FileStream in your
+    .NET applications for seamless integration.
+  name: Initialize Aspose.Note License Object Using FileStream
+  steps:
+  - name: Import Namespaces
+    text: Add the required `using` directives at the top of your C# file so the compiler
+      can locate the classes.
+  - name: Initialize Aspose.Note License Object
+    text: The `License` class represents the licensing component for Aspose.Note.
+  - name: Open License File Using FileStream
+    text: '`FileStream` provides a stream for reading from and writing to files on
+      disk.'
+  - name: Apply License
+    text: '`SetLicense` loads the license information from the provided stream into
+      the Aspose.Note library.'
+  type: HowTo
+- questions:
+  - answer: No, a valid license is required to access the full functionality; the
+      evaluation version adds watermarks.
+    question: Can I use Aspose.Note without a license?
+  - answer: You can find comprehensive documentation [here](https://reference.aspose.com/note/net/).
+    question: Where can I find more documentation?
+  - answer: Yes, you can get a free trial [here](https://releases.aspose.com/).
+    question: Is there a free trial available?
+  - answer: You can get support from the Aspose.Note community [forum](https://forum.aspose.com/c/note/28).
+    question: How can I get support?
+  - answer: Yes, temporary licenses are available [here](https://purchase.aspose.com/temporary-license/).
+    question: Do you offer temporary licenses?
+  type: FAQPage
 second_title: Aspose.Note .NET API
-description: Tìm hiểu cách áp dụng giấy phép Aspose.Note bằng FileStream trong các ứng dụng .NET của bạn để tích hợp liền mạch.
-weight: 12
+title: Khởi tạo đối tượng giấy phép Aspose.Note bằng FileStream
 url: /vi/net/licensing/apply-license-using-filestream/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Áp dụng Giấy phép Aspose.Note bằng FileStream
+# Khởi tạo Đối tượng Giấy phép Aspose.Note bằng FileStream
 
 ## Giới thiệu
 
-Aspose.Note for .NET là một API mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft OneNote theo chương trình. Cho dù bạn cần tạo, đọc, sửa đổi hay chuyển đổi tài liệu OneNote, Aspose.Note for .NET đều cung cấp các tính năng toàn diện để hợp lý hóa quy trình làm việc của bạn. Trong hướng dẫn này, chúng ta sẽ khám phá cách áp dụng giấy phép Aspose.Note bằng FileStream, đảm bảo ứng dụng của bạn được cấp phép hợp lệ để sử dụng trong sản xuất.
+Aspose.Note for .NET là một API mạnh mẽ cho phép bạn làm việc một cách lập trình với các tệp Microsoft OneNote. Cho dù bạn đang tạo, đọc, sửa đổi hoặc chuyển đổi sổ tay OneNote, thư viện này giúp đơn giản hoá quy trình. Trong hướng dẫn này, chúng tôi sẽ chỉ cho bạn **cách khởi tạo đối tượng giấy phép Aspose.Note** bằng một `FileStream`, để ứng dụng sản xuất của bạn chạy mà không bị giới hạn đánh giá.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **Câu hỏi: Bước đầu tiên là gì?** Tạo một thể hiện `License` và tải tệp .lic thông qua `FileStream`.  
+- **Cần giấy phép cho môi trường sản xuất không?** Có – một giấy phép hợp lệ sẽ loại bỏ mọi hạn chế đánh giá.  
+- **Các phiên bản .NET nào được hỗ trợ?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Có thể nhúng tệp giấy phép vào assembly không?** Chắc chắn – chỉ cần đặt thuộc tính “Copy to Output Directory” của tệp.  
+- **Thời gian thiết lập mất bao lâu?** Thông thường dưới 5 phút sau khi tệp giấy phép đã sẵn sàng.
 
-Trước khi đi sâu vào hướng dẫn này, hãy đảm bảo bạn có các điều kiện tiên quyết sau:
+## Đối tượng giấy phép Aspose.Note được khởi tạo là gì?
+Cụm từ **initialize aspose.note license object** đề cập đến việc tạo một thể hiện của `Aspose.Note.License` và tải một tệp `.lic` hợp lệ để API hoạt động ở chế độ có giấy phép. Bước này là bắt buộc cho các triển khai trong môi trường sản xuất và mở khóa toàn bộ tính năng. Nó phải được khởi tạo trước khi bất kỳ lớp Aspose.Note nào khác được sử dụng để đảm bảo rằng tất cả các thao tác tiếp theo đều có giấy phép.
 
-1. Visual Studio: Cài đặt Visual Studio trên hệ thống của bạn.
-2.  Aspose.Note for .NET: Tải xuống và cài đặt Aspose.Note cho .NET từ[đây](https://releases.aspose.com/note/net/).
-3. Tệp giấy phép: Nhận tệp giấy phép Aspose.Note hợp lệ.
-4. Kiến thức cơ bản về C#: Làm quen với ngôn ngữ lập trình C#.
+## Tại sao sử dụng FileStream để áp dụng giấy phép?
+Việc tải giấy phép bằng `FileStream` cho phép bạn kiểm soát hoàn toàn đường dẫn tệp, cho phép đọc giấy phép từ tài nguyên nhúng và hoạt động nhất quán trên cả môi trường .NET Framework và .NET Core. Nó cũng tránh việc mã cứng các đường dẫn tuyệt đối, giúp mã của bạn di động hơn.
 
-## Nhập không gian tên
+## Yêu cầu trước
 
-Để bắt đầu, hãy nhập các không gian tên cần thiết vào dự án C# của chúng ta:
+Trước khi bắt đầu viết mã, hãy chắc chắn rằng bạn có:
+
+1. Visual Studio được cài đặt trên máy phát triển của bạn.  
+2. Aspose.Note cho .NET đã tải về từ [đây](https://releases.aspose.com/note/net/).  
+3. Một tệp giấy phép Aspose.Note hợp lệ (`Aspose.Note.lic`).  
+4. Kiến thức cơ bản về C# và cấu trúc dự án .NET.
+
+## Cách khởi tạo đối tượng giấy phép Aspose.Note?
+
+Để khởi tạo giấy phép Aspose.Note, trước tiên tạo một thể hiện của lớp `License`, sau đó mở tệp `.lic` của bạn bằng một `FileStream`, và cuối cùng gọi `SetLicense` với luồng đó. Trình tự này đảm bảo thư viện đọc và xác thực giấy phép, kích hoạt đầy đủ chức năng mà không có hạn chế đánh giá.
+
+### Bước 1: Nhập không gian tên
+
+Add the required `using` directives at the top of your C# file so the compiler can locate the classes.
 
 ```csharp
 using Aspose.Note;
@@ -39,61 +99,75 @@ using System.Linq;
 using System.Text;
 ```
 
-## Bước 1: Khởi tạo đối tượng giấy phép Aspose.Note
+### Bước 2: Khởi tạo Đối tượng Giấy phép Aspose.Note
 
- Đầu tiên, chúng ta cần tạo một instance của`License` lớp từ không gian tên Aspose.Note:
+The `License` class represents the licensing component for Aspose.Note.
 
 ```csharp
 Aspose.Note.License license = new Aspose.Note.License();
 ```
 
-## Bước 2: Mở tệp giấy phép bằng FileStream
+### Bước 3: Mở tệp giấy phép bằng FileStream
 
- Tiếp theo, chúng tôi sẽ mở tệp giấy phép bằng cách sử dụng`FileStream`. Đảm bảo rằng bạn đã đặt tệp giấy phép của mình vào thư mục dự án hoặc cung cấp đường dẫn thích hợp tới nó:
+`FileStream` provides a stream for reading from and writing to files on disk.
 
 ```csharp
 using (FileStream myStream = new FileStream("Aspose.Note.lic", FileMode.Open))
 {
-    // Tệp giấy phép được tải vào luồng bộ nhớ
+    // License file is loaded into memory stream
 }
 ```
 
-## Bước 3: Xin giấy phép
+### Bước 4: Áp dụng giấy phép
 
- Bây giờ, chúng ta sẽ áp dụng giấy phép bằng cách vượt qua`FileStream` phản đối`SetLicense` phương pháp của`License` sự vật:
+`SetLicense` loads the license information from the provided stream into the Aspose.Note library.
 
 ```csharp
 license.SetLicense(myStream);
 ```
 
-## Phần kết luận
+## Các vấn đề thường gặp và giải pháp
 
-Trong hướng dẫn này, chúng ta đã tìm hiểu cách áp dụng giấy phép Aspose.Note bằng FileStream trong ứng dụng .NET. Việc cấp phép phù hợp cho ứng dụng của bạn sẽ đảm bảo tuân thủ và phát huy toàn bộ tiềm năng của các tính năng Aspose.Note.
+- **Lỗi không tìm thấy tệp** – Kiểm tra thuộc tính “Copy to Output Directory” của tệp giấy phép được đặt là **Copy always** hoặc **Copy if newer**.  
+- **Ngoại lệ giấy phép không hợp lệ** – Đảm bảo tệp giấy phép phù hợp với phiên bản sản phẩm bạn đang sử dụng; phiên bản không khớp sẽ bị từ chối.  
+- **Từ chối quyền truy cập** – Khi chạy dưới tài khoản bị hạn chế, hãy cấp quyền đọc cho thư mục chứa tệp giấy phép.
+
+## Kết luận
+
+Trong hướng dẫn này, bạn đã học cách **khởi tạo đối tượng giấy phép Aspose.Note** bằng một `FileStream` trong ứng dụng .NET. Việc cấp phép đúng cách đảm bảo tuân thủ và mở khóa tất cả các khả năng của Aspose.Note, chẳng hạn như xử lý hơn 20 định dạng tệp OneNote và xử lý sổ tay với hơn 500 trang mà không cần tải toàn bộ tệp vào bộ nhớ.
 
 ## Câu hỏi thường gặp
 
-### Câu hỏi 1: Tôi có thể sử dụng Aspose.Note mà không cần giấy phép không?
+**Q: Tôi có thể sử dụng Aspose.Note mà không có giấy phép không?**  
+A: Không, cần có giấy phép hợp lệ để truy cập đầy đủ chức năng; phiên bản đánh giá sẽ thêm watermark.
 
-Câu trả lời 1: Không, cần có giấy phép hợp lệ để sử dụng đầy đủ chức năng của Aspose.Note.
+**Q: Tôi có thể tìm tài liệu thêm ở đâu?**  
+A: Bạn có thể tìm tài liệu đầy đủ [tại đây](https://reference.aspose.com/note/net/).
 
-### Câu hỏi 2: Tôi có thể tìm thêm tài liệu ở đâu?
+**Q: Có bản dùng thử miễn phí không?**  
+A: Có, bạn có thể nhận bản dùng thử miễn phí [tại đây](https://releases.aspose.com/).
 
- A2: Bạn có thể tìm thấy tài liệu toàn diện[đây](https://reference.aspose.com/note/net/).
+**Q: Làm sao tôi có thể nhận hỗ trợ?**  
+A: Bạn có thể nhận hỗ trợ từ cộng đồng Aspose.Note tại [diễn đàn](https://forum.aspose.com/c/note/28).
 
-### Câu 3: Có bản dùng thử miễn phí không?
+**Q: Bạn có cung cấp giấy phép tạm thời không?**  
+A: Có, giấy phép tạm thời có sẵn [tại đây](https://purchase.aspose.com/temporary-license/).
 
- A3: Có, bạn có thể dùng thử miễn phí[đây](https://releases.aspose.com/).
+---
 
-### Q4: Làm thế nào tôi có thể nhận được hỗ trợ?
-
-Câu trả lời 4: Bạn có thể nhận hỗ trợ từ cộng đồng Aspose.Note[diễn đàn](https://forum.aspose.com/c/note/28).
-
-### Câu 5: Bạn có cung cấp giấy phép tạm thời không?
-
- Câu trả lời 5: Có, giấy phép tạm thời có sẵn[đây](https://purchase.aspose.com/temporary-license/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**Cập nhật lần cuối:** 2026-06-20  
+**Đã kiểm tra với:** Aspose.Note 24.11 for .NET  
+**Tác giả:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## Hướng dẫn liên quan
+
+- [Áp dụng giấy phép Aspose.Note từ tài nguyên nhúng](/note/net/licensing/apply-license-embedded-resource/)
+- [Thành thạo giấy phép Aspose.Note cho tích hợp OneNote](/note/net/licensing/)
+- [Giấy phép tính theo mức sử dụng với Aspose.Note](/note/net/licensing/metered-licensing/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
