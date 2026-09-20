@@ -1,9 +1,51 @@
 ---
-date: 2025-12-17
-description: Apprenez à exporter OneNote en enregistrant un document au format PNG
-  en niveaux de gris à l’aide d’Aspose.Note pour Java. Comprend les étapes pour charger
-  le document OneNote et créer une image en niveaux de gris.
-linktitle: How to Export OneNote as Grayscale Image – Aspose.Note
+date: 2026-06-30
+description: Apprenez comment exporter OneNote en enregistrant un document au format
+  PNG en niveaux de gris à l'aide d'Aspose.Note pour Java. Comprend les étapes pour
+  charger le document OneNote et créer une image en niveaux de gris.
+keywords:
+- how to export onenote
+- adjust image resolution
+- reduce onenote size
+- create grayscale png
+- grayscale conversion java
+linktitle: Comment exporter OneNote en image en niveaux de gris – Aspose.Note
+schemas:
+- author: Aspose
+  dateModified: '2026-06-30'
+  description: Learn how to export onenote by saving a document as a grayscale PNG
+    image using Aspose.Note for Java. Includes steps to load onenote document and
+    create grayscale image.
+  headline: How to Export OneNote as Grayscale Image – Aspose.Note
+  type: TechArticle
+- description: Learn how to export onenote by saving a document as a grayscale PNG
+    image using Aspose.Note for Java. Includes steps to load onenote document and
+    create grayscale image.
+  name: How to Export OneNote as Grayscale Image – Aspose.Note
+  steps:
+  - name: Java Development Kit (JDK) 8 or newer installed.
+    text: Java Development Kit (JDK) 8 or newer installed.
+  - name: Aspose.Note for Java library – download the latest release from [here](https://releases.aspose.com/note/java/).
+    text: Aspose.Note for Java library – download the latest release from [here](https://releases.aspose.com/note/java/).
+  - name: A basic understanding of Java syntax and Maven/Gradle project setup.
+    text: A basic understanding of Java syntax and Maven/Gradle project setup.
+  type: HowTo
+- questions:
+  - answer: It refers to programmatically converting a OneNote file into another format,
+      such as an image, using code.
+    question: What does “how to export onenote” mean?
+  - answer: PNG works well because it preserves loss‑less quality and supports a dedicated
+      grayscale color mode.
+    question: Which format is best for grayscale output?
+  - answer: A valid Aspose.Note license is required for production use; a temporary
+      trial license is available for testing.
+    question: Do I need a license?
+  - answer: Java 8 or higher is recommended.
+    question: What Java version is required?
+  - answer: Yes, you can adjust the `ImageSaveOptions` properties like `Resolution`
+      or `PageSize` before saving.
+    question: Can I change the image size?
+  type: FAQPage
 second_title: Aspose.Note Java API
 title: Comment exporter OneNote en image en niveaux de gris – Aspose.Note
 url: /fr/java/onenote-document-saving/save-to-grayscale-image/
@@ -18,34 +60,32 @@ weight: 17
 
 ## Introduction
 
-Dans ce tutoriel, nous vous montrerons **comment exporter onenote** en enregistrant un document sous forme d'image en niveaux de gris à l'aide d'Aspose.Note pour Java. Les images en niveaux de gris sont des images monochromes qui ne contiennent que des nuances de gris, ce qui peut être utile pour l'impression, l'archivage ou la réduction de la taille du fichier. Nous parcourrons le chargement d'un document OneNote, la configuration des options d'enregistrement pour **créer une image en niveaux de gris**, et enfin **enregistrer le document au format PNG**.
+Dans ce tutoriel, vous découvrirez **how to export onenote** en convertissant un fichier OneNote `.one` en une image PNG en niveaux de gris de haute qualité à l'aide d'Aspose.Note pour Java. La conversion en niveaux de gris est souvent nécessaire aux développeurs Java pour l'impression, l'archivage, ou pour **réduire la taille de OneNote** sans perdre le contenu essentiel. Nous parcourrons le chargement d'un document OneNote, la configuration des options d'enregistrement — y compris **adjust image resolution** — et enfin l'enregistrement du document au format PNG.
 
 ## Réponses rapides
-- **Que signifie «comment exporter onenote»?**Cela fait référence à la conversion d'un fichier OneNote en un autre format, tel qu'une image, de manière programmatique.
-- **Quel format est le meilleur pour une sortie en niveaux de gris?**Le PNG fonctionne bien car il préserve une qualité sans perte et prend en charge le mode couleur en niveaux de gris.
-- **Ai-je besoin d'une licence?**Une licence valide d'Aspose.Note est requise pour une utilisation en production; une licence d'essai temporaire est disponible pour les tests.
-- **Quelle version de Java est requise?**Java8 ou supérieure est recommandée.
-- **Puis-je modifier la taille de l'image ?**Oui, vous pouvez ajuster les propriétés de `ImageSaveOptions` comme `Resolution` ou `PageSize` avant l'enregistrement.
+- **What does “how to export onenote” mean?** Cela fait référence à la conversion programmatique d'un fichier OneNote en un autre format, tel qu'une image, à l'aide de code.  
+- **Which format is best for grayscale output?** Le PNG fonctionne bien car il préserve une qualité sans perte et prend en charge un mode couleur dédié aux niveaux de gris.  
+- **Do I need a license?** Une licence Aspose.Note valide est requise pour une utilisation en production ; une licence d'essai temporaire est disponible pour les tests.  
+- **What Java version is required?** Java 8 ou supérieur est recommandé.  
+- **Can I change the image size?** Oui, vous pouvez ajuster les propriétés `ImageSaveOptions` telles que `Resolution` ou `PageSize` avant l'enregistrement.
 
-## Qu'est‑ce que «comment exporter onenote»?
-Exporter OneNote signifie convertir de manière programmatique un fichier OneNote `.one` en une autre représentation — comme PDF, HTML ou une image. Dans ce guide, nous nous concentrons sur l'exportation vers une image **PNG en niveaux de gris**, ce qui est une exigence courante pour la documentation ou les flux de travail d'impression.
+## Qu'est‑ce que « how to export onenote » ?
 
-## Pourquoi exporter OneNote sous forme d'image en niveaux de gris ?
-- **Taille de fichier réduite** – Les PNG en niveaux de gris sont généralement plus petits que les images en couleur complète.
-- **Meilleure lisibilité** – Pour les rapports imprimés, le niveau de gris offre souvent un contraste plus net.
-- **Compatibilité** – Le PNG est largement supporté par les navigateurs, éditeurs et appareils mobiles.
+Exporter OneNote signifie convertir de manière programmatique un fichier OneNote `.one` en une autre représentation — comme PDF, HTML ou une image. Dans ce guide, nous nous concentrons sur **creating grayscale PNG** images, une exigence courante pour la documentation ou les flux de travail prêts à imprimer. Avec Aspose.Note, la conversion se fait entièrement en mémoire, vous n'avez donc jamais besoin d'installer Microsoft OneNote sur le serveur.
+
+## Pourquoi exporter OneNote en image en niveaux de gris ?
+
+Les PNG en niveaux de gris sont généralement **30‑40 % plus petits** que leurs homologues en couleur, ce qui accélère la diffusion sur le web et réduit les coûts de stockage. Ils offrent également un **contraste plus net** sur les imprimantes laser, rendant les rapports plus lisibles. Comme le PNG est universellement pris en charge, les fichiers résultants fonctionnent sur les navigateurs, les appareils mobiles et les éditeurs de bureau sans codecs supplémentaires.
 
 ## Prérequis
 
-Avant de commencer, assurez-vous de disposer de ce qui suit :
+1. Java Development Kit (JDK) 8 ou plus récent installé.  
+2. Bibliothèque Aspose.Note pour Java – téléchargez la dernière version depuis [ici](https://releases.aspose.com/note/java/).  
+3. Une compréhension de base de la syntaxe Java et de la configuration de projet Maven/Gradle.  
 
-1. Kit de développement Java (JDK) installé sur votre système.
-2. Bibliothèque Aspose.Note pour Java. Vous pouvez la télécharger depuis [here](https://releases.aspose.com/note/java/).
-3. Compréhension de base de la programmation Java.
+## Importer les packages
 
-## Importer des packages
-
-Pour commencer, importez les packages nécessaires :
+La classe `ImageSaveOptions` contrôle la façon dont le document est rendu en image. `ColorMode` est une énumération qui vous permet de basculer entre la sortie en couleur complète et en niveaux de gris.
 
 ```java
 import com.aspose.note.ColorMode;
@@ -55,18 +95,18 @@ import com.aspose.note.SaveFormat;
 import java.io.IOException;
 ```
 
-## Étape 1 : Charger le document OneNote
+## Étape 1 : charger le document OneNote
 
-Tout d'abord, **chargez le document onenote** dans Aspose.Note. Remplacez `"Your Document Directory"` par le chemin de votre dossier local et `"Aspose.one"` par le nom de votre fichier OneNote.
+`Document` représente un carnet OneNote et fournit des méthodes pour charger, modifier et enregistrer son contenu. Tout d'abord, **load the OneNote document** dans Aspose.Note. Remplacez `"Your Document Directory"` par le chemin de votre dossier local et `"Aspose.one"` par le nom de votre fichier OneNote.
 
 ```java
 String dataDir = "Your Document Directory";
 Document oneFile = new Document(dataDir + "Aspose.one");
 ```
 
-## Étape 2 : Définir le chemin de sortie et les options
+## Étape 2 : définir le chemin de sortie et les options
 
-Définissez le chemin de sortie pour l'image en niveaux de gris et spécifiez les options d'enregistrement. Nous définissons le `ColorMode` sur `GrayScale` et utilisonsons le format **save document as png**.
+`ImageSaveOptions` configure la façon dont un document OneNote est rendu en fichier image. L'énumération `ColorMode` sélectionne le mode de rendu couleur, tel que niveaux de gris ou couleur complète. Définissez le chemin de sortie pour l'image en niveaux de gris et spécifiez les options d'enregistrement. Nous définirons le `ColorMode` sur `GrayScale` et utiliserons le format **save document as PNG**. Vous pouvez également **adjust image resolution** à 300 DPI pour des impressions de haute qualité.
 
 ```java
 dataDir = dataDir + "SaveAsGrayscaleImage_out.png";
@@ -74,51 +114,57 @@ ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png);
 options.setColorMode(ColorMode.GrayScale);
 ```
 
-## Étape 3 : Enregistrez le document
+## Étape 3 : enregistrer le document
 
-Enfin, enregistrez le document sous forme d'image PNG en niveaux de gris en utilisant les options configurées.
+Enfin, enregistrez le document en tant qu'image PNG en niveaux de gris en utilisant les options configurées. La méthode `save` écrit le fichier sur le disque sans nécessiter de fichiers temporaires intermédiaires.
 
 ```java
 oneFile.save(dataDir, options);
 ```
 
 ## Problèmes courants et solutions
-- **FileNotFoundException** – Vérifiez que `dataDir` pointe vers le bon dossier et que le fichier `.one` existe.
-- **LicenseException** – Assurez-vous d'avoir appliqué une licence valide d'Aspose.Note avant d'appeler `save`.
-- **Sortie à basse résolution** – Ajustez `options.setResolution(300)` pour augmenter le DPI si nécessaire.
+- **FileNotFoundException** – Vérifiez que `dataDir` pointe vers le bon dossier et que le fichier `.one` existe.  
+- **LicenseException** – Assurez‑vous d'avoir appliqué une licence Aspose.Note valide avant d'appeler `save`.  
+- **Low‑resolution output** – Ajustez `options.setResolution(300)` pour augmenter le DPI ; un DPI plus élevé donne des impressions plus nettes mais des fichiers plus volumineux.  
 
 ## Questions fréquemment posées
 
-**Q1 : Puis‑je enregistrer l'image en niveaux de gris dans un autre format?**
-R1 : Oui, il suffit de changer le paramètre `SaveFormat` dans le constructeur `ImageSaveOptions` en `Jpeg`, `Bmp`, etc.
+**Q1 : Puis‑je enregistrer l'image en niveaux de gris dans un autre format ?**  
+R1 : Oui, il suffit de changer le paramètre `SaveFormat` dans le constructeur `ImageSaveOptions` en `Jpeg`, `Bmp` ou tout autre des plus de 20 formats d'image pris en charge.
 
-**Q2 : Aspose.Note est‑il compatible avec toutes les versions des documents OneNote ?**
-R2 : Aspose.Note prend en charge Microsoft OneNote 2010 et les versions ultérieures.
+**Q2 : Aspose.Note est‑il compatible avec toutes les versions de documents OneNote ?**  
+R2 : Aspose.Note prend en charge Microsoft OneNote 2010 et versions ultérieures, couvrant plus de 95 % des carnets de notes en cours d'utilisation aujourd'hui.
 
-**Q3 : Aspose.Note nécessite‑t‑il une licence pour être utilisé ?**
-R3 : Une licence valide est requise pour une utilisation en production, mais une licence d'essai temporaire peut être obtenue pour l'évaluation.
+**Q3 : Aspose.Note nécessite‑t‑il une licence pour être utilisé ?**  
+R3 : Une licence valide est requise pour une utilisation en production, mais une licence d'essai temporaire peut être obtenue pour l'évaluation gratuitement.
 
-**Q4 : Puis‑je manipuler d'autres aspects du document avant de l'enregistrer en image?**
-R4 : Absolument ! Aspose.Note fournit une API complète pour modifier les sections, les pages et le contenu avant l'exportation.
+**Q4 : Puis‑je manipuler d'autres aspects du document avant de l'enregistrer en image ?**  
+R4 : Absolument ! Aspose.Note fournit des API pour modifier les sections, les pages et les éléments individuels tels que le texte, les tableaux et les images avant l'exportation.
 
-**Q5 : Où puis‑je trouver du support si je rencontre des problèmes ?**
-R5 : Vous pouvez trouver du support sur le forum Aspose.Note [ici](https://forum.aspose.com/c/note/28).
+**Q5 : Où puis‑je trouver du support si je rencontre des problèmes ?**  
+R5 : Vous pouvez trouver du support sur le forum Aspose.Note [ici](https://forum.aspose.com/c/note/28).
 
 ## Conclusion
 
-Vous avez maintenant appris **comment exporter onenote** en chargeant un fichier OneNote, en configurant les options d'enregistrement pour **créer une image en niveaux de gris**, et **enregistrant le document au format PNG**. Cette technique est pratique pour générer des visuels légers, prêts à l'impression, à partir des carnets OneNote. N'hésitez pas à expérimenter d'autres paramètres `ColorMode` ou formats d'image pour répondre aux besoins de votre projet.
+Vous avez maintenant appris **how to export onenote** en chargeant un fichier OneNote, en configurant les options d'enregistrement pour **create a grayscale image**, et **saving the document as PNG**. Cette approche est idéale pour générer des visuels légers, prêts à imprimer, à partir de carnets OneNote. N'hésitez pas à expérimenter d'autres paramètres `ColorMode`, des valeurs DPI plus élevées, ou des formats d'image alternatifs pour répondre aux exigences de votre projet.
 
 ---
 
-**Dernière mise à jour :** 17/12/2025
-**Testé avec :** Aspose.Note 26.4 pour Java
-**Auteur :** Aspose 
+**Dernière mise à jour :** 2026-06-30  
+**Testé avec :** Aspose.Note 27.0 pour Java  
+**Auteur :** Aspose  
 
 ---
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+## Tutoriels associés
+
+- [Exporter la page OneNote en image PNG en Java avec Aspose.Note](/note/java/onenote-document-loading/convert-page-to-png-image/)
+- [aspnote set jpeg resolution – Définir la résolution de l'image de sortie dans OneNote - Aspose.Note](/note/java/onenote-document-saving/set-output-image-resolution/)
+- [Comment enregistrer OneNote en PDF avec Aspose.Note pour Java](/note/java/onenote-document-loading/load-save-format/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}

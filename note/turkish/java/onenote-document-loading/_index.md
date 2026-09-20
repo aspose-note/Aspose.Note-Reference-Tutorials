@@ -1,111 +1,214 @@
 ---
-title: OneNote Belgesi Yükleniyor
-linktitle: OneNote Belgesi Yükleniyor
-second_title: Aspose.Note Java API'si
-description: Aspose.Note for Java ile OneNote belgelerini yükleme, dönüştürme ve oluşturmaya ilişkin kapsamlı eğitimleri keşfedin. Belge işleme yeteneklerinizi zahmetsizce geliştirin.
-weight: 25
+date: 2026-06-30
+description: OneNote'i HTML olarak nasıl kaydedeceğinizi, şifre korumalı OneNote dosyaları
+  oluşturmayı, OneNote 2007 belgelerini yüklemeyi, sayfaları PDF'ye dönüştürmeyi ve
+  daha fazlasını Aspose.Note for Java kullanarak öğrenin.
+keywords:
+- save onenote as html
+- create password protected onenote
+- convert onenote page pdf
+- onenote page to image
+linktitle: Şifre korumalı OneNote oluşturun
+schemas:
+- author: Aspose
+  dateModified: '2026-06-30'
+  description: Learn how to save OneNote as HTML, create password protected OneNote
+    files, load OneNote 2007 documents, convert pages to PDF, and more using Aspose.Note
+    for Java.
+  headline: Save OneNote as HTML – Create Password Protected OneNote – Load & Convert
+    (Java)
+  type: TechArticle
+- questions:
+  - answer: Use the `Document.save(outputPath, password)` overload, providing the
+      desired password string.
+    question: How do I set a password when creating a new OneNote file?
+  - answer: Yes—simply call `Document.load(path, LoadOptions)`; the API automatically
+      detects the older format.
+    question: Can I load a OneNote 2007 file without converting it first?
+  - answer: Create a `PdfSaveOptions` object, set the `PageIndex` and `PageCount`
+      properties, then call `document.save(outputPath, options)`.
+    question: What is the best way to convert only one page of a OneNote notebook
+      to PDF?
+  - answer: Absolutely—use `Document.getFileFormatInfo()` to obtain detailed version
+      and compatibility data.
+    question: Is it possible to retrieve the file format version of a OneNote document?
+  - answer: Save the document with `SaveFormat.HTML` and set `HtmlSaveOptions.embedResources
+      = true` to keep images and styles inline.
+    question: How can I export a OneNote document to HTML while preserving embedded
+      resources?
+  type: FAQPage
+second_title: Aspense.Note Java API
+title: OneNote'i HTML olarak kaydedin – Şifre korumalı OneNote oluşturun – Yükle ve
+  Dönüştür (Java)
 url: /tr/java/onenote-document-loading/
+weight: 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OneNote Belgesi Yükleniyor
+# OneNote'u HTML Olarak Kaydet – Parola Korumalı OneNote Oluştur – Yükle ve Dönüştür (Java)
 
+## Hızlı Yanıtlar
+- **Java için birincil API nedir?** Aspose.Note for Java.
+- **Parola korumalı OneNote dosyaları oluşturabilir miyim?** Evet—parola ile `Document` sınıfını kullanın.
+- **OneNote 2007 belgesi nasıl yüklenir?** Uygun formatla `LoadOptions` kullanın.
+- **Sayfa başına PDF dönüşümü destekleniyor mu?** Kesinlikle—`PdfSaveOptions` kullanın ve sayfa aralığını belirtin.
+- **OneNote belgesini HTML olarak dışa aktarabilir miyim?** Evet—`save` metodunu `SaveFormat.HTML` ile çağırın.
 
-## giriiş
+## Aspose.Note for Java kullanarak OneNote'u HTML olarak nasıl kaydedilir?
 
-Aspose.Note'u projelerinize sorunsuz bir şekilde entegre etmek isteyen bir Java geliştiricisiyseniz doğru yerdesiniz. Eğitimlerimiz, şifrelemeyi kontrol etmekten parola korumalı belgeler oluşturmaya kadar OneNote belge işlemenin çeşitli yönlerini kapsar. Verimli belge işleme dünyasına dalalım.
+`Document` sınıfı bir OneNote defterini temsil eder ve onu yükleyip kaydetmek için yöntemler sunar. `SaveFormat.HTML`, çıktının HTML olacağını belirtir. Kaynak defteri `new Document("source.one")` ile yükleyin ve `doc.save("output.html", SaveFormat.HTML)` çağrısını yapın. API, görüntüleri, CSS'i ve yazı tiplerini otomatik olarak gömer, defterin web‑hazır bir sürümünü oluşturur. Bu tek satırlık işlem, modern *.one* dosyaları ve eski 2007 formatları için çalışır, HTML dışa aktarımını hızlı ve güvenilir kılar.
 
-## OneNote Belgesinin Şifreli olup olmadığını kontrol etme - Java
-[OneNote Belgesinin Şifreli olup olmadığını kontrol edin](./check-document-encrypted/) - Bir OneNote belgesinin Aspose.Note for Java kullanılarak şifrelenip şifrelenmediğini nasıl belirleyeceğinizi keşfedin. Verimli belge işleme için adım adım kılavuzumuzu izleyin.
+## “Parola korumalı onenote oluşturma” nedir?
+Parola korumalı OneNote dosyası oluşturmak, defteri şifreleyerek yalnızca parolayı bilen kullanıcıların açıp düzenleyebilmesini sağlar. Bu, hassas toplantı notları, proje planları veya OneNote'da saklanan herhangi bir gizli bilgi için kritiktir.
 
-## Java ile OneNote'ta Belirli Sayfa Aralığını PDF'ye Dönüştürme
-[Sayfa Aralığını PDF'ye Dönüştür](./convert-page-range-to-pdf/) - Aspose.Note for Java ile belirli sayfa aralıklarını OneNote'tan PDF'ye sorunsuz bir şekilde dönüştürün. Biçimlendirmeyi ve düzeni zahmetsizce koruyun.
+## Neden Aspose.Note for Java kullanmalı?
+Aspose.Note for Java, Microsoft Office gerektirmeden OneNote dosyalarını işlemek için kapsamlı bir sunucu‑tarafı çözüm sunar. Geniş bir format yelpazesini destekler, büyük defterlere ölçeklenebilir ve güçlü performans sağlar; bu da günlük binlerce belge işleyen arka uç hizmetleri için idealdir.
 
-## Java kullanarak OneNote'ta Belirli Sayfayı Resme Dönüştürme
-[Sayfayı Resme Dönüştür](./convert-page-to-image/) - Aspose.Note ile Java kullanarak belirli bir sayfayı OneNote'ta bir görüntüye nasıl dönüştüreceğinizi öğrenin. Sorunsuz entegrasyon için adım adım kılavuzumuzu izleyin.
+## Önkoşullar
+- Java 8 ve üzeri.  
+- Aspose.Note for Java kütüphanesi (Aspose web sitesinden indirin).  
+- Üretim kullanımı için geçerli bir Aspose.Note lisansı (ücretsiz deneme mevcut).
 
-## OneNote'ta Belirli Sayfayı PNG Görüntüsüne Dönüştürme - Java
-[Sayfayı PNG Görüntüsüne Dönüştür](./convert-page-to-png-image/) - Aspose.Note'u kullanarak OneNote belgelerinden belirli sayfaları Java'da PNG görüntülerine dönüştürme sanatında ustalaşın.
+## Bu Merkezde Kapsanan Temel Konular
 
-## OneNote Belgesini Görüntüye Dönüştürme - Java
-[OneNote'u Resme Dönüştür](./convert-to-image/) - Aspose.Note for Java'yı kullanarak OneNote belgelerini zahmetsizce görüntülere dönüştürün. Sorunsuz entegrasyon için bu adım adım öğreticiyi izleyin.
+### OneNote Belgesinin Şifrelenip Şifrelenmediğini Kontrol Et - Java
+[OneNote Belgesinin Şifrelenip Şifrelenmediğini Kontrol Et](./check-document-encrypted/) – Aspose.Note for Java kullanarak bir OneNote belgesinin şifreli olup olmadığını belirlemeyi keşfedin. Verimli belge işleme için adım‑adım kılavuzumuzu izleyin.
 
-## Varsayılan Seçenekleri Kullanarak OneNote Belgesini Görüntüye Dönüştürme - Java
-[Görüntü Varsayılan Seçeneklerine Dönüştür](./convert-to-image-default-options/) Aspose.Note for Java ile varsayılan seçenekleri kullanarak OneNote belgelerini görüntülere dönüştürmeyi öğrenin. Kusursuz entegrasyon parmaklarınızın ucunda.
+### OneNote'da Belirli Sayfa Aralığını PDF'e Dönüştür - Java
+[Sayfa Aralığını PDF'e Dönüştür](./convert-page-range-to-pdf/) – Aspose.Note for Java ile OneNote'dan belirli sayfa aralıklarını sorunsuzca PDF'e dönüştürün. Biçimlendirme ve düzeni zahmetsizce koruyun.
 
-## OneNote Belgesini PDF'ye Dönüştürme - Java
-[PDF'ye dönüştür](./convert-to-pdf/) - Aspose.Note for Java'yı kullanarak OneNote belgelerini PDF'ye nasıl dönüştüreceğinizi öğrenerek belge işleme yeteneklerinizi geliştirin. Adım adım kılavuz dahildir.
+### OneNote'da Belirli Bir Sayfayı Görüntüye Dönüştür - Java
+[Sayfayı Görüntüye Dönüştür](./convert-page-to-image/) – Aspose.Note ile Java kullanarak OneNote'da belirli bir sayfayı görüntüye dönüştürmeyi öğrenin. Sorunsuz entegrasyon için adım‑adım kılavuzumuzu izleyin.
 
-## Sayfa Başlığıyla OneNote Belgesi Oluşturma - Java
-[Sayfa Başlığıyla OneNote Dokümanı Oluşturun](./create-onenote-doc-page-title/) - Aspose.Note'u kullanarak Java'da sayfa başlıklarına sahip OneNote belgeleri oluşturmayı öğrenin. Kod örnekleriyle kapsamlı eğitim.
+### OneNote'da Belirli Sayfayı PNG Görüntüsü Olarak Dönüştür - Java
+[Sayfayı PNG Görüntüsü Olarak Dönüştür](./convert-page-to-png-image/) – Aspose.Note for Java kullanarak OneNote belgelerindeki belirli sayfaları PNG görüntülerine dönüştürmenin inceliklerini öğrenin.
 
-## OneNote Belgesi Oluşturma ve HTML'ye Kaydetme - Java
-[OneNote Oluştur HTML'ye Kaydet](./create-onenote-save-to-html/) - OneNote belgeleri oluşturmak ve bunları yerleşik kaynaklarla HTML olarak kaydetmek için Aspose.Note for Java'yı kullanın. Belge oluşturma potansiyelinin kilidini açın.
+### OneNote Belgesini Görüntüye Dönüştür - Java
+[OneNote'u Görüntüye Dönüştür](./convert-to-image/) – Aspose.Note for Java ile OneNote belgelerini zahmetsizce görüntülere dönüştürün. Sorunsuz entegrasyon için bu adım‑adım öğreticiyi izleyin.
 
-## Parola Korumalı OneNote Belgeleri Oluşturma - Java
-[Parola Korumalı OneNote Oluşturun](./create-password-protected-onenote/) Aspose.Note ile Java kullanarak şifre korumalı OneNote belgeleri oluşturma sanatında ustalaşın. Güvenlik basitlikle buluşuyor.
+### OneNote Belgesini Varsayılan Seçeneklerle Görüntüye Dönüştür - Java
+[Varsayılan Seçeneklerle Görüntüye Dönüştür](./convert-to-image-default-options/) – Aspose.Note for Java ile OneNote belgelerini varsayılan seçeneklerle görüntülere dönüştürmeyi öğrenin. Parmaklarınızın ucunda sorunsuz entegrasyon.
 
-## OneNote Belgesinde Düğüm Türünü Ayırt Etme - Java
-[Düğüm Türünü Ayırt Edin](./distinguish-node-type/) - Aspose.Note ile Java kullanarak OneNote belgelerindeki düğüm türlerini nasıl ayırt edeceğinizi öğrenin. Sorunsuz entegrasyon için adım adım kılavuzumuzu ve SSS'lerimizi keşfedin.
+### OneNote Belgesini PDF'e Dönüştür - Java
+[PDF'e Dönüştür](./convert-to-pdf/) – Aspose.Note for Java kullanarak OneNote belgelerini PDF'e dönüştürmeyi öğrenerek belge işleme yeteneklerinizi artırın. Adım‑adım kılavuz dahil.
 
-## OneNote'tan Dosya Formatı Bilgilerini Alma - Java
-[Dosya Formatı Bilgisini Al](./get-file-format-info/) - Aspose.Note ile Java kullanarak OneNote dosyalarından dosya formatı bilgilerini alın. Belge işleme görevlerinizi güçlendirin.
+### Sayfa Başlığıyla OneNote Belgesi Oluştur - Java
+[Sayfa Başlığıyla OneNote Belgesi Oluştur](./create-onenote-doc-page-title/) – Aspose.Note for Java kullanarak Java'da sayfa başlıklarıyla OneNote belgeleri oluşturmayı öğrenin. Kod örnekleriyle kapsamlı öğretici.
 
-## PdfSaveOptions'ı kullanarak OneNote Belgesini Aspose.Note'a yükleyin
-[PDF Kaydetme Seçeneklerini Yükle](./load-pdf-save-options/) - OneNote belgelerini yüklemek ve zahmetsizce PDF formatına dönüştürmek için Aspose.Note for Java'yı kullanın. Aspose.Note ile belge dönüştürme görevlerinizi basitleştirin.
+### OneNote Belgesi Oluştur ve HTML Olarak Kaydet - Java
+[OneNote'u HTML Olarak Kaydet](./create-onenote-save-to-html/) – Aspose.Note for Java ile OneNote belgeleri oluşturun ve gömülü kaynaklarla HTML olarak kaydedin. Belge oluşturmanın potansiyelini ortaya çıkarın.
 
-## SaveFormat'ı kullanarak OneNote Belgesini Aspose.Note'a yükleme - Java
-[Kaydetme Formatını Yükle](./load-save-format/) Java kullanarak OneNote belgelerini Aspose.Note'a kolaylıkla yüklemeyi öğrenin. Sorunsuz entegrasyon için adım adım kılavuz.
+### Parola Koruması Olan OneNote Belgeleri Oluştur - Java
+[Parola Koruması Olan OneNote Oluştur](./create-password-protected-onenote/) – Aspose.Note ile Java’da **parola korumalı OneNote** belgeleri oluşturma sanatını öğrenin. Güvenlik ve basitlik bir arada.
 
-## OneNote Belgesini Yükleme - Java
-[OneNote Belgesini Yükle](./load-onenote-document/) - OneNote belgelerini zahmetsizce yüklemek ve değiştirmek için Aspose.Note for Java'yı kullanın. Java geliştiricileri için özel olarak hazırlanmış kapsamlı bir eğitim.
+### OneNote Belgesinde Düğüm Türünü Ayırt Et - Java
+[Düğüm Türünü Ayırt Et](./distinguish-node-type/) – Aspose.Note for Java ile Java’da OneNote belgelerindeki düğüm türlerini ayırt etmeyi öğrenin. Sorunsuz entegrasyon için adım‑adım kılavuz ve SSS'yi keşfedin.
 
-## OneNote 2007 Belgesini Yükleme - Java
-[OneNote 2007'yi yükleyin](./load-onenote-2007/) - Kusursuz entegrasyon için Aspose.Note'u kullanarak OneNote 2007 belgelerini Java'ya yüklemenin ayrıntılarını inceleyin.
+### OneNote Dosya Formatı Bilgilerini Al - Java
+[Dosya Formatı Bilgilerini Al](./get-file-format-info/) – Aspose.Note for Java kullanarak OneNote dosyalarından **OneNote dosya formatı** bilgilerini alın. Belge işleme görevlerinizi güçlendirin.
 
-## Parola Korumalı OneNote Belgesini Yükleme - Java
-[Parola Korumalı OneNote'u Yükleyin](./load-password-protected-onenote/) - Aspose.Note for Java ile Java kullanarak parola korumalı OneNote belgelerini yüklemenin sırlarını açığa çıkarın. Kusursuz güvenlik entegrasyonu sizi bekliyor.
-## OneNote Belge Yükleme Eğitimleri
-### [OneNote Belgesinin Şifreli olup olmadığını kontrol etme - Java](./check-document-encrypted/)
-Aspose.Note kullanarak bir OneNote belgesinin Java'da şifrelenip şifrelenmediğini nasıl kontrol edeceğinizi öğrenin. Verimli belge işleme için adım adım kılavuzumuzu izleyin.
-### [Java ile OneNote'ta Belirli Sayfa Aralığını PDF'ye Dönüştürme](./convert-page-range-to-pdf/)
-Aspose.Note for Java ile belirli sayfa aralıklarını OneNote'tan PDF'ye sorunsuz bir şekilde nasıl dönüştüreceğinizi öğrenin. Biçimlendirmeyi ve düzeni zahmetsizce koruyun.
-### [Java kullanarak OneNote'ta Belirli Sayfayı Resme Dönüştürme](./convert-page-to-image/)
-Aspose.Note ile Java kullanarak belirli bir sayfayı OneNote'ta bir görüntüye nasıl dönüştüreceğinizi öğrenin. Sorunsuz entegrasyon için adım adım kılavuzumuzu izleyin.
-### [OneNote'ta Belirli Sayfayı PNG Görüntüsüne Dönüştürme - Java](./convert-page-to-png-image/)
-Aspose.Note'u kullanarak OneNote belgelerindeki belirli sayfaları Java'da PNG görüntülerine nasıl dönüştüreceğinizi öğrenin.
-### [OneNote Belgesini Görüntüye Dönüştürme - Java](./convert-to-image/)
-Aspose.Note for Java'yı kullanarak OneNote belgelerini zahmetsizce görüntülere nasıl dönüştüreceğinizi öğrenin.
-### [Varsayılan Seçenekleri Kullanarak OneNote Belgesini Görüntüye Dönüştürme - Java](./convert-to-image-default-options/)
-Aspose.Note for Java'yı kullanarak OneNote belgelerini zahmetsizce görüntülere dönüştürün. Sorunsuz entegrasyon için bu adım adım öğreticiyi izleyin.
-### [OneNote Belgesini PDF'ye Dönüştürme - Java](./convert-to-pdf/)
-Aspose.Note for Java'yı kullanarak OneNote belgelerini PDF'ye nasıl dönüştüreceğinizi öğrenin. Bu adım adım kılavuzla belge işleme yeteneklerinizi geliştirin.
-### [Sayfa Başlığıyla OneNote Belgesi Oluşturma - Java](./create-onenote-doc-page-title/)
-Aspose.Note for Java'yı kullanarak Java'da sayfa başlıklarına sahip OneNote belgelerini nasıl oluşturacağınızı öğrenin. Kod örnekleriyle kapsamlı eğitim.
-### [OneNote Belgesi Oluşturma ve HTML'ye Kaydetme - Java](./create-onenote-save-to-html/)
-OneNote belgeleri oluşturmak ve bunları yerleşik kaynaklarla HTML olarak kaydetmek için Aspose.Note for Java'yı nasıl kullanacağınızı öğrenin.
-### [Parola Korumalı OneNote Belgeleri Oluşturma - Java](./create-password-protected-onenote/)
-Aspose.Note ile Java kullanarak parola korumalı OneNote belgeleri oluşturmayı öğrenin.
-### [OneNote Belgesinde Düğüm Türünü Ayırt Etme - Java](./distinguish-node-type/)
-Aspose.Note ile Java kullanarak OneNote belgelerindeki düğüm türlerini nasıl ayırt edeceğinizi öğrenin. Sorunsuz entegrasyon için adım adım kılavuzu ve SSS'leri keşfedin.
-### [OneNote'tan Dosya Formatı Bilgilerini Alma - Java](./get-file-format-info/)
-Aspose.Note ile Java kullanarak OneNote dosyalarından dosya formatı bilgilerini nasıl alacağınızı öğrenin.
-### [PdfSaveOptions'ı kullanarak OneNote Belgesini Aspose.Note'a yükleyin](./load-pdf-save-options/)
-OneNote belgelerini yüklemek ve zahmetsizce PDF formatına dönüştürmek için Aspose.Note for Java'yı nasıl kullanacağınızı öğrenin. Aspose.Note ile belge dönüştürme görevlerinizi basitleştirin.
-### [SaveFormat'ı kullanarak OneNote Belgesini Aspose.Note'a yükleme - Java](./load-save-format/)
-OneNote belgelerini Java kullanarak Aspose.Note'a nasıl kolaylıkla yükleyeceğinizi öğrenin. Kusursuz entegrasyon için adım adım kılavuz.
-### [OneNote Belgesini Yükleme - Java](./load-onenote-document/)
-OneNote belgelerini zahmetsizce yüklemek ve değiştirmek için Aspose.Note for Java'yı nasıl kullanacağınızı öğrenin. Java geliştiricileri için kapsamlı eğitim.
-### [OneNote 2007 Belgesini Yükleme - Java](./load-onenote-2007/)
-Kusursuz entegrasyon için Aspose.Note'u kullanarak OneNote 2007 belgelerini Java'ya nasıl yükleyeceğinizi öğrenin.
-### [Parola Korumalı OneNote Belgesini Yükleme - Java](./load-password-protected-onenote/)
-Aspose.Note for Java ile Java kullanarak parola korumalı OneNote belgelerini nasıl yükleyeceğinizi öğrenin.
-{{< /blocks/products/pf/tutorial-page-section >}}
+### Aspose.Note ile PdfSaveOptions Kullanarak OneNote Belgesi Yükle
+[PDF Kaydetme Seçeneklerini Yükle](./load-pdf-save-options/) – Aspose.Note for Java ile OneNote belgelerini yükleyin ve sorunsuzca PDF formatına dönüştürün. Belge dönüşüm görevlerinizi basitleştirin.
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+### Aspose.Note ile SaveFormat Kullanarak OneNote Belgesi Yükle - Java
+[SaveFormat ile Yükle](./load-save-format/) – Java kullanarak Aspose.Note ile OneNote belgelerini kolayca yüklemeyi öğrenin. Sorunsuz entegrasyon için adım‑adım kılavuz.
+
+### OneNote Belgesi Yükle - Java
+[OneNote Belgesi Yükle](./load-onenote-document/) – Aspose.Note for Java ile OneNote belgelerini zahmetsizce yükleyin ve manipüle edin. Java geliştiricileri için kapsamlı öğretici.
+
+### OneNote 2007 Belgesi Yükle - Java
+[OneNote 2007 Yükle](./load-onenote-2007/) – Aspose.Note for Java kullanarak **OneNote 2007** belgelerini yüklemenin ayrıntılarına dalın.
+
+### Parola Koruması Olan OneNote Belgesi Yükle - Java
+[Parola Koruması Olan OneNote Yükle](./load-password-protected-onenote/) – Aspose.Note for Java ile Java’da parola korumalı OneNote belgelerini yüklemenin sırlarını keşfedin. Sorunsuz güvenlik entegrasyonu sizi bekliyor.
+
+## OneNote Belgesi Yükleme Eğitimleri (Hızlı Navigasyon)
+
+### [OneNote Belgesinin Şifrelenip Şifrelenmediğini Kontrol Et - Java](./check-document-encrypted/)
+Java’da Aspose.Note kullanarak bir OneNote belgesinin şifreli olup olmadığını kontrol etmeyi öğrenin. Verimli belge işleme için adım‑adım kılavuzumuzu izleyin.
+
+### [OneNote'da Belirli Sayfa Aralığını PDF'e Dönüştür - Java](./convert-page-range-to-pdf/)
+Aspose.Note for Java ile OneNote'dan belirli sayfa aralıklarını sorunsuzca PDF'e dönüştürmeyi öğrenin. Biçimlendirme ve düzeni zahmetsizce koruyun.
+
+### [OneNote'da Belirli Bir Sayfayı Görüntüye Dönüştür - Java](./convert-page-to-image/)
+Aspose.Note ile Java’da OneNote'da belirli bir sayfayı görüntüye dönüştürmeyi öğrenin. Sorunsuz entegrasyon için adım‑adım kılavuz.
+
+### [OneNote'da Belirli Sayfayı PNG Görüntüsü Olarak Dönüştür - Java](./convert-page-to-png-image/)
+Aspose.Note for Java kullanarak OneNote belgelerindeki belirli sayfaları PNG görüntülerine dönüştürmenin inceliklerini öğrenin.
+
+### [OneNote Belgesini Görüntüye Dönüştür - Java](./convert-to-image/)
+Aspose.Note for Java ile OneNote belgelerini zahmetsizce görüntülere dönüştürün.
+
+### [OneNote Belgesini Varsayılan Seçeneklerle Görüntüye Dönüştür - Java](./convert-to-image-default-options/)
+Aspose.Note for Java ile OneNote belgelerini varsayılan seçeneklerle görüntülere dönüştürün. Sorunsuz entegrasyon için bu adım‑adım öğreticiyi izleyin.
+
+### [OneNote Belgesini PDF'e Dönüştür - Java](./convert-to-pdf/)
+Aspose.Note for Java kullanarak OneNote belgelerini PDF'e dönüştürmeyi öğrenin. Bu adım‑adım rehberle belge işleme yeteneklerinizi geliştirin.
+
+### [Sayfa Başlığıyla OneNote Belgesi Oluştur - Java](./create-onenote-doc-page-title/)
+Aspose.Note for Java ile Java’da sayfa başlıklarıyla OneNote belgeleri oluşturmayı öğrenin. Kod örnekleriyle kapsamlı öğretici.
+
+### [OneNote Belgesi Oluştur ve HTML Olarak Kaydet - Java](./create-onenote-save-to-html/)
+Aspose.Note for Java kullanarak OneNote belgeleri oluşturun ve gömülü kaynaklarla HTML olarak kaydedin.
+
+### [Parola Koruması Olan OneNote Belgeleri Oluştur - Java](./create-password-protected-onenote/)
+Aspose.Note for Java ile Java’da **parola korumalı OneNote** belgeleri oluşturmayı öğrenin.
+
+### [OneNote Belgesinde Düğüm Türünü Ayırt Et - Java](./distinguish-node-type/)
+Aspose.Note for Java ile Java’da OneNote belgelerindeki düğüm türlerini ayırt etmeyi öğrenin. Sorunsuz entegrasyon için adım‑adım kılavuz ve SSS'yi keşfedin.
+
+### [OneNote Dosya Formatı Bilgilerini Al - Java](./get-file-format-info/)
+Aspose.Note for Java kullanarak OneNote dosyalarından **OneNote dosya formatı** bilgilerini almayı öğrenin.
+
+### [Aspose.Note ile PdfSaveOptions Kullanarak OneNote Belgesi Yükle](./load-pdf-save-options/)
+Aspose.Note for Java ile OneNote belgelerini yükleyin ve sorunsuzca PDF formatına dönüştürün. Belge dönüşüm görevlerinizi basitleştirin.
+
+### [Aspose.Note ile SaveFormat Kullanarak OneNote Belgesi Yükle - Java](./load-save-format/)
+Java kullanarak Aspose.Note ile OneNote belgelerini kolayca yüklemeyi öğrenin. Sorunsuz entegrasyon için adım‑adım kılavuz.
+
+### [OneNote Belgesi Yükle - Java](./load-onenote-document/)
+Aspose.Note for Java ile OneNote belgelerini zahmetsizce yükleyin ve manipüle edin. Java geliştiricileri için kapsamlı öğretici.
+
+### [OneNote 2007 Belgesi Yükle - Java](./load-onenote-2007/)
+Aspose.Note for Java kullanarak **OneNote 2007** belgelerini yüklemenin inceliklerini öğrenin.
+
+### [Parola Koruması Olan OneNote Belgesi Yükle - Java](./load-password-protected-onenote/)
+Java’da Aspose.Note for Java ile parola korumalı OneNote belgelerini yüklemeyi öğrenin.
+
+## Sık Sorulan Sorular
+
+**S: Yeni bir OneNote dosyası oluştururken parolayı nasıl ayarlarım?**  
+C: `Document.save(outputPath, password)` aşırı yüklemesini kullanın, istediğiniz parola dizesini sağlayın.
+
+**S: OneNote 2007 dosyasını önce dönüştürmeden yükleyebilir miyim?**  
+C: Evet—`Document.load(path, LoadOptions)` çağırın; API otomatik olarak eski formatı algılar.
+
+**S: Bir OneNote defterinin yalnızca bir sayfasını PDF'e dönüştürmenin en iyi yolu nedir?**  
+C: Bir `PdfSaveOptions` nesnesi oluşturun, `PageIndex` ve `PageCount` özelliklerini ayarlayın, ardından `document.save(outputPath, options)` çağırın.
+
+**S: OneNote belgesinin dosya formatı sürümünü almak mümkün mü?**  
+C: Kesinlikle—`Document.getFileFormatInfo()` kullanarak ayrıntılı sürüm ve uyumluluk verilerini alın.
+
+**S: OneNote belgesini gömülü kaynakları koruyarak HTML olarak dışa aktarabilir miyim?**  
+C: Belgeyi `SaveFormat.HTML` ile kaydedin ve `HtmlSaveOptions.embedResources = true` ayarlayarak görüntü ve stilleri satır içi tutun.
+
+---
+
+**Son Güncelleme:** 2026-06-30  
+**Test Edilen Versiyon:** Aspose.Note for Java 27.0  
+**Yazar:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## İlgili Eğitimler
+
+- [OneNote Belgelerini Aspose.Note for Java ile Kaydetme](/note/java/onenote-document-saving/)
+- [OneNote'u PNG Görüntüsü Olarak Kaydetme Aspose.Note for Java ile](/note/java/onenote-document-loading/convert-to-image/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}

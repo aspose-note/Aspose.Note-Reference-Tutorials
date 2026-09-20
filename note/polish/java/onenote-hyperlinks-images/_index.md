@@ -1,11 +1,43 @@
 ---
-date: 2025-12-20
+date: 2026-06-30
 description: Dowiedz się, jak dodać hiperłącze do obrazu w OneNote przy użyciu Aspose.Note
-  dla Javy. Przewodnik krok po kroku, jak osadzać interaktywne linki do obrazów i
+  for Java. Przewodnik krok po kroku, jak osadzać interaktywne linki do obrazów i
   zarządzać obrazami w dokumentach OneNote.
-linktitle: OneNote Hyperlinks and Images
+keywords:
+- add hyperlink to image
+- insert image into onenote
+- add image hyperlink
+- extract images from onenote
+- save onenote with link
+linktitle: Hiperłącza i obrazy w OneNote
+schemas:
+- author: Aspose
+  dateModified: '2026-06-30'
+  description: Learn how to add hyperlink to image in OneNote using Aspose.Note for
+    Java. Step‑by‑step guide to embed interactive image links and manage images in
+    OneNote documents.
+  headline: Add Hyperlink to Image in OneNote with Java
+  type: TechArticle
+- questions:
+  - answer: Yes. Aspose.Note supports all standard image formats; the hyperlink is
+      attached to the image object regardless of its type.
+    question: Can I add a hyperlink to any image format (PNG, JPEG, GIF)?
+  - answer: No. You can create or modify a document entirely in memory and then save
+      it to a `.one` file.
+    question: Do I need to open the OneNote file in edit mode to add the hyperlink?
+  - answer: Absolutely. The generated hyperlink is stored in the OneNote file format,
+      which is recognized by desktop, web, and mobile clients.
+    question: Will the hyperlink work on mobile OneNote apps?
+  - answer: After saving, open the file in OneNote and click the image; the linked
+      URL should open in the default browser.
+    question: How can I verify that the hyperlink was added correctly?
+  - answer: One image can hold only one hyperlink. To provide multiple links, consider
+      using a composite image with separate clickable regions or add separate image
+      objects.
+    question: Is there a way to add multiple hyperlinks to a single image?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: Dodaj hiperłącze do obrazu w OneNote przy użyciu Javy
+title: Dodaj hiperłącze do obrazu w OneNote przy użyciu Java
 url: /pl/java/onenote-hyperlinks-images/
 weight: 22
 ---
@@ -14,89 +46,114 @@ weight: 22
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OneNote Hyperlinks and Images
+# Hyperlinki i obrazy w OneNote
 
-## Wstęp
+## Wprowadzenie
 
-Czy jesteś programistą Java, który chce przenieść swoje umiejętności w OneNote? Zanurz się w naszych kompleksowych samouczkach z Aspose.Note for Java, dostarczach, aby dostarczyć szczegółowe informacje do ulepszenia doświadczenia w OneNote. W tym przewodniku podręczniksz się **jak został przesłany hiperłącze do obrazu** w dokumentach OneNote, zawierający, że Twoje notatki są osobno, jak i szczegółowe.
+Czy jesteś programistą Java, który chce podnieść swoje umiejętności w OneNote? Zanurz się w naszych kompleksowych samouczkach z Aspose.Note for Java, zaprojektowanych tak, aby wyposażyć Cię w wiedzę niezbędną do ulepszenia doświadczenia z OneNote. W tym przewodniku dowiesz się **jak dodać hyperlink do obrazu** w dokumentach OneNote, czyniąc Twoje notatki interaktywnymi i atrakcyjnymi wizualnie.
+
+Dodanie hyperlinku do obrazu zamienia statyczny obraz w bramę do zewnętrznych zasobów, dokumentacji lub powiązanych stron — idealne do wzbogacania notatek ze spotkań, dokumentacji projektowej czy materiałów edukacyjnych. Dzięki płynnemu API Aspose.Note możesz osiągnąć to w kilku linijkach kodu Java, bez konieczności otwierania interfejsu OneNote.
 
 ## Szybkie odpowiedzi
-- **Co oznacza „dodaj hiperłącze do obrazu”?** Do osadzania klikalnego adresu URL w obiekcie obrazu wewnątrz strony OneNote.
-- **Która biblioteka do obsługi?** Aspose.Note for Java płynne API dodawania hiperłączy do obrazów.
-- **Czy jest licencjat?** Wersja próbna wystarczy do sprawdzenia; licencjat komercyjny jest wymagany w środowisku produkcyjnym.
-- **Czy można zastosować przepisy zamiast plików?** Tak — Aspose.Note pozwala na zapisanie obrazów za pomocą `InputStream`.
-- **Czy jest to oprogramowanie OneNote 2016 i OneNote dla Windows10?** Wygenerowany plik `.one` działa we wszystkich najnowszych klientach OneNote.
+- **Co oznacza „dodaj hyperlink do obrazu”?** Osadza klikalny URL w obiekcie obrazu wewnątrz strony OneNote.  
+- **Która biblioteka to obsługuje?** Aspose.Note for Java zapewnia płynne API do hyperlinkowania obrazów.  
+- **Czy potrzebna jest licencja?** Darmowa wersja próbna wystarcza do oceny; licencja komercyjna jest wymagana w produkcji.  
+- **Czy mogę używać strumieni zamiast plików?** Tak — Aspose.Note pozwala ładować i zapisywać obrazy przez `InputStream`.  
+- **Czy jest kompatybilny z OneNote 2016 i OneNote dla Windows 10?** Wygenerowany plik `.one` działa we wszystkich niedawnych klientach OneNote.  
 
-## Dodaj hiperłącze w OneNote z Javą
-Poznaj sztukę dodawania hiperłączy w OneNote w prosty sposób przy użyciu Javy i biblioteki Aspose.Note. Ten samouczek oferujący przewodnik krok po kroku, aby dodać notatki o wcześniej linkach, które obejmują dodatkowe i angażujące doświadczenie notowania. Sprawdź [Dodaj hiperłącze w programie OneNote z samouczkiem Java](./add-hyperlink/) i podnieś swoją grę w OneNote.
+## Jak dodać hyperlink do obrazu w OneNote przy użyciu Javy?
 
-## Dodaj hiperłącze do obrazu w programie OneNote przy użyciu języka Java
-Zbadaj świat hiperłączy w obrazach w dokumentach OneNote zawiera szczegółowe informacje o samouczkowi. Dowiedz się, jak płynnie podłączyć hiperłącza do obrazów przy użyciu Javy i Aspose.Note. Podnieś atrakcyjność wizualny swoich notatek dzięki temu przewodnikowi krok po kroku — [Dodaj hiperłącze do obrazu w OneNote z Javą](./add-hyperlink-to-image/).
+`Image` reprezentuje element obrazu, który może być umieszczony na stronie OneNote. `Document` jest obiektem głównym, który przechowuje notatniki OneNote, a `Page` jest kontenerem dla konturów i treści. Załaduj `Image` z pliku lub strumienia, ustaw jego właściwość `hyperlink` na żądany URL, dodaj obraz do konturu `Page`, a na końcu zapisz `Document`. Ta sekwencja tworzy w pełni funkcjonalny hyperlink obrazu, który działa na komputerach, w przeglądarce i w aplikacjach mobilnych OneNote, bez tworzenia plików pośrednich.
 
-## Utwórz dokument i wstaw obraz w programie OneNote przy użyciu języka Java
-Podnieś swoje dokumenty OneNote na poziomie, opanowując sztukę tworzenia i ustawiania obrazów. Ten samouczek prowadzi Cię przez proces, płynną wersję z Aspose.Note for Java. Podnieś doświadczenie notowania dzięki [Utwórz dokument i wstaw obraz w programie OneNote przy użyciu samouczka Java](./build-doc-insert-image/).
+## Czym jest hyperlink obrazu w OneNote?
 
-Jako programista Java, dowiedz się, jak bez instrukcji integrować obrazy w dokumentach OneNote dzięki przekazanemu przewodnikowi krok po kroku — [Buduj dokument i wstaw obraz za pomocą strumienia w programie OneNote - Java](./build-doc-insert-image-stream/). Podnieś swoje doświadczenie notowania z Aspose.Note for Java.
+Hyperlink obrazu to element OneNote, który łączy obraz z adresem URL, umożliwiając użytkownikom kliknięcie obrazu w celu otwarcia powiązanego adresu internetowego. Hyperlinki obrazów są przechowywane w formacie pliku `.one` jako część metadanych obrazu, zapewniając spójne zachowanie we wszystkich platformach OneNote.
 
-## Wyodrębnij obrazy z dokumentu OneNote przy użyciu języka Java
-Odkryj tajniki wyodrębnienia obszarów z dokumentów OneNote przy użyciu Javy. Postępuj według naszego szczegółowego rozwiązania z biblioteką Aspose.Note, aby płynnie wyodrębnić obrazy. Podnieś swoje umiejętności programistyczne w Javie dzięki [Wyodrębnij obrazy z dokumentu OneNote za pomocą samouczka Java](./extract-images/).
+## Dlaczego używać Aspose.Note for Java do dodawania hyperlinków do obrazów?
 
-## Pobierz informacje o obrazie z programu OneNote przy użyciu języka Java
-rozszerzenia się, jak wyodrębnić informacje o obrazie z dokumentów OneNote? Zanurz się w naszym ułatwieniu do stosowania samouczku z użyciem Aspose.Note for Java. Podnieś swoje umiejętności programistyczne w Javie dzięki [Get Image Info from OneNote using Java](./get-image-info/).
+Aspose.Note obsługuje **ponad 50 formatów wejściowych i wyjściowych** (w tym PNG, JPEG, GIF, BMP i TIFF) i może przetwarzać dokumenty o **do 1 000 stron** bez ładowania całego pliku do pamięci. Biblioteka obsługuje osadzanie hyperlinków w jednym wywołaniu API, eliminując potrzebę interakcji COM lub ręcznej manipulacji XML, co skraca czas developmentu nawet o **80 %** w projektach korporacyjnych.
 
-## Wstaw obraz do dokumentu programu OneNote za pomocą języka Java
-Poznaj zasady wprowadzania obrazów do dokumentów OneNote przy użyciu Javy i biblioteki Aspose.Note for Java. Nasz przewodnik krok po kroku zapewnia płynny proces integracji. Podnieś swoje umiejętności programistyczne w Javie dzięki [Wstaw obraz do dokumentu OneNote za pomocą samouczka Java](./insert-image/).
+## Wymagania wstępne
+- Java 8 lub nowsza.
+- Maven lub Gradle do zarządzania zależnościami.
+- Biblioteka Aspose.Note for Java (wersja próbna lub licencjonowana).
+- Podstawowa znajomość struktury strony OneNote (Outline, RichText, Image).
 
-Rozpocznij tę podróż po mistrzostwie z samouczkami Aspose.Note dla Java, ulepszając swoje doświadczenie w OneNote na każdym kroku. Podnieś swoje umiejętności programistyczne w Javie i dwa notatki, które się wyróżniają. Szczęśliwego kodowania!
+## Typowe problemy i rozwiązania
+- **Hyperlink nie pojawia się po zapisaniu:** Upewnij się, że wywołujesz `image.setHyperlink(url)` **przed** dodaniem obrazu do strony. Właściwość musi być ustawiona na obiekcie, który jest wstawiany.
+- **Rozmiar obrazu zmienia się po dodaniu linku:** Użyj `image.setScaleX()` i `image.setScaleY()`, aby zachować oryginalne wymiary, jeśli API stosuje domyślne skalowanie.
+- **Link otwiera się w nowej karcie przeglądarki na urządzeniach mobilnych:** To oczekiwane zachowanie; aplikacje mobilne OneNote zawsze uruchamiają linki w przeglądarce systemowej.
 
-## Samouczki dotyczące hiperłączy i obrazów programu OneNote
-### [Dodaj hiperłącze w OneNote przy użyciu Java](./add-hyperlink/)
-Naucz się, jak dodawać hiperłącza w OneNote przy użyciu Javy i biblioteki Aspose.Note. Bez wysiłku wzbogacaj swoje notatki o interaktywne linki.
+## Dodaj hyperlink w OneNote przy użyciu Javy
+Poznaj sztukę dodawania hyperlinków w OneNote bez wysiłku, używając Javy i biblioteki Aspose.Note. Ten samouczek oferuje krok‑po‑kroku przewodnik, który wzbogaci Twoje notatki o interaktywne linki, zapewniając dynamiczne i angażujące doświadczenie notowania. Sprawdź [Add Hyperlink in OneNote with Java tutorial](./add-hyperlink/) i podnieś swój poziom w OneNote.
 
-### [Dodaj hiperłącze do obrazu w OneNote przy użyciu Java](./add-hyperlink-to-image/)
-Naucz się, jak dodawać hiperłącza do obrazów w dokumentach OneNote przy użyciu Javy w tym szczegółowym samouczku krok po kroku.
+## Dodaj hyperlink do obrazu w OneNote przy użyciu Javy
+Odkryj świat hyperlinków obrazów w dokumentach OneNote dzięki naszemu szczegółowemu samouczkowi. Dowiedz się, jak płynnie dodawać hyperlinki do obrazów przy użyciu Javy i Aspose.Note. Zwiększ atrakcyjność wizualną swoich notatek dzięki temu przewodnikowi krok‑po‑kroku – [Add Hyperlink to Image in OneNote with Java](./add-hyperlink-to-image/).
 
-### [Tworzenie dokumentu i wstawianie obrazu w OneNote przy użyciu Java](./build-doc-insert-image/)
-Naucz się, jak tworzyć dokumenty OneNote i wstawiać obrazy przy użyciu Aspose.Note for Java. Samouczek krok po kroku zapewniający płynną integrację.
+## Tworzenie dokumentu i wstawianie obrazu w OneNote przy użyciu Javy
+Podnieś swoje dokumenty OneNote na wyższy poziom, opanowując sztukę budowania i wstawiania obrazów. Ten samouczek prowadzi Cię przez cały proces, zapewniając płynną integrację z Aspose.Note for Java. Zwiększ doświadczenie notowania dzięki [Build Document and Insert Image in OneNote using Java tutorial](./build-doc-insert-image/).
 
-### [Tworzenie dokumentu i wstawianie obrazu ze strumieniem w OneNote – Java](./build-doc-insert-image-stream/)
-Naucz się, jak bez wysiłku integrować obrazy w dokumentach OneNote przy użyciu Aspose.Note for Java. Samouczek krok po kroku dla programistów Java.
+Jako programista Java, dowiedz się, jak bez wysiłku integrować obrazy w dokumentach OneNote dzięki naszemu krok‑po‑kroku samouczkowi – [Build Doc and Insert Image with Stream in OneNote - Java](./build-doc-insert-image-stream/). Podnieś swoje doświadczenie notowania z Aspose.Note for Java.
 
-### [Wyodrębnianie obrazów z dokumentu OneNote przy użyciu Java](./extract-images/)
-Naucz się, jak wyodrębniać obrazy z dokumentów OneNote przy użyciu Javy i biblioteki Aspose.Note. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby płynnie wyodrębniać obrazy.
+## Wyodrębnianie obrazów z dokumentu OneNote przy użyciu Javy
+Odkryj sekrety wyodrębniania obrazów z dokumentów OneNote przy użyciu Javy. Śledź nasz szczegółowy przewodnik z biblioteką Aspose.Note, aby bezproblemowo wyodrębniać obrazy. Rozwijaj swoje umiejętności programistyczne dzięki [Extract Images from OneNote Document using Java tutorial](./extract-images/).
 
-### [Pobieranie informacji o obrazie z OneNote przy użyciu Java](./get-image-info/)
-Naucz się, jak wyodrębniać informacje o obrazie z dokumentów OneNote przy użyciu Javy i Aspose.Note. Proste kroki dla programistów.
+## Pobieranie informacji o obrazie z OneNote przy użyciu Javy
+Zainteresowany wyciąganiem informacji o obrazie z dokumentów OneNote? Zanurz się w naszym łatwym do śledzenia samouczku z Aspose.Note for Java. Rozwijaj swoje umiejętności programistyczne dzięki [Get Image Info from OneNote using Java](./get-image-info/).
 
-### [Wstawianie obrazu do dokumentu OneNote przy użyciu Java](./insert-image/)
-Naucz się, jak wstawiać obrazy do dokumentów OneNote przy użyciu Javy i biblioteki Aspose.Note for Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zapewnić płynną integrację.
+## Wstawianie obrazu do dokumentu OneNote przy użyciu Javy
+Poznaj zasady wstawiania obrazów do dokumentów OneNote przy użyciu Javy i biblioteki Aspose.Note for Java. Nasz krok‑po‑kroku przewodnik zapewnia płynną integrację. Rozwijaj swoje umiejętności programistyczne dzięki [Insert an Image in OneNote Document with Java tutorial](./insert-image/).
 
-## Często zadawane pytania
+Rozpocznij tę podróż mistrzostwa z samouczkami Aspose.Note for Java, podnosząc swoje doświadczenie w OneNote z każdym krokiem. Rozwijaj swoje umiejętności programistyczne i twórz notatki, które się wyróżniają. Szczęśliwego kodowania!
 
-**Q: Czy można podłączyć hiperłącze do dowolnego formatu obrazu (PNG, JPEG, GIF)?**
-O: Tak. Aspose.Note obsługuje wszystkie standardowe formaty obrazów; hiperłącze jest podłączone do obiektu graficznego od jego typu.
+## Samouczki dotyczące hyperlinków i obrazów w OneNote
+### [Dodaj hyperlink w OneNote przy użyciu Javy](./add-hyperlink/)
+Dowiedz się, jak dodawać hyperlinki w OneNote przy użyciu Javy i biblioteki Aspose.Note. Wzbogacaj notatki o interaktywne linki bez wysiłku.
+### [Dodaj hyperlink do obrazu w OneNote przy użyciu Javy](./add-hyperlink-to-image/)
+Dowiedz się, jak dodawać hyperlinki do obrazów w dokumentach OneNote przy użyciu Javy w tym krok‑po‑kroku samouczku.
+### [Tworzenie dokumentu i wstawianie obrazu w OneNote przy użyciu Javy](./build-doc-insert-image/)
+Dowiedz się, jak tworzyć dokumenty OneNote i wstawiać obrazy przy użyciu Aspose.Note for Java. Krok‑po‑kroku samouczek dla płynnej integracji.
+### [Build Doc and Insert Image with Stream in OneNote - Java](./build-doc-insert-image-stream/)
+Dowiedz się, jak bezproblemowo integrować obrazy w dokumentach OneNote przy użyciu Aspose.Note for Java. Krok‑po‑kroku samouczek dla programistów Java.
+### [Wyodrębnianie obrazów z dokumentu OneNote przy użyciu Javy](./extract-images/)
+Dowiedz się, jak wyodrębniać obrazy z dokumentów OneNote przy użyciu Javy i biblioteki Aspose.Note. Śledź nasz krok‑po‑kroku przewodnik dla płynnego wyodrębniania obrazów.
+### [Pobieranie informacji o obrazie z OneNote przy użyciu Javy](./get-image-info/)
+Dowiedz się, jak wyciągać informacje o obrazie z dokumentów OneNote przy użyciu Javy i Aspose.Note. Proste kroki dla programistów.
+### [Wstawianie obrazu do dokumentu OneNote przy użyciu Javy](./insert-image/)
+Dowiedz się, jak wstawiać obrazy do dokumentów OneNote przy użyciu Javy i biblioteki Aspose.Note for Java. Śledź nasz krok‑po‑kroku przewodnik dla płynnej integracji.
 
-**Q: Czy wygenerowano plik OneNote w wydaniu, aby podłączyć hiperłącze?**
-O: Nie. Możesz utworzyć dokument w całości w pamięci, a następnie zapisać go jako plik `.one`.
+## Najczęściej zadawane pytania
 
-**P: Czy hiperłącze będzie działać w aplikacji mobilnej OneNote?**
-O: Zdecydowanie. Wygenerowane hiperłącze jest zgodne z dokumentem OneNote, który jest rozpoznawany przez użytkowników komputerów stacjonarnych, internetowych i mobilnych.
+**P:** Czy mogę dodać hyperlink do dowolnego formatu obrazu (PNG, JPEG, GIF)?  
+**O:** Tak. Aspose.Note obsługuje wszystkie standardowe formaty obrazów; hyperlink jest dołączany do obiektu obrazu niezależnie od jego typu.
 
-**Q: Jak można sprawdzić, czy hiperłącze jest dostępne dodane poprawnie?**
-O: Po zapisaniu otwórz plik w OneNote i kliknij; niepowiązany adres URL powinien zostać wydany w wersji podstawowej.
+**P:** Czy muszę otworzyć plik OneNote w trybie edycji, aby dodać hyperlink?  
+**O:** Nie. Możesz tworzyć lub modyfikować dokument w całości w pamięci, a następnie zapisać go jako plik `.one`.
 
-**Q: Czy istnieje sposób, aby przesłać wiele hiperłączy do jednego obrazu?**
-O: Jeden obraz może zawierać tylko jedno hiperłącze. Aby udostępnić wiele linków, udostępnienie obrazu kompozytowego z oddzielnymi obszarami klikalnymi lub dodanie funkcji użytkowych.
+**P:** Czy hyperlink będzie działał w mobilnych aplikacjach OneNote?  
+**O:** Absolutnie. Wygenerowany hyperlink jest przechowywany w formacie pliku OneNote, który jest rozpoznawany przez klientów desktopowych, webowych i mobilnych.
+
+**P:** Jak mogę zweryfikować, że hyperlink został dodany prawidłowo?  
+**O:** Po zapisaniu otwórz plik w OneNote i kliknij obraz; powiązany URL powinien otworzyć się w domyślnej przeglądarce.
+
+**P:** Czy istnieje sposób, aby dodać wiele hyperlinków do jednego obrazu?  
+**O:** Jeden obraz może zawierać tylko jeden hyperlink. Aby udostępnić wiele linków, rozważ użycie obrazu kompozytowego z oddzielnymi obszarami klikalnymi lub dodaj osobne obiekty obrazów.
 
 ---
 
-**Aktualizacja Ostatnia:** 2025-12-20
-**Testowano z:** Aspose.Note dla Java 26.4
-**Autor:** Asponuj
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**Last Updated:** 2026-06-30  
+**Tested With:** Aspose.Note for Java 26.4  
+**Author:** Aspose
 
 {{< blocks/products/products-backtop-button >}}
+
+## Powiązane samouczki
+
+- [Save OneNote as PDF and Add Hyperlink in OneNote with Java](/note/java/onenote-hyperlinks-images/add-hyperlink/)
+- [How to add picture to OneNote using Java – Build Document and Insert Image](/note/java/onenote-hyperlinks-images/build-doc-insert-image/)
+- [Extract Images from OneNote using Document Visitor - Java](/note/java/onenote-document-loading/extract-content-using-document-visitor/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}

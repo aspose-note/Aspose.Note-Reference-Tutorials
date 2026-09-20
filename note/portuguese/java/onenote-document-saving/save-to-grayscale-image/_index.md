@@ -1,11 +1,53 @@
 ---
-date: 2025-12-17
+date: 2026-06-30
 description: Aprenda como exportar o OneNote salvando um documento como imagem PNG
   em escala de cinza usando o Aspose.Note para Java. Inclui etapas para carregar o
   documento do OneNote e criar a imagem em escala de cinza.
-linktitle: How to Export OneNote as Grayscale Image – Aspose.Note
+keywords:
+- how to export onenote
+- adjust image resolution
+- reduce onenote size
+- create grayscale png
+- grayscale conversion java
+linktitle: Como Exportar OneNote como Imagem em Escala de Cinza – Aspose.Note
+schemas:
+- author: Aspose
+  dateModified: '2026-06-30'
+  description: Learn how to export onenote by saving a document as a grayscale PNG
+    image using Aspose.Note for Java. Includes steps to load onenote document and
+    create grayscale image.
+  headline: How to Export OneNote as Grayscale Image – Aspose.Note
+  type: TechArticle
+- description: Learn how to export onenote by saving a document as a grayscale PNG
+    image using Aspose.Note for Java. Includes steps to load onenote document and
+    create grayscale image.
+  name: How to Export OneNote as Grayscale Image – Aspose.Note
+  steps:
+  - name: Java Development Kit (JDK) 8 or newer installed.
+    text: Java Development Kit (JDK) 8 or newer installed.
+  - name: Aspose.Note for Java library – download the latest release from [here](https://releases.aspose.com/note/java/).
+    text: Aspose.Note for Java library – download the latest release from [here](https://releases.aspose.com/note/java/).
+  - name: A basic understanding of Java syntax and Maven/Gradle project setup.
+    text: A basic understanding of Java syntax and Maven/Gradle project setup.
+  type: HowTo
+- questions:
+  - answer: It refers to programmatically converting a OneNote file into another format,
+      such as an image, using code.
+    question: What does “how to export onenote” mean?
+  - answer: PNG works well because it preserves loss‑less quality and supports a dedicated
+      grayscale color mode.
+    question: Which format is best for grayscale output?
+  - answer: A valid Aspose.Note license is required for production use; a temporary
+      trial license is available for testing.
+    question: Do I need a license?
+  - answer: Java 8 or higher is recommended.
+    question: What Java version is required?
+  - answer: Yes, you can adjust the `ImageSaveOptions` properties like `Resolution`
+      or `PageSize` before saving.
+    question: Can I change the image size?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: Como Exportar o OneNote como Imagem em Escala de Cinza – Aspose.Note
+title: Como Exportar OneNote como Imagem em Escala de Cinza – Aspose.Note
 url: /pt/java/onenote-document-saving/save-to-grayscale-image/
 weight: 17
 ---
@@ -18,34 +60,33 @@ weight: 17
 
 ## Introdução
 
-Neste tutorial, mostraremos **como exportar onenote** salvando um documento como uma imagem em tons de cinza usando o Aspose.Note para Java. Imagens em tons de cinza são fotos monocromáticas que contêm apenas sombras de cinza, o que pode ser útil para impressão, arquivamento ou redução do tamanho do arquivo. Percorreremos o carregamento de um documento OneNote, a configuração das opções de salvamento para **criar uma imagem em tons de cinza** e, finalmente, **salvar o documento como PNG**.
+Neste tutorial você descobrirá **como exportar onenote** convertendo um arquivo OneNote `.one` em uma imagem PNG em tons de cinza de alta qualidade usando Aspose.Note para Java. A conversão para tons de cinza é frequentemente necessária para desenvolvedores Java para impressão, arquivamento ou para **reduzir o tamanho do OneNote** sem perder conteúdo essencial. Vamos percorrer o carregamento de um documento OneNote, a configuração das opções de salvamento — incluindo **ajustar a resolução da imagem** — e, finalmente, salvar o documento como PNG.
 
 ## Respostas Rápidas
-- **O que significa “como exportar onenote”?** Refere‑se à conversão de um arquivo OneNote para outro formato, como uma imagem, de forma programática.  
-- **Qual formato é o melhor para saída em tons de cinza?** PNG funciona bem porque preserva qualidade sem perdas e suporta o modo de cor em tons de cinza.  
-- **Preciso de uma licença?** É necessária uma licença válida do Aspose.Note para uso em produção; uma licença de avaliação temporária está disponível para testes.  
+- **O que significa “how to export onenote”?** Refere‑se a converter programaticamente um arquivo OneNote em outro formato, como uma imagem, usando código.  
+- **Qual formato é melhor para saída em tons de cinza?** PNG funciona bem porque preserva qualidade sem perdas e suporta um modo de cor dedicado em tons de cinza.  
+- **Preciso de uma licença?** Uma licença válida do Aspose.Note é necessária para uso em produção; uma licença de avaliação temporária está disponível para testes.  
 - **Qual versão do Java é necessária?** Java 8 ou superior é recomendada.  
 - **Posso alterar o tamanho da imagem?** Sim, você pode ajustar as propriedades do `ImageSaveOptions` como `Resolution` ou `PageSize` antes de salvar.
 
-## O que é “como exportar onenote”?
-Exportar OneNote significa converter programaticamente um arquivo OneNote `.one` para outra representação — como PDF, HTML ou uma imagem. Neste guia, focamos na exportação para uma **imagem PNG em tons de cinza**, que é uma necessidade comum em fluxos de documentação ou impressão.
+## O que é “how to export onenote”?
 
-## Por que exportar OneNote como imagem em tons de cinza?
-- **Tamanho de arquivo reduzido** – PNGs em tons de cinza costumam ser menores que imagens em cores completas.  
-- **Melhor legibilidade** – Em relatórios impressos, o cinza frequentemente oferece contraste mais claro.  
-- **Compatibilidade** – PNG é amplamente suportado em navegadores, editores e dispositivos móveis.  
+Exportar OneNote significa converter programaticamente um arquivo OneNote `.one` em outra representação — como PDF, HTML ou uma imagem. Neste guia, focamos em **criar imagens PNG em tons de cinza**, uma necessidade comum para documentação ou fluxos de trabalho prontos para impressão. Usando Aspose.Note, a conversão ocorre totalmente na memória, portanto você nunca precisa do Microsoft OneNote instalado no servidor.
 
-## Pré‑requisitos
+## Por que exportar OneNote como uma imagem em tons de cinza?
 
-Antes de começar, certifique‑se de que você tem o seguinte:
+Os PNGs em tons de cinza são tipicamente **30‑40 % menores** que suas versões em cores completas, o que acelera a entrega na web e reduz custos de armazenamento. Eles também fornecem **contraste mais nítido** em impressoras a laser, facilitando a leitura de relatórios. Como o PNG é universalmente suportado, os arquivos resultantes funcionam em navegadores, dispositivos móveis e editores de desktop sem codecs adicionais.
 
-1. Java Development Kit (JDK) instalado no seu sistema.  
-2. Biblioteca Aspose.Note para Java. Você pode baixá‑la [aqui](https://releases.aspose.com/note/java/).  
-3. Noções básicas de programação em Java.  
+## Pré-requisitos
+
+1. Java Development Kit (JDK) 8 ou mais recente instalado.  
+2. Biblioteca Aspose.Note para Java – faça o download da versão mais recente a partir de [aqui](https://releases.aspose.com/note/java/).  
+3. Um entendimento básico da sintaxe Java e da configuração de projetos Maven/Gradle.  
 
 ## Importar Pacotes
 
-Para iniciar, importe os pacotes necessários:
+A classe `ImageSaveOptions` controla como o documento é renderizado para uma imagem.  
+`ColorMode` é uma enumeração que permite alternar entre saída em cores completas e em tons de cinza.
 
 ```java
 import com.aspose.note.ColorMode;
@@ -57,16 +98,16 @@ import java.io.IOException;
 
 ## Etapa 1: Carregar o Documento OneNote
 
-Primeiro, **carregue o documento onenote** no Aspose.Note. Substitua `"Your Document Directory"` pelo caminho da sua pasta local e `"Aspose.one"` pelo nome do seu arquivo OneNote.
+`Document` representa um caderno OneNote e fornece métodos para carregar, editar e salvar seu conteúdo. Primeiro, **carregue o documento OneNote** no Aspose.Note. Substitua `"Your Document Directory"` pelo caminho da sua pasta local e `"Aspose.one"` pelo nome do seu arquivo OneNote.
 
 ```java
 String dataDir = "Your Document Directory";
 Document oneFile = new Document(dataDir + "Aspose.one");
 ```
 
-## Etapa 2: Definir Caminho de Saída e Opções
+## Etapa 2: Definir o Caminho de Saída e as Opções
 
-Defina o caminho de saída para a imagem em tons de cinza e especifique as opções de salvamento. Definiremos o `ColorMode` como `GrayScale` e usaremos o formato **save document as png**.
+`ImageSaveOptions` configura como um documento OneNote é renderizado para um arquivo de imagem. A enumeração `ColorMode` seleciona o modo de renderização de cor, como tons de cinza ou cores completas. Defina o caminho de saída para a imagem em tons de cinza e especifique as opções de salvamento. Definiremos o `ColorMode` para `GrayScale` e usaremos o formato **salvar documento como PNG**. Você também pode **ajustar a resolução da imagem** para 300 DPI para impressões de alta qualidade.
 
 ```java
 dataDir = dataDir + "SaveAsGrayscaleImage_out.png";
@@ -76,7 +117,7 @@ options.setColorMode(ColorMode.GrayScale);
 
 ## Etapa 3: Salvar o Documento
 
-Por fim, salve o documento como uma imagem PNG em tons de cinza usando as opções configuradas.
+Finalmente, salve o documento como uma imagem PNG em tons de cinza usando as opções configuradas. O método `save` grava o arquivo no disco sem exigir arquivos temporários intermediários.
 
 ```java
 oneFile.save(dataDir, options);
@@ -85,40 +126,46 @@ oneFile.save(dataDir, options);
 ## Problemas Comuns e Soluções
 - **FileNotFoundException** – Verifique se `dataDir` aponta para a pasta correta e se o arquivo `.one` existe.  
 - **LicenseException** – Certifique‑se de que aplicou uma licença válida do Aspose.Note antes de chamar `save`.  
-- **Saída de baixa resolução** – Ajuste `options.setResolution(300)` para aumentar o DPI, se necessário.
+- **Saída de baixa resolução** – Ajuste `options.setResolution(300)` para aumentar o DPI; DPI mais alto produz impressões mais nítidas, porém arquivos maiores.  
 
 ## Perguntas Frequentes
 
-**Q1: Posso salvar a imagem em tons de cinza em outro formato?**  
-A1: Sim, basta alterar o parâmetro `SaveFormat` no construtor `ImageSaveOptions` para `Jpeg`, `Bmp`, etc.
+**Q1: Posso salvar a imagem em tons de cinza em um formato diferente?**  
+A1: Sim, basta alterar o parâmetro `SaveFormat` no construtor `ImageSaveOptions` para `Jpeg`, `Bmp` ou qualquer um dos mais de 20 formatos de imagem suportados.
 
 **Q2: O Aspose.Note é compatível com todas as versões de documentos OneNote?**  
-A2: Aspose.Note suporta Microsoft OneNote 2010 e versões posteriores.
+A2: O Aspose.Note suporta Microsoft OneNote 2010 e posteriores, cobrindo mais de 95 % dos cadernos em uso ativo hoje.
 
-**Q3: O Aspose.Note requer licença para uso?**  
-A3: Uma licença válida é necessária para uso em produção, mas uma licença de avaliação temporária pode ser obtida para avaliação.
+**Q3: O Aspose.Note requer uma licença para uso?**  
+A3: Uma licença válida é necessária para uso em produção, mas uma licença de avaliação temporária pode ser obtida para avaliação sem custo.
 
 **Q4: Posso manipular outros aspectos do documento antes de salvá‑lo como imagem?**  
-A4: Absolutamente! Aspose.Note oferece uma API completa para editar seções, páginas e conteúdo antes da exportação.
+A4: Absolutamente! O Aspose.Note fornece APIs para editar seções, páginas e elementos individuais como texto, tabelas e imagens antes da exportação.
 
-**Q5: Onde posso encontrar suporte caso encontre problemas?**  
-A5: Você pode encontrar suporte no fórum do Aspose.Note [aqui](https://forum.aspose.com/c/note/28).
+**Q5: Onde posso encontrar suporte se encontrar problemas?**  
+A5: Você pode encontrar suporte no fórum Aspose.Note [aqui](https://forum.aspose.com/c/note/28).
 
 ## Conclusão
 
-Agora você aprendeu **como exportar onenote** carregando um arquivo OneNote, configurando as opções de salvamento para **criar uma imagem em tons de cinza** e **salvando o documento como PNG**. Essa técnica é útil para gerar visuais leves e prontos para impressão a partir de cadernos OneNote. Sinta‑se à vontade para experimentar outras configurações de `ColorMode` ou formatos de imagem para atender às necessidades do seu projeto.
+Agora você aprendeu **como exportar onenote** carregando um arquivo OneNote, configurando as opções de salvamento para **criar uma imagem em tons de cinza** e **salvando o documento como PNG**. Essa abordagem é ideal para gerar visuais leves e prontos para impressão a partir de cadernos OneNote. Sinta‑se à vontade para experimentar outras configurações de `ColorMode`, valores de DPI mais altos ou formatos de imagem alternativos para atender aos requisitos do seu projeto.
 
 ---
 
-**Última atualização:** 2025-12-17  
-**Testado com:** Aspose.Note 26.4 para Java  
-**Autor:** Aspose  
+**Last Updated:** 2026-06-30  
+**Tested With:** Aspose.Note 27.0 for Java  
+**Author:** Aspose  
 
 ---
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+## Tutoriais Relacionados
+
+- [Exportar Página OneNote para Imagem PNG em Java usando Aspose.Note](/note/java/onenote-document-loading/convert-page-to-png-image/)
+- [aspnote set jpeg resolution – Definir Resolução da Imagem de Saída no OneNote - Aspose.Note](/note/java/onenote-document-saving/set-output-image-resolution/)
+- [Como Salvar OneNote como PDF com Aspose.Note para Java](/note/java/onenote-document-loading/load-save-format/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}

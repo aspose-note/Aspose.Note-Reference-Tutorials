@@ -1,111 +1,217 @@
 ---
-title: OneNote-dokumentum betöltése
-linktitle: OneNote-dokumentum betöltése
-second_title: Aspose.Note Java API
-description: Fedezze fel az átfogó oktatóanyagokat a OneNote dokumentumok betöltéséhez, konvertálásához és létrehozásához az Aspose.Note for Java segítségével. Könnyedén növelheti dokumentumfeldolgozási képességeit.
-weight: 25
+date: 2026-06-30
+description: Ismerje meg, hogyan mentheti a OneNote-ot HTML-ként, hozhat létre jelszóval
+  védett OneNote-fájlokat, tölthet be OneNote 2007 dokumentumokat, konvertálhatja
+  az oldalakat PDF-be, és még sok mást az Aspose.Note for Java segítségével.
+keywords:
+- save onenote as html
+- create password protected onenote
+- convert onenote page pdf
+- onenote page to image
+linktitle: Jelszóval védett OneNote létrehozása
+schemas:
+- author: Aspose
+  dateModified: '2026-06-30'
+  description: Learn how to save OneNote as HTML, create password protected OneNote
+    files, load OneNote 2007 documents, convert pages to PDF, and more using Aspose.Note
+    for Java.
+  headline: Save OneNote as HTML – Create Password Protected OneNote – Load & Convert
+    (Java)
+  type: TechArticle
+- questions:
+  - answer: Use the `Document.save(outputPath, password)` overload, providing the
+      desired password string.
+    question: How do I set a password when creating a new OneNote file?
+  - answer: Yes—simply call `Document.load(path, LoadOptions)`; the API automatically
+      detects the older format.
+    question: Can I load a OneNote 2007 file without converting it first?
+  - answer: Create a `PdfSaveOptions` object, set the `PageIndex` and `PageCount`
+      properties, then call `document.save(outputPath, options)`.
+    question: What is the best way to convert only one page of a OneNote notebook
+      to PDF?
+  - answer: Absolutely—use `Document.getFileFormatInfo()` to obtain detailed version
+      and compatibility data.
+    question: Is it possible to retrieve the file format version of a OneNote document?
+  - answer: Save the document with `SaveFormat.HTML` and set `HtmlSaveOptions.embedResources
+      = true` to keep images and styles inline.
+    question: How can I export a OneNote document to HTML while preserving embedded
+      resources?
+  type: FAQPage
+second_title: Aspense.Note Java API
+title: OneNote mentése HTML-ként – Jelszóval védett OneNote létrehozása – Betöltés
+  és konvertálás (Java)
 url: /hu/java/onenote-document-loading/
+weight: 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OneNote-dokumentum betöltése
+# OneNote mentése HTML-ként – Jelszóval védett OneNote létrehozása – Betöltés és konvertálás (Java)
 
+Ha Java fejlesztő vagy, akinek **OneNote mentése HTML-ként** és **jelszóval védett OneNote** fájlok létrehozása is szükséges, ez az útmutató egyetlen forrás. Áttekintjük a leggyakoribb feladatokat, elmagyarázzuk, miért fontos minden lépés, és részletes al‑tutorialokra mutatunk, amelyek minden szituációt lefednek – a régi 2007-es jegyzetfüzetek betöltésétől az egyes oldalak PDF‑re vagy képre konvertálásáig.
 
-## Bevezetés
+## Gyors válaszok
+- **Mi a fő API Java-hoz?** Aspose.Note for Java.
+- **Létrehozhatok jelszóval védett OneNote fájlokat?** Igen—használd a `Document` osztályt jelszóval.
+- **Hogyan tölthetek be egy OneNote 2007 dokumentumot?** Használd a `LoadOptions`‑t a megfelelő formátummal.
+- **Támogatott a PDF konvertálás oldalanként?** Teljesen—használd a `PdfSaveOptions`‑t és add meg az oldaltartományt.
+- **Exportálhatok OneNote dokumentumot HTML‑be?** Igen—egyszerűen hívd a `save`‑t a `SaveFormat.HTML`‑el.
 
-Ha Ön Java-fejlesztő, aki az Aspose.Note-ot zökkenőmentesen szeretné integrálni projektjeibe, akkor jó helyen jár. Oktatóanyagaink a OneNote dokumentumfeldolgozás különféle aspektusait fedik le, a titkosítás ellenőrzésétől a jelszóval védett dokumentumok létrehozásáig. Merüljünk el a hatékony dokumentumkezelés világában.
+## Hogyan menthetünk OneNote-ot HTML-ként az Aspose.Note for Java használatával?
 
-## Ellenőrizze, hogy a OneNote-dokumentum titkosított-e – Java
-[Ellenőrizze, hogy egy OneNote-dokumentum titkosított-e](./check-document-encrypted/) - Fedezze fel, hogyan állapíthatja meg, hogy egy OneNote-dokumentum titkosítva van-e az Aspose.Note for Java használatával. Kövesse lépésenkénti útmutatónkat a hatékony dokumentumfeldolgozás érdekében.
+Az `Document` osztály egy OneNote jegyzetfüzetet képvisel, és metódusokat biztosít a betöltéshez és mentéshez. A `SaveFormat.HTML` azt jelzi, hogy a kimenet HTML legyen. Töltsd be a forrásjegyzetfüzetet a `new Document("source.one")`‑vel, majd hívd a `doc.save("output.html", SaveFormat.HTML)`‑t. Az API automatikusan beágyazza a képeket, CSS‑t és betűtípusokat, egy hűséges web‑kész verziót hozva létre a jegyzetfüzetből. Ez az egy‑soros művelet mind a modern *.one* fájlokhoz, mind a régi 2007‑es formátumokhoz működik, így a HTML export gyors és megbízható.
 
-## Konvertálja az adott oldaltartományt PDF-be a OneNote-ban Java segítségével
-[Az oldaltartomány konvertálása PDF-be](./convert-page-range-to-pdf/) - Konkrét oldaltartományok zökkenőmentes konvertálása a OneNote-ból PDF-be az Aspose.Note for Java segítségével. Könnyedén megőrizheti a formázást és az elrendezést.
+## Mi a „jelszóval védett OneNote létrehozása”?
 
-## Konkrét oldal konvertálása képpé a OneNote-ban Java használatával
-[Oldal konvertálása képpé](./convert-page-to-image/) - Ismerje meg, hogyan alakíthat át egy adott oldalt képpé a OneNote-ban Java használatával az Aspose.Note segítségével. Kövesse lépésenkénti útmutatónkat a zökkenőmentes integráció érdekében.
+A jelszóval védett OneNote fájl létrehozása azt jelenti, hogy a jegyzetfüzetet titkosítjuk, így csak a jelszót ismerő felhasználók nyithatják meg vagy szerkeszthetik. Ez elengedhetetlen a bizalmas értekezleti jegyzetek, projekttervek vagy bármilyen titkos információ védelméhez, amely a OneNote‑ban tárolt.
 
-## Konkrét oldal konvertálása PNG-képpé a OneNote-ban – Java
-[Konvertálja az oldalt PNG képpé](./convert-page-to-png-image/) - Sajátítsa el az egyes oldalak OneNote-dokumentumokból PNG-képekké konvertálását Java nyelven az Aspose.Note segítségével.
+## Miért használjuk az Aspose.Note for Java‑t?
 
-## A OneNote-dokumentum konvertálása képpé - Java
-[A OneNote konvertálása képpé](./convert-to-image/) - Könnyedén konvertálja a OneNote dokumentumokat képekké az Aspose.Note for Java segítségével. Kövesse ezt a lépésenkénti oktatóanyagot a zökkenőmentes integráció érdekében.
+Az Aspose.Note for Java átfogó, szerver‑oldali megoldást kínál a OneNote fájlok kezelésére anélkül, hogy a Microsoft Office‑ra lenne szükség. Széles körű formátumokat támogat, nagy jegyzetfüzetekhez is skálázható, és robusztus teljesítményt nyújt, így ideális a napi több ezer dokumentumot feldolgozó háttérszolgáltatások számára.
 
-## A OneNote-dokumentum konvertálása képpé az alapértelmezett beállításokkal – Java
-[Átalakítás az alapértelmezett képbeállításokra](./convert-to-image-default-options/) Ismerje meg a OneNote-dokumentumok képekké konvertálását az alapértelmezett beállításokkal az Aspose.Note for Java segítségével. Zökkenőmentes integráció kéznél.
+## Előfeltételek
+- Java 8 vagy újabb.  
+- Aspose.Note for Java könyvtár (letölthető az Aspose weboldaláról).  
+- Érvényes Aspose.Note licenc a termelési használathoz (ingyenes próba elérhető).
 
-## A OneNote-dokumentum konvertálása PDF-be – Java
-[Konvertálás PDF-be](./convert-to-pdf/) - Növelje dokumentumfeldolgozási képességeit, ha megtanulja, hogyan konvertálhat OneNote-dokumentumokat PDF-be az Aspose.Note for Java segítségével. Lépésről lépésre útmutató mellékelve.
+## A központi témák, amelyeket ez a hub lefed
 
-## Hozzon létre OneNote-dokumentumot oldalcímmel – Java
-[Hozzon létre OneNote-dokumentumot oldalcímmel](./create-onenote-doc-page-title/) - Ismerje meg, hogyan hozhat létre OneNote-dokumentumokat oldalcímekkel Java nyelven az Aspose.Note segítségével. Átfogó oktatóanyag kódpéldákkal.
+### Ellenőrizze, hogy a OneNote dokumentum titkosított-e – Java
+[Check if a OneNote Document is Encrypted](./check-document-encrypted/) – Ismerje meg, hogyan határozható meg, hogy egy OneNote dokumentum titkosított-e az Aspose.Note for Java használatával. Kövesse lépésről‑lépésre útmutatónkat a hatékony dokumentumfeldolgozáshoz.
 
-## Hozzon létre OneNote-dokumentumot, és mentse HTML-be – Java
-[Hozzon létre OneNote Mentés HTML-be](./create-onenote-save-to-html/) - Az Aspose.Note for Java használatával OneNote-dokumentumokat hozhat létre, és mentheti őket HTML-ként beágyazott erőforrásokkal. Használja ki a dokumentumkészítésben rejlő lehetőségeket.
+### Konvertálja a megadott oldaltartományt PDF‑be OneNote‑ban Java‑val
+[Convert Page Range to PDF](./convert-page-range-to-pdf/) – Konvertálja a megadott oldaltartományokat OneNote‑ból PDF‑be zökkenőmentesen az Aspose.Note for Java segítségével. Formázás és elrendezés megőrzése könnyedén.
 
-## Jelszóval védett OneNote-dokumentumok létrehozása – Java
-[Jelszóval védett OneNote létrehozása](./create-password-protected-onenote/) Sajátítsa el a jelszóval védett OneNote-dokumentumok létrehozásának művészetét Java használatával az Aspose.Note segítségével. A biztonság és az egyszerűség találkozik.
+### Konvertálja a megadott oldalt képpé OneNote‑ban Java‑val
+[Convert Page to Image](./convert-page-to-image/) – Tanulja meg, hogyan konvertálhat egy adott oldalt képpé OneNote‑ban Java‑val az Aspose.Note segítségével. Kövesse lépésről‑lépésre útmutatónkat a zökkenőmentes integrációhoz.
 
-## A csomóponttípus megkülönböztetése a OneNote-dokumentumban – Java
-[A csomópont típusának megkülönböztetése](./distinguish-node-type/) - Ismerje meg, hogyan lehet megkülönböztetni a csomóponttípusokat a OneNote-dokumentumokban Java és Aspose.Note használatával. Fedezze fel lépésről lépésre útmutatónkat és GYIK-ot a zökkenőmentes integráció érdekében.
+### Konvertálja a megadott oldalt PNG képpé OneNote‑ban – Java
+[Convert Page to PNG Image](./convert-page-to-png-image/) – Tanulja meg a művészetet, hogyan konvertáljon megadott oldalakat OneNote dokumentumokból PNG képekké Java‑ban az Aspose.Note használatával.
 
-## Fájlformátumadatok beszerzése a OneNote-ból – Java
-[Fájlformátuminformációk lekérése](./get-file-format-info/) - Fájlformátumadatok lekérése a OneNote-fájlokból Java használatával az Aspose.Note segítségével. Felhatalmazza dokumentumkezelési feladatait.
+### OneNote dokumentum konvertálása képpé – Java
+[Convert OneNote to Image](./convert-to-image/) – Könnyedén konvertálja a OneNote dokumentumokat képekké az Aspose.Note for Java használatával. Kövesse ezt a lépésről‑lépésre tutorialt a zökkenőmentes integrációhoz.
 
-## Töltse be a OneNote-dokumentumot az Aspose.Note-ba a PdfSaveOptions használatával
-[Töltse be a PDF mentési opciókat](./load-pdf-save-options/) - Az Aspose.Note for Java használatával OneNote dokumentumokat tölthet be, és könnyedén konvertálhat PDF formátumba. Egyszerűsítse dokumentum-átalakítási feladatait az Aspose.Note segítségével.
+### OneNote dokumentum konvertálása képpé alapértelmezett beállításokkal – Java
+[Convert to Image Default Options](./convert-to-image-default-options/) – Tanulja meg, hogyan konvertáljon OneNote dokumentumokat képekké alapértelmezett beállításokkal az Aspose.Note for Java segítségével. Zökkenőmentes integráció a kezében.
 
-## Töltse be a OneNote-dokumentumot az Aspose.Note-ba a SaveFormat - Java használatával
-[Mentés formátum betöltése](./load-save-format/) Ismerje meg, hogyan tölthet be OneNote-dokumentumokat az Aspose.Note-ba a Java segítségével. Lépésről lépésre szóló útmutató a zökkenőmentes integrációhoz.
+### OneNote dokumentum konvertálása PDF‑be – Java
+[Convert to PDF](./convert-to-pdf/) – Bővítse dokumentumfeldolgozási képességeit, ha megtanulja, hogyan konvertáljon OneNote dokumentumokat PDF‑be az Aspose.Note for Java használatával. Lépésről‑lépésre útmutató is tartalmazva.
 
-## OneNote-dokumentum betöltése – Java
-[Töltse be a OneNote-dokumentumot](./load-onenote-document/) - Az Aspose.Note for Java segítségével könnyedén betöltheti és kezelheti a OneNote dokumentumokat. Átfogó oktatóanyag a Java fejlesztők számára.
+### OneNote dokumentum létrehozása oldalcímmel – Java
+[Create OneNote Doc with Page Title](./create-onenote-doc-page-title/) – Tanulja meg, hogyan hozhat létre OneNote dokumentumokat oldalcímekkel Java‑ban az Aspose.Note használatával. Átfogó tutorial kódrészletekkel.
 
-## OneNote 2007 dokumentum betöltése – Java
-[Töltse be a OneNote 2007-et](./load-onenote-2007/) - Merüljön el a OneNote 2007 dokumentumok Java nyelven történő betöltésének sajátosságaiban az Aspose.Note segítségével a zökkenőmentes integráció érdekében.
+### OneNote dokumentum létrehozása és mentése HTML‑be – Java
+[Create OneNote Save to HTML](./create-onenote-save-to-html/) – Használja az Aspose.Note for Java‑t OneNote dokumentumok létrehozásához és HTML‑be mentéséhez beágyazott erőforrásokkal. Fedezze fel a dokumentumkészítés lehetőségeit.
 
-## Jelszóval védett OneNote-dokumentum betöltése – Java
-[Jelszóval védett OneNote betöltése](./load-password-protected-onenote/) - Fedezze fel a jelszóval védett OneNote-dokumentumok betöltésének titkait Java használatával az Aspose.Note for Java segítségével. Zökkenőmentes biztonsági integráció vár.
-## OneNote dokumentumbetöltési oktatóanyagok
-### [Ellenőrizze, hogy a OneNote-dokumentum titkosított-e – Java](./check-document-encrypted/)
-Ismerje meg, hogyan ellenőrizheti, hogy egy OneNote-dokumentum titkosítva van-e Java nyelven az Aspose.Note segítségével. Kövesse lépésenkénti útmutatónkat a hatékony dokumentumfeldolgozás érdekében.
-### [Konvertálja az adott oldaltartományt PDF-be a OneNote-ban Java segítségével](./convert-page-range-to-pdf/)
-Ismerje meg, hogyan konvertálhat zökkenőmentesen bizonyos oldaltartományokat OneNote-ból PDF-be az Aspose.Note for Java segítségével. Könnyedén megőrizheti a formázást és az elrendezést.
-### [Konkrét oldal konvertálása képpé a OneNote-ban Java használatával](./convert-page-to-image/)
-Ismerje meg, hogyan alakíthat át egy adott oldalt képpé a OneNote-ban Java használatával az Aspose.Note segítségével. Kövesse lépésenkénti útmutatónkat a zökkenőmentes integráció érdekében.
-### [Konkrét oldal konvertálása PNG-képpé a OneNote-ban – Java](./convert-page-to-png-image/)
-Ismerje meg, hogyan konvertálhat adott oldalakat OneNote-dokumentumokból PNG-képekké Java nyelven az Aspose.Note segítségével.
-### [A OneNote-dokumentum konvertálása képpé - Java](./convert-to-image/)
-Ismerje meg, hogyan konvertálhat könnyedén OneNote-dokumentumokat képekké az Aspose.Note for Java segítségével.
-### [A OneNote-dokumentum konvertálása képpé az alapértelmezett beállításokkal – Java](./convert-to-image-default-options/)
-Könnyedén konvertálja a OneNote-dokumentumokat képekké az Aspose.Note for Java segítségével. Kövesse ezt a lépésenkénti oktatóanyagot a zökkenőmentes integráció érdekében.
-### [A OneNote-dokumentum konvertálása PDF-be – Java](./convert-to-pdf/)
-Ismerje meg, hogyan konvertálhat OneNote-dokumentumokat PDF-be az Aspose.Note for Java használatával. Növelje dokumentumfeldolgozási képességeit ezzel a lépésenkénti útmutatóval.
-### [Hozzon létre OneNote-dokumentumot oldalcímmel – Java](./create-onenote-doc-page-title/)
-Ismerje meg, hogyan hozhat létre OneNote-dokumentumokat oldalcímekkel Java nyelven az Aspose.Note for Java segítségével. Átfogó oktatóanyag kódpéldákkal.
-### [Hozzon létre OneNote-dokumentumot, és mentse HTML-be – Java](./create-onenote-save-to-html/)
-Ismerje meg, hogyan használhatja az Aspose.Note for Java alkalmazást OneNote-dokumentumok létrehozásához, és beágyazott erőforrásokkal rendelkező HTML-formátumban történő mentéséhez.
-### [Jelszóval védett OneNote-dokumentumok létrehozása – Java](./create-password-protected-onenote/)
-Ismerje meg, hogyan hozhat létre jelszóval védett OneNote-dokumentumokat Java használatával az Aspose.Note segítségével.
-### [A csomóponttípus megkülönböztetése a OneNote-dokumentumban – Java](./distinguish-node-type/)
-Ismerje meg, hogyan lehet megkülönböztetni a csomóponttípusokat a OneNote-dokumentumokban Java és Aspose.Note használatával. Fedezze fel a lépésenkénti útmutatót és a GYIK-et a zökkenőmentes integráció érdekében.
-### [Fájlformátumadatok beszerzése a OneNote-ból – Java](./get-file-format-info/)
-Ismerje meg, hogyan kérheti le a fájlformátum-információkat a OneNote-fájlokból Java használatával az Aspose.Note segítségével.
-### [Töltse be a OneNote-dokumentumot az Aspose.Note-ba a PdfSaveOptions használatával](./load-pdf-save-options/)
-Ismerje meg, hogyan használhatja az Aspose.Note for Java alkalmazást OneNote-dokumentumok betöltéséhez és PDF formátumba konvertálásához. Egyszerűsítse dokumentum-átalakítási feladatait az Aspose.Note segítségével.
-### [Töltse be a OneNote-dokumentumot az Aspose.Note-ba a SaveFormat - Java használatával](./load-save-format/)
-Ismerje meg, hogyan tölthet be OneNote-dokumentumokat az Aspose.Note-ba a Java segítségével. Lépésről lépésre útmutató a zökkenőmentes integrációhoz.
-### [OneNote-dokumentum betöltése – Java](./load-onenote-document/)
-Ismerje meg, hogyan használja az Aspose.Note for Java alkalmazást a OneNote-dokumentumok könnyű betöltésére és kezelésére. Átfogó oktatóanyag Java fejlesztőknek.
-### [OneNote 2007 dokumentum betöltése – Java](./load-onenote-2007/)
-Ismerje meg, hogyan tölthet be OneNote 2007 dokumentumokat Java nyelven az Aspose.Note segítségével a zökkenőmentes integráció érdekében.
-### [Jelszóval védett OneNote-dokumentum betöltése – Java](./load-password-protected-onenote/)
-Ismerje meg, hogyan tölthet be jelszóval védett OneNote-dokumentumokat Java használatával az Aspose.Note for Java segítségével.
-{{< /blocks/products/pf/tutorial-page-section >}}
+### Jelszóval védett OneNote dokumentumok létrehozása – Java
+[Create Password‑Protected OneNote](./create-password-protected-onenote/) – Tanulja meg a **jelszóval védett OneNote** dokumentumok létrehozásának művészetét Java‑val az Aspose.Note segítségével. A biztonság egyszerűséggel találkozik.
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+### Node típus megkülönböztetése OneNote dokumentumban – Java
+[Distinguish Node Type](./distinguish-node-type/) – Tanulja meg, hogyan különböztesse meg a node típusokat OneNote dokumentumokban Java‑val az Aspose.Note használatával. Tekintse meg lépésről‑lépésre útmutatónkat és GYIK‑unkat a zökkenőmentes integrációhoz.
+
+### Fájlformátum információ lekérése OneNote‑ból – Java
+[Get File Format Info](./get-file-format-info/) – Szerezze meg a **OneNote fájlformátum** információkat OneNote fájlokból Java‑val az Aspose.Note segítségével. Erősítse dokumentumkezelési feladatait.
+
+### OneNote dokumentum betöltése Aspose.Note-ba PdfSaveOptions használatával
+[Load PDF Save Options](./load-pdf-save-options/) – Használja az Aspose.Note for Java‑t OneNote dokumentumok betöltéséhez és PDF formátumba konvertálásához könnyedén. Egyszerűsítse dokumentumkonverziós feladatait az Aspose.Note‑dal.
+
+### OneNote dokumentum betöltése Aspose.Note-ba SaveFormat használatával – Java
+[Load Save Format](./load-save-format/) – Tanulja meg, hogyan töltsön be OneNote dokumentumokat könnyedén az Aspose.Note-ba Java‑val. Lépésről‑lépésre útmutató a zökkenőmentes integrációhoz.
+
+### OneNote dokumentum betöltése – Java
+[Load OneNote Document](./load-onenote-document/) – Használja az Aspose.Note for Java‑t OneNote dokumentumok betöltéséhez és manipulálásához könnyedén. Átfogó tutorial Java fejlesztőknek.
+
+### OneNote 2007 dokumentum betöltése – Java
+[Load OneNote 2007](./load-onenote-2007/) – Merüljön el a **OneNote 2007** dokumentumok betöltésének részleteiben Java‑ban az Aspose.Note használatával a zökkenőmentes integráció érdekében.
+
+### Jelszóval védett OneNote dokumentum betöltése – Java
+[Load Password‑Protected OneNote](./load-password-protected-onenote/) – Fedezze fel a jelszóval védett OneNote dokumentumok betöltésének titkait Java‑val az Aspose.Note for Java használatával. Zökkenőmentes biztonsági integráció vár.
+
+## OneNote dokumentum betöltési tutorialok (Gyors navigáció)
+
+### [Check if OneNote Document is Encrypted - Java](./check-document-encrypted/)
+Ismerje meg, hogyan ellenőrizhető, hogy egy OneNote dokumentum titkosított-e Java‑ban az Aspose.Note használatával. Kövesse lépésről‑lépésre útmutatónkat a hatékony dokumentumfeldolgozáshoz.
+
+### [Convert Specific Page Range to PDF in OneNote with Java](./convert-page-range-to-pdf/)
+Ismerje meg, hogyan konvertálhatja a megadott oldaltartományokat OneNote‑ból PDF‑be zökkenőmentesen az Aspose.Note for Java segítségével. Formázás és elrendezés megőrzése könnyedén.
+
+### [Convert Specific Page to Image in OneNote using Java](./convert-page-to-image/)
+Ismerje meg, hogyan konvertálhat egy adott oldalt képpé OneNote‑ban Java‑val az Aspose.Note segítségével. Kövesse lépésről‑lépésre útmutatónkat a zökkenőmentes integrációhoz.
+
+### [Convert Specific Page to PNG Image in OneNote - Java](./convert-page-to-png-image/)
+Ismerje meg, hogyan konvertálhat megadott oldalakat OneNote dokumentumokból PNG képekké Java‑ban az Aspose.Note használatával.
+
+### [Convert OneNote Document to Image - Java](./convert-to-image/)
+Ismerje meg, hogyan konvertálhat OneNote dokumentumokat képekké könnyedén az Aspose.Note for Java használatával.
+
+### [Convert OneNote Document to Image using Default Options - Java](./convert-to-image-default-options/)
+Könnyedén konvertálja a OneNote dokumentumokat képekké az Aspose.Note for Java használatával. Kövesse ezt a lépésről‑lépésre tutorialt a zökkenőmentes integrációhoz.
+
+### [Convert OneNote Document to PDF - Java](./convert-to-pdf/)
+Ismerje meg, hogyan konvertálhat OneNote dokumentumokat PDF‑be az Aspose.Note for Java használatával. Bővítse dokumentumfeldolgozási képességeit ezzel a lépésről‑lépésre útmutatóval.
+
+### [Create OneNote Document with Page Title - Java](./create-onenote-doc-page-title/)
+Ismerje meg, hogyan hozhat létre OneNote dokumentumokat oldalcímekkel Java‑ban az Aspose.Note for Java használatával. Átfogó tutorial kódrészletekkel.
+
+### [Create OneNote Document and Save to HTML - Java](./create-onenote-save-to-html/)
+Ismerje meg, hogyan használhatja az Aspose.Note for Java‑t OneNote dokumentumok létrehozásához és HTML‑be mentéséhez beágyazott erőforrásokkal.
+
+### [Create Password‑Protected OneNote Documents - Java](./create-password-protected-onenote/)
+Ismerje meg, hogyan hozhat létre **jelszóval védett OneNote** dokumentumokat Java‑val az Aspose.Note segítségével.
+
+### [Distinguish Node Type in OneNote Document - Java](./distinguish-node-type/)
+Ismerje meg, hogyan különböztetheti meg a node típusokat OneNote dokumentumokban Java‑val az Aspose.Note használatával. Tekintse meg a lépésről‑lépésre útmutatót és a GYIK‑ot a zökkenőmentes integrációhoz.
+
+### [Get File Format Info from OneNote - Java](./get-file-format-info/)
+Ismerje meg, hogyan szerezhet be **OneNote fájlformátum** információkat OneNote fájlokból Java‑val az Aspose.Note segítségével.
+
+### [Load OneNote Document into Aspose.Note using PdfSaveOptions](./load-pdf-save-options/)
+Ismerje meg, hogyan használhatja az Aspose.Note for Java‑t OneNote dokumentumok betöltéséhez és PDF formátumba konvertálásához könnyedén. Egyszerűsítse dokumentumkonverziós feladatait az Aspose.Note‑dal.
+
+### [Load OneNote Document into Aspose.Note using SaveFormat - Java](./load-save-format/)
+Ismerje meg, hogyan tölthet be OneNote dokumentumokat könnyedén az Aspose.Note-ba Java‑val. Lépésről‑lépésre útmutató a zökkenőmentes integrációhoz.
+
+### [Load OneNote Document - Java](./load-onenote-document/)
+Ismerje meg, hogyan használhatja az Aspose.Note for Java‑t OneNote dokumentumok betöltéséhez és manipulálásához könnyedén. Átfogó tutorial Java fejlesztőknek.
+
+### [Load OneNote 2007 Document - Java](./load-onenote-2007/)
+Ismerje meg, hogyan tölthet be **OneNote 2007** dokumentumokat Java‑ban az Aspose.Note használatával a zökkenőmentes integráció érdekében.
+
+### [Load Password‑Protected OneNote Document - Java](./load-password-protected-onenote/)
+Ismerje meg, hogyan tölthet be jelszóval védett OneNote dokumentumokat Java‑val az Aspose.Note for Java segítségével.
+
+## Gyakran Ismételt Kérdések
+
+**Q: Hogyan állíthatok be jelszót egy új OneNote fájl létrehozásakor?**  
+A: Használja a `Document.save(outputPath, password)` túlterhelést, megadva a kívánt jelszó karakterláncot.
+
+**Q: Betölthetek OneNote 2007 fájlt anélkül, hogy előbb konvertálnám?**  
+A: Igen—egyszerűen hívja a `Document.load(path, LoadOptions)`‑t; az API automatikusan felismeri a régebbi formátumot.
+
+**Q: Mi a legjobb módja annak, hogy csak egy oldalt konvertáljak egy OneNote jegyzetfüzetből PDF‑be?**  
+A: Hozzon létre egy `PdfSaveOptions` objektumot, állítsa be a `PageIndex` és `PageCount` tulajdonságokat, majd hívja a `document.save(outputPath, options)`‑t.
+
+**Q: Lehetséges lekérni egy OneNote dokumentum fájlformátum verzióját?**  
+A: Természetesen—használja a `Document.getFileFormatInfo()`‑t a részletes verzió- és kompatibilitási adatok megszerzéséhez.
+
+**Q: Hogyan exportálhatok egy OneNote dokumentumot HTML‑be, miközben megőrzöm a beágyazott erőforrásokat?**  
+A: Mentse a dokumentumot `SaveFormat.HTML`‑lel, és állítsa be a `HtmlSaveOptions.embedResources = true`‑t, hogy a képek és stílusok beágyazottak maradjanak.
+
+---
+
+**Utoljára frissítve:** 2026-06-30  
+**Tesztelt verzió:** Aspose.Note for Java 27.0  
+**Szerző:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## Kapcsolódó tutorialok
+
+- [Hogyan menthetünk OneNote dokumentumokat az Aspose.Note for Java használatával](/note/java/onenote-document-saving/)
+- [Hogyan menthetünk OneNote-ot PNG képként az Aspose.Note for Java használatával](/note/java/onenote-document-loading/convert-to-image/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}

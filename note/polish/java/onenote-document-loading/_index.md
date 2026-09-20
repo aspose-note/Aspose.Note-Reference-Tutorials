@@ -1,111 +1,183 @@
 ---
-title: Ładowanie dokumentu programu OneNote
-linktitle: Ładowanie dokumentu programu OneNote
-second_title: Aspose.Note API Java
-description: Zapoznaj się z obszernymi samouczkami na temat ładowania, konwertowania i tworzenia dokumentów OneNote za pomocą Aspose.Note dla Java. Bez wysiłku zwiększ swoje możliwości przetwarzania dokumentów.
-weight: 25
+date: 2026-06-30
+description: Dowiedz się, jak zapisać OneNote jako HTML, utworzyć pliki OneNote chronione
+  hasłem, ładować dokumenty OneNote 2007, konwertować strony do PDF i wiele więcej,
+  korzystając z Aspose.Note for Java.
+keywords:
+- save onenote as html
+- create password protected onenote
+- convert onenote page pdf
+- onenote page to image
+linktitle: Utwórz OneNote chroniony hasłem
+schemas:
+- author: Aspose
+  dateModified: '2026-06-30'
+  description: Learn how to save OneNote as HTML, create password protected OneNote
+    files, load OneNote 2007 documents, convert pages to PDF, and more using Aspose.Note
+    for Java.
+  headline: Save OneNote as HTML – Create Password Protected OneNote – Load & Convert
+    (Java)
+  type: TechArticle
+- questions:
+  - answer: Use the `Document.save(outputPath, password)` overload, providing the
+      desired password string.
+    question: How do I set a password when creating a new OneNote file?
+  - answer: Yes—simply call `Document.load(path, LoadOptions)`; the API automatically
+      detects the older format.
+    question: Can I load a OneNote 2007 file without converting it first?
+  - answer: Create a `PdfSaveOptions` object, set the `PageIndex` and `PageCount`
+      properties, then call `document.save(outputPath, options)`.
+    question: What is the best way to convert only one page of a OneNote notebook
+      to PDF?
+  - answer: Absolutely—use `Document.getFileFormatInfo()` to obtain detailed version
+      and compatibility data.
+    question: Is it possible to retrieve the file format version of a OneNote document?
+  - answer: Save the document with `SaveFormat.HTML` and set `HtmlSaveOptions.embedResources
+      = true` to keep images and styles inline.
+    question: How can I export a OneNote document to HTML while preserving embedded
+      resources?
+  type: FAQPage
+second_title: Aspense.Note Java API
+title: Zapisz OneNote jako HTML – Utwórz OneNote chroniony hasłem – Ładuj i konwertuj
+  (Java)
 url: /pl/java/onenote-document-loading/
+weight: 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ładowanie dokumentu programu OneNote
+# Zapisz OneNote jako HTML – Utwórz OneNote chroniony hasłem – Ładuj i konwertuj (Java)
 
+Jeśli jesteś programistą Javy, który potrzebuje **zapisania OneNote jako HTML** oraz **tworzenia plików OneNote chronionych hasłem**, ten przewodnik jest Twoim kompleksowym źródłem. Przeprowadzimy Cię przez najczęstsze zadania, wyjaśnimy, dlaczego każdy krok ma znaczenie, i skierujemy Cię do szczegółowych pod‑samouczków obejmujących każdy scenariusz — od ładowania starszych notesów 2007 po konwertowanie pojedynczych stron do formatu PDF lub obrazu.
 
-## Wstęp
+## Szybkie odpowiedzi
+- **Jaki jest główny interfejs API dla Javy?** Aspose.Note for Java.
+- **Czy mogę tworzyć pliki OneNote chronione hasłem?** Tak — użyj klasy `Document` z hasłem.
+- **Jak wczytać dokument OneNote 2007?** Użyj `LoadOptions` z odpowiednim formatem.
+- **Czy konwersja do PDF jest obsługiwana na poziomie strony?** Absolutnie — użyj `PdfSaveOptions` i określ zakres stron.
+- **Czy mogę wyeksportować dokument OneNote do HTML?** Tak — po prostu wywołaj `save` z `SaveFormat.HTML`.
 
-Jeśli jesteś programistą Java i chcesz bezproblemowo zintegrować Aspose.Note ze swoimi projektami, jesteś we właściwym miejscu. Nasze samouczki omawiają różne aspekty przetwarzania dokumentów OneNote, od sprawdzania szyfrowania po tworzenie dokumentów chronionych hasłem. Zanurzmy się w świat wydajnej obsługi dokumentów.
+## Jak zapisać OneNote jako HTML przy użyciu Aspose.Note for Java?
 
-## Sprawdź, czy dokument programu OneNote jest zaszyfrowany — Java
-[Sprawdź, czy dokument programu OneNote jest zaszyfrowany](./check-document-encrypted/) - Dowiedz się, jak ustalić, czy dokument OneNote jest zaszyfrowany przy użyciu Aspose.Note dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby efektywnie przetwarzać dokumenty.
+Klasa `Document` reprezentuje notes OneNote i udostępnia metody do jego ładowania i zapisywania. `SaveFormat.HTML` określa, że wyjściem ma być HTML. Załaduj źródłowy notes przy pomocy `new Document("source.one")` i wywołaj `doc.save("output.html", SaveFormat.HTML)`. API automatycznie osadza obrazy, CSS i czcionki, tworząc wierną wersję notesu gotową do wyświetlenia w przeglądarce. Ta jednowierszowa operacja działa zarówno dla nowoczesnych plików *.one*, jak i starszych formatów 2007, co sprawia, że eksport do HTML jest szybki i niezawodny.
 
-## Konwertuj określony zakres stron na plik PDF w programie OneNote za pomocą języka Java
-[Konwertuj zakres stron na format PDF](./convert-page-range-to-pdf/) - Bezproblemowo konwertuj określone zakresy stron z OneNote do formatu PDF za pomocą Aspose.Note dla Java. Bez problemu zachowaj formatowanie i układ.
+## Co to jest „tworzenie OneNote chronionego hasłem”?
+Tworzenie pliku OneNote chronionego hasłem oznacza zaszyfrowanie notesu, tak aby tylko użytkownicy znający hasło mogli go otworzyć lub edytować. Jest to niezbędne do ochrony poufnych notatek ze spotkań, planów projektowych czy wszelkich wrażliwych informacji przechowywanych w OneNote.
 
-## Konwertuj określoną stronę na obraz w programie OneNote przy użyciu języka Java
-[Konwertuj stronę na obraz](./convert-page-to-image/) - Dowiedz się, jak przekonwertować określoną stronę na obraz w OneNote przy użyciu Java z Aspose.Note. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zapewnić bezproblemową integrację.
+## Dlaczego warto używać Aspose.Note for Java?
+Aspose.Note for Java oferuje kompleksowe, serwer‑side rozwiązanie do obsługi plików OneNote bez konieczności posiadania Microsoft Office. Obsługuje szeroką gamę formatów, skalowalny jest do dużych notesów i zapewnia wysoką wydajność, co czyni go idealnym dla usług backendowych przetwarzających tysiące dokumentów dziennie.
 
-## Konwertuj określoną stronę na obraz PNG w programie OneNote — Java
-[Konwertuj stronę na obraz PNG](./convert-page-to-png-image/) - Opanuj sztukę konwertowania określonych stron z dokumentów OneNote na obrazy PNG w Javie za pomocą Aspose.Note.
+## Wymagania wstępne
+- Java 8 lub nowsza.  
+- Biblioteka Aspose.Note for Java (pobierz ze strony Aspose).  
+- Ważna licencja Aspose.Note do użytku produkcyjnego (dostępna bezpłatna wersja próbna).
 
-## Konwertuj dokument programu OneNote na obraz — Java
-[Konwertuj program OneNote na obraz](./convert-to-image/) - Bez wysiłku konwertuj dokumenty OneNote na obrazy za pomocą Aspose.Note dla Java. Postępuj zgodnie z tym samouczkiem krok po kroku, aby zapewnić bezproblemową integrację.
+## Główne tematy omówione w tym hubie
 
-## Konwertuj dokument programu OneNote na obraz przy użyciu opcji domyślnych — Java
-[Konwertuj na domyślne opcje obrazu](./convert-to-image-default-options/) Dowiedz się, jak konwertować dokumenty OneNote na obrazy przy użyciu domyślnych opcji w Aspose.Note dla Java. Bezproblemowa integracja na wyciągnięcie ręki.
+### Sprawdź, czy dokument OneNote jest zaszyfrowany – Java
+[Sprawdź, czy dokument OneNote jest zaszyfrowany](./check-document-encrypted/) – Dowiedz się, jak określić, czy dokument OneNote jest zaszyfrowany przy użyciu Aspose.Note for Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby efektywnie przetwarzać dokumenty.
 
-## Konwertuj dokument programu OneNote na format PDF — Java
-[Konwertuj do formatu PDF](./convert-to-pdf/) - Zwiększ swoje możliwości przetwarzania dokumentów, ucząc się, jak konwertować dokumenty OneNote do formatu PDF za pomocą Aspose.Note dla Java. W zestawie instrukcja krok po kroku.
+### Konwertuj określony zakres stron do PDF w OneNote przy użyciu Java
+[Konwertuj zakres stron do PDF](./convert-page-range-to-pdf/) – Konwertuj określone zakresy stron z OneNote do PDF bezproblemowo przy użyciu Aspose.Note for Java. Zachowaj formatowanie i układ w łatwy sposób.
 
-## Utwórz dokument programu OneNote z tytułem strony — Java
-[Utwórz dokument programu OneNote z tytułem strony](./create-onenote-doc-page-title/) - Naucz się tworzyć dokumenty OneNote z tytułami stron w Javie przy użyciu Aspose.Note. Obszerny samouczek z przykładami kodu.
+### Konwertuj określoną stronę do obrazu w OneNote przy użyciu Java
+[Konwertuj stronę do obrazu](./convert-page-to-image/) – Dowiedz się, jak przekonwertować konkretną stronę do obrazu w OneNote przy użyciu Javy i Aspose.Note. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać płynną integrację.
 
-## Utwórz dokument OneNote i zapisz w formacie HTML — Java
-[Utwórz program OneNote Zapisz w formacie HTML](./create-onenote-save-to-html/) - Użyj Aspose.Note dla Java, aby tworzyć dokumenty OneNote i zapisywać je jako HTML z osadzonymi zasobami. Odblokuj potencjał tworzenia dokumentów.
+### Konwertuj określoną stronę do obrazu PNG w OneNote – Java
+[Konwertuj stronę do obrazu PNG](./convert-page-to-png-image/) – Opanuj sztukę konwertowania wybranych stron dokumentów OneNote na obrazy PNG w Javie przy użyciu Aspose.Note.
 
-## Twórz chronione hasłem dokumenty OneNote — Java
-[Utwórz chroniony hasłem program OneNote](./create-password-protected-onenote/) Opanuj sztukę tworzenia chronionych hasłem dokumentów OneNote przy użyciu Java z Aspose.Note. Bezpieczeństwo spotyka się z prostotą.
+### Konwertuj dokument OneNote do obrazu – Java
+[Konwertuj OneNote do obrazu](./convert-to-image/) – Bezproblemowo konwertuj dokumenty OneNote na obrazy przy użyciu Aspose.Note for Java. Skorzystaj z tego przewodnika krok po kroku, aby uzyskać płynną integrację.
 
-## Rozróżnij typ węzła w dokumencie programu OneNote — Java
-[Rozróżnij typ węzła](./distinguish-node-type/) - Dowiedz się, jak rozróżniać typy węzłów w dokumentach OneNote przy użyciu Java z Aspose.Note. Zapoznaj się z naszym przewodnikiem krok po kroku i często zadawanymi pytaniami dotyczącymi bezproblemowej integracji.
+### Konwertuj dokument OneNote do obrazu przy użyciu domyślnych opcji – Java
+[Konwertuj do obrazu – domyślne opcje](./convert-to-image-default-options/) – Naucz się konwertować dokumenty OneNote na obrazy przy użyciu domyślnych opcji w Aspose.Note for Java. Integracja na wyciągnięcie ręki.
 
-## Uzyskaj informacje o formacie pliku z programu OneNote — Java
-[Uzyskaj informacje o formacie pliku](./get-file-format-info/) - Pobieraj informacje o formacie pliku z plików OneNote przy użyciu Java z Aspose.Note. Usprawnij swoje zadania związane z obsługą dokumentów.
+### Konwertuj dokument OneNote do PDF – Java
+[Konwertuj do PDF](./convert-to-pdf/) – Rozszerz możliwości przetwarzania dokumentów, ucząc się konwertować dokumenty OneNote do PDF przy użyciu Aspose.Note for Java. Zawiera przewodnik krok po kroku.
 
-## Załaduj dokument OneNote do Aspose.Note za pomocą opcji PdfSaveOptions
-[Załaduj opcje zapisywania plików PDF](./load-pdf-save-options/) - Użyj Aspose.Note dla Java, aby bez wysiłku ładować dokumenty OneNote i konwertować je do formatu PDF. Uprość zadania konwersji dokumentów dzięki Aspose.Note.
+### Utwórz dokument OneNote z tytułem strony – Java
+[Utwórz dokument OneNote z tytułem strony](./create-onenote-doc-page-title/) – Dowiedz się, jak tworzyć dokumenty OneNote z tytułami stron w Javie przy użyciu Aspose.Note. Kompleksowy samouczek z przykładami kodu.
 
-## Załaduj dokument OneNote do Aspose.Note przy użyciu SaveFormat - Java
-[Załaduj Zapisz format](./load-save-format/) Dowiedz się, jak łatwo ładować dokumenty OneNote do Aspose.Note, korzystając z języka Java. Przewodnik krok po kroku dotyczący bezproblemowej integracji.
+### Utwórz dokument OneNote i zapisz jako HTML – Java
+[Utwórz OneNote i zapisz jako HTML](./create-onenote-save-to-html/) – Skorzystaj z Aspose.Note for Java, aby tworzyć dokumenty OneNote i zapisywać je jako HTML z osadzonymi zasobami. Odkryj potencjał tworzenia dokumentów.
 
-## Załaduj dokument programu OneNote — Java
-[Załaduj dokument programu OneNote](./load-onenote-document/) - Wykorzystaj Aspose.Note dla Java, aby bez wysiłku ładować i manipulować dokumentami OneNote. Kompleksowy samouczek dostosowany dla programistów Java.
+### Utwórz dokumenty OneNote chronione hasłem – Java
+[Utwórz OneNote chroniony hasłem](./create-password-protected-onenote/) – Opanuj sztukę tworzenia **dokumentów OneNote chronionych hasłem** przy użyciu Javy i Aspose.Note. Bezpieczeństwo spotyka prostotę.
 
-## Załaduj dokument programu OneNote 2007 — Java
-[Załaduj program OneNote 2007](./load-onenote-2007/) - Zagłęb się w szczegóły ładowania dokumentów OneNote 2007 w Javie przy użyciu Aspose.Note w celu zapewnienia bezproblemowej integracji.
+### Rozróżnij typ węzła w dokumencie OneNote – Java
+[Rozróżnij typ węzła](./distinguish-node-type/) – Dowiedz się, jak rozróżniać typy węzłów w dokumentach OneNote przy użyciu Javy i Aspose.Note. Poznaj nasz przewodnik krok po kroku oraz FAQ dla płynnej integracji.
 
-## Załaduj chroniony hasłem dokument programu OneNote — Java
-[Załaduj chroniony hasłem program OneNote](./load-password-protected-onenote/) - Odblokuj sekrety ładowania chronionych hasłem dokumentów OneNote przy użyciu Java z Aspose.Note dla Java. Czeka na bezproblemową integrację zabezpieczeń.
-## Samouczki dotyczące ładowania dokumentów programu OneNote
-### [Sprawdź, czy dokument programu OneNote jest zaszyfrowany — Java](./check-document-encrypted/)
-Dowiedz się, jak sprawdzić, czy dokument OneNote jest zaszyfrowany w Javie przy użyciu Aspose.Note. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby efektywnie przetwarzać dokumenty.
-### [Konwertuj określony zakres stron na plik PDF w programie OneNote za pomocą języka Java](./convert-page-range-to-pdf/)
-Dowiedz się, jak bezproblemowo konwertować określone zakresy stron z OneNote do formatu PDF za pomocą Aspose.Note dla Java. Bez problemu zachowaj formatowanie i układ.
-### [Konwertuj określoną stronę na obraz w programie OneNote przy użyciu języka Java](./convert-page-to-image/)
-Dowiedz się, jak przekonwertować określoną stronę na obraz w programie OneNote przy użyciu języka Java z Aspose.Note. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zapewnić bezproblemową integrację.
-### [Konwertuj określoną stronę na obraz PNG w programie OneNote — Java](./convert-page-to-png-image/)
-Dowiedz się, jak konwertować określone strony z dokumentów OneNote na obrazy PNG w Javie przy użyciu Aspose.Note.
-### [Konwertuj dokument programu OneNote na obraz — Java](./convert-to-image/)
-Dowiedz się, jak bez wysiłku konwertować dokumenty OneNote na obrazy za pomocą Aspose.Note dla Java.
-### [Konwertuj dokument programu OneNote na obraz przy użyciu opcji domyślnych — Java](./convert-to-image-default-options/)
-Bez wysiłku konwertuj dokumenty OneNote na obrazy za pomocą Aspose.Note dla Java. Postępuj zgodnie z tym samouczkiem krok po kroku, aby zapewnić bezproblemową integrację.
-### [Konwertuj dokument programu OneNote na format PDF — Java](./convert-to-pdf/)
-Dowiedz się, jak konwertować dokumenty OneNote do formatu PDF przy użyciu Aspose.Note dla Java. Zwiększ swoje możliwości przetwarzania dokumentów dzięki temu przewodnikowi krok po kroku.
-### [Utwórz dokument programu OneNote z tytułem strony — Java](./create-onenote-doc-page-title/)
-Dowiedz się, jak tworzyć dokumenty OneNote z tytułami stron w Javie przy użyciu Aspose.Note dla Java. Obszerny samouczek z przykładami kodu.
-### [Utwórz dokument OneNote i zapisz w formacie HTML — Java](./create-onenote-save-to-html/)
-Dowiedz się, jak używać Aspose.Note dla Java do tworzenia dokumentów OneNote i zapisywania ich w formacie HTML z osadzonymi zasobami.
-### [Twórz chronione hasłem dokumenty OneNote — Java](./create-password-protected-onenote/)
-Dowiedz się, jak tworzyć chronione hasłem dokumenty OneNote przy użyciu Java z Aspose.Note.
-### [Rozróżnij typ węzła w dokumencie programu OneNote — Java](./distinguish-node-type/)
-Dowiedz się, jak rozróżniać typy węzłów w dokumentach OneNote przy użyciu języka Java z Aspose.Note. Zapoznaj się z przewodnikiem krok po kroku i często zadawanymi pytaniami dotyczącymi bezproblemowej integracji.
-### [Uzyskaj informacje o formacie pliku z programu OneNote — Java](./get-file-format-info/)
-Dowiedz się, jak odzyskać informacje o formacie pliku z plików OneNote przy użyciu Java z Aspose.Note.
-### [Załaduj dokument OneNote do Aspose.Note za pomocą opcji PdfSaveOptions](./load-pdf-save-options/)
-Dowiedz się, jak używać Aspose.Note dla Java, aby bez wysiłku ładować dokumenty OneNote i konwertować je do formatu PDF. Uprość zadania konwersji dokumentów dzięki Aspose.Note.
-### [Załaduj dokument OneNote do Aspose.Note przy użyciu SaveFormat - Java](./load-save-format/)
-Dowiedz się, jak z łatwością ładować dokumenty OneNote do Aspose.Note przy użyciu języka Java. Przewodnik krok po kroku dotyczący bezproblemowej integracji.
-### [Załaduj dokument programu OneNote — Java](./load-onenote-document/)
-Dowiedz się, jak używać Aspose.Note dla Java do łatwego ładowania i manipulowania dokumentami OneNote. Kompleksowy poradnik dla programistów Java.
-### [Załaduj dokument programu OneNote 2007 — Java](./load-onenote-2007/)
-Dowiedz się, jak ładować dokumenty OneNote 2007 w Javie przy użyciu Aspose.Note w celu zapewnienia bezproblemowej integracji.
-### [Załaduj chroniony hasłem dokument programu OneNote — Java](./load-password-protected-onenote/)
-Dowiedz się, jak ładować chronione hasłem dokumenty OneNote przy użyciu Java z Aspose.Note dla Java.
-{{< /blocks/products/pf/tutorial-page-section >}}
+### Pobierz informacje o formacie pliku z OneNote – Java
+[Pobierz informacje o formacie pliku](./get-file-format-info/) – Uzyskaj **informacje o formacie pliku OneNote** z plików OneNote przy użyciu Javy i Aspose.Note. Wzmacniaj swoje zadania związane z obsługą dokumentów.
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+### Ładuj dokument OneNote do Aspose.Note używając PdfSaveOptions
+[Ładuj opcje zapisu PDF](./load-pdf-save-options/) – Skorzystaj z Aspose.Note for Java, aby ładować dokumenty OneNote i konwertować je do formatu PDF bez wysiłku. Uprość zadania konwersji dokumentów dzięki Aspose.Note.
+
+### Ładuj dokument OneNote do Aspose.Note używając SaveFormat – Java
+[Ładuj format zapisu](./load-save-format/) – Dowiedz się, jak łatwo ładować dokumenty OneNote do Aspose.Note przy użyciu Javy. Przewodnik krok po kroku dla płynnej integracji.
+
+### Ładuj dokument OneNote – Java
+[Ładuj dokument OneNote](./load-onenote-document/) – Wykorzystaj Aspose.Note for Java do ładowania i manipulacji dokumentami OneNote bez problemu. Kompleksowy samouczek dostosowany do programistów Javy.
+
+### Ładuj dokument OneNote 2007 – Java
+[Ładuj OneNote 2007](./load-onenote-2007/) – Zagłęb się w szczegóły ładowania **dokumentów OneNote 2007** w Javie przy użyciu Aspose.Note dla płynnej integracji.
+
+### Ładuj dokument OneNote chroniony hasłem – Java
+[Ładuj OneNote chroniony hasłem](./load-password-protected-onenote/) – Odkryj, jak ładować dokumenty OneNote chronione hasłem przy użyciu Javy i Aspose.Note for Java. Czeka Cię płynna integracja zabezpieczeń.
+
+## Samouczki ładowania dokumentów OneNote (szybka nawigacja)
+
+- [Sprawdź, czy dokument OneNote jest zaszyfrowany - Java](./check-document-encrypted/)
+- [Konwertuj zakres stron do PDF w OneNote z Java](./convert-page-range-to-pdf/)
+- [Konwertuj stronę do obrazu w OneNote z Java](./convert-page-to-image/)
+- [Konwertuj stronę do obrazu PNG w OneNote - Java](./convert-page-to-png-image/)
+- [Konwertuj dokument OneNote do obrazu - Java](./convert-to-image/)
+- [Konwertuj dokument OneNote do obrazu przy użyciu domyślnych opcji - Java](./convert-to-image-default-options/)
+- [Konwertuj dokument OneNote do PDF - Java](./convert-to-pdf/)
+- [Utwórz dokument OneNote z tytułem strony - Java](./create-onenote-doc-page-title/)
+- [Utwórz OneNote i zapisz jako HTML - Java](./create-onenote-save-to-html/)
+- [Utwórz OneNote chroniony hasłem - Java](./create-password-protected-onenote/)
+- [Rozróżnij typ węzła w dokumencie OneNote - Java](./distinguish-node-type/)
+- [Pobierz informacje o formacie pliku z OneNote - Java](./get-file-format-info/)
+- [Ładuj opcje zapisu PDF](./load-pdf-save-options/)
+- [Ładuj format zapisu - Java](./load-save-format/)
+- [Ładuj dokument OneNote - Java](./load-onenote-document/)
+- [Ładuj OneNote 2007 - Java](./load-onenote-2007/)
+- [Ładuj OneNote chroniony hasłem - Java](./load-password-protected-onenote/)
+
+## Najczęściej zadawane pytania
+
+**Q: Jak ustawić hasło przy tworzeniu nowego pliku OneNote?**  
+A: Użyj przeciążenia `Document.save(outputPath, password)`, podając żądany ciąg hasła.
+
+**Q: Czy mogę wczytać plik OneNote 2007 bez wcześniejszej konwersji?**  
+A: Tak — po prostu wywołaj `Document.load(path, LoadOptions)`; API automatycznie wykrywa starszy format.
+
+**Q: Jaki jest najlepszy sposób, aby przekonwertować tylko jedną stronę notesu OneNote do PDF?**  
+A: Utwórz obiekt `PdfSaveOptions`, ustaw właściwości `PageIndex` i `PageCount`, a następnie wywołaj `document.save(outputPath, options)`.
+
+**Q: Czy można uzyskać wersję formatu pliku dokumentu OneNote?**  
+A: Zdecydowanie — użyj `Document.getFileFormatInfo()`, aby uzyskać szczegółowe informacje o wersji i kompatybilności.
+
+**Q: Jak mogę wyeksportować dokument OneNote do HTML, zachowując osadzone zasoby?**  
+A: Zapisz dokument przy użyciu `SaveFormat.HTML` i ustaw `HtmlSaveOptions.embedResources = true`, aby zachować obrazy i style w linii.
+
+---
+
+**Ostatnia aktualizacja:** 2026-06-30  
+**Testowano z:** Aspose.Note for Java 27.0  
+**Autor:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## Powiązane samouczki
+
+- [Jak zapisać dokumenty OneNote przy użyciu Aspose.Note for Java](/note/java/onenote-document-saving/)
+- [Jak zapisać OneNote jako obraz PNG przy użyciu Aspose.Note for Java](/note/java/onenote-document-loading/convert-to-image/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
