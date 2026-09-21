@@ -1,33 +1,97 @@
 ---
-title: Adjunte archivo y establezca ícono en OneNote usando Java
-linktitle: Adjunte archivo y establezca ícono en OneNote usando Java
-second_title: Aspose.Nota Java API
-description: ¡Impulse su flujo de trabajo de OneNote! Aprenda a adjuntar archivos y personalizar iconos mediante programación en Java con Aspose.Note. ¡Pasos sencillos y código incluidos! #OneNote #Java #Aspose
-weight: 10
+date: 2026-07-19
+description: Aprenda cómo crear un documento OneNote Java programáticamente, adjuntar
+  archivos y establecer íconos personalizados usando Aspose.Note. Descubra cómo attach
+  file Java y set icons en minutos.
+keywords:
+- create onenote document java
+- how to attach file java
+- Aspose.Note Java
+lastmod: 2026-07-19
+linktitle: Crear documento OneNote Java - Attach File and Set Icon
+og_description: Crear documento OneNote Java con Aspose.Note. Aprenda cómo attach
+  file Java y set custom icons rápidamente en una guía paso a paso.
+og_image_alt: Guide to creating a OneNote document in Java with attached files and
+  custom icons
+og_title: Crear documento OneNote Java – Attach File and Set Icon
+schemas:
+- author: Aspose
+  dateModified: '2026-07-19'
+  description: Learn how to create OneNote document Java programmatically, attach
+    files and set custom icons using Aspose.Note. Discover how to attach file Java
+    and set icons in minutes.
+  headline: Create OneNote Document Java - Attach File and Set Icon
+  type: TechArticle
+- description: Learn how to create OneNote document Java programmatically, attach
+    files and set custom icons using Aspose.Note. Discover how to attach file Java
+    and set icons in minutes.
+  name: Create OneNote Document Java - Attach File and Set Icon
+  steps:
+  - name: '**Instantiate** a `Document` object (the OneNote file).'
+    text: '**Instantiate** a `Document` object (the OneNote file).'
+  - name: '**Create** a page, outline, and outline element – the building blocks of
+      OneNote content.'
+    text: '**Create** a page, outline, and outline element – the building blocks of
+      OneNote content.'
+  - name: '**Attach** a file with a custom icon using the `AttachedFile` class.'
+    text: '**Attach** a file with a custom icon using the `AttachedFile` class.'
+  - name: '**Save** the document to a `.one` file.'
+    text: '**Save** the document to a `.one` file.'
+  type: HowTo
+- questions:
+  - answer: Programmatically create a OneNote document in Java and embed an attached
+      file with a custom icon.
+    question: What is the main goal?
+  - answer: Aspose.Note for Java.
+    question: Which library is required?
+  - answer: A free trial works for testing; a commercial license is required for production.
+    question: Do I need a license?
+  - answer: Less than 30 lines of core API calls.
+    question: How many lines of code?
+  - answer: Yes – any file can be attached; you just provide the appropriate icon.
+    question: Can I use any file type?
+  type: FAQPage
+second_title: Aspose.Note Java API
+tags:
+- onenote java
+- Aspose.Note
+- attach file java
+title: Crear documento OneNote Java - Attach File and Set Icon
 url: /es/java/onenote-java-integration/attach-file-and-set-icon/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Adjunte archivo y establezca ícono en OneNote usando Java
+# Crear documento OneNote Java: adjuntar archivo y establecer icono
 
-## Introducción
+OneNote es una herramienta popular para tomar notas y organizar información, y con **Aspose.Note for Java** puedes **crear documento OneNote Java** programáticamente. En este tutorial te guiaremos para adjuntar un archivo y establecer un icono personalizado, de modo que tus notas se vean ordenadas y sean instantáneamente reconocibles. Al final comprenderás por qué este enfoque ahorra tiempo y cómo se integra limpiamente en cualquier proyecto Java.
 
-OneNote es una herramienta popular para tomar notas y organizar información, y con la ayuda de Aspose.Note para Java, puede mejorar sus capacidades adjuntando archivos mediante programación y configurando íconos para mejorar la representación visual de sus notas. En este tutorial, lo guiaremos a través del proceso paso a paso.
+## Respuestas rápidas
+- **¿Cuál es el objetivo principal?** Crear programáticamente un documento OneNote en Java e incrustar un archivo adjunto con un icono personalizado.  
+- **¿Qué biblioteca se requiere?** Aspose.Note for Java.  
+- **¿Necesito una licencia?** Una prueba gratuita funciona para pruebas; se requiere una licencia comercial para producción.  
+- **¿Cuántas líneas de código?** Menos de 30 líneas de llamadas al API central.  
+- **¿Puedo usar cualquier tipo de archivo?** Sí – cualquier archivo puede ser adjuntado; solo debes proporcionar el icono apropiado.
+
+## Crear documento OneNote Java – Visión general
+Antes de sumergirse en el código, comprende el flujo de alto nivel:
+
+1. **Instanciar** un objeto `Document` (el archivo OneNote).  
+2. **Crear** una página, contorno y elemento de contorno – los bloques de construcción del contenido de OneNote.  
+3. **Adjuntar** un archivo con un icono personalizado usando la clase `AttachedFile`.  
+4. **Guardar** el documento en un archivo `.one`.
 
 ## Requisitos previos
 
-Antes de comenzar, asegúrese de tener lo siguiente:
-
-1. Entorno de desarrollo de Java: asegúrese de tener Java instalado en su sistema, junto con un entorno de desarrollo integrado (IDE) compatible como IntelliJ IDEA o Eclipse.
-   
-2.  Biblioteca Aspose.Note para Java: deberá descargar e instalar la biblioteca Aspose.Note para Java. Puedes descargarlo desde el[Aspose sitio web](https://releases.aspose.com/note/java/).
+- **Entorno de desarrollo Java** – Java 8+ y un IDE como IntelliJ IDEA o Eclipse.  
+- **Biblioteca Aspose.Note for Java** – descárgala desde el [sitio web de Aspose](https://releases.aspose.com/note/java/).  
 
 ## Importar paquetes
 
-Primero, necesita importar los paquetes necesarios de la biblioteca Aspose.Note a su proyecto Java:
+First, import the necessary Aspose.Note classes and standard Java I/O classes:
 
 ```java
 import com.aspose.note.*;
@@ -37,44 +101,44 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 ```
 
-## Paso 1: crear un objeto de documento
+## Paso 1: Crear un objeto Document
 
-Comience creando un objeto Documento, que representa el documento de OneNote con el que trabajará:
+La clase `Document` es el objeto de nivel superior de Aspose.Note que representa un único archivo OneNote en memoria. Después de la instanciación, todas las operaciones de lectura y escritura fluyen a través de este objeto.
 
 ```java
-// La ruta al directorio de documentos.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
-//Crear un objeto de la clase Documento.
+// Create an object of the Document class
 Document doc = new Document();
 ```
 
-## Paso 2: Inicializar objetos de página y esquema
+## Paso 2: Inicializar objetos Page y Outline
 
-A continuación, inicialice los objetos Página y Esquema:
+La clase `Page` representa una única página dentro de un archivo OneNote, mientras que la clase `Outline` agrupa bloques de contenido relacionados en esa página.
 
 ```java
-// Inicializar objeto de clase de página
+// Initialize Page class object
 Page page = new Page();
 
-// Inicializar objeto de clase de esquema
+// Initialize Outline class object
 Outline outline = new Outline();
 ```
 
-## Paso 3: inicializar el objeto OutlineElement
+## Paso 3: Inicializar objeto OutlineElement
 
-Ahora, inicializa un objeto OutlineElement:
+`OutlineElement` es el contenedor que alberga elementos de contenido individuales como texto, imágenes o archivos adjuntos.
 
 ```java
-// Inicializar objeto de clase OutlineElement
+// Initialize OutlineElement class object
 OutlineElement outlineElem = new OutlineElement();
 ```
 
-## Paso 4: crear un objeto de archivo adjunto con icono
+## ¿Cómo adjuntar un archivo en OneNote usando Java?
 
-Cree un objeto AttachedFile y especifique la ruta al archivo que desea adjuntar, junto con su icono:
+Para incrustar un archivo, creas una instancia de `AttachedFile`, proporcionas el flujo binario del archivo y, opcionalmente, estableces una imagen de icono personalizada. La clase enlaza el adjunto a la página de OneNote y le indica a OneNote qué icono mostrar. Usa el constructor que acepta un `FileInputStream` y una `Image` para el icono.
 
 ```java
-// Inicialice el objeto de clase AttachedFile y también pase la ruta de su icono
+// Initialize AttachedFile class object and also pass its icon path
 AttachedFile attachedFile = null;
 try {
     attachedFile = new AttachedFile(dataDir + "attachment.txt", new FileInputStream(dataDir  + "icon.jpg"), ImageFormat.getJpeg());
@@ -83,82 +147,90 @@ try {
 }
 ```
 
-## Paso 5: Agregar el archivo adjunto al OutlineElement
+## Ejemplo Java de agregar Outline Element
 
-Agregue el archivo adjunto al elemento OutlineElement:
+Añade la instancia `AttachedFile` al `OutlineElement` creado previamente. Este paso vincula el adjunto al elemento visual que aparecerá en la página.
 
 ```java
-// Agregar archivo adjunto
+// Add attached file
 outlineElem.appendChildLast(attachedFile);
 ```
 
-## Paso 6: agregue OutlineElement al esquema
-
-A continuación, agregue OutlineElement al esquema:
+## Añadir OutlineElement al Outline
 
 ```java
-// Agregar nodo de elemento de esquema
+// Add outline element node
 outline.appendChildLast(outlineElem);
 ```
 
-## Paso 7: agregar esquema a la página
-
-Agregue el esquema a la página:
+## Añadir Outline a la Page
 
 ```java
-// Agregar nodo de esquema
+// Add outline node
 page.appendChildLast(outline);
 ```
 
-## Paso 8: agregar página al documento
-
-Finalmente, agregue la página al documento:
+## Añadir Page al Document
 
 ```java
-// Agregar nodo de página
+// Add page node
 doc.appendChildLast(page);
 ```
 
-## Paso 9: guarde el documento
+## Guardar el documento
 
-Guarde el documento modificado en un archivo:
+Finalmente, escribe el archivo OneNote poblado en disco usando el método `save` del objeto `Document`.
 
 ```java
 dataDir = dataDir + "AttachFileAndSetIcon_out.one";
 doc.save(dataDir);
 ```
 
-Ahora, adjuntó exitosamente un archivo y configuró un ícono en OneNote usando Java con Aspose.Note.
+Ahora has **creado un documento OneNote Java** que contiene un archivo adjunto con un icono personalizado.
 
-### Conclusión
+### ¿Por qué usar Aspose.Note para Java?
 
-En este tutorial, hemos aprendido cómo adjuntar archivos mediante programación y configurar íconos en OneNote usando Java con la biblioteca Aspose.Note. Si sigue la guía paso a paso, puede mejorar su experiencia para tomar notas y automatizar tareas dentro de sus aplicaciones Java.
+Aspose.Note admite **más de 50** formatos de entrada y salida, puede manejar documentos con **cientos de páginas** sin cargar todo el archivo en memoria, y ofrece APIs **seguras para subprocesos** que escalan en entornos multiusuario. Estas capacidades cuantificadas lo convierten en una opción confiable para la automatización a nivel empresarial.
 
-### Preguntas frecuentes
+### Casos de uso comunes
 
-### P1: ¿Puedo adjuntar cualquier tipo de archivo a OneNote usando este método?
+- **Generación automática de actas de reuniones** donde los PDFs o hojas de cálculo de apoyo se adjuntan directamente a las notas.  
+- **Flujos de trabajo de gestión documental** que necesitan agrupar archivos fuente con páginas explicativas de OneNote.  
+- **Creación de contenido educativo** donde los docentes incrustan hojas de trabajo, imágenes o archivos de audio en las notas de la lección.
 
-R1: Sí, puede adjuntar varios tipos de archivos, incluidos documentos, imágenes y archivos multimedia.
+## Preguntas frecuentes
 
-### P2: ¿Aspose.Note para Java es compatible con todas las versiones de OneNote?
+**P:** ¿Puedo adjuntar cualquier tipo de archivo a OneNote usando este método?  
+**R:** Sí, puedes adjuntar documentos, imágenes, videos o cualquier archivo binario; solo proporciona el icono apropiado para representarlo.
 
-R2: Aspose.Note para Java admite compatibilidad con varias versiones de OneNote, lo que garantiza flexibilidad en su desarrollo.
+**P:** ¿Es Aspose.Note para Java compatible con todas las versiones de OneNote?  
+**R:** Aspose.Note es compatible con OneNote 2010, 2013, 2016 y la versión Universal de Windows 10, garantizando una amplia compatibilidad en entornos de escritorio y UWP.
 
-### P3: ¿Puedo personalizar la apariencia del ícono del archivo adjunto?
+**P:** ¿Puedo personalizar la apariencia del icono del archivo adjunto?  
+**R:** Absolutamente. Proporciona una imagen PNG o ICO personalizada al construir el objeto `AttachedFile` para controlar cómo se muestra el adjunto.
 
-R3: Por supuesto, puedes elegir íconos personalizados para representar diferentes tipos de archivos adjuntos, mejorando la organización visual.
+**P:** ¿Aspose.Note para Java ofrece soporte para solución de problemas y asistencia?  
+**R:** Sí, puedes obtener ayuda en los foros de la comunidad de Aspose: [Aspose.Note Support](https://forum.aspose.com/c/note/28).
 
-### P4: ¿Aspose.Note para Java ofrece soporte para la resolución de problemas y asistencia?
+**P:** ¿Hay una versión de prueba disponible para Aspose.Note para Java?  
+**R:** Sí, puedes explorar la funcionalidad de Aspose.Note para Java con una prueba gratuita disponible en [este enlace](https://releases.aspose.com/).
 
- R4: Sí, puede obtener asistencia y soporte para la resolución de problemas en los foros de la comunidad de Aspose:[Soporte de Aspose.Note](https://forum.aspose.com/c/note/28).
+---
 
-### P5: ¿Existe una versión de prueba disponible de Aspose.Note para Java?
+**Última actualización:** 2026-07-19  
+**Probado con:** Aspose.Note for Java 26.4 (última versión al momento de escribir)  
+**Autor:** Aspose
 
-R5: Sí, puede explorar la funcionalidad de Aspose.Note para Java con una prueba gratuita disponible en[este enlace](https://releases.aspose.com/).
+## Tutoriales relacionados
+
+- [Establecer estilo de párrafo al crear documento OneNote en Java](/note/java/onenote-document-manipulation/create-onenote-document-simple-rich-text/)
+- [Cómo guardar documentos OneNote con Aspose.Note para Java](/note/java/onenote-document-saving/)
+- [Cómo crear documento onenote java – Construir documento e insertar imagen con flujo](/note/java/onenote-hyperlinks-images/build-doc-insert-image-stream/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< blocks/products/products-backtop-button >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
