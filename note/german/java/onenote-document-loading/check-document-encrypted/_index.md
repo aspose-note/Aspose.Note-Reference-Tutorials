@@ -1,11 +1,16 @@
 ---
-date: 2025-11-29
-description: Erfahren Sie, wie Sie die OneNote‑Verschlüsselung in Java mit Aspose.Note
-  für Java überprüfen. Dieser Leitfaden zeigt Ihnen, wie Sie verschlüsselte OneNote‑Dateien
-  vor der Verarbeitung erkennen.
-linktitle: Check if OneNote Document is Encrypted - Java
+date: 2026-07-05
+description: Erfahren Sie, wie Sie die OneNote Encryption mit Aspose.Note für Java
+  prüfen können. Erkennen Sie verschlüsselte OneNote-Dateien, bevor sie geladen werden,
+  um Fehler zu vermeiden und die Benutzererfahrung zu verbessern.
+keywords:
+- check onenote encryption
+- Aspose.Note encryption detection
+- Java OneNote password check
+linktitle: Prüfen, ob OneNote Document verschlüsselt ist – Java
 second_title: Aspose.Note Java API
-title: OneNote-Verschlüsselung prüfen Java – OneNote-Dokumentverschlüsselung überprüfen
+title: OneNote-Verschlüsselung prüfen – Überprüfen von OneNote Document Encryption
+  mit Java
 url: /de/java/onenote-document-loading/check-document-encrypted/
 weight: 10
 ---
@@ -14,38 +19,36 @@ weight: 10
 {{< blocks/products/pf/main-container >}}  
 {{< blocks/products/pf/tutorial-page-section >}}  
 
-# Überprüfen, ob OneNote-Dokument verschlüsselt ist - Java  
+# Prüfen, ob OneNote-Dokument verschlüsselt ist – Java  
 
-## Einleitung  
+## Einführung  
 
-Wenn Sie in einer Java‑Anwendung mit OneNote‑Dateien arbeiten, ist das Erste, was Sie wissen müssen, **ob das Dokument verschlüsselt ist**. Der Versuch, eine verschlüsselte Datei ohne das passende Passwort zu laden, führt zu Fehlern und unterbricht Ihren Arbeitsablauf. In diesem Tutorial führen wir Sie Schritt für Schritt durch **wie man die OneNote‑Verschlüsselung in Java prüft** mit Aspose.Note für Java, sodass Sie sicher entscheiden können, ob Sie den Benutzer nach einem Passwort fragen oder die Datei weiter verarbeiten.  
+Wenn Sie mit OneNote‑Dateien in einer Java‑Anwendung arbeiten, ist das Erste, was Sie wissen müssen, **ob das Dokument verschlüsselt ist**. Der Versuch, eine verschlüsselte Datei ohne das richtige Passwort zu laden, führt zu Ausnahmen und unterbricht Ihren Arbeitsablauf. In diesem Tutorial zeigen wir Ihnen **wie Sie die OneNote‑Verschlüsselung** mit Aspose.Note für Java prüfen können, damit Sie sicher entscheiden können, ob Sie den Benutzer nach einem Passwort fragen oder die Datei weiter verarbeiten.  
 
-## Kurze Antworten  
+## Schnelle Antworten  
 
 - **Welche Methode bestimmt die Verschlüsselung?** `Document.isEncrypted`  
-- **Benötige ich ein Passwort, um den Status zu prüfen?** Nein, Sie können den Status ohne Passwort abfragen.  
+- **Benötige ich ein Passwort, um zu prüfen?** Nein, Sie können den Status ohne Passwort abfragen.  
 - **Welche API‑Version funktioniert?** Jede aktuelle Aspose.Note‑Version für Java (getestet mit 26.4).  
 - **Kann ich sowohl Streams als auch Dateipfade prüfen?** Ja – die API unterstützt beides.  
 - **Was passiert, wenn das Passwort falsch ist?** Die Methode gibt `true` zurück, was anzeigt, dass die Datei weiterhin verschlüsselt ist.  
 
-## Was ist „check onenote encryption java“?  
+## Was bedeutet das Prüfen der OneNote-Verschlüsselung?  
 
-„check onenote encryption java“ ist der Vorgang, programmgesteuert zu überprüfen, ob eine OneNote‑(`.one`)-Datei mit einem Passwort geschützt ist, bevor versucht wird, deren Inhalt zu laden. Das Wissen um den Verschlüsselungsstatus hilft, Laufzeitausnahmen zu vermeiden und verbessert die Benutzererfahrung.  
+Das Prüfen der OneNote‑Verschlüsselung bedeutet, programmgesteuert festzustellen, ob eine OneNote‑(`.one`)-Datei mit einem Passwort geschützt ist, bevor ein Versuch unternommen wird, ihren Inhalt zu lesen. Diese schnelle Statusprüfung verhindert Laufzeitausnahmen, ermöglicht es Ihnen, Benutzer nur bei Bedarf zu fragen, und hilft Ihnen, Sicherheitsrichtlinien einzuhalten.  
 
-## Warum OneNote‑Verschlüsselung vor dem Laden prüfen?  
+## Warum die OneNote-Verschlüsselung vor dem Laden prüfen?  
 
-- **Laufzeitfehler verhindern** – das Laden einer verschlüsselten Datei ohne Passwort wirft eine Ausnahme.  
-- **UI‑Ablauf verbessern** – Sie können den Benutzer nur dann nach einem Passwort fragen, wenn es nötig ist.  
-- **Sicherheitskonformität** – stellt sicher, dass Sie geschützte Inhalte gemäß Richtlinien behandeln.  
+Das Laden einer verschlüsselten OneNote‑Datei ohne das korrekte Passwort löst eine Ausnahme aus, die Ihren Dienst zum Absturz bringen oder dem Benutzer eine verwirrende Fehlermeldung anzeigen kann. Durch das vorherige Prüfen des Verschlüsselungsflags können Sie nur bei Bedarf eine Passwortabfrage anzeigen, unnötige I/O reduzieren und sicherstellen, dass geschützte Inhalte gemäß den Unternehmensrichtlinien behandelt werden.  
 
 ## Voraussetzungen  
 
-1. **Java Development Kit (JDK)** – stellen Sie sicher, dass Java 11 oder höher installiert ist. Laden Sie es von [hier](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) herunter.  
+1. **Java Development Kit (JDK)** – Java 11 oder höher ist erforderlich. Laden Sie es von [hier](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) herunter.  
 2. **Aspose.Note für Java** – erhalten Sie die Bibliothek von der offiziellen Download‑Seite [hier](https://releases.aspose.com/note/java/).  
 
 ## Pakete importieren  
 
-Fügen Sie zu Beginn die erforderlichen Importe zu Ihrem Java‑Projekt hinzu:  
+Die Klasse `Document` repräsentiert eine OneNote‑Datei und bietet Methoden zum Laden und Untersuchen ihres Inhalts.  
 
 ```java
 import com.aspose.note.Document;
@@ -55,11 +58,26 @@ import java.io.IOException;
 import java.nio.file.Paths;
 ```  
 
-## Wie man die OneNote‑Verschlüsselung in Java prüft  
+```java
+import com.aspose.note.Document;
+import com.aspose.note.LoadOptions;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.nio.file.Paths;
+```  
 
-Im Folgenden teilen wir die Lösung in zwei praktische Szenarien auf: das Prüfen eines Dokuments, das aus einem **Stream** geladen wurde, und das Prüfen eines Dokuments, das direkt aus einem **Dateipfad** geladen wird.  
+## Wie prüfe ich den Verschlüsselungsstatus für ein aus einem Stream geladenes Dokument?  
 
-### Schritt 1: Prüfen, ob ein aus einem Stream geladenes Dokument verschlüsselt ist  
+`Document.isEncrypted` ist eine statische Methode, die einen booleschen Wert zurückgibt, der angibt, ob eine OneNote‑Datei verschlüsselt ist. Laden Sie Ihren PDF‑ähnlichen OneNote‑Stream und rufen Sie die statische Methode `Document.isEncrypted` auf. Die Methode gibt einen booleschen Wert zurück, der die Verschlüsselung anzeigt, und füllt bei nicht verschlüsselten Dateien ein Referenz‑Array mit der geladenen `Document`‑Instanz, sodass kein zweiter Ladevorgang nötig ist.  
+
+**Direkte Antwort (40‑70 Wörter):**  
+Rufen Sie `Document.isEncrypted(inputStream, loadOptions, ref)` auf – es teilt Ihnen sofort mit, ob der Stream passwortgeschützt ist. Ist das Ergebnis `false`, enthält `ref[0]` das einsatzbereite `Document`‑Objekt, sodass Sie die Verarbeitung ohne zusätzlichen I/O fortsetzen können. Ist das Ergebnis `true`, ist der Stream verschlüsselt und Sie müssen vor dem Fortfahren ein Passwort anfordern.  
+
+**Erklärung**  
+
+- `LoadOptions` ermöglicht es Ihnen optional ein Passwort anzugeben (`setDocumentPassword`).  
+- `Document.isEncrypted(stream, loadOptions, ref)` prüft den Verschlüsselungsstatus des Streams.  
+- Das `ref`‑Array erhält eine Referenz auf das geladene `Document`, wenn die Datei **nicht** verschlüsselt ist, sodass Sie die Verarbeitung ohne einen zweiten Ladevorgang fortsetzen können.  
 
 ```java
 public static void CheckIfDocumentFromStreamIsEncrypted() throws IOException {
@@ -85,13 +103,18 @@ public static void CheckIfDocumentFromStreamIsEncrypted() throws IOException {
 }
 ```  
 
+## Wie prüfe ich den Verschlüsselungsstatus für ein aus einem Dateipfad geladenes Dokument?  
+
+`Document.isEncrypted` bietet zudem eine Überladung, die direkt mit einem Dateipfad und einem Passwort‑String arbeitet. Diese Überladung folgt dem gleichen booleschen Rückgabemuster und füllt das Referenz‑Array nur, wenn die Datei nicht verschlüsselt ist.  
+
+**Direkte Antwort (40‑70 Wörter):**  
+Rufen Sie `Document.isEncrypted(filePath, password, ref)` auf – der Aufruf gibt `true` zurück, wenn die Datei verschlüsselt ist (oder das Passwort falsch ist) und sonst `false`. Ist das Ergebnis `false`, enthält `ref[0]` das vollständig geladene `Document`, das zur Manipulation bereitsteht. Dieser Ansatz vermeidet einen separaten Ladeschritt und hält Ihren Code kompakt.  
+
 **Erklärung**  
 
-- `LoadOptions` ermöglicht optional das Setzen eines Passworts (`setDocumentPassword`).  
-- `Document.isEncrypted(stream, loadOptions, ref)` prüft den Verschlüsselungsstatus des Streams.  
-- Das `ref`‑Array erhält eine Referenz auf das geladene `Document`, wenn die Datei **nicht** verschlüsselt ist, sodass Sie ohne einen zweiten Ladevorgang weiterarbeiten können.  
-
-### Schritt 2: Prüfen, ob ein aus einem Dateipfad geladenes Dokument verschlüsselt ist  
+- Diese Überladung arbeitet direkt mit einem Dateipfad und einem Passwort‑String.  
+- Wenn die Datei **nicht** verschlüsselt ist, gibt `isEncrypted` `false` zurück und die Referenz `ref[0]` enthält das geladene Dokument.  
+- Ist das Passwort falsch, gibt die Methode **weiterhin `true`** zurück, was anzeigt, dass die Datei weiterhin verschlüsselt ist.  
 
 ```java
 public static void CheckIfDocumentFromFileIsEncrypted() throws IOException {
@@ -112,48 +135,48 @@ public static void CheckIfDocumentFromFileIsEncrypted() throws IOException {
 }
 ```  
 
-**Erklärung**  
+## Häufige Fallstricke & Tipps  
 
-- Diese Überladung arbeitet direkt mit einem Dateipfad und einem Passwort‑String.  
-- Wenn die Datei **nicht** verschlüsselt ist, gibt `isEncrypted` `false` zurück und die Referenz `ref[0]` enthält das geladene Dokument.  
-- Ist das Passwort falsch, gibt die Methode weiterhin `true` zurück, was anzeigt, dass die Datei verschlüsselt bleibt.  
-
-## Häufige Stolperfallen & Tipps  
-
-- **Nie Passwörter hartkodieren** in Produktionscode; holen Sie sie sicher (z. B. aus einem Vault).  
+- **Niemals Passwörter hart codieren** im Produktionscode; holen Sie sie sicher (z. B. aus einem Tresor).  
 - Schließen Sie Streams immer in einem `finally`‑Block oder verwenden Sie try‑with‑resources, um Ressourcenlecks zu vermeiden.  
-- Wenn Sie `true` von `isEncrypted` erhalten und `ref[0]` `null` ist, ist die Datei entweder verschlüsselt **oder** das angegebene Passwort ist falsch. Fragen Sie den Benutzer nach dem korrekten Passwort und versuchen Sie es erneut.  
+- Wenn Sie `true` von `isEncrypted` erhalten und `ref[0]` ist `null`, ist die Datei entweder verschlüsselt **oder** das angegebene Passwort ist **falsch**. Fordern Sie den Benutzer zum korrekten Passwort auf und versuchen Sie es erneut.  
 
 ## Häufig gestellte Fragen  
 
-**F: Kann ich den Verschlüsselungsstatus prüfen, ohne ein Passwort anzugeben?**  
-A: Ja. Rufen Sie `Document.isEncrypted` mit einer `LoadOptions`‑Instanz auf, die kein Passwort setzt; die Methode meldet einfach, ob die Datei verschlüsselt ist.  
+**Q: Kann ich den Verschlüsselungsstatus prüfen, ohne ein Passwort anzugeben?**  
+A: Ja. Rufen Sie `Document.isEncrypted` mit einer `LoadOptions`‑Instanz auf, die kein Passwort setzt; die Methode gibt einfach an, ob die Datei verschlüsselt ist.  
 
-**F: Was passiert, wenn ich ein falsches Passwort angebe?**  
+**Q: Was passiert, wenn ich ein falsches Passwort angebe?**  
 A: Die Methode gibt `true` zurück, was anzeigt, dass das Dokument weiterhin verschlüsselt ist, und `ref[0]` wird `null` sein.  
 
-**F: Gibt es eine Möglichkeit, das Dokument programmgesteuert zu entschlüsseln?**  
+**Q: Gibt es eine Möglichkeit, das Dokument programmgesteuert zu entschlüsseln?**  
 A: Ja. Sobald Sie das korrekte Passwort kennen, übergeben Sie es an `LoadOptions` (oder an die Überladung, die ein Passwort akzeptiert) und laden das Dokument; die API entschlüsselt es dann automatisch.  
 
-**F: Arbeitet Aspose.Note mit anderen Microsoft‑Formaten?**  
-A: Aspose.Note ist ausschließlich für OneNote‑(`.one`)-Dateien konzipiert. Für andere Office‑Formate sollten Sie Aspose.Words, Aspose.Cells usw. in Betracht ziehen.  
+**Q: Arbeitet Aspose.Note mit anderen Microsoft‑Formaten?**  
+A: Aspose.Note ist ausschließlich für OneNote‑(`.one`)-Dateien konzipiert. Für Word, Excel, PowerPoint usw. sollten Sie jeweils Aspose.Words, Aspose.Cells, Aspose.Slides verwenden.  
 
-**F: Wo finde ich weitere Beispiele und Support?**  
-A: Besuchen Sie das [Aspose.Note‑Forum](https://forum.aspose.com/c/note/28) für Community‑Hilfe und prüfen Sie die offizielle Dokumentation für zusätzliche Code‑Beispiele.  
+**Q: Wo finde ich weitere Beispiele und Support?**  
+A: Besuchen Sie das [Aspose.Note‑Forum](https://forum.aspose.com/c/note/28) für Community‑Hilfe und prüfen Sie die offizielle Dokumentation für weitere Code‑Beispiele.  
 
 ## Fazit  
 
-In diesem Leitfaden haben wir **wie man die OneNote‑Verschlüsselung in Java prüft** mit Aspose.Note für Java demonstriert und sowohl Stream‑ als auch Dateibasierte Szenarien abgedeckt. Durch die Integration dieser Prüfungen in Ihre Anwendung können Sie verschlüsselte OneNote‑Dateien elegant handhaben, die Benutzererfahrung verbessern und Ihre Verarbeitungspipeline robust halten.  
+In diesem Leitfaden haben wir **wie man die OneNote‑Verschlüsselung** mit Aspose.Note für Java prüft, sowohl für Stream‑ als auch für Dateibasiertes Szenario. Durch die Integration dieser Prüfungen in Ihre Anwendung können Sie verschlüsselte OneNote‑Dateien elegant handhaben, die Benutzererfahrung verbessern und Ihre Verarbeitungspipeline robust halten.  
 
 ---  
 
-**Zuletzt aktualisiert:** 2025-11-29  
-**Getestet mit:** Aspose.Note 26.4 für Java  
+**Zuletzt aktualisiert:** 2026-07-05  
+**Getestet mit:** Aspose.Note 26.4 for Java  
 **Autor:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}  
-
-{{< /blocks/products/pf/main-container >}}  
-{{< /blocks/products/pf/main-wrap-class >}}  
-
 {{< blocks/products/products-backtop-button >}}
+
+## Verwandte Tutorials
+
+- [OneNote-Dokument erstellen – Notebook mit Aspose.Note laden](/note/java/onenote-notebook-operations/loading-notebook/)
+- [OneNote mit Aspose.Note für Java passwortgeschützt](/note/java/onenote-notebook-operations/write-password-protected-document/)
+- [Aspose Note Dateiformatinformationen aus OneNote mit Java abrufen](/note/java/onenote-document-loading/get-file-format-info/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}  
+{{< /blocks/products/pf/main-container >}}  
+{{< /blocks/products/pf/main-wrap-class >}}

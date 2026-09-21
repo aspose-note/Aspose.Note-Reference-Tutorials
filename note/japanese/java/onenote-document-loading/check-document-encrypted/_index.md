@@ -1,10 +1,14 @@
 ---
-date: 2025-11-29
-description: Aspose.Note for Java を使用して OneNote の暗号化を確認する方法を学びましょう。このガイドでは、処理する前に暗号化された
-  OneNote ファイルを検出する方法を示します。
-linktitle: Check if OneNote Document is Encrypted - Java
+date: 2026-07-05
+description: Aspose.Note for Java を使用して OneNote の暗号化を確認する方法を学びます。エラーを防ぎ、ユーザー体験を向上させるために、読み込み前に暗号化された
+  OneNote ファイルを検出します。
+keywords:
+- check onenote encryption
+- Aspose.Note encryption detection
+- Java OneNote password check
+linktitle: OneNote ドキュメントが暗号化されているか確認 - Java
 second_title: Aspose.Note Java API
-title: OneNote の暗号化をチェック Java – OneNote ドキュメント暗号化の検証
+title: OneNote 暗号化のチェック – Java で OneNote ドキュメント暗号化を検証
 url: /ja/java/onenote-document-loading/check-document-encrypted/
 weight: 10
 ---
@@ -13,38 +17,36 @@ weight: 10
 {{< blocks/products/pf/main-container >}}  
 {{< blocks/products/pf/tutorial-page-section >}}  
 
-# Check if OneNote Document is Encrypted - Java  
+# OneNote ドキュメントが暗号化されているか確認 – Java  
 
-## Introduction  
+## 概要  
 
-Java アプリケーションで OneNote ファイルを扱う際に、最初に確認すべきことは **ドキュメントが暗号化されているかどうか** です。適切なパスワードなしで暗号化されたファイルを読み込もうとするとエラーが発生し、作業が中断されます。このチュートリアルでは Aspose.Note for Java を使用して **how to check onenote encryption java** の手順を解説し、ユーザーにパスワード入力を促すか、ファイルの処理を続行するかを安全に判断できるようにします。  
+Java アプリケーションで OneNote ファイルを扱う際、最初に知っておくべきことは **ドキュメントが暗号化されているか** です。適切なパスワードなしで暗号化されたファイルを読み込もうとすると例外が発生し、ワークフローが中断されます。このチュートリアルでは Aspose.Note for Java を使用して **OneNote の暗号化を確認する方法** を解説し、ユーザーにパスワード入力を促すか、ファイルの処理を続行するかを安全に判断できるようにします。  
 
-## Quick Answers  
+## クイック回答  
 
-- **暗号化かどうかを判定するメソッドは？** `Document.isEncrypted`  
-- **チェックするのにパスワードは必要ですか？** いいえ、パスワードなしでステータスを問い合わせられます。  
-- **対応している API バージョンは？** 最近の Aspose.Note for Java リリース（26.4 でテスト）  
-- **ストリームとファイルパスの両方をチェックできますか？** はい、API は両方に対応しています。  
+- **暗号化を判定するメソッドは何ですか？** `Document.isEncrypted`  
+- **チェックするのにパスワードは必要ですか？** いいえ、パスワードなしでステータスを照会できます。  
+- **どの API バージョンが動作しますか？** 任意の最新の Aspise.Note for Java リリース (26.4 でテスト済み)。  
+- **ストリームとファイルパスの両方をチェックできますか？** はい、API は両方をサポートしています。  
 - **パスワードが間違っている場合はどうなりますか？** メソッドは `true` を返し、ファイルが暗号化されたままであることを示します。  
 
-## What is check onenote encryption java?  
+## OneNote の暗号化チェックとは？  
 
-`check onenote encryption java` とは、OneNote（`.one`）ファイルがパスワードで保護されているかどうかをプログラム上で確認するプロセスです。暗号化状態を把握することで、実行時例外を回避し、ユーザーエクスペリエンスを向上させることができます。  
+OneNote の暗号化チェックとは、OneNote（`.one`）ファイルがパスワードで保護されているかどうかをプログラム上で判定し、内容を読み取る前に確認することを意味します。この迅速なステータスチェックによりランタイム例外を防止し、必要なときだけユーザーにパスワード入力を促すことができ、セキュリティポリシーへの準拠も支援します。  
 
-## Why check OneNote encryption before loading?  
+## 読み込む前に OneNote の暗号化をチェックする理由  
 
-- **ランタイムエラーの防止** – パスワードなしで暗号化ファイルを読み込むと例外がスローされます。  
-- **UI フローの改善** – 必要なときだけユーザーにパスワード入力を促すことができます。  
-- **セキュリティコンプライアンス** – ポリシーに従って保護されたコンテンツを適切に取り扱えます。  
+正しいパスワードを提供せずに暗号化された OneNote ファイルを読み込むと例外が発生し、サービスがクラッシュしたりユーザーに混乱するエラーが表示されたりします。まず暗号化フラグを確認することで、必要なときだけパスワード入力を促し、不要な I/O を削減し、保護されたコンテンツを企業のガバナンス規則に従って処理できるようになります。  
 
-## Prerequisites  
+## 前提条件  
 
-1. **Java Development Kit (JDK)** – Java 11 以降がインストールされていることを確認してください。ダウンロードは [here](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)。  
-2. **Aspose.Note for Java** – 公式ダウンロードページからライブラリを取得してください [here](https://releases.aspose.com/note/java/)。  
+1. **Java Development Kit (JDK)** – Java 11 以降が必要です。ダウンロードは [こちら](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) から。  
+2. **Aspose.Note for Java** – 公式ダウンロードページの [こちら](https://releases.aspose.com/note/java/) からライブラリを取得してください。  
 
-## Import Packages  
+## パッケージのインポート  
 
-プロジェクトに必要なインポートを追加します:  
+`Document` クラスは OneNote ファイルを表し、ロードや内容の検査に使用できるメソッドを提供します。  
 
 ```java
 import com.aspose.note.Document;
@@ -54,11 +56,26 @@ import java.io.IOException;
 import java.nio.file.Paths;
 ```  
 
-## How to check onenote encryption java  
+```java
+import com.aspose.note.Document;
+import com.aspose.note.LoadOptions;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.nio.file.Paths;
+```  
 
-以下では、**ストリームから読み込んだドキュメント** と **ファイルパスから直接読み込んだドキュメント** の 2 つのシナリオに分けて解説します。  
+## ストリームからロードしたドキュメントの暗号化ステータスをチェックする方法は？  
 
-### Step 1: Check if a document loaded from a stream is encrypted  
+`Document.isEncrypted` は OneNote ファイルが暗号化されているかを示す boolean を返す静的メソッドです。PDF 形式の OneNote ストリームをロードし、静的メソッド `Document.isEncrypted` を呼び出します。このメソッドは暗号化状態を示す boolean を返し、ファイルが暗号化されていない場合はロードされた `Document` インスタンスを参照配列に格納するため、2 回目のロード呼び出しは不要です。  
+
+**直接的な回答（40‑70 語）：**  
+`Document.isEncrypted(inputStream, loadOptions, ref)` を呼び出すと、ストリームがパスワードで保護されているかを即座に判定できます。結果が `false` の場合、`ref[0]` に使用可能な `Document` オブジェクトが格納され、追加の I/O なしで処理を続行できます。結果が `true` の場合、ストリームは暗号化されているため、続行前にパスワードを要求する必要があります。  
+
+**説明**  
+
+- `LoadOptions` でオプションとしてパスワード（`setDocumentPassword`）を設定できます。  
+- `Document.isEncrypted(stream, loadOptions, ref)` はストリームの暗号化ステータスをチェックします。  
+- ファイルが **暗号化されていない** 場合、`ref` 配列にロードされた `Document` への参照が格納され、2 回目のロード呼び出しなしで処理を続行できます。  
 
 ```java
 public static void CheckIfDocumentFromStreamIsEncrypted() throws IOException {
@@ -84,13 +101,18 @@ public static void CheckIfDocumentFromStreamIsEncrypted() throws IOException {
 }
 ```  
 
-**Explanation**  
+## ファイルパスからロードしたドキュメントの暗号化ステータスをチェックする方法は？  
 
-- `LoadOptions` で任意でパスワード（`setDocumentPassword`）を設定できます。  
-- `Document.isEncrypted(stream, loadOptions, ref)` がストリームの暗号化状態を確認します。  
-- `ref` 配列には、ファイルが **暗号化されていない** 場合にロードされた `Document` への参照が格納され、再度ロードする必要がなくなります。  
+`Document.isEncrypted` には、ファイルパスとパスワード文字列を直接受け取るオーバーロードもあります。このオーバーロードは同じ boolean 返却パターンで、ファイルが暗号化されていない場合にのみ参照配列を設定します。  
 
-### Step 2: Check if a document loaded from a file path is encrypted  
+**直接的な回答（40‑70 語）：**  
+`Document.isEncrypted(filePath, password, ref)` を呼び出すと、ファイルが暗号化されている（またはパスワードが間違っている）場合は `true`、それ以外は `false` が返ります。`false` の場合、`ref[0]` に完全にロードされた `Document` が格納され、操作可能です。この方法により別途ロードステップが不要になり、コードが簡潔になります。  
+
+**説明**  
+
+- このオーバーロードはファイルパスとパスワード文字列を直接受け取ります。  
+- ファイルが **暗号化されていない** 場合、`isEncrypted` は `false` を返し、`ref[0]` 参照にロードされたドキュメントが格納されます。  
+- パスワードが間違っている場合でも、メソッドは `true` を返し、ファイルが暗号化されたままであることを示します。  
 
 ```java
 public static void CheckIfDocumentFromFileIsEncrypted() throws IOException {
@@ -111,48 +133,48 @@ public static void CheckIfDocumentFromFileIsEncrypted() throws IOException {
 }
 ```  
 
-**Explanation**  
+## よくある落とし穴とヒント  
 
-- このオーバーロードはファイルパスとパスワード文字列を直接受け取ります。  
-- ファイルが **暗号化されていない** 場合、`isEncrypted` は `false` を返し、`ref[0]` にロード済みドキュメントが入ります。  
-- パスワードが間違っている場合でもメソッドは `true` を返し、ファイルが暗号化されたままであることを示します。  
+- **パスワードをハードコードしない**でください。実運用コードでは安全に取得してください（例：ボールトから）。  
+- ストリームは必ず `finally` ブロックで閉じるか、try‑with‑resources を使用してリソースリークを防止してください。  
+- `isEncrypted` が `true` を返し、`ref[0]` が `null` の場合、ファイルは暗号化されている **または** 提供されたパスワードが間違っています。正しいパスワードをユーザーに求めて再試行してください。  
 
-## Common Pitfalls & Tips  
+## よくある質問  
 
-- 本番コードに **パスワードをハードコーディング** しないでください。Vault など安全な方法で取得しましょう。  
-- ストリームは必ず `finally` ブロックまたは try‑with‑resources でクローズし、リソースリークを防止してください。  
-- `isEncrypted` が `true` を返し `ref[0]` が `null` の場合、ファイルは暗号化されているか、提供したパスワードが間違っています。正しいパスワードをユーザーに求めて再試行してください。  
+**Q: パスワードを提供せずに暗号化ステータスをチェックできますか？**  
+A: はい。パスワードを設定しない `LoadOptions` インスタンスで `Document.isEncrypted` を呼び出すと、メソッドは単にファイルが暗号化されているかどうかを報告します。  
 
-## Frequently Asked Questions  
+**Q: 間違ったパスワードを提供した場合はどうなりますか？**  
+A: メソッドは `true` を返し、ドキュメントがまだ暗号化されていることを示し、`ref[0]` は `null` になります。  
 
-**Q: パスワードを提供せずに暗号化状態を確認できますか？**  
-A: はい。パスワードを設定しない `LoadOptions` を渡して `Document.isEncrypted` を呼び出すだけで、ファイルが暗号化されているかどうかを取得できます。  
+**Q: プログラムでドキュメントを復号化する方法はありますか？**  
+A: はい。正しいパスワードが分かれば、`LoadOptions`（またはパスワードを受け取るオーバーロード）に渡してドキュメントをロードすれば、API がリアルタイムで復号化します。  
 
-**Q: 間違ったパスワードを渡した場合はどうなりますか？**  
-A: メソッドは `true` を返し、ドキュメントは依然として暗号化されたままで、`ref[0]` は `null` になります。  
+**Q: Aspose.Note は他の Microsoft フォーマットでも使用できますか？**  
+A: Aspose.Note は OneNote（`.one`）ファイル専用に設計されています。他の形式（Word、Excel、PowerPoint など）については、それぞれ Aspose.Words、Aspose.Cells、Aspose.Slides をご検討ください。  
 
-**Q: プログラムからドキュメントを復号化する方法はありますか？**  
-A: はい。正しいパスワードが分かっている場合は、`LoadOptions`（またはパスワードを受け取るオーバーロード）に設定してドキュメントをロードすれば、API が自動的に復号化します。  
+**Q: さらに例やサポートはどこで見つけられますか？**  
+A: コミュニティの支援は [Aspose.Note フォーラム](https://forum.aspose.com/c/note/28) で、追加のコードサンプルは公式ドキュメントをご確認ください。  
 
-**Q: Aspose.Note は他の Microsoft フォーマットにも対応していますか？**  
-A: Aspose.Note は OneNote（`.one`）ファイル専用です。他の Office フォーマットについては Aspose.Words、Aspose.Cells などをご検討ください。  
+## 結論  
 
-**Q: もっとサンプルやサポートはどこで入手できますか？**  
-A: コミュニティサポートは [Aspose.Note forum](https://forum.aspose.com/c/note/28) で、公式ドキュメントにも多数のコードサンプルが掲載されています。  
-
-## Conclusion  
-
-本ガイドでは Aspose.Note for Java を使用して **how to check onenote encryption java** を実装する方法を、ストリームベースとファイルベースの両シナリオで解説しました。これらのチェックをアプリケーションに組み込むことで、暗号化された OneNote ファイルを安全に扱い、ユーザー体験を向上させ、処理パイプラインの堅牢性を保つことができます。  
+本ガイドでは Aspose.Note for Java を使用して **OneNote の暗号化を確認する方法** を実演し、ストリームベースとファイルベースのシナリオの両方をカバーしました。これらのチェックをアプリケーションに組み込むことで、暗号化された OneNote ファイルを適切に処理し、ユーザーエクスペリエンスを向上させ、処理パイプラインを堅牢に保つことができます。  
 
 ---  
 
-**Last Updated:** 2025-11-29  
-**Tested With:** Aspose.Note 26.4 for Java  
-**Author:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}  
-
-{{< /blocks/products/pf/main-container >}}  
-{{< /blocks/products/pf/main-wrap-class >}}  
+**最終更新日:** 2026-07-05  
+**テスト環境:** Aspose.Note 26.4 for Java  
+**作者:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## 関連チュートリアル
+
+- [OneNote ドキュメントの作成 – Aspose.Note でノートブックをロード](/note/java/onenote-notebook-operations/loading-notebook/)
+- [Aspose.Note for Java で OneNote をパスワード保護](/note/java/onenote-notebook-operations/write-password-protected-document/)
+- [Java で OneNote から Aspose Note ファイル形式情報を取得](/note/java/onenote-document-loading/get-file-format-info/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}  
+{{< /blocks/products/pf/main-container >}}  
+{{< /blocks/products/pf/main-wrap-class >}}

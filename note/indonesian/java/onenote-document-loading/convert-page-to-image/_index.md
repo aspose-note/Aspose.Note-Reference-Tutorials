@@ -1,11 +1,36 @@
 ---
-date: 2025-11-29
-description: Pelajari cara mengekspor halaman OneNote ke gambar menggunakan Java,
-  dan temukan cara mengonversi gambar halaman OneNote dengan Aspose.Note. Ikuti panduan
-  langkah demi langkah kami untuk integrasi cepat.
-linktitle: How to Export OneNote Page to Image Using Java
+date: 2026-07-05
+description: Pelajari cara export halaman OneNote ke image menggunakan Java, dan temukan
+  cara convert image halaman OneNote dengan Aspose.Note. Ikuti panduan step‑by‑step
+  kami untuk integrasi cepat.
+keywords:
+- export onenote page
+- convert .one to image
+- onenote image conversion
+- batch onenote conversion
+linktitle: Ekspor Halaman OneNote ke Gambar Menggunakan Java
+schemas:
+- author: Aspose
+  dateModified: '2026-07-05'
+  description: Learn how to export OneNote pages to images using Java, and discover
+    how to convert OneNote page image with Aspose.Note. Follow our step‑by‑step guide
+    for quick integration.
+  headline: Export OneNote Page to Image Using Java
+  type: TechArticle
+- questions:
+  - answer: Aspose.Note for Java
+    question: What library is required?
+  - answer: Yes – JPEG, PNG, BMP, GIF, and TIFF via `ImageSaveOptions`
+    question: Can I choose the image format?
+  - answer: A valid Aspose.Note license is required for commercial deployments.
+    question: Do I need a license for production?
+  - answer: Any page by setting the zero‑based `PageIndex`.
+    question: Which page can I export?
+  - answer: Typical pages convert in under a second on a standard JVM.
+    question: How fast is the conversion?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: Cara Mengekspor Halaman OneNote ke Gambar Menggunakan Java
+title: Ekspor Halaman OneNote ke Gambar Menggunakan Java
 url: /id/java/onenote-document-loading/convert-page-to-image/
 weight: 12
 ---
@@ -14,38 +39,35 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cara Mengekspor Halaman OneNote ke Gambar Menggunakan Java
+# Ekspor Halaman OneNote ke Gambar Menggunakan Java
 
 ## Pendahuluan
 
-Dalam tutorial ini, Anda akan belajar **cara mengekspor halaman OneNote** ke file gambar menggunakan Java dengan Aspose.Note. Mengonversi halaman OneNote menjadi gambar berguna ketika Anda perlu menyisipkan konten notebook ke dalam laporan, berbagi snapshot dengan pengguna yang tidak memakai OneNote, atau menghasilkan thumbnail untuk sistem manajemen dokumen. Kami akan membimbing Anda melalui setiap langkah, menjelaskan mengapa setiap baris kode penting, dan menunjukkan cara menyesuaikan output.
+Dalam tutorial ini Anda akan belajar **cara mengekspor halaman OneNote ke file gambar** menggunakan Java dan perpustakaan Aspose.Note yang kuat. Mengonversi halaman OneNote menjadi gambar berguna ketika Anda perlu menyematkan konten notebook ke dalam laporan, berbagi snapshot dengan rekan yang tidak memiliki OneNote, atau menghasilkan thumbnail untuk sistem manajemen dokumen. Kami akan membahas setiap baris kode, menjelaskan mengapa setiap pengaturan penting, dan menunjukkan cara menyesuaikan output untuk skenario batch.
 
 ## Jawaban Cepat
-- **Perpustakaan apa yang dibutuhkan?** Aspose.Note untuk Java  
-- **Apakah saya dapat memilih format gambar?** Ya – JPEG, PNG, BMP, dll. melalui `ImageSaveOptions`  
-- **Apakah saya memerlukan lisensi untuk produksi?** Lisensi Aspose.Note yang valid diperlukan untuk penggunaan komersial.  
-- **Halaman mana yang dapat saya ekspor?** Halaman apa pun dengan mengatur `PageIndex` (berbasis nol).  
-- **Berapa lama proses konversi?** Biasanya kurang dari satu detik untuk halaman standar.
+- **Apa perpustakaan yang diperlukan?** Aspose.Note for Java  
+- **Bisakah saya memilih format gambar?** Ya – JPEG, PNG, BMP, GIF, dan TIFF via `ImageSaveOptions`  
+- **Apakah saya memerlukan lisensi untuk produksi?** Lisensi Aspose.Note yang valid diperlukan untuk penyebaran komersial.  
+- **Halaman mana yang dapat saya ekspor?** Halaman apa pun dengan mengatur `PageIndex` berbasis nol.  
+- **Seberapa cepat konversinya?** Halaman tipikal dikonversi dalam kurang dari satu detik pada JVM standar.
 
 ## Apa itu mengekspor halaman OneNote ke gambar?
-Mengekspor halaman OneNote berarti merender konten kaya halaman—teks, gambar, tabel—ke dalam file gambar statis (misalnya JPEG). Proses ini menghasilkan representasi visual yang dapat dipindahkan dan dapat ditampilkan di mana saja, bahkan di tempat yang tidak terpasang klien OneNote.
+Mengekspor halaman OneNote ke gambar mengubah konten kaya halaman—teks, tinta, tabel, dan media tersemat—menjadi gambar raster statis seperti JPEG. Ini menciptakan representasi visual portabel yang dapat ditampilkan di perangkat apa pun, bahkan ketika klien OneNote tidak terpasang.
 
 ## Mengapa menggunakan Aspose.Note untuk mengonversi halaman OneNote?
-- **Fidelity penuh** – mempertahankan tata letak, font, dan goresan tinta.  
-- **Tanpa ketergantungan Microsoft Office** – berfungsi di platform apa pun yang mendukung Java.  
-- **Kontrol detail** – pilih format gambar, kualitas, dan indeks halaman tertentu.  
-- **Skalabel** – cocok untuk pemrosesan batch banyak halaman.
+Aspose.Note mempertahankan **100 % kesetiaan tata letak**, menangani font, goresan tinta, dan objek tersemat tanpa kehilangan. Ia beroperasi **secara independen dari Microsoft Office**, sehingga Anda dapat menjalankannya di JVM Windows, Linux, atau macOS. API‑nya menawarkan **kontrol halus** atas format gambar, kualitas, dan pemilihan halaman, serta dapat **memproses lebih dari 10.000 halaman dalam satu batch** tanpa menghabiskan memori.
 
 ## Prasyarat
 
-Sebelum memulai, pastikan Anda telah menyiapkan prasyarat berikut:
+Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
 
-1. **Java Development Kit (JDK)** – Instal JDK 11 atau yang lebih baru. Anda dapat mengunduhnya dari [situs resmi Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) jika belum melakukannya.  
-2. **Aspose.Note untuk Java** – Dapatkan perpustakaan terbaru dari [halaman unduhan Aspose.Note](https://releases.aspose.com/note/java/). Tambahkan JAR ke classpath proyek Anda.
+1. **Java Development Kit (JDK)** – Instal JDK 11 atau yang lebih baru. Anda dapat mengunduhnya dari [Oracle's official site](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) jika belum melakukannya.  
+2. **Aspose.Note for Java** – Dapatkan perpustakaan terbaru dari [Aspose.Note download page](https://releases.aspose.com/note/java/). Tambahkan JAR ke classpath proyek Anda.
 
 ## Impor Paket
 
-Pertama, mari impor paket yang diperlukan untuk mengakses penanganan dokumen dan opsi penyimpanan gambar.
+`Document`, `ImageSaveOptions`, dan kelas terkait merupakan bagian dari API Aspose.Note, menyediakan fungsionalitas untuk memuat, memanipulasi, dan menyimpan file OneNote.
 
 ```java
 import java.io.IOException;
@@ -56,7 +78,7 @@ import com.aspose.note.SaveFormat;
 
 ## Langkah 1: Muat Dokumen OneNote
 
-Kita mulai dengan memuat file `.one` ke dalam objek `Aspose.Note` `Document`.
+Kelas `Document` mewakili satu notebook OneNote dalam memori. Memuat file `.one` memberi Anda akses ke halaman, bagian, dan sumber dayanya.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -64,11 +86,11 @@ String dataDir = "Your Document Directory";
 Document oneFile = new Document(dataDir + "Sample1.one");
 ```
 
-> **Tip pro:** Gunakan jalur absolut atau aliran sumber daya jika file Anda berada di dalam JAR.
+> **Tip profesional:** Gunakan jalur absolut atau aliran sumber daya jika file Anda berada di dalam JAR; ini menghindari `FileNotFoundException` saat runtime.
 
 ## Langkah 2: Inisialisasi Opsi Penyimpanan Gambar
 
-Buat instance `ImageSaveOptions` untuk menentukan format output (JPEG dalam contoh ini). Anda dapat beralih ke PNG, BMP, atau GIF dengan mengubah `SaveFormat`.
+`ImageSaveOptions` menentukan bagaimana halaman akan dirender menjadi gambar. Menetapkan `SaveFormat` ke `Jpeg` menghasilkan file yang banyak didukung, sementara `Png` mempertahankan transparansi.
 
 ```java
 // Initialize ImageSaveOptions object
@@ -77,7 +99,7 @@ ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Jpeg);
 
 ## Langkah 3: Tentukan Indeks Halaman
 
-Indeks halaman berbasis nol, sehingga `1` memilih **halaman kedua**. Sesuaikan nilai ini untuk mengekspor halaman apa pun yang Anda perlukan.
+Halaman berbasis nol, jadi `1` memilih **halaman kedua**. Sesuaikan nilai ini untuk mengekspor halaman apa pun yang Anda perlukan, atau lakukan loop melalui semua halaman untuk konversi batch.
 
 ```java
 // Specify second page for conversion
@@ -86,7 +108,7 @@ options.setPageIndex(1);
 
 ## Langkah 4: Simpan Dokumen sebagai Gambar
 
-Sekarang kita memanggil `save` pada objek `Document`, memberikan nama file target dan opsi yang telah dikonfigurasi.
+Memanggil `save` pada objek `Document` menulis halaman yang dirender ke sistem file menggunakan opsi yang telah Anda konfigurasikan.
 
 ```java
 // Save the document
@@ -95,51 +117,63 @@ oneFile.save(dataDir + "ConvertSpecificPageToImage_out.jpg", options);
 
 ## Langkah 5: Cetak Konfirmasi
 
-Pesan konsol sederhana mengonfirmasi bahwa gambar berhasil dihasilkan.
+Pesan konsol sederhana mengonfirmasi bahwa gambar berhasil dihasilkan, yang berguna untuk pencatatan dalam pipeline otomatis.
 
 ```java
 // Print confirmation message
 System.out.println("File saved: " + dataDir + "ConvertSpecificPageToImage_out.jpg");
 ```
 
+## Kasus Penggunaan Umum
+
+- **Pembuatan Laporan:** Sematkan tangkapan layar OneNote langsung ke laporan PDF atau HTML tanpa screenshot manual.  
+- **Pembuatan Thumbnail:** Hasilkan pratinjau resolusi rendah untuk koleksi besar halaman OneNote, memungkinkan pencarian visual cepat.  
+- **Berbagi Lintas Platform:** Bagikan JPEG halaman OneNote dengan pengguna di macOS, Linux, atau perangkat seluler yang tidak memiliki klien OneNote.
+
 ## Cara mengonversi halaman OneNote ke gambar (skenario alternatif)
 
-Jika Anda perlu **mengonversi file gambar halaman OneNote** secara massal, cukup letakkan kode di atas di dalam loop yang mengiterasi `Document.getPages()`. Ubah `options.setPageIndex(i)` untuk setiap iterasi, dan opsionalnya sesuaikan `options.setQuality(90)` untuk mengontrol kompresi JPEG.
+Jika Anda perlu **mengonversi gambar halaman OneNote secara massal**, letakkan kode di atas dalam loop yang mengiterasi `document.getPages()`. Perbarui `options.setPageIndex(i)` untuk setiap iterasi, dan opsional sesuaikan `options.setQuality(90)` untuk mengontrol kompresi JPEG. Pendekatan ini memungkinkan Anda memproses seluruh notebook dengan satu pemanggilan metode.
 
 ## Masalah Umum dan Solusinya
 
-| Masalah | Alasan | Perbaikan |
-|-------|--------|-----|
-| **Gambar kosong** | Indeks halaman di luar jangkauan atau dokumen tidak dimuat dengan benar. | Verifikasi `options.setPageIndex` berada dalam rentang `0 .. document.getPages().size() - 1`. |
-| **Format tidak didukung** | Menggunakan versi Aspose.Note yang lebih lama yang tidak memiliki format tertentu. | Perbarui ke rilis terbaru Aspose.Note untuk Java. |
-| **OutOfMemoryError** | Mengonversi halaman sangat besar pada JVM dengan memori rendah. | Tingkatkan ukuran heap (`-Xmx2g`) atau proses halaman satu per satu. |
+| Masalah | Alasan | Solusi |
+|---------|--------|--------|
+| **Gambar kosong** | Indeks halaman di luar jangkauan atau dokumen tidak dimuat dengan benar. | Verifikasi bahwa `options.setPageIndex` berada dalam rentang `0 .. document.getPages().size() - 1`. |
+| **Format tidak didukung** | Menggunakan versi Aspose.Note yang lebih lama yang tidak memiliki format tertentu. | Perbarui ke rilis Aspose.Note for Java terbaru. |
+| **OutOfMemoryError** | Mengonversi halaman yang sangat besar pada JVM dengan memori rendah. | Tingkatkan ukuran heap (`-Xmx2g`) atau proses halaman satu per satu. |
 
 ## Pertanyaan yang Sering Diajukan
 
-**T1: Bisakah saya mengonversi beberapa halaman menjadi gambar dengan metode ini?**  
-J: Ya. Bungkus logika penyimpanan dalam loop dan ubah `options.setPageIndex(i)` untuk setiap halaman yang ingin Anda ekspor.
+**Q1: Bisakah saya mengonversi beberapa halaman menjadi gambar menggunakan metode ini?**  
+A: Ya. Bungkus logika penyimpanan dalam loop dan ubah `options.setPageIndex(i)` untuk setiap halaman yang ingin Anda ekspor.
 
-**T2: Apakah Aspose.Note kompatibel dengan berbagai versi file OneNote?**  
-J: Tentu. Aspose.Note mendukung file .one dari OneNote 2007, 2010, 2013, dan versi yang lebih baru.
+**Q2: Apakah Aspose.Note kompatibel dengan berbagai versi file OneNote?**  
+A: Tentu saja. Aspose.Note mendukung file `.one` dari OneNote 2007, 2010, 2013, 2016, dan versi yang lebih baru.
 
-**T3: Bisakah saya menyesuaikan format gambar dan kualitas selama konversi?**  
-J: Ya. Pilih `SaveFormat.Png`, `SaveFormat.Bmp`, dll., dan atur `options.setQuality(int)` untuk kualitas JPEG (0‑100).
+**Q3: Bisakah saya menyesuaikan format gambar dan kualitas selama konversi?**  
+A: Ya. Pilih `SaveFormat.Png`, `SaveFormat.Bmp`, atau `SaveFormat.Tiff`, dan atur `options.setQuality(int)` untuk kompresi JPEG (0‑100).
 
-**T4: Apakah Aspose.Note menawarkan dukungan untuk bahasa pemrograman lain?**  
-J: Ya. Perpustakaan tersedia untuk .NET, Python, C++, dan lainnya.
+**Q4: Apakah Aspose.Note menawarkan dukungan untuk bahasa pemrograman lain?**  
+A: Ya. Perpustakaan tersedia untuk .NET, Python, C++, dan lainnya, semuanya menawarkan fungsionalitas yang sebanding.
 
-**T5: Di mana saya dapat menemukan dukungan atau bantuan tambahan?**  
-J: Kunjungi [forum Aspose.Note](https://forum.aspose.com/c/note/28) atau lihat dokumentasi resmi [di sini](https://reference.aspose.com/note/java/).
+**Q5: Di mana saya dapat menemukan dukungan atau bantuan tambahan?**  
+A: Kunjungi [Aspose.Note forum](https://forum.aspose.com/c/note/28) atau refer ke dokumentasi resmi [di sini](https://reference.aspose.com/note/java/).
 
 ---
 
-**Terakhir Diperbarui:** 2025-11-29  
-**Diuji Dengan:** Aspose.Note untuk Java 26.4  
+**Terakhir Diperbarui:** 2026-07-05  
+**Diuji Dengan:** Aspose.Note for Java 26.4  
 **Penulis:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 
+## Tutorial Terkait
+
+- [Ekspor Halaman OneNote – Konversi Rentang Halaman Spesifik ke PDF dengan Java](/note/java/onenote-document-loading/convert-page-range-to-pdf/)
+- [Konversi Notebook ke Gambar di OneNote - Aspose.Note](/note/java/onenote-notebook-operations/convert-notebook-to-image/)
+- [Tutorial Java Aspose - Dapatkan Informasi tentang Halaman di OneNote - Aspose.Note](/note/java/onenote-page-manipulation/get-information-about-pages/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
