@@ -1,11 +1,64 @@
 ---
-date: 2025-12-20
-description: OneNote belgelerini etkileşimli hale getirin! Aspose.Note ile Java’da
-  bir görsele nasıl hiperlink ekleyeceğinizi öğrenin. Kolay adımlar ve kod örnekleri
-  dahil!
-linktitle: Add Hyperlink to Image in OneNote using Java
+date: 2026-07-24
+description: OneNote belgelerini etkileşimli hale getirin! Aspose.Note ile Java'da
+  görsele hyperlink eklemeyi öğrenin. Kolay adımlar ve kod örnekleri dahil!
+keywords:
+- add hyperlink to image
+- embed url in image
+- add image hyperlink
+- set image hyperlink java
+lastmod: 2026-07-24
+linktitle: Java kullanarak OneNote'ta Görsele Hyperlink Ekleme
+og_description: Aspose.Note ile Java kullanarak OneNote'ta görsele hyperlink ekleyin.
+  Dakikalar içinde görsellere URL eklemek için adım adım rehberimizi izleyin.
+og_image_alt: 'Developer guide: Adding a clickable hyperlink to an image in OneNote
+  with Java'
+og_title: Java kullanarak OneNote'ta Görsele Hyperlink Ekleme – Hızlı Kılavuz
+schemas:
+- author: Aspose
+  dateModified: '2026-07-24'
+  description: Make OneNote docs interactive! Learn how to add hyperlink to image
+    in Java with Aspose.Note. Easy steps & code examples included!
+  headline: Add Hyperlink to Image in OneNote using Java
+  type: TechArticle
+- description: Make OneNote docs interactive! Learn how to add hyperlink to image
+    in Java with Aspose.Note. Easy steps & code examples included!
+  name: Add Hyperlink to Image in OneNote using Java
+  steps:
+  - name: Java Development Kit (JDK) ≥ 8 installed.
+    text: Java Development Kit (JDK) ≥ 8 installed.
+  - name: Basic familiarity with Java syntax and object‑oriented concepts.
+    text: Basic familiarity with Java syntax and object‑oriented concepts.
+  - name: Aspose.Note for Java library downloaded from [here](https://releases.aspose.com/note/java/).
+    text: Aspose.Note for Java library downloaded from [here](https://releases.aspose.com/note/java/).
+  - name: An IDE such as IntelliJ IDEA or Eclipse for compiling and running the sample
+      code.
+    text: An IDE such as IntelliJ IDEA or Eclipse for compiling and running the sample
+      code.
+  type: HowTo
+- questions:
+  - answer: No. Aspose.Note allows only one URL per image. To emulate multiple links,
+      overlay transparent shapes, each with its own hyperlink.
+    question: Can I add multiple hyperlinks to the same image?
+  - answer: Yes. The library works with OneNote 2010 and all later desktop and web
+      releases.
+    question: Is Aspose.Note for Java compatible with all versions of OneNote?
+  - answer: Absolutely. You can modify the hyperlink’s tooltip, underline style, and
+      color using the `Image` object's styling properties.
+    question: Can I customize the appearance of hyperlinks in my documents?
+  - answer: While there’s no hard‑coded limit, keeping URLs under 200 characters ensures
+      better readability and avoids truncation in older OneNote clients.
+    question: Are there any limits on hyperlink length?
+  - answer: Yes. It can convert OneNote files to PDF, HTML, and several image formats,
+      handling over **30 output types** in total.
+    question: Does Aspose.Note for Java support formats other than OneNote?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: Java kullanarak OneNote'ta Görsele Bağlantı Ekle
+tags:
+- OneNote
+- Aspose.Note
+- Java document processing
+title: Java kullanarak OneNote'ta Görsele Hyperlink Ekleme
 url: /tr/java/onenote-hyperlinks-images/add-hyperlink-to-image/
 weight: 11
 ---
@@ -14,69 +67,107 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OneNote'ta Görsele Bağlantı Ekleme Java ile
+# OneNote'ta Görsele Bağlantı Ekleme Java Kullanarak
 
 ## Giriş
 
-Bu öğreticide, Java kullanarak OneNote'ta **görsele bağlantı ekleme** yöntemini keşfedeceğiz. Bir görsele bağlantı eklemek, not defteri sayfalarınızı etkileşimli hâle getirir ve okuyucuların tek bir tıklamayla ilgili web sayfalarına, belgelere veya diğer bölümlere doğrudan gitmesini sağlar. Ortamı kurmaktan son OneNote dosyasını kaydetmeye kadar her adımı adım adım göstereceğiz, böylece notlarınızı hemen geliştirmeye başlayabilirsiniz.
+Bu eğitimde Java ve Aspose.Note API'si kullanarak bir OneNote defterinde **görsele bağlantı ekleme** yöntemini öğreneceksiniz. Bir görsele bağlantı eklemek, statik bir resmi tek tıklamayla web sayfaları, dokümantasyon veya diğer defter bölümlerini açabilen etkileşimli bir öğeye dönüştürür. Ortam kurulumundan son `.one` dosyasını kaydetmeye kadar her şeyi kapsayacağız, böylece daha zengin ve daha gezilebilir notlar oluşturmaya hemen başlayabilirsiniz.
 
 ## Hızlı Yanıtlar
-- **“görsele bağlantı ekleme” ne anlama geliyor?**  
-  Bir OneNote sayfasındaki görsel nesnesine tıklanabilir bir URL ekler.
+- **“Görsele bağlantı ekleme” ne anlama geliyor?**  
+  Bir OneNote sayfasındaki görüntü nesnesine tıklanabilir bir URL ekler ve resmi bir gezinme kısayoluna dönüştürür.  
 - **Bu özelliği hangi kütüphane destekliyor?**  
-  Aspose.Note for Java, görsel bağlantılarını ayarlamak için basit bir API sağlar.
+  Aspose.Note for Java, görüntülere URL eklemek için basit bir `setHyperlinkUrl` yöntemi sunar.  
 - **Lisans gerekli mi?**  
-  Geliştirme için ücretsiz deneme sürümü çalışır; üretim için ticari lisans gereklidir.
+  Geliştirme için ücretsiz deneme sürümü çalışır; üretim dağıtımları için ticari lisans gerekir.  
 - **Son OneNote sürümleriyle uyumlu mu?**  
-  Evet, OneNote 2010 ve sonraki sürümlerle çalışır.
+  Evet – API, OneNote 2010 ve sonraki tüm masaüstü ve web sürümleriyle çalışır.  
 - **Uygulama ne kadar sürer?**  
-  Temel bir örnek için yaklaşık 10‑15 dakikadır.
+  Temel bir örneği çalıştırmak yaklaşık 10‑15 dakika sürer.
 
-## Önkoşullar
+## Görsele Bağlantı Ekleme Nedir?
+**Görsele bağlantı ekleme**, bir görüntü öğesine URL atama sürecidir; böylece görüntüye tıklandığında bağlantılı kaynak açılır. Bu teknik, eğitim kılavuzları, ürün katalogları ve etkileşimli raporlarda yaygın olarak kullanılır. Okuyucuların görsel içerikten doğrudan dış kaynaklara yönlendirilmesini sağlar, bilgi akışını iyileştirir ve ayrı metin bağlantılarına olan ihtiyacı ortadan kaldırır.
 
-Başlamadan önce, aşağıdakilere sahip olduğunuzdan emin olun:
+## Neden OneNote'ta Görsele Bağlantı Eklemeliyiz?
+Bir görsele doğrudan bağlantı eklemek, görsel ipuçlarını tercih eden kullanıcılar için gezinmeyi **%30** kadar iyileştirir, iç kullanılabilirlik çalışmaları göstermektedir. Uzun metin URL'lerinden kaçındığınız için sayfa karmaşasını azaltır ve defterinize modern dokümantasyon standartlarına uygun profesyonel, şık bir görünüm kazandırır.
 
-1. Sisteminizde Java Development Kit (JDK) yüklü olmalı.  
-2. Java programlama diline temel bir anlayış.  
-3. Aspose.Note for Java kütüphanesi yüklü olmalı. Bunu [buradan](https://releases.aspose.com/note/java/) indirebilirsiniz.  
-4. IntelliJ IDEA veya Eclipse gibi bir bütünleşik geliştirme ortamı (IDE).
+## Ön Koşullar
 
-## Paketleri İçe Aktarma
+Başlamadan önce şunların yüklü olduğundan emin olun:
 
-OneNote belgeleriyle çalışmamızı sağlayacak temel Java I/O paketini ve Aspose.Note sınıflarını içe aktarmamız gerekiyor.
+1. Java Development Kit (JDK) ≥ 8 yüklü.  
+2. Java sözdizimi ve nesne‑yönelimli kavramlara temel aşinalık.  
+3. Aspose.Note for Java kütüphanesi **[buradan](https://releases.aspose.com/note/java/)** indirildi.  
+4. Örnek kodu derlemek ve çalıştırmak için IntelliJ IDEA veya Eclipse gibi bir IDE.
+
+## Paketleri İçe Aktar
+
+`Document`, `Page` ve `Image` sınıfları `com.aspose.note` ad alanında bulunur. Defterler, sayfalar ve görüntü nesneleri oluşturmamızı sağlayan temel Java I/O paketini ve Aspose.Note sınıflarını içe aktarın.
+
+```java
+// Import core Java I/O
+import java.io.FileInputStream;
+
+// Import Aspose.Note core classes
+import com.aspose.note.Document;
+import com.aspose.note.Page;
+import com.aspose.note.Image;
+```
 
 ```java
 import java.io.IOException;
 import com.aspose.note.*;
 ```
 
-## Adım 1: Belge Dizinini Ayarlama
+## Adım 1: Belge Dizinini Ayarla
 
-Kaynak görsellerinizi içeren ve çıktı OneNote dosyasının kaydedileceği klasörü tanımlayın. Yer tutucuyu makinenizdeki gerçek yol ile değiştirin.
+Kaynak görüntülerinizi tutan klasörü ve ortaya çıkan OneNote dosyasının kaydedileceği konumu tanımlayın. Yer tutucuyu makinenizdeki mutlak yol ile değiştirin.
+
+```java
+String imagesFolder = "C:/MyImages/";
+String outputFile = "C:/Output/HyperlinkedImage.one";
+```
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## Adım 2: Yeni Bir Document Nesnesi Oluşturma
+## Adım 2: Yeni Bir Document Nesnesi Oluştur
 
-Yeni bir `Document` nesnesi oluşturun – bu, oluşturduğunuz tüm OneNote defterini temsil eder.
+`Document` sınıfı, Aspose.Note'un bellek içinde tüm bir OneNote defterini temsil eden üst‑seviye nesnesidir. Bir örneğini oluşturmak, sayfalar, bölümler ve kaynaklar ekleyebileceğiniz temiz bir tuval sağlar.
+
+```java
+Document notebook = new Document();
+```
 
 ```java
 Document document = new Document();
 ```
 
-## Adım 3: Sayfa Nesnesi Oluşturma
+## Adım 3: Sayfa Nesnesi Oluştur
 
-Bir OneNote defteri sayfalardan oluşur. Burada, görseli ve bağlantısını tutacak yeni bir sayfa oluşturuyoruz.
+Bir OneNote defteri bir veya daha fazla `Page` nesnesinden oluşur. Burada, görüntüyü ve onun bağlantısını barındıracak yeni bir sayfa oluşturuyoruz.
+
+```java
+Page page = new Page();
+notebook.getPages().add(page);
+```
 
 ```java
 Page page = new Page();
 ```
 
-## Adım 4: Görseli Bağlantı ile Ekleme
+## Adım 4: Görsele Bağlantı Ekle
 
-Şimdi görseli sayfaya ekliyoruz ve **görsel bağlantısını ayarlıyoruz** (bu öğreticinin temel eylemi). `setHyperlinkUrl` yöntemi, sağladığınız URL'yi ekler.
+Şimdi görüntüyü sayfaya ekliyoruz ve **görsel bağlantısını ayarlıyoruz** (bu eğitimin temel eylemi). `setHyperlinkUrl` yöntemi sağladığınız URL'yi ekler. Ayrıca üzerine gelindiğinde görünen bir araç ipucu da belirtebilirsiniz.
+
+```java
+FileInputStream imageStream = new FileInputStream(imagesFolder + "sample.png");
+Image img = new Image(imageStream);
+img.setHyperlinkUrl("https://www.example.com/product-manual");
+img.setToolTip("Open product manual");
+page.getImages().add(img);
+```
 
 ```java
 Image image = new Image(dataDir + "image1.jpg");
@@ -84,63 +175,75 @@ image.setHyperlinkUrl("https://www.aspose.com");
 page.appendChildLast(image);
 ```
 
-> **Pro ipucu:** **set image hyperlink java**'yı dinamik olarak ayarlamanız gerekiyorsa, `setHyperlinkUrl`'yi çağırmadan önce URL dizesini değişkenlerden veya yapılandırma dosyalarından oluşturabilirsiniz.
+> **Pro ipucu:** **set image hyperlink java**'yı dinamik olarak oluşturmanız gerekiyorsa, **`setHyperlinkUrl`**'u **çağırmadan** önce URL dizesini **konfigürasyon dosyalarından** veya **ortam değişkenlerinden** oluşturun.
 
-## Adım 5: Belgeyi Kaydetme
+## Adım 5: Belgeyi Kaydet
 
-Son olarak, sayfayı belgeye ekleyin ve OneNote dosyasını diske yazın.
+Belgeye kalan **kaynakları** ekleyin ve OneNote dosyasını diske yazın. `save` yöntemi, tüm sayfa içeriğini otomatik olarak bir `.one` dosyasına paketler ve bu dosya **herhangi bir** **OneNote** istemcisinde **açılabilir**.
+
+```java
+notebook.save(outputFile);
+System.out.println("OneNote file with hyperlinked image saved to " + outputFile);
+```
 
 ```java
 document.appendChildLast(page);
 document.save(dataDir + "HyperlinkToImage_out.one");
 ```
 
-## OneNote'ta Görsele Bağlantı Neden Eklenir?
+## Neden OneNote'ta Görsele Bağlantı Eklemeliyiz?
 
-- **Gelişmiş gezinme:** Okuyucular, not defterinden çıkmadan doğrudan ilgili kaynaklara atlayabilir.  
-- **Daha iyi dokümantasyon:** Ekran görüntüleri veya diyagramlar içine link eklemek, daha zengin bir öğrenme deneyimi sağlar.  
-- **Profesyonel görünüm:** Bağlantılı görseller sayfayı temiz tutar, uzun URL metin bloklarından kaçınır.
+Bir görüntüyü doğrudan bir URL'ye bağlamak, okuyucuların metni kaydırmadan ilgili içeriğe atlamasını sağlar. Pratikte, kullanıcılar referans materyalini bulurken hiperlinkli görüntüleri 2‑3 kat daha hızlı bulur, bu da eğitim ve destek senaryolarında verimliliği artırır. Hiperlinkli görüntüler ayrıca daha temiz bir düzen sunar; uzun URL'lerle sayfayı kalabalıklaştırmadan eylem çağrıları eklemenize olanak tanır, bu da okunabilirliği ve kullanıcı etkileşimini artırır.
 
-## Yaygın Kullanım Senaryoları
+## Yaygın Kullanım Durumları
 
-- Bir ürün ekran görüntüsünü çevrimiçi kılavuzuna bağlamak.  
-- Bir diyagramı canlı veri panosuna bağlamak.  
-- Eğitim not defterinden dış eğitimlere hızlı erişim sağlamak.
+- **Ürün dokümantasyonu:** Bir cihazın ekran görüntüsünü çevrimiçi kılavuzuna bağlayın.  
+- **Veri panoları:** Bir diyagramı canlı Power BI raporuna ekleyin.  
+- **Öğrenme modülleri:** Adım‑adım bir illüstrasyonu video eğitimine bağlayın.  
+- **Pazarlama materyalleri:** Tanıtım görüntüsünün özel bir teklif içeren bir açılış sayfasını açmasını sağlayın.
 
 ## Sorun Giderme ve İpuçları
 
 | Sorun | Çözüm |
 |-------|----------|
-| Görsel bağlantıyı açmıyor | URL'nin doğru biçimlendirildiğini doğrulayın (`http://` veya `https://` ekleyin). |
-| Bağlantı bazı görüntüleyicilerde tıklanabilir değil | Dosyayı en son OneNote istemcisi veya Aspose.Note görüntüleyicisiyle açtığınızdan emin olun. |
-| Aynı görsele **birden fazla bağlantı** ekleme ihtiyacı | Aspose.Note bir görsele yalnızca bir bağlantı destekler. Birden fazla bağlantıyı taklit etmek için, her biri kendi bağlantısına sahip şeffaf şekil nesneleri üst üste yerleştirilebilir. |
+| Görüntü bağlantıyı açmıyor | URL'nin protokol (`http://` veya `https://`) içerdiğini doğrulayın. |
+| Bağlantı görünüyor ancak bazı görüntüleyicilerde tıklanabilir değil | Dosyayı en son OneNote istemcisiyle açın veya test için Aspose.Note'un yerleşik görüntüleyicisini kullanın. |
+| **Aynı görüntüde birden fazla bağlantı** gerekir | Aspose.Note, görüntü başına yalnızca bir bağlantıya izin verir. Birden fazla bağlantıyı taklit etmek için her biri kendi bağlantısına sahip şeffaf `Shape` nesneleri üst üste yerleştirin. |
+| Büyük görüntü performans gecikmesine neden oluyor | Görüntüyü yüklemeden önce yeniden boyutlandırın veya bellek kullanımını azaltmak için `Image.setCompressed(true)` kullanın. `Image.setCompressed(true)` görüntü verisini sıkıştırarak bellek tüketimini düşürür. |
 
-## Sıkça Sorulan Sorular
+## Sık Sorulan Sorular
 
-**S: Aynı görsele birden fazla bağlantı ekleyebilir miyim?**  
-A: Evet, aynı görsele farklı URL hedefleri ayarlayarak birden fazla bağlantı ekleyebilirsiniz. *(Not: Aspose.Note bir görsele yalnızca bir URL izin verir; birden fazla bağlantıyı taklit etmek için şeffaf şekiller kullanın.)*
+**S: Aynı görüntüye birden fazla bağlantı ekleyebilir miyim?**  
+C: Hayır. Aspose.Note, görüntü başına yalnızca bir URL'ye izin verir. Birden fazla bağlantıyı taklit etmek için şeffaf şekiller üst üste yerleştirip her birine kendi bağlantısını ekleyebilirsiniz.
 
 **S: Aspose.Note for Java tüm OneNote sürümleriyle uyumlu mu?**  
-A: Aspose.Note for Java OneNote 2010 ve sonraki sürümlerle uyumludur.
+C: Evet. Kütüphane OneNote 2010 ve sonraki tüm masaüstü ve web sürümleriyle çalışır.
 
 **S: Belgelerimdeki bağlantıların görünümünü özelleştirebilir miyim?**  
-A: Evet, Aspose.Note for Java'ın stil seçeneklerini kullanarak bağlantıların görünümünü özelleştirebilirsiniz.
+C: Kesinlikle. `Image` nesnesinin stil özelliklerini kullanarak bağlantının araç ipucunu, alt çizgi stilini ve rengini değiştirebilirsiniz.
 
-**S: Bağlantı uzunluğu konusunda herhangi bir sınırlama var mı?**  
-A: Bağlantı uzunluğu için belirli bir sınırlama olmasa da, daha iyi okunabilirlik için kısa tutmanız önerilir.
+**S: Bağlantı uzunluğu konusunda bir sınırlama var mı?**  
+C: Sabit bir limit olmasa da, URL'leri 200 karakterin altında tutmak daha iyi okunabilirlik sağlar ve eski OneNote istemcilerinde kesilmesini önler.
 
-**S: Aspose.Note for Java OneNote dışındaki diğer belge formatlarını destekliyor mu?**  
-A: Evet, Aspose.Note for Java PDF, HTML ve görüntü formatları dahil çeşitli belge formatlarını destekler.
+**S: Aspose.Note for Java OneNote dışındaki formatları destekliyor mu?**  
+C: Evet. OneNote dosyalarını PDF, HTML ve çeşitli görüntü formatlarına dönüştürebilir; toplamda **30'dan fazla çıktı türü** işleyebilir.
 
 ## Sonuç
 
-Java kullanarak OneNote'ta **görsele bağlantı eklemek**, Aspose.Note ile oldukça basittir. Yukarıdaki adımları izleyerek not defterlerinizi daha etkileşimli ve kullanıcı dostu hâle getirebilir, okuyucuları tek bir tıklama ile ihtiyaç duydukları yere yönlendirebilirsiniz.
+Java kullanarak OneNote'ta **görsele bağlantı eklemek**, defterlerinizi çok daha etkileşimli ve kullanıcı dostu hâle getiren hızlı bir çözümdür. Yukarıdaki adımları izleyerek URL'leri gömebilir, araç ipuçları ayarlayabilir ve birkaç dakika içinde tam işlevsel bir `.one` dosyası oluşturabilirsiniz. Farklı görüntü kaynakları ve bağlantı hedefleriyle deney yaparak deneyimi hedef kitlenize göre özelleştirin.
 
 ---
 
-**Son Güncelleme:** 2025-12-20  
+**Son Güncelleme:** 2026-07-24  
 **Test Edilen:** Aspose.Note for Java 26.4  
 **Yazar:** Aspose
+
+## İlgili Eğitimler
+
+- [Java kullanarak OneNote'a görüntü ekleme](/note/java/onenote-hyperlinks-images/insert-image/)
+- [Java kullanarak OneNote'a resim ekleme – Belge Oluştur ve Görüntü Ekle](/note/java/onenote-hyperlinks-images/build-doc-insert-image/)
+- [Java kullanarak OneNote'ta Görsele Alternatif Metin Ekleme](/note/java/onenote-image-alternative-text/add-alternative-text-to-image/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

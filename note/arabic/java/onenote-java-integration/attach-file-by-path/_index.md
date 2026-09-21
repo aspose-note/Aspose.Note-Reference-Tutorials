@@ -1,10 +1,90 @@
 ---
-date: 2025-12-25
-description: تعلم كيفية إضافة مرفق إلى OneNote باستخدام Java و Aspose.Note. دليل خطوة
-  بخطوة يوضح كود Java لإرفاق ملف عبر المسار وكيفية حفظ OneNote مع المرفق.
-linktitle: Attach File by Path in OneNote with Java
+date: 2026-07-24
+description: تعلم كيفية إرفاق ملفات إلى OneNote باستخدام Java و Aspose.Note. يوضح
+  هذا الدليل خطوة بخطوة كود Java لإرفاق ملف بالمسار وحفظ دفتر OneNote مع المرفق.
+keywords:
+- how to attach onenote
+- java create onenote file
+- Aspose.Note attachment
+lastmod: 2026-07-24
+linktitle: إرفاق ملف بالمسار في OneNote باستخدام Java
+og_description: كيفية إرفاق ملفات OneNote برمجيًا باستخدام Java. تعلم إضافة المرفقات،
+  حفظ دفاتر الملاحظات، وأتمتة OneNote باستخدام Aspose.Note في دقائق قليلة.
+og_image_alt: Developer guide showing Java code that attaches a file to a OneNote
+  page with Aspose.Note
+og_title: كيفية إرفاق OneNote بالمسار باستخدام Java – دليل شامل
+schemas:
+- author: Aspose
+  dateModified: '2026-07-24'
+  description: Learn how to attach files to OneNote using Java and Aspose.Note. This
+    step‑by‑step tutorial shows Java code to attach a file by path and save the OneNote
+    notebook with the attachment.
+  headline: How to Attach Onenote by Path Using Java – Step‑by‑Step Guide
+  type: TechArticle
+- description: Learn how to attach files to OneNote using Java and Aspose.Note. This
+    step‑by‑step tutorial shows Java code to attach a file by path and save the OneNote
+    notebook with the attachment.
+  name: How to Attach Onenote by Path Using Java – Step‑by‑Step Guide
+  steps:
+  - name: Import Packages
+    text: The `Document`, `Page`, `Outline`, `OutlineElement`, and `AttachedFile`
+      classes are required. `Document` represents a notebook, `Page` a notebook page,
+      `Outline` a container for elements, `OutlineElement` an individual element,
+      and `AttachedFile` the embedded file. Import them at the top of your Jav
+  - name: Set Up Document Directory
+    text: 'Define the folder where the new OneNote file will be saved. Use an absolute
+      path to avoid ambiguity: > **Pro tip:** End the path with a separator (`/` or
+      `\`) so you can safely concatenate file names later.'
+  - name: Create Document Object
+    text: 'The `Document` class is Aspose.Note''s top‑level object that represents
+      a single OneNote notebook in memory. Instantiating it gives you a fresh notebook
+      to work with:'
+  - name: Initialize Page and Outline Objects
+    text: 'A OneNote page contains an `Outline` which in turn holds `OutlineElement`
+      objects. Create these containers before adding content:'
+  - name: Initialize AttachedFile Object
+    text: 'The `AttachedFile` class represents the file you want to embed. Pass the
+      full file path to its constructor: Replace `"attachment.txt"` with the actual
+      file name you wish to attach.'
+  - name: Add Attached File to Outline Element
+    text: 'Link the `AttachedFile` to the `OutlineElement` so the attachment appears
+      on the page:'
+  - name: Add Outline Element to Outline
+    text: 'Insert the element that now contains the attachment into the outline container:'
+  - name: Add Outline to Page
+    text: 'Place the fully prepared outline onto the page:'
+  - name: Add Page to Document
+    text: 'Add the completed page to the notebook document:'
+  - name: Save Document (save onenote with attachment)
+    text: 'Finally, write the notebook to disk. The file will be a standard `.one`
+      file that any modern OneNote client can open: The resulting `AttachFileByPath_out.one`
+      file now contains the embedded attachment and can be opened in OneNote for Windows,
+      OneNote for the web, or OneNote for macOS.'
+  type: HowTo
+- questions:
+  - answer: Yes, the generated `.one` file is fully compatible with OneNote for Windows
+      10, Windows 11, the web version, and the macOS client.
+    question: Does this approach work with OneNote for Windows 10?
+  - answer: Download the file to a local temporary folder first, then use the same
+      `AttachedFile` constructor with the local path.
+    question: How can I attach a file from a remote URL?
+  - answer: No. Aspose.Note internally manages file streams for the `AttachedFile`
+      object, so explicit closing is unnecessary.
+    question: Do I need to close any streams manually?
+  - answer: Yes. Use the `AttachedFile(String displayName, String filePath)` constructor
+      to specify a friendly name that appears in OneNote.
+    question: Can I set a custom display name for the attachment?
+  - answer: A valid Aspose.Note license is required for production deployments; a
+      free trial is available for evaluation and testing.
+    question: Is a license required for production use?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: كيفية إضافة مرفق في OneNote باستخدام Java
+tags:
+- onenote attachment
+- Aspose.Note
+- java onenote integration
+- document automation
+title: كيفية إرفاق OneNote بالمسار باستخدام Java – دليل خطوة بخطوة
 url: /ar/java/onenote-java-integration/attach-file-by-path/
 weight: 11
 ---
@@ -13,164 +93,204 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# إرفاق ملف بالمسار في OneNote باستخدام Java
+# كيفية إرفاق OneNote بالمسار باستخدام Java
 
 ## مقدمة
 
-في هذا الدليل، ستتعلم **كيفية إضافة مرفق** إلى ملاحظات OneNote برمجيًا باستخدام Java و Aspose.Note. يُعد OneNote أداة متعددة الاستخدامات لتنظيم المعلومات، ومن خلال استخدام Aspose.Note for Java API يمكنك إثراء دفاتر الملاحظات بملفات مثل PDFs، صور، أو مستندات نصية. سنستعرض كل خطوة، بدءًا من إعداد البيئة وحتى حفظ ملف OneNote مع المستند المرفق.
+في هذا الدليل الشامل ستكتشف **how to attach onenote** الصفحات باستخدام ملفات خارجية عبر Java و Aspose.Note for Java API. OneNote هو دفتر ملاحظات رقمي قوي، وإدراج ملفات PDF أو صور أو ملفات نصية مباشرةً في الصفحة يحافظ على المعلومات ذات الصلة معًا ويحسن التعاون. سنرشدك خلال جميع المتطلبات المسبقة، ونظهر لك عبارات Java الدقيقة التي تحتاجها، ونشرح لماذا هذا النهج مثالي لأتمتة إنشاء التقارير، محاضر الاجتماعات، أو أرشفة المستندات القانونية.
 
 ## إجابات سريعة
-- **ما هي المكتبة الأساسية؟** Aspose.Note for Java  
-- **ما هي الكلمة المفتاحية التي يستهدفها هذا الدرس؟** how to add attachment  
-- **هل أحتاج إلى ترخيص؟** النسخة التجريبية المجانية تكفي للتقييم؛ الترخيص مطلوب للإنتاج.  
-- **هل يمكنني إرفاق نوع من الملفات؟** نعم – ملفات نصية، صور، PDFs، إلخ (java code attach file)  
-- **كم يستغرق تنفيذ العملية؟** حوالي 10‑15 دقيقة لإضافة مرفق أساسي.
+- **ما المكتبة التي تتعامل مع الإرفاق؟** Aspose.Note for Java  
+- **ما العبارة الأساسية التي يستهدفها هذا الدرس؟** how to attach onenote  
+- **هل الترخيص إلزامي؟** الإصدار التجريبي المجاني يعمل للتقييم؛ الترخيص التجاري مطلوب للإنتاج.  
+- **هل يمكن إرفاق أي نوع ملف؟** نعم – النصوص، الصور، ملفات PDF، ومعظم صيغ Office الشائعة (java code attach file)  
+- **الوقت النموذجي للتنفيذ؟** حوالي 10‑15 دقيقة لإرفاق ملف أساسي بالمسار.
 
-## ما معنى “how to add attachment” في OneNote؟
-إضافة مرفق تعني تضمين ملف خارجي داخل صفحة OneNote بحيث يمكن للقراء فتحه أو تنزيله مباشرةً من الملاحظة. هذه الميزة أساسية عندما تريد حفظ المستندات ذات الصلة مع ملاحظاتك.
+## ما هو “how to attach onenote” في OneNote؟
 
-## لماذا نضيف الملف برمجيًا؟
-- **الأتمتة:** تقليل الخطوات اليدوية عند إنشاء التقارير أو محاضر الاجتماعات.  
-- **الاتساق:** ضمان أن كل دفتر ملاحظات يتم إنشاؤه يتبع نفس الهيكل.  
-- **القابلية للتوسع:** إرفاق عشرات الملفات في حلقة (programmatically attach file) دون الحاجة لتكرار العمل عبر الواجهة الرسومية.
+**How to attach onenote** يعني تضمين ملف خارجي داخل صفحة OneNote بحيث يمكن للقراء فتحه أو تنزيله مباشرةً من الملاحظة. تتيح لك هذه الميزة الاحتفاظ بالمستندات الداعمة، المخططات، أو العقود جنبًا إلى جنب مع ملاحظاتك المكتوبة يدويًا أو المكتوبة، مما يلغي الحاجة لإدارة ملفات منفصلة.
+
+## لماذا إرفاق ملف برمجيًا؟
+
+إدراج الملفات تلقائيًا يزيل الخطوات اليدوية، يضمن هيكل دفتر ملاحظات متسق، ويتوسع إلى آلاف الصفحات دون أخطاء بشرية. في سيناريوهات إعداد التقارير على نطاق واسع، يمكنك إرفاق العشرات من ملفات PDF في حلقة، مما يضمن أن كل دفتر ملاحظات مُنشأ كامل وجاهز للتوزيع.
 
 ## المتطلبات المسبقة
 
-قبل البدء، تأكد من وجود ما يلي:
+قبل البدء، تأكد من أن لديك:
 
 1. **Java Development Kit (JDK)** – قم بتنزيله من [موقع Java](https://www.oracle.com/java/).  
-2. **Aspose.Note for Java** – احصل على أحدث مكتبة من [صفحة التحميل](https://releases.aspose.com/note/java/).  
+2. **Aspose.Note for Java** – احصل على أحدث ملف JAR من [صفحة التحميل](https://releases.aspose.com/note/java/).
 
-## استيراد الحزم
+## كيفية إرفاق ملف بالمسار في OneNote باستخدام Java؟
 
-لبدء العمل، استورد الحزم الضرورية إلى مشروع Java الخاص بك:
+لإرفاق ملف باستخدام مسار نظام الملفات الخاص به، تحتاج أولاً إلى تحميل أو إنشاء `Document` من OneNote، ثم إضافة `Page`، ثم إنشاء `Outline` و `OutlineElement`. داخل هذا العنصر تقوم بإنشاء كائن `AttachedFile` مع المسار الكامل وتضيفه إلى المخطط. أخيرًا تقوم بحفظ `Document` كملف `.one`. الخطوات التالية توضح التسلسل الدقيق الذي يجب اتباعه.
+
+### الخطوة 0: استيراد الحزم
+
+الفئات `Document`، `Page`، `Outline`، `OutlineElement`، و `AttachedFile` مطلوبة. تمثل `Document` دفتر ملاحظات، و `Page` صفحة دفتر ملاحظات، و `Outline` حاوية للعناصر، و `OutlineElement` عنصرًا فرديًا، و `AttachedFile` الملف المضمّن. استوردها في أعلى ملف مصدر Java الخاص بك:
 
 ```java
 import com.aspose.note.*;
-import java.io.IOException;
 ```
 
-## الخطوة 1: إعداد دليل المستند
+### الخطوة 1: إعداد دليل المستند
 
-قم بإعداد الدليل الذي سيتم إنشاء ملف OneNote فيه:
+حدد المجلد الذي سيتم حفظ ملف OneNote الجديد فيه. استخدم مسارًا مطلقًا لتجنب الغموض:
 
 ```java
-String dataDir = "Your Document Directory";
+String dataDir = "C:/Your/Document/Directory/";
 ```
 
-استبدل `"Your Document Directory"` بالمسار المطلق للمجلد الذي سيحتوي ملف OneNote الخاص بك.
+> **نصيحة احترافية:** أنهِ المسار بفاصل (`/` أو `\`) حتى تتمكن من ربط أسماء الملفات بأمان لاحقًا.
 
-## الخطوة 2: إنشاء كائن المستند
+### الخطوة 2: إنشاء كائن Document
 
-أنشئ نسخة من فئة `Document` – تمثل دفتر ملاحظات OneNote جديد:
+فئة `Document` هي الكائن الأعلى مستوى في Aspose.Note الذي يمثل دفتر OneNote واحد في الذاكرة. إنشاء مثيل لها يمنحك دفتر ملاحظات جديد للعمل معه:
 
 ```java
 Document doc = new Document();
 ```
 
-## الخطوة 3: تهيئة كائنات الصفحة والمخطط
+### الخطوة 3: تهيئة كائنات Page و Outline
 
-أنشئ هيكل الصفحة الذي سيحتوي على المرفق:
+تحتوي صفحة OneNote على `Outline` الذي بدوره يحتوي على كائنات `OutlineElement`. أنشئ هذه الحاويات قبل إضافة المحتوى:
 
 ```java
 Page page = new Page();
 Outline outline = new Outline();
-OutlineElement outlineElem = new OutlineElement();
+OutlineElement element = new OutlineElement();
 ```
 
-## الخطوة 4: تهيئة كائن AttachedFile
+### الخطوة 4: تهيئة كائن AttachedFile
 
-أنشئ كائن `AttachedFile` باستخدام المسار الكامل للملف الذي تريد تضمينه:
+فئة `AttachedFile` تمثل الملف الذي تريد تضمينه. مرّر المسار الكامل للملف إلى المُنشئ الخاص بها:
 
 ```java
 AttachedFile attachedFile = new AttachedFile(dataDir + "attachment.txt");
 ```
 
-غيّر `"attachment.txt"` إلى اسم الملف الذي ترغب في إرفاقه (java code attach file).
+استبدل `"attachment.txt"` باسم الملف الفعلي الذي ترغب في إرفاقه.
 
-## الخطوة 5: إضافة الملف المرفق إلى عنصر المخطط
+### الخطوة 5: إضافة الملف المرفق إلى عنصر Outline
 
-اربط الملف المرفق بعنصر المخطط حتى يظهر في الملاحظة:
+اربط `AttachedFile` بـ `OutlineElement` حتى يظهر المرفق على الصفحة:
 
+```java
+element.setAttachedFile(attachedFile);
+```
+
+### الخطوة 6: إضافة عنصر Outline إلى Outline
+
+أدرج العنصر الذي يحتوي الآن على المرفق داخل حاوية الـ Outline:
+
+```java
+outline.getElements().add(element);
+```
+
+### الخطوة 7: إضافة Outline إلى Page
+
+ضع الـ Outline المُجهّز بالكامل على الصفحة:
+
+```java
+page.getOutlines().add(outline);
+```
+
+### الخطوة 8: إضافة Page إلى Document
+
+أضف الصفحة المكتملة إلى مستند دفتر الملاحظات:
+
+```java
+doc.getPages().add(page);
+```
+
+### الخطوة 9: حفظ Document (حفظ OneNote مع المرفق)
+
+أخيرًا، احفظ دفتر الملاحظات إلى القرص. سيكون الملف ملف `.one` قياسي يمكن لأي عميل OneNote حديث فتحه:
+
+```java
+doc.save(dataDir + "AttachFileByPath_out.one");
+```
+
+الملف الناتج `AttachFileByPath_out.one` الآن يحتوي على المرفق المضمّن ويمكن فتحه في OneNote لنظام Windows أو OneNote على الويب أو OneNote لنظام macOS.
+
+## حالات الاستخدام الشائعة
+
+- **محاضر الاجتماعات:** إرفاق ملف PDF للجدول الأصلي حتى يتمكن المشاركون من الرجوع إليه أثناء قراءة الملاحظات.  
+- **توثيق المشروع:** تضمين مخططات التصميم مباشرةً داخل دفتر الملاحظات، مما يلغي الحاجة للتبديل بين التطبيقات.  
+- **الملفات القانونية:** تضمين العقود، الأدلة، أو ملفات المحكمة جنبًا إلى جنب مع ملاحظات القضية للوصول السريع.
+
+## نصائح استكشاف الأخطاء الشائعة ومخاطرها
+
+- **مسار ملف غير صحيح:** تأكد من أن `dataDir` ينتهي بفاصل مسار قبل إلحاق اسم الملف.  
+- **مرفقات كبيرة:** الملفات الكبيرة جدًا تزيد من حجم ملف `.one`؛ قم بضغطها أولاً أو فكر في الربط بدلاً من التضمين.  
+- **تنسيقات غير مدعومة:** معظم التنسيقات الشائعة تعمل، لكن الملفات المملوكة أو المشفرة قد لا تُعرض بشكل صحيح في OneNote.
+
+## الأسئلة المتكررة
+
+**س: هل يعمل هذا النهج مع OneNote لنظام Windows 10؟**  
+ج: نعم، ملف `.one` المُولد متوافق بالكامل مع OneNote لنظام Windows 10، Windows 11، النسخة الويب، وعميل macOS.
+
+**س: كيف يمكنني إرفاق ملف من عنوان URL بعيد؟**  
+ج: قم بتنزيل الملف إلى مجلد مؤقت محلي أولاً، ثم استخدم نفس مُنشئ `AttachedFile` مع المسار المحلي.
+
+**س: هل أحتاج إلى إغلاق أي تدفقات يدويًا؟**  
+ج: لا. تدير Aspose.Note داخليًا تدفقات الملفات لكائن `AttachedFile`، لذا لا يلزم الإغلاق الصريح.
+
+**س: هل يمكنني تعيين اسم عرض مخصص للمرفق؟**  
+ج: نعم. استخدم المُنشئ `AttachedFile(String displayName, String filePath)` لتحديد اسم ودود يظهر في OneNote.
+
+**س: هل الترخيص مطلوب للاستخدام في الإنتاج؟**  
+ج: ترخيص Aspose.Note صالح مطلوب لنشر الإنتاج؛ الإصدار التجريبي المجاني متاح للتقييم والاختبار.
+
+---
+
+**آخر تحديث:** 2026-07-24  
+**تم الاختبار مع:** Aspose.Note for Java 26.4  
+**المؤلف:** Aspose
+
+```java
+import com.aspose.note.*;
+import java.io.IOException;
+```
+```java
+String dataDir = "Your Document Directory";
+```
+```java
+Document doc = new Document();
+```
+```java
+Page page = new Page();
+Outline outline = new Outline();
+OutlineElement outlineElem = new OutlineElement();
+```
+```java
+AttachedFile attachedFile = new AttachedFile(dataDir + "attachment.txt");
+```
 ```java
 outlineElem.appendChildLast(attachedFile);
 ```
-
-## الخطوة 6: إضافة عنصر المخطط إلى المخطط
-
-ضع عنصر المخطط داخل حاوية المخطط:
-
 ```java
 outline.appendChildLast(outlineElem);
 ```
-
-## الخطوة 7: إضافة المخطط إلى الصفحة
-
-أضف المخطط (مع الملف المرفق) إلى الصفحة:
-
 ```java
 page.appendChildLast(outline);
 ```
-
-## الخطوة 8: إضافة الصفحة إلى المستند
-
-أدرج الصفحة المكتملة في مستند OneNote:
-
 ```java
 doc.appendChildLast(page);
 ```
-
-## الخطوة 9: حفظ المستند (save onenote with attachment)
-
-أخيرًا، احفظ دفتر الملاحظات. تُظهر هذه الخطوة وظيفة **save onenote with attachment**:
-
 ```java
 dataDir = dataDir + "AttachFileByPath_out.one";
 doc.save(dataDir);
 ```
 
-الملف الناتج `AttachFileByPath_out.one` الآن يحتوي على المرفق المدمج.
+{{< blocks/products/products-backtop-button >}}
 
-تهانينا! لقد تعلمت بنجاح **كيفية إضافة مرفق** عن طريق المسار في OneNote باستخدام Java و Aspose.Note.
+## دروس ذات صلة
 
-## حالات الاستخدام الشائعة
-
-- **محاضر الاجتماعات:** إرفاق جدول الأعمال الأصلي بصيغة PDF إلى الملاحظات.  
-- **توثيق المشاريع:** تضمين مخططات التصميم مباشرةً داخل دفتر الملاحظات.  
-- **الملفات القانونية:** إضافة العقود أو ملفات الأدلة جنبًا إلى جنب مع ملاحظات القضايا.
-
-## نصائح استكشاف الأخطاء وإصلاحها ومخاطر شائعة
-
-- **مسار الملف غير صحيح:** تأكد من أن `dataDir` ينتهي بفاصل مسار (`/` أو `\`) قبل إضافة اسم الملف.  
-- **المرفقات الكبيرة:** قد تزيد الملفات الكبيرة جدًا من حجم ملف OneNote؛ فكر في ضغطها أولًا.  
-- **الصيغ غير المدعومة:** رغم أن معظم صيغ الملفات تعمل، قد لا تفتح بعض الصيغ المملوكة بشكل صحيح في OneNote.
-
-## أسئلة شائعة
-
-**س: هل يعمل هذا النهج مع OneNote لنظام Windows 10؟**  
-ج: نعم، الملف `.one` المُولد متوافق مع جميع عملاء OneNote الحديثة، بما في ذلك Windows 10، Windows 11، والإصدار الويب.
-
-**س: كيف يمكنني إرفاق ملف من عنوان URL بعيد؟**  
-ج: قم بتنزيل الملف إلى مسار محلي أولاً، ثم استخدم نفس مُنشئ `AttachedFile` مع مسار الملف المحلي.
-
-**س: هل أحتاج إلى إغلاق أي تدفقات يدويًا؟**  
-ج: تتعامل واجهة Aspose.Note API مع تدفقات الملفات داخليًا، لذا لا يلزم إغلاق صريح لكائن `AttachedFile`.
-
-**س: هل يمكنني تعيين اسم عرض مخصص للمرفق؟**  
-ج: نعم، استخدم مُنشئ `AttachedFile` الذي يقبل اسم العرض كوسيط أول.
-
-**س: هل يلزم وجود ترخيص للاستخدام في بيئة الإنتاج؟**  
-ج: يتطلب تشغيل Aspose.Note في بيئات الإنتاج ترخيصًا صالحًا؛ يمكن استخدام النسخة التجريبية للتقييم.
-
----
-
-**آخر تحديث:** 2025-12-25  
-**تم الاختبار مع:** Aspose.Note for Java 26.4  
-**المؤلف:** Aspose
+- [إنشاء دفتر OneNote – عمليات مع Aspose.Note for Java](/note/java/onenote-notebook-operations/)
+- [إنشاء مستند OneNote Java - إرفاق ملف وتعيين أيقونة](/note/java/onenote-java-integration/attach-file-and-set-icon/)
+- [كيفية حفظ دفتر OneNote إلى تدفق باستخدام Aspose.Note](/note/java/onenote-notebook-operations/save-notebook-to-stream/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

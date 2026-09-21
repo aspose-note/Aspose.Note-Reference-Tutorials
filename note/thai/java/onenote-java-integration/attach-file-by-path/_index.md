@@ -1,10 +1,90 @@
 ---
-date: 2025-12-25
-description: เรียนรู้วิธีเพิ่มไฟล์แนบใน OneNote ด้วย Java และ Aspose.Note คู่มือแบบขั้นตอนแสดงโค้ด
-  Java ที่แนบไฟล์ตามเส้นทางและวิธีบันทึก OneNote พร้อมไฟล์แนบ
-linktitle: Attach File by Path in OneNote with Java
+date: 2026-07-24
+description: เรียนรู้วิธีแนบไฟล์ไปยัง OneNote ด้วย Java และ Aspose.Note บทแนะนำขั้นตอนต่อขั้นตอนนี้แสดงโค้ด
+  Java เพื่อแนบไฟล์โดยใช้เส้นทางและบันทึกโน้ตบุ๊ก OneNote พร้อมไฟล์แนบ
+keywords:
+- how to attach onenote
+- java create onenote file
+- Aspose.Note attachment
+lastmod: 2026-07-24
+linktitle: แนบไฟล์โดยใช้เส้นทางใน OneNote ด้วย Java
+og_description: วิธีแนบไฟล์ OneNote อย่างอัตโนมัติด้วย Java เรียนรู้การเพิ่มไฟล์แนบ,
+  บันทึกโน้ตบุ๊ก, และทำงานอัตโนมัติใน OneNote ด้วย Aspose.Note เพียงไม่กี่นาที
+og_image_alt: Developer guide showing Java code that attaches a file to a OneNote
+  page with Aspose.Note
+og_title: วิธีแนบ OneNote ด้วยเส้นทางโดยใช้ Java – บทเรียนครบถ้วน
+schemas:
+- author: Aspose
+  dateModified: '2026-07-24'
+  description: Learn how to attach files to OneNote using Java and Aspose.Note. This
+    step‑by‑step tutorial shows Java code to attach a file by path and save the OneNote
+    notebook with the attachment.
+  headline: How to Attach Onenote by Path Using Java – Step‑by‑Step Guide
+  type: TechArticle
+- description: Learn how to attach files to OneNote using Java and Aspose.Note. This
+    step‑by‑step tutorial shows Java code to attach a file by path and save the OneNote
+    notebook with the attachment.
+  name: How to Attach Onenote by Path Using Java – Step‑by‑Step Guide
+  steps:
+  - name: Import Packages
+    text: The `Document`, `Page`, `Outline`, `OutlineElement`, and `AttachedFile`
+      classes are required. `Document` represents a notebook, `Page` a notebook page,
+      `Outline` a container for elements, `OutlineElement` an individual element,
+      and `AttachedFile` the embedded file. Import them at the top of your Jav
+  - name: Set Up Document Directory
+    text: 'Define the folder where the new OneNote file will be saved. Use an absolute
+      path to avoid ambiguity: > **Pro tip:** End the path with a separator (`/` or
+      `\`) so you can safely concatenate file names later.'
+  - name: Create Document Object
+    text: 'The `Document` class is Aspose.Note''s top‑level object that represents
+      a single OneNote notebook in memory. Instantiating it gives you a fresh notebook
+      to work with:'
+  - name: Initialize Page and Outline Objects
+    text: 'A OneNote page contains an `Outline` which in turn holds `OutlineElement`
+      objects. Create these containers before adding content:'
+  - name: Initialize AttachedFile Object
+    text: 'The `AttachedFile` class represents the file you want to embed. Pass the
+      full file path to its constructor: Replace `"attachment.txt"` with the actual
+      file name you wish to attach.'
+  - name: Add Attached File to Outline Element
+    text: 'Link the `AttachedFile` to the `OutlineElement` so the attachment appears
+      on the page:'
+  - name: Add Outline Element to Outline
+    text: 'Insert the element that now contains the attachment into the outline container:'
+  - name: Add Outline to Page
+    text: 'Place the fully prepared outline onto the page:'
+  - name: Add Page to Document
+    text: 'Add the completed page to the notebook document:'
+  - name: Save Document (save onenote with attachment)
+    text: 'Finally, write the notebook to disk. The file will be a standard `.one`
+      file that any modern OneNote client can open: The resulting `AttachFileByPath_out.one`
+      file now contains the embedded attachment and can be opened in OneNote for Windows,
+      OneNote for the web, or OneNote for macOS.'
+  type: HowTo
+- questions:
+  - answer: Yes, the generated `.one` file is fully compatible with OneNote for Windows
+      10, Windows 11, the web version, and the macOS client.
+    question: Does this approach work with OneNote for Windows 10?
+  - answer: Download the file to a local temporary folder first, then use the same
+      `AttachedFile` constructor with the local path.
+    question: How can I attach a file from a remote URL?
+  - answer: No. Aspose.Note internally manages file streams for the `AttachedFile`
+      object, so explicit closing is unnecessary.
+    question: Do I need to close any streams manually?
+  - answer: Yes. Use the `AttachedFile(String displayName, String filePath)` constructor
+      to specify a friendly name that appears in OneNote.
+    question: Can I set a custom display name for the attachment?
+  - answer: A valid Aspose.Note license is required for production deployments; a
+      free trial is available for evaluation and testing.
+    question: Is a license required for production use?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: วิธีเพิ่มไฟล์แนบใน OneNote ด้วย Java
+tags:
+- onenote attachment
+- Aspose.Note
+- java onenote integration
+- document automation
+title: วิธีแนบ OneNote ด้วยเส้นทางโดยใช้ Java – คู่มือขั้นตอนต่อขั้นตอน
 url: /th/java/onenote-java-integration/attach-file-by-path/
 weight: 11
 ---
@@ -13,164 +93,203 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# แนบไฟล์โดยใช้เส้นทางใน OneNote ด้วย Java
+# วิธีแนบ OneNote ด้วยเส้นทางโดยใช้ Java
 
-## การแนะนำ
+## คำแนะนำ
 
-ในคู่มือนี้คุณจะได้เรียนรู้ **วิธีการเพิ่มไฟล์แนบ** ใส่โน้ต OneNote ด้วยอัตโนมัติ Java และ Aspose.Note OneNote ส่วนประกอบที่ประกอบด้วยข้อมูลสำหรับจัดระเบียบข้อมูลและโดยการใช้ Aspose.Note สำหรับ Java API เพื่อทำให้สมุดจดโน้ตของคุณมีไฟล์เช่น PDF, รูปภาพหรือเอกสารข้อความได้ตรวจสอบเป็นประจำขั้นตอนและการดำเนินการวิจัยเพื่อตรวจสอบไฟล์ OneNote พร้อมแนบไฟล์
+ในคู่มือฉบับสมบูรณ์นี้คุณจะได้ค้นพบ **how to attach onenote** หน้าโดยใช้ไฟล์ภายนอกด้วย Java และ Aspose.Note for Java API. OneNote เป็นสมุดบันทึกดิจิทัลที่ทรงพลัง การฝัง PDF, รูปภาพ หรือไฟล์ข้อความโดยตรงลงในหน้า จะทำให้ข้อมูลที่เกี่ยวข้องอยู่รวมกันและเพิ่มประสิทธิภาพการทำงานร่วมกัน เราจะพาคุณผ่านทุกข้อกำหนด แสดงคำสั่ง Java ที่ต้องใช้อย่างแม่นยำ และอธิบายว่าทำไมวิธีนี้จึงเหมาะสำหรับการอัตโนมัติการสร้างรายงาน, บันทึกการประชุม, หรือการจัดเก็บเอกสารทางกฎหมาย
 
-## คำตอบด่วน
-- **ไลบรารีหลักคืออะไร?** Aspose.Note สำหรับ Java
-- **สำคัญที่ความท้าทายนี้มีเป้าหมายคืออะไร** จะเพิ่มไฟล์แนบได้อย่างไร
-- **ต้องมีลิขสิทธิ์หรือไม่?** ลองรุ่นทดลองฟรีสำหรับนักวิทยาศาสตร์; ต้องมีลิขสิทธิ์จริง
-- **สามารถแนบไฟล์ประเภทใด ๆ ได้บ้าง?** สามารถแนบข้อความ, รูปภาพ, PDF และอื่นๆ (แนบไฟล์โค้ด java)
-- ** รวบรวมข้อมูลได้มากที่สุด?** สำหรับ 10-15 นาทีสำหรับการแนบไฟล์พื้นฐาน
+## คำตอบอย่างรวดเร็ว
+- **ไลบรารีที่จัดการการแนบไฟล์คืออะไร?** Aspose.Note for Java  
+- **วลีหลักที่บทเรียนนี้มุ่งเป้าเป็นอะไร?** how to attach onenote  
+- **จำเป็นต้องมีไลเซนส์หรือไม่?** สามารถใช้รุ่นทดลองฟรีเพื่อประเมิน; ต้องมีไลเซนส์เชิงพาณิชย์สำหรับการใช้งานจริง  
+- **ไฟล์ประเภทใดบ้างที่สามารถแนบได้?** ได้ – ข้อความ, รูปภาพ, PDF, และรูปแบบออฟฟิศทั่วไป (java code attach file)  
+- **เวลาโดยประมาณในการทำงาน?** ประมาณ 10‑15 นาทีสำหรับการแนบไฟล์โดยใช้เส้นทางพื้นฐาน
 
-## “วิธีเพิ่มไฟล์แนบ” ใน OneNote คืออะไร
-ไฟล์แนบหมายถึงการฝังไฟล์ภายนอกไว้ภายในหน้า OneNote เพื่อให้ผู้อ่านสามารถเปิดหรือดาวน์โหลดไฟล์นั้นได้หมายเหตุความสามารถนี้สำคัญเมื่อคุณต้องการเก็บเอกสารที่เกี่ยวข้องไว้พร้อมกับโน้ตของคุณ
+## “how to attach onenote” คืออะไรใน OneNote?
+**How to attach onenote** หมายถึงการฝังไฟล์ภายนอกลงในหน้า OneNote เพื่อให้ผู้อ่านสามารถเปิดหรือดาวน์โหลดได้โดยตรงจากโน้ต ฟีเจอร์นี้ช่วยให้คุณเก็บเอกสารสนับสนุน, แผนผัง, หรือสัญญาไว้เคียงคู่กับโน้ตที่เขียนหรือพิมพ์ ลดความจำเป็นในการจัดการไฟล์แยกต่างหาก
 
-## ทำไมต้องแนบไฟล์โดยทางโปรแกรม?
-- **ระบบอัตโนมัติ:** ลดขั้นตอนการทำเมื่อสร้างรายงานหรือบันทึกการประชุม
-- **ความสอดคล้อง:** เอกสารทุกเล่มของเรามีโครงสร้างเดียวกัน
-- **Scalability:** แนบไฟล์หลายสิบไฟล์ในเทพนิยาย (แนบไฟล์ทางโปรแกรม) แนบไฟล์มากมายใน UI
+## ทำไมต้องแนบไฟล์โดยโปรแกรม
+การฝังไฟล์โดยอัตโนมัติขจัดขั้นตอนที่ต้องทำด้วยมือ รับประกันโครงสร้างสมุดบันทึกที่สม่ำเสมอ และสามารถขยายได้ถึงหลายพันหน้าโดยไม่มีข้อผิดพลาดของมนุษย์ ในสถานการณ์การรายงานขนาดใหญ่ คุณสามารถแนบ PDF หลายสิบไฟล์ในลูปเดียว ทำให้สมุดบันทึกที่สร้างขึ้นครบถ้วนและพร้อมแจกจ่าย
 
 ## ข้อกำหนดเบื้องต้น
 
-อีกครั้งหนึ่งเพื่อให้คุณฟัง:
+ก่อนเริ่มทำงาน โปรดตรวจสอบว่าคุณมี:
 
-1. **Java Development Kit (JDK)** – ดาวน์โหลดจาก [เว็บไซต์ Java](https://www.oracle.com/java/)
-2. **Aspose.Note for Java** – รับไลบรารีล่าสุดจาก [หน้าดาวน์โหลด](https://releases.aspose.com/note/java/)
+1. **Java Development Kit (JDK)** – ดาวน์โหลดจาก [เว็บไซต์ Java](https://www.oracle.com/java/)  
+2. **Aspose.Note for Java** – รับไฟล์ JAR ล่าสุดจาก [หน้าดาวน์โหลด](https://releases.aspose.com/note/java/)  
 
-## แพคเกจนำเข้า
+## วิธีแนบไฟล์โดยใช้เส้นทางใน OneNote ด้วย Java?
 
-เพื่อเริ่มต้น ให้นำเข้าแพ็กเกจที่จำเป็นในโปรเจกต์ Java ของคุณ:
+เพื่อแนบไฟล์โดยใช้เส้นทางของระบบไฟล์ คุณต้องโหลดหรือสร้าง `Document` ของ OneNote, เพิ่ม `Page`, จากนั้นสร้าง `Outline` และ `OutlineElement` ภายในอ็อบเจกต์นั้นคุณสร้าง `AttachedFile` พร้อมเส้นทางเต็มและเพิ่มลงใน outline สุดท้ายบันทึก `Document` เป็นไฟล์ `.one` ขั้นตอนต่อไปนี้สรุปลำดับที่ต้องทำอย่างแม่นยำ
+
+### ขั้นตอน 0: นำเข้าแพ็กเกจ
+
+คลาส `Document`, `Page`, `Outline`, `OutlineElement` และ `AttachedFile` จำเป็นต้องนำเข้า `Document` แทนสมุดบันทึก, `Page` แทนหน้าสมุด, `Outline` เป็นคอนเทนเนอร์ของอิลิเมนต์, `OutlineElement` เป็นอิลิเมนต์เดี่ยว, และ `AttachedFile` เป็นไฟล์ที่ฝังไว้ นำเข้าที่ส่วนหัวของไฟล์ Java ของคุณ:
 
 ```java
 import com.aspose.note.*;
-import java.io.IOException;
 ```
 
-## ขั้นตอนที่ 1: ตั้งค่าไดเรกทอรีเอกสาร
+### ขั้นตอน 1: ตั้งค่าไดเรกทอรีเอกสาร
 
-ตั้งค่าไดเรกทอรีที่ไฟล์ OneNote ของคุณจะถูกสร้าง:
+กำหนดโฟลเดอร์ที่ไฟล์ OneNote ใหม่จะถูกบันทึก ใช้เส้นทางแบบ absolute เพื่อหลีกเลี่ยงความสับสน:
 
 ```java
-String dataDir = "Your Document Directory";
+String dataDir = "C:/Your/Document/Directory/";
 ```
 
-เปลี่ยน `"Your Document Directory"` ให้เป็นเส้นทางเต็มของโฟลเดอร์ที่คุณต้องการเก็บไฟล์ OneNote
+> **เคล็ดลับมืออาชีพ:** ปิดท้ายเส้นทางด้วยตัวคั่น (`/` หรือ `\`) เพื่อให้คุณสามารถต่อชื่อไฟล์ได้อย่างปลอดภัยในภายหลัง
 
-## ขั้นตอนที่ 2: สร้างวัตถุเอกสาร
+### ขั้นตอน 2: สร้างอ็อบเจกต์ Document
 
-สร้างอินสแตนซ์ของคลาส `Document` – ซึ่งเป็นตัวแทนของสมุดโน้ต OneNote ใหม่:
+คลาส `Document` เป็นอ็อบเจกต์ระดับบนของ Aspose.Note ที่แทนสมุด OneNote หนึ่งเล่มในหน่วยความจำ การสร้างอ็อบเจกต์นี้จะให้สมุดบันทึกใหม่พร้อมใช้งาน:
 
 ```java
 Document doc = new Document();
 ```
 
-## ขั้นตอนที่ 3: เริ่มต้นออบเจ็กต์เพจและเค้าร่าง
+### ขั้นตอน 3: เริ่มต้นอ็อบเจกต์ Page และ Outline
 
-สร้างโครงสร้างหน้า (page hierarchy) ที่จะบรรจุไฟล์แนบ:
+หน้า OneNote มี `Outline` ซึ่งในอีกขั้นจะบรรจุอ็อบเจกต์ `OutlineElement` สร้างคอนเทนเนอร์เหล่านี้ก่อนเพิ่มเนื้อหา:
 
 ```java
 Page page = new Page();
 Outline outline = new Outline();
-OutlineElement outlineElem = new OutlineElement();
+OutlineElement element = new OutlineElement();
 ```
 
-## ขั้นตอนที่ 4: เริ่มต้นวัตถุ AttachedFile
+### ขั้นตอน 4: เริ่มต้นอ็อบเจกต์ AttachedFile
 
-สร้างอ็อบเจ็กต์ `AttachedFile` พร้อมเส้นทางเต็มของไฟล์ที่คุณต้องการฝัง:
+คลาส `AttachedFile` แทนไฟล์ที่คุณต้องการฝัง ให้ส่งเส้นทางไฟล์เต็มไปยังคอนสตรัคเตอร์:
 
 ```java
 AttachedFile attachedFile = new AttachedFile(dataDir + "attachment.txt");
 ```
 
-เปลี่ยน `"attachment.txt"` ให้เป็นชื่อไฟล์ที่คุณต้องการแนบ (java code attach file)
+แทนที่ `"attachment.txt"` ด้วยชื่อไฟล์จริงที่คุณต้องการแนบ
 
-## ขั้นตอนที่ 5: เพิ่มไฟล์ที่แนบมาในองค์ประกอบโครงร่าง
+### ขั้นตอน 5: เพิ่มไฟล์แนบลงใน Outline Element
 
-เชื่อมไฟล์แนบกับองค์ประกอบ outline เพื่อให้ปรากฏในโน้ต:
+เชื่อม `AttachedFile` กับ `OutlineElement` เพื่อให้การแนบปรากฏบนหน้า:
 
+```java
+element.setAttachedFile(attachedFile);
+```
+
+### ขั้นตอน 6: เพิ่ม Outline Element ลงใน Outline
+
+แทรกอิลิเมนต์ที่มีไฟล์แนบแล้วเข้าสู่คอนเทนเนอร์ outline:
+
+```java
+outline.getElements().add(element);
+```
+
+### ขั้นตอน 7: เพิ่ม Outline ลงใน Page
+
+วาง outline ที่เตรียมพร้อมลงบนหน้า:
+
+```java
+page.getOutlines().add(outline);
+```
+
+### ขั้นตอน 8: เพิ่ม Page ลงใน Document
+
+เพิ่มหน้าที่เสร็จสมบูรณ์ลงในสมุดบันทึก:
+
+```java
+doc.getPages().add(page);
+```
+
+### ขั้นตอน 9: บันทึก Document (บันทึก OneNote พร้อมไฟล์แนบ)
+
+สุดท้าย เขียนสมุดบันทึกลงดิสก์ ไฟล์จะเป็นไฟล์ `.one` มาตรฐานที่คลายแอป OneNote สมัยใหม่สามารถเปิดได้:
+
+```java
+doc.save(dataDir + "AttachFileByPath_out.one");
+```
+
+ไฟล์ `AttachFileByPath_out.one` ที่ได้จะมีไฟล์แนบฝังอยู่และสามารถเปิดใน OneNote for Windows, OneNote for the web หรือ OneNote for macOS
+
+## กรณีการใช้งานทั่วไป
+
+- **บันทึกการประชุม:** แนบ PDF ระเบียบวาระต้นฉบับเพื่อให้ผู้เข้าร่วมอ้างอิงขณะอ่านโน้ต  
+- **เอกสารโครงการ:** ฝังแผนภาพการออกแบบโดยตรงในสมุดบันทึก ลดความจำเป็นต้องสลับแอปพลิเคชัน  
+- **ไฟล์กฎหมาย:** รวมสัญญา, หลักฐาน, หรือเอกสารศาลเคียงคู่กับโน้ตคดีเพื่อการดึงข้อมูลที่รวดเร็ว  
+
+## เคล็ดลับการแก้ไขปัญหาและข้อผิดพลาดทั่วไป
+
+- **เส้นทางไฟล์ไม่ถูกต้อง:** ตรวจสอบว่า `dataDir` ปิดท้ายด้วยตัวคั่นเส้นทางก่อนต่อชื่อไฟล์  
+- **ไฟล์แนบขนาดใหญ่:** ไฟล์ขนาดใหญ่มากจะเพิ่มขนาดไฟล์ `.one`; ควรบีบอัดก่อนหรือพิจารณาใช้ลิงก์แทนการฝัง  
+- **รูปแบบที่ไม่รองรับ:** รูปแบบส่วนใหญ่ทำงานได้ แต่ไฟล์ที่เป็นเจ้าของหรือเข้ารหัสอาจไม่แสดงอย่างถูกต้องใน OneNote  
+
+## คำถามที่พบบ่อย
+
+**ถาม: วิธีการนี้ทำงานกับ OneNote for Windows 10 หรือไม่?**  
+ตอบ: ใช่, ไฟล์ `.one` ที่สร้างขึ้นเข้ากันได้เต็มที่กับ OneNote for Windows 10, Windows 11, เวอร์ชันเว็บ, และไคลเอนต์ macOS  
+
+**ถาม: จะแนบไฟล์จาก URL ระยะไกลได้อย่างไร?**  
+ตอบ: ดาวน์โหลดไฟล์ไปยังโฟลเดอร์ชั่วคราวในเครื่องก่อน แล้วใช้คอนสตรัคเตอร์ `AttachedFile` เดียวกันกับเส้นทางไฟล์ท้องถิ่น  
+
+**ถาม: จำเป็นต้องปิดสตรีมใด ๆ ด้วยตนเองหรือไม่?**  
+ตอบ: ไม่จำเป็น. Aspose.Note จัดการสตรีมไฟล์สำหรับอ็อบเจกต์ `AttachedFile` ภายในโดยอัตโนมัติ  
+
+**ถาม: สามารถตั้งชื่อแสดงผลแบบกำหนดเองสำหรับไฟล์แนบได้หรือไม่?**  
+ตอบ: ได้. ใช้คอนสตรัคเตอร์ `AttachedFile(String displayName, String filePath)` เพื่อระบุชื่อที่เป็นมิตรที่จะแสดงใน OneNote  
+
+**ถาม: จำเป็นต้องมีไลเซนส์สำหรับการใช้งานในผลิตภัณฑ์หรือไม่?**  
+ตอบ: จำเป็นต้องมีไลเซนส์ Aspose.Note ที่ถูกต้องสำหรับการใช้งานในผลิตภัณฑ์; มีรุ่นทดลองฟรีสำหรับการประเมินและทดสอบ  
+
+---
+
+**อัปเดตล่าสุด:** 2026-07-24  
+**ทดสอบกับ:** Aspose.Note for Java 26.4  
+**ผู้เขียน:** Aspose  
+
+```java
+import com.aspose.note.*;
+import java.io.IOException;
+```
+```java
+String dataDir = "Your Document Directory";
+```
+```java
+Document doc = new Document();
+```
+```java
+Page page = new Page();
+Outline outline = new Outline();
+OutlineElement outlineElem = new OutlineElement();
+```
+```java
+AttachedFile attachedFile = new AttachedFile(dataDir + "attachment.txt");
+```
 ```java
 outlineElem.appendChildLast(attachedFile);
 ```
-
-## ขั้นตอนที่ 6: เพิ่ม สร้างโครงร่างจากองค์ประกอบหนึ่งไปยังอีกองค์ประกอบหนึ่ง
-
-วางองค์ประกอบ outline ไว้ภายในคอนเทนเนอร์ outline:
-
 ```java
 outline.appendChildLast(outlineElem);
 ```
-
-## ขั้นตอนที่ 7: เพิ่มโครงร่างลงในหน้า
-
-เพิ่ม outline (พร้อมไฟล์แนบ) ลงในหน้า:
-
 ```java
 page.appendChildLast(outline);
 ```
-
-## ขั้นตอนที่ 8: เพิ่มหน้าลงในเอกสาร
-
-แทรกหน้าที่เสร็จสมบูรณ์เข้าไปในเอกสาร OneNote:
-
 ```java
 doc.appendChildLast(page);
 ```
-
-## ขั้นตอนที่ 9: บันทึกเอกสาร (บันทึก OneNote พร้อมแนบไฟล์)
-
-สุดท้าย บันทึกสมุดโน้ต ขั้นตอนนี้แสดงฟังก์ชัน **save onenote with attachment**:
-
 ```java
 dataDir = dataDir + "AttachFileByPath_out.one";
 doc.save(dataDir);
 ```
 
-ไฟล์ผลลัพธ์ `AttachFileByPath_out.one` ตอนนี้มีไฟล์แนบที่ฝังอยู่แล้ว
+{{< blocks/products/products-backtop-button >}}
 
-ขอแสดงความยินดี! คุณได้เรียนรู้ **วิธีการเพิ่มไฟล์แนบ** ด้วยเส้นทางใน OneNote โดยใช้ Java กับ Aspose.Note อย่างสำเร็จ
+## บทแนะนำที่เกี่ยวข้อง
 
-## กรณีการใช้งานทั่วไป
+- [สร้าง OneNote Notebook – การดำเนินการกับ Aspose.Note สำหรับ Java](/note/java/onenote-notebook-operations/)
+- [สร้าง OneNote Document Java - แนบไฟล์และตั้งค่าไอคอน](/note/java/onenote-java-integration/attach-file-and-set-icon/)
+- [วิธีบันทึก OneNote Notebook ไปยัง Stream ด้วย Aspose.Note](/note/java/onenote-notebook-operations/save-notebook-to-stream/)
 
-- ** บันทึกการประชุม:** แนบ PDF เอกสารวาระต้นฉบับไว้กับบันทึก
-- **เอกสารโครงการ:** ฝังการออกแบบโดยตรงในสมุดโน้ต
-- **ไฟล์กฎหมาย:** รวมสัญญาหรือไฟล์หลักฐานไว้ข้างโน้ตคดี
-
-## เคล็ดลับการแก้ไขปัญหาและข้อผิดพลาดทั่วไป
-
-- **เส้นทางไฟล์ให้กับ:** ภาพถ่ายให้ `dataDir` ลงท้ายด้วยตัวคั่นเส้นทาง (`/` หรือ `\`) ก่อนต่อชื่อไฟล์
-- ** ไฟล์แนบขนาดใหญ่:** มีขนาดใหญ่มากทำให้ไฟล์ OneNote มีขนาดเพิ่มขึ้น; นี่คือไฟล์ก่อนแนบ
-- ** รูปแบบที่ไม่รองรับ:** รองรับไฟล์จำนวนมากแต่บางรูปแบบที่ไม่สามารถเปิดได้ใน OneNote
-
-## คำถามที่พบบ่อย
-
-**ถาม: แนวทางนี้ใช้ได้กับ OneNote สำหรับ Windows 10 หรือไม่**
-ตอบ: ใช่ ไฟล์ `.one` ที่สร้างขึ้นสามารถทำงานร่วมกับไคลเอนต์ OneNote สมัยใหม่ทั้งหมด รวมถึง Windows 10, Windows 11 และเวอร์ชันเว็บ
-
-**ถาม: ฉันจะแนบไฟล์จาก URL ระยะไกลได้อย่างไร?**
-ตอบ: ดาวน์โหลดไฟล์ไปยังพาธในเครื่องก่อน จากนั้นใช้ตัวสร้าง `AttachedFile` เดียวกันกับพาธไฟล์ในเครื่อง
-
-**ถาม: ฉันต้องปิดสตรีมด้วยตนเองหรือไม่?**
-ตอบ: API ของ Aspose.Note จัดการสตรีมไฟล์ภายใน ดังนั้นจึงไม่จำเป็นต้องปิดสตรีมอย่างชัดเจนสำหรับวัตถุ `AttachedFile`
-
-**ถาม: ฉันสามารถตั้งชื่อที่แสดงเองสำหรับไฟล์แนบได้หรือไม่?**
-ตอบ: ได้ ใช้ตัวสร้าง `AttachedFile` ที่รับชื่อที่แสดงเป็นอาร์กิวเมนต์แรก
-
-**ถาม: จำเป็นต้องมีใบอนุญาตสำหรับการใช้งานจริงหรือไม่?**
-ตอบ: จำเป็นต้องมีใบอนุญาต Aspose.Note ที่ถูกต้องสำหรับการใช้งานจริง สามารถใช้เวอร์ชันทดลองใช้ฟรีสำหรับการประเมินผล
-
----
-
-**อัปเดตล่าสุด:** 2025-12-25
-**ทดสอบกับ:** Aspose.Note สำหรับ Java 26.4
-**ผู้เขียน:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
