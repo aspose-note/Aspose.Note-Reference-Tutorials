@@ -1,12 +1,70 @@
 ---
-date: 2025-11-30
-description: Scopri come esportare le pagine di OneNote convertendo un intervallo
-  di pagine specifico in PDF usando Aspose.Note per Java. Include codice passo‑passo
-  e consigli sulle migliori pratiche.
-linktitle: Export OneNote Pages – Convert Specific Page Range to PDF with Java
+date: 2026-07-14
+description: Scopri come convertire OneNote in PDF esportando intervalli di pagine
+  specifici con Aspose.Note for Java. Include codice passo‑passo e consigli sulle
+  migliori pratiche.
+keywords:
+- convert onenote to pdf
+- export onenote pages pdf
+- set pdf page count
+- export specific onenote pages
+lastmod: 2026-07-14
+linktitle: converti OneNote in PDF – Esporta intervallo di pagine con Java
+og_description: Converti OneNote in PDF esportando intervalli di pagine specifici
+  con Aspose.Note for Java. Segui questa guida passo‑passo per integrare la conversione
+  PDF ad alta fedeltà nelle tue applicazioni Java.
+og_image_alt: 'Guide: convert OneNote pages to PDF in Java with Aspose.Note'
+og_title: converti OneNote in PDF – Esporta intervallo di pagine con Java
+schemas:
+- author: Aspose
+  dateModified: '2026-07-14'
+  description: Learn how to convert onenote to pdf by exporting specific page ranges
+    using Aspose.Note for Java. Includes step‑by‑step code and best‑practice tips.
+  headline: convert onenote to pdf – Export page range with Java
+  type: TechArticle
+- description: Learn how to convert onenote to pdf by exporting specific page ranges
+    using Aspose.Note for Java. Includes step‑by‑step code and best‑practice tips.
+  name: convert onenote to pdf – Export page range with Java
+  steps:
+  - name: '**Java Development Kit (JDK)** – Java 8+ installed and configured on your
+      machine.'
+    text: '**Java Development Kit (JDK)** – Java 8+ installed and configured on your
+      machine.'
+  - name: '**Aspose.Note for Java** – Download the latest version from the official
+      site: [Aspose.Note for Java](https://releases.aspose.com/note/java/).'
+    text: '**Aspose.Note for Java** – Download the latest version from the official
+      site: [Aspose.Note for Java](https://releases.aspose.com/note/java/).'
+  - name: '**Sample OneNote document** – A `.one` file that contains the pages you
+      want to export.'
+    text: '**Sample OneNote document** – A `.one` file that contains the pages you
+      want to export.'
+  type: HowTo
+- questions:
+  - answer: Currently Aspose.Note for Java supports only contiguous ranges. You would
+      need to run separate export operations for each range.
+    question: Can I specify multiple non‑contiguous page ranges for export?
+  - answer: Yes, the library maintains fonts, colors, tables, and images exactly as
+      they appear in OneNote.
+    question: Does Aspose.Note preserve the original formatting when I **convert onenote
+      pdf**?
+  - answer: The API does not open password‑protected notebooks directly. Remove the
+      protection first or use the appropriate decryption routine before loading.
+    question: Is it possible to export a password‑protected OneNote file?
+  - answer: '`PdfSaveOptions` provides properties such as `setPageSize()`, `setOrientation()`,
+      and `setHeaderFooter()` to tailor the output.'
+    question: How can I customize the PDF appearance (page size, orientation, headers/footers)?
+  - answer: Absolutely. Loop through a collection of `.one` files, apply the same
+      `PdfSaveOptions`, and save each result.
+    question: Can I batch **convert onenote document** to PDF for many files?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: Esporta pagine OneNote – Converti un intervallo di pagine specifico in PDF
-  con Java
+tags:
+- convert onenote to pdf
+- Aspose.Note
+- Java PDF conversion
+- OneNote export
+- page range PDF
+title: converti OneNote in PDF – Esporta intervallo di pagine con Java
 url: /it/java/onenote-document-loading/convert-page-range-to-pdf/
 weight: 11
 ---
@@ -19,25 +77,22 @@ weight: 11
 
 ## Introduzione
 
-Esportare le pagine OneNote in PDF è una necessità comune quando devi condividere note selezionate, archiviare una parte di progetto o creare documentazione stampabile. In questo tutorial imparerai **come esportare le pagine OneNote** da un intervallo specifico in un file PDF usando l'API Aspose.Note per Java. Ti guideremo passo passo—dal caricamento del documento sorgente alla personalizzazione dell'output PDF—così potrai integrare rapidamente questa funzionalità nelle tue applicazioni Java con sicurezza.
+In molti scenari aziendali è necessario **convertire onenote in pdf** mantenendo solo le pagine rilevanti—che tu stia condividendo appunti di riunioni, archiviando una fase di progetto o generando report stampabili. Questo tutorial ti mostra, passo dopo passo, come esportare un intervallo contiguo di pagine OneNote in un file PDF utilizzando l'API Aspose.Note per Java. Vedrai come caricare un notebook, impostare l'intervallo di pagine esatto e perfezionare l'output PDF in modo che il risultato abbia esattamente lo stesso aspetto delle pagine originali.
 
 ## Risposte rapide
 - **Qual è la classe principale per caricare un file OneNote?** `com.aspose.note.Document`
-- **Quale opzione controlla l'intervallo di pagine per l'esportazione PDF?** `PdfSaveOptions.setPageIndex()` e `setPageCount()`
+- **Quale opzione controlla l'intervallo di pagine per l'esportazione PDF?** `PdfSaveOptions.setPageIndex()` and `setPageCount()`
 - **La formattazione e il layout rimangono intatti?** Sì, Aspose.Note preserva la formattazione originale di OneNote.
 - **Posso esportare pagine non contigue?** Non direttamente; sono supportati solo intervalli contigui.
 - **Quale versione di Java è richiesta?** Java 8 o successiva (qualsiasi JDK che supporti la libreria Aspose.Note).
 
-## Che cosa significa “esportare pagine OneNote”?
+## Che cosa significa “esportare pagine onenote”?
 
-Esportare le pagine OneNote significa convertire il contenuto visivo delle pagine selezionate in un altro formato portabile—di solito PDF—mantenendo layout, caratteri e immagini originali. Questo consente una facile distribuzione, stampa e archiviazione a lungo termine delle tue note.
+Esportare pagine OneNote significa convertire il contenuto visivo delle pagine selezionate in un altro formato portatile—spesso PDF—preservando il layout originale, i caratteri, i colori, le tabelle e le immagini incorporate. Questa conversione consente una facile distribuzione, stampa e archiviazione a lungo termine delle tue note senza richiedere l'applicazione OneNote.
 
-## Perché usare Aspose.Note per convertire un documento OneNote in PDF?
+## Perché utilizzare Aspose.Note per convertire un documento OneNote in PDF?
 
-- **Alta fedeltà** – La libreria riproduce esattamente l'aspetto delle pagine OneNote.
-- **Controllo programmatico** – Puoi specificare intervalli di pagine, dimensioni della carta e altre opzioni PDF nel codice.
-- **Nessuna installazione di Office necessaria** – Funziona interamente lato server.
-- **Cross‑platform** – Funziona su Windows, Linux e macOS con qualsiasi JDK standard.
+Aspose.Note fornisce un motore di conversione ad alta fedeltà che riproduce esattamente l'aspetto delle pagine OneNote in PDF, offrendo al contempo un controllo programmatico su intervalli di pagine, dimensioni della carta e altre impostazioni PDF. Funziona interamente sul server, non richiede l'installazione di Microsoft Office e opera su piattaforme Windows, Linux e macOS.
 
 ## Prerequisiti
 
@@ -47,9 +102,9 @@ Prima di iniziare, assicurati di avere:
 2. **Aspose.Note per Java** – Scarica l'ultima versione dal sito ufficiale: [Aspose.Note for Java](https://releases.aspose.com/note/java/).  
 3. **Documento OneNote di esempio** – Un file `.one` che contiene le pagine che desideri esportare.
 
-## Importare i pacchetti
+## Importa pacchetti
 
-Nel tuo progetto Java, importa le classi necessarie per lavorare con OneNote e la conversione PDF:
+Le seguenti importazioni includono le classi core di Aspose.Note necessarie per caricare un documento OneNote e configurare le opzioni di esportazione PDF.
 
 ```java
 import java.io.IOException;
@@ -58,20 +113,20 @@ import com.aspose.note.Document;
 import com.aspose.note.PdfSaveOptions;
 ```
 
-## Passo 1: Caricare il documento OneNote
+## Passo 1: Carica il documento OneNote
 
-Per prima cosa, indica all'API la cartella che contiene il tuo file `.one` e caricalo in un oggetto `Document`:
+La classe `Document` rappresenta un notebook OneNote in memoria, fornendoti accesso programmatico a pagine, sezioni e risorse. Prima, indirizza l'API alla cartella che contiene il tuo file `.one` e lo carica in un oggetto `Document`:
 
 ```java
 String dataDir = "Your Document Directory";
 Document oneFile = new Document(dataDir + "Sample1.one");
 ```
 
-> **Suggerimento professionale:** Usa un percorso assoluto o una risorsa di class‑path se la tua applicazione gira in un container.
+> **Consiglio professionale:** Usa un percorso assoluto o una risorsa class‑path se la tua applicazione è eseguita in un container.
 
-## Passo 2: Inizializzare le opzioni di salvataggio PDF
+## Passo 2: Inizializza le opzioni di salvataggio PDF
 
-Crea un'istanza di `PdfSaveOptions` e definisci l'intervallo di pagine che desideri esportare. Il metodo `setPageIndex` utilizza un indice basato su zero, quindi `2` si riferisce alla terza pagina del documento.
+`PdfSaveOptions` definisce come deve comportarsi la conversione in PDF. Impostando `pageIndex` (basato su zero) e `pageCount`, indichi al motore esattamente quali pagine renderizzare, evitando l'overhead di elaborare l'intero notebook.
 
 ```java
 PdfSaveOptions opts = new PdfSaveOptions();
@@ -79,11 +134,11 @@ opts.setPageIndex(2);  // Starting page index (third page)
 opts.setPageCount(3);  // Number of consecutive pages to include
 ```
 
-> **Perché è importante:** Impostare l'indice e il conteggio delle pagine ti permette di **convertire pagine specifiche in PDF** senza elaborare l'intero notebook, risparmiando tempo e memoria.
+> **Perché è importante:** Impostare l'indice e il conteggio delle pagine ti consente di **convertire pagine specifiche in pdf** senza elaborare l'intero notebook, risparmiando tempo e memoria.
 
-## Passo 3: Salvare come PDF
+## Passo 3: Salva come PDF
 
-Infine, chiama il metodo `save` con il nome del file di output e le opzioni configurate. La libreria gestisce la conversione e scrive il PDF su disco.
+Il metodo `save` scrive il contenuto convertito su **disco**. Poiché la conversione avviene interamente sul lato server, non è necessaria un'installazione di Microsoft Office.
 
 ```java
 oneFile.save(dataDir + "ConvertSpecificPageRangeToPdf_out.pdf", opts);
@@ -96,40 +151,42 @@ Ora dovresti vedere un PDF che contiene solo le tre pagine specificate.
 
 | Problema | Causa | Soluzione |
 |----------|-------|-----------|
-| **Output PDF vuoto** | `pageIndex` errato (fuori intervallo) | Verifica il conteggio totale delle pagine con `oneFile.getPages().size()` |
-| **Immagini mancanti** | Immagini memorizzate come risorse esterne | Assicurati che il file `.one` sorgente e tutti i media collegati siano nella stessa directory |
-| **Rallentamento su notebook di grandi dimensioni** | Caricamento dell'intero documento prima del filtraggio | Usa `PdfSaveOptions` per limitare l'intervallo di pagine come mostrato; considera l'elaborazione in batch |
+| **Output PDF vuoto** | Indice `pageIndex` errato (fuori intervallo) | Verifica il conteggio totale delle pagine con `oneFile.getPages().size()` |
+| **Immagini mancanti** | Immagini memorizzate come risorse esterne | Assicurati che il file `.one` di origine e tutti i media collegati siano nella stessa directory |
+| **Rallentamento delle prestazioni su notebook di grandi dimensioni** | Caricamento dell'intero documento prima di suddividerlo | Usa `PdfSaveOptions` per limitare l'intervallo di pagine come mostrato; considera l'elaborazione a lotti |
 
 ## Domande frequenti
 
-**D: Posso specificare più intervalli di pagine non contigui per l'esportazione?**  
-R: Attualmente Aspose.Note per Java supporta solo intervalli contigui. Dovrai eseguire operazioni di esportazione separate per ciascun intervallo.
+**Q: Posso specificare più intervalli di pagine non contigui per l'esportazione?**  
+A: Attualmente Aspose.Note per Java supporta solo intervalli contigui. Dovresti eseguire operazioni di esportazione separate per ciascun intervallo.
 
-**D: Aspose.Note preserva la formattazione originale quando **convertisco onenote pdf**?**  
-R: Sì, la libreria mantiene caratteri, colori, tabelle e immagini esattamente come appaiono in OneNote.
+**Q: Aspose.Note preserva la formattazione originale quando **convertisco onenote pdf**?**  
+A: Sì, la libreria mantiene caratteri, colori, tabelle e immagini esattamente come appaiono in OneNote.
 
-**D: È possibile esportare un file OneNote protetto da password?**  
-R: L'API non apre direttamente notebook protetti da password. Rimuovi la protezione prima o utilizza la routine di decrittazione appropriata prima del caricamento.
+**Q: È possibile esportare un file OneNote protetto da password?**  
+A: L'API non apre direttamente i notebook protetti da password. Rimuovi la protezione prima o utilizza la routine di decrittazione appropriata prima del caricamento.
 
-**D: Come posso personalizzare l'aspetto del PDF (dimensione pagina, orientamento, intestazioni/piè di pagina)?**  
-R: `PdfSaveOptions` offre proprietà come `setPageSize()`, `setOrientation()` e `setHeaderFooter()` per adattare l'output.
+**Q: Come posso personalizzare l'aspetto del PDF (dimensione pagina, orientamento, intestazioni/piedi pagina)?**  
+A: `PdfSaveOptions` fornisce proprietà come `setPageSize()`, `setOrientation()` e `setHeaderFooter()` per personalizzare l'output.
 
-**D: Posso batch **convertire onenote document** in PDF per molti file?**  
-R: Assolutamente. Scorri una collezione di file `.one`, applica le stesse `PdfSaveOptions` e salva ogni risultato.
-
-## Conclusione
-
-In questa guida abbiamo dimostrato **come esportare le pagine OneNote** convertendo un intervallo di pagine specifico in PDF usando Aspose.Note per Java. Ora disponi di uno snippet di codice riutilizzabile da inserire in flussi di lavoro più ampi—che tu stia costruendo uno strumento di reporting, un sistema di archiviazione o una semplice funzionalità di condivisione note. Sperimenta con le varie impostazioni di `PdfSaveOptions` per perfezionare l'output PDF secondo le tue esigenze precise.
+**Q: Posso eseguire in batch **convert onenote document** in PDF per molti file?**  
+A: Assolutamente. Scorri una collezione di file `.one`, applica le stesse `PdfSaveOptions` e salva ogni risultato.
 
 ---
 
-**Ultimo aggiornamento:** 2025-11-30  
+**Ultimo aggiornamento:** 2026-07-14  
 **Testato con:** Aspose.Note per Java 26.4  
 **Autore:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 
+## Tutorial correlati
+
+- [Converti OneNote in PDF con Aspose.Note usando PdfSaveOptions](/note/java/onenote-document-loading/load-pdf-save-options/)
+- [Salva PDF di pagine specifiche in OneNote - Aspose.Note](/note/java/onenote-document-saving/specify-save-options/)
+- [converti onenote in pdf – Converti il notebook in PDF con Aspose.Note](/note/java/onenote-notebook-operations/convert-notebook-to-pdf/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

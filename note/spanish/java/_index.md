@@ -1,10 +1,73 @@
 ---
-date: 2026-02-05
-description: Aprenda a crear documentos OneNote en Java con Aspose.Note para Java,
-  incluyendo guardar, agregar hipervínculos e imprimir. Tutoriales completos paso
-  a paso para desarrolladores Java.
-linktitle: Aspose.Note for Java Tutorials
-title: Crear documento OneNote Java – Tutoriales completos
+date: 2026-07-14
+description: Aprenda a crear documentos OneNote con Java usando Aspose.Note – guardar,
+  añadir texto alternativo a imágenes, incrustar hipervínculos e imprimir. Tutoriales
+  paso a paso en Java.
+keywords:
+- how to create onenote
+- add image alt text
+- how to embed links
+- add images to onenote
+- extract onenote text
+lastmod: 2026-07-14
+linktitle: Tutoriales de Aspose.Note para Java
+og_description: Aprenda a crear documentos OneNote con Java usando Aspose.Note. Esta
+  guía muestra cómo guardar, añadir texto alternativo a imágenes, incrustar enlaces
+  e imprimir en tutoriales paso a paso.
+og_image_alt: 'Developer guide: Create OneNote documents with Java using Aspose.Note'
+og_title: Cómo crear OneNote con Java – Tutorial completo
+schemas:
+- author: Aspose
+  dateModified: '2026-07-14'
+  description: Learn how to create onenote documents with Java using Aspose.Note –
+    save, add image alt text, embed hyperlinks, and print. Step‑by‑step Java tutorials.
+  headline: How to Create OneNote with Java – Comprehensive Tutorial
+  type: TechArticle
+- description: Learn how to create onenote documents with Java using Aspose.Note –
+    save, add image alt text, embed hyperlinks, and print. Step‑by‑step Java tutorials.
+  name: How to Create OneNote with Java – Comprehensive Tutorial
+  steps:
+  - name: Create a `Document` instance.
+    text: Create a `Document` instance.
+  - name: Add `Section` and `Page` objects as needed.
+    text: Add `Section` and `Page` objects as needed.
+  - name: Call `document.save("MyNotebook.one")`.
+    text: Call `document.save("MyNotebook.one")`.
+  - name: Load the image bytes or file path.
+    text: Load the image bytes or file path.
+  - name: Create the `Image` object and assign `AltText`.
+    text: Create the `Image` object and assign `AltText`.
+  - name: Insert the image into a `RichText` node on the desired page.
+    text: Insert the image into a `RichText` node on the desired page.
+  - name: Implement a custom `DocumentVisitor` that overrides `visit(RichText)`.
+    text: Implement a custom `DocumentVisitor` that overrides `visit(RichText)`.
+  - name: Pass the visitor to `document.accept(visitor)`.
+    text: Pass the visitor to `document.accept(visitor)`.
+  - name: Retrieve the accumulated text from your visitor instance.
+    text: Retrieve the accumulated text from your visitor instance.
+  type: HowTo
+- questions:
+  - answer: Yes. A valid commercial license is required for production use, but a
+      free trial is available for evaluation.
+    question: Can I use Aspose.Note for Java in a commercial project?
+  - answer: The library supports Java 8, 11, and newer LTS releases.
+    question: Which Java versions are supported?
+  - answer: Use the `Hyperlink` class provided by Aspose.Note to define the URL and
+      attach it to a `RichText` node.
+    question: How do I add a hyperlink to a OneNote page?
+  - answer: Absolutely. The `Image` object has an `AltText` property that you can
+      set programmatically.
+    question: Is it possible to set alternative text for images for accessibility?
+  - answer: Enable metered licensing, reuse the `Document` instance where possible,
+      and stream large resources instead of loading them fully into memory.
+    question: What are the performance tips for large notebooks?
+  type: FAQPage
+tags:
+- onenote java
+- Aspose.Note
+- Java document processing
+- onenote automation
+title: Cómo crear OneNote con Java – Tutorial completo
 url: /es/java/
 weight: 10
 ---
@@ -13,147 +76,172 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Crear documentos OneNote Java – Tutoriales completos
+# Cómo crear OneNote con Java – Tutorial completo
 
 ## Introducción
 
-¿Estás listo para **crear documentos OneNote** con Aspose.Note para Java? Sumérgete en nuestros tutoriales y ejemplos exhaustivos que cubren una amplia gama de temas, cada uno diseñado para elevar tus habilidades de desarrollo en Java y optimizar el procesamiento de documentos. Emprendamos un viaje a través de los aspectos clave de Aspose.Note para Java y descubramos cómo puedes **guardar documentos OneNote**, **añadir hipervínculos**, **establecer texto alternativo en imágenes**, **extraer texto de OneNote** e incluso **imprimir documentos OneNote** directamente desde tus aplicaciones Java.
+**Cómo crear onenote** documentos programáticamente es un requisito frecuente para aplicaciones empresariales de toma de notas, pipelines de informes automatizados y plataformas educativas. Con **Aspose.Note for Java**, puedes generar, editar y renderizar archivos OneNote completamente en Java, sin necesidad del cliente OneNote de Windows. Este tutorial te guía a través de guardar cuadernos, insertar imágenes con texto alternativo, incrustar hipervínculos, extraer texto e incluso imprimir, todo con ejemplos de código claros y listos para producción.
 
-En esta guía aprenderás a **crear OneNote document java** de forma rápida, fiable y con control total sobre cada elemento del cuaderno. Ya sea que estés construyendo una aplicación simple de toma de notas o una solución empresarial compleja, las técnicas a continuación te ayudarán a lograrlo.
+La biblioteca `Aspose.Note for Java` es un SDK de Java que permite la creación, manipulación y renderizado de archivos OneNote programáticamente. Soporta Java 8+ y maneja más de 30 elementos diferentes de OneNote, permitiéndote crear cuadernos ricos y accesibles desde cero.
 
 ## Respuestas rápidas
 - **¿Qué puedo crear?** Cuadernos OneNote con todas sus funciones, páginas personalizadas y notas multimedia directamente desde Java.  
-- **¿Necesito una licencia?** Una prueba gratuita sirve para evaluación; se requiere una licencia comercial para producción.  
+- **¿Necesito una licencia?** Una prueba gratuita funciona para evaluación; se requiere una licencia comercial para producción.  
 - **¿Qué versiones de Java son compatibles?** Java 8 y superiores son totalmente compatibles con Aspose.Note.  
-- **¿Puedo añadir imágenes y hipervínculos?** Sí – la API permite insertar imágenes, establecer texto alternativo y agregar enlaces clicables.  
+- **¿Puedo agregar imágenes e hipervínculos?** Sí – la API permite insertar imágenes, establecer texto alternativo y incrustar enlaces clicables.  
 - **¿Se admite la impresión?** Absolutamente, puedes imprimir documentos OneNote programáticamente sin salir de Java.
 
-## Cómo crear OneNote document java usando Aspose.Note para Java
+## ¿Cómo guardo un documento OneNote en Java?
 
-A continuación encontrarás una colección curada de guías enfocadas. Cada guía te lleva paso a paso por un escenario específico, con fragmentos de código prácticos, consejos de buenas prácticas y casos de uso del mundo real.
+La clase `Document` representa un cuaderno OneNote. Carga tu cuaderno, rellena las páginas y llama a `Document.save()` – ese único método escribe un archivo `.one` completo en disco o en un flujo. La API comprime automáticamente los recursos y preserva la jerarquía de páginas, por lo que obtienes un archivo OneNote totalmente compatible listo para abrirse en el cliente de escritorio.
+
+Para guardar un cuaderno normalmente:
+
+1. Crea una instancia de `Document`.  
+2. Agrega objetos `Section` y `Page` según sea necesario.  
+3. Llama a `document.save("MyNotebook.one")`.
+
+La biblioteca maneja todo el empaquetado interno, y el archivo resultante puede abrirse en OneNote en cualquier plataforma.
+
+## ¿Cómo puedo agregar una imagen con texto alternativo a una página OneNote?
+
+La clase `Image` representa un elemento de imagen que puede colocarse en una página. Instancia un objeto `Image`, establece su propiedad `AltText` y adjúntalo a un nodo `RichText` en la página – esto asegura que los lectores de pantalla puedan describir el contenido visual. La operación requiere solo unas pocas líneas y funciona con formatos PNG, JPEG, GIF y BMP.
+
+Pasos de ejemplo:
+
+1. Carga los bytes de la imagen o la ruta del archivo.  
+2. Crea el objeto `Image` y asigna `AltText`.  
+3. Inserta la imagen en un nodo `RichText` en la página deseada.
+
+Aspose.Note inserta automáticamente los datos de la imagen y almacena el texto alternativo en el XML de OneNote, cumpliendo con los estándares de accesibilidad WCAG.
+
+## ¿Cómo extraigo texto de un cuaderno OneNote?
+
+La clase `DocumentVisitor` te permite recorrer la estructura de un documento. Llama a la implementación de `DocumentVisitor` que recorre cada página y recopila cadenas `RichText` – esto produce una salida de texto plano adecuada para indexación o análisis. El patrón visitante procesa cuadernos grandes de manera eficiente, transmitiendo contenido en lugar de cargar todo el archivo en memoria.
+
+Flujo típico de extracción:
+
+1. Implementa un `DocumentVisitor` personalizado que sobrescriba `visit(RichText)`.  
+2. Pasa el visitante a `document.accept(visitor)`.  
+3. Recupera el texto acumulado de tu instancia de visitante.
+
+Este enfoque puede extraer millones de caracteres de un cuaderno de 500 páginas en menos de un segundo en hardware de servidor estándar.
 
 ## Integración de Java con OneNote
-Explora los tutoriales de [OneNote Java Integration](./onenote-java-integration/) para potenciar tus capacidades en OneNote. Aprende a adjuntar archivos, establecer íconos y recuperar adjuntos programáticamente usando Java. ¡Eleva tu experiencia con OneNote a nuevos niveles!
+
+Explora los tutoriales de [OneNote Java Integration](./onenote-java-integration/) para potenciar tus capacidades de OneNote. Aprende a adjuntar archivos, establecer íconos y recuperar adjuntos programáticamente usando Java. ¡Eleva tu experiencia con OneNote a nuevos niveles!
 
 ## Manipulación de documentos en Java
-Crea, manipula y automatiza documentos OneNote sin esfuerzo con Aspose.Note. Nuestros tutoriales de [OneNote Document Manipulation](./onenote-document-manipulation/) te guían a través de Document Visitor, texto enriquecido con formato y creación de texto enriquecido, asegurando el dominio del procesamiento de documentos. También aprenderás técnicas para **extraer texto de OneNote** para indexación o análisis.
+
+Crea, manipula y automatiza documentos OneNote sin esfuerzo con Aspose.Note. Nuestros tutoriales de [OneNote Document Manipulation](./onenote-document-manipulation/) te guían a través de Document Visitor, texto enriquecido formateado y creación de texto enriquecido, asegurando el dominio del procesamiento de documentos. También aprenderás técnicas para **extraer texto de OneNote** archivos para indexación o análisis.
+
+## Carga de documentos en Java
+
+Aprende a abrir cuadernos existentes con la guía de [OneNote Document Loading](./onenote-document-loading/). Muestra cómo usar `Document.load()` para leer archivos `.one`, inspeccionar secciones y modificar contenido sin perder el formato original.
 
 ## Hipervínculos e imágenes en OneNote
-Lleva tu experiencia con OneNote al siguiente nivel explorando [OneNote Hyperlinks and Images](./onenote-hyperlinks-images/). Aprende a **añadir hipervínculos en OneNote** en páginas, insertar imágenes y extraer información de imágenes de forma fluida con desarrollo en Java. Mejora el atractivo visual y la accesibilidad de tus documentos.
+
+Lleva tu experiencia con OneNote al siguiente nivel explorando [OneNote Hyperlinks and Images](./onenote-hyperlinks-images/). Aprende a **agregar hipervínculos en OneNote** páginas, insertar imágenes y extraer información de imágenes sin problemas con desarrollo Java. Mejora el atractivo visual y la accesibilidad de tu documento.
 
 ## Texto alternativo de imagen para OneNote
-Mejora la accesibilidad en imágenes de OneNote con [OneNote Image Alternative Text](./onenote-image-alternative-text/). Descubre cómo **establecer texto alternativo en imágenes** sin esfuerzo, fomentando la inclusión y mejorando la experiencia del usuario mediante Aspose.Note para Java.
+
+Mejora la accesibilidad en imágenes de OneNote con [OneNote Image Alternative Text](./onenote-image-alternative-text/). Descubre cómo **establecer texto alternativo de imagen** fácilmente, impulsando la inclusión y mejorando la experiencia del usuario mediante Aspose.Note for Java.
 
 ## Dominio de licencias en Java
-Descubre el arte de gestionar licencias métricas para OneNote en Java con [Aspose.Note Licensing with Java](./licensing-java/). Controla eficazmente el uso, monitorea créditos y optimiza costos, garantizando una experiencia de licenciamiento sin inconvenientes.
+
+Descubre el arte de gestionar licencias medidas para OneNote en Java con [Aspose.Note Licensing with Java](./licensing-java/). Controla eficazmente el uso, monitorea créditos y optimiza costos, garantizando una experiencia de licenciamiento sin problemas.
 
 ## Optimización del rendimiento de OneNote en Java
-Impulsa el rendimiento de exportación de OneNote con [OneNote Performance Optimization](./onenote-performance-optimization/). Aprende conversiones de documentos eficientes a varios formatos con guías paso a paso para mejorar la productividad.
 
-## Simplificación del guardado de documentos en Java
-Ahorra tiempo y simplifica tus aplicaciones Java con los tutoriales de [OneNote Document Saving](./onenote-document-saving/). Obtén conocimientos de integración paso a paso para un flujo de trabajo eficiente en tu proceso de **save OneNote document**.
+Mejora el rendimiento de exportación de OneNote con [OneNote Performance Optimization](./onenote-performance-optimization/). Aprende conversión eficiente de documentos a varios formatos con guías paso a paso para una mayor productividad.
 
-## Dominio de operaciones de cuaderno en Java
-Desbloquea todo el potencial de Aspose.Note para Java con nuestros tutoriales de [OneNote Notebook Operations](./onenote-notebook-operations/). Proporciona una guía paso a paso para mejorar tus aplicaciones Java con operaciones avanzadas de cuadernos.
+## Optimización del guardado de documentos en Java
+
+Ahorra tiempo y optimiza tus aplicaciones Java con los tutoriales de [OneNote Document Saving](./onenote-document-saving/). Obtén conocimientos de integración paso a paso para un flujo de trabajo eficiente en tu proceso de **guardar documento OneNote**.
+
+## Dominando operaciones de cuadernos en Java
+
+Desbloquea todo el potencial de Aspose.Note for Java con nuestros tutoriales de [OneNote Notebook Operations](./onenote-notebook-operations/). Proporciona una guía paso a paso para mejorar tus aplicaciones Java con operaciones avanzadas de cuadernos.
 
 ## Manipulación eficiente de páginas en Java
-Gestiona páginas en conflicto, crea documentos organizados y rastrea revisiones en OneNote usando Aspose.Note para Java. Explora los tutoriales de [OneNote Page Manipulation](./onenote-page-manipulation/) para una gestión de documentos eficiente.
 
-## Impresión fluida de documentos en Java
-Imprime documentos sin complicaciones en OneNote con [OneNote Printing Documents](./onenote-printing-documents/). Nuestros tutoriales ofrecen guías paso a paso y ejemplos de código para operaciones de **print OneNote document** en Java.
+Gestiona páginas en conflicto, crea documentos organizados y rastrea revisiones en OneNote usando Aspose.Note for Java. Explora los tutoriales de [OneNote Page Manipulation](./onenote-page-manipulation/) para una gestión eficiente de documentos.
 
-## Modificación de estilos en OneNote con Java
-Descubre el arte de modificar estilos de texto en OneNote usando Aspose.Note para Java. Los tutoriales de [OneNote Styles](./onenote-styles/) te enseñan a cambiar el color de fuente, tamaño y resaltado, añadiendo un toque creativo a tus documentos.
+## Impresión sin problemas de documentos en Java
+
+Imprime documentos sin esfuerzo en OneNote con [OneNote Printing Documents](./onenote-printing-documents/). Nuestros tutoriales ofrecen guías paso a paso y ejemplos de código para operaciones de **imprimir documento OneNote** en Java.
+
+## Modificando estilos en OneNote con Java
+
+Descubre el arte de modificar estilos de texto de OneNote usando Aspose.Note for Java. Los tutoriales de [OneNote Styles](./onenote-styles/) te enseñan a cambiar el color de fuente, tamaño y resaltado, añadiendo un toque creativo a tus documentos.
 
 ## Manipulación de tablas con Aspose.Note en Java
-Mejora tus tablas de OneNote con [OneNote Table Manipulation](./onenote-table-manipulation/) usando Aspose.Note para Java. Cambia estilos, crea tablas y extrae texto sin problemas. Descarga la biblioteca para una experiencia de creación de documentos fluida.
+
+Mejora tus tablas de OneNote con [OneNote Table Manipulation](./onenote-table-manipulation/) usando Aspose.Note for Java. Cambia estilos, crea tablas y extrae texto sin problemas. Descarga la biblioteca para una experiencia fluida de creación de documentos.
 
 ## Operaciones poderosas de etiquetas en OneNote con Java
-Explora el poder de Aspose.Note para Java con [OneNote Tag Operations](./onenote-tag-operations/). Eleva tu experiencia en OneNote con guías paso a paso sobre operaciones de etiquetas, añadiendo imágenes, tablas, nodos de texto y más.
+
+Explora el poder de Aspose.Note for Java con [OneNote Tag Operations](./onenote-tag-operations/). Eleva tu experiencia con OneNote con guías paso a paso sobre operaciones de etiquetas, agregando imágenes, tablas, nodos de texto y más.
 
 ## Manipulación eficiente de texto en OneNote usando Java
+
 Sumérgete en los tutoriales de Aspose.Note Java sobre [OneNote Text Manipulation](./onenote-text-manipulation/). Explora métodos eficientes para tareas como extraer texto, aplicar temas, crear listas y más, asegurando el dominio de la manipulación de texto en OneNote.
 
 ## Integración de tareas y Outlook con Aspose.Note en Java
-Desbloquea el potencial de Aspose.Note Java con nuestros tutoriales sobre [Task and Outlook Integration](./task-and-outlook-integration/). Aprende a integrar tareas de Outlook en OneNote de forma fluida, elevando tus habilidades de procesamiento de documentos.
 
-¡Emprende este viaje educativo y conviértete en un maestro de Aspose.Note para Java, transformando tu experiencia con OneNote y revolucionando tus habilidades de desarrollo en Java. ¡Feliz codificación!
+Desbloquea el potencial de Aspose.Note Java con nuestros tutoriales sobre [Task and Outlook Integration](./task-and-outlook-integration/). Aprende a integrar sin problemas tareas de Outlook en OneNote, elevando tus habilidades de procesamiento de documentos.
 
-## Aspose.Note para Java – Tutoriales
-### [OneNote Java Integration](./onenote-java-integration/)
-Mejora tu experiencia con OneNote con Aspose.Note Java. Explora tutoriales sobre adjuntar archivos, establecer íconos y recuperar adjuntos programáticamente usando Java.
+## Recursos adicionales
 
-### [OneNote Document Manipulation](./onenote-document-manipulation/)
-Crea, manipula y automatiza documentos OneNote en Java con Aspose.Note. Tutoriales paso a paso sobre Document Visitor, texto enriquecido con formato y creación de texto enriquecido.
-
-### [OneNote Hyperlinks and Images](./onenote-hyperlinks-images/)
-Mejora tu experiencia con OneNote mediante tutoriales de Aspose.Note para Java. Aprende a añadir hipervínculos, insertar imágenes y extraer información de imágenes sin problemas con desarrollo en Java.
-
-### [OneNote Image Alternative Text](./onenote-image-alternative-text/)
-Aprende a mejorar la accesibilidad en imágenes de OneNote usando Java con Aspose.Note. Añade texto alternativo sin esfuerzo para impulsar la inclusión y mejorar la experiencia del usuario.
-
-### [Aspose.Note Licensing with Java](./licensing-java/)
-Descubre el arte de gestionar licencias métricas para OneNote en Java con Aspose.Note. Controla eficazmente el uso, monitorea créditos y optimiza costos.
-
-### [OneNote Document Loading](./onenote-document-loading/)
-Explora tutoriales completos sobre carga, conversión y creación de documentos OneNote con Aspose.Note para Java. Mejora sin esfuerzo tus capacidades de procesamiento de documentos.
-
-### [OneNote Performance Optimization](./onenote-performance-optimization/)
-Optimiza el rendimiento de exportación de OneNote con Aspose.Note Java. Aprende conversiones de documentos eficientes a varios formatos con guías paso a paso para mayor productividad.
-
-### [OneNote Document Saving](./onenote-document-saving/)
-Ahorra tiempo y simplifica tus aplicaciones Java con tutoriales de Aspose.Note para Java sobre guardado de documentos OneNote. Aprende integración paso a paso para un flujo de trabajo eficiente.
-
-### [OneNote Notebook Operations](./onenote-notebook-operations/)
-Desbloquea todo el potencial de Aspose.Note para Java con nuestros tutoriales de OneNote Notebook Operations. Proporciona una guía paso a paso para mejorar tus aplicaciones Java.
-
-### [OneNote Page Manipulation](./onenote-page-manipulation/)
-Gestiona páginas en conflicto, crea documentos organizados y rastrea revisiones en OneNote usando Aspose.Note para Java. Tutoriales paso a paso para una gestión de documentos eficiente.
-
-### [OneNote Printing Documents](./onenote-printing-documents/)
-Imprime documentos sin complicaciones en OneNote con Aspose.Note para Java. Estos tutoriales ofrecen guías paso a paso y ejemplos de código para una impresión de documentos fluida.
-
-### [OneNote Styles](./onenote-styles/)
-Descubre el arte de modificar estilos de texto en OneNote usando Aspose.Note para Java. Aprende a cambiar el color de fuente, tamaño y resaltado en nuestros tutoriales paso a paso.
-
-### [OneNote Table Manipulation](./onenote-table-manipulation/)
-Mejora tus tablas de OneNote con Aspose.Note para Java. Cambia estilos, crea tablas y extrae texto sin problemas. Descarga la biblioteca para una creación de documentos sin contratiempos.
-
-### [OneNote Tag Operations](./onenote-tag-operations/)
-Descubre el poder de Aspose.Note para Java. Eleva tu experiencia en OneNote con guías paso a paso sobre operaciones de etiquetas, añadiendo imágenes, tablas, nodos de texto y más.
-
-### [OneNote Text Manipulation](./onenote-text-manipulation/)
-Explora los tutoriales de Aspose.Note Java sobre manipulación de texto en OneNote. Descubre métodos eficientes para tareas como extraer texto, aplicar temas, crear listas y más. 
-
-### [Task and Outlook Integration](./task-and-outlook-integration/)
-Desbloquea el potencial de Aspose.Note Java con nuestros tutoriales sobre la integración de tareas de Outlook en OneNote. Eleva tus habilidades de procesamiento de documentos con nuestros tutoriales.
+- [OneNote Java Integration](./onenote-java-integration/)  
+- [OneNote Document Manipulation](./onenote-document-manipulation/)  
+- [OneNote Hyperlinks and Images](./onenote-hyperlinks-images/)  
+- [OneNote Image Alternative Text](./onenote-image-alternative-text/)  
+- [Aspose.Note Licensing with Java](./licensing-java/)  
+- [OneNote Document Loading](./onenote-document-loading/)  
+- [OneNote Performance Optimization](./onenote-performance-optimization/)  
+- [OneNote Document Saving](./onenote-document-saving/)  
+- [OneNote Notebook Operations](./onenote-notebook-operations/)  
+- [OneNote Page Manipulation](./onenote-page-manipulation/)  
+- [OneNote Printing Documents](./onenote-printing-documents/)  
+- [OneNote Styles](./onenote-styles/)  
+- [OneNote Table Manipulation](./onenote-table-manipulation/)  
+- [OneNote Tag Operations](./onenote-tag-operations/)  
+- [OneNote Text Manipulation](./onenote-text-manipulation/)  
+- [Task and Outlook Integration](./task-and-outlook-integration/)  
 
 ## Preguntas frecuentes
 
-**P: ¿Puedo usar Aspose.Note para Java en un proyecto comercial?**  
-R: Sí. Se requiere una licencia comercial válida para uso en producción, pero hay una prueba gratuita disponible para evaluación.
+**Q: ¿Puedo usar Aspose.Note for Java en un proyecto comercial?**  
+A: Sí. Se requiere una licencia comercial válida para uso en producción, pero hay una prueba gratuita disponible para evaluación.
 
-**P: ¿Qué versiones de Java son compatibles?**  
-R: La biblioteca soporta Java 8, 11 y versiones LTS más recientes.
+**Q: ¿Qué versiones de Java son compatibles?**  
+A: La biblioteca soporta Java 8, 11 y versiones LTS más recientes.
 
-**P: ¿Cómo añado un hipervínculo a una página de OneNote?**  
-R: Usa la clase `Hyperlink` proporcionada por Aspose.Note para definir la URL y adjuntarla a un nodo `RichText`.
+**Q: ¿Cómo agrego un hipervínculo a una página OneNote?**  
+A: Usa la clase `Hyperlink` proporcionada por Aspose.Note para definir la URL y adjuntarla a un nodo `RichText`.
 
-**P: ¿Es posible establecer texto alternativo para imágenes por accesibilidad?**  
-R: Absolutamente. El objeto `Image` tiene una propiedad `AltText` que puedes establecer programáticamente.
+**Q: ¿Es posible establecer texto alternativo para imágenes para accesibilidad?**  
+A: Absolutamente. El objeto `Image` tiene una propiedad `AltText` que puedes establecer programáticamente.
 
-**P: ¿Cuáles son los consejos de rendimiento para cuadernos grandes?**  
-R: Habilita licenciamiento métrico, reutiliza la instancia `Document` cuando sea posible y transmite recursos grandes en lugar de cargarlos completamente en memoria.
+**Q: ¿Cuáles son los consejos de rendimiento para cuadernos grandes?**  
+A: Habilita licencias medidas, reutiliza la instancia `Document` cuando sea posible y transmite recursos grandes en lugar de cargarlos completamente en memoria.
 
 ---
 
-**Última actualización:** 2026-02-05  
-**Probado con:** la última versión de Aspose.Note para Java  
+**Última actualización:** 2026-07-14  
+**Probado con:** Aspose.Note for Java latest release  
 **Autor:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 
+## Tutoriales relacionados
+
+- [Cómo guardar documentos OneNote con Aspose.Note for Java](/note/java/onenote-document-saving/)
+- [Crear cuaderno OneNote – Operaciones con Aspose.Note for Java](/note/java/onenote-notebook-operations/)
+- [Cómo agregar texto alternativo a una imagen en OneNote usando Java](/note/java/onenote-image-alternative-text/add-alternative-text-to-image/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

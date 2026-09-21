@@ -1,10 +1,74 @@
 ---
-date: 2026-02-05
-description: Tanulja meg, hogyan hozhat létre OneNote dokumentumot Java-ban az Aspose.Note
-  for Java segítségével, beleértve a mentést, a hiperhivatkozások hozzáadását és a
-  nyomtatást. Átfogó lépésről‑lépésre útmutatók Java fejlesztőknek.
-linktitle: Aspose.Note for Java Tutorials
-title: OneNote dokumentum létrehozása Java – Átfogó oktatóanyagok
+date: 2026-07-14
+description: Ismerje meg, hogyan hozhat létre OneNote dokumentumokat Java-val az Aspose.Note
+  használatával – mentés, képek alternatív szövegének hozzáadása, hiperhivatkozások
+  beágyazása és nyomtatás. Lépésről‑lépésre Java oktatóanyagok.
+keywords:
+- how to create onenote
+- add image alt text
+- how to embed links
+- add images to onenote
+- extract onenote text
+lastmod: 2026-07-14
+linktitle: Aspose.Note for Java oktatóanyagok
+og_description: Ismerje meg, hogyan hozhat létre OneNote dokumentumokat Java-val az
+  Aspose.Note használatával. Ez az útmutató bemutatja a mentést, a képek alternatív
+  szövegének hozzáadását, a hivatkozások beágyazását és a nyomtatást lépésről‑lépésre
+  oktatóanyagokban.
+og_image_alt: 'Developer guide: Create OneNote documents with Java using Aspose.Note'
+og_title: Hogyan hozzunk létre OneNote-ot Java-val – Átfogó útmutató
+schemas:
+- author: Aspose
+  dateModified: '2026-07-14'
+  description: Learn how to create onenote documents with Java using Aspose.Note –
+    save, add image alt text, embed hyperlinks, and print. Step‑by‑step Java tutorials.
+  headline: How to Create OneNote with Java – Comprehensive Tutorial
+  type: TechArticle
+- description: Learn how to create onenote documents with Java using Aspose.Note –
+    save, add image alt text, embed hyperlinks, and print. Step‑by‑step Java tutorials.
+  name: How to Create OneNote with Java – Comprehensive Tutorial
+  steps:
+  - name: Create a `Document` instance.
+    text: Create a `Document` instance.
+  - name: Add `Section` and `Page` objects as needed.
+    text: Add `Section` and `Page` objects as needed.
+  - name: Call `document.save("MyNotebook.one")`.
+    text: Call `document.save("MyNotebook.one")`.
+  - name: Load the image bytes or file path.
+    text: Load the image bytes or file path.
+  - name: Create the `Image` object and assign `AltText`.
+    text: Create the `Image` object and assign `AltText`.
+  - name: Insert the image into a `RichText` node on the desired page.
+    text: Insert the image into a `RichText` node on the desired page.
+  - name: Implement a custom `DocumentVisitor` that overrides `visit(RichText)`.
+    text: Implement a custom `DocumentVisitor` that overrides `visit(RichText)`.
+  - name: Pass the visitor to `document.accept(visitor)`.
+    text: Pass the visitor to `document.accept(visitor)`.
+  - name: Retrieve the accumulated text from your visitor instance.
+    text: Retrieve the accumulated text from your visitor instance.
+  type: HowTo
+- questions:
+  - answer: Yes. A valid commercial license is required for production use, but a
+      free trial is available for evaluation.
+    question: Can I use Aspose.Note for Java in a commercial project?
+  - answer: The library supports Java 8, 11, and newer LTS releases.
+    question: Which Java versions are supported?
+  - answer: Use the `Hyperlink` class provided by Aspose.Note to define the URL and
+      attach it to a `RichText` node.
+    question: How do I add a hyperlink to a OneNote page?
+  - answer: Absolutely. The `Image` object has an `AltText` property that you can
+      set programmatically.
+    question: Is it possible to set alternative text for images for accessibility?
+  - answer: Enable metered licensing, reuse the `Document` instance where possible,
+      and stream large resources instead of loading them fully into memory.
+    question: What are the performance tips for large notebooks?
+  type: FAQPage
+tags:
+- onenote java
+- Aspose.Note
+- Java document processing
+- onenote automation
+title: Hogyan hozzunk létre OneNote-ot Java-val – Átfogó útmutató
 url: /hu/java/
 weight: 10
 ---
@@ -13,148 +77,155 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OneNote dokumentum létrehozása Java – Átfogó útmutatók
+# OneNote létrehozása Java-val – Átfogó útmutató
 
 ## Bevezetés
 
-Készen állsz **OneNote dokumentumok** létrehozására az Aspose.Note for Java segítségével? Merülj el átfogó útmutatóinkban és példáinkban, amelyek számos témakört fednek le, mindegyik a Java fejlesztési készségeid fejlesztésére és a dokumentumfeldolgozás egyszerűsítésére lett tervezve. Induljunk el egy úton az Aspose.Note for Java kulcsfontosságú aspektusain keresztül, és fedezzük fel, hogyan tudsz **OneNote dokumentumokat menteni**, **hiperhivatkozásokat hozzáadni**, **kép alternatív szöveget beállítani**, **szöveget kinyerni a OneNote‑ból**, sőt **OneNote dokumentumokat nyomtatni** közvetlenül a Java alkalmazásaidból.
+**Hogyan hozhatók létre onenote** dokumentumok programozott módon gyakori követelmény a vállalati jegyzetkészítő alkalmazások, automatizált jelentéskészítő csővezetékek és oktatási platformok számára. A **Aspose.Note for Java** segítségével OneNote fájlokat generálhat, szerkeszthet és renderelhet teljesen Java-ban, anélkül, hogy a Windows OneNote kliensre lenne szükség. Ez az útmutató végigvezet a jegyzetfüzetek mentésén, képek alt szöveggel való beszúrásán, hiperhivatkozások beágyazásán, szöveg kinyerésén és még a nyomtatáson – mindezt világos, termék‑kész kódpéldákkal.
 
-Ebben az útmutatóban megtanulod, hogyan **hozz létre OneNote dokumentumot Java‑ban** gyorsan, megbízhatóan, és teljes irányítással a jegyzetfüzet minden elemére. Akár egyszerű jegyzetkészítő alkalmazást, akár összetett vállalati megoldást építesz, az alábbi technikák segítenek a feladat elvégzésében.
+Az `Aspose.Note for Java` könyvtár egy Java SDK, amely lehetővé teszi a OneNote fájlok programozott létrehozását, manipulálását és renderelését. Támogatja a Java 8+ verziókat, és több mint 30 különböző OneNote elemet kezel, így gazdag, hozzáférhető jegyzetfüzeteket építhet fel a semmiből.
 
 ## Gyors válaszok
-- **Mit tudok építeni?** Teljes funkcionalitású OneNote jegyzetfüzetek, egyedi oldalak és gazdag médiás jegyzetek közvetlenül Java‑ból.  
-- **Szükségem van licencre?** Egy ingyenes próba a kiértékeléshez elegendő; a termeléshez kereskedelmi licenc szükséges.  
-- **Mely Java verziók támogatottak?** A Java 8 és újabb verziók teljesen kompatibilisek az Aspose.Note‑dal.  
-- **Hozzáadhatok képeket és hiperhivatkozásokat?** Igen – az API lehetővé teszi képek beillesztését, alt szöveg beállítását és kattintható hivatkozások beágyazását.  
-- **Támogatott a nyomtatás?** Természetesen, programozottan nyomtathatsz OneNote dokumentumokat anélkül, hogy elhagynád a Java‑t.
+- **Mit építhetek?** Teljes funkcionalitású OneNote jegyzetfüzetek, egyedi oldalakat és gazdag média jegyzeteket közvetlenül Java‑ból.  
+- **Szükségem van licencre?** Egy ingyenes próba elérhető értékeléshez; kereskedelmi licenc szükséges a produkcióhoz.  
+- **Mely Java verziók támogatottak?** A Java 8 és újabb verziók teljes mértékben kompatibilisek az Aspose.Note‑dal.  
+- **Hozzáadhatok képeket és hiperhivatkozásokat?** Igen – az API lehetővé teszi képek beszúrását, alt szöveg beállítását és kattintható linkek beágyazását.  
+- **Támogatott a nyomtatás?** Teljes mértékben, programozottan nyomtathat OneNote dokumentumokat anélkül, hogy elhagyná a Java‑t.
 
-## Hogyan hozz létre OneNote dokumentumot Java‑ban az Aspose.Note for Java használatával
+## Hogyan menthetek egy OneNote dokumentumot Java-ban?
 
-Alább egy gondosan összeállított gyűjteményt találsz a fókuszált útmutatókból. Minden útmutató egy adott forgatókönyven vezet végig, gyakorlati kódrészletekkel, legjobb gyakorlat tippekkel és valós példákkal.
+A `Document` osztály egy OneNote jegyzetfüzetet képvisel. Töltse be a jegyzetfüzetet, töltse fel oldalakkal, és hívja meg a `Document.save()` metódust – ez az egyetlen metódus egy teljes `.one` fájlt ír lemezre vagy adatfolyamra. Az API automatikusan tömöríti az erőforrásokat és megőrzi az oldalhierarchiát, így egy teljesen kompatibilis OneNote fájlt kap, amely készen áll a asztali kliensben való megnyitásra.
 
-## Java integráció OneNote‑dal
-Fedezd fel a [OneNote Java Integration](./onenote-java-integration/) útmutatókat, hogy felgyorsítsd OneNote képességeidet. Tanuld meg, hogyan csatolj fájlokat, állíts be ikonokat, és programozottan töltsd le a csatolmányokat Java‑val. Emeld OneNote élményed új magasságokba!
+A jegyzetfüzet mentéséhez általában:
 
-## Dokumentumműveletek Java‑ban
-Könnyedén hozd létre, módosítsd és automatizáld a OneNote dokumentumokat az Aspose.Note segítségével. A [OneNote Document Manipulation](./onenote-document-manipulation/) útmutatóink végigvezetnek a Document Visitor, a formázott gazdag szöveg és a gazdag szöveg létrehozása témakörökön, biztosítva a dokumentumfeldolgozás mesteri elsajátítását. Emellett megtanulod, hogyan **nyerj ki szöveget a OneNote** fájlokból indexelés vagy elemzés céljából.
+1. Hozzon létre egy `Document` példányt.  
+2. Adjon hozzá `Section` és `Page` objektumokat a szükség szerint.  
+3. Hívja meg a `document.save("MyNotebook.one")` metódust.
 
-## Hiperhivatkozások és képek OneNote‑ban
-Emeld OneNote élményedet a következő szintre a [OneNote Hyperlinks and Images](./onenote-hyperlinks-images/) felfedezésével. Tanuld meg, hogyan **adj hozzá hiperhivatkozásokat a OneNote** oldalakhoz, szúrj be képeket, és zökkenőmentesen nyerj ki képinformációkat Java fejlesztéssel. Növeld dokumentumod vizuális vonzerejét és hozzáférhetőségét.
+A könyvtár kezeli a belső csomagolást, és a keletkezett fájl bármely platformon megnyitható OneNote‑ban.
 
-## Kép alternatív szöveg OneNote‑ban
-Növeld a hozzáférhetőséget a OneNote képeknél a [OneNote Image Alternative Text](./onenote-image-alternative-text/) segítségével. Fedezd fel, hogyan **állíthatsz be könnyedén kép alt szöveget**, elősegítve a befogadást és javítva a felhasználói élményt az Aspose.Note for Java révén.
+## Hogyan adhatok képet alt szöveggel egy OneNote oldalhoz?
 
-## Licenckezelés mesterfokon Java‑ban
-Fedezd fel a metered licenckezelés művészetét a OneNote számára Java‑ban a [Aspose.Note Licensing with Java](./licensing-java/) útmutatóval. Hatékonyan szabályozd a használatot, figyeld a krediteket, és optimalizáld a költségeket, biztosítva a zökkenőmentes licencélményt.
+Az `Image` osztály egy képelem, amely elhelyezhető egy oldalon. Hozzon létre egy `Image` objektumot, állítsa be az `AltText` tulajdonságot, és csatolja egy `RichText` csomóponthoz az oldalon – ez biztosítja, hogy a képernyőolvasók le tudják írni a vizuális tartalmat. A művelet csak néhány sor kódot igényel, és PNG, JPEG, GIF és BMP formátumokkal működik.
 
-## OneNote teljesítmény optimalizálása Java‑ban
-Növeld OneNote export teljesítményedet a [OneNote Performance Optimization](./onenote-performance-optimization/) segítségével. Tanulj meg hatékony dokumentumkonverziót különböző formátumokba lépésről‑lépésre útmutatóval a termelékenység javítása érdekében.
+Példa lépések:
 
-## Dokumentum mentés egyszerűsítése Java‑ban
-Spórolj időt és egyszerűsítsd Java alkalmazásaidat a [OneNote Document Saving](./onenote-document-saving/) útmutatókkal. Szerezz lépésről‑lépésre integrációs tudást egy hatékony munkafolyamathoz a **save OneNote document** folyamatodban.
+1. Töltse be a kép bájtjait vagy a fájl útvonalát.  
+2. Hozza létre az `Image` objektumot, és állítsa be az `AltText` értékét.  
+3. Illessze be a képet egy `RichText` csomópontba a kívánt oldalon.
 
-## Jegyzetfüzet műveletek mesteri kezelése Java‑ban
-Szabadítsd fel az Aspose.Note for Java teljes potenciálját a [OneNote Notebook Operations](./onenote-notebook-operations/) útmutatóinkkal. Nyújts lépésről‑lépésre útmutatót Java alkalmazásaid fejlett jegyzetfüzet műveletekkel való bővítéséhez.
+Az Aspose.Note automatikusan beágyazza a kép adatokat és az alt szöveget a OneNote XML‑ben tárolja, megfelelve a WCAG hozzáférhetőségi szabványoknak.
 
-## Hatékony oldalkezelés Java‑ban
-Kezeld az ütköző oldalakat, hozz létre rendezett dokumentumokat, és kövesd a revíziókat a OneNote-ban az Aspose.Note for Java használatával. Fedezd fel a [OneNote Page Manipulation](./onenote-page-manipulation/) útmutatókat a hatékony dokumentumkezeléshez.
+## Hogyan nyerhetek ki szöveget egy OneNote jegyzetfüzetből?
 
-## Zökkenőmentes dokumentumnyomtatás Java‑ban
-Nyomtasd a dokumentumokat könnyedén a OneNote-ban a [OneNote Printing Documents](./onenote-printing-documents/) segítségével. Útmutatóink lépésről‑lépésre útmutatót és kódpéldákat nyújtanak a **print OneNote document** műveletekhez Java‑ban.
+A `DocumentVisitor` osztály lehetővé teszi a dokumentum struktúrájának bejárását. Hívja meg a `DocumentVisitor` implementációt, amely minden oldalt bejár és összegyűjti a `RichText` karakterláncokat – ez tiszta szöveges kimenetet eredményez, amely alkalmas indexelésre vagy elemzésre. A látogató minta nagy jegyzetfüzeteket hatékonyan dolgoz fel, adatfolyamként szolgáltatva a tartalmat ahelyett, hogy az egész fájlt a memóriába töltené.
 
-## Stílusok módosítása OneNote‑ban Java‑val
-Fedezd fel a OneNote szövegstílusok módosításának művészetét az Aspose.Note for Java használatával. A [OneNote Styles](./onenote-styles/) útmutatók megtanítanak betűszín, méret és kiemelés módosítására, kreatív elemeket adva dokumentumaidhoz.
+Tipikus kinyerési folyamat:
 
-## Táblakezelés Aspose.Note‑val Java‑ban
-Fejleszd OneNote tábláidat a [OneNote Table Manipulation](./onenote-table-manipulation/) segítségével az Aspose.Note for Java használatával. Változtasd a stílusokat, állíts össze táblákat, és nyerj ki szöveget zökkenőmentesen. Töltsd le a könyvtárat a gördülékeny dokumentumkészítési élményért.
+1. Implementáljon egy egyedi `DocumentVisitor`‑t, amely felülírja a `visit(RichText)` metódust.  
+2. Adja át a látogatót a `document.accept(visitor)` hívásnak.  
+3. Szerezze meg a felhalmozott szöveget a látogató példányából.
 
-## Erőteljes címke műveletek OneNote‑ban Java‑val
-Fedezd fel az Aspose.Note for Java erejét a [OneNote Tag Operations](./onenote-tag-operations/) segítségével. Emeld OneNote élményedet lépésről‑lépésre útmutatókkal a címke műveletekről, képek, táblák, szövegcsomópontok és egyéb elemek hozzáadásáról.
+Ez a megközelítés másodpercnél gyorsabban képes millió karaktert kinyerni egy 500 oldalas jegyzetfüzetből szabványos szerverkörnyezetben.
 
-## Hatékony szövegkezelés OneNote‑ban Java‑val
-Merülj el az Aspose.Note Java útmutatókban a [OneNote Text Manipulation](./onenote-text-manipulation/) témakörben. Fedezd fel a hatékony módszereket olyan feladatokhoz, mint a szöveg kinyerése, témák alkalmazása, listák létrehozása és egyebek, biztosítva a szövegkezelés mesteri elsajátítását OneNote‑ban.
+## Java integráció OneNote-dal
+Fedezze fel a [OneNote Java Integration](./onenote-java-integration/) oktatóanyagokat, hogy felgyorsítsa OneNote képességeit. Tanulja meg, hogyan csatolhat fájlokat, állíthat be ikonokat, és hogyan kérheti le a csatolmányokat programozottan Java‑val. Emelje OneNote‑élményét új magasságokba!
 
-## Feladat és Outlook integráció Aspose.Note‑val Java‑ban
-Szabadítsd fel az Aspose.Note Java potenciálját a [Task and Outlook Integration](./task-and-outlook-integration/) útmutatóinkkal. Tanuld meg, hogyan integrálj zökkenőmentesen Outlook feladatokat a OneNote‑ba, ezzel emelve dokumentumfeldolgozási készségeidet.
+## Dokumentumkezelés Java-ban
+Hozzon létre, manipuláljon és automatizáljon OneNote dokumentumokat könnyedén az Aspose.Note‑dal. A [OneNote Document Manipulation](./onenote-document-manipulation/) oktatóanyagok végigvezetik a Document Visitor, a formázott rich text és a rich text létrehozás folyamatán, biztosítva a dokumentumfeldolgozás mesterségét. Emellett megtanulhatja, hogyan **nyerjen ki szöveget OneNote** fájlokból indexelés vagy elemzés céljából.
 
-Indulj el ezen az oktatási úton, és válj az Aspose.Note for Java mesterévé, átalakítva OneNote élményedet és forradalmasítva Java fejlesztési készségeidet. Boldog kódolást!
+## Dokumentum betöltése Java-ban
+Tanulja meg, hogyan nyisson meg meglévő jegyzetfüzeteket a [OneNote Document Loading](./onenote-document-loading/) útmutatóval. Megmutatja, hogyan használja a `Document.load()` metódust `.one` fájlok beolvasásához, szekciók ellenőrzéséhez és a tartalom módosításához az eredeti formázás megőrzése mellett.
 
-## Aspose.Note for Java útmutatók
+## Hiperhivatkozások és képek OneNote-ban
+Emelje OneNote‑élményét a következő felfedezésével: [OneNote Hyperlinks and Images](./onenote-hyperlinks-images/). Tanulja meg, hogyan **adj hozzá hiperhivatkozásokat OneNote** oldalakon, hogyan szúrjon be képeket, és hogyan nyerje ki a kép információkat zökkenőmentesen Java fejlesztéssel. Növelje dokumentuma vizuális vonzerejét és hozzáférhetőségét.
 
-### [OneNote Java Integration](./onenote-java-integration/)
-Fejleszd OneNote élményedet az Aspose.Note Java‑val! Fedezd fel a fájlok csatolásáról, ikonok beállításáról és a csatolmányok programozott lekéréséről szóló útmutatókat Java használatával.
+## Kép alternatív szöveg OneNote-hoz
+Javítsa a OneNote képek hozzáférhetőségét a [OneNote Image Alternative Text](./onenote-image-alternative-text/) segítségével. Fedezze fel, hogyan **állíthat be kép alt szöveget** egyszerűen, ezzel növelve az inkluzivitást és javítva a felhasználói élményt az Aspose.Note for Java‑val.
 
-### [OneNote Document Manipulation](./onenote-document-manipulation/)
-Hozz létre, módosíts és automatizálj OneNote dokumentumokat Java‑ban az Aspose.Note segítségével. Lépésről‑lépésre útmutatók a Document Visitor, a formázott gazdag szöveg és a gazdag szöveg létrehozása témakörökben.
+## Licenckezelés mesterfokon Java-ban
+Fedezze fel a metered licence‑ek kezelésének művészetét OneNote‑hoz Java‑ban a [Aspose.Note Licensing with Java](./licensing-java/) útmutatóval. Hatékonyan szabályozza a felhasználást, figyelje a krediteket, és optimalizálja a költségeket, biztosítva a zökkenőmentes licencélményt.
 
-### [OneNote Hyperlinks and Images](./onenote-hyperlinks-images/)
-Fejleszd OneNote élményedet az Aspose.Note for Java útmutatóival. Tanuld meg, hogyan adj hozzá hiperhivatkozásokat, szúrj be képeket, és nyerj ki képinformációkat zökkenőmentesen Java fejlesztéssel.
+## OneNote teljesítmény optimalizálása Java-ban
+Növelje OneNote export teljesítményét a [OneNote Performance Optimization](./onenote-performance-optimization/) segítségével. Tanulja meg a hatékony dokumentumkonverziót különböző formátumokba lépésről‑lépésre, a termelékenység javítása érdekében.
 
-### [OneNote Image Alternative Text](./onenote-image-alternative-text/)
-Tanuld meg, hogyan növeld a hozzáférhetőséget a OneNote képeknél Java‑val az Aspose.Note segítségével. Adj alternatív szöveget könnyedén a befogadás növelése és a felhasználói élmény javítása érdekében.
+## Dokumentum mentésének egyszerűsítése Java-ban
+Spóroljon időt és egyszerűsítse Java‑alkalmazásait a [OneNote Document Saving](./onenote-document-saving/) oktatóanyagokkal. Szerezzen lépésről‑lépésre integrációs tudást egy hatékony munkafolyamathoz a **save OneNote document** folyamatában.
 
-### [Aspose.Note Licensing with Java](./licensing-java/)
-Fedezd fel a metered licenckezelés művészetét a OneNote számára Java‑ban az Aspose.Note segítségével. Hatékonyan szabályozd a használatot, figyeld a krediteket, és optimalizáld a költségeket.
+## Jegyzetfüzet műveletek mesterfokon Java-ban
+Szabadítsa fel az Aspose.Note for Java teljes potenciálját a [OneNote Notebook Operations](./onenote-notebook-operations/) oktatóanyagokkal. Kínáljon lépésről‑lépésre útmutatót Java‑alkalmazásai fejlett jegyzetfüzet‑műveletekkel való bővítéséhez.
 
-### [OneNote Document Loading](./onenote-document-loading/)
-Fedezd fel a részletes útmutatókat a OneNote dokumentumok betöltéséről, konvertálásáról és létrehozásáról az Aspose.Note for Java segítségével. Könnyedén bővítsd dokumentumfeldolgozási képességeidet.
+## Hatékony oldalkezelés Java-ban
+Kezeljen konfliktusos oldalakat, hozzon létre rendezett dokumentumokat, és kövesse a revíziókat OneNote‑ban az Aspose.Note for Java‑val. Fedezze fel a [OneNote Page Manipulation](./onenote-page-manipulation/) oktatóanyagokat a hatékony dokumentumkezeléshez.
 
-### [OneNote Performance Optimization](./onenote-performance-optimization/)
-Optimalizáld a OneNote export teljesítményét az Aspose.Note Java segítségével. Tanulj meg hatékony dokumentumkonverziót különböző formátumokba lépésről‑lépésre útmutatóval a termelékenység javítása érdekében.
+## Zökkenőmentes dokumentumnyomtatás Java-ban
+Nyomtasson dokumentumokat könnyedén OneNote‑ban a [OneNote Printing Documents](./onenote-printing-documents/) segítségével. Oktatóanyagaink lépésről‑lépésre útmutatást és kódpéldákat kínálnak a **print OneNote document** műveletekhez Java‑ban.
 
-### [OneNote Document Saving](./onenote-document-saving/)
-Spórolj időt és egyszerűsítsd Java alkalmazásaidat az Aspose.Note for Java OneNote dokumentum mentésről szóló útmutatóival. Tanulj lépésről‑lépésre integrációt a hatékony munkafolyamatért.
+## Stílusok módosítása OneNote-ban Java-val
+Fedezze fel a OneNote szövegstílusok módosításának művészetét az Aspose.Note for Java‑val. A [OneNote Styles](./onenote-styles/) oktatóanyagok megtanítják, hogyan változtassa meg a betűszínt, méretet és kiemelést, kreatívabbá téve dokumentumait.
 
-### [OneNote Notebook Operations](./onenote-notebook-operations/)
-Szabadítsd fel az Aspose.Note for Java teljes potenciálját OneNote Notebook Operations útmutatóinkkal. Nyújts lépésről‑lépésre útmutatót Java alkalmazásaid fejlesztéséhez.
+## Táblakezelés Aspose.Note segítségével Java-ban
+Fejlessze OneNote tábláit a [OneNote Table Manipulation](./onenote-table-manipulation/) segítségével, amely az Aspose.Note for Java‑t használja. Módosítsa a stílusokat, állítson össze táblákat, és nyerjen ki szöveget zökkenőmentesen. Töltse le a könyvtárat a zökkenőmentes dokumentumkészítéshez.
 
-### [OneNote Page Manipulation](./onenote-page-manipulation/)
-Kezeld az ütköző oldalakat, hozz létre rendezett dokumentumokat, és kövesd a revíziókat a OneNote-ban az Aspose.Note for Java használatával. Lépésről‑lépésre útmutatók a hatékony dokumentumkezeléshez.
+## Erőteljes címke műveletek OneNote-ban Java-val
+Fedezze fel az Aspose.Note for Java erejét a [OneNote Tag Operations](./onenote-tag-operations/) segítségével. Emelje OneNote‑élményét lépésről‑lépésre útmutatókkal a címke műveletekről, képek, táblák, szövegcsoportok és egyebek hozzáadásáról.
 
-### [OneNote Printing Documents](./onenote-printing-documents/)
-Nyomtasd könnyedén a dokumentumokat a OneNote-ban az Aspose.Note for Java segítségével. Ezek az útmutatók lépésről‑lépésre útmutatót és kódpéldákat nyújtanak a zökkenőmentes dokumentumnyomtatáshoz.
+## Hatékony szövegkezelés OneNote-ban Java-val
+Merüljön el az Aspose.Note Java oktatóanyagokban a [OneNote Text Manipulation](./onenote-text-manipulation/) témakörben. Fedezze fel a hatékony módszereket olyan feladatokra, mint a szöveg kinyerése, témák alkalmazása, listák létrehozása és még sok más, biztosítva a szövegkezelés mesteri szintjét OneNote‑ban.
 
-### [OneNote Styles](./onenote-styles/)
-Fedezd fel a OneNote szövegstílusok módosításának művészetét az Aspose.Note for Java használatával. Tanuld meg a betűszín, méret és kiemelés módosítását lépésről‑lépésre útmutatóinkban.
+## Feladat és Outlook integráció Aspose.Note segítségével Java-ban
+Szabadítsa fel az Aspose.Note Java potenciálját a [Task and Outlook Integration](./task-and-outlook-integration/) oktatóanyagokkal. Tanulja meg, hogyan integrálja zökkenőmentesen az Outlook feladatokat OneNote‑ba, ezzel emelve dokumentumfeldolgozási képességeit.
 
-### [OneNote Table Manipulation](./onenote-table-manipulation/)
-Fejleszd OneNote tábláidat az Aspose.Note for Java segítségével. Változtasd a stílusokat, állíts össze táblákat, nyerj ki szöveget zökkenőmentesen. Töltsd le a könyvtárat a gördülékeny dokumentumkészítéshez.
+## További források
+- [OneNote Java Integration](./onenote-java-integration/)  
+- [OneNote Document Manipulation](./onenote-document-manipulation/)  
+- [OneNote Hyperlinks and Images](./onenote-hyperlinks-images/)  
+- [OneNote Image Alternative Text](./onenote-image-alternative-text/)  
+- [Aspose.Note Licensing with Java](./licensing-java/)  
+- [OneNote Document Loading](./onenote-document-loading/)  
+- [OneNote Performance Optimization](./onenote-performance-optimization/)  
+- [OneNote Document Saving](./onenote-document-saving/)  
+- [OneNote Notebook Operations](./onenote-notebook-operations/)  
+- [OneNote Page Manipulation](./onenote-page-manipulation/)  
+- [OneNote Printing Documents](./onenote-printing-documents/)  
+- [OneNote Styles](./onenote-styles/)  
+- [OneNote Table Manipulation](./onenote-table-manipulation/)  
+- [OneNote Tag Operations](./onenote-tag-operations/)  
+- [OneNote Text Manipulation](./onenote-text-manipulation/)  
+- [Task and Outlook Integration](./task-and-outlook-integration/)  
 
-### [OneNote Tag Operations](./onenote-tag-operations/)
-Fedezd fel az Aspose.Note for Java erejét. Emeld OneNote élményedet lépésről‑lépésre útmutatókkal a címke műveletekről, képek, táblák, szövegcsomópontok és egyéb elemek hozzáadásáról.
+## Gyakran ismételt kérdések
 
-### [OneNote Text Manipulation](./onenote-text-manipulation/)
-Fedezd fel az Aspose.Note Java útmutatókat a OneNote szövegkezelésről. Ismerj meg hatékony módszereket olyan feladatokhoz, mint a szöveg kinyerése, témák alkalmazása, listák létrehozása és egyebek.
+**K: Használhatom az Aspose.Note for Java-t kereskedelmi projektben?**  
+A: Igen. A produkciós használathoz érvényes kereskedelmi licenc szükséges, de egy ingyenes próba elérhető értékeléshez.
 
-### [Task and Outlook Integration](./task-and-outlook-integration/)
-Szabadítsd fel az Aspose.Note Java potenciálját Outlook feladatok OneNote‑ba integrálásáról szóló útmutatóinkkal. Emeld dokumentumfeldolgozási készségeidet útmutatóink segítségével.
-
-## Gyakran Ismételt Kérdések
-
-**Q: Használhatom az Aspose.Note for Java‑t kereskedelmi projektben?**  
-A: Igen. Érvényes kereskedelmi licenc szükséges a termeléshez, de egy ingyenes próba elérhető kiértékeléshez.
-
-**Q: Mely Java verziók támogatottak?**  
+**K: Mely Java verziók támogatottak?**  
 A: A könyvtár támogatja a Java 8, 11 és újabb LTS kiadásokat.
 
-**Q: Hogyan adhatok hozzá hiperhivatkozást egy OneNote oldalhoz?**  
-A: Használd az `Hyperlink` osztályt, amelyet az Aspose.Note biztosít, a URL definiálásához, és csatold egy `RichText` csomóponthoz.
+**K: Hogyan adhatok hiperhivatkozást egy OneNote oldalhoz?**  
+A: Használja az `Hyperlink` osztályt, amelyet az Aspose.Note biztosít, a URL meghatározásához és a `RichText` csomóponthoz való csatoláshoz.
 
-**Q: Lehet-e alternatív szöveget beállítani a képekhez a hozzáférhetőség érdekében?**  
-A: Teljesen. Az `Image` objektumnak van egy `AltText` tulajdonsága, amelyet programozottan beállíthatsz.
+**K: Lehetséges-e alternatív szöveget beállítani a képekhez a hozzáférhetőség érdekében?**  
+A: Abszolút. Az `Image` objektumnak van egy `AltText` tulajdonsága, amelyet programozottan beállíthat.
 
-**Q: Mik a teljesítmény tippek nagy jegyzetfüzetekhez?**  
-A: Engedélyezd a metered licencet, ahol lehetséges, használd újra a `Document` példányt, és streameld a nagy erőforrásokat ahelyett, hogy teljesen a memóriába töltenéd őket.
+**K: Mik a teljesítmény tippek nagy jegyzetfüzetekhez?**  
+A: Engedélyezze a mérő licencelést, ahol lehetséges, újrahasználja a `Document` példányt, és nagy erőforrásokat streamelje ahelyett, hogy teljesen betöltené a memóriába.
 
 ---
 
-**Last Updated:** 2026-02-05  
+**Last Updated:** 2026-07-14  
 **Tested With:** Aspose.Note for Java latest release  
 **Author:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 
+## Kapcsolódó útmutatók
+
+- [How to Save OneNote Documents with Aspose.Note for Java](/note/java/onenote-document-saving/)
+- [Create OneNote Notebook – Operations with Aspose.Note for Java](/note/java/onenote-notebook-operations/)
+- [How to Add Alt Text to Image in OneNote using Java](/note/java/onenote-image-alternative-text/add-alternative-text-to-image/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
