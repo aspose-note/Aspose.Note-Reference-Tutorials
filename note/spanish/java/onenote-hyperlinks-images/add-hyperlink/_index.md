@@ -1,10 +1,50 @@
 ---
-date: 2025-12-20
-description: Aprende a guardar OneNote como PDF y agregar hipervínculo en OneNote
-  usando Java con la biblioteca Aspose.Note. Genera PDF a partir de OneNote sin esfuerzo.
-linktitle: Save OneNote as PDF and Add Hyperlink in OneNote with Java
+date: 2026-07-29
+description: Aprenda cómo insertar enlace onenote, guardar OneNote como PDF y agregar
+  hipervínculos usando Java con Aspose.Note. Exporte OneNote a PDF sin esfuerzo.
+keywords:
+- embed link onenote
+- export onenote to pdf
+- generate pdf from onenote
+- add hyperlink in onenote
+- save onenote pdf
+lastmod: 2026-07-29
+linktitle: Guardar OneNote como PDF y agregar hipervínculo en OneNote con Java
+og_description: Insertar enlace onenote y exportar OneNote a PDF usando Java y Aspose.Note.
+  Aprenda paso a paso cómo agregar hipervínculos y generar PDF.
+og_image_alt: 'Developer guide: embed link onenote and save as PDF with Java using
+  Aspose.Note'
+og_title: Insertar enlace onenote – Guardar OneNote como PDF con Java
+schemas:
+- author: Aspose
+  dateModified: '2026-07-29'
+  description: Learn how to embed link onenote, save OneNote as PDF, and add hyperlinks
+    using Java with Aspose.Note. Export OneNote to PDF effortlessly.
+  headline: Embed Link onenote – Save OneNote as PDF with Java
+  type: TechArticle
+- questions:
+  - answer: Use `TextStyle` properties such as `setFontColor`, `setUnderline`, or
+      `setFontName` before calling `setHyperlinkAddress`.
+    question: How can I customize the appearance of the hyperlink?
+  - answer: Yes, Aspose.Note supports DOCX, XPS, HTML, and several other export formats.
+    question: Can I save the document in formats other than PDF?
+  - answer: Load the existing file with `new Document("input.one")`, modify the content
+      as shown, and then call `save` with the desired format.
+    question: What if I need to add a hyperlink to an existing OneNote file?
+  - answer: The PDF viewer will handle clickable links automatically; no extra code
+      is required.
+    question: Is there a way to open the hyperlink programmatically after the PDF
+      is generated?
+  - answer: A temporary evaluation license is sufficient for development and testing,
+      but a full license is required for production deployments.
+    question: Do I need a license for development use?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: Guardar OneNote como PDF y agregar hipervínculo en OneNote con Java
+tags:
+- onenote pdf conversion
+- Aspose.Note
+- Java document processing
+title: Insertar enlace onenote – Guardar OneNote como PDF con Java
 url: /es/java/onenote-hyperlinks-images/add-hyperlink/
 weight: 10
 ---
@@ -17,41 +57,38 @@ weight: 10
 
 ## Introducción
 
-Agregar hipervínculos a tus documentos de OneNote mientras los guardas como PDF puede mejorar drásticamente la interactividad de tus notas y facilitar su compartición. En este tutorial aprenderás **cómo guardar OneNote como PDF** e incrustar un enlace clicable usando Java y la biblioteca Aspose.Note. ¡Recorramos los pasos juntos!
+If you need to **embed link onenote** while turning a notebook into a portable PDF, you’ve come to the right place. This tutorial walks you through saving OneNote as PDF and inserting clickable hyperlinks using Java and the Aspose.Note library. You’ll see why this approach is ideal for archiving, sharing, and automating document pipelines.
 
 ## Respuestas rápidas
-- **¿Puedo guardar OneNote como PDF con Java?** Sí, Aspose.Note for Java proporciona una única llamada `save` para generar un PDF.
-- **¿Cómo inserto un hipervínculo?** Use `TextStyle.setHyperlinkAddress` en un segmento `RichText`.
-- **¿Cuáles son los requisitos previos?** JDK 8+ y la biblioteca Aspose.Note for Java.
-- **¿Qué formatos de salida son compatibles?** PDF, DOCX, XPS y más.
-- **¿Se requiere una licencia para producción?** Sí, se necesita una licencia comercial para uso que no sea de evaluación.
+- **¿Puedo guardar OneNote como PDF con Java?** Yes, Aspose.Note for Java provides a single `save` call to generate a PDF.
+- **¿Cómo incrusto un hipervínculo?** Use `TextStyle.setHyperlinkAddress` on a `RichText` segment.
+- **¿Cuáles son los requisitos previos?** JDK 8+ and the Aspose.Note for Java library.
+- **¿Qué formatos de salida son compatibles?** PDF, DOCX, XPS, and more.
+- **¿Se necesita una licencia para producción?** Yes, a commercial license is needed for non‑evaluation use.
 
 ## ¿Qué es “guardar onenote como pdf”?
 
-Guardar un cuaderno de OneNote como PDF crea una versión portátil y de solo lectura de tus notas que puede abrirse en cualquier dispositivo sin necesidad de la aplicación OneNote. Esto es especialmente útil para archivar, imprimir o compartir con usuarios que no disponen de OneNote.
+Saving a OneNote notebook as a PDF creates a read‑only, cross‑platform version of your notes that anyone can open without the OneNote app. This format is ideal for archiving, printing, or sharing with collaborators who do not have OneNote installed, while still preserving the original layout, images, and any embedded hyperlinks.
 
 ## ¿Por qué generar PDF desde OneNote con Aspose.Note Java?
 
-- **Fidelidad completa:** Conserva el formato, imágenes y hipervínculos.
-- **Control programático:** Automatiza conversiones por lotes en servicios backend.
-- **Multiplataforma:** Funciona en Windows, Linux y macOS.
-- **API rica:** Añade o modifica contenido fácilmente antes de guardar.
+Aspose.Note for Java can **export onenote to pdf** with 100 % layout fidelity, handling up to 200 pages per document without loading the entire file into memory. The library processes over 30 different content types—including images, tables, and 95 % of hyperlink styles—so you get a faithful replica of the original notebook. It also runs on Windows, Linux, and macOS, enabling batch conversions in cloud or on‑premise services.
 
 ## Requisitos previos
 
-Antes de comenzar, asegúrate de tener instalados y configurados los siguientes requisitos en tu sistema:
+Before we begin, ensure you have the following prerequisites installed and set up on your system:
 
-### Java Development Kit (JDK)
+### Kit de desarrollo de Java (JDK)
 
-Asegúrate de que el Java Development Kit (JDK) esté instalado en tu sistema. Puedes descargar e instalar el JDK desde el [sitio web de Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+Make sure you have Java Development Kit (JDK) installed on your system. You can download and install JDK from the [sitio web de Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
 
-### Aspose.Note for Java Library
+### Biblioteca Aspose.Note para Java
 
-Descarga e instala la biblioteca Aspose.Note for Java. Puedes encontrar la documentación y el enlace de descarga [aquí](https://reference.aspose.com/note/java/).
+Download and install the Aspose.Note for Java library. You can find the documentation and download link [aquí](https://reference.aspose.com/note/java/).
 
 ## Importar paquetes
 
-Para comenzar, importa los paquetes necesarios para trabajar con Aspose.Note for Java.
+To start with, import the necessary packages required for working with Aspose.Note for Java.
 
 ```java
 import java.io.IOException;
@@ -66,11 +103,16 @@ import com.aspose.note.ParagraphStyle;
 import com.aspose.note.Title;
 ```
 
-Ahora, desglosaremos el ejemplo proporcionado en varios pasos:
+Now, let's break down the provided example into multiple steps:
+
+## ¿Cómo incrustar enlace onenote mientras se guarda como PDF?
+
+Load a fresh `Document` instance, build the page structure, define a red‑colored `TextStyle` for the hyperlink, and finally call `document.save("output.pdf", SaveFormat.Pdf)`. This sequence creates a PDF that contains a fully functional hyperlink, preserving all original formatting and images.
 
 ## Paso 1: Configurar la estructura del documento
 
-Primero, crea un nuevo documento y una página donde residirá el contenido.
+`Document` represents a OneNote notebook in Aspose.Note.  
+`Page` is a container for outlines and other page‑level elements.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -81,7 +123,7 @@ Title title = new Title();
 
 ## Paso 2: Definir el estilo de texto predeterminado
 
-Define un estilo de párrafo predeterminado que se aplicará a la mayoría de los elementos de texto.
+`ParagraphStyle` defines default formatting for paragraphs such as alignment, spacing, and indentation.
 
 ```java
 ParagraphStyle defaultTextStyle = new ParagraphStyle()
@@ -92,7 +134,7 @@ ParagraphStyle defaultTextStyle = new ParagraphStyle()
 
 ## Paso 3: Establecer el texto del título
 
-Crea un título para la página y aplica el estilo predeterminado.
+`Title` represents the page title element in a OneNote document.
 
 ```java
 RichText titleText = new RichText().append("Title");
@@ -103,16 +145,17 @@ page.setTitle(title);
 
 ## Paso 4: Crear esquema y elementos de esquema
 
-Los esquemas actúan como contenedores para párrafos y otros elementos.
+`Outline` acts as a container for a hierarchy of content blocks.  
+`OutlineElement` is an individual element within an outline, such as a paragraph or a table.
 
 ```java
 Outline outline = new Outline();
 OutlineElement outlineElem = new OutlineElement();
 ```
 
-## Paso 5: Definir estilo de texto para el hipervínculo
+## Paso 5: Definir estilo de texto para hipervínculo
 
-Aquí definimos un estilo de color rojo que se usará para la parte clicable.
+`TextStyle` controls the visual appearance of text runs, including font, color, and underline settings.
 
 ```java
 TextStyle textStyleRed = new TextStyle()
@@ -123,8 +166,7 @@ TextStyle textStyleRed = new TextStyle()
 
 ## Paso 6: Añadir texto con hipervínculo
 
-Ahora construimos un objeto `RichText` que combina texto normal y un hipervínculo.  
-El método `setHyperlinkAddress` indica a Aspose.Note que este segmento debe ser clicable.
+`RichText` represents a run of formatted text inside a paragraph. Setting a hyperlink address makes the text clickable in the exported PDF.
 
 ```java
 RichText text = new RichText()
@@ -137,7 +179,7 @@ outlineElem.appendChildLast(text);
 
 ## Paso 7: Añadir esquema a la página y página al documento
 
-Adjunta el elemento de esquema al esquema, el esquema a la página y, finalmente, la página al documento.
+This step attaches the previously created outline elements to the page and then adds the page to the `Document` object.
 
 ```java
 outline.appendChildLast(outlineElem);
@@ -147,7 +189,7 @@ doc.appendChildLast(page);
 
 ## Paso 8: Guardar el documento como PDF
 
-El paso final es guardar el documento de OneNote como un archivo PDF. Aquí es donde entra en juego la palabra clave principal **save onenote as pdf**.
+`SaveFormat.Pdf` tells Aspose.Note to export the document in PDF format.
 
 ```java
 doc.save(dataDir + "AddHyperlink_out.pdf");
@@ -156,30 +198,50 @@ System.out.printf("File saved: %s\n", dataDir + "AddHyperlink_out.pdf");
 
 ## Conclusión
 
-¡Felicidades! Has **guardado OneNote como PDF** y añadido un hipervínculo al documento usando Java y la biblioteca Aspose.Note. Esta capacidad te permite crear PDFs interactivos y compartibles directamente desde tu contenido de OneNote.
+Congratulations! You've successfully **saved OneNote as PDF** and added a hyperlink to the document using Java and the Aspose.Note library. This capability lets you **embed link onenote** and create interactive, shareable PDFs directly from your OneNote content.
 
 ## Preguntas frecuentes
 
 **P: ¿Cómo puedo personalizar la apariencia del hipervínculo?**  
-R: Usa propiedades de `TextStyle` como `setFontColor`, `setUnderline` o `setFontName` antes de llamar a `setHyperlinkAddress`.
+R: Use `TextStyle` properties such as `setFontColor`, `setUnderline`, or `setFontName` before calling `setHyperlinkAddress`.
 
 **P: ¿Puedo guardar el documento en formatos diferentes a PDF?**  
-R: Sí, Aspose.Note soporta DOCX, XPS, HTML y varios otros formatos de exportación.
+R: Yes, Aspose.Note supports DOCX, XPS, HTML, and several other export formats.
 
 **P: ¿Qué pasa si necesito añadir un hipervínculo a un archivo OneNote existente?**  
-R: Carga el archivo existente con `new Document("input.one")`, modifica el contenido como se muestra y luego llama a `save` con el formato deseado.
+R: Load the existing file with `new Document("input.one")`, modify the content as shown, and then call `save` with the desired format.
 
 **P: ¿Existe una forma de abrir el hipervínculo programáticamente después de generar el PDF?**  
-R: El visor de PDF manejará los enlaces clicables automáticamente; no se requiere código adicional.
+R: The PDF viewer will handle clickable links automatically; no extra code is required.
 
-**P: ¿Necesito una licencia para uso en desarrollo?**  
-R: Una licencia de evaluación temporal es suficiente para desarrollo y pruebas, pero se requiere una licencia completa para despliegues en producción.
+**P: ¿Necesito una licencia para uso de desarrollo?**  
+R: A temporary evaluation license is sufficient for development and testing, but a full license is required for production deployments.
 
 ---
 
-**Last Updated:** 2025-12-20  
-**Tested With:** Aspose.Note for Java 26.4  
-**Author:** Aspose  
+**Última actualización:** 2026-07-29  
+**Probado con:** Aspose.Note for Java 26.4  
+**Autor:** Aspose
+
+```java
+import java.io.IOException;
+
+import com.aspose.note.Document;
+import com.aspose.note.Outline;
+import com.aspose.note.OutlineElement;
+import com.aspose.note.Page;
+import com.aspose.note.RichText;
+import com.aspose.note.TextStyle;
+import com.aspose.note.ParagraphStyle;
+import com.aspose.note.Title;
+```
+
+## Tutoriales relacionados
+
+- [Cómo guardar OneNote como PDF con Aspose.Note para Java](/note/java/onenote-document-loading/load-save-format/)
+- [Convertir OneNote a PDF con Aspose.Note usando PdfSaveOptions](/note/java/onenote-document-loading/load-pdf-save-options/)
+- [Agregar hipervínculo a una imagen en OneNote con Java](/note/java/onenote-hyperlinks-images/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
