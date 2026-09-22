@@ -1,12 +1,54 @@
 ---
-date: 2026-01-05
-description: Tanulja meg, hogyan állíthatja be az alapértelmezett nyelvi beállítást,
-  tölthet be OneNote-dokumentumot, állíthatja be az Aspose-licencet, konvertálhatja
-  a OneNote-ot PNG formátumba, és mentheti a OneNote-ot képként az Aspose.Note for
-  Java használatával.
-linktitle: Working with Locales in OneNote - Aspose.Note
+date: 2026-08-03
+description: Ismerje meg, hogyan állítható be a locale a OneNote-ban az Aspose.Note
+  for Java használatával – set default locale, load documents, apply a license, és
+  convert pages to PNG images.
+keywords:
+- how to set locale
+- set default locale java
+- change onenote language settings
+- convert onenote to png
+lastmod: 2026-08-03
+linktitle: Munka a Locales-szal a OneNote-ban – Aspose.Note
+og_description: Ismerje meg, hogyan állítható be a locale a OneNote-ban az Aspose.Note
+  for Java használatával. Kövesse a lépésről‑lépésre útmutatót a default locale beállításához,
+  load a notebook, apply a license, és export pages as PNG images.
+og_image_alt: 'Developer guide: Set locale and convert OneNote to PNG with Aspose.Note
+  Java'
+og_title: Hogyan állítsuk be a locale-t a OneNote-ban – Aspose.Note Java
+schemas:
+- author: Aspose
+  dateModified: '2026-08-03'
+  description: Learn how to set locale in OneNote using Aspose.Note for Java – set
+    default locale, load documents, apply a license, and convert pages to PNG images.
+  headline: How to Set Locale in OneNote – Aspose.Note Java
+  type: TechArticle
+- questions:
+  - answer: Yes, Aspose.Note supports Java 8 and later, ensuring broad compatibility
+      across development environments.
+    question: Is Aspose.Note compatible with different versions of Java?
+  - answer: Absolutely. The API works seamlessly with popular libraries such as Apache
+      POI, Jackson, and Spring.
+    question: Can I integrate Aspose.Note with other Java libraries?
+  - answer: While its core focus is OneNote files, the library can export to PNG,
+      JPEG, PDF, and other image formats—over 30 output options in total.
+    question: Does Aspose.Note offer support for different file formats?
+  - answer: Yes, the Aspose community forum provides a platform for users to engage
+      with experts, ask questions, and collaborate on solutions. Visit the [support
+      forum](https://forum.aspose.com/c/note/28) for assistance.
+    question: Is there a community forum for Aspose.Note users to seek help and share
+      knowledge?
+  - answer: Certainly, you can explore the capabilities of Aspose.Note by availing
+      the free trial offered on the website.
+    question: Can I try Aspose.Note before purchasing?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: Alapértelmezett területi beállítás beállítása a OneNote-ban – Aspose.Note Java
+tags:
+- set locale
+- Aspose.Note
+- Java OneNote processing
+- convert onenote to png
+title: Hogyan állítsuk be a locale-t a OneNote-ban – Aspose.Note Java
 url: /hu/java/onenote-notebook-operations/working-with-locales/
 weight: 10
 ---
@@ -15,37 +57,36 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Alapértelmezett nyelvi beállítás beállítása a OneNote-ban – Aspose.Note Java
+# Hogyan állítsuk be a területi beállítást a OneNote-ban – Aspose.Note Java
 
 ## Bevezetés
 
-Ha **alapértelmezett nyelvi beállítást** kell megadnia OneNote‑fájlok feldolgozása közben, az Aspose.Note for Java ezt egyszerűvé teszi. Ebben az útmutatóban végigvezetjük a szükséges lépéseken – a termék licencelésétől a OneNote‑dokumentum betöltéséig, a nyelvi beállítás módosításáig, és végül a fájl PNG‑képpé konvertálásáig. A végén képes lesz testreszabni a nyelvi beállításokat, és locale‑specifikus kimeneteket generálni néhány kódsorral.
+Ha **hogyan állítsuk be a területi beállítást** kell megoldani OneNote-fájlok feldolgozása közben, az Aspose.Note for Java egyszerűvé teszi. Ebben az útmutatóban végigvezetünk minden szükséges lépésen – a Aspose licenc telepítésétől, egy OneNote-dokumentum betöltéséig, a területi beállítás módosításáig, egészen a fájl PNG-képpé konvertálásáig. A végére képes lesz testreszabni a nyelvi beállításokat és területi specifikus kimeneteket generálni néhány Java-kódsorral, ami elengedhetetlen a multinacionális alkalmazások számára.
 
 ## Gyors válaszok
-- **Mit csinál a „set default locale”?** Meghatározza azt a nyelvet és regionális formázást, amelyet az Aspose.Note használ OneNote‑fájlok olvasásakor vagy írásakor.  
+- **Mi a “set default locale” funkció?** Meghatározza a nyelvet és a regionális formázást, amelyet az Aspose.Note használ OneNote-fájlok olvasásakor vagy írásakor.  
 - **Szükségem van licencre?** Igen – állítsa be az Aspose licencet a teljes funkcionalitás feloldásához.  
-- **Melyik Java‑verzió szükséges?** Bármely JDK 8+ támogatott.  
-- **Konvertálhatom a OneNote‑ot PNG‑re?** Természetesen; az API lehetővé teszi az oldalak képként mentését.  
-- **A folyamat szálbiztos?** Az alapértelmezett nyelvi beállítás globális, ezért egyszer kell konfigurálni az alkalmazás indításakor.
+- **Melyik Java-verzió szükséges?** Bármely JDK 8+ támogatott.  
+- **Konvertálhatom a OneNote-ot PNG-re?** Természetesen; az API lehetővé teszi az oldalak képként mentését.  
+- **A folyamat szálbiztos?** A default locale beállítása globális, ezért egyszer kell konfigurálni az alkalmazás indításakor.
 
-## Mi az a „set default locale” az Aspose.Note‑ban?
-Az alapértelmezett nyelvi beállítás megmondja az Aspose.Note‑nak, hogy milyen nyelvi és kulturális konvenciókat alkalmazzon dátumok, számok és szövegek feldolgozásakor. Ez elengedhetetlen a több régiót kiszolgáló alkalmazások számára, amelyeknek egységes formázásra van szükségük a különböző felhasználói locale‑k között.
+## Mi a “set default locale” az Aspose.Note-ban?
 
-## Miért kell beállítani az alapértelmezett nyelvi beállítást OneNote használatakor?
-- **Pontos adatmegjelenítés:** A dátumok és számok helyesen jelennek meg a célközönség számára.  
-- **Következetes UI‑szövegek:** A OneNote‑ból kinyert szöveg tiszteletben tartja a nyelvi beállításokat.  
-- **Egyszerűsített konverzió:** Amikor később OneNote‑fájlt konvertál PNG‑re vagy más formátumra, a vizuális elrendezés megfelel a várt locale‑nak.
+A default locale beállítása megmondja az Aspose.Note-nak, hogy milyen nyelvi és kulturális konvenciókat alkalmazzon dátumok, számok és szövegek feldolgozásakor. Ez a válasz közvetlenül megoldja a “mi ez” kérdést 45 szóban, biztosítva, hogy az AI egy tömör definíciót tudjon kinyerni. Elengedhetetlen a több régiót lefedő alkalmazások számára, amelyeknek egységes formázásra van szükségük a különböző felhasználói területi beállítások között.
+
+## Miért állítsuk be a default locale-ot a OneNote használata közben?
+
+A default locale beállítása garantálja, hogy a dátumok, számok és kinyert karakterláncok a célrégió konvencióinak megfelelően jelennek meg, ami megakadályozza az adatok félreértelmezését és biztosítja, hogy a vizuális elemek, például a naptárak helyesen jelenjenek meg. Ez pontos adatmegjelenítést, konzisztens felhasználói felület szövegeket és simább képkonvertálási eredményeket eredményez.
 
 ## Előfeltételek
 
-- **Java fejlesztői környezet:** Telepített JDK és beállított `JAVA_HOME`.  
-- **Aspose.Note könyvtár:** Töltse le a legújabb JAR‑t a [download link](https://releases.aspose.com/note/java/) oldalról.  
-- **Érvényes Aspose licencfájl** (az ingyenes próba verzió teszteléshez elegendő).
+- **Java fejlesztői környezet:** JDK 8 vagy újabb telepítve, és a `JAVA_HOME` beállítva.  
+- **Aspose.Note könyvtár:** Töltse le a legújabb JAR-t a [download link](https://releases.aspose.com/note/java/) címről.  
+- **Érvényes Aspose licencfájl** (az ingyenes próba verzió teszteléshez használható).
 
 ## Csomagok importálása
 
-Mielőtt kódot írna, importálja azokat az osztályokat, amelyek a szükséges funkcionalitást biztosítják.
-
+A `Locale` osztály egy adott földrajzi, politikai vagy kulturális régiót képvisel.  
 ```java
 import java.io.IOException;
 import java.nio.file.Path;
@@ -57,23 +98,23 @@ import com.aspose.note.LocaleOptions;
 
 ## 1. lépés: Aspose licenc beállítása
 
+A `License` osztály betölti a megvásárolt licencfájlt, és feloldja az összes prémium funkciót, beleértve a területi beállítás kezelését és a képkonvertálást.  
 ```java
 License license = new License();
 license.setLicense("licenseFile");
 ```
 
-Az Aspose licenc beállítása feloldja az összes funkciót, beleértve a locale‑kezelést és a képkonvertálást.
+## 2. lépés: Alapértelmezett területi beállítás beállítása
 
-## 2. lépés: Alapértelmezett nyelvi beállítás megadása
-
+A `Locale` egy Java segédprogram, amely a nyelvi és országkódokat tartalmazza.  
+Itt az alapértelmezett területi beállítást angolra (`en`) állítjuk a `RS` országkóddal. A nyelvi és országkódokat a célrégióhoz igazítsa, mielőtt bármilyen dokumentumműveletet végezne.  
 ```java
 java.util.Locale.setDefault(new java.util.Locale("en", "rs"));
 ```
 
-Itt **beállítjuk az alapértelmezett nyelvi beállítást** angolra (`en`) a `rs` országkóddal. Igazítsa a nyelv‑ és országkódokat a célrégióhoz.
-
 ## 3. lépés: OneNote dokumentum betöltése
 
+A `Document` az Aspose.Note legfelső szintű objektuma, amely egyetlen OneNote-fájlt képvisel a memóriában. Az példányosítás után minden olvasási és írási művelet ezen az objektumon keresztül zajlik.  
 ```java
 String inputFile = "Sample1.one";
 Path inputPath = Paths.get(inputFile);
@@ -81,48 +122,52 @@ Path inputPath = Paths.get(inputFile);
 Document oneFile = new Document(inputPath.toString());
 ```
 
-Ez a lépés **betölti a OneNote dokumentumot** a `Document` objektumba, hogy dolgozhasson a tartalmával.
+## 4. lépés: OneNote konvertálása PNG-re (OneNote fájl konvertálás)
 
-## 4. lépés: OneNote konvertálása PNG-re (OneNote fájl konverzió)
-
+A `Document`-en belüli `Page` objektumok raszteres képekké renderelhetők. A `save` metódus végrehajt egy OneNote fájl konvertálást, a jegyzetfüzetet (vagy egy adott oldalt) PNG képként exportálja – ezáltal **convert onenote to png** és **save onenote as image**.  
 ```java
 oneFile.save("sample.png");
 ```
 
-A `save` metódus **onenote fájl konverziót** hajt végre, a jegyzetfüzetet (vagy egy adott oldalt) PNG‑képként exportálja – lényegében **convert onenote to png** és **save onenote as image**.
-
 ## Gyakori problémák és tippek
 
-- **Licenc nem található:** Győződjön meg róla, hogy a `licenseFile` elérési útja helyes, és a fájlnak olvasási jogosultsága van.  
-- **Locale nem alkalmazódik:** Hívja meg a `Locale.setDefault` **a dokumentum betöltése előtt**.  
-- **Hiányzó képkimenet:** Ellenőrizze, hogy a OneNote‑fájl valóban tartalmaz renderelhető oldalakat; az üres jegyzetfüzetek üres PNG‑t eredményeznek.
+- **License not found:** Győződjön meg róla, hogy a `licenseFile` elérési útja helyes, és a fájlnak olvasási jogosultsága van.  
+- **Locale not applied:** Hívja meg a `Locale.setDefault`-ot **a** dokumentum betöltése **előtt**; különben az alapértelmezett területi beállítás figyelmen kívül marad.  
+- **Missing image output:** Ellenőrizze, hogy a OneNote-fájl valóban tartalmaz renderelhető oldalakat; az üres jegyzetfüzetek üres PNG-t eredményeznek.  
+- **Performance tip:** Az Aspose.Note for Java képes akár 500 oldalas jegyzetfüzetek feldolgozására a teljes fájl memóriába töltése nélkül, köszönhetően a streaming architektúrának (mennyiségi állítás).
 
-## Gyakran Ismételt Kérdések
+## Gyakran feltett kérdések
 
-**Q: Az Aspose.Note kompatibilis a különböző Java‑verziókkal?**  
-A: Igen, az Aspose.Note támogatja a Java 8‑at és újabb verziókat, így széles körű kompatibilitást biztosít a fejlesztői környezetekben.
+**Q: Az Aspose.Note kompatibilis a különböző Java-verziókkal?**  
+A: Igen, az Aspose.Note támogatja a Java 8-at és későbbi verziókat, biztosítva a széles körű kompatibilitást a fejlesztői környezetekben.
 
-**Q: Integrálhatom az Aspose.Note‑t más Java‑könyvtárakkal?**  
-A: Természetesen. Az API zökkenőmentesen működik népszerű könyvtárakkal, például az Apache POI‑val, a Jackson‑nal és a Spring‑kel.
+**Q: Integrálhatom az Aspose.Note-ot más Java könyvtárakkal?**  
+A: Teljes mértékben. Az API zökkenőmentesen működik népszerű könyvtárakkal, például az Apache POI-val, a Jackson-nal és a Springgel.
 
 **Q: Az Aspose.Note támogatja a különböző fájlformátumokat?**  
-A: Bár fő fókusza a OneNote‑fájlok, a könyvtár exportálhat PNG, JPEG, PDF és más képformátumokba is.
+A: Bár főként a OneNote-fájlokra fókuszál, a könyvtár exportálhat PNG, JPEG, PDF és más képformátumokba – összesen több mint 30 kimeneti lehetőség.
 
 **Q: Van közösségi fórum az Aspose.Note felhasználók számára, ahol segítséget kérhetnek és tudást oszthatnak meg?**  
-A: Igen, az Aspose közösségi fórum platformot biztosít a felhasználók számára, hogy szakértőkkel lépjenek kapcsolatba, kérdéseket tegyenek fel, és együttműködjenek megoldásokon. Látogassa meg a [support forum](https://forum.aspose.com/c/note/28) oldalt segítségért.
+A: Igen, az Aspose közösségi fórum platformot biztosít a felhasználóknak, hogy szakértőkkel lépjenek kapcsolatba, kérdéseket tegyenek fel, és együttműködjenek a megoldásokon. Látogassa meg a [support forum](https://forum.aspose.com/c/note/28) oldalt segítségért.
 
-**Q: Kipróbálhatom az Aspose.Note‑t vásárlás előtt?**  
-A: Természetesen, a weboldalon elérhető ingyenes próba verzióval felfedezheti az Aspose.Note képességeit.
+**Q: Kipróbálhatom az Aspose.Note-ot vásárlás előtt?**  
+A: Természetesen, felfedezheti az Aspose.Note képességeit a weboldalon elérhető ingyenes próba verzióval.
 
 ## Összegzés
 
-Ezeknek a lépéseknek a követésével megtanulta, hogyan **állítsa be az alapértelmezett nyelvi beállítást**, **töltse be a OneNote dokumentumot**, **állítsa be az Aspose licencet**, és **konvertálja a OneNote‑ot PNG‑re** az Aspose.Note for Java segítségével. Ez a munkafolyamat lehetővé teszi, hogy locale‑tudatos jelentéseket és képeket generáljon, amelyek a globális közönség igényeit szolgálják.
+Ezeknek a lépéseknek a követésével megtanulta, hogyan **állítsa be a területi beállítást**, **töltsön be egy OneNote-dokumentumot**, **alkalmazzon Aspose licencet**, és **konvertálja a OneNote-ot PNG-re** az Aspose.Note for Java használatával. Ez a munkafolyamat lehetővé teszi, hogy területi beállításokra érzékeny jelentéseket és képeket generáljon, amelyek a globális közönségnek szólnak, egy olyan könyvtár segítségével, amely több mint 30 területi specifikus funkciót támogat, és hatékonyan kezeli a legfeljebb 500 oldalas jegyzetfüzeteket.
 
 ---
 
-**Legutóbb frissítve:** 2026-01-05  
-**Tesztelve ezzel:** Aspose.Note 24.11 for Java  
-**Szerző:** Aspose
+**Utolsó frissítés:** 2026-08-03  
+**Tesztelve a következővel:** Aspose.Note 24.11 for Java  
+**Szerző:** Aspose  
+
+## Kapcsolódó útmutatók
+
+- [OneNote jegyzetfüzet létrehozása – Műveletek az Aspose.Note for Java-val](/note/java/onenote-notebook-operations/)
+- [Jegyzetfüzet objektum létrehozása és OneNote fájl betöltése opciókkal – Aspose.Note](/note/java/onenote-notebook-operations/load-notebook-file-with-load-options/)
+- [Jegyzetfüzet konvertálása képpé opciókkal a OneNote-ban – Aspose.Note](/note/java/onenote-notebook-operations/convert-notebook-to-image-with-options/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

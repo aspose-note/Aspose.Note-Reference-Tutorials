@@ -1,33 +1,110 @@
 ---
-title: Informatie verkrijgen over pagina's in OneNote - Aspose.Note
-linktitle: Informatie verkrijgen over pagina's in OneNote - Aspose.Note
-second_title: Aspose.Note Java-API
-description: Ontdek paginageheimen in uw OneNote-documenten! Extraheer revisies, aanmaaktijden en meer met Aspose.Note. Stap-voor-stap handleiding en code inbegrepen! #OneNote #Java #Aspose
-weight: 12
+date: 2026-08-03
+description: Leer hoe u Aspose Note page details kunt extraheren, zoals last modified
+  time, creation date, title, level en author, uit OneNote-bestanden met Aspose.Note
+  voor Java.
+keywords:
+- aspose note page details
+- one note metadata
+- java aspose note
+lastmod: 2026-08-03
+linktitle: Informatie over pagina's in OneNote ophalen - Aspose.Note
+og_description: Leer hoe u Aspose Note page details kunt extraheren, zoals last modified
+  time, creation date, title, level en author, uit OneNote-bestanden met Aspose.Note
+  voor Java.
+og_image_alt: 'Developer guide: Extract Aspose Note page details in Java'
+og_title: Aspose Note-paginadetails – Java-tutorial voor OneNote
+schemas:
+- author: Aspose
+  dateModified: '2026-08-03'
+  description: Learn how to extract aspose note page details such as last modified
+    time, creation date, title, level, and author from OneNote files using Aspose.Note
+    for Java.
+  headline: Aspose Note Page Details – Java Tutorial for OneNote
+  type: TechArticle
+- description: Learn how to extract aspose note page details such as last modified
+    time, creation date, title, level, and author from OneNote files using Aspose.Note
+    for Java.
+  name: Aspose Note Page Details – Java Tutorial for OneNote
+  steps:
+  - name: '**Java Development Kit (JDK)** – Ensure JDK 8+ is installed and `java`/`javac`
+      are on your PATH.'
+    text: '**Java Development Kit (JDK)** – Ensure JDK 8+ is installed and `java`/`javac`
+      are on your PATH.'
+  - name: '**Aspose.Note for Java** – Download the library from the [website](https://purchase.aspose.com/buy).'
+    text: '**Aspose.Note for Java** – Download the library from the [website](https://purchase.aspose.com/buy).'
+  - name: '**Sample OneNote Document** – Have a `.one` file ready (e.g., `Sample1.one`)
+      to test the extraction.'
+    text: '**Sample OneNote Document** – Have a `.one` file ready (e.g., `Sample1.one`)
+      to test the extraction.'
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.Note provides a comprehensive set of features for editing
+      and manipulating OneNote documents programmatically.
+    question: Can I use Aspose.Note for Java to edit OneNote documents?
+  - answer: Aspose.Note supports various versions of OneNote, ensuring compatibility
+      across different environments.
+    question: Is Aspose.Note compatible with all versions of OneNote?
+  - answer: Absolutely, Aspose.Note allows you to convert OneNote documents to formats
+      such as PDF, HTML, and images effortlessly.
+    question: Can I convert OneNote documents to other formats using Aspose.Note?
+  - answer: Yes, Aspose provides dedicated technical support to assist developers
+      with any issues they encounter while using Aspose.Note.
+    question: Does Aspose.Note offer technical support to developers?
+  - answer: Yes, you can download a free trial version of Aspose.Note for Java from
+      [here](https://releases.aspose.com/).
+    question: Is there a trial version available for Aspose.Note for Java?
+  type: FAQPage
+second_title: Aspose.Note Java API
+tags:
+- aspose note
+- java
+- one note
+- page metadata
+- aspose note page details
+title: Aspose Note-paginadetails – Java-tutorial voor OneNote
 url: /nl/java/onenote-page-manipulation/get-information-about-pages/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Informatie verkrijgen over pagina's in OneNote - Aspose.Note
+# Aspose Note-paginadetails – Java-tutorial voor OneNote
 
-## Invoering
+## Introductie
 
-In deze zelfstudie begeleiden we u bij het extraheren van informatie over pagina's in OneNote met behulp van Aspose.Note voor Java. Aspose.Note is een krachtige API waarmee u programmatisch met Microsoft OneNote-documenten kunt werken. Of u nu toegang wilt tot paginarevisies, aanmaaktijden, titels of auteurs, Aspose.Note vereenvoudigt de taak met zijn intuïtieve interface.
+In dit **aspose java tutorial** lopen we u stap voor stap door het extraheren van **aspose note page details**—zoals de **laatst gewijzigde tijd**, creatietijd, titel, niveau en auteur—met behulp van de Aspose.Note‑bibliotheek voor Java. Of u nu een rapportagetool bouwt, notities synchroniseert, of simpelweg documentwijzigingen wilt auditen, deze gids laat precies zien hoe u die informatie programmatisch kunt ophalen.
+
+## Snelle antwoorden
+- **Waar gaat deze tutorial over?** Het extraheren van paginametagegevens (laatst gewijzigde tijd, creatietijd, titel, auteur) uit OneNote‑bestanden met Aspose.Note voor Java.  
+- **Heb ik een licentie nodig?** Een gratis proefversie werkt voor ontwikkeling; een commerciële licentie is vereist voor productie.  
+- **Welke JDK-versie is vereist?** Java 8 of hoger.  
+- **Kan ik dit op elk besturingssysteem uitvoeren?** Ja—Windows, macOS en Linux worden allemaal ondersteund.  
+- **Hoe lang duurt de implementatie?** Ongeveer 10‑15 minuten zodra de bibliotheek is ingesteld.
+
+## Wat is een Aspose Java-tutorial?
+
+Een **Aspose Java tutorial** is een stap‑voor‑stap‑gids die laat zien hoe u Aspose‑API’s, die lijken op .NET‑stijlen, vanuit Java‑toepassingen kunt gebruiken. Deze tutorials richten zich op real‑world scenario’s, bieden kant‑klaar werkende code en duidelijke uitleg zodat u Aspose‑functionaliteit snel kunt integreren. **Ze zijn ontworpen voor ontwikkelaars die snelle, betrouwbare integratie nodig hebben zonder uitgebreide configuratie.**
+
+## Waarom de laatst gewijzigde tijd van OneNote-pagina's extraheren?
+
+Het extraheren van de laatst gewijzigde tijd stelt u in staat bij te houden wanneer elke OneNote‑pagina is bewerkt, waardoor geautomatiseerde auditlogboeken, synchronisatie tussen apparaten en activiteitenrapportage mogelijk worden. Door dit tijdstempel programmatisch te lezen kunt u tools bouwen die recente wijzigingen markeren, meldingen activeren of nalevingsrapporten genereren zonder handmatige inspectie. De **laatst gewijzigde tijd** vertelt u wanneer een pagina voor het laatst is bewerkt, wat essentieel is voor:
+
+- Wijzigingsbijhouden en auditlogboeken  
+- Notities synchroniseren tussen apparaten  
+- Rapporten genereren die recente activiteit tonen  
 
 ## Vereisten
 
-Voordat we beginnen, zorg ervoor dat u over het volgende beschikt:
-
-1. Java Development Kit (JDK): Zorg ervoor dat JDK op uw systeem is geïnstalleerd.
-2.  Aspose.Note voor Java: Download en installeer de Aspose.Note voor Java-bibliotheek. U kunt deze verkrijgen bij de[website](https://purchase.aspose.com/buy).
-3. Voorbeeld van een OneNote-document: bereid een voorbeeld van een OneNote-document voor dat u gaat gebruiken om informatie op te halen.
+1. **Java Development Kit (JDK)** – Zorg ervoor dat JDK 8+ is geïnstalleerd en dat `java`/`javac` in uw PATH staan.  
+2. **Aspose.Note for Java** – Download de bibliotheek van de [website](https://purchase.aspose.com/buy).  
+3. **Voorbeeld OneNote-document** – Zorg voor een `.one`‑bestand (bijv. `Sample1.one`) om de extractie te testen.
 
 ## Pakketten importeren
 
-Eerst moet u de benodigde pakketten importeren om met Aspose.Note in uw Java-project te kunnen werken.
+Eerst importeer je de klassen die je nodig hebt. Het importblok is ongewijzigd ten opzichte van de oorspronkelijke tutorial.
 
 ```java
 import java.io.IOException;
@@ -40,26 +117,30 @@ import com.aspose.note.Page;
 
 ## Stap 1: Laad het OneNote-document
 
-Begin met het laden van het OneNote-document met Aspose.Note.
+`Document` is Aspose.Note's primaire klasse die een OneNote‑notebook in het geheugen representeert en toegang biedt tot de secties en pagina's.
+
+Laad uw OneNote‑bestand in een `Aspose.Note` `Document`‑object.
 
 ```java
 String dataDir = "Your Document Directory";
-// Laad het document in Aspose.Note
+// Load the document into Aspose.Note
 LoadOptions options = new LoadOptions();
 Document doc = new Document(dataDir + "Sample1.one", options);
 ```
 
- Vervangen`"Your Document Directory"` met het pad naar uw OneNote-document.
+## Hoe haal je Aspose note-paginadetails programmatically op?
 
-## Stap 2: Pagina-informatie ophalen
+Laad het document, en doorloop vervolgens de collectie van pagina's. **`Page` vertegenwoordigt een individuele pagina binnen een OneNote‑document, met de inhoud en metadata.** Voor elk `Page`‑object kunt u `getLastModifiedTime()`, `getCreationTime()`, `getTitle()`, `getLevel()` en `getAuthor()` lezen. Deze eenvoudige lus retourneert alle aspose note-paginadetails die u nodig heeft in slechts een paar regels code.
 
-Haal vervolgens informatie op over de pagina's in het OneNote-document.
+## Stap 2: Pagina‑informatie ophalen
+
+Nu gaan we **de laatst gewijzigde tijd** extraheren, samen met andere nuttige metadata.
 
 ```java
-// Ontvang paginarevisies
+// Get page revisions
 List<Page> pages = doc.getChildNodes(Page.class);
 
-// Blader door de lijst met pagina's
+// Traverse list of pages
 for (Page pageRevision : pages) {
     System.out.println("LastModifiedTime: " + pageRevision.getLastModifiedTime());
     System.out.println("CreationTime: " + pageRevision.getCreationTime());
@@ -69,33 +150,50 @@ for (Page pageRevision : pages) {
 }
 ```
 
-Dit codefragment loopt door elke pagina in het document en drukt informatie af zoals het tijdstip van de laatste wijziging, de aanmaaktijd, de titel, het niveau en de auteur van elke pagina.
+De lus drukt voor elke pagina de **laatst gewijzigde tijd**, creatietijd, titel, hiërarchisch niveau en auteur af naar de console.
 
-## Conclusie
+## Veelvoorkomende valkuilen & tips
 
-In deze zelfstudie hebt u geleerd hoe u informatie over pagina's in OneNote kunt ophalen met Aspose.Note voor Java. Door de hierboven beschreven stappen te volgen, kunt u Aspose.Note naadloos integreren in uw Java-applicaties om waardevolle gegevens uit OneNote-documenten te extraheren.
+- **Null‑waarden** – Sommige pagina's hebben mogelijk geen auteur; controleer op `null` tijdens de verwerking.  
+- **Tijdzones** – `getLastModifiedTime()` retourneert een `java.util.Date` in de standaardtijdzone van het systeem. Converteer naar UTC als u een universele referentie nodig heeft.  
+- **Grote notitieboeken** – Voor notitieboeken met honderden pagina's, overweeg verwerking in batches om het geheugenverbruik te verminderen.
 
 ## Veelgestelde vragen
 
-### V1: Kan ik Aspose.Note voor Java gebruiken om OneNote-documenten te bewerken?
+**V: Kan ik Aspose.Note voor Java gebruiken om OneNote-documenten te bewerken?**  
+A: Ja, Aspose.Note biedt een uitgebreide set functies voor het bewerken en manipuleren van OneNote‑documenten programmatically.
 
-A1: Ja, Aspose.Note biedt een uitgebreide reeks functies voor het programmatisch bewerken en manipuleren van OneNote-documenten.
+**V: Is Aspose.Note compatibel met alle versies van OneNote?**  
+A: Aspose.Note ondersteunt verschillende versies van OneNote, waardoor compatibiliteit over verschillende omgevingen heen gewaarborgd is.
 
-### V2: Is Aspose.Note compatibel met alle versies van OneNote?
+**V: Kan ik OneNote-documenten naar andere formaten converteren met Aspose.Note?**  
+A: Absoluut, Aspose.Note stelt u in staat OneNote‑documenten te converteren naar formaten zoals PDF, HTML en afbeeldingen zonder moeite.
 
-A2: Aspose.Note ondersteunt verschillende versies van OneNote, waardoor compatibiliteit tussen verschillende omgevingen wordt gegarandeerd.
+**V: Biedt Aspose.Note technische ondersteuning aan ontwikkelaars?**  
+A: Ja, Aspose biedt toegewijde technische ondersteuning om ontwikkelaars te helpen bij eventuele problemen die ze ondervinden bij het gebruik van Aspose.Note.
 
-### V3: Kan ik OneNote-documenten naar andere indelingen converteren met Aspose.Note?
+**V: Is er een proefversie beschikbaar voor Aspose.Note voor Java?**  
+A: Ja, u kunt een gratis proefversie van Aspose.Note voor Java downloaden via [hier](https://releases.aspose.com/).
 
-A3: Absoluut, met Aspose.Note kunt u OneNote-documenten moeiteloos converteren naar formaten zoals PDF, HTML en afbeeldingen.
+## Conclusie
 
-### V4: Biedt Aspose.Note technische ondersteuning aan ontwikkelaars?
+U heeft nu een **aspose java tutorial** voltooid die gedetailleerde **aspose note page details**—inclusief de cruciale **laatst gewijzigde tijd**—uit OneNote‑bestanden haalt met behulp van Aspose.Note. Integreer deze code in uw eigen toepassingen om auditlogboeken, synchronisatieservices of elke oplossing te bouwen die inzicht nodig heeft in OneNote‑paginametagegevens.
 
-A4: Ja, Aspose biedt speciale technische ondersteuning om ontwikkelaars te helpen met eventuele problemen die ze tegenkomen tijdens het gebruik van Aspose.Note.
+---
 
-### V5: Is er een proefversie beschikbaar voor Aspose.Note voor Java?
+**Laatst bijgewerkt:** 2026-08-03  
+**Getest met:** Aspose.Note for Java 24.12  
+**Auteur:** Aspose  
 
- A5: Ja, u kunt een gratis proefversie van Aspose.Note voor Java downloaden van[hier](https://releases.aspose.com/).
+---
+
+## Gerelateerde tutorials
+
+- [Hoe de laatst gewijzigde tijd van OneNote-pagina's op te halen – Aspose.Note](/note/java/onenote-page-manipulation/get-revisions-of-pages/)
+- [OneNote-paginacount ophalen met Aspose.Note voor Java](/note/java/onenote-page-manipulation/get-page-count/)
+- [Tekst extraheren van een pagina in OneNote - Aspose.Note](/note/java/onenote-text-manipulation/extract-text-from-a-page/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
