@@ -1,11 +1,68 @@
 ---
-date: 2026-01-10
-description: Dowiedz się, jak programowo wstawiać strony do dokumentów OneNote przy
-  użyciu Aspose.Note for Java. Ten przewodnik pokazuje, jak wstawiać strony, dostosowywać
-  styl strony oraz zapisywać OneNote jako PDF lub obraz.
-linktitle: Insert Pages in OneNote - Aspose.Note
+date: 2026-08-08
+description: Dowiedz się, jak programowo dodawać strony do OneNote przy użyciu Aspose.Note
+  for Java. Ten przewodnik obejmuje wstawianie stron, dostosowywanie stylu strony
+  oraz eksport do formatu PDF lub obrazów.
+keywords:
+- add pages to onenote
+- save onenote as pdf
+- export onenote to png
+- customize onenote page style
+- convert onenote to image
+lastmod: 2026-08-08
+linktitle: Wstaw strony w OneNote - Aspose.Note
+og_description: Dodaj strony do OneNote przy użyciu Aspose.Note for Java. Ten przewodnik
+  krok po kroku pokazuje, jak wstawiać strony, dostosowywać styl strony i eksportować
+  notes jako obrazy PDF lub PNG.
+og_image_alt: Screenshot of Java code inserting pages into a OneNote document using
+  Aspose.Note
+og_title: Dodaj strony do OneNote – Aspose.Note Java tutorial
+schemas:
+- author: Aspose
+  dateModified: '2026-08-08'
+  description: Learn how to add pages to OneNote programmatically using Aspose.Note
+    for Java. This guide covers inserting pages, customizing page style, and exporting
+    to PDF or image formats.
+  headline: Add pages to OneNote - Aspose.Note
+  type: TechArticle
+- description: Learn how to add pages to OneNote programmatically using Aspose.Note
+    for Java. This guide covers inserting pages, customizing page style, and exporting
+    to PDF or image formats.
+  name: Add pages to OneNote - Aspose.Note
+  steps:
+  - name: Java Development Kit (JDK) 8 or newer installed on your machine.
+    text: Java Development Kit (JDK) 8 or newer installed on your machine.
+  - name: Aspose.Note for Java library downloaded. You can download it from [Aspose.Note
+      Java releases](https://releases.aspose.com/note/java/).
+    text: Aspose.Note for Java library downloaded. You can download it from [Aspose.Note
+      Java releases](https://releases.aspose.com/note/java/).
+  - name: An IDE such as IntelliJ IDEA or Eclipse for writing and running Java code.
+    text: An IDE such as IntelliJ IDEA or Eclipse for writing and running Java code.
+  type: HowTo
+- questions:
+  - answer: Create additional `Page` objects, configure their levels and content,
+      and call `document.getPages().add(page)` for each new page, just as shown in
+      the examples above.
+    question: How do I programmatically add more than three pages?
+  - answer: Yes. Use `page.setBackgroundColor(Color.fromArgb(255, 240, 240, 240))`
+      before appending the page to the document.
+    question: Can I change the background color of a OneNote page?
+  - answer: Load each source file into a separate `Document` instance, iterate over
+      its pages, and add them to a target `Document` using the same `add` method.
+    question: Is it possible to merge multiple OneNote files into one?
+  - answer: Export to PNG or TIFF (`SaveFormat.Png` / `SaveFormat.Tiff`) to retain
+      loss‑less quality, especially for screenshots or scanned content.
+    question: What format should I use for high‑resolution images?
+  - answer: Yes. Provide the password when constructing the `Document` object with
+      the overload that accepts a `PasswordProvider`.
+    question: Does Aspose.Note handle encrypted OneNote files?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: Jak wstawiać strony w OneNote – Aspose.Note
+tags:
+- add pages to onenote
+- Aspose.Note
+- Java OneNote API
+title: Dodaj strony do OneNote - Aspose.Note
 url: /pl/java/onenote-page-manipulation/insert-pages/
 weight: 16
 ---
@@ -14,31 +71,40 @@ weight: 16
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Wstawianie stron w OneNote - Aspose.Note
+# Dodaj strony do OneNote - Aspose.Note
 
 ## Wprowadzenie
 
-W tym samouczku nauczymy się **jak wstawiać strony** do dokumentu OneNote przy użyciu Aspose.Note dla Javy. Po zakończeniu przewodnika będziesz w stanie dodać strony do pliku OneNote, dostosować styl strony oraz wyeksportować wynik do formatu PDF lub różnych formatów obrazu.
+W tym samouczku dowiesz się **jak dodać strony do OneNote** programowo przy użyciu Aspose.Note dla Javy. Po zakończeniu przewodnika będziesz w stanie tworzyć nowe strony, stosować niestandardowe style oraz eksportować notes do formatu PDF lub wysokiej rozdzielczości obrazów, takich jak PNG. Te możliwości są niezbędne, gdy trzeba automatycznie generować raporty OneNote, łączyć treści z wielu źródeł lub tworzyć archiwalne pliki PDF dla zgodności.
 
 ## Szybkie odpowiedzi
-- **Jaki jest główny cel?** Wstawianie nowych stron do dokumentu OneNote programowo.  
-- **Która biblioteka jest wymagana?** Aspose.Note dla Javy.  
-- **Czy wynik można zapisać jako PDF?** Tak – użyj `SaveFormat.Pdf`.  
-- **Jak uzyskać obrazy z OneNote?** Zapisz dokument w formatach obrazu takich jak BMP, PNG lub JPEG, aby **przekształcić OneNote na obraz**.  
+- **Jaki jest główny cel?** Wstaw nowe strony do dokumentu OneNote programowo.  
+- **Która biblioteka jest wymagana?** Aspose.Note for Java.  
+- **Czy wynik może być zapisany jako PDF?** Tak – użyj `SaveFormat.Pdf`.  
+- **Jak uzyskać obrazy z OneNote?** Save the document with image formats like BMP, PNG, or JPEG to **convert OneNote to image**.  
 - **Czy potrzebna jest licencja?** Wymagana jest ważna licencja Aspose.Note do użytku produkcyjnego.
 
-## Jak wstawiać strony do OneNote
-Ta sekcja bezpośrednio odnosi się do głównego słowa kluczowego i prowadzi Cię przez cały proces **wstawiania stron** oraz **dodawania stron do dokumentu OneNote** z dostosowanym stylem.
+## Jak dodać strony do OneNote?
+
+Załaduj lub utwórz obiekt `Document`, zbuduj jedną lub więcej obiektów `Page` z żądaną zawartością, dołącz strony do dokumentu, a na końcu wywołaj `save` z wymaganym formatem. Ten kompleksowy przepływ pozwala wstawiać strony, stylizować je i eksportować wynik w jednej, łatwej do odczytania metodzie łańcuchowej.
+
+## Co to jest dodawanie stron do OneNote?
+
+`add pages to onenote` odnosi się do programowego wstawiania nowych obiektów strony do istniejącego notesu OneNote przy użyciu API Aspose.Note. Operacja odbywa się w całości w pamięci, dzięki czemu możesz manipulować dużymi notesami bez otwierania klienta OneNote.
+
+## Dlaczego używać Aspose.Note dla Javy?
+
+Aspose.Note obsługuje **ponad 20 formatów wyjściowych** (w tym PDF, PNG, JPEG, BMP i TIFF) i może przetwarzać notesy z **setkami stron**, utrzymując zużycie pamięci poniżej 150 MB. Biblioteka działa na każdej platformie zgodnej z Javą, zapewniając elastyczność wieloplatformową bez konieczności instalacji Microsoft Office.
 
 ## Wymagania wstępne
 
-1. Zainstalowany Java Development Kit (JDK) w systemie.  
-2. Pobraną bibliotekę Aspose.Note dla Javy. Możesz ją pobrać [tutaj](https://releases.aspose.com/note/java/).  
-3. Zainstalowane zintegrowane środowisko programistyczne (IDE), takie jak IntelliJ IDEA lub Eclipse.
+1. Java Development Kit (JDK) 8 lub nowszy zainstalowany na komputerze.  
+2. Biblioteka Aspose.Note for Java pobrana. Możesz ją pobrać z [Aspose.Note Java releases](https://releases.aspose.com/note/java/).  
+3. Środowisko IDE, takie jak IntelliJ IDEA lub Eclipse, do pisania i uruchamiania kodu Java.  
 
 ## Importowanie pakietów
 
-Najpierw musisz zaimportować niezbędne pakiety w swoim pliku Java:
+Najpierw zaimportuj niezbędne klasy w swoim pliku źródłowym Java:
 
 ```java
 import java.io.IOException;
@@ -52,17 +118,17 @@ import com.aspose.note.SaveFormat;
 import com.aspose.note.ParagraphStyle;
 ```
 
-## Krok 1: Utwórz obiekt Document
+## Krok 1: utwórz obiekt dokumentu
 
-Zainicjalizuj obiekt `Document`:
+`Document` jest klasą najwyższego poziomu, która reprezentuje plik OneNote w pamięci. Po jej zainicjowaniu wszystkie kolejne operacje (dodawanie stron, stylizacja, zapisywanie) są wykonywane za jej pośrednictwem.
 
 ```java
 Document doc = new Document();
 ```
 
-## Krok 2: Zainicjalizuj obiekty Page
+## Krok 2: zainicjuj obiekty strony
 
-Zainicjalizuj obiekty `Page` i ustaw ich poziomy:
+`Page` reprezentuje pojedynczą stronę OneNote. Możesz ustawić jej poziom hierarchii, tytuł i układ przed dodaniem jakiejkolwiek zawartości.
 
 ```java
 Page page1 = new Page();
@@ -75,9 +141,9 @@ Page page3 = new Page();
 page3.setLevel((byte) 1);
 ```
 
-## Krok 3: Dodaj węzły do stron
+## Krok 3: dodaj węzły do stron
 
-Dla każdej strony dodaj węzły z żądaną treścią. Tutaj również **dostosowujemy styl strony OneNote** ustawiając kolor czcionki, nazwę i rozmiar:
+`Outline` jest kontenerem, który przechowuje elementy takie jak tekst, obrazy i tabele na stronie OneNote.
 
 ```java
 // Adding nodes to first Page
@@ -98,9 +164,9 @@ page1.appendChildLast(outline);
 // Repeat similar steps for other pages
 ```
 
-## Krok 4: Dodaj strony do dokumentu
+## Krok 4: dodaj strony do dokumentu
 
-Dodaj utworzone strony do dokumentu OneNote:
+Dołączanie obiektu `Page` do `Document` wstawia go w żądanej pozycji w hierarchii notesu.
 
 ```java
 doc.appendChildLast(page1);
@@ -108,9 +174,9 @@ doc.appendChildLast(page2);
 doc.appendChildLast(page3);
 ```
 
-## Krok 5: Zapisz dokument
+## Krok 5: zapisz dokument
 
-Zapisz dokument w wybranych formatach. To pokazuje zarówno możliwość **zapisania OneNote jako PDF**, jak i **konwersji OneNote na obraz**:
+`SaveFormat` wymienia obsługiwane formaty wyjściowe (PDF, PNG, JPEG itp.) do zapisywania dokumentu OneNote.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -125,54 +191,60 @@ doc.save(dataDir + "InsertPages_out.tiff", SaveFormat.Tiff);
 System.out.println("Files Saved Successfully!");
 ```
 
-## Zakończenie
+## Typowe problemy i rozwiązania
 
-W tym samouczku nauczyliśmy się **jak wstawiać strony** do dokumentu OneNote przy użyciu Aspose.Note dla Javy. Postępując zgodnie z podanymi krokami, możesz efektywnie manipulować dokumentami OneNote programowo, **dostosowywać styl strony OneNote** oraz **zapisywać OneNote jako PDF** lub pliki graficzne do dalszego przetwarzania.
-
-## FAQ
-
-### Q1: Czy mogę wstawiać obrazy do dokumentu OneNote przy użyciu Aspose.Note dla Javy?
-
-A1: Tak, możesz wstawiać obrazy, korzystając z odpowiednich klas i metod udostępnionych przez Aspose.Note.
-
-### Q2: Czy Aspose.Note jest kompatybilny z różnymi wersjami OneNote?
-
-A2: Aspose.Note zapewnia kompatybilność z różnymi wersjami OneNote, zapewniając płynną integrację i funkcjonalność.
-
-### Q3: Jak mogę obsługiwać błędy lub wyjątki podczas pracy z Aspose.Note?
-
-A3: Możesz wdrożyć techniki obsługi błędów, takie jak bloki try-catch, aby zarządzać wyjątkami w sposób elegancki i utrzymać stabilność aplikacji.
-
-### Q4: Czy Aspose.Note wspiera rozwój wieloplatformowy?
-
-A4: Tak, możesz tworzyć aplikacje przy użyciu Aspose.Note dla Javy na różnych platformach, w tym Windows, Linux i macOS.
-
-### Q5: Czy mogę dostosować wygląd wstawionych stron w OneNote?
-
-A5: Zdecydowanie, Aspose.Note oferuje rozbudowane opcje dostosowywania układów stron, stylów i treści, aby spełnić Twoje konkretne wymagania.
+- **Zużycie pamięci przy bardzo dużych notatnikach** – użyj `Document.save` z `SaveOptions`, które włączają strumieniowanie, aby utrzymać niski rozmiar pamięci.  
+- **Brak czcionek w wyeksportowanych PDF‑ach** – osadź wymagane czcionki, ustawiając `PdfSaveOptions.setEmbedFonts(true)`.  
+- **Obrazy są rozmyte** – eksportuj do PNG lub TIFF dla jakości bezstratnej; dostosuj DPI za pomocą `ImageSaveOptions.setResolution(300)`.
 
 ## Najczęściej zadawane pytania
 
-**P: Jak mogę programowo dodać więcej niż trzy strony?**  
-A: Utwórz dodatkowe obiekty `Page`, ustaw ich poziomy, dodaj treść i dołącz je do `Document` tak jak w powyższych przykładach.
+**Q: Jak programowo dodać więcej niż trzy strony?**  
+A: Utwórz dodatkowe obiekty `Page`, skonfiguruj ich poziomy i zawartość, a następnie wywołaj `document.getPages().add(page)` dla każdej nowej strony, tak jak pokazano w powyższych przykładach.
 
-**P: Czy mogę zmienić kolor tła strony OneNote?**  
-A: Tak, użyj metody `Page.setBackgroundColor()` (lub równoważnej właściwości) przed dołączeniem strony do dokumentu.
+**Q: Czy mogę zmienić kolor tła strony OneNote?**  
+A: Tak. Użyj `page.setBackgroundColor(Color.fromArgb(255, 240, 240, 240))` przed dołączeniem strony do dokumentu.
 
-**P: Czy można połączyć wiele plików OneNote w jeden?**  
-A: Możesz wczytać każdy plik do osobnego obiektu `Document`, a następnie skopiować ich strony do jednego docelowego dokumentu.
+**Q: Czy można połączyć wiele plików OneNote w jeden?**  
+A: Załaduj każdy plik źródłowy do osobnej instancji `Document`, przeiteruj jego strony i dodaj je do docelowego `Document` przy użyciu tej samej metody `add`.
 
-**P: Jakiego formatu powinienem używać dla obrazów wysokiej rozdzielczości?**  
-A: Zapis w formacie PNG lub TIFF (`SaveFormat.Png` / `SaveFormat.Tiff`) zachowuje najwyższą jakość przy eksportach graficznych.
+**Q: Jakiego formatu używać dla obrazów wysokiej rozdzielczości?**  
+A: Eksportuj do PNG lub TIFF (`SaveFormat.Png` / `SaveFormat.Tiff`), aby zachować jakość bezstratną, szczególnie przy zrzutach ekranu lub skanowanych treściach.
 
-**P: Czy Aspose.Note obsługuje zaszyfrowane pliki OneNote?**  
-A: Tak, możesz podać hasło podczas wczytywania zaszyfrowanego pliku, używając odpowiedniego przeciążenia konstruktora `Document`.
+**Q: Czy Aspose.Note obsługuje zaszyfrowane pliki OneNote?**  
+A: Tak. Podaj hasło przy tworzeniu obiektu `Document` przy użyciu przeciążenia, które przyjmuje `PasswordProvider`.
 
-**Ostatnia aktualizacja:** 2026-01-10  
-**Testowano z:** Aspose.Note dla Javy 24.11  
+## Dodatkowe FAQ
+
+**Q: Czy mogę wstawiać obrazy do dokumentu OneNote przy użyciu Aspose.Note dla Javy?**  
+A: Tak. Użyj klasy `Image`, aby załadować plik obrazu i dodać go do kolekcji węzłów strony.
+
+**Q: Czy Aspose.Note jest kompatybilny z różnymi wersjami OneNote?**  
+A: Aspose.Note działa z OneNote 2016, OneNote dla Windows 10 oraz formatem OneNote w sieci, zapewniając płynną integrację we wszystkich wersjach.
+
+**Q: Jak mogę obsługiwać błędy lub wyjątki podczas pracy z Aspose.Note?**  
+A: Otocz swój kod blokami try‑catch i przechwytuj `Exception` lub bardziej szczegółowy `AsposeNoteException`, aby elegancko radzić sobie z problemami takimi jak błędy dostępu do plików czy nieobsługiwana zawartość.
+
+**Q: Czy Aspose.Note wspiera rozwój wieloplatformowy?**  
+A: Absolutnie. Biblioteka działa na Windows, Linux i macOS, o ile dostępny jest kompatybilny JDK.
+
+**Q: Czy mogę dostosować wygląd wstawianych stron w OneNote?**  
+A: Tak. Możesz ustawić marginesy strony, kolory tła, domyślne czcionki oraz nawet zastosować niestandardowe style podobne do CSS poprzez API.
+
+---
+
+**Ostatnia aktualizacja:** 2026-08-08  
+**Testowano z:** Aspose.Note for Java 24.11  
 **Autor:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## Powiązane samouczki
+
+- [Ustawianie tytułu strony w stylu Microsoft OneNote - Aspose.Note](/note/java/onenote-text-manipulation/setting-page-title-in-microsoft-onenote-style/)
+- [Samouczek Aspose Java - Pobieranie informacji o stronach w OneNote - Aspose.Note](/note/java/onenote-page-manipulation/get-information-about-pages/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

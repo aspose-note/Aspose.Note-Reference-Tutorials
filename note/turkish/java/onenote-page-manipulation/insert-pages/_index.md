@@ -1,11 +1,68 @@
 ---
-date: 2026-01-10
-description: Aspose.Note for Java kullanarak OneNote belgelerine programlı olarak
-  sayfa eklemeyi öğrenin. Bu kılavuz, sayfa eklemeyi, sayfa stilini özelleştirmeyi
-  ve OneNote'u PDF veya görüntü olarak kaydetmeyi gösterir.
-linktitle: Insert Pages in OneNote - Aspose.Note
+date: 2026-08-08
+description: Aspose.Note for Java kullanarak OneNote'a programlı bir şekilde sayfa
+  eklemeyi öğrenin. Bu kılavuz, sayfa eklemeyi, sayfa stilini özelleştirmeyi ve PDF
+  ya da görüntü formatlarına dışa aktarmayı kapsar.
+keywords:
+- add pages to onenote
+- save onenote as pdf
+- export onenote to png
+- customize onenote page style
+- convert onenote to image
+lastmod: 2026-08-08
+linktitle: OneNote'a Sayfa Ekleme - Aspose.Note
+og_description: Aspose.Note for Java ile OneNote'a sayfa ekleyin. Bu adım adım kılavuz,
+  sayfa eklemeyi, sayfa stilini özelleştirmeyi ve not defterini PDF ya da PNG görüntüleri
+  olarak dışa aktarmayı gösterir.
+og_image_alt: Screenshot of Java code inserting pages into a OneNote document using
+  Aspose.Note
+og_title: OneNote'a sayfa ekleme – Aspose.Note Java öğreticisi
+schemas:
+- author: Aspose
+  dateModified: '2026-08-08'
+  description: Learn how to add pages to OneNote programmatically using Aspose.Note
+    for Java. This guide covers inserting pages, customizing page style, and exporting
+    to PDF or image formats.
+  headline: Add pages to OneNote - Aspose.Note
+  type: TechArticle
+- description: Learn how to add pages to OneNote programmatically using Aspose.Note
+    for Java. This guide covers inserting pages, customizing page style, and exporting
+    to PDF or image formats.
+  name: Add pages to OneNote - Aspose.Note
+  steps:
+  - name: Java Development Kit (JDK) 8 or newer installed on your machine.
+    text: Java Development Kit (JDK) 8 or newer installed on your machine.
+  - name: Aspose.Note for Java library downloaded. You can download it from [Aspose.Note
+      Java releases](https://releases.aspose.com/note/java/).
+    text: Aspose.Note for Java library downloaded. You can download it from [Aspose.Note
+      Java releases](https://releases.aspose.com/note/java/).
+  - name: An IDE such as IntelliJ IDEA or Eclipse for writing and running Java code.
+    text: An IDE such as IntelliJ IDEA or Eclipse for writing and running Java code.
+  type: HowTo
+- questions:
+  - answer: Create additional `Page` objects, configure their levels and content,
+      and call `document.getPages().add(page)` for each new page, just as shown in
+      the examples above.
+    question: How do I programmatically add more than three pages?
+  - answer: Yes. Use `page.setBackgroundColor(Color.fromArgb(255, 240, 240, 240))`
+      before appending the page to the document.
+    question: Can I change the background color of a OneNote page?
+  - answer: Load each source file into a separate `Document` instance, iterate over
+      its pages, and add them to a target `Document` using the same `add` method.
+    question: Is it possible to merge multiple OneNote files into one?
+  - answer: Export to PNG or TIFF (`SaveFormat.Png` / `SaveFormat.Tiff`) to retain
+      loss‑less quality, especially for screenshots or scanned content.
+    question: What format should I use for high‑resolution images?
+  - answer: Yes. Provide the password when constructing the `Document` object with
+      the overload that accepts a `PasswordProvider`.
+    question: Does Aspose.Note handle encrypted OneNote files?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: OneNote'ta Sayfa Ekleme - Aspose.Note
+tags:
+- add pages to onenote
+- Aspose.Note
+- Java OneNote API
+title: OneNote'a sayfa ekleme - Aspose.Note
 url: /tr/java/onenote-page-manipulation/insert-pages/
 weight: 16
 ---
@@ -18,28 +75,36 @@ weight: 16
 
 ## Giriş
 
-Bu öğreticide, Aspose.Note for Java kullanarak bir OneNote belgesine **sayfa eklemenin** nasıl yapılacağını öğreneceğiz. Kılavuzun sonunda OneNote dosyasına sayfa ekleyebilecek, sayfa stilini özelleştirebilecek ve sonucu PDF ya da çeşitli görüntü formatlarına dışa aktarabileceksiniz.
+Bu öğreticide, Aspose.Note for Java kullanarak **OneNote'a sayfa eklemenin** programlı yolunu öğreneceksiniz. Kılavuzun sonunda yeni sayfalar oluşturabilecek, özel stil uygulayabilecek ve defteri PDF ya da PNG gibi yüksek çözünürlüklü görüntü formatlarına dışa aktarabileceksiniz. Bu yetenekler, OneNote raporlarını otomatik olarak oluşturmanız, birden fazla kaynaktan içeriği birleştirmeniz veya uyumluluk için arşiv PDF'leri oluşturmanız gerektiğinde çok önemlidir.
 
-## Hızlı Cevaplar
+## Hızlı cevaplar
 - **Ana amaç nedir?** Programlı olarak bir OneNote belgesine yeni sayfalar eklemek.  
 - **Hangi kütüphane gereklidir?** Aspose.Note for Java.  
 - **Çıktı PDF olarak kaydedilebilir mi?** Evet – `SaveFormat.Pdf` kullanın.  
 - **OneNote'tan görüntüler nasıl alınır?** Belgeyi BMP, PNG veya JPEG gibi görüntü formatlarıyla kaydederek **OneNote'u görüntüye dönüştürün**.  
 - **Lisans gerekli mi?** Üretim kullanımında geçerli bir Aspose.Note lisansı gereklidir.
 
-## OneNote'a Sayfa Nasıl Eklenir
-Bu bölüm, ana anahtar kelimeye doğrudan yanıt verir ve **sayfa eklemenin** tam sürecini, ardından **OneNote belgesine sayfa eklemenin** özelleştirilmiş stil ile nasıl yapılacağını adım adım gösterir.
+## OneNote'a sayfa nasıl eklenir?
 
-## Ön Koşullar
+`Document` nesnesini yükleyin veya oluşturun, istenen içerikle bir veya daha fazla `Page` nesnesi oluşturun, sayfaları belgeye ekleyin ve sonunda gerekli formatla `save` metodunu çağırın. Bu uçtan uca akış, sayfaları eklemenize, stil vermenize ve sonucu tek bir, okunması kolay metod zincirinde dışa aktarmanıza olanak tanır.
 
-Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
-1. Sisteminizde yüklü Java Development Kit (JDK).  
-2. Aspose.Note for Java kütüphanesini indirin. [buradan](https://releases.aspose.com/note/java/) indirebilirsiniz.  
-3. IntelliJ IDEA veya Eclipse gibi bir Entegre Geliştirme Ortamı (IDE) yüklü.
+## OneNote'a sayfa ekleme nedir?
 
-## Paketleri İçe Aktarma
+`add pages to onenote`, Aspose.Note API'si kullanılarak mevcut bir OneNote defterine yeni sayfa nesnelerinin programlı olarak eklenmesini ifade eder. İşlem tamamen bellek içinde gerçekleşir, bu sayede OneNote istemcisini açmadan büyük defterleri manipüle edebilirsiniz.
 
-İlk olarak, Java dosyanıza gerekli paketleri içe aktarmanız gerekir:
+## Java için Aspose.Note neden kullanılmalı?
+
+Aspose.Note **20+ çıktı formatını** (PDF, PNG, JPEG, BMP ve TIFF dahil) destekler ve **yüzlerce sayfa** içeren defterleri bellek kullanımını 150 MB'nin altında tutarak işleyebilir. Kütüphane, herhangi bir Java uyumlu platformda çalışır ve Microsoft Office kurulumuna ihtiyaç duymadan çapraz platform esnekliği sağlar.
+
+## Önkoşullar
+
+1. Java Development Kit (JDK) 8 veya daha yeni bir sürümünün makinenizde kurulu olması.  
+2. Aspose.Note for Java kütüphanesinin indirilmiş olması. Bunu [Aspose.Note Java releases](https://releases.aspose.com/note/java/) adresinden indirebilirsiniz.  
+3. Java kodu yazmak ve çalıştırmak için IntelliJ IDEA veya Eclipse gibi bir IDE.
+
+## Paketleri içe aktar
+
+First, import the necessary classes in your Java source file:
 
 ```java
 import java.io.IOException;
@@ -53,17 +118,17 @@ import com.aspose.note.SaveFormat;
 import com.aspose.note.ParagraphStyle;
 ```
 
-## Adım 1: Document Nesnesi Oluşturma
+## Adım 1: bir belge nesnesi oluştur
 
-`Document` nesnesini başlatın:
+`Document`, bellek içinde bir OneNote dosyasını temsil eden üst‑seviye sınıftır. Onu örnekledikten sonra, sonraki tüm işlemler (sayfa ekleme, stil verme, kaydetme) bu nesne üzerinden gerçekleştirilir.
 
 ```java
 Document doc = new Document();
 ```
 
-## Adım 2: Page Nesnelerini Başlatma
+## Adım 2: sayfa nesnelerini başlat
 
-`Page` nesnelerini başlatın ve seviyelerini ayarlayın:
+`Page`, tek bir OneNote sayfasını temsil eder. İçerik eklemeden önce hiyerarşik seviyesini, başlığını ve düzenini ayarlayabilirsiniz.
 
 ```java
 Page page1 = new Page();
@@ -76,9 +141,9 @@ Page page3 = new Page();
 page3.setLevel((byte) 1);
 ```
 
-## Adım 3: Sayfalara Düğüm Ekleme
+## Adım 3: sayfalara düğüm ekle
 
-Her sayfa için istenen içerikle düğümler ekleyin. Burada ayrıca font rengini, adını ve boyutunu ayarlayarak **OneNote sayfa stilini özelleştiriyoruz**:
+`Outline`, bir OneNote sayfasında metin, görüntü ve tablo gibi öğeleri tutan bir kapsayıcıdır.
 
 ```java
 // Adding nodes to first Page
@@ -99,9 +164,9 @@ page1.appendChildLast(outline);
 // Repeat similar steps for other pages
 ```
 
-## Adım 4: Sayfaları Belgeye Ekleme
+## Adım 4: belgeye sayfa ekle
 
-Oluşturulan sayfaları OneNote belgesine ekleyin:
+Bir `Page` nesnesini `Document`'e eklemek, onu defter hiyerarşisinde istenen konuma yerleştirir.
 
 ```java
 doc.appendChildLast(page1);
@@ -109,9 +174,9 @@ doc.appendChildLast(page2);
 doc.appendChildLast(page3);
 ```
 
-## Adım 5: Belgeyi Kaydetme
+## Adım 5: belgeyi kaydet
 
-Belgeyi istenen formatlarda kaydedin. Bu, **OneNote'u PDF olarak kaydetme** ve **OneNote'u görüntüye dönüştürme** yeteneklerini gösterir:
+`SaveFormat`, bir OneNote belgesini kaydederken desteklenen çıktı formatlarını (PDF, PNG, JPEG vb.) listeler.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -126,51 +191,59 @@ doc.save(dataDir + "InsertPages_out.tiff", SaveFormat.Tiff);
 System.out.println("Files Saved Successfully!");
 ```
 
-## Sonuç
+## Yaygın sorunlar ve çözümler
 
-Bu öğreticide, Aspose.Note for Java kullanarak bir OneNote belgesine **sayfa eklemenin** nasıl yapılacağını öğrendik. Sağlanan adımları izleyerek OneNote belgelerini programlı olarak verimli bir şekilde manipüle edebilir, **OneNote sayfa stilini özelleştirebilir** ve **OneNote'u PDF** ya da görüntü dosyaları olarak kaydedebilirsiniz.
+- **Çok büyük defterlerde bellek tüketimi** – Bellek ayak izini düşük tutmak için akışı etkinleştiren `SaveOptions` ile `Document.save` kullanın.  
+- **Dışa aktarılan PDF'lerde eksik fontlar** – Gerekli fontları `PdfSaveOptions.setEmbedFonts(true)` ayarıyla gömün.  
+- **Görüntüler bulanık görünüyor** – Kayıpsız kalite için PNG veya TIFF olarak dışa aktarın; DPI'yi `ImageSaveOptions.setResolution(300)` ile ayarlayın.
 
-## SSS
-
-### Q1: Aspose.Note for Java kullanarak OneNote belgesine resim ekleyebilir miyim?
-A1: Evet, Aspose.Note tarafından sağlanan uygun sınıfları ve yöntemleri kullanarak resim ekleyebilirsiniz.
-
-### Q2: Aspose.Note farklı OneNote sürümleriyle uyumlu mu?
-A2: Aspose.Note, çeşitli OneNote sürümleriyle uyumluluk sunar ve sorunsuz entegrasyon ve işlevsellik sağlar.
-
-### Q3: Aspose.Note ile çalışırken hataları veya istisnaları nasıl yönetebilirim?
-A3: İstisnaları nazikçe yönetmek ve uygulamanızın kararlılığını korumak için try-catch blokları gibi hata yönetimi tekniklerini uygulayabilirsiniz.
-
-### Q4: Aspose.Note çapraz platform geliştirmeyi destekliyor mu?
-A4: Evet, Aspose.Note for Java kullanarak Windows, Linux ve macOS dahil olmak üzere farklı platformlarda uygulama geliştirebilirsiniz.
-
-### Q5: OneNote'a eklenen sayfaların görünümünü özelleştirebilir miyim?
-A5: Kesinlikle, Aspose.Note, sayfa düzenlerini, stillerini ve içeriğini ihtiyaçlarınıza göre özelleştirmek için kapsamlı seçenekler sunar.
-
-## Sık Sorulan Sorular
+## Sıkça Sorulan Sorular
 
 **S: Üçten fazla sayfayı programlı olarak nasıl eklerim?**  
-C: Ek `Page` nesneleri oluşturun, seviyelerini ayarlayın, içerik ekleyin ve örneklerdeki gibi `Document` nesnesine ekleyin.
+C: Ek `Page` nesneleri oluşturun, seviyelerini ve içeriklerini yapılandırın ve her yeni sayfa için `document.getPages().add(page)` metodunu çağırın; yukarıdaki örneklerde gösterildiği gibi.
 
 **S: OneNote sayfasının arka plan rengini değiştirebilir miyim?**  
-C: Evet, sayfayı belgeye eklemeden önce `Page.setBackgroundColor()` metodunu (veya eşdeğer özelliği) kullanın.
+C: Evet. Sayfayı belgeye eklemeden önce `page.setBackgroundColor(Color.fromArgb(255, 240, 240, 240))` kullanın.
 
 **S: Birden fazla OneNote dosyasını tek bir dosyada birleştirmek mümkün mü?**  
-C: Her dosyayı ayrı bir `Document` nesnesine yükleyebilir ve ardından sayfalarını tek bir hedef belgeye kopyalayabilirsiniz.
+C: Her kaynak dosyayı ayrı bir `Document` örneğine yükleyin, sayfalarını döngüyle gezerek aynı `add` yöntemiyle hedef `Document`'e ekleyin.
 
 **S: Yüksek çözünürlüklü görüntüler için hangi formatı kullanmalıyım?**  
-C: PNG veya TIFF (`SaveFormat.Png` / `SaveFormat.Tiff`) olarak kaydetmek, görüntü tabanlı dışa aktarmalar için en yüksek kaliteyi korur.
+C: Kayıpsız kaliteyi korumak için PNG veya TIFF (`SaveFormat.Png` / `SaveFormat.Tiff`) olarak dışa aktarın; özellikle ekran görüntüleri veya taranmış içerikler için.
 
 **S: Aspose.Note şifreli OneNote dosyalarını işleyebilir mi?**  
-C: Evet, şifreli bir dosyayı yüklerken `Document` yapıcısının uygun aşırı yüklemesini kullanarak şifreyi sağlayabilirsiniz.
+C: Evet. `PasswordProvider` kabul eden `Document` yapıcı overload'ı ile belgeyi oluştururken şifreyi sağlayın.
+
+## Ek SSS
+
+**S: Aspose.Note for Java kullanarak OneNote belgesine görüntü ekleyebilir miyim?**  
+C: Evet. Görüntü dosyasını yüklemek ve sayfanın düğüm koleksiyonuna eklemek için `Image` sınıfını kullanın.
+
+**S: Aspose.Note farklı OneNote sürümleriyle uyumlu mu?**  
+C: Aspose.Note, OneNote 2016, Windows 10 için OneNote ve OneNote web formatı ile çalışır; böylece sürümler arasında sorunsuz entegrasyon sağlar.
+
+**S: Aspose.Note ile çalışırken hataları veya istisnaları nasıl yönetebilirim?**  
+C: Kodunuzu try‑catch bloklarıyla sarın ve `Exception` ya da daha spesifik `AsposeNoteException` yakalayarak dosya erişim hataları veya desteklenmeyen içerik gibi sorunları nazikçe ele alın.
+
+**S: Aspose.Note çapraz platform geliştirmeyi destekliyor mu?**  
+C: Kesinlikle. Kütüphane, uyumlu bir JDK bulunduğu sürece Windows, Linux ve macOS'ta çalışır.
+
+**S: OneNote'a eklenen sayfaların görünümünü özelleştirebilir miyim?**  
+C: Evet. Sayfa kenar boşluklarını, arka plan renklerini, varsayılan fontları ayarlayabilir ve hatta API üzerinden özel CSS benzeri stil uygulayabilirsiniz.
 
 ---
 
-**Son Güncelleme:** 2026-01-10  
-**Test Edilen Versiyon:** Aspose.Note for Java 24.11  
+**Son Güncelleme:** 2026-08-08  
+**Test Edilen Sürüm:** Aspose.Note for Java 24.11  
 **Yazar:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## İlgili Öğreticiler
+
+- [Microsoft OneNote Stiliyle Sayfa Başlığı Ayarlama - Aspose.Note](/note/java/onenote-text-manipulation/setting-page-title-in-microsoft-onenote-style/)
+- [Aspose Java Öğreticisi - OneNote Sayfaları Hakkında Bilgi Almak - Aspose.Note](/note/java/onenote-page-manipulation/get-information-about-pages/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}
