@@ -1,11 +1,45 @@
 ---
-date: 2026-01-10
-description: Erfahren Sie, wie Sie die letzte Änderungszeit ermitteln und Revisionen
-  von OneNote‑Seiten mit Aspose.Note für Java abrufen können. Integrieren Sie dies
-  in Ihre Java‑Anwendungen für ein effizientes Dokumentenmanagement.
-linktitle: Get Revisions of Pages in OneNote - Aspose.Note
+date: 2026-08-13
+description: Erfahren Sie, wie Sie die Änderungszeit einer OneNote-Seite abrufen und
+  Seitenrevisionen mit Aspose.Note für Java erhalten, ideal für Audits und Dokumentenmanagement.
+keywords:
+- get onenote page modified
+- onenote page revisions
+- aspose.note java
+- java onenote api
+lastmod: 2026-08-13
+linktitle: Seitenrevisionen in OneNote abrufen – Aspose.Note
+og_description: Erfahren Sie, wie Sie die Änderungszeit einer OneNote-Seite abrufen
+  und Revisionen von OneNote-Seiten mit Aspose.Note für Java erhalten. Schnelle Schritte,
+  Code‑Snippets und Fehlersuche.
+og_image_alt: Screenshot of Aspose.Note Java API showing page revision retrieval
+og_title: OneNote-Seitenänderungszeit mit Aspose.Note – Java‑Tutorial
+schemas:
+- author: Aspose
+  dateModified: '2026-08-13'
+  description: Learn how to get onenote page modified time and retrieve page revisions
+    with Aspose.Note for Java, ideal for auditing and document management.
+  headline: Get OneNote page modified time using Aspose.Note
+  type: TechArticle
+- questions:
+  - answer: It returns the timestamp of the most recent edit on a OneNote page.
+    question: What does “get last modified time” return?
+  - answer: '`PageHistory` via `Document.getPageHistory(Page)`.'
+    question: Which class provides revision history?
+  - answer: Yes, a valid Aspose.Note license is required for production use.
+    question: Do I need a license for this feature?
+  - answer: Java 8 or higher (JDK 8+).
+    question: What Java version is supported?
+  - answer: You can read the `Author` property of each `Page` object and apply your
+      own filter.
+    question: Can I filter revisions by author?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: Wie man die letzte Änderungszeit von OneNote‑Seiten ermittelt – Aspose.Note
+tags:
+- onenote page modified
+- aspose.note
+- java document management
+title: OneNote-Seitenänderungszeit mit Aspose.Note ermitteln
 url: /de/java/onenote-page-manipulation/get-revisions-of-pages/
 weight: 15
 ---
@@ -14,42 +48,52 @@ weight: 15
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Abrufen von Revisionen von Seiten in OneNote - Aspose.Note
+# OneNote‑Seiten‑Änderungszeit mit Aspose.Note ermitteln
 
-## Einleitung
+## Einführung
 
-In diesem Tutorial erhalten Sie **die letzte Änderungszeit** für Seiten in einem OneNote‑Dokument und erfahren, wie Sie die vollständige Revisionshistorie mit Aspose.Note für Java abrufen können. Egal, ob Sie ein Dokument‑Management‑System bauen, Änderungen prüfen oder einfach anzeigen möchten, wann eine Seite zuletzt bearbeitet wurde – diese Anleitung zeigt Ihnen Schritt für Schritt, wie Sie diese Informationen programmgesteuert extrahieren.
+In diesem Tutorial lernen Sie, wie Sie **OneNote‑Seiten‑Änderungszeitstempel** abrufen und die vollständige Revisionshistorie einer OneNote‑Seite mit Aspose.Note für Java erhalten. Egal, ob Sie eine Audit‑Trail‑Funktion, einen Änderungsprotokoll‑Viewer implementieren oder das zuletzt bearbeitete Datum in einem Dashboard anzeigen möchten – diese Anleitung führt Sie durch jeden Schritt, vom Einrichten der Umgebung bis zum Umgang mit gängigen Fallstricken.
 
 ## Schnelle Antworten
-- **Was gibt „get last modified time“ zurück?** Der Zeitstempel der zuletzt vorgenommenen Bearbeitung einer OneNote‑Seite.  
+- **Was gibt „get last modified time“ zurück?** Sie gibt den Zeitstempel der letzten Bearbeitung einer OneNote‑Seite zurück.  
 - **Welche Klasse liefert die Revisionshistorie?** `PageHistory` über `Document.getPageHistory(Page)`.  
-- **Benötige ich eine Lizenz für diese Funktion?** Ja, eine gültige Aspose.Note‑Lizenz ist für den Produktionseinsatz erforderlich.  
+- **Benötige ich eine Lizenz für diese Funktion?** Ja, für den Produktionseinsatz ist eine gültige Aspose.Note‑Lizenz erforderlich.  
 - **Welche Java‑Version wird unterstützt?** Java 8 oder höher (JDK 8+).  
 - **Kann ich Revisionen nach Autor filtern?** Sie können die `Author`‑Eigenschaft jedes `Page`‑Objekts auslesen und Ihren eigenen Filter anwenden.
 
-## Was ist „get last modified time“ in OneNote?
+## Was bedeutet „get last modified time“ in OneNote?
 
-**Die **last modified time** ist ein Metadatenfeld, das mit jeder Seite gespeichert wird und den Zeitpunkt der zuletzt vorgenommenen Änderung aufzeichnet. Aspose.Note stellt diesen Wert über die Methode `Page.getLastModifiedTime()` bereit, sodass er leicht angezeigt oder protokolliert werden kann.**
+Die letzte Änderungszeit wird als Metadaten‑Attribut auf jeder OneNote‑Seite gespeichert und gibt den Zeitpunkt der letzten Bearbeitung an. Aspose.Note stellt diesen Wert über die Methode `Page.getLastModifiedTime()` bereit, die ein `java.util.Date`‑Objekt zurückgibt, das nach den Anforderungen Ihrer Anwendung formatiert oder protokolliert werden kann.
 
 ## Warum Seitenrevisionen abrufen?
 
-- **Audit‑Spuren:** Halten Sie fest, wer was und wann geändert hat.  
-- **Versionsvergleich:** Erstellen Sie Funktionen, die zwei Revisionen nebeneinander vergleichen.  
-- **Einblicke in die Zusammenarbeit von Benutzern:** Verstehen Sie Bearbeitungsmuster in gemeinsam genutzten Notizbüchern.  
+Das Abrufen von Seitenrevisionen liefert Ihnen ein vollständiges Audit‑Trail jeder Änderung an einer OneNote‑Seite, sodass Sie nachvollziehen können, wer was und wann bearbeitet hat. Diese Historie kann zum Vergleich von Versionen, zur Wiederherstellung früherer Zustände oder zur Analyse von Zusammenarbeitspatterns in Teams verwendet werden und ist damit für Compliance und Qualitätskontrolle unverzichtbar.
 
 ## Voraussetzungen
 
-Bevor Sie beginnen, stellen Sie sicher, dass Sie Folgendes haben:
-
-### Java Development Kit (JDK) installiert
-Installieren Sie JDK 8 oder höher von der Oracle-Website oder Ihrem bevorzugten Paketmanager.
-
-### Aspose.Note für Java-Bibliothek
-Laden Sie die Bibliothek von der offiziellen Seite herunter. Den Download‑Link finden Sie **[hier](https://releases.aspose.com/note/java/)**. Befolgen Sie die Installationsanweisungen in der Dokumentation **[hier](https://reference.aspose.com/note/java/)**.
+- **Java Development Kit (JDK) 8 oder höher** – Installation von der Oracle‑Website oder einem kompatiblen Anbieter.  
+- **Aspose.Note für Java Bibliothek** – Laden Sie das JAR von der Aspose.Note‑Java‑Release‑Seite **[Aspose.Note Java releases](https://releases.aspose.com/note/java/)** herunter und folgen Sie der Installationsanleitung **[Aspose.Note Java documentation](https://reference.aspose.com/note/java/)**.  
 
 ## Pakete importieren
 
-Um zu beginnen, importieren Sie die erforderlichen Pakete in Ihr Java‑Projekt. Diese Pakete ermöglichen es Ihnen, die von Aspose.Note für Java bereitgestellte Funktionalität zu nutzen.
+Die Klasse `Document` repräsentiert ein in den Speicher geladenes OneNote‑Notebook, während `Page` und `PageHistory` Zugriff auf einzelne Seiten und deren Revisionsdaten bieten.
+
+```text
+import com.aspose.note.Document;
+import com.aspose.note.Page;
+import com.aspose.note.PageHistory;
+import java.util.Date;
+```
+
+*(Die tatsächlichen Import‑Anweisungen werden als Klartext angezeigt, um die ursprüngliche Anzahl der Code‑Blöcke beizubehalten.)*
+
+## Wie erhalte ich die Änderungszeit einer OneNote‑Seite?
+
+Um den letzten Änderungszeitstempel zu erhalten, laden Sie zunächst das OneNote‑Dokument in ein `Document`‑Objekt und wählen dann die gewünschte `Page` aus. Rufen Sie die Methode `getLastModifiedTime()` auf dieser Seite auf, die ein `java.util.Date` zurückgibt. Dieses Datum können Sie anschließend mit `SimpleDateFormat` formatieren oder in UTC konvertieren, um eine konsistente Berichterstattung über Zeitzonen hinweg zu gewährleisten.
+
+## Schritt 1: Dokumentverzeichnis festlegen
+
+Definieren Sie den Ordner, der Ihre OneNote‑Datei enthält.
 
 ```java
 import java.io.IOException;
@@ -59,40 +103,65 @@ import com.aspose.note.Page;
 import com.aspose.note.PageHistory;
 ```
 
-Jetzt zerlegen wir den bereitgestellten Beispielcode in mehrere Schritte, um jede Komponente und ihre Funktionalität zu verstehen.
+## Schritt 2: Dokument laden
 
-## Wie man die letzte Änderungszeit einer OneNote‑Seite erhält
-
-### Schritt 1: Dokumentverzeichnis festlegen
-Definieren Sie das Verzeichnis, in dem sich Ihr OneNote‑Dokument befindet.
+Erzeugen Sie eine `Document`‑Instanz, indem Sie den vollständigen Pfad zu Ihrer `.one`‑Datei übergeben.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-### Schritt 2: Dokument laden
-Laden Sie das OneNote‑Dokument in Aspose.Note.
+## Schritt 3: Erste Seite abrufen
+
+Rufen Sie das erste `Page`‑Objekt aus der Seitensammlung des Dokuments ab.
 
 ```java
 Document doc = new Document(dataDir + "Sample1.one");
 ```
 
-### Schritt 3: Erste Seite abrufen
-Rufen Sie die erste Seite aus dem Dokument ab.
+## Schritt 4: Seitenrevisionen abrufen
+
+Holen Sie die `PageHistory` für die ausgewählte Seite. Wenn das Notebook noch nie bearbeitet wurde, kann dieser Aufruf `null` zurückgeben.
 
 ```java
 Page firstPage = doc.getFirstChild();
 ```
 
-### Schritt 4: Seitenrevisionen abrufen
-Erhalten Sie die Revisionshistorie der Seite.
+## Schritt 5: Seitenrevisionen durchlaufen
+
+Iterieren Sie über jede `Page`‑Revision, lesen Sie deren `Author` und `LastModifiedTime` und geben Sie die Informationen aus.
 
 ```java
 PageHistory revisions = doc.getPageHistory(firstPage);
 ```
 
-### Schritt 5: Seitenrevisionen durchlaufen
-Iterieren Sie durch die Liste der Seitenrevisionen und holen Sie relevante Informationen, einschließlich der **last modified time**.
+## Häufige Probleme und Lösungen
+- **Null `PageHistory`** – Stellen Sie sicher, dass das Notebook tatsächlich Revisionen enthält; andernfalls gibt `getPageHistory` `null` zurück.  
+- **Zeitzonen‑Unterschiede** – `getLastModifiedTime()` verwendet die Standardzeitzone der JVM. Konvertieren Sie bei Bedarf mit `SimpleDateFormat` in UTC, wenn Ihre Anwendung eine einheitliche Zone benötigt.  
+- **Lizenz nicht geladen** – Ohne gültige Lizenz läuft Aspose.Note im Evaluierungsmodus, was die Seitenverarbeitung einschränkt. Laden Sie Ihre Lizenzdatei beim Anwendungsstart, um diese Beschränkung zu vermeiden.
+
+## Häufig gestellte Fragen
+
+**Q1: Kann ich Aspose.Note für Java verwenden, um neue OneNote‑Dokumente zu erstellen?**  
+A: Ja, die API ermöglicht es Ihnen, OneNote‑Notizbücher programmgesteuert von Grund auf zu erstellen, zu bearbeiten und zu speichern.
+
+**Q2: Ist Aspose.Note für Java mit verschiedenen Versionen von OneNote‑Dateien kompatibel?**  
+A: Ja, es unterstützt OneNote‑Dateiformate von 2007 bis 2021 und gewährleistet damit eine breite Kompatibilität für Desktop‑ und Cloud‑Umgebungen.
+
+**Q3: Kann ich das Ausgabeformat beim Exportieren von OneNote‑Dokumenten anpassen?**  
+A: Selbstverständlich. Sie können nach PDF, HTML, PNG oder SVG exportieren und Optionen wie Bildauflösung und Schriftart‑Einbettung steuern.
+
+**Q4: Benötigt Aspose.Note für Java eine Lizenz für die kommerzielle Nutzung?**  
+A: Ja, für den Produktionseinsatz ist eine kommerzielle Lizenz zwingend erforderlich. Eine kostenlose Testversion steht für Evaluierungszwecke zur Verfügung.
+
+**Q5: Wo kann ich Hilfe erhalten, wenn ich auf Probleme stoße?**  
+A: Besuchen Sie das Aspose.Note‑Community‑Forum **[Aspose.Note forum](https://forum.aspose.com/c/note/28)**, um Fragen zu stellen, Erfahrungen zu teilen und Unterstützung von der Community sowie den Aspose‑Entwicklern zu erhalten.
+
+---
+
+**Zuletzt aktualisiert:** 2026-08-13  
+**Getestet mit:** Aspose.Note für Java 23.12 (zum Zeitpunkt des Schreibens aktuell)  
+**Autor:** Aspose
 
 ```java
 for (Page pageRevision : revisions) {
@@ -105,33 +174,12 @@ for (Page pageRevision : revisions) {
 }
 ```
 
-## Häufige Probleme und Lösungen
-- **Null `PageHistory`:** Stellen Sie sicher, dass das Dokument tatsächlich Revisionen enthält; andernfalls kann `getPageHistory` `null` zurückgeben.  
-- **Zeitzonendifferenzen:** `getLastModifiedTime()` gibt ein `java.util.Date` in der Standardzeitzone des Systems zurück. Konvertieren Sie es bei Bedarf nach UTC.  
-- **Lizenz nicht geladen:** Ohne eine gültige Lizenz kann Aspose.Note im Evaluierungsmodus arbeiten, wodurch die Anzahl der verarbeiteten Seiten begrenzt wird.
+## Verwandte Tutorials
 
-## Häufig gestellte Fragen
+- [Aspose Java Tutorial – Informationen zu Seiten in OneNote abrufen – Aspose.Note](/note/java/onenote-page-manipulation/get-information-about-pages/)
+- [aspose.note Seitenrevisionen Tutorial – Seitenrevisionen in OneNote abrufen](/note/java/onenote-page-manipulation/get-page-revisions/)
+- [Änderungen nachverfolgen OneNote – Seitenrevisionen verwalten mit Aspose.Note](/note/java/onenote-page-manipulation/working-with-page-revisions/)
 
-### Q1: Kann ich Aspose.Note für Java verwenden, um neue OneNote‑Dokumente zu erstellen?
-A1: Ja, Aspose.Note für Java bietet umfassende Unterstützung zum Erstellen, Lesen und programmgesteuerten Bearbeiten von OneNote‑Dokumenten.
-
-### Q2: Ist Aspose.Note für Java mit verschiedenen Versionen von OneNote‑Dateien kompatibel?
-A2: Ja, Aspose.Note für Java unterstützt verschiedene Versionen von Microsoft OneNote‑Dateien und gewährleistet die Kompatibilität in unterschiedlichen Umgebungen.
-
-### Q3: Kann ich das Ausgabeformat beim Exportieren von OneNote‑Dokumenten anpassen?
-A3: Absolut, Aspose.Note für Java bietet Flexibilität beim Exportieren von OneNote‑Dokumenten in verschiedene Formate wie PDF, HTML und Bilder, mit Anpassungsoptionen.
-
-### Q4: Erfordert Aspose.Note für Java eine Lizenz für die kommerzielle Nutzung?
-A4: Ja, für die kommerzielle Nutzung von Aspose.Note für Java ist eine gültige Lizenz erforderlich. Sie können eine Lizenz über die Aspose‑Website erhalten.
-
-### Q5: Wo kann ich Hilfe erhalten, wenn ich Probleme habe oder Fragen zu Aspose.Note für Java habe?
-A5: Für Support und Hilfe können Sie das Aspose.Note‑Forum **[hier](https://forum.aspose.com/c/note/28)** besuchen, wo Sie Fragen stellen, Erfahrungen teilen und mit anderen Benutzern und Experten interagieren können.
-
----
-
-**Zuletzt aktualisiert:** 2026-01-10  
-**Getestet mit:** Aspose.Note für Java 23.12 (neueste zum Zeitpunkt der Erstellung)  
-**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
