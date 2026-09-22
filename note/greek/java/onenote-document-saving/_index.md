@@ -1,11 +1,56 @@
 ---
-date: 2026-02-20
-description: Μάθετε πώς να ορίζετε την ανάλυση εικόνας και να αποθηκεύετε έγγραφα
-  OneNote χρησιμοποιώντας το Aspose.Note για Java, καθώς και συμβουλές για το κατώφλι
-  δυαδικής εικόνας, τη μετατροπή OneNote σε PDF και την αποθήκευση μέσω ροής.
-linktitle: OneNote Document Saving
+date: 2026-08-24
+description: Μάθετε πώς να ορίσετε την ανάλυση εικόνας και να αποθηκεύσετε έγγραφα
+  OneNote χρησιμοποιώντας Aspose.Note for Java, καθώς και συμβουλές για binary image
+  threshold, onenote to pdf conversion και stream saving.
+keywords:
+- set image resolution
+- convert onenote to pdf
+- binary image threshold
+- stream onenote save
+- Aspose.Note Java
+lastmod: 2026-08-24
+linktitle: Αποθήκευση εγγράφου OneNote
+og_description: Μάθετε πώς να ορίσετε την ανάλυση εικόνας και να αποθηκεύσετε αρχεία
+  OneNote χρησιμοποιώντας Aspose.Note for Java. Περιλαμβάνει binary image threshold,
+  μετατροπή OneNote σε PDF και συμβουλές για stream saving.
+og_image_alt: Guide showing how to set image resolution when saving OneNote documents
+  with Aspose.Note for Java
+og_title: Ορισμός ανάλυσης εικόνας κατά την αποθήκευση εγγράφων OneNote με Aspose.Note
+schemas:
+- author: Aspose
+  dateModified: '2026-08-24'
+  description: Learn how to set image resolution and save OneNote documents using
+    Aspose.Note for Java, plus tips for binary image threshold, onenote to pdf conversion,
+    and stream saving.
+  headline: Set image resolution while saving OneNote with Aspose.Note
+  type: TechArticle
+- questions:
+  - answer: Yes. Use the Keep Solid Objects Algorithm together with `PdfSaveOptions`
+      to retain layout and embedded objects.
+    question: Can I convert a OneNote file to PDF without losing formatting?
+  - answer: Instantiate the appropriate `SaveOptions` (e.g., `OneSaveOptions`) and
+      call `document.save(outputStream, saveOptions);` – the stream will contain the
+      binary OneNote data.
+    question: How do I save a OneNote page directly to an `OutputStream`?
+  - answer: Absolutely. The Splitting Algorithm method lets you specify the target
+      section or page and saves each part as an independent .one file.
+    question: Is it possible to split a OneNote document into separate sections?
+  - answer: No. Aspose.Note is a pure Java library and runs on any OS that supports
+      Java (Windows, Linux, macOS).
+    question: Do I need a Windows environment to use Aspose.Note for Java?
+  - answer: Visit the official Aspose website or Maven Central Repository for the
+      most recent release.
+    question: Where can I find the latest version of Aspose.Note for Java?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: Ορισμός ανάλυσης εικόνας κατά την αποθήκευση του OneNote με το Aspose.Note
+tags:
+- set image resolution
+- Aspose.Note
+- Java OneNote processing
+- PDF conversion
+- image export
+title: Ορισμός ανάλυσης εικόνας κατά την αποθήκευση OneNote με Aspose.Note
 url: /el/java/onenote-document-saving/
 weight: 27
 ---
@@ -14,170 +59,178 @@ weight: 27
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Αποθήκευση Εγγράφου OneNote
+# Ορισμός ανάλυσης εικόνας κατά την αποθήκευση OneNote με Aspose.Note
 
 ## Εισαγωγή
 
-Αν ψάχνετε για έναν σαφή, πρακτικό οδηγό σχετικά με **πώς να ορίσετε την ανάλυση εικόνας** κατά την αποθήκευση αρχείων OneNote προγραμματιστικά, βρίσκεστε στο σωστό μέρος. Σε αυτή τη σειρά μαθημάτων περπατάμε βήμα‑βήμα την αποθήκευση εγγράφων OneNote με Aspose.Note for Java, καλύπτοντας τα πάντα από τη βασική μετατροπή μορφής μέχρι τις προχωρημένες επιλογές ροής. Είτε χρειάζεστε να δημιουργήσετε αναφορές, να αρχειοθετήσετε σημειώσεις ή να ενσωματώσετε περιεχόμενο OneNote σε μια μεγαλύτερη ροή εργασίας, η εξοικείωση με αυτές τις τεχνικές θα κάνει τις εφαρμογές Java σας πιο ισχυρές και συντηρήσιμες. Ας βουτήξουμε και ας εξερευνήσουμε τους πιο αποδοτικούς τρόπους διαχείρισης της αποθήκευσης εγγράφων OneNote σήμερα.
+Αν ψάχνετε για έναν σαφή, πρακτικό οδηγό σχετικά με **ορισμό ανάλυσης εικόνας** κατά την αποθήκευση αρχείων OneNote προγραμματιστικά, βρίσκεστε στο σωστό μέρος. Σε αυτή τη σειρά μαθημάτων περπατάμε βήμα-βήμα την αποθήκευση εγγράφων OneNote με Aspose.Note για Java, καλύπτοντας τα πάντα από τη βασική μετατροπή μορφής μέχρι τις προχωρημένες επιλογές ροής. Είτε χρειάζεστε να δημιουργήσετε αναφορές, να αρχειοθετήσετε σημειώσεις ή να ενσωματώσετε περιεχόμενο OneNote σε μια μεγαλύτερη ροή εργασίας, η κατάκτηση αυτών των τεχνικών θα κάνει τις εφαρμογές Java σας πιο ισχυρές και συντηρήσιμες. Ας βουτήξουμε και να εξερευνήσουμε τους πιο αποδοτικούς τρόπους διαχείρισης της αποθήκευσης εγγράφων OneNote σήμερα.
 
 ## Γρήγορες Απαντήσεις
-- **Τι βιβλιοθήκη χρειάζομαι;** Aspose.Note for Java.  
-- **Μπορώ να αποθηκεύσω σε πολλαπλές μορφές;** Ναι – OneNote, PDF, BMP, JPEG, TIFF, και περισσότερες.  
-- **Υποστηρίζεται η ροή (streaming);** Απόλυτα, μπορείτε να αποθηκεύσετε απευθείας σε `OutputStream`.  
-- **Πώς διαχωρίζω ένα έγγραφο OneNote;** Χρησιμοποιήστε τη μέθοδο Splitting Algorithm που παρέχεται από το Aspose.Note.  
-- **Χρειάζεται άδεια;** Διατίθεται δωρεάν δοκιμαστική έκδοση· απαιτείται άδεια για παραγωγική χρήση.
+- **Ποια βιβλιοθήκη χρειάζομαι;** Aspose.Note for Java.  
+- **Μπορώ να αποθηκεύσω σε πολλαπλές μορφές;** Ναι – OneNote, PDF, BMP, JPEG, TIFF, και άλλα.  
+- **Υποστηρίζεται η ροή;** Απόλυτα, μπορείτε να αποθηκεύσετε απευθείας σε `OutputStream`.  
+- **Πώς μπορώ να χωρίσω ένα έγγραφο OneNote;** Χρησιμοποιήστε τη μέθοδο Splitting Algorithm που παρέχεται από το Aspose.Note.  
+- **Χρειάζομαι άδεια;** Διατίθεται δωρεάν δοκιμή· απαιτείται άδεια για παραγωγική χρήση.
 
 ## Τι είναι η αποθήκευση εγγράφου OneNote;
-Η αποθήκευση ενός εγγράφου OneNote σημαίνει τη μετατροπή της αναπαράστασης στη μνήμη ενός σημειωματάριου ή σελίδας σε ένα μόνιμο αρχείο (π.χ., .one, .pdf, .jpeg). Το Aspose.Note for Java αφαιρεί τη χαμηλού επιπέδου διαχείριση αρχείων, επιτρέποντάς σας να εστιάσετε στη λογική της επιχείρησης αντί για τις λεπτομέρειες μορφής αρχείου.
 
-## Γιατί να χρησιμοποιήσετε το Aspose.Note for Java;
-- **Πλήρης έλεγχος** πάνω στις επιλογές εξόδου (ανάλυση, συμπίεση, γραμματοσειρές).  
-- **Χωρίς εξάρτηση από το Microsoft Office** – λειτουργεί σε οποιοδήποτε περιβάλλον διακομιστή.  
-- **Πλούσιο API** για απλές αποθηκεύσεις και σύνθετους μετασχηματισμούς (διαχωρισμός, μετατροπή εικόνας κ.λπ.).  
-- **Εξαιρετική απόδοση** με λειτουργίες βασισμένες σε ροές, ιδανική για υπηρεσίες cloud.
+Η αποθήκευση ενός εγγράφου OneNote σημαίνει εξαγωγή της αναπαράστασης στη μνήμη ενός σημειωματάριου ή σελίδας σε ένα μόνιμο αρχείο όπως .one, .pdf, .jpeg ή .tiff, δημιουργώντας ένα αυτόνομο αρχείο που μπορεί να ανοιχθεί από το OneNote ή άλλους προβολείς. Αυτή η διαδικασία σας επιτρέπει να αρχειοθετείτε, να μοιράζεστε ή να επεξεργάζεστε περαιτέρω το περιεχόμενο χωρίς να απαιτείται η εφαρμογή OneNote.
+
+## Γιατί να χρησιμοποιήσετε Aspose.Note για Java;
+
+Θα πρέπει να χρησιμοποιήσετε Aspose.Note για Java επειδή παρέχει πλήρη έλεγχο των επιλογών εξόδου, λειτουργεί χωρίς το Microsoft Office και προσφέρει υψηλής απόδοσης APIs ροής που σας επιτρέπουν να μετατρέπετε, να χωρίζετε και να αποδίδετε περιεχόμενο OneNote σε οποιαδήποτε πλατφόρμα διακομιστή, συμπεριλαμβανομένων Linux και macOS. Η βιβλιοθήκη υποστηρίζει πάνω από 15 μορφές εξόδου και μπορεί να διαχειριστεί σημειωματάρια με εκατοντάδες σελίδες διατηρώντας χαμηλή χρήση μνήμης.
 
 ## Προαπαιτούμενα
 - Java 8 ή νεότερη.  
-- Βιβλιοθήκη Aspose.Note for Java προστεθειμένη στο έργο σας (Maven/Gradle ή χειροκίνητο JAR).  
-- Έγκυρη άδεια Aspose για παραγωγική χρήση (προαιρετική για δοκιμή).
+- Βιβλιοθήκη Aspose.Note για Java προστέθηκε στο έργο σας (Maven/Gradle ή χειροκίνητο JAR).  
+- Έγκυρη άδεια Aspose για παραγωγή (προαιρετική για δοκιμή).
 
-## Πώς να αποθηκεύσετε έγγραφα OneNote χρησιμοποιώντας το Aspose.Note
-Παρακάτω θα βρείτε μια επιμελημένη λίστα εστιασμένων μαθημάτων. Κάθε σύνδεσμος ανοίγει έναν αφιερωμένο οδηγό που σας καθοδηγεί μέσα από ένα συγκεκριμένο σενάριο αποθήκευσης, με αποσπάσματα κώδικα, συμβουλές διαμόρφωσης και τα αναμενόμενα αποτελέσματα.
+## Πώς να αποθηκεύσετε έγγραφα OneNote χρησιμοποιώντας Aspose.Note
 
-### Save Document to OneNote Format - Aspose.Note
-Learn how to seamlessly integrate OneNote format saving in Java with Aspose.Note. Follow our comprehensive guide for efficient document handling. [Read more](./save-document-to-onenote-format/)
+`OneSaveOptions` είναι η κλάση που ελέγχει πώς ένα έγγραφο OneNote σειριοποιείται κατά την αποθήκευση.  
+`ImageSaveOptions` σας επιτρέπει να ρυθμίσετε λεπτομερώς παραμέτρους ειδικές για εικόνες όπως DPI, συμπίεση και χρωματική λειτουργία.
 
-### Save Document to OneNote Using OneSaveOptions - Aspose.Note
-Enhance your Java workflow by mastering OneSaveOptions in Aspose.Note. Dive into our tutorial for step‑by‑step guidance on document saving. [Read more](./save-document-to-onenote-format-using-onesaveoptions/)
+Φορτώστε το αρχείο `.one` σε ένα αντικείμενο `Document`, διαμορφώστε τις κατάλληλες `SaveOptions` και καλέστε `document.save(...)`. Αυτή η ενιαία κλήση διαχειρίζεται τη μετατροπή μορφής, τις ρυθμίσεις ανάλυσης και τη διαχείριση ροής για εσάς.
 
-### Save Document to OneNote Using SaveFormat - Aspose.Note
-Effortlessly integrate OneNote format saving into your Java applications. Follow our step‑by‑step tutorial for seamless document handling. [Read more](./save-document-to-onenote-format-using-saveformat/)
+## Αποθήκευση εγγράφου σε μορφή OneNote - Aspose.Note
+Μάθετε πώς να ενσωματώσετε απρόσκοπτα την αποθήκευση μορφής OneNote σε Java με Aspose.Note. Ακολουθήστε τον ολοκληρωμένο μας οδηγό για αποδοτική διαχείριση εγγράφων. [Διαβάστε περισσότερα](./save-document-to-onenote-format/)
 
-### Save OneNote Document to Stream - Aspose.Note
-Efficiently integrate stream‑based saving of OneNote documents in Java using Aspose.Note. Follow our tutorial for a smooth implementation. [Read more](./save-onenote-document-to-stream/)
+## Αποθήκευση εγγράφου σε OneNote χρησιμοποιώντας OneSaveOptions - Aspose.Note
+Βελτιώστε τη ροή εργασίας Java σας κυριαρχώντας το OneSaveOptions στο Aspose.Note. Εμβαθύνετε στον οδηγό μας για βήμα-βήμα καθοδήγηση στην αποθήκευση εγγράφων. [Διαβάστε περισσότερα](./save-document-to-onenote-format-using-onesaveoptions/)
 
-### Save to Binary Image Using Fixed Threshold in OneNote
-Explore saving a Microsoft OneNote document as a binary image using a fixed threshold in Aspose.Note for Java. Step‑by‑step guidance with code examples. [Read more](./save-to-binary-image-using-fixed-threshold/)
+## Αποθήκευση εγγράφου σε OneNote χρησιμοποιώντας SaveFormat - Aspose.Note
+Ενσωματώστε εύκολα την αποθήκευση μορφής OneNote στις εφαρμογές Java σας. Ακολουθήστε τον βήμα-βήμα οδηγό μας για απρόσκοπτη διαχείριση εγγράφων. [Διαβάστε περισσότερα](./save-document-to-onenote-format-using-saveformat/)
 
-### Save to Binary Image Using Otsu Method in OneNote
-Learn to save a document as a binary image using Aspose.Note for Java. Detailed tutorial with code examples for efficient implementation. [Read more](./save-to-binary-image-using-otsu-method/)
+## Αποθήκευση εγγράφου OneNote σε ροή - Aspose.Note
+Ενσωματώστε αποτελεσματικά την αποθήκευση εγγράφων OneNote με ροή σε Java χρησιμοποιώντας Aspose.Note. Ακολουθήστε τον οδηγό μας για ομαλή υλοποίηση. [Διαβάστε περισσότερα](./save-onenote-document-to-stream/)
 
-### Save to BMP Image Using Image Save Options in OneNote
-Programmatically save OneNote documents to BMP images in Java with Aspose.Note. Step‑by‑step guide and code examples for a hassle‑free process. [Read more](./save-to-bmp-image-using-image-save-options/)
+## Αποθήκευση σε δυαδική εικόνα χρησιμοποιώντας σταθερό κατώφλι στο OneNote
+Εξερευνήστε την αποθήκευση ενός εγγράφου Microsoft OneNote ως δυαδική εικόνα χρησιμοποιώντας σταθερό κατώφλι στο Aspose.Note για Java. Οδηγίες βήμα-βήμα με παραδείγματα κώδικα. [Διαβάστε περισσότερα](./save-to-binary-image-using-fixed-threshold/)
 
-### Save to Grayscale Image in OneNote - Aspose.Note
-Manipulate Microsoft OneNote documents programmatically by saving them as grayscale images in Java with Aspose.Note. [Read more](./save-to-grayscale-image/)
+## Αποθήκευση σε δυαδική εικόνα χρησιμοποιώντας τη μέθοδο Otsu στο OneNote
+Μάθετε να αποθηκεύετε ένα έγγραφο ως δυαδική εικόνα χρησιμοποιώντας Aspose.Note για Java. Αναλυτικός οδηγός με παραδείγματα κώδικα για αποδοτική υλοποίηση. [Διαβάστε περισσότερα](./save-to-binary-image-using-otsu-method/)
 
-### Save to JPEG Image Using Save Format in OneNote
-Simplify conversion tasks by saving a document to JPEG image format in Java with Aspose.Note. Step‑by‑step tutorial for easy implementation. [Read more](./save-to-jpeg-image-using-save-format/)
+## Αποθήκευση σε εικόνα BMP χρησιμοποιώντας επιλογές αποθήκευσης εικόνας στο OneNote
+Προγραμματιστική αποθήκευση εγγράφων OneNote σε εικόνες BMP σε Java με Aspose.Note. Οδηγός βήμα-βήμα και παραδείγματα κώδικα για διαδικασία χωρίς προβλήματα. [Διαβάστε περισσότερα](./save-to-bmp-image-using-image-save-options/)
 
-### Save to PDF Using Page Settings in OneNote - Aspose.Note
-Save OneNote documents to PDF in Java with Aspose.Note. Explore different page settings through our comprehensive guide with code examples. [Read more](./save-to-pdf-using-page-settings/)
+## Αποθήκευση σε γκρι κλίμακα στο OneNote - Aspose.Note
+Διαχειριστείτε προγραμματιστικά έγγραφα Microsoft OneNote αποθηκεύοντάς τα ως εικόνες γκρι κλίμακας σε Java με Aspose.Note. [Διαβάστε περισσότερα](./save-to-grayscale-image/)
 
-### Save to Stream in OneNote - Aspese.Note
-Effortlessly integrate stream‑based saving of OneNote documents in Java using Aspose.Note. Follow our tutorial for a smooth implementation. [Read more](./save-to-stream/)
+## Αποθήκευση σε εικόνα JPEG χρησιμοποιώντας μορφή αποθήκευσης στο OneNote
+Απλοποιήστε τις εργασίες μετατροπής αποθηκεύοντας ένα έγγραφο σε μορφή εικόνας JPEG σε Java με Aspose.Note. Οδηγός βήμα-βήμα για εύκολη υλοποίηση. [Διαβάστε περισσότερα](./save-to-jpeg-image-using-save-format/)
 
-### Save to TIFF Image Using Image Save Options in OneNote
-Learn to save documents to TIFF images with various compression methods in Aspose.Note for Java. [Read more](./save-to-tiff-image-using-image-save-options/)
+## Αποθήκευση σε PDF χρησιμοποιώντας ρυθμίσεις σελίδας στο OneNote - Aspose.Note
+Αποθηκεύστε έγγραφα OneNote σε PDF σε Java με Aspose.Note. Εξερευνήστε διαφορετικές ρυθμίσεις σελίδας μέσω του ολοκληρωμένου μας οδηγού με παραδείγματα κώδικα. [Διαβάστε περισσότερα](./save-to-pdf-using-page-settings/)
 
-### Save Using Specified Fonts Subsystem in OneNote
-Ensure consistent font representation across platforms by saving OneNote documents using a specified fonts subsystem in Java with Aspose.Note. [Read more](./save-using-specified-fonts-subsystem/)
+## Αποθήκευση σε ροή στο OneNote - Aspese.Note
+Ενσωματώστε εύκολα την αποθήκευση εγγράφων OneNote με ροή σε Java χρησιμοποιώντας Aspose.Note. Ακολουθήστε τον οδηγό μας για ομαλή υλοποίηση. [Διαβάστε περισσότερα](./save-to-stream/)
 
-### Set Output Image Resolution in OneNote - Aspose.Note
-Adjust image resolution in OneNote documents using Aspose.Note for Java. Follow our step‑by‑step guide for easy implementation. [Read more](./set-output-image-resolution/)
+## Αποθήκευση σε εικόνα TIFF χρησιμοποιώντας επιλογές αποθήκευσης εικόνας στο OneNote
+Μάθετε να αποθηκεύετε έγγραφα σε εικόνες TIFF με διάφορες μεθόδους συμπίεσης στο Aspose.Note για Java. [Διαβάστε περισσότερα](./save-to-tiff-image-using-image-save-options/)
 
-### Specify Save Options in OneNote - Aspose.Note
-Customize page index, count, and compression settings effortlessly by learning how to specify save options in OneNote using Aspose.Note for Java. [Read more](./specify-save-options/)
+## Αποθήκευση χρησιμοποιώντας καθορισμένο υποσύστημα γραμματοσειρών στο OneNote
+Εξασφαλίστε συνεπή αναπαράσταση γραμματοσειρών μεταξύ πλατφορμών αποθηκεύοντας έγγραφα OneNote χρησιμοποιώντας καθορισμένο υποσύστημα γραμματοσειρών σε Java με Aspose.Note. [Διαβάστε περισσότερα](./save-using-specified-fonts-subsystem/)
 
-### Use Keep Solid Objects Algorithm in OneNote - Aspose.Note
-Preserve solid objects in your Aspose.Note documents when converting to PDF using the Keep Solid Objects Algorithm in Java. Learn the efficient method. [Read more](./use-keep-solid-objects-algorithm/)
+## Ορισμός ανάλυσης εξόδου εικόνας στο OneNote - Aspose.Note
+Ρυθμίστε την ανάλυση εικόνας σε έγγραφα OneNote χρησιμοποιώντας Aspose.Note για Java. Ακολουθήστε τον βήμα-βήμα οδηγό μας για εύκολη υλοποίηση. [Διαβάστε περισσότερα](./set-output-image-resolution/)
 
-### Use Splitting Algorithm Method in OneNote - Aspose.Note
-Efficiently split OneNote documents in Java using Aspose.Note. Follow our tutorial for step‑by‑step guidance on document splitting. [Read more](./use-splitting-algorithm-method/)
+## Καθορισμός επιλογών αποθήκευσης στο OneNote - Aspose.Note
+Προσαρμόστε το ευρετήριο σελίδας, τον αριθμό και τις ρυθμίσεις συμπίεσης εύκολα μαθαίνοντας πώς να καθορίζετε επιλογές αποθήκευσης σε OneNote χρησιμοποιώντας Aspose.Note για Java. [Διαβάστε περισσότερα](./specify-save-options/)
 
-## OneNote Document Saving Tutorials
-### [Save Document to OneNote Format - Aspose.Note](./save-document-to-onenote-format/)
-Learn how to save documents to OneNote format using Aspose.Note for Java. Follow our step‑by‑step guide for seamless integration.
-### [Save Document to OneNote Using OneSaveOptions - Aspose.Note](./save-document-to-onenote-format-using-onesaveoptions/)
-Learn how to save documents to OneNote format using OneSaveOptions in Aspose.Note for Java. Enhance your workflow with this comprehensive tutorial.
-### [Save Document to OneNote Using SaveFormat - Aspose.Note](./save-document-to-onenote-format-using-saveformat/)
-Learn how to save documents to OneNote format using Aspose.Note for Java. Follow this step‑by‑step tutorial for seamless integration into your Java applications.
-### [Save OneNote Document to Stream - Aspose.Note](./save-onenote-document-to-stream/)
-Learn how to save OneNote documents to a stream using Aspose.Note for Java. Follow our step‑by‑step tutorial for efficient integration into your Java applications.
-### [Save to Binary Image Using Fixed Threshold in OneNote](./save-to-binary-image-using-fixed-threshold/)
-Learn how to save a Microsoft OneNote document as a binary image using a fixed threshold in Aspose.Note for Java.
-### [Save to Binary Image Using Otsu Method in OneNote](./save-to-binary-image-using-otsu-method/)
-Learn how to save a document as a binary image using Aspose.Note for Java. Step‑by‑step guide with code examples included.
-### [Save to BMP Image Using Image Save Options in OneNote](./save-to-bmp-image-using-image-save-options/)
-Learn how to save OneNote documents to BMP images programmatically using Aspose.Note for Java. Step‑by‑step guide with code examples.
-### [Save to Grayscale Image in OneNote - Aspose.Note](./save-to-grayscale-image/)
-Learn how to save a document as a grayscale image in OneNote using Aspose.Note for Java. Easily manipulate Microsoft OneNote documents programmatically.
-### [Save to JPEG Image Using Save Format in OneNote](./save-to-jpeg-image-using-save-format/)
-Learn how to save a document to JPEG image format using Aspose.Note for Java, simplifying conversion tasks.
-### [Save to PDF Using Page Settings in OneNote - Aspose.Note](./save-to-pdf-using-page-settings/)
-Learn how to save OneNote documents to PDF in Java using Aspose.Note library. Step‑by‑step guide with code examples for different page settings.
-### [Save to Stream in OneNote - Aspose.Note](./save-to-stream/)
-Learn how to save OneNote documents to a stream in Java using Aspose.Note. Effortlessly integrate this functionality into your applications.
-### [Save to TIFF Image Using Image Save Options in OneNote](./save-to-tiff-image-using-image-save-options/)
-Learn how to save documents to TIFF images with different compression methods in Aspose.Note for Java.
-### [Save Using Specified Fonts Subsystem in OneNote](./save-using-specified-fonts-subsystem/)
-Learn how to save OneNote documents using specified fonts subsystem in Java with Aspose.Note. Ensure consistent font representation across platforms effortlessly.
-### [Set Output Image Resolution in OneNote - Aspose.Note](./set-output-image-resolution/)
-Learn how to adjust image resolution in OneNote documents using Aspose.Note for Java. Follow our step‑by‑step guide for easy implementation
-### [Specify Save Options in OneNote - Aspose.Note](./specify-save-options/)
-Learn how to specify save options in OneNote using Aspose.Note for Java. Customize page index, count, and compression settings effortlessly.
-### [Use Keep Solid Objects Algorithm in OneNote - Aspose.Note](./use-keep-solid-objects-algorithm/)
-Learn how to preserve solid objects in your Aspose.Note documents when converting to PDF using the Keep Solid Objects Algorithm in Java.
-### [Use Splitting Algorithm Method in OneNote - Aspose.Note](./use-splitting-algorithm-method/)
-Learn how to split OneNote documents efficiently using Aspose.Note for Java.
+## Χρήση αλγορίθμου διατήρησης στερεών αντικειμένων στο OneNote - Aspose.Note
+Διατηρήστε στερεά αντικείμενα στα έγγραφα Aspose.Note όταν μετατρέπετε σε PDF χρησιμοποιώντας τον αλγόριθμο Keep Solid Objects σε Java. Μάθετε τη αποδοτική μέθοδο. [Διαβάστε περισσότερα](./use-keep-solid-objects-algorithm/)
 
-## Split OneNote Document Using Aspose.Note
-If you need to break a large OneNote notebook into smaller, more manageable pieces, the **split onenote document** feature is the answer. The Splitting Algorithm method extracts individual sections or pages and saves each as a separate OneNote file, which is ideal for batch processing, archiving, or distributing content across teams. Check the dedicated tutorial above for a hands‑on walkthrough.
+## Χρήση μεθόδου αλγορίθμου διαίρεσης στο OneNote - Aspose.Note
+Διαχωρίστε αποτελεσματικά έγγραφα OneNote σε Java χρησιμοποιώντας Aspose.Note. Ακολουθήστε τον οδηγό μας για βήμα-βήμα καθοδήγηση στο διαχωρισμό εγγράφων. [Διαβάστε περισσότερα](./use-splitting-algorithm-method/)
 
-## Common Issues & Troubleshooting
-- **Missing fonts** – Ensure the fonts subsystem is correctly specified; otherwise, the output may fall back to default fonts.  
-- **Stream not closed** – Always close your `OutputStream` in a `finally` block or use try‑with‑resources to avoid resource leaks.  
-- **Large files** – Use the `ImageSaveOptions` to lower resolution or apply compression when exporting to image formats.
+## Εκπαιδευτικά για αποθήκευση εγγράφου OneNote
+### [Αποθήκευση Εγγράφου σε Μορφή OneNote - Aspose.Note](./save-document-to-onenote-format/)
+Μάθετε πώς να αποθηκεύετε έγγραφα σε μορφή OneNote χρησιμοποιώντας Aspose.Note για Java. Ακολουθήστε τον βήμα-βήμα οδηγό για απρόσκοπτη ενσωμάτωση.
+### [Αποθήκευση Εγγράφου σε OneNote χρησιμοποιώντας OneSaveOptions - Aspose.Note](./save-document-to-onenote-format-using-onesaveoptions/)
+Μάθετε πώς να αποθηκεύετε έγγραφα σε μορφή OneNote χρησιμοποιώντας OneSaveOptions στο Aspose.Note για Java. Βελτιώστε τη ροή εργασίας σας με αυτόν τον ολοκληρωμένο οδηγό.
+### [Αποθήκευση Εγγράφου σε OneNote χρησιμοποιώντας SaveFormat - Aspose.Note](./save-document-to-onenote-format-using-saveformat/)
+Μάθετε πώς να αποθηκεύετε έγγραφα σε μορφή OneNote χρησιμοποιώντας Aspose.Note για Java. Ακολουθήστε αυτόν τον βήμα-βήμα οδηγό για απρόσκοπτη ενσωμάτωση στις εφαρμογές Java σας.
+### [Αποθήκευση Εγγράφου OneNote σε Ροή - Aspose.Note](./save-onenote-document-to-stream/)
+Μάθετε πώς να αποθηκεύετε έγγραφα OneNote σε ροή χρησιμοποιώντας Aspose.Note για Java. Ακολουθήστε τον βήμα-βήμα οδηγό μας για αποδοτική ενσωμάτωση στις εφαρμογές Java σας.
+### [Αποθήκευση σε Δυαδική Εικόνα Χρησιμοποιώντας Σταθερό Κατώφλι στο OneNote](./save-to-binary-image-using-fixed-threshold/)
+Μάθετε πώς να αποθηκεύετε ένα έγγραφο Microsoft OneNote ως δυαδική εικόνα χρησιμοποιώντας σταθερό κατώφλι στο Aspose.Note για Java.
+### [Αποθήκευση σε Δυαδική Εικόνα Χρησιμοποιώντας τη Μέθοδο Otsu στο OneNote](./save-to-binary-image-using-otsu-method/)
+Μάθετε πώς να αποθηκεύετε ένα έγγραφο ως δυαδική εικόνα χρησιμοποιώντας Aspose.Note για Java. Οδηγός βήμα-βήμα με παραδείγματα κώδικα.
+### [Αποθήκευση σε Εικόνα BMP Χρησιμοποιώντας Επιλογές Αποθήκευσης Εικόνας στο OneNote](./save-to-bmp-image-using-image-save-options/)
+Μάθετε πώς να αποθηκεύετε έγγραφα OneNote σε εικόνες BMP προγραμματιστικά χρησιμοποιώντας Aspose.Note για Java. Οδηγός βήμα-βήμα με παραδείγματα κώδικα.
+### [Αποθήκευση σε Γκρι Κλίμακα στο OneNote - Aspose.Note](./save-to-grayscale-image/)
+Μάθετε πώς να αποθηκεύετε ένα έγγραφο ως εικόνα γκρι κλίμακας στο OneNote χρησιμοποιώντας Aspose.Note για Java. Εύκολη προγραμματιστική διαχείριση εγγράφων Microsoft OneNote.
+### [Αποθήκευση σε Εικόνα JPEG Χρησιμοποιώντας Μορφή Αποθήκευσης στο OneNote](./save-to-jpeg-image-using-save-format/)
+Μάθετε πώς να αποθηκεύετε ένα έγγραφο σε μορφή εικόνας JPEG χρησιμοποιώντας Aspose.Note για Java, απλοποιώντας τις εργασίες μετατροπής.
+### [Αποθήκευση σε PDF Χρησιμοποιώντας Ρυθμίσεις Σελίδας στο OneNote - Aspose.Note](./save-to-pdf-using-page-settings/)
+Μάθετε πώς να αποθηκεύετε έγγραφα OneNote σε PDF σε Java χρησιμοποιώντας τη βιβλιοθήκη Aspose.Note. Οδηγός βήμα-βήμα με παραδείγματα κώδικα για διαφορετικές ρυθμίσεις σελίδας.
+### [Αποθήκευση σε Ροή στο OneNote - Aspose.Note](./save-to-stream/)
+Μάθετε πώς να αποθηκεύετε έγγραφα OneNote σε ροή σε Java χρησιμοποιώντας Aspose.Note. Ενσωματώστε αυτή τη λειτουργία άψογα στις εφαρμογές σας.
+### [Αποθήκευση σε Εικόνα TIFF Χρησιμοποιώντας Επιλογές Αποθήκευσης Εικόνας στο OneNote](./save-to-tiff-image-using-image-save-options/)
+Μάθετε πώς να αποθηκεύετε έγγραφα σε εικόνες TIFF με διαφορετικές μεθόδους συμπίεσης στο Aspose.Note για Java.
+### [Αποθήκευση Χρησιμοποιώντας Καθορισμένο Υποσύστημα Γραμματοσειρών στο OneNote](./save-using-specified-fonts-subsystem/)
+Μάθετε πώς να αποθηκεύετε έγγραφα OneNote χρησιμοποιώντας καθορισμένο υποσύστημα γραμματοσειρών σε Java με Aspose.Note. Εξασφαλίστε συνεπή αναπαράσταση γραμματοσειρών μεταξύ πλατφορμών άψογα.
+### [Ορισμός Ανάλυσης Εξόδου Εικόνας στο OneNote - Aspose.Note](./set-output-image-resolution/)
+Μάθετε πώς να ρυθμίσετε την ανάλυση εικόνας σε έγγραφα OneNote χρησιμοποιώντας Aspose.Note για Java. Ακολουθήστε τον βήμα-βήμα οδηγό μας για εύκολη υλοποίηση
+### [Καθορισμός Επιλογών Αποθήκευσης στο OneNote - Aspose.Note](./specify-save-options/)
+Μάθετε πώς να καθορίζετε επιλογές αποθήκευσης σε OneNote χρησιμοποιώντας Aspose.Note για Java. Προσαρμόστε το ευρετήριο σελίδας, τον αριθμό και τις ρυθμίσεις συμπίεσης άψογα.
+### [Χρήση Αλγορίθμου Διατήρησης Στερεών Αντικειμένων στο OneNote - Aspose.Note](./use-keep-solid-objects-algorithm/)
+Μάθετε πώς να διατηρείτε στερεά αντικείμενα στα έγγραφα Aspose.Note όταν μετατρέπετε σε PDF χρησιμοποιώντας τον αλγόριθμο Keep Solid Objects σε Java.
+### [Χρήση Μεθόδου Αλγορίθμου Διαίρεσης στο OneNote - Aspose.Note](./use-splitting-algorithm-method/)
+Μάθετε πώς να χωρίζετε έγγραφα OneNote αποδοτικά χρησιμοποιώντας Aspose.Note για Java.
 
-## Frequently Asked Questions
+## Διαχωρισμός εγγράφου OneNote χρησιμοποιώντας Aspose.Note
+Αν χρειάζεστε να χωρίσετε ένα μεγάλο σημειωματάριο OneNote σε μικρότερα, πιο διαχειρίσιμα κομμάτια, η δυνατότητα **διαχωρισμού εγγράφου OneNote** είναι η λύση. Η μέθοδος Splitting Algorithm εξάγει μεμονωμένες ενότητες ή σελίδες και αποθηκεύει κάθε μία ως ξεχωριστό αρχείο OneNote, ιδανική για μαζική επεξεργασία, αρχειοθέτηση ή διανομή περιεχομένου μεταξύ ομάδων. Ελέγξτε το αφιερωμένο μάθημα παραπάνω για πρακτική καθοδήγηση.
 
-**Q: Can I convert a OneNote file to PDF without losing formatting?**  
-A: Yes. Use the Keep Solid Objects Algorithm together with `PdfSaveOptions` to retain layout and embedded objects.
+## Συχνά προβλήματα & αντιμετώπιση
+- **Λείπουν γραμματοσειρές** – Βεβαιωθείτε ότι το υποσύστημα γραμματοσειρών έχει καθοριστεί σωστά· διαφορετικά, η έξοδος μπορεί να επανέλθει στις προεπιλεγμένες γραμματοσειρές.  
+- **Η ροή δεν κλείνει** – Πάντα κλείνετε το `OutputStream` σε μπλοκ `finally` ή χρησιμοποιήστε try‑with‑resources για να αποφύγετε διαρροές πόρων.  
+- **Μεγάλα αρχεία** – Χρησιμοποιήστε το `ImageSaveOptions` για να μειώσετε την ανάλυση ή να εφαρμόσετε συμπίεση κατά την εξαγωγή σε μορφές εικόνας.
 
-**Q: How do I save a OneNote page directly to an `OutputStream`?**  
-A: Instantiate the appropriate `SaveOptions` (e.g., `OneSaveOptions`) and call `document.save(outputStream, saveOptions);` – the stream will contain the binary OneNote data.
+## Συχνές ερωτήσεις
 
-**Q: Is it possible to split a OneNote document into separate sections?**  
-A: Absolutely. The Splitting Algorithm method lets you specify the target section or page and saves each part as an independent .one file.
+**Q:** Μπορώ να μετατρέψω ένα αρχείο OneNote σε PDF χωρίς να χάσω τη μορφοποίηση;  
+**A:** Ναι. Χρησιμοποιήστε τον αλγόριθμο Keep Solid Objects μαζί με `PdfSaveOptions` για να διατηρήσετε τη διάταξη και τα ενσωματωμένα αντικείμενα.
 
-**Q: Do I need a Windows environment to use Aspose.Note for Java?**  
-A: No. Aspose.Note is a pure Java library and runs on any OS that supports Java (Windows, Linux, macOS).
+**Q:** Πώς αποθηκεύω μια σελίδα OneNote απευθείας σε `OutputStream`;  
+**A:** Δημιουργήστε το κατάλληλο `SaveOptions` (π.χ., `OneSaveOptions`) και καλέστε `document.save(outputStream, saveOptions);` – η ροή θα περιέχει τα δυαδικά δεδομένα OneNote.
 
-**Q: Where can I find the latest version of Aspose.Note for Java?**  
-A: Visit the official Aspose website or Maven Central Repository for the most recent release.
+**Q:** Είναι δυνατόν να χωρίσετε ένα έγγραφο OneNote σε ξεχωριστές ενότητες;  
+**A:** Απολύτως. Η μέθοδος Splitting Algorithm σας επιτρέπει να καθορίσετε την ενότητα ή τη σελίδα-στόχο και αποθηκεύει κάθε μέρος ως ανεξάρτητο αρχείο .one.
 
-## FAQ – Additional Quick Queries
+**Q:** Χρειάζομαι περιβάλλον Windows για να χρησιμοποιήσω Aspose.Note για Java;  
+**A:** Όχι. Το Aspose.Note είναι μια καθαρή βιβλιοθήκη Java και λειτουργεί σε οποιοδήποτε OS που υποστηρίζει Java (Windows, Linux, macOS).
 
-**Q: How can I set image resolution when saving OneNote pages?**  
-A: Use `ImageSaveOptions.setResolution(int dpi)` before calling `document.save(...)`. This lets you control the output DPI for image formats.
+**Q:** Πού μπορώ να βρω την πιο πρόσφατη έκδοση του Aspose.Note για Java;  
+**A:** Επισκεφθείτε την επίσημη ιστοσελίδα Aspose ή το Maven Central Repository για την πιο πρόσφατη έκδοση.
 
-**Q: What is the best way to perform a binary image threshold on a OneNote export?**  
-A: Apply `BinaryImageSaveOptions.setThresholdMethod(ThresholdMethod.FIXED)` and specify the threshold value to get a clear black‑and‑white image.
+## FAQ – επιπλέον γρήγορες ερωτήσεις
 
-**Q: Does Aspose.Note support onenote to pdf conversion?**  
-A: Yes – simply load the `.one` file and call `document.save("output.pdf", SaveFormat.PDF)`; you can also tweak conversion settings with `PdfSaveOptions`.
+**Q:** Πώς μπορώ να ορίσω την ανάλυση εικόνας κατά την αποθήκευση σελίδων OneNote;  
+**A:** Χρησιμοποιήστε `ImageSaveOptions.setResolution(int dpi)` πριν καλέσετε `document.save(...)`. Αυτό σας επιτρέπει να ελέγχετε το DPI εξόδου για μορφές εικόνας.
 
-**Q: Can I save OneNote content directly to a stream for cloud storage?**  
-A: Absolutely. Use `document.save(outputStream, new OneSaveOptions())` to write the data to any `OutputStream`, such as a `ByteArrayOutputStream` for cloud APIs.
+**Q:** Ποιος είναι ο καλύτερος τρόπος για να εφαρμόσετε κατώφλι δυαδικής εικόνας σε εξαγωγή OneNote;  
+**A:** Εφαρμόστε `BinaryImageSaveOptions.setThresholdMethod(ThresholdMethod.FIXED)` και καθορίστε την τιμή κατωφλίου για να λάβετε μια καθαρή ασπρόμαυρη εικόνα.
 
-**Q: Is there a dedicated API for onenote document saving that handles large notebooks efficiently?**  
-A: The library’s streaming API combined with `ImageSaveOptions` and the Splitting Algorithm ensures memory‑efficient processing of large notebooks.
+**Q:** Υποστηρίζει το Aspose.Note τη μετατροπή oneNote σε pdf;  
+**A:** Ναι – απλώς φορτώστε το αρχείο `.one` και καλέστε `document.save("output.pdf", SaveFormat.PDF)`· μπορείτε επίσης να ρυθμίσετε τις ρυθμίσεις μετατροπής με `PdfSaveOptions`.
 
----
+**Q:** Μπορώ να αποθηκεύσω το περιεχόμενο OneNote απευθείας σε ροή για αποθήκευση στο cloud;  
+**A:** Απολύτως. Χρησιμοποιήστε `document.save(outputStream, new OneSaveOptions())` για να γράψετε τα δεδομένα σε οποιοδήποτε `OutputStream`, όπως ένα `ByteArrayOutputStream` για cloud APIs.
 
-**Τελευταία Ενημέρωση:** 2025-12-11  
-**Δοκιμασμένο Με:** Aspose.Note 26.4 for Java  
-**Συγγραφέας:** Aspose  
+**Q:** Υπάρχει ειδικό API για αποθήκευση εγγράφου onenote που διαχειρίζεται αποτελεσματικά μεγάλα σημειωματάρια;  
+**A:** Το streaming API της βιβλιοθήκης σε συνδυασμό με `ImageSaveOptions` και τον αλγόριθμο Splitting εξασφαλίζει αποδοτική επεξεργασία μεγάλων σημειωματάριων με χαμηλή χρήση μνήμης.
+
+**Τελευταία ενημέρωση:** 2026-08-24  
+**Δοκιμή με:** Aspose.Note 26.4 for Java  
+**Συγγραφέας:** Aspose
+
+## Σχετικά Μαθήματα
+
+- [Πώς να εξάγετε σελίδα OneNote σε εικόνα PNG σε Java χρησιμοποιώντας Aspose.Note](/note/java/onenote-document-loading/convert-page-to-png-image/)
+- [Πώς να ρυθμίσετε το κατώφλι κατά την αποθήκευση OneNote σε δυαδική εικόνα](/note/java/onenote-document-saving/save-to-binary-image-using-fixed-threshold/)
+- [Πώς να αποθηκεύσετε OneNote σε ροή – Aspose.Note](/note/java/onenote-document-saving/save-onenote-document-to-stream/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
