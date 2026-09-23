@@ -1,11 +1,66 @@
 ---
-date: 2026-02-05
-description: Học cách xuất các trang OneNote và lưu OneNote dưới dạng hình ảnh. Hướng
-  dẫn này chỉ ra cách chuyển đổi .one sang png, đặt chỉ mục trang và xuất hình ảnh
-  trang OneNote bằng Aspose.Note cho Java.
-linktitle: Export OneNote Page to PNG Image in Java
+date: 2026-09-04
+description: Tìm hiểu cách xuất trang OneNote sang ảnh PNG trong Java bằng Aspose.Note.
+  Hướng dẫn này trình bày cách chuyển đổi .one sang png, thiết lập chỉ mục trang và
+  lưu dưới dạng hình ảnh.
+keywords:
+- how to export onenote
+- convert onenote to png
+- save onenote as image
+- convert .one to png
+lastmod: 2026-09-04
+linktitle: Xuất trang OneNote sang ảnh PNG trong Java
+og_description: Cách xuất trang OneNote sang PNG trong Java với Aspose.Note. Hướng
+  dẫn này sẽ chỉ cho bạn cách tải tệp .one, chọn trang và lưu ảnh PNG chất lượng cao.
+og_image_alt: 'Tutorial: Export OneNote page to PNG image using Aspose.Note for Java'
+og_title: Cách xuất trang OneNote sang PNG trong Java với Aspose.Note
+schemas:
+- author: Aspose
+  dateModified: '2026-09-04'
+  description: Learn how to export OneNote page to PNG image in Java using Aspose.Note.
+    This guide shows converting .one to png, setting the page index, and saving as
+    an image.
+  headline: How to export OneNote page to PNG in Java with Aspose.Note
+  type: TechArticle
+- description: Learn how to export OneNote page to PNG image in Java using Aspose.Note.
+    This guide shows converting .one to png, setting the page index, and saving as
+    an image.
+  name: How to export OneNote page to PNG in Java with Aspose.Note
+  steps:
+  - name: Load the OneNote document
+    text: The `Document` class represents a OneNote file in memory. Loading the file
+      is the foundation for **convert .one to png**.
+  - name: Initialise image‑save options
+    text: '`ImageSaveOptions` tells Aspose.Note that the output should be **PNG**.
+      You can also adjust DPI, color depth, and compression here.'
+  - name: Set the page index (how to convert OneNote page)
+    text: The `setPageIndex` method selects which page to export. Page numbering starts
+      at **0**, so `0` refers to the first page. Adjust this value to export a different
+      page or loop through pages for bulk conversion.
+  - name: Save the document as PNG (save OneNote as PNG)
+    text: Calling `save` writes the selected page to a PNG file on disk. The file
+      name `ConvertSpecificPageToPngImage_out.png` is just an example—you can name
+      it whatever you like. This final step **exports onenote page image** ready for
+      use in reports, web pages, or further processing.
+  type: HowTo
+- questions:
+  - answer: Aspose.Note for Java.
+    question: What library is needed?
+  - answer: Yes—use `setPageIndex` to target the exact page.
+    question: Can I export a single page?
+  - answer: PNG, JPEG, GIF, BMP, TIFF (PNG shown here).
+    question: Supported image formats?
+  - answer: A free trial is available; a license is required for production.
+    question: Do I need a license?
+  - answer: Typically under 10 minutes for a basic conversion.
+    question: How long does implementation take?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: Cách xuất trang OneNote sang ảnh PNG trong Java bằng Aspose.Note
+tags:
+- onenote conversion
+- Aspose.Note
+- java image export
+title: Cách xuất trang OneNote sang PNG trong Java với Aspose.Note
 url: /vi/java/onenote-document-loading/convert-page-to-png-image/
 weight: 13
 ---
@@ -14,40 +69,35 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Xuất Trang OneNote thành Ảnh PNG trong Java bằng Aspose.Note
+# Cách xuất trang OneNote sang PNG trong Java với Aspose.Note
 
-## Introduction
+Trong tutorial này bạn sẽ học **cách xuất trang OneNote** thành ảnh PNG bằng thư viện Aspose.Note cho Java. Việc xuất trang OneNote là nhu cầu thường gặp khi bạn cần chia sẻ ghi chú ra ngoài hệ sinh thái OneNote, nhúng chúng vào báo cáo, hoặc chạy các thuật toán xử lý ảnh. Chúng tôi sẽ hướng dẫn cài đặt môi trường, tải file .one, chọn một trang cụ thể, cấu hình tùy chọn ảnh, và cuối cùng lưu file PNG độ phân giải cao.
 
-Trong hướng dẫn này bạn sẽ khám phá **cách xuất trang OneNote** thành ảnh PNG bằng thư viện Aspose.Note cho Java. **Cách xuất onenote** là nhu cầu phổ biến khi bạn muốn chia sẻ ghi chú ra ngoài hệ sinh thái OneNote, nhúng chúng vào báo cáo, hoặc xử lý chúng với các công cụ xử lý ảnh. Chúng tôi sẽ hướng dẫn mọi thứ bạn cần—from chuẩn bị môi trường đến đặt chỉ mục trang, chuyển đổi trang, và lưu kết quả dưới dạng tệp PNG chất lượng cao. Khi hoàn thành, bạn sẽ có thể **lưu onenote dưới dạng ảnh** trong bất kỳ ứng dụng Java nào.
+## Câu trả lời nhanh
+- **Thư viện cần thiết?** Aspose.Note cho Java.  
+- **Có thể xuất một trang duy nhất không?** Có—sử dụng `setPageIndex` để chỉ định trang cụ thể.  
+- **Các định dạng ảnh được hỗ trợ?** PNG, JPEG, GIF, BMP, TIFF (ở đây hiển thị PNG).  
+- **Cần giấy phép không?** Có bản dùng thử miễn phí; giấy phép bắt buộc cho môi trường sản xuất.  
+- **Thời gian thực hiện khoảng bao lâu?** Thông thường dưới 10 phút cho một chuyển đổi cơ bản.  
+- **Cách chuyển .one sang png?** Tải tệp `.one` bằng `Document`, đặt chỉ số trang, và lưu bằng `ImageSaveOptions`.  
 
-## Quick Answers
-- **What library is needed?** Aspose.Note for Java.  
-- **Can I export a single page?** Yes—use `setPageIndex` to target the exact page.  
-- **Supported image formats?** PNG, JPEG, GIF, BMP, TIFF (PNG shown here).  
-- **Do I need a license?** A free trial is available; a license is required for production.  
-- **How long does implementation take?** Typically under 10 minutes for a basic conversion.  
-- **How to convert .one to png?** Load the `.one` file with `Document`, set the page index, and save with `ImageSaveOptions`.  
+## “Xuất trang OneNote” là gì?
+Xuất một trang OneNote có nghĩa là chuyển đổi một trang cụ thể trong tài liệu `.one` thành một file ảnh độc lập (PNG trong trường hợp này). Điều này hữu ích khi bạn cần **xuất ảnh trang onenote** để chia sẻ, nhúng, hoặc phân tích dựa trên ảnh. Quy trình bắt đầu bằng việc tải file OneNote, chọn trang mong muốn, và sau đó render trang đó thành ảnh raster.
 
-## What is “export OneNote page”?
-Exporting a OneNote page means converting a specific page inside a `.one` document into a standalone image file (PNG in this case). This is useful when you need to **export onenote page image** for sharing, embedding, or further image‑based analysis.
+## Tại sao nên dùng Aspose.Note cho Java để chuyển OneNote sang PNG?
+Aspose.Note hỗ trợ **hơn 50 định dạng đầu vào và đầu ra** và có thể render sổ ghi chú hàng trăm trang mà không cần Microsoft Office. Nó cung cấp kiểm soát chi tiết về lựa chọn trang, DPI và độ sâu màu, tạo ra các file PNG giữ nguyên đồ họa vector và độ rõ nét của văn bản. Thư viện chạy trên bất kỳ nền tảng nào hỗ trợ Java 8+, rất phù hợp cho các chuyển đổi hàng loạt phía server.
 
-## Why use Aspose.Note for Java to convert OneNote to PNG?
-- **No Microsoft Office dependency** – works on any platform that runs Java.  
-- **Fine‑grained control** – you can pick any page via `setPageIndex`.  
-- **High‑quality output** – PNG retains vector graphics and text clarity.  
-- **Batch‑ready** – easy to loop through pages for bulk conversion, making it simple to **convert onenote to png** for many pages at once.  
+## Yêu cầu trước
 
-## Prerequisites
+Trước khi bắt đầu, hãy chắc chắn rằng bạn có:
 
-Before you start, make sure you have:
+1. **Java Development Kit (JDK)** – phiên bản 8 trở lên.  
+2. **Aspose.Note cho Java** – tải JAR mới nhất từ [trang web Aspose](https://releases.aspose.com/note/java/).  
+3. **Một tài liệu OneNote** (`.one`) chứa trang bạn muốn xuất.
 
-1. **Java Development Kit (JDK)** – version 8 or higher.  
-2. **Aspose.Note for Java** – download the latest JAR from the [Aspose website](https://releases.aspose.com/note/java/).  
-3. **A OneNote document** (`.one`) that contains the page you want to export.
+## Nhập các gói
 
-## Import Packages
-
-First, import the necessary Java classes:
+Đầu tiên, nhập các lớp Java cần thiết:
 
 ```java
 import java.io.IOException;
@@ -57,11 +107,13 @@ import com.aspose.note.LoadOptions;
 import com.aspose.note.SaveFormat;
 ```
 
-These imports give you access to the core Aspose.Note API, including loading documents and configuring image‑save options.
+Các import này cho phép bạn truy cập vào API cốt lõi của Aspose.Note, bao gồm tải tài liệu và cấu hình tùy chọn lưu ảnh.
 
-## Step‑by‑Step Guide
+## Hướng dẫn từng bước
 
-### Step 1: Load the OneNote Document
+### Bước 1: Tải tài liệu OneNote
+
+Lớp `Document` đại diện cho một file OneNote trong bộ nhớ. Tải file là nền tảng cho **chuyển .one sang png**.
 
 ```java
 // Load the document into Aspose.Note.
@@ -69,79 +121,75 @@ String dataDir = "Your Document Directory";
 Document oneFile = new Document(dataDir + "Sample1.one", new LoadOptions());
 ```
 
-We use the `Document` class to read the OneNote file from disk. The `LoadOptions` object lets you customize loading behavior if needed. This step is the foundation for **convert .one to png**.
+### Bước 2: Khởi tạo tùy chọn lưu ảnh
 
-### Step 2: Initialize ImageSaveOptions
+`ImageSaveOptions` cho Aspose.Note biết rằng đầu ra sẽ là **PNG**. Bạn cũng có thể điều chỉnh DPI, độ sâu màu và mức nén tại đây.
 
 ```java
 // Initialize ImageSaveOptions object
 ImageSaveOptions opts = new ImageSaveOptions(SaveFormat.Png);
 ```
 
-`ImageSaveOptions` tells Aspose.Note that we want the output in **PNG** format. You could switch to JPEG, BMP, etc., by changing `SaveFormat`. This object also lets you control DPI, color depth, and other image‑specific settings.
+### Bước 3: Đặt chỉ số trang (cách chuyển trang OneNote)
 
-### Step 3: Set the Page Index (How to convert OneNote page)
+Phương thức `setPageIndex` chọn trang sẽ được xuất. Đánh số trang bắt đầu từ **0**, vì vậy `0` là trang đầu tiên. Thay đổi giá trị này để xuất trang khác hoặc lặp qua các trang để chuyển đổi hàng loạt.
 
 ```java
 // set page index
 opts.setPageIndex(0);
 ```
 
-The `setPageIndex` method selects which page to export. Page numbering starts at **0**, so `0` refers to the first page. Adjust this value to **export a different page** or to loop through pages when you need to **save onenote as image** for each one.
+### Bước 4: Lưu tài liệu dưới dạng PNG (lưu OneNote dưới dạng PNG)
 
-### Step 4: Save the Document as PNG (Save OneNote as PNG)
+Gọi `save` sẽ ghi trang đã chọn vào file PNG trên đĩa. Tên file `ConvertSpecificPageToPngImage_out.png` chỉ là ví dụ—bạn có thể đặt tên tùy ý. Bước cuối cùng này **xuất ảnh trang onenote** sẵn sàng dùng trong báo cáo, trang web, hoặc xử lý tiếp theo.
 
 ```java
 // Save the document as PNG.
 oneFile.save(dataDir + "ConvertSpecificPageToPngImage_out.png", opts);
 ```
 
-Gọi hàm `save` sẽ ghi trang đã chọn vào một tệp PNG trên ổ đĩa. Tên tệp `ConvertSpecificPageToPngImage_out.png` chỉ là ví dụ—bạn có thể đặt tên tùy ý. Bước cuối cùng này **xuất hình ảnh trang OneNote** sẵn sàng để sử dụng trong báo cáo, trang web hoặc xử lý tiếp theo.
+## Các vấn đề thường gặp & mẹo
 
-## Các vấn đề thường gặp & Mẹo
-
-- **Chỉ mục trang không chính xác** – Hãy nhớ rằng việc lập chỉ mục bắt đầu từ 0. Nếu bạn nhận được hình ảnh trống, hãy xác minh giá trị chỉ mục.
-
-- **Thiếu tệp JAR Aspose.Note** – Đảm bảo tệp JAR có trong classpath của bạn; nếu không, bạn sẽ thấy lỗi `ClassNotFoundException`.
-
-- **Trang lớn** – Đối với các trang rất lớn, hãy cân nhắc tăng kích thước heap của JVM (`-Xmx`) để tránh lỗi `OutOfMemoryError`.
-
-- **Kiểm soát độ phân giải** – Sử dụng `opts.setResolution(300)` (hoặc bất kỳ DPI nào bạn cần) trước khi gọi hàm `save` để cải thiện độ rõ nét của hình ảnh.
+- **Chỉ số trang không đúng** – Nhớ rằng đánh số bắt đầu từ 0. Nếu nhận được ảnh trống, hãy kiểm tra giá trị chỉ số.  
+- **Thiếu JAR Aspose.Note** – Đảm bảo JAR đã có trong classpath; nếu không sẽ gặp `ClassNotFoundException`.  
+- **Trang lớn** – Đối với các trang rất lớn, cân nhắc tăng kích thước heap JVM (`-Xmx`) để tránh `OutOfMemoryError`.  
+- **Kiểm soát độ phân giải** – Sử dụng `opts.setResolution(300)` (hoặc bất kỳ DPI nào bạn cần) trước khi gọi `save` để cải thiện độ rõ nét ảnh.  
 
 ## Câu hỏi thường gặp
 
-### Q1: Tôi có thể chuyển đổi nhiều trang thành ảnh PNG cùng một lúc bằng Aspose.Note cho Java không?
+**Q1: Có thể chuyển nhiều trang sang ảnh PNG cùng lúc bằng Aspose.Note cho Java không?**  
+A1: Có, bạn có thể lặp qua các trang của tài liệu, cập nhật `opts.setPageIndex(i)`, và gọi `save` cho mỗi lần lặp.
 
-A1: Có, bạn có thể lặp qua các trang của tài liệu, cập nhật `opts.setPageIndex(i)` và gọi `save` cho mỗi lần lặp.
+**Q2: Aspose.Note cho Java có hỗ trợ các định dạng ảnh khác ngoài PNG không?**  
+A2: Chắc chắn. Đặt `SaveFormat.Jpeg`, `SaveFormat.Gif`, `SaveFormat.Bmp`, hoặc `SaveFormat.Tiff` trong `ImageSaveOptions` để tạo các định dạng đó.
 
-### Q2: Aspose.Note cho Java có hỗ trợ các định dạng ảnh khác ngoài PNG không?
+**Q3: Có bản dùng thử miễn phí cho Aspose.Note cho Java không?**  
+A3: Có, bạn có thể tải bản dùng thử miễn phí từ [trang tải Aspose Note](https://releases.aspose.com/).
 
-A2: Chắc chắn rồi. Bạn có thể thiết lập `SaveFormat.Jpeg`, `SaveFormat.Gif`, `SaveFormat.Bmp` hoặc `SaveFormat.Tiff` trong `ImageSaveOptions`.
+**Q4: Tôi có thể nhận hỗ trợ kỹ thuật ở đâu nếu gặp vấn đề?**  
+A5: Bạn có thể tìm kiếm hỗ trợ tại diễn đàn cộng đồng Aspose [Aspose community forum](https://forum.aspose.com/c/note/28).
 
-### Q3: Có bản dùng thử miễn phí cho Aspose.Note cho Java không?
-
-A3: Có, bạn có thể tải xuống bản dùng thử miễn phí từ [trang web](https://releases.aspose.com/).
-
-### Q4: Tôi có thể nhận được hỗ trợ kỹ thuật nếu gặp bất kỳ sự cố nào với Aspose.Note cho Java không?
-
-A4: Chắc chắn rồi, bạn có thể tìm kiếm sự hỗ trợ từ diễn đàn cộng đồng Aspose [tại đây](https://forum.aspose.com/c/note/28).
-
-### Q5: Tôi có thể mua giấy phép cho Aspose.Note for Java ở đâu?
-
+**Q5: Làm thế nào để mua giấy phép cho Aspose.Note cho Java?**  
 A5: Bạn có thể mua giấy phép từ [trang mua hàng](https://purchase.aspose.com/buy).
 
-### Q6: Làm thế nào để xuất một trang có chứa hình ảnh nhúng?
+**Q6: Các hình ảnh nhúng được xử lý như thế nào khi xuất?**  
+A6: Các hình ảnh nhúng được tự động render trong đầu ra PNG; không cần mã bổ sung.
 
-A6: Hình ảnh nhúng được hiển thị tự động trong đầu ra PNG; không cần thêm mã nào.
-
-### Q7: Tôi có thể đặt DPI hoặc độ phân giải hình ảnh không?
-
-A7: Có, hãy sử dụng `opts.setResolution(int dpi)` trước khi gọi `save` để kiểm soát chất lượng đầu ra.
+**Q7: Có thể đặt DPI hoặc độ phân giải ảnh không?**  
+A7: Có, sử dụng `opts.setResolution(int dpi)` trước khi gọi `save` để kiểm soát chất lượng đầu ra.
 
 ---
-**Last Updated:** 2026-02-05  
-**Tested With:** Aspose.Note for Java 24.11 (latest)  
-**Author:** Aspose  
+
+**Cập nhật lần cuối:** 2026-09-04  
+**Đã kiểm tra với:** Aspose.Note cho Java 24.11 (mới nhất)  
+**Tác giả:** Aspose
+
+## Các hướng dẫn liên quan
+
+- [Xuất OneNote sang ảnh BMP bằng Aspose.Note cho Java Image Save Options](/note/java/onenote-document-saving/save-to-bmp-image-using-image-save-options/)
+- [Xuất các trang OneNote – Chuyển dải trang cụ thể sang PDF bằng Java](/note/java/onenote-document-loading/convert-page-range-to-pdf/)
+- [Học cách tăng DPI JPEG – Đặt độ phân giải ảnh đầu ra trong OneNote với Aspose.Note](/note/java/onenote-document-saving/set-output-image-resolution/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

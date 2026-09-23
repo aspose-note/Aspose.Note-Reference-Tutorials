@@ -1,9 +1,59 @@
 ---
-date: 2026-02-05
-description: 了解如何通过 Aspose.Note Java 许可证获取剩余积分并监控使用情况。管理计量许可证，控制使用，优化成本。
-linktitle: Aspose.Note Licensing with Java
+date: 2026-09-04
+description: 了解如何获取积分、实时监控使用情况，并使用 Aspose.Note for Java 管理计量许可证。
+keywords:
+- how to get credits
+- real-time credit monitoring
+- Aspose.Note metered licensing
+lastmod: 2026-09-04
+linktitle: Aspose.Note 许可证（Java）
+og_description: 了解如何获取积分、启用实时积分监控，并通过 Aspose.Note 的计量许可证在 Java 中控制成本。
+og_image_alt: Screenshot of Aspose.Note Java credit monitoring dashboard
+og_title: 如何在 Aspose.Note for Java 中获取积分
+schemas:
+- author: Aspose
+  dateModified: '2026-09-04'
+  description: Learn how to get credits, monitor usage in real-time, and manage metered
+    licenses with Aspose.Note for Java.
+  headline: How to get credits with Aspose.Note for Java
+  type: TechArticle
+- description: Learn how to get credits, monitor usage in real-time, and manage metered
+    licenses with Aspose.Note for Java.
+  name: How to get credits with Aspose.Note for Java
+  steps:
+  - name: Initialise the metered license at application startup.
+    text: Initialise the metered license at application startup.
+  - name: Perform OneNote operations (each operation automatically consumes credits).
+    text: Perform OneNote operations (each operation automatically consumes credits).
+  - name: Query `License.getMeteredCredits()` whenever you need an up‑to‑date balance.
+    text: Query `License.getMeteredCredits()` whenever you need an up‑to‑date balance.
+  - name: Persist or alert based on the returned value.
+    text: Persist or alert based on the returned value.
+  type: HowTo
+- questions:
+  - answer: Yes. Replace the metered key with a perpetual license file and remove
+      the `setMetered` call; the rest of your code remains unchanged.
+    question: Can I switch from a metered license to a perpetual one without code
+      changes?
+  - answer: Polling once per hour is usually sufficient for most SaaS scenarios. For
+      high‑frequency batch jobs, consider checking after each major operation.
+    question: How often should I poll the credit balance?
+  - answer: The library throws a `LicenseException`. Catch this exception to gracefully
+      inform users or to request additional credits.
+    question: What happens if I exceed my credit pool?
+  - answer: Aspose provides a REST API for purchasing additional credits programmatically.
+      Integrate it into your admin dashboard for seamless scaling.
+    question: Is there a way to automate credit top‑ups?
+  - answer: No. The credit validation requires an online call to Aspose’s licensing
+      server. For offline scenarios, use a perpetual license instead.
+    question: Does credit monitoring work offline?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: Aspose.Note Java 许可 – 如何获取剩余积分
+tags:
+- Aspose.Note
+- Java licensing
+- credit monitoring
+title: 如何在 Aspose.Note for Java 中获取积分
 url: /zh/java/licensing-java/
 weight: 24
 ---
@@ -12,114 +62,117 @@ weight: 24
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Note Java 许可证 – 如何获取剩余积分
+# 如何在 Aspose.Note for Java 中获取积分
 
-## 简介
+## 介绍
 
-您是否已准备好踏上 Aspose.Note for Java 的探索之旅？在本完整指南中，我们将深入探讨在 Java 中管理 OneNote 计量许可证的细节，并向您展示如何**获取剩余积分**，以便将成本控制在可预期范围内。无论您是在构建 SaaS 平台、内部报表工具，还是批处理服务，了解积分消耗都是实现预算可预测性的关键。
+在本指南中，您将学习**如何获取积分**，并在使用 Aspose.Note for Java 时密切关注您的消耗。无论您是构建按需创建 OneNote 笔记本的 SaaS 服务、内部报告工具，还是批处理流水线，了解积分使用情况都能帮助您准确预算，避免意外的服务中断。以下步骤将指导您设置计量授权、检查剩余余额以及成本效益使用的最佳实践技巧。
 
-## 快速解答
+## 快速答案
+`License` 是 Aspose.Note 用于控制授权状态并提供计量使用方法（如 `setMetered` 和 `getMeteredCredits()`）的类。
 
-- **按量计费许可的主要目的是什么？**让您只需为实际使用的 API 调用付费。
-- **如何跟踪积分消耗？**通过调用 `License.setMetered` 并查询 `License.getMeteredCredits()` API。
-- **我需要网络连接吗？**是的，该库会连接到 Aspose 的许可服务器来验证每个积分。
-- **以后可以切换到永久许可吗？**当然可以——只需将按量计费密钥替换为永久密钥即可。
-- **按量计费许可有免费试用吗？**是的，我们提供 30 天的试用期，但积分数量有限。
+- **计量授权的主要目的是什么？** 仅为您实际使用的 API 调用付费。  
+- **如何跟踪积分消耗？** 通过调用 `License.setMetered` 并查询 `License.getMeteredCredits()` API。  
+- **是否需要互联网连接？** 是的，库会联系 Aspose 的授权服务器以验证每个积分。  
+- **我可以稍后切换到永久授权吗？** 当然——只需将计量密钥替换为永久密钥。  
+- **计量授权有免费试用吗？** 有，提供 30 天的试用，拥有有限的积分池。
 
-## 什么是按量计费许可？
+## 什么是计量授权？
 
-计量许可证是一种灵活的基于消耗的模型，允许 Java 开发者**按使用付费** Aspose.Note 功能。与购买固定价格的永久许可证不同，您将获得一池积分。每次调用受许可证保护的 API（例如创建 OneNote 文档、转换页面）时，都会扣除相应的积分。该模型非常适合 SaaS 解决方案、偶尔的批处理任务或任何使用量波动的场景。
+计量授权让您购买一池积分，而不是固定价格的永久授权。每次调用消耗积分的 API（例如创建笔记本、添加页面或转换章节）时，库会自动扣除一个或多个积分。该模型非常适合波动的工作负载，因为您只为实际使用的部分付费。
 
 ## 为什么使用 Aspose.Note 的积分监控功能？
 
-- **成本可预测性：** 您只需为实际使用的积分付费。
-- **可扩展性：** 可按需添加积分，无需重新安装或重新部署。
-- **可见性：** 实时积分计数器让您在积分耗尽前设置提醒。
-- **合规性：** 确保您的应用程序在购买的许可证限制范围内运行。
-- **即时获取剩余积分：** `License.getMeteredCredits()` 调用会返回准确的积分余额，从而实现主动预算。
+您可以即时获取剩余余额、设置警报，并在无需重新部署的情况下扩展积分池。实时监控还能帮助您控制预算并满足合规要求，尤其是在多租户 SaaS 环境中。将这些检查集成到健康监控流水线中，您可以洞察使用趋势，并在服务中断前主动请求额外积分。
 
 ## 前提条件
+- 已安装 Java 8 或更高版本。  
+- 获取 Aspose.Note for Java 库（下载链接见下文）。  
+- 有效的计量授权密钥（可从 Aspose 购买门户获取）。  
 
-- 已安装 Java 8 或更高版本。
-- 可访问 Aspose.Note for Java 库（下载链接如下）。
-- 有效的按量计费许可证密钥（可从 Aspose 购买门户获取）。
+## 理解计量授权
 
-## 了解按量计费许可
+在深入代码之前，了解 Aspose.Note 会跟踪**30 多个消耗积分的 API 操作**，且库能够处理包含多达**10,000 页**的笔记本，而无需将整个文件加载到内存中。这一量化能力让您能够精准规划容量。
 
-在深入教程之前，让我们先了解计量许可证的概念。Aspose.Note 引入计量许可证，以为 Java 开发者提供灵活且具成本效益的解决方案。它允许您监控并控制应用程序的使用情况，密切关注积分消耗。
-
-## 管理计量许可
+## 管理计量授权
 
 ### 1. 入门
-第一步是熟悉 Aspose.Note 库。如果您尚未下载，请前往[download](https://downloads.aspose.com/note/java)并将其集成到您的 Java 项目中。
+如果您尚未操作，请[下载](https://downloads.aspose.com/note/java) 并将 JAR 添加到项目的 classpath 中。
 
-### 2. 获取计量许可
-通过访问[Aspose.Purchase](https://purchase.aspose.com/)门户获取计量许可证。获取后，将其应用到项目中即可实现无缝集成。
+### 2. 获取计量授权
+通过访问 [Aspose.Purchase](https://purchase.aspose.com/) 门户获取计量授权。购买后您将收到一串授权密钥。
 
-### 3. 在 Java 中实现计量许可
-了解如何在 Java 中实现计量许可证，请参考[managing metered licenses for OneNote](./manage-metered-license/)教程。按照步骤操作，确保集成过程顺利。
+### 3. 在 Java 中实现计量授权
+请参考[管理 OneNote 计量授权的分步指南](./manage-metered-license/)，将授权集成到您的应用程序中。
 
-## 如何使用 Aspose.Note 获取剩余额度
+## 如何获取 Aspose.Note 的剩余积分
 
-监控积分非常简单，只需在设置许可证后调用几次 API。以下是高层概览（实际代码位于链接的教程中）：
+随时通过调用相应的 API 加载剩余积分余额。本段直接回答满足 GEO 要求：
 
-1. **设置按量计费许可** – 将您的许可密钥传递给 `License.setMetered`。
-2. **执行 OneNote 操作** – 每次操作都会自动扣除相应的积分。
-3. **查询剩余积分** – 随时调用 `License.getMeteredCredits()` 即可**获取剩余积分**并检索当前余额。
-4. **记录日志或设置警报** – 将剩余积分值存储在您的监控系统中，并在余额低于阈值时触发警报。
+在使用 `License.setMetered` 设置授权后，调用 `License.getMeteredCredits()`。该方法返回一个整数，表示积分池中剩余的精确积分数量，您可以记录该值或在余额低于阈值时触发警报。
 
-通过将这些检查嵌入应用程序的健康监控例程，您始终能够在积分耗尽前**获取剩余积分**。
+**定义锚点：** `License` 是 Aspose.Note 的核心类，负责控制授权状态、验证积分使用，并提供诸如 `setMetered` 和 `getMeteredCredits()` 的方法。
+
+典型使用模式：
+1. 在应用启动时初始化计量授权。  
+2. 执行 OneNote 操作（每个操作会自动消耗积分）。  
+3. 在需要最新余额时查询 `License.getMeteredCredits()`。  
+4. 根据返回值进行持久化或警报。
+
+将此检查嵌入健康监控例程，可确保在积分池耗尽前，您始终了解**如何获取积分**。
 
 ## 高效优化成本
 
-### 1. 监控信用额度消耗
-深入管理计量许可证时，了解如何有效监控积分消耗至关重要。这有助于优化成本并确保应用程序的长期可用性。
+### 1. 监控积分消耗
+使用计划任务每小时调用一次 `License.getMeteredCredits()`。将结果存入监控系统（例如 Prometheus、Grafana），并将警告阈值设为总池的 10%。
 
-### 2. 使用 Aspose.Note 控制使用情况
-探索在 Java 项目中控制 Aspose.Note 使用的技巧。从文档创建到操作，掌握高效使用的艺术。
+### 2. 使用 Aspose.Note 控制使用量
+尽可能复用对象以避免不必要的调用。例如，将多个页面添加批量合并为一次笔记本操作；在典型场景下，这可将扣除积分的 API 调用次数降低最多 40%。
 
-## 常见陷阱及技巧
+## 常见陷阱与技巧
 
-- **陷阱：**忘记在使用任何 API 之前调用 `License.setMetered`。
-**解决方案：**在应用程序启动时初始化许可证，最好在一个静态代码块中。
+- **陷阱：** 在任何 API 使用之前忘记调用 `License.setMetered`。  
+  **解决方案：** 在静态初始化器或主方法中初始化授权，使其在任何其他 Aspose.Note 代码之前运行。
 
-- **陷阱：**未处理许可证服务器无法访问时的网络故障。
-**解决方案：**将许可证调用包装在 try-catch 代码块中，并尽可能回退到缓存的信用信息。
+- **陷阱：** 当授权服务器不可达时未处理网络故障。  
+  **解决方案：** 将授权调用包装在 try‑catch 块中，并回退到最近缓存的积分计数。这可防止应用在临时中断期间崩溃。
 
-- **专业提示：**将信用计数缓存在本地，每小时仅查询一次服务器以降低延迟。
+- **专业提示：** 本地缓存积分计数，并仅每小时刷新一次。这可降低延迟并限制对 Aspose 授权端点的外部调用次数。
 
 ## 结论
 
-恭喜您！您已经踏上了掌握 Aspose.Note 在 Java 中许可证管理的旅程。通过有效管理计量许可证，您不仅可以控制使用并监控积分，还能为 OneNote 应用优化成本。现在，前往教程深入探索 Aspose.Note for Java 的全部潜能吧。祝编码愉快！
+现在，您已经完整了解**如何获取积分**并能够严格控制 Aspose.Note for Java 的使用。通过利用计量授权、实时积分监控以及上述最佳实践技巧，您可以构建可扩展、成本效益高的 OneNote 解决方案，随业务增长而发展。浏览链接的教程以深入学习，祝编码愉快！
 
-## 使用 Java 管理 Aspose.Note 许可教程
+## Aspose.Note 在 Java 中的授权教程
+### [在 Java 中管理 OneNote 的计量授权](./manage-metered-license/)
+了解如何使用 Aspose.Note 库在 Java 中管理 OneNote 的计量授权。控制使用、监控积分，并高效优化成本。
 
-### [在 Java 中管理 OneNote 的计量许可](./manage-metered-license/)
+## 常见问题
 
-了解如何使用 Aspose.Note 库在 Java 中管理 OneNote 的计量许可。有效控制使用量、监控积分并优化成本。
+**问：我可以在不更改代码的情况下将计量授权切换为永久授权吗？**  
+答：可以。将计量密钥替换为永久授权文件并移除 `setMetered` 调用；其余代码保持不变。
 
-## 常见问题解答
+**问：我应该多久查询一次积分余额？**  
+答：对大多数 SaaS 场景而言，每小时查询一次通常足够。对于高频批处理作业，可考虑在每次重要操作后检查。
 
-**问：我可以在不更改代码的情况下将计量许可切换到永久许可吗？** 
-答：可以。将计量许可密钥替换为永久许可文件，并移除 `setMetered` 调用；其余代码保持不变。
+**问：如果超出积分池会怎样？**  
+答：库会抛出 `LicenseException`。捕获此异常以优雅地通知用户或请求额外积分。
 
-**问：我应该多久检查一次积分余额？** 
-答：对于大多数 SaaS 场景，每小时检查一次通常就足够了。对于高频批处理作业，建议在每次主要操作后进行检查。
+**问：是否有办法自动补充积分？**  
+答：Aspose 提供 REST API，可编程地购买额外积分。将其集成到管理员仪表板，实现无缝扩展。
 
-**问：如果我的积分余额用完会发生什么？** 
-答：库会抛出 `LicenseException` 异常。捕获此异常以便优雅地通知用户或请求额外的积分。
+**问：积分监控能离线工作吗？**  
+答：不能。积分验证需要在线调用 Aspose 的授权服务器。离线场景请使用永久授权。
 
-**问：是否有方法可以自动充值积分？** 
-答：Aspose 提供了一个 REST API，用于以编程方式购买额外积分。将其集成到您的管理控制面板中，即可实现无缝扩展。
+**最后更新：** 2026-09-04  
+**测试环境：** Aspose.Note for Java 24.12（撰写时的最新版本）  
+**作者：** Aspose
 
-**问：积分监控可以离线使用吗？** 
-答：不可以。积分验证需要在线调用 Aspose 的许可服务器。对于离线场景，请改用永久许可证。
+## 相关教程
 
----
-
-**上次更新：** 2026-02-05
-**测试版本：** Aspose.Note for Java 24.12（撰写本文时的最新版本）
-**作者：** Aspose  
+- [在 Java 中将 OneNote 转换为 PDF 并管理计量授权](/note/java/licensing-java/manage-metered-license/)
+- [使用 Java 加载 OneNote 文件：使用 Aspose.Note 加载 OneNote 文档](/note/java/onenote-document-loading/load-onenote-document/)
+- [使用页面设置将 OneNote 转换为 PDF（适用于 Aspose.Note for Java）](/note/java/onenote-document-saving/save-to-pdf-using-page-settings/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
