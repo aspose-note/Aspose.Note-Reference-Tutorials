@@ -1,11 +1,74 @@
 ---
-date: 2026-02-10
-description: Pelajari cara **mengekstrak teks onenote** dan mendapatkan tipe node
-  java saat membaca dokumen OneNote dengan Aspose.Note untuk Java. Termasuk jawaban
-  cepat, panduan langkah demi langkah, dan FAQ.
-linktitle: Distinguish Node Type in OneNote Document - Java
+date: 2026-09-09
+description: Pelajari cara memuat file OneNote, mengekstrak teks, dan mendapatkan
+  tipe node di Java menggunakan Aspose.Note. Termasuk jawaban cepat, panduan langkah
+  demi langkah, dan FAQ.
+keywords:
+- how to load onenote
+- convert onenote to pdf
+- get page content java
+- read onenote pages
+- check node type java
+lastmod: 2026-09-09
+linktitle: Membedakan tipe node dalam dokumen OneNote - Java
+og_description: Cara memuat file OneNote dan membaca strukturnya di Java. Panduan
+  ini menunjukkan cara mengekstrak teks, memeriksa tipe node, dan mengonversi OneNote
+  ke PDF dengan Aspose.Note.
+og_image_alt: 'Developer guide: Load OneNote, get node type, extract text using Aspose.Note
+  for Java'
+og_title: Cara memuat file OneNote dan mendapatkan tipe node di Java
+schemas:
+- author: Aspose
+  dateModified: '2026-09-09'
+  description: Learn how to load OneNote files, extract text, and get node type in
+    Java using Aspose.Note. Includes quick answers, step‑by‑step guide, and FAQ.
+  headline: How to load OneNote files and get node type in Java
+  type: TechArticle
+- description: Learn how to load OneNote files, extract text, and get node type in
+    Java using Aspose.Note. Includes quick answers, step‑by‑step guide, and FAQ.
+  name: How to load OneNote files and get node type in Java
+  steps:
+  - name: create or load a document object
+    text: '`Document` is Aspose.Note''s top‑level object that represents a single
+      OneNote file in memory. After you instantiate it, all read/write operations
+      flow through this object. This line either creates a fresh, empty OneNote document
+      or, if you pass a file path to the constructor, **loads OneNote file**.'
+  - name: determine the node type
+    text: '`NodeType` is an enum that lists every concrete node kind supported by
+      Aspose.Note, such as Document, Page, Outline, and RichText. Calling `getNodeType()`
+      on any node (including the `Document` object itself) returns one of these enum
+      values. The printed result tells you exactly what kind of node you'
+  - name: extract text from a page (optional)
+    text: 'The `Page` class represents a single page in a OneNote document. The `getContent()`
+      method returns the page’s textual content as a string. If you have confirmed
+      that a node is a `Page`, you can cast it and call its content APIs to pull text.
+      The pattern looks like this: > *If `node.getNodeType() == '
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.Note for Java provides full‑featured APIs to edit existing
+      OneNote files programmatically.
+    question: Can I use Aspose.Note for Java to edit existing OneNote documents?
+  - answer: Aspose.Note for Java is compatible with Java SE 6 and later, including
+      all current LTS releases.
+    question: Is Aspose.Note for Java compatible with different Java versions?
+  - answer: Absolutely, Aspose.Note for Java allows you to extract text, images, and
+      other content from OneNote documents with a few simple calls.
+    question: Can I extract text content from OneNote documents using Aspose.Note
+      for Java?
+  - answer: You can refer to the [documentation](https://reference.aspose.com/note/java/)
+      and seek assistance from the [support forum](https://forum.aspose.com/c/note/28).
+    question: Where can I find further documentation and support for Aspose.Note for
+      Java?
+  - answer: Yes, you can explore the features of Aspose.Note for Java with a free
+      trial available at [Aspose free trial download](https://releases.aspose.com/).
+    question: Is there a free trial available for Aspose.Note for Java?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: Ekstrak Teks OneNote – Dapatkan Tipe Node Java
+tags:
+- onenote
+- Aspose.Note
+- java document processing
+title: Cara memuat file OneNote dan mendapatkan tipe node di Java
 url: /id/java/onenote-document-loading/distinguish-node-type/
 weight: 20
 ---
@@ -14,117 +77,125 @@ weight: 20
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ekstrak Teks OneNote – Dapatkan Tipe Node Java
+# Cara memuat file OneNote dan mendapatkan tipe node di Java
 
-## Perkenalan
+## Pendahuluan
 
-Jika Anda perlu **extract text onenote** dan juga **get node type java** saat bekerja dengan file OneNote, Anda berada di tempat yang tepat. Dalam tutorial ini kami akan menunjukkan cara **memuat file onenote**, membaca hierarki dokumennya, mengidentifikasi apakah sebuah node adalah Dokumen, Halaman, atau elemen lain, dan menggunakan informasi tersebut dalam aplikasi Java Anda. Pada akhir tutorial, Anda akan percaya diri **membaca dokumen onenote** struktur, memeriksa tipe node, dan siap membangun solusi seperti mengonversi OneNote ke PDF atau mengekstrak konten halaman.
+Jika Anda perlu **memuat OneNote** file, mengekstrak teksnya, dan juga **mendapatkan tipe node** saat bekerja dengan dokumen OneNote, Anda berada di tempat yang tepat. Dalam tutorial ini Anda akan belajar cara **memuat file OneNote**, membaca struktur hierarkinya, mengidentifikasi apakah sebuah node adalah Document, Page, atau elemen lain, dan kemudian menggunakan informasi tersebut dalam aplikasi Java Anda. Pada akhir tutorial Anda akan dengan percaya diri **membaca struktur dokumen OneNote**, memeriksa tipe node, dan siap membangun solusi seperti mengonversi OneNote ke PDF atau mengekstrak konten halaman.
 
 ## Jawaban Cepat
-- **Apa yang dikembalikan `getNodeType()`?** Mengembalikan sebuah enum yang menunjukkan tipe node konkret (Dokumen, Halaman, dll.).
-- **Apakah saya memerlukan lisensi untuk menjalankan sampel?** Versi percobaan gratis dapat digunakan untuk evaluasi; lisensi diperlukan untuk produksi.
-- **Versi Java mana yang didukung?** Aspose.Note for Java mendukung Java6 dan yang lebih baru.
-- **Bisakah saya memeriksa node di file yang sudah ada?** Ya – cukup unduh file dengan `new Document(path)` dan panggil `getNodeType()`.
-- **Apakah diperlukan pengaturan tambahan?** Cukup tambahkan JAR Aspose.Note ke classpath proyek Anda.
-- **Bagaimana ini membantu mengekstraksi teks?** Mengetahui tipe node memungkinkan Anda melakukan cast dengan aman ke `Page` dan memanggil metode `getContent()` untuk mengambil teks, gambar, atau tabel.
+- **Apa yang dikembalikan `getNodeType()`?** Itu mengembalikan nilai enum `NodeType` yang memberi tahu Anda tipe konkret dari node (Document, Page, Outline, dll.).  
+- **Apakah saya memerlukan lisensi untuk menjalankan contoh?** Versi percobaan gratis dapat digunakan untuk evaluasi; lisensi diperlukan untuk penggunaan produksi.  
+- **Versi Java mana yang didukung?** Aspose.Note untuk Java mendukung Java 6 dan yang lebih baru, hingga rilis LTS saat ini.  
+- **Bisakah saya memeriksa node dalam file yang ada?** Ya – muat file dengan `new Document(path)` dan panggil `getNodeType()` pada node apa pun.  
+- **Apakah ada pengaturan tambahan yang diperlukan?** Cukup tambahkan JAR Aspose.Note ke classpath proyek Anda.  
+- **Bagaimana ini membantu dalam mengekstrak teks?** Mengetahui tipe node memungkinkan Anda untuk dengan aman melakukan cast ke `Page` dan memanggil metode `getContent()`-nya untuk mengambil teks, gambar, atau tabel.
 
-## Apa itu ekstrak teks onenote?
+## Apa itu ekstraksi teks OneNote?
 
-Mengekstrak teks dari file OneNote berarti secara terprogram mengambil konten tekstual yang disimpan dalam halaman, outline, atau container. Dengan Aspose.Note for Java Anda dapat menelusuri pohon dokumen, memverifikasi tipe setiap node, dan mengambil teks mentah tanpa memerlukan aplikasi desktop OneNote.
+Mengekstrak teks dari file OneNote berarti secara programatik mengambil konten tekstual yang disimpan dalam halaman, outline, atau kontainer. Dengan Aspose.Note untuk Java Anda dapat menelusuri pohon dokumen, memverifikasi tipe setiap node, dan mengambil teks mentah tanpa memerlukan aplikasi desktop OneNote.
 
-## Mengapa memeriksa jenis simpul?
+## Mengapa memeriksa tipe node?
 
-Memahami tipe node adalah langkah pertama untuk menelusuri file OneNote secara terprogram. Setelah Anda tahu apakah yang Anda hadapi adalah Dokumen, Halaman, Garis Besar, atau elemen lain, Anda dapat melakukan cast pada node tersebut, mengekstrak kontennya, atau memodifikasinya tanpa risiko error runtime. Hal ini penting ketika Anda nanti **convert onenote to pdf** atau melakukan penyuntingan frekuensi.
+Mengidentifikasi tipe node adalah langkah pertama untuk menelusuri file OneNote secara programatik. Setelah Anda mengetahui apakah yang Anda lihat adalah Document, Page, Outline, atau elemen lain, Anda dapat dengan aman melakukan cast pada node, mengekstrak kontennya, atau memodifikasinya tanpa risiko kesalahan runtime. Ini penting ketika Anda kemudian **mengonversi OneNote ke PDF** atau melakukan penyuntingan selektif.
 
 ## Prasyarat
 
-Sebelum kita mulai, pastikan Anda memiliki hal‑hal berikut:
+Sebelum kita mulai, pastikan Anda memiliki hal berikut:
 
-### Pengaturan Lingkungan Pengembangan Java
+### Pengaturan lingkungan pengembangan Java
 
-1. **Instal JDK** – Java Development Kit (JDK) 6atau yang lebih baru. Unduh dari situs Oracle atau vendor pilihan Anda.
-2. **IDE Pilihan** – IntelliJ IDEA, Eclipse, NetBeans, atau editor apa pun yang Anda sukai untuk pengembangan Java.
-3. **Aspose.Note for Java** – Dapatkan pustaka dari [link download](https://releases.aspose.com/note/java/). Ikuti instruksi yang disediakan untuk menambahkan JAR(s) ke build path proyek Anda.
+1. **Instal JDK** – Java Development Kit (JDK) 6 atau yang lebih baru. Unduh dari situs web Oracle atau vendor pilihan Anda.  
+2. **IDE pilihan** – IntelliJ IDEA, Eclipse, NetBeans, atau editor apa pun yang Anda sukai untuk pengembangan Java.  
+3. **Aspose.Note untuk Java** – Dapatkan pustaka dari [tautan unduhan](https://releases.aspose.com/note/java/) resmi. Ikuti petunjuk yang diberikan untuk menambahkan JAR ke jalur build proyek Anda.
 
-## Impor Paket
+## Impor paket
 
-Kami mulai dengan mengimpor kelas inti yang memberi akses ke node dokumen OneNote:
+Kelas `Document` memberi Anda akses ke node dokumen OneNote.  
 
 ```java
 import com.aspose.note.Document;
 ```
 
-## Panduan Langkah demi Langkah
+## Panduan langkah demi langkah
 
-### Langkah 1: Membuat atau Memuat Objek Dokumen
+### Langkah 1: buat atau muat objek dokumen
+
+`Document` adalah objek tingkat‑atas Aspose.Note yang mewakili satu file OneNote dalam memori. Setelah Anda menginstansiasinya, semua operasi baca/tulis mengalir melalui objek ini.  
 
 ```java
 Document doc = new Document();
 ```
 
-Baris ini membuat dokumen OneNote baru yang kosong atau, jika Anda memberikan path file ke konstruktor, **loads onenote file**. Bagaimanapun, Anda kini memiliki instance `Document` yang mewakili node akar dari hierarki.
+Baris ini either creates a fresh, empty OneNote document or, if you pass a file path to the constructor, **loads OneNote file**. Either way, you now have a `Document` instance that represents the root node of the hierarchy.
 
-### Langkah 2: Menentukan Tipe Node
+### Langkah 2: tentukan tipe node
+
+`NodeType` adalah enum yang mencantumkan setiap jenis node konkret yang didukung oleh Aspose.Note, seperti Document, Page, Outline, dan RichText. Memanggil `getNodeType()` pada node apa pun (termasuk objek `Document` itu sendiri) mengembalikan salah satu nilai enum ini.  
 
 ```java
 System.out.println(doc.getNodeType());
 ```
 
-Memanggil `getNodeType()` pada node apa pun (termasuk objek `Document` itu sendiri) mengembalikan nilai dari enum `NodeType`. Hasil yang dicetak memberi tahu Anda secara tepat jenis node yang sedang Anda tangani – sangat cocok untuk skenario **check node type** di mana Anda perlu mengarahkan logika berdasarkan peran node tersebut.
+Hasil yang dicetak memberi tahu Anda secara tepat jenis node yang sedang Anda tangani – sempurna untuk skenario **memeriksa tipe node** di mana Anda perlu mengarahkan logika berdasarkan peran node.
 
-### Langkah 3: Mengekstrak Teks dari Halaman (Opsional)
+### Langkah 3: ekstrak teks dari halaman (opsional)
 
-Setelah Anda memastikan bahwa sebuah node adalah `Page`, Anda dapat melakukan cast dan memanggil API kontennya untuk mengambil teks. Langkah ini tidak ditampilkan dalam kode agar jumlah blok tetap tidak berubah, tetapi idenya adalah:
+Kelas `Page` mewakili satu halaman dalam dokumen OneNote.  
+Metode `getContent()` mengembalikan konten tekstual halaman sebagai string.  
 
-> *Jika `node.getNodeType() == NodeType.Page`, lakukan cast ke `Page page = (Page)node;` lalu gunakan `page.getContent()` untuk mengambil teks.*
+Jika Anda telah memastikan bahwa sebuah node adalah `Page`, Anda dapat melakukan cast dan memanggil API kontennya untuk mengambil teks. Polanya terlihat seperti ini:
 
-### Mengapa Ini Penting
+> *If `node.getNodeType() == NodeType.Page`, cast to `Page page = (Page)node;` then use `page.getContent()` to retrieve the text.*
 
-Memahami tipe node adalah langkah pertama untuk menelusuri file OneNote secara terprogram. Setelah Anda memverifikasi bahwa sebuah node adalah `Page`, Anda dapat dengan aman mengekstrak teksnya, mengonversi halaman ke PDF, atau menerapkan gaya perubahan tanpa risiko error runtime.
+## Mengapa ini penting
 
-## Kasus Penggunaan Umum
+Memahami tipe node adalah langkah pertama untuk menelusuri file OneNote secara programatik. Setelah Anda memverifikasi bahwa sebuah node adalah `Page`, Anda dapat dengan aman mengekstrak teksnya, mengonversi halaman ke PDF, atau menerapkan perubahan gaya tanpa risiko kesalahan runtime.
 
-- **Content Extraction** – mengambil teks, gambar, atau tabel dari halaman tertentu setelah memastikan node tersebut adalah `Page`.
-- **Transformasi Dokumen** – Mengonversi halaman OneNote ke PDF atau HTML hanya setelah memverifikasi tipe node.
-- **Pengeditan Selektif** – Menerapkan perubahan gaya atau pembaruan metadata pada halaman sambil melewati node yang bukan halaman.
-- **Pelaporan Otomatis** – Memuat file OneNote, mengekstrak bagian yang relevan, dan menghasilkan laporan dalam format PDF.
+## Kasus penggunaan umum
 
-## Tip Mengatasi Masalah
+- **Ekstraksi konten** – Mengambil teks, gambar, atau tabel dari halaman tertentu setelah memastikan node adalah `Page`.  
+- **Transformasi dokumen** – Mengonversi halaman OneNote ke PDF atau HTML hanya setelah memverifikasi tipe node.  
+- **Pengeditan selektif** – Menerapkan perubahan gaya atau pembaruan metadata ke halaman sambil melewati node yang bukan halaman.  
+- **Pelaporan otomatis** – Memuat file OneNote, mengekstrak bagian relevan, dan menghasilkan laporan PDF.
 
-- **NullPointerException** – Pastikan dokumen berhasil dimuat sebelum memanggil `getNodeType()`.
-- **Node Tidak Didukung** – Jika Anda menemukan tipe node yang tidak tercakup oleh enum, periksa apakah Anda menggunakan versi Aspose.Note terbaru.
-- **Masalah Lisensi** – batasan tanpa lisensi yang sah dapat membatasi hak cipta; pustaka akan menambahkan watermark pada file keluaran.
+## Tips pemecahan masalah
+
+- **NullPointerException** – Pastikan dokumen berhasil dimuat sebelum memanggil `getNodeType()`.  
+- **Node tidak didukung** – Jika Anda menemukan tipe node yang tidak tercakup oleh enum, periksa apakah Anda menggunakan versi Aspose.Note terbaru. Aspose.Note mendukung **lebih dari 50 tipe node** di seluruh skema OneNote.  
+- **Masalah lisensi** – Menjalankan tanpa lisensi yang valid dapat membatasi fungsionalitas; perpustakaan akan menambahkan watermark pada file output.
 
 ## Kesimpulan
 
-Dalam panduan ini kami menunjukkan cara **extract text onenote** dan secara efektif **read onenote document** struktur menggunakan Aspose.Note for Java. Dengan membuat atau memuat objek `Document`, memanggil `getNodeType()`, dan secara opsional melakukan cast ke `Page`, Anda dapat secara terprogram membedakan antara node, mengekstrak konten, dan bahkan **convert onenote to pdf** bila diperlukan.
+Dalam panduan ini kami menunjukkan cara **mengekstrak teks OneNote** dan secara efektif **membaca struktur dokumen OneNote** menggunakan Aspose.Note untuk Java. Dengan membuat atau memuat objek `Document`, memanggil `getNodeType()`, dan secara opsional melakukan cast ke `Page`, Anda dapat secara programatik membedakan antara node, mengekstrak konten, dan bahkan **mengonversi OneNote ke PDF** bila diperlukan.
 
-## Pertanyaan yang Sering Diajukan
+## Pertanyaan yang sering diajukan
 
-### Q1: Dapatkah saya menggunakan Aspose.Note untuk Java untuk mengedit dokumen OneNote yang sudah ada?
+**T: Bisakah saya menggunakan Aspose.Note untuk Java untuk mengedit dokumen OneNote yang ada?**  
+J: Ya, Aspose.Note untuk Java menyediakan API lengkap untuk mengedit file OneNote yang ada secara programatik.
 
-A1: Ya, Aspose.Note for Java menyediakan API untuk mengedit dokumen OneNote yang ada secara terprogram.
+**T: Apakah Aspose.Note untuk Java kompatibel dengan berbagai versi Java?**  
+J: Aspose.Note untuk Java kompatibel dengan Java SE 6 dan yang lebih baru, termasuk semua rilis LTS saat ini.
 
-### Q2: Apakah Aspose.Note untuk Java kompatibel dengan versi Java yang berbeda?
+**T: Bisakah saya mengekstrak konten teks dari dokumen OneNote menggunakan Aspose.Note untuk Java?**  
+J: Tentu saja, Aspose.Note untuk Java memungkinkan Anda mengekstrak teks, gambar, dan konten lain dari dokumen OneNote dengan beberapa panggilan sederhana.
 
-A2: Aspose.Note for Java kompatibel dengan Java SE 7 dan versi yang lebih baru.
+**T: Di mana saya dapat menemukan dokumentasi lebih lanjut dan dukungan untuk Aspose.Note untuk Java?**  
+J: Anda dapat merujuk ke [documentation](https://reference.aspose.com/note/java/) dan mencari bantuan di [support forum](https://forum.aspose.com/c/note/28).
 
-### Q3: Bisakah saya mengekstrak konten teks dari dokumen OneNote menggunakan Aspose.Note untuk Java?
+**T: Apakah ada percobaan gratis untuk Aspose.Note untuk Java?**  
+J: Ya, Anda dapat menjelajahi fitur Aspose.Note untuk Java dengan percobaan gratis yang tersedia di [Aspose free trial download](https://releases.aspose.com/).
 
-A3: Tentu saja, Aspose.Note for Java memungkinkan Anda mengekstrak teks, gambar, dan konten lain dari dokumen OneNote dengan mudah.
+**Terakhir Diperbarui:** 2026-09-09  
+**Diuji dengan:** Aspose.Note untuk Java 24.12 (terbaru pada saat penulisan)  
+**Penulis:** Aspose
 
-### Q4: Di mana saya dapat menemukan dokumentasi dan dukungan lebih lanjut untuk Aspose.Note untuk Java?
+## Tutorial Terkait
 
-A4: Anda dapat merujuk ke [dokumentasi](https://reference.aspose.com/note/java/) dan mencari bantuan di [support forum](https://forum.aspose.com/c/note/28).
+- [Konversi OneNote ke Teks Biasa – Ekstrak Semua Teks dengan Aspose.Note untuk Java](/note/java/onenote-text-manipulation/extract-all-text/)
+- [Konversi OneNote ke PDF Menggunakan Pengaturan Halaman dengan Aspose.Note untuk Java](/note/java/onenote-document-saving/save-to-pdf-using-page-settings/)
+- [Konversi OneNote ke Teks dan Ekstrak Gambar menggunakan Document Visitor - Java](/note/java/onenote-document-loading/extract-content-using-document-visitor/)
 
-### Q5: Apakah tersedia uji coba gratis untuk Aspose.Note untuk Java?
-
-A5: Ya, Anda dapat menjelajahi fitur Aspose.Note for Java dengan percobaan gratis yang tersedia di [link ini](https://releases.aspose.com/).
-
----
-**Last Updated:** 2026-02-10  
-**Tested With:** Aspose.Note for Java 24.12 (latest at time of writing)  
-**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
