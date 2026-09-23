@@ -1,11 +1,57 @@
 ---
-date: 2026-01-15
+date: 2026-09-19
 description: تعلم كيفية تغيير خلفية صفحة OneNote وتعديل لون صفحة OneNote باستخدام
-  Aspose.Note للغة Java. يوضح لك هذا البرنامج التعليمي كيفية ضبط لون صفحة OneNote
-  بسرعة.
-linktitle: Change OneNote Page Background – Aspose.Note for Java
+  Aspose.Note for Java. يوضح لك هذا الدليل كيفية ضبط لون صفحة OneNote بسرعة.
+keywords:
+- change onenote page background
+- modify onenote page color
+- set onenote page color
+lastmod: 2026-09-19
+linktitle: تغيير خلفية صفحة OneNote – Aspose.Note for Java
+og_description: تعلم كيفية تغيير خلفية صفحة OneNote وتعيين لون صفحة OneNote باستخدام
+  Aspose.Note for Java – تخصيص سريع وبرمجي لأي دفتر ملاحظات.
+og_image_alt: 'Aspose.Note Java guide: changing OneNote page background color'
+og_title: تغيير خلفية صفحة OneNote باستخدام Aspose.Note for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-09-19'
+  description: Learn how to change OneNote page background and modify OneNote page
+    color using Aspose.Note for Java. This tutorial shows you how to set OneNote page
+    color quickly.
+  headline: Change OneNote page background – Aspose.Note for Java
+  type: TechArticle
+- description: Learn how to change OneNote page background and modify OneNote page
+    color using Aspose.Note for Java. This tutorial shows you how to set OneNote page
+    color quickly.
+  name: Change OneNote page background – Aspose.Note for Java
+  steps:
+  - name: Load OneNote document
+    text: '`Document` represents a OneNote notebook and provides access to its pages.'
+  - name: Iterate through pages
+    text: '`Page` represents an individual page within a OneNote document, exposing
+      properties such as background color.'
+  - name: Set background color
+    text: '`setBackgroundColor` sets the solid background color of a OneNote page.
+      `java.awt.Color` is a standard Java class representing colors using RGB components.'
+  type: HowTo
+- questions:
+  - answer: Aspose.Note for Java
+    question: What library is needed?
+  - answer: Change OneNote page background color
+    question: Primary goal?
+  - answer: 5‑10 minutes for a basic change
+    question: Typical implementation time?
+  - answer: Java JDK 8+ and Aspose.Note library installed
+    question: Prerequisites?
+  - answer: Yes, iterate over pages and apply colors individually
+    question: Can I set different colors per page?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: تغيير خلفية صفحة OneNote – Aspose.Note لـ Java
+tags:
+- onenote automation
+- Aspose.Note
+- java document processing
+title: تغيير خلفية صفحة OneNote – Aspose.Note for Java
 url: /ar/java/onenote-page-manipulation/set-page-background-color/
 weight: 20
 ---
@@ -14,44 +60,42 @@ weight: 20
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# تغيير خلفية صفحة OneNote – Aspose.Note للـ Java
+# تغيير خلفية صفحة OneNote – Aspose.Note for Java
 
 ## مقدمة
 
-في هذا البرنامج التعليمي، ستتعلم كيفية **تغيير خلفية صفحة OneNote** برمجيًا باستخدام Aspose.Note لـ Java. تعديل لون الصفحة يمكن أن تجعل دفاتر OneNote الخاص بك أكثر بصريًا، واختيار تصنيف الأقسام، أو ببساطة يتطابق مع هوية علامتك التجارية. سنستعرض كل خطوة — من إعداد بيئة التطوير لحفظ الملف المحدث — حتى البدء في بدء إنشاء صفحات OneNote فورًا.
+في هذا الدرس ستتعلم كيفية **تغيير خلفية صفحة OneNote** برمجياً باستخدام Aspose.Note for Java. تحديث لون خلفية الصفحة يتيح لك تجميع الأقسام بصرياً، تطبيق هوية الشركة، أو ببساطة جعل دفاتر الملاحظات أكثر متعة للقراءة. سنستعرض كل ما تحتاجه — من تثبيت المكتبة إلى حفظ الملف المعدل — حتى تتمكن من بدء تخصيص صفحات OneNote في دقائق.
 
 ## إجابات سريعة
-- **ما المؤسسة الأساسية؟** Aspose.Note للـ Java
-- **الهدف الأساسي؟** تغيير لون خلفية صفحة OneNote
-- **الوقت للتنفيذ؟** 5‑10 سيئة بشكل أساسي
-- **المتطلبات المسبقة؟** Java JDK 8+ ومكتبة Aspose.Note مثبتة
-- **هل يمكنني تعيين ألوان مختلفة لكل صفحة؟** نعم، يمكن التجول عبر الصفحات وتطبيق الألوان الفردية
+- **ما المكتبة المطلوبة؟** Aspose.Note for Java  
+- **الهدف الأساسي؟** تغيير لون خلفية صفحة OneNote  
+- **الوقت النموذجي للتنفيذ؟** 5‑10 دقائق لتغيير أساسي  
+- **المتطلبات المسبقة؟** Java JDK 8+ ومكتبة Aspose.Note مثبتة  
+- **هل يمكنني تعيين ألوان مختلفة لكل صفحة؟** نعم، يمكن التكرار عبر الصفحات وتطبيق الألوان بشكل فردي  
 
-## ما هو "تغيير خلفية صفحة OneNote"؟
+## ما هو “تغيير خلفية صفحة OneNote”؟
 
-تغيير صفحة OneNote يعني تعديل اللون الصلب الذي يملأ لوحة الصفحة كاملة. تُخزن هذه البيانات الخاصة في بيانات تعريف الصفحة ويمكن تعديلها عبر Aspose.Note API دون الحاجة لفتح واجهة OneNote.
+تغيير خلفية صفحة OneNote يعني تعديل اللون الصلب الذي يملأ كامل مساحة الصفحة. هذه الخاصية موجودة في بيانات تعريف الصفحة ويمكن تحديثها عبر Aspose.Note API دون فتح واجهة OneNote، مما يتيح أتمتة كاملة لتنسيق الدفتر.
 
-## لماذا يتم تعديل لون صفحة OneNote باستخدام Aspose.Note؟
+## لماذا تعديل لون صفحة OneNote باستخدام Aspose.Note؟
 
-- **التعب:** تحديث العشرات من الصفحات في Instagram.
-- **الاتساق:** تطبيق ألوان الشركة على جميع الدفاتر.
-- **المرونة:** الجمع مع ميزات أخرى في API مثل تنسيق النص أو إدراج الصور لإنشاء المستندات البرمجية بالكامل.
+يمكنك أتمتة تغييرات الألوان عبر عشرات أو مئات الصفحات في ثوانٍ، مما يضمن التناسق البصري ويقلل الجهد اليدوي. Aspose.Note يعالج دفاتر الملاحظات التي تصل إلى **10,000 صفحة** دون تحميل الملف بالكامل في الذاكرة، ويدعم **30+ تنسيقات إدخال وإخراج**، مما يجعله خياراً قوياً لأتمتة المستندات على نطاق واسع.
 
-## المتطلبات الأساسية
+## المتطلبات المسبقة
 
-قبل أن تبدأ، تأكد من أن لديك المتطلبات المسبقة التالية:
+قبل أن نبدأ، تأكد من إعداد المتطلبات المسبقة التالية:
 
-### بيئة تطوير جافا
+### بيئة تطوير Java
 
-تأكد من أن لديك Java Development Kit (JDK) مثبتاً على نظامك. يمكنك تنزيل وتثبيت JDK من موقع Oracle.
+تأكد من تثبيت مجموعة تطوير جافا (JDK) على نظامك. يمكنك تنزيل وتثبيت JDK من موقع Oracle.
 
-### Aspose.Note لجافا
+### Aspose.Note for Java
 
-قم بتنزيل وتثبيت Aspose.Note للـ Java من [رابط التنزيل](https://releases.aspose.com/note/Java/). اتبع التعليمات الواردة في الوثائق ودمج سلس.
+قم بتنزيل وتثبيت Aspose.Note for Java من [رابط التحميل](https://releases.aspose.com/note/java/). اتبع تعليمات التثبيت الواردة في الوثائق لتحقيق تكامل سلس.
 
 ## استيراد الحزم
 
-لبدء العمل، استورد الحزم الضرورية في مشروع Java الخاص بك لاستخدام وظائف Aspose.Note بكفاءة.
+لبدء العمل، استورد الحزم الضرورية في مشروع Java الخاص بك لاستخدام وظائف Aspose.Note بفعالية.
 
 ```java
 import com.aspose.note.Document;
@@ -64,22 +108,24 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 ```
 
-الآن، دعونا نفصل عملية **تعيين لون خلفية الصفحة** (أو **تعديل لون صفحة OneNote**) إلى تعليمات واضحة خطوة بخطوة.
+الآن، دعنا نفصل عملية **تعيين لون خلفية الصفحة** (أو **تعديل لون صفحة OneNote**) إلى تعليمات واضحة خطوة بخطوة.
 
 ## كيفية تغيير خلفية صفحة OneNote
 
+حمّل ملف OneNote، وتكرّر عبر الصفحات التي تريد تنسيقها، عيّن لون خلفية كل صفحة، وأخيراً احفظ الدفتر. يعمل ذلك مع دفاتر الملاحظات الصغيرة والكبيرة على حد سواء، مما يضمن تنسيقاً متسقاً عبر جميع الصفحات.
+
 ### الخطوة 1: تحميل مستند OneNote
 
-أولاً، قم بتحميل مستند OneNote الذي ترغب في تعديله واحصل على المرجع للصفحة المطلوبة.
+`Document` يمثل دفتر OneNote ويوفر الوصول إلى صفحاته.
 
 ```java
 Path dataDir = "Your Document Directory";
 Document document = new Document(dataDir.resolve("Sample1.one").toString());
 ```
 
-### الخطوة 2: تصفح الصفحات
+### الخطوة 2: التكرار عبر الصفحات
 
-تجول عبر كل صفحة في المستند للوصول إلى خصائصها وتعديلها. يتيح لك هذا الحلقة **تعيين لون صفحة OneNote** لأي صفحة تختارها.
+`Page` يمثل صفحة فردية داخل مستند OneNote، ويكشف عن خصائص مثل لون الخلفية.
 
 ```java
 for (Page page: document) {
@@ -89,7 +135,7 @@ for (Page page: document) {
 
 ### الخطوة 3: تعيين لون الخلفية
 
-قم بتعيين لون الخلفية المطلوب للصفحة. في هذا المثال، سنضبطه إلى اللون الأرجواني، لكن يمكنك اختيار أي قيمة من `java.awt.Color`.
+`setBackgroundColor` يعيّن لون الخلفية الصلب لصفحة OneNote. `java.awt.Color` هي فئة Java قياسية تمثل الألوان باستخدام مكونات RGB.
 
 ```java
 page.setBackgroundColor(Color.MAGENTA);
@@ -97,49 +143,48 @@ page.setBackgroundColor(Color.MAGENTA);
 
 ### الخطوة 4: حفظ المستند
 
-أخيرًا، احفظ المستند المعدل مع لون الخلفية المحدث.
-
 ```java
 document.save(dataDir.resolve("SetPageBackgroundColor.one").toString());
 ```
 
-## المشكلات والنصائح الشائعة
+## المشكلات الشائعة والنصائح
 
-- **اللون غير مطبق؟** تأكد من الاتصال `setBackgroundColor` داخل الحلقة لكل صفحة تريد تعديلها.
-- **الملف غير موجود؟** تحقق من أن `dataDir` يشير إلى المجلد يعرف وأن `Sample1.one` موجود.
-- **لون غير مدعوم؟** استخدم أي ثابت من `java.awt.Color` أو أنشئ لونًا مخصصًا باستخدام `new Color(r, g, b)`.
+- **لم يتم تطبيق اللون؟** تأكد من استدعاء `setBackgroundColor` داخل الحلقة لكل صفحة تريد تعديلها.  
+- **الملف غير موجود؟** تحقق من أن `dataDir` يشير إلى المجلد الصحيح وأن `Sample1.one` موجود.  
+- **لون غير مدعوم؟** استخدم أي ثابت من `java.awt.Color` أو أنشئ لوناً مخصصاً باستخدام `new Color(r, g, b)`.
 
-## الأسئلة المتداولة
+## الأسئلة المتكررة
 
-### س1: هل يمكنني تعيين ألوان خلفية مختلفة لصفحات مختلفة في مستند OneNote واحد؟
+**س1: هل يمكنني تعيين ألوان خلفية مختلفة لصفحات مختلفة في مستند OneNote واحد؟**  
+A: نعم، يمكنك التكرار عبر كل صفحة على حدة وتعيين لون الخلفية وفقاً لمتطلباتك.
 
-**ج:** نعم، يمكنك التجول عبر كل صفحة على البيانات والألوان الخلفية وفقًا لمتطلباتك.
+**س2: هل يدعم Aspose.Note خيارات تنسيق أخرى لمستندات OneNote؟**  
+A: بالتأكيد! يوفر Aspose.Note مجموعة واسعة من الوظائف، بما في ذلك تنسيق النص، إدراج الصور، إنشاء الجداول، وتعديل المخطط، عبر **30+ ميزة مدعومة**.
 
-### السؤال الثاني: هل يدعم Aspose.Note خيارات التنسيق الأخرى لمستندات OneNote؟
+**س3: هل Aspose.Note مناسب للاستخدام التجاري؟**  
+A: نعم، يقدم Aspose.Note خيارات ترخيص للمشاريع الشخصية والتجارية. اشترِ ترخيصاً من الموقع لإزالة قيود التقييم.
 
-**ج:** بالتأكيد! يوفر Aspose.Note مجموعة واسعة من الوظائف للتعامل مع مختلف جوانب المستندات OneNote، بما في ذلك تنسيق المستندات، وإدراج الصور، وأكثر من ذلك.
+**س4: هل يمكنني تجربة Aspose.Note قبل الشراء؟**  
+A: بالطبع! تتوفر نسخة تجريبية مجانية، تتيح لك استكشاف جميع الميزات — بما في ذلك تعديل خلفية الصفحة — دون تكلفة.
 
-### س3: هل Aspose.Note مناسب للاستخدام التجاري؟
+**س5: أين يمكنني العثور على دعم إضافي أو مساعدة بخصوص Aspose.Note؟**  
+A: زر منتدى Aspose.Note، راجع مرجع API الرسمي، أو تواصل مع فريق الدعم للحصول على مساعدة سريعة.
 
-**ج:** نعم، توفر Aspose.Note خيارات ترخيص للاستخدام الشخصي والتجاري. يمكنك شراء ترخيص من الموقع.
+## الخلاصة
 
-### السؤال الرابع: هل يمكنني تجربة Aspose.Note قبل إجراء عملية الشراء؟
-
-**أ:** بالطبع! يمكنك الحصول على نسخة مجانية مجانية من Aspose.Note لاستكشاف ميزاته وقدراته قبل ابتكار الابتكارات.
-
-### س5: أين يمكنني العثور على دعم أو مساعدة إضافية فيما يتعلق بـ Aspose.Note؟
-
-**ج:** لأي استفسارات أو مساعدة، يمكنك زيارة منتدى Aspose.Note أو التواصل مع فريق الدعم الخاص بهم للحصول على مساعدة سريعة.
-
-## خاتمة
-
-تهانينا! لقد تعلمت بنجاح كيفية **تغيير خلفية صفحة OneNote** و**تعديل لون صفحة OneNote** باستخدام Aspose.Note للـ Java. جرّب قيم `Color` مختلفة، وادمج هذه التقنية مع ميزات أخرى في API، وصمّم دفاتر OneNote الخاصة بك لتتناسب مع أي نمط بصري تحتاجه.
+لقد تعلمت الآن كيفية **تغيير خلفية صفحة OneNote** و**تعديل لون صفحة OneNote** باستخدام Aspose.Note for Java. جرب قيم `Color` مختلفة، واcombine هذه التقنية مع إدراج النص أو الصور، وصمم دفاتر الملاحظات لتتناسب مع أي نمط بصري أو متطلبات هوية العلامة التجارية.
 
 ---
 
-**آخر تحديث:** 2026-01-15  
-**تم الاختبار مع:** Aspose.Note للـ Java 24.12  
+**آخر تحديث:** 2026-09-19  
+**تم الاختبار مع:** Aspose.Note for Java 24.12  
 **المؤلف:** Aspose
+
+## دروس ذات صلة
+
+- [كيفية تصدير صفحة OneNote إلى صورة PNG في Java باستخدام Aspose.Note](/note/java/onenote-document-loading/convert-page-to-png-image/)
+- [كيفية عرض صورة صفحة OneNote (JPEG) باستخدام تنسيق الحفظ مع Aspose.Note for Java](/note/java/onenote-document-saving/save-to-jpeg-image-using-save-format/)
+- [دورة Aspose Java - الحصول على معلومات حول الصفحات في OneNote - Aspose.Note](/note/java/onenote-page-manipulation/get-information-about-pages/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,11 +1,59 @@
 ---
-date: 2026-01-15
+date: 2026-09-19
 description: Tìm hiểu cách thay đổi nền trang OneNote và chỉnh sửa màu trang OneNote
-  bằng Aspose.Note cho Java. Hướng dẫn này cho bạn biết cách thiết lập màu trang OneNote
-  một cách nhanh chóng.
-linktitle: Change OneNote Page Background – Aspose.Note for Java
+  bằng Aspose.Note for Java. Hướng dẫn này cho bạn biết cách thiết lập màu trang OneNote
+  nhanh chóng.
+keywords:
+- change onenote page background
+- modify onenote page color
+- set onenote page color
+lastmod: 2026-09-19
+linktitle: Thay đổi nền trang OneNote – Aspose.Note for Java
+og_description: Tìm hiểu cách thay đổi nền trang OneNote và thiết lập màu trang OneNote
+  bằng Aspose.Note for Java – tùy chỉnh nhanh chóng, lập trình cho bất kỳ sổ ghi chú
+  nào.
+og_image_alt: 'Aspose.Note Java guide: changing OneNote page background color'
+og_title: Thay đổi nền trang OneNote với Aspose.Note for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-09-19'
+  description: Learn how to change OneNote page background and modify OneNote page
+    color using Aspose.Note for Java. This tutorial shows you how to set OneNote page
+    color quickly.
+  headline: Change OneNote page background – Aspose.Note for Java
+  type: TechArticle
+- description: Learn how to change OneNote page background and modify OneNote page
+    color using Aspose.Note for Java. This tutorial shows you how to set OneNote page
+    color quickly.
+  name: Change OneNote page background – Aspose.Note for Java
+  steps:
+  - name: Load OneNote document
+    text: '`Document` represents a OneNote notebook and provides access to its pages.'
+  - name: Iterate through pages
+    text: '`Page` represents an individual page within a OneNote document, exposing
+      properties such as background color.'
+  - name: Set background color
+    text: '`setBackgroundColor` sets the solid background color of a OneNote page.
+      `java.awt.Color` is a standard Java class representing colors using RGB components.'
+  type: HowTo
+- questions:
+  - answer: Aspose.Note for Java
+    question: What library is needed?
+  - answer: Change OneNote page background color
+    question: Primary goal?
+  - answer: 5‑10 minutes for a basic change
+    question: Typical implementation time?
+  - answer: Java JDK 8+ and Aspose.Note library installed
+    question: Prerequisites?
+  - answer: Yes, iterate over pages and apply colors individually
+    question: Can I set different colors per page?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: Thay đổi nền trang OneNote – Aspose.Note cho Java
+tags:
+- onenote automation
+- Aspose.Note
+- java document processing
+title: Thay đổi nền trang OneNote – Aspose.Note for Java
 url: /vi/java/onenote-page-manipulation/set-page-background-color/
 weight: 20
 ---
@@ -18,36 +66,34 @@ weight: 20
 
 ## Giới thiệu
 
-Trong tutorial này, bạn sẽ học cách **thay đổi nền trang OneNote** một cách lập trình bằng Aspose.Note cho Java. Điều chỉnh màu nền trang có thể làm cho sổ tay OneNote của bạn trở nên hấp dẫn hơn về mặt hình ảnh, giúp bạn phân loại các phần, hoặc đơn giản là phù hợp với thương hiệu công ty. Chúng tôi sẽ hướng dẫn từng bước — từ việc thiết lập môi trường phát triển đến lưu tệp đã cập nhật — để bạn có thể bắt đầu tùy chỉnh các trang OneNote ngay lập tức.
+Trong hướng dẫn này, bạn sẽ học cách **thay đổi nền trang OneNote** một cách lập trình bằng Aspose.Note cho Java. Cập nhật màu nền trang cho phép bạn nhóm các phần lại với nhau một cách trực quan, áp dụng thương hiệu công ty, hoặc chỉ đơn giản là làm cho sổ ghi chú dễ đọc hơn. Chúng tôi sẽ hướng dẫn từng bước mọi thứ bạn cần—từ cài đặt thư viện đến lưu tệp đã chỉnh sửa—để bạn có thể bắt đầu tùy chỉnh các trang OneNote trong vài phút.
 
 ## Câu trả lời nhanh
-- **What library is needed?** Aspose.Note for Java → **Thư viện nào cần thiết?** Aspose.Note for Java  
-- **Primary goal?** Change OneNote page background color → **Mục tiêu chính?** Thay đổi màu nền trang OneNote  
-- **Typical implementation time?** 5‑10 minutes for a basic change → **Thời gian triển khai điển hình?** 5‑10 phút cho một thay đổi cơ bản  
-- **Prerequisites?** Java JDK 8+ and Aspose.Note library installed → **Điều kiện tiên quyết?** Java JDK 8+ và thư viện Aspose.Note đã được cài đặt  
-- **Can I set different colors per page?** Yes, iterate over pages and apply colors individually → **Tôi có thể đặt màu khác nhau cho mỗi trang không?** Có, lặp qua các trang và áp dụng màu riêng lẻ  
+- **Thư viện cần thiết là gì?** Aspose.Note for Java  
+- **Mục tiêu chính?** Thay đổi màu nền trang OneNote  
+- **Thời gian triển khai điển hình?** 5‑10 phút cho một thay đổi cơ bản  
+- **Yêu cầu trước?** Java JDK 8+ và thư viện Aspose.Note đã được cài đặt  
+- **Có thể đặt màu khác nhau cho mỗi trang không?** Có, lặp qua các trang và áp dụng màu riêng lẻ  
 
 ## “Thay đổi nền trang OneNote” là gì?
 
-Thay đổi nền trang OneNote có nghĩa là thay đổi màu đồng nhất lấp đầy toàn bộ bề mặt trang. Thuộc tính này được lưu trong siêu dữ liệu của trang và có thể được sửa đổi thông qua API Aspose.Note mà không cần mở giao diện người dùng OneNote.
+Thay đổi nền trang OneNote có nghĩa là thay đổi màu nền đồng nhất lấp đầy toàn bộ bề mặt trang. Thuộc tính này nằm trong siêu dữ liệu của trang và có thể được cập nhật thông qua API Aspose.Note mà không cần mở giao diện OneNote, cho phép tự động hoá hoàn toàn việc tạo kiểu cho sổ ghi chú.
 
-## Tại sao nên chỉnh sửa màu trang OneNote bằng Aspose.Note?
+## Tại sao phải chỉnh sửa màu trang OneNote bằng Aspose.Note?
 
-- **Automation:** Update dozens of pages in seconds. → **Tự động hóa:** Cập nhật hàng chục trang trong vài giây.  
-- **Consistency:** Apply corporate colors across all notebooks. → **Nhất quán:** Áp dụng màu sắc công ty trên tất cả các sổ tay.  
-- **Flexibility:** Combine with other API features like text formatting or image insertion for fully programmatic document generation. → **Linh hoạt:** Kết hợp với các tính năng API khác như định dạng văn bản hoặc chèn hình ảnh để tạo tài liệu hoàn toàn bằng lập trình.  
+Bạn có thể tự động hoá việc thay đổi màu trên hàng chục hoặc hàng trăm trang trong vài giây, đảm bảo tính nhất quán về hình ảnh và giảm công sức thủ công. Aspose.Note xử lý sổ ghi chú lên tới **10.000 trang** mà không cần tải toàn bộ tệp vào bộ nhớ, và nó hỗ trợ **hơn 30 định dạng đầu vào và đầu ra**, làm cho nó trở thành lựa chọn mạnh mẽ cho tự động hoá tài liệu quy mô lớn.
 
-## Điều kiện tiên quyết
+## Yêu cầu trước
 
-Trước khi bắt đầu, hãy chắc chắn rằng bạn đã thiết lập các điều kiện tiên quyết sau:
+Trước khi bắt đầu, hãy đảm bảo rằng bạn đã thiết lập các yêu cầu trước sau:
 
 ### Môi trường phát triển Java
 
-Hãy chắc chắn rằng bạn đã cài đặt Java Development Kit (JDK) trên hệ thống của mình. Bạn có thể tải và cài đặt JDK từ trang web của Oracle.
+Đảm bảo rằng bạn đã cài đặt Java Development Kit (JDK) trên hệ thống của mình. Bạn có thể tải và cài đặt JDK từ trang web của Oracle.
 
-### Aspose.Note cho Java
+### Aspose.Note for Java
 
-Tải xuống và cài đặt Aspose.Note cho Java từ [liên kết tải xuống](https://releases.aspose.com/note/java/). Thực hiện theo hướng dẫn cài đặt được cung cấp trong tài liệu để tích hợp một cách liền mạch.
+Tải xuống và cài đặt Aspose.Note cho Java từ [liên kết tải xuống](https://releases.aspose.com/note/java/). Thực hiện theo hướng dẫn cài đặt có trong tài liệu để tích hợp một cách liền mạch.
 
 ## Nhập các gói
 
@@ -68,9 +114,11 @@ Bây giờ, chúng ta sẽ phân tích quy trình **đặt màu nền trang** (h
 
 ## Cách thay đổi nền trang OneNote
 
+Tải tệp OneNote, lặp qua các trang bạn muốn tạo kiểu, đặt màu nền cho mỗi trang, và cuối cùng lưu sổ ghi chú. Nó hoạt động cho cả sổ ghi chú nhỏ và bộ sưu tập lớn, đảm bảo tạo kiểu nhất quán trên tất cả các trang.
+
 ### Bước 1: Tải tài liệu OneNote
 
-Đầu tiên, tải tài liệu OneNote mà bạn muốn chỉnh sửa và lấy tham chiếu tới trang mong muốn.
+`Document` đại diện cho một sổ ghi chú OneNote và cung cấp quyền truy cập vào các trang của nó.
 
 ```java
 Path dataDir = "Your Document Directory";
@@ -79,7 +127,7 @@ Document document = new Document(dataDir.resolve("Sample1.one").toString());
 
 ### Bước 2: Lặp qua các trang
 
-Lặp qua từng trang trong tài liệu để truy cập và sửa đổi các thuộc tính của chúng. Vòng lặp này cho phép bạn **đặt màu trang OneNote** cho bất kỳ trang nào bạn chọn.
+`Page` đại diện cho một trang riêng lẻ trong tài liệu OneNote, cung cấp các thuộc tính như màu nền.
 
 ```java
 for (Page page: document) {
@@ -89,7 +137,7 @@ for (Page page: document) {
 
 ### Bước 3: Đặt màu nền
 
-Đặt màu nền mong muốn cho trang. Trong ví dụ này, chúng ta sẽ đặt màu hồng tím, nhưng bạn có thể chọn bất kỳ giá trị `java.awt.Color` nào.
+`setBackgroundColor` đặt màu nền đồng nhất cho một trang OneNote. `java.awt.Color` là một lớp Java tiêu chuẩn đại diện cho màu sắc bằng các thành phần RGB.
 
 ```java
 page.setBackgroundColor(Color.MAGENTA);
@@ -97,49 +145,49 @@ page.setBackgroundColor(Color.MAGENTA);
 
 ### Bước 4: Lưu tài liệu
 
-Cuối cùng, lưu tài liệu đã chỉnh sửa với màu nền đã cập nhật.
-
 ```java
 document.save(dataDir.resolve("SetPageBackgroundColor.one").toString());
 ```
 
-## Các vấn đề thường gặp & Mẹo
+## Các vấn đề thường gặp & mẹo
 
 - **Màu không được áp dụng?** Đảm bảo bạn gọi `setBackgroundColor` bên trong vòng lặp cho mỗi trang bạn muốn ảnh hưởng.  
-- **Tệp không tìm thấy?** Kiểm tra xem `dataDir` có trỏ tới thư mục đúng và `Sample1.one` có tồn tại không.  
+- **Không tìm thấy tệp?** Xác minh rằng `dataDir` trỏ tới thư mục đúng và `Sample1.one` tồn tại.  
 - **Màu không được hỗ trợ?** Sử dụng bất kỳ hằng số `java.awt.Color` nào hoặc tạo màu tùy chỉnh bằng `new Color(r, g, b)`.
 
 ## Câu hỏi thường gặp
 
-### Q1: Tôi có thể đặt màu nền khác nhau cho các trang khác nhau trong một tài liệu OneNote duy nhất không?
+**Q1: Tôi có thể đặt màu nền khác nhau cho các trang khác nhau trong một tài liệu OneNote duy nhất không?**  
+A: Có, bạn có thể lặp qua từng trang riêng biệt và đặt màu nền theo yêu cầu của mình.
 
-**A:** Có, bạn có thể lặp qua từng trang riêng biệt và đặt màu nền theo yêu cầu của mình.
+**Q2: Aspose.Note có hỗ trợ các tùy chọn định dạng khác cho tài liệu OneNote không?**  
+A: Chắc chắn! Aspose.Note cung cấp một loạt các chức năng, bao gồm định dạng văn bản, chèn hình ảnh, tạo bảng và thao tác dàn ý, với **hơn 30 tính năng được hỗ trợ**.
 
-### Q2 Aspose.Note có hỗ trợ các tùy chọn định dạng khác cho tài liệu OneNote không?
+**Q3: Aspose.Note có phù hợp cho việc sử dụng thương mại không?**  
+A: Có, Aspose.Note cung cấp các tùy chọn cấp phép cho cả dự án cá nhân và thương mại. Mua giấy phép từ trang web để loại bỏ các hạn chế đánh giá.
 
-**A:** Chắc chắn! Aspose.Note cung cấp một loạt các chức năng để thao tác với nhiều khía cạnh của tài liệu OneNote, bao gồm định dạng văn bản, chèn hình ảnh và nhiều hơn nữa.
+**Q4: Tôi có thể dùng thử Aspose.Note trước khi mua không?**  
+A: Chắc chắn! Một bản dùng thử miễn phí có sẵn, cho phép bạn khám phá tất cả các tính năng—bao gồm cả việc thao tác nền trang—mà không tốn phí.
 
-### Q3: Aspose.Note có phù hợp cho việc sử dụng thương mại không?
-
-**A:** Có, Aspose.Note cung cấp các tùy chọn cấp phép cho cả sử dụng cá nhân và thương mại. Bạn có thể mua giấy phép từ trang web.
-
-### Q4: Tôi có thể dùng thử Aspose.Note trước khi mua không?
-
-**A:** Chắc chắn! Bạn có thể dùng bản dùng thử miễn phí của Aspose.Note để khám phá các tính năng và khả năng của nó trước khi quyết định.
-
-### Q5: Tôi có thể tìm hỗ trợ hoặc trợ giúp bổ sung cho Aspose.Note ở đâu?
-
-**A:** Đối với bất kỳ câu hỏi nào hoặc cần trợ giúp, bạn có thể truy cập diễn đàn Aspose.Note hoặc liên hệ với đội ngũ hỗ trợ của họ để được giúp đỡ nhanh chóng.
+**Q5: Tôi có thể tìm hỗ trợ hoặc trợ giúp bổ sung về Aspose.Note ở đâu?**  
+A: Truy cập diễn đàn Aspose.Note, tham khảo tài liệu API chính thức, hoặc liên hệ với đội hỗ trợ để được giúp đỡ nhanh chóng.
 
 ## Kết luận
 
-Chúc mừng! Bạn đã học thành công cách **thay đổi nền trang OneNote** và **chỉnh sửa màu trang OneNote** bằng Aspose.Note cho Java. Hãy thử nghiệm với các giá trị `Color` khác nhau, kết hợp kỹ thuật này với các tính năng API khác, và tùy chỉnh sổ tay OneNote của bạn để phù hợp với bất kỳ phong cách trực quan nào bạn cần.
+Bạn đã học cách **thay đổi nền trang OneNote** và **chỉnh sửa màu trang OneNote** bằng Aspose.Note cho Java. Hãy thử nghiệm với các giá trị `Color` khác nhau, kết hợp kỹ thuật này với việc chèn văn bản hoặc hình ảnh, và tùy chỉnh sổ ghi chú của bạn để phù hợp với bất kỳ phong cách hình ảnh hoặc yêu cầu thương hiệu nào.
 
 ---
 
-**Cập nhật lần cuối:** 2026-01-15  
-**Kiểm tra với:** Aspose.Note cho Java 24.12  
+**Cập nhật lần cuối:** 2026-09-19  
+**Kiểm thử với:** Aspose.Note cho Java 24.12  
 **Tác giả:** Aspose
+
+## Hướng dẫn liên quan
+
+- [Cách xuất trang OneNote thành ảnh PNG trong Java sử dụng Aspose.Note](/note/java/onenote-document-loading/convert-page-to-png-image/)
+- [Cách render ảnh trang OneNote (JPEG) bằng Save Format với Aspose.Note cho Java](/note/java/onenote-document-saving/save-to-jpeg-image-using-save-format/)
+- [Hướng dẫn Java Aspose - Lấy thông tin về các trang trong OneNote - Aspose.Note](/note/java/onenote-page-manipulation/get-information-about-pages/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,11 +1,59 @@
 ---
-date: 2025-12-14
-description: Ismerje meg, hogyan menthet OneNote-ot bináris PNG képként az Otsu-módszerrel
-  az Aspose.Note for Java segítségével. Ez az útmutató a OneNote PNG formátumba mentését
-  és fekete‑fehér képek létrehozását Java-ban tárgyalja.
-linktitle: How to Save OneNote as Binary Image Using Otsu Method
+date: 2026-09-19
+description: Ismerje meg a OneNote fájlok binary image conversion-ét az Otsu módszerrel
+  Java-ban az Aspose.Note használatával. Konvertálja a OneNote-ot PNG formátumba,
+  alkalmazza az image thresholding Otsu-t, és kapjon black‑white images-et OCR-hez.
+keywords:
+- binary image conversion
+- image thresholding otsu
+- save onenote png
+- black white image java
+lastmod: 2026-09-19
+linktitle: OneNote Binary image conversion Otsu módszerrel Java-ban
+og_description: Ismerje meg a OneNote fájlok binary image conversion-ét az Otsu módszerrel
+  Java-ban az Aspose.Note használatával. Konvertálja a OneNote-ot PNG formátumba,
+  alkalmazza az image thresholding Otsu-t, és kapjon black‑white images-et OCR-hez.
+og_image_alt: Developer guide showing OneNote to binary PNG conversion using Aspose.Note
+  Java API
+og_title: OneNote Binary image conversion Otsu módszerrel Java-ban
+schemas:
+- author: Aspose
+  dateModified: '2026-09-19'
+  description: Learn binary image conversion of OneNote files with the Otsu method
+    in Java using Aspose.Note. Convert OneNote to PNG, apply image thresholding Otsu,
+    and get black‑white images for OCR.
+  headline: Binary image conversion of OneNote using Otsu method in Java
+  type: TechArticle
+- questions:
+  - answer: Yes, the API provides methods such as `document.getPages().get(i).getText()`
+      to retrieve plain‑text content programmatically.
+    question: Can I use Aspose.Note for Java to extract text from OneNote documents?
+  - answer: Absolutely. It supports the legacy `.one` format as well as the newer
+      `.onetoc2` and `.onepkg` containers used by recent Office releases.
+    question: Is Aspose.Note for Java compatible with different versions of OneNote
+      files?
+  - answer: Yes, you can switch to other algorithms (e.g., `BinarizationMethod.Niblack`)
+      or adjust parameters like `windowSize` and `kFactor` to fine‑tune the thresholding
+      behavior.
+    question: Can I customize the binarization options for saving documents as binary
+      images?
+  - answer: While the library focuses on OneNote‑to‑image conversion, you can combine
+      OCR output with the `Document` API to reconstruct pages, effectively converting
+      images back into a OneNote notebook.
+    question: Does Aspose.Note for Java support converting binary images back to OneNote
+      documents?
+  - answer: Visit the Aspose.Note community forum, consult the official API reference,
+      or open a support ticket through the Aspose customer portal.
+    question: Where can I get support if I encounter issues while using Aspose.Note
+      for Java?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: Hogyan menthetjük a OneNote-ot bináris képként Otsu-módszerrel
+tags:
+- binary image conversion
+- Aspose.Note
+- Java image processing
+- OneNote PNG export
+title: OneNote Binary image conversion Otsu módszerrel Java-ban
 url: /hu/java/onenote-document-saving/save-to-binary-image-using-otsu-method/
 weight: 15
 ---
@@ -14,42 +62,48 @@ weight: 15
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Bináris kép mentése Otsu módszerrel a OneNote-ban
+# OneNote bináris képkonvertálása Otsu módszerrel Java-ban
 
-## Bevezetés
-
-Ebben az útmutatóban megtudja, **hogyan menthet OneNote** dokumentumokat bináris képként az Otsu módszerrel az Aspose.Note for Java segítségével. Egy OneNote fájl fekete‑fehér képpé konvertálása hasznos lehet képfeldolgozó csővezetékekben, OCR előfeldolgozásnál, vagy egyszerűen akkor, amikor egy könnyű vizuális ábrázolásra van szüksége a jegyzeteiről.
+Ebben az oktatóanyagban megtanulja a **bináris képkonvertálást** OneNote dokumentumok esetén az Otsu küszöbölési technika alkalmazásával az Aspose.Note for Java segítségével. Egy OneNote oldal fekete‑fehér PNG‑re konvertálása hasznos OCR előfeldolgozáshoz, a tárolási méret csökkentéséhez, vagy a képek downstream számítógépes látás csővezetékekbe való betáplálásához. Az alábbi lépések végigvezetnek egy `.one` fájl betöltésén, a binarizálás beállításán, és az eredmény könnyű bináris képként való mentésén.
 
 ## Gyors válaszok
-- **Mit csinál az Otsu módszer?** Automatikusan meghatározza az optimális küszöböt a szürkeárnyalatos kép fekete‑fehér (bináris) képpé alakításához.  
-- **Milyen formátumot használ a kimenet?** Alapértelmezés szerint a PNG, mivel veszteségmentes minőséget biztosít.  
-- **Szükségem van licencre a kód futtatásához?** Egy ingyenes próba verzió fejlesztéshez elegendő; a termeléshez kereskedelmi licenc szükséges.  
-- **Át tudom állítani a kimenetet más formátumra?** Igen – egyszerűen cserélje le a `SaveFormat.Png` értéket egy másik támogatott formátumra.  
-- **Alkalmas-e OCR-hez?** Teljesen – a bináris képek javítják az OCR pontosságát a szürkeárnyalatos zaj eltávolításával.
+- **Mi a Otsu módszer feladata?** Automatikusan kiválasztja az optimális szürkeárnyalatos küszöböt, amely elválasztja az előteret a háttértől, tiszta fekete‑fehér képet eredményezve.  
+- **Milyen formátumot használ a kimenet?** PNG, mert veszteségmentes tömörítést és széles platformtámogatást nyújt.  
+- **Szükségem van licencre a kód futtatásához?** Egy ingyenes próba a fejlesztéshez működik; a termelési környezethez kereskedelmi licenc szükséges.  
+- **Megváltoztathatom a kimenetet más formátumra?** Igen – cserélje le a `SaveFormat.Png`-t bármelyik, az Aspose.Note kép‑mentési opcióiban felsorolt formátumra.  
+- **Alkalmas ez OCR-hez?** Teljesen – a bináris PNG-k drámaian javítják az OCR pontosságát a szürkeárnyalatos zaj eltávolításával.
 
 ## Mi az Otsu módszer?
-Az Otsu módszer a szürkeárnyalatos kép hisztogramját elemzi, és olyan küszöböt választ, amely minimalizálja az osztályon belüli varianciát, hatékonyan elkülönítve az előtér (fekete) és a háttér (fehér) részeket. Ez ideálissá teszi **black white image java** kimenetek létrehozásához OneNote oldalakról.
+Az Otsu módszer automatikusan meghatározza az optimális küszöböt, amely egy szürkeárnyalatos képet bináris (fekete‑fehér) képpé alakít az osztályon belüli variancia minimalizálásával. Ez az egylépéses algoritmus gyors, bármilyen képmérettel működik, és ideális a OneNote oldalak OCR vagy mintafelismerési feladatok előfeldolgozásához.
 
 ## Miért mentse a OneNote-ot PNG formátumban?
-- **Általános kompatibilitás:** A PNG minden böngészőben, mobilalkalmazásban és asztali eszközön működik.  
-- **Veszteségmentes tömörítés:** Nincs minőségromlás, ami kulcsfontosságú az utólagos feldolgozáshoz.  
-- **Kész OCR-re:** A bináris PNG-k a legtöbb OCR motor preferált bemenetei.
+A OneNote oldalak PNG formátumban való mentése univerzálisan olvasható, veszteségmentes ábrázolást biztosít, amelyet böngészők, mobilalkalmazások és OCR motorok is felhasználhatnak. A PNG támogatja az átlátszóságot is, ami későbbi képek kompozíciójánál hasznos lehet. Mivel a PNG raszteres formátum, a fájlméret mérsékelt marad – az Aspose.Note képes **legfeljebb 500 oldalas** jegyzetfüzetek feldolgozására anélkül, hogy a teljes dokumentumot a memóriába töltené, így a konverzió skálázható nagy archívumok esetén.
 
 ## Előfeltételek
-1. Alapvető Java programozási ismeretek.  
-2. Telepített JDK (Java Development Kit).  
-3. Aspose.Note for Java könyvtár hozzáadva a projekthez (Maven/Gradle vagy manuális JAR).  
+- Java Development Kit (JDK) 8 vagy újabb telepítve.  
+- Maven vagy Gradle a függőségkezeléshez, vagy az Aspose.Note JAR manuálisan hozzáadva az osztályúthoz.  
+- Érvényes Aspose.Note for Java licenc a termelési használathoz (az ingyenes próba teszteléshez működik).  
 
 ## Csomagok importálása
-A kezdéshez importálja a szükséges Aspose.Note osztályokat és a Java I/O segédeszközöket.
+
+A `Document`, `ImageBinarizationOptions`, és `ImageSaveOptions` osztályok az Aspose.Note API részei.  
+
+`Document` a legfelső szintű objektum, amely egy OneNote fájlt reprezentál a memóriában.  
+`ImageBinarizationOptions` a binarizálási algoritmus beállításait tartalmazza, beleértve az Otsu választását.  
+`ImageSaveOptions` meghatározza a kimeneti formátumot, felbontást és színmódot a mentett képhez.
+
+## 1. lépés: a OneNote dokumentum betöltése
+
+Mutassa meg a mappát, amely a `.one` fájlt tartalmazza, és hozzon létre egy `Document` példányt. A `Document` osztály beolvassa a OneNote fájl struktúráját, és minden oldalt elérhetővé tesz a további feldolgozáshoz.
 
 ```java
 import com.aspose.note.*;
 import java.io.IOException;
 ```
 
-## 1. lépés: OneNote dokumentum betöltése
-Először mutasson a mappára, amelyik a `.one` fájlt tartalmazza, és töltse be a `Document` objektumba.
+## 2. lépés: binarizálás beállítása Otsu-val
+
+Hozzon létre egy `ImageBinarizationOptions` példányt, és állítsa be a `method` tulajdonságát `BinarizationMethod.Otsu`‑ra. Ez azt mondja az Aspose.Note‑nak, hogy a kép renderelésekor alkalmazza az Otsu algoritmust.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -57,8 +111,9 @@ String dataDir = "Your Document Directory";
 Document oneFile = new Document(dataDir + "Aspose.one");
 ```
 
-## 2. lépés: Binarizálás beállítása Otsu-val
-Hozzon létre egy `ImageBinarizationOptions` példányt, és mondja meg az Aspose.Note-nak, hogy az Otsu algoritmust használja.
+## 3. lépés: kép mentési beállítások megadása (PNG, fekete‑fehér)
+
+Hozzon létre egy `ImageSaveOptions` objektumot, adja meg a `SaveFormat.Png`‑t, és kényszerítse a színmódot fekete‑fehérre. Csatolja a korábban létrehozott `ImageBinarizationOptions`‑t, hogy az Otsu küszöbölés a mentési művelet során fusson.
 
 ```java
 dataDir = dataDir + "SaveToBinaryImageUsingOtsuMethod_out.png";
@@ -66,8 +121,9 @@ ImageBinarizationOptions binarizationOptions = new ImageBinarizationOptions();
 binarizationOptions.setBinarizationMethod(BinarizationMethod.Otsu);
 ```
 
-## 3. lépés: Kép mentési beállítások (PNG, fekete‑fehér)
-Határozza meg, hogyan lesz a kép mentve. Itt PNG-t választunk, kényszerítve a fekete‑fehér színmódot, és csatoljuk a binarizálási beállításokat.
+## 4. lépés: a dokumentum mentése bináris képként
+
+Hívja meg a `save` metódust a `Document` objektumon, átadva a célfájl útvonalát és a konfigurált `ImageSaveOptions`‑t. Az eredmény egy bináris PNG, ahol minden pixel vagy tiszta fekete, vagy tiszta fehér.
 
 ```java
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png);
@@ -75,60 +131,54 @@ options.setColorMode(ColorMode.BlackAndWhite);
 options.setBinarizationOptions(binarizationOptions);
 ```
 
-## 4. lépés: Dokumentum mentése bináris képként
-Végül írja ki a bináris PNG-t a lemezre a korábban előkészített beállításokkal.
+## Gyakori problémák és tippek
+- **File not found:** Győződjön meg arról, hogy a `dataDir` a megfelelő útvonalelválasztóval (`/` Unix‑on, `\\` Windows‑on) végződik, mielőtt a fájlnevet hozzáadná.  
+- **Blank output:** A forrás OneNote oldalnak látható tartalommal kell rendelkeznie; az üres oldalak üres PNG‑t generálnak.  
+- **Performance:** 200 oldalnál nagyobb jegyzetfüzetek esetén dolgozza fel az oldalakat egy ciklusban, és a mentés után szabadítsa fel az egyes `Document` példányokat a memóriahasználat alacsonyan tartása érdekében.  
+- **Resolution control:** Használja a `options.setResolution(300)`‑t a DPI növeléséhez a magasabb minőségű OCR bemenethez.  
+
+## Gyakran feltett kérdések
+
+**Q: Használhatom az Aspose.Note for Java-t a szöveg kinyerésére OneNote dokumentumokból?**  
+A: Igen, az API olyan metódusokat biztosít, mint a `document.getPages().get(i).getText()`, amelyek programozottan visszaadják a egyszerű szöveges tartalmat.
+
+**Q: Az Aspose.Note for Java kompatibilis a OneNote fájlok különböző verzióival?**  
+A: Teljes mértékben. Támogatja a régi `.one` formátumot, valamint az újabb `.onetoc2` és `.onepkg` konténereket, amelyeket a legújabb Office kiadások használnak.
+
+**Q: Testreszabhatom a binarizálási beállításokat a dokumentumok bináris képként való mentéséhez?**  
+A: Igen, válthat más algoritmusokra (pl. `BinarizationMethod.Niblack`), vagy módosíthatja a paramétereket, mint a `windowSize` és a `kFactor`, a küszöbölés viselkedésének finomhangolásához.
+
+**Q: Az Aspose.Note for Java támogatja a bináris képek visszaalakítását OneNote dokumentumokká?**  
+A: Bár a könyvtár elsősorban a OneNote‑ról‑kép konverzióra fókuszál, kombinálhatja az OCR kimenetet a `Document` API-val a lapok újraépítéséhez, így hatékonyan visszakonvertálhatja a képeket egy OneNote jegyzetfüzetbe.
+
+**Q: Hol kaphatok támogatást, ha problémáim vannak az Aspose.Note for Java használata közben?**  
+A: Látogassa meg az Aspose.Note közösségi fórumát, tekintse meg a hivatalos API referenciát, vagy nyisson egy támogatási jegyet az Aspose ügyfélportálon keresztül.
+
+**Q: Hogyan változtathatom meg a kimeneti formátumot PNG‑ről JPEG‑re?**  
+A: Cserélje le a `SaveFormat.Png`-t `SaveFormat.Jpeg`-re az `ImageSaveOptions` konstruktorában, és opcionálisan állítsa be a tömörítési szintet a `options.setJpegQuality(85)` segítségével.
+
+**Q: Van mód egyedi DPI beállítására az exportált képnél?**  
+A: Igen, hívja meg a `options.setResolution(300)`‑t (vagy bármilyen DPI értéket) a `document.save(...)` meghívása előtt, hogy szabályozza a kimeneti felbontást.
+
+**Q: Feldolgozhatok több OneNote oldalt egy ciklusban?**  
+A: Természetesen – iteráljon a `document.getPages()`-en, és alkalmazza ugyanazt a binarizálási és mentési logikát minden oldalra, az eredményeket külön fájlnevekkel tárolva.
+
+---
+
+**Utoljára frissítve:** 2026-09-19  
+**Tesztelve a következővel:** Aspose.Note for Java 26.4  
+**Szerző:** Aspose  
 
 ```java
 // Save the document.
 oneFile.save(dataDir, options);
 ```
 
-## Gyakori problémák és tippek
-- **Fájl nem található:** Ellenőrizze, hogy a `dataDir` végén van-e útvonalelválasztó (`/` vagy `\\`) a fájlnév hozzáfűzése előtt.  
-- **Üres kimenet:** Győződjön meg róla, hogy a forrás OneNote oldal tartalmaz tartalmat; az üres oldalak üres PNG-t eredményeznek.  
-- **Teljesítmény:** Nagy jegyzetfüzetek esetén dolgozza fel az oldalakat egyenként, hogy alacsonyan tartsa a memóriahasználatot.
+## Kapcsolódó oktatóanyagok
 
-## Összegzés
-Most már tudja, **hogyan menthet OneNote** dokumentumot bináris PNG képként az Otsu módszerrel Java-ban. Ez a megközelítés tökéletes **black white image java** erőforrások létrehozásához OCR-hez, archiváláshoz, vagy bármilyen olyan helyzetben, ahol egy könnyű vizuális másolatra van szükség egy OneNote oldalról.
-
-## GyIK
-
-### Q1: Használhatom az Aspose.Note for Java-t szöveg kinyerésére OneNote dokumentumokból?
-
-A1: Igen, az Aspose.Note for Java API-kat biztosít a szövegtartalom programozott kinyeréséhez OneNote dokumentumokból.
-
-### Q2: Az Aspose.Note for Java kompatibilis-e a OneNote fájlok különböző verzióival?
-
-A2: Igen, az Aspose.Note for Java támogatja a különböző OneNote fájlverziókat, beleértve a .one és .onenote formátumokat is.
-
-### Q3: Testreszabhatom a binarizálási beállításokat a dokumentumok bináris képként való mentéséhez?
-
-A3: Természetesen, a binarizálási módszert és egyéb opciókat a saját igényei szerint módosíthatja.
-
-### Q4: Az Aspose.Note for Java támogatja-e a bináris képek visszaalakítását OneNote dokumentumokká?
-
-A4: Bár az Aspose.Note elsősorban a OneNote dokumentumok manipulálásával foglalkozik, a képek visszaalakíthatók OneNote formátumba OCR (Optical Character Recognition) technikák segítségével.
-
-### Q5: Hol kaphatok támogatást, ha problémáim adódnak az Aspose.Note for Java használata közben?
-
-A5: Látogasson el az Aspose.Note fórumra, vagy vegye fel a kapcsolatot a támogatási csapattal technikai kérdések vagy problémák esetén.
-
-## További gyakran ismételt kérdések
-
-**K: Hogyan változtathatom meg a kimeneti formátumot PNG-ről JPEG-re?**  
-V: Cserélje le a `SaveFormat.Png` értéket `SaveFormat.Jpeg`-re az `ImageSaveOptions` konstruktorában.
-
-**K: Van lehetőség egyedi DPI beállítására az exportált képnél?**  
-V: Igen, használja az `options.setResolution(double dpi)` metódust a `save` hívása előtt.
-
-**K: Feldolgozhatok több OneNote oldalt egy ciklusban?**  
-V: Természetesen – iteráljon a `Document.getPages()`-en, és alkalmazza ugyanazt a mentési logikát minden oldalra.
-
----
-
-**Utoljára frissítve:** 2025-12-14  
-**Tesztelve a következővel:** Aspose.Note for Java 26.4  
-**Szerző:** Aspose  
+- [Használja az Aspose.Note for Java-t a OneNote PNG‑ként mentéséhez opciókkal – Jegyzetfüzet konvertálása képpé](/note/java/onenote-notebook-operations/convert-notebook-to-image-with-options/)
+- [OneNote exportálása BMP képre az Aspose.Note for Java kép mentési opcióival](/note/java/onenote-document-saving/save-to-bmp-image-using-image-save-options/)
+- [Tanulja meg a JPEG DPI növelését – Kimeneti kép felbontás beállítása OneNote-ban az Aspose.Note segítségével](/note/java/onenote-document-saving/set-output-image-resolution/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

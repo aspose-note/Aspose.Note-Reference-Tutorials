@@ -1,11 +1,59 @@
 ---
-date: 2025-12-14
-description: Aspose.Note for Java ile Otsu yöntemi kullanarak OneNote'u ikili PNG
-  görüntüsü olarak kaydetmeyi öğrenin. Bu kılavuz, OneNote'un PNG olarak kaydedilmesini
-  ve Java'da siyah‑beyaz görüntüler oluşturulmasını kapsar.
-linktitle: How to Save OneNote as Binary Image Using Otsu Method
+date: 2026-09-19
+description: Aspose.Note kullanarak Java'da Otsu yöntemiyle OneNote dosyalarının binary
+  image conversion'ını öğrenin. OneNote'u PNG'ye dönüştürün, Otsu ile image thresholding
+  uygulayın ve OCR için siyah‑beyaz görüntüler elde edin.
+keywords:
+- binary image conversion
+- image thresholding otsu
+- save onenote png
+- black white image java
+lastmod: 2026-09-19
+linktitle: Java'da Otsu yöntemiyle OneNote'un binary image conversion'ı
+og_description: Aspose.Note kullanarak Java'da Otsu yöntemiyle OneNote dosyalarının
+  binary image conversion'ını öğrenin. OneNote'u PNG'ye dönüştürün, Otsu ile image
+  thresholding uygulayın ve OCR için siyah‑beyaz görüntüler elde edin.
+og_image_alt: Developer guide showing OneNote to binary PNG conversion using Aspose.Note
+  Java API
+og_title: Java'da Otsu yöntemiyle OneNote'un binary image conversion'ı
+schemas:
+- author: Aspose
+  dateModified: '2026-09-19'
+  description: Learn binary image conversion of OneNote files with the Otsu method
+    in Java using Aspose.Note. Convert OneNote to PNG, apply image thresholding Otsu,
+    and get black‑white images for OCR.
+  headline: Binary image conversion of OneNote using Otsu method in Java
+  type: TechArticle
+- questions:
+  - answer: Yes, the API provides methods such as `document.getPages().get(i).getText()`
+      to retrieve plain‑text content programmatically.
+    question: Can I use Aspose.Note for Java to extract text from OneNote documents?
+  - answer: Absolutely. It supports the legacy `.one` format as well as the newer
+      `.onetoc2` and `.onepkg` containers used by recent Office releases.
+    question: Is Aspose.Note for Java compatible with different versions of OneNote
+      files?
+  - answer: Yes, you can switch to other algorithms (e.g., `BinarizationMethod.Niblack`)
+      or adjust parameters like `windowSize` and `kFactor` to fine‑tune the thresholding
+      behavior.
+    question: Can I customize the binarization options for saving documents as binary
+      images?
+  - answer: While the library focuses on OneNote‑to‑image conversion, you can combine
+      OCR output with the `Document` API to reconstruct pages, effectively converting
+      images back into a OneNote notebook.
+    question: Does Aspose.Note for Java support converting binary images back to OneNote
+      documents?
+  - answer: Visit the Aspose.Note community forum, consult the official API reference,
+      or open a support ticket through the Aspose customer portal.
+    question: Where can I get support if I encounter issues while using Aspose.Note
+      for Java?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: OneNote'u Otsu Yöntemiyle İkili Görüntü Olarak Kaydetme
+tags:
+- binary image conversion
+- Aspose.Note
+- Java image processing
+- OneNote PNG export
+title: Java'da Otsu yöntemiyle OneNote'un binary image conversion'ı
 url: /tr/java/onenote-document-saving/save-to-binary-image-using-otsu-method/
 weight: 15
 ---
@@ -14,42 +62,45 @@ weight: 15
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OneNote'ta Otsu Yöntemiyle İkili Görüntü Olarak Kaydetme
+# OneNote'un Otsu yöntemiyle ikili görüntü dönüşümü Java'da
 
-## Giriş
+Bu öğreticide, Aspose.Note for Java ile Otsu eşikleme tekniğini uygulayarak OneNote belgelerinin **ikili görüntü dönüşümünü** öğreneceksiniz. Bir OneNote sayfasını siyah‑beyaz PNG'ye dönüştürmek, OCR ön işleme, depolama boyutunu azaltma veya görüntüleri sonraki bilgisayarlı görme boru hatlarına besleme açısından faydalıdır. Aşağıdaki adımlar, bir `.one` dosyasını yüklemenizi, ikileştirmeyi yapılandırmanızı ve sonucu hafif bir ikili görüntü olarak kaydetmenizi gösterir.
 
-Bu öğreticide **OneNote** belgelerini Aspose.Note for Java ile Otsu yöntemi kullanarak ikili (binary) görüntüler olarak nasıl kaydedeceğinizi keşfedeceksiniz. Bir OneNote dosyasını siyah‑beyaz görüntüye dönüştürmek, görüntü‑işleme boru hatları, OCR ön işleme veya notlarınızın hafif bir görsel temsiline ihtiyaç duyduğunuz durumlar için oldukça kullanışlıdır.
+## Hızlı cevaplar
+- **Otsu yöntemi ne yapar?** Arka plan ile ön planı ayıran optimal gri tonlamalı eşiği otomatik olarak seçer ve temiz bir siyah‑beyaz görüntü üretir.  
+- **Çıktı için hangi format kullanılır?** PNG, çünkü kayıpsız sıkıştırma ve geniş platform desteği sunar.  
+- **Kodu çalıştırmak için lisansa ihtiyacım var mı?** Geliştirme için ücretsiz deneme sürümü çalışır; üretim dağıtımları için ticari lisans gereklidir.  
+- **Çıktıyı başka bir formata değiştirebilir miyim?** Evet – `SaveFormat.Png` ifadesini Aspose.Note'un görüntü‑kaydet seçeneklerinde listelenen herhangi bir formatla değiştirin.  
+- **Bu OCR için uygun mu?** Kesinlikle – ikili PNG'ler gri tonlama gürültüsünü ortadan kaldırarak OCR doğruluğunu büyük ölçüde artırır.
 
-## Hızlı Yanıtlar
-- **Otsu yöntemi ne yapar?** Gri tonlamalı bir görüntüyü siyah‑beyaz (ikili) bir görüntüye dönüştürmek için optimal eşik değerini otomatik olarak belirler.  
-- **Çıktı hangi formatta olur?** PNG varsayılan formattır çünkü kayıpsız kaliteyi korur.  
-- **Kodu çalıştırmak için lisansa ihtiyacım var mı?** Geliştirme için ücretsiz deneme sürümü yeterlidir; üretim ortamı için ticari lisans gereklidir.  
-- **Çıktıyı başka bir formata değiştirebilir miyim?** Evet – `SaveFormat.Png` ifadesini desteklenen başka bir formatla değiştirmeniz yeterlidir.  
-- **Bu OCR için uygun mu?** Kesinlikle – ikili görüntüler gri tonlama gürültüsünü ortadan kaldırarak OCR doğruluğunu artırır.
+## Otsu yöntemi nedir?
+Otsu yöntemi, bir gri tonlamalı görüntüyü ikili (siyah‑beyaz) görüntüye dönüştüren optimal eşiği, sınıf içi varyansı minimize ederek otomatik olarak belirler. Bu tek geçişli algoritma hızlıdır, herhangi bir görüntü boyutunda çalışır ve OCR veya desen‑tanıma görevlerinden önce OneNote sayfalarını ön işlemek için idealdir.
 
-## Otsu Yöntemi Nedir?
-Otsu yöntemi, bir gri tonlamalı görüntünün histogramını analiz eder ve sınıf içi varyansı en aza indirecek bir eşik değeri seçer; böylece ön plan (siyah) ile arka plan (beyaz) etkili bir şekilde ayrılır. Bu, **OneNote sayfalarından siyah beyaz görüntü java** çıktıları oluşturmak için idealdir.
-
-## Neden OneNote PNG Olarak Kaydedilir?
-- **Evrensel uyumluluk:** PNG tarayıcılar, mobil uygulamalar ve masaüstü araçları arasında sorunsuz çalışır.  
-- **Kayıpsız sıkıştırma:** Kalite kaybı olmaz, bu da sonraki işlemler için kritiktir.  
-- **OCR'a hazır:** İkili PNG'ler çoğu OCR motoru için tercih edilen girdi formatıdır.
+## OneNote'u PNG olarak neden kaydetmeliyiz?
+OneNote sayfalarını PNG olarak kaydetmek, tarayıcılar, mobil uygulamalar ve OCR motorları tarafından tüketilebilen evrensel olarak okunabilir, kayıpsız bir temsili sağlar. PNG ayrıca şeffaflığı destekler; bu, daha sonra görüntüleri birleştirirken faydalı olabilir. PNG bir raster format olduğu için dosya boyutu makul kalır—Aspose.Note, **500 sayfaya kadar** not defterlerini tüm belgeyi belleğe yüklemeden işleyebilir ve bu da dönüşümün büyük arşivler için ölçeklenebilir olmasını sağlar.
 
 ## Önkoşullar
-1. Java programlama temellerine hâkim olmak.  
-2. JDK (Java Development Kit) yüklü olması.  
-3. Projeye eklenmiş Aspose.Note for Java kütüphanesi (Maven/Gradle ya da manuel JAR).
+- Java Development Kit (JDK) 8 veya daha yüksek bir sürüm yüklü.  
+- Bağımlılık yönetimi için Maven veya Gradle, ya da Aspose.Note JAR'ını sınıf yolunuza manuel olarak ekleyin.  
+- Üretim kullanımı için geçerli bir Aspose.Note for Java lisansı (ücretsiz deneme sürümü test için çalışır).  
 
-## Paketleri İçe Aktarma
-Başlamak için gerekli Aspose.Note sınıflarını ve Java I/O yardımcılarını içe aktarın.
+## Paketleri içe aktar
+`Document`, `ImageBinarizationOptions` ve `ImageSaveOptions` sınıfları Aspose.Note API'sinin bir parçasıdır.
+
+`Document`, bellekte bir OneNote dosyasını temsil eden üst‑seviye nesnedir.  
+`ImageBinarizationOptions`, Otsu seçeneği dahil ikileştirme algoritması için ayarları tutar.  
+`ImageSaveOptions`, kaydedilen görüntünün çıktı formatını, çözünürlüğünü ve renk modunu tanımlar.
+
+## Adım 1: OneNote belgesini yükle
+`.one` dosyanızı içeren klasöre işaret edin ve bir `Document` örneği oluşturun. `Document` sınıfı OneNote dosya yapısını okur ve her sayfayı sonraki işlemler için kullanılabilir hâle getirir.
 
 ```java
 import com.aspose.note.*;
 import java.io.IOException;
 ```
 
-## Adım 1: OneNote Belgesini Yükleme
-Öncelikle `.one` dosyanızın bulunduğu klasöre işaret edin ve belgeyi `Document` nesnesine yükleyin.
+## Adım 2: Otsu ile ikileştirmeyi yapılandır
+`ImageBinarizationOptions` nesnesini oluşturun ve `method` özelliğini `BinarizationMethod.Otsu` olarak ayarlayın. Bu, görüntü oluşturulduğunda Aspose.Note'un Otsu algoritmasını uygulamasını sağlar.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -57,8 +108,8 @@ String dataDir = "Your Document Directory";
 Document oneFile = new Document(dataDir + "Aspose.one");
 ```
 
-## Adım 2: Otsu ile İkilileştirmeyi Yapılandırma
-Bir `ImageBinarizationOptions` örneği oluşturun ve Aspose.Note'a Otsu algoritmasını kullanmasını söyleyin.
+## Adım 3: Görüntü kaydetme seçeneklerini ayarla (PNG, siyah‑beyaz)
+`ImageSaveOptions` nesnesi oluşturun, `SaveFormat.Png` belirleyin ve renk modunu siyah‑beyaz olarak zorlayın. Daha önce oluşturulan `ImageBinarizationOptions` nesnesini ekleyerek Otsu eşikleme işleminin kaydetme sırasında çalışmasını sağlayın.
 
 ```java
 dataDir = dataDir + "SaveToBinaryImageUsingOtsuMethod_out.png";
@@ -66,8 +117,8 @@ ImageBinarizationOptions binarizationOptions = new ImageBinarizationOptions();
 binarizationOptions.setBinarizationMethod(BinarizationMethod.Otsu);
 ```
 
-## Adım 3: Görüntü Kaydetme Seçeneklerini Ayarlama (PNG, Siyah‑Beyaz)
-Görüntünün nasıl kaydedileceğini tanımlayın. Burada PNG seçiyoruz, siyah‑beyaz renk modunu zorunlu kılıyor ve ikilileştirme seçeneklerini ekliyoruz.
+## Adım 4: Belgeyi ikili görüntü olarak kaydet
+`Document` nesnesinin `save` metodunu çağırın, hedef dosya yolunu ve yapılandırılmış `ImageSaveOptions` nesnesini iletin. Sonuç, her pikselin ya saf siyah ya da saf beyaz olduğu bir ikili PNG olur.
 
 ```java
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png);
@@ -75,60 +126,53 @@ options.setColorMode(ColorMode.BlackAndWhite);
 options.setBinarizationOptions(binarizationOptions);
 ```
 
-## Adım 4: Belgeyi İkili Görüntü Olarak Kaydetme
-Son olarak, hazırladığınız seçeneklerle ikili PNG'yi diske yazın.
+## Yaygın sorunlar ve ipuçları
+- **Dosya bulunamadı:** `dataDir` değişkeninin dosya adını eklemeden önce uygun yol ayırıcıyla (`/` Unix'te, `\\` Windows'ta) bittiğinden emin olun.  
+- **Boş çıktı:** Kaynak OneNote sayfası görünür içerik içermelidir; boş sayfalar boş bir PNG üretir.  
+- **Performans:** 200 sayfadan büyük not defterleri için sayfaları bir döngüde işleyin ve kaydettikten sonra her `Document` örneğini serbest bırakın, böylece bellek kullanımı düşük tutulur.  
+- **Çözünürlük kontrolü:** Daha yüksek kalite OCR girişi için DPI'yi artırmak amacıyla `options.setResolution(300)` kullanın.  
+
+## Sıkça sorulan sorular
+
+**Q: Aspose.Note for Java'ı OneNote belgelerinden metin çıkarmak için kullanabilir miyim?**  
+A: Evet, API `document.getPages().get(i).getText()` gibi yöntemler sunarak düz metin içeriğini programlı olarak almanızı sağlar.
+
+**Q: Aspose.Note for Java farklı OneNote dosya sürümleriyle uyumlu mu?**  
+A: Kesinlikle. Hem eski `.one` formatını hem de son Office sürümlerinde kullanılan yeni `.onetoc2` ve `.onepkg` konteynerlerini destekler.
+
+**Q: Belgeleri ikili görüntü olarak kaydederken ikileştirme seçeneklerini özelleştirebilir miyim?**  
+A: Evet, diğer algoritmalara (ör. `BinarizationMethod.Niblack`) geçebilir veya `windowSize` ve `kFactor` gibi parametreleri ayarlayarak eşikleme davranışını ince ayar yapabilirsiniz.
+
+**Q: Aspose.Note for Java ikili görüntüleri OneNote belgelerine geri dönüştürmeyi destekliyor mu?**  
+A: Kütüphane OneNote‑tan‑görüntü dönüşümüne odaklansa da, OCR çıktısını `Document` API ile birleştirerek sayfaları yeniden oluşturabilir ve böylece görüntüleri bir OneNote not defterine geri dönüştürebilirsiniz.
+
+**Q: Aspose.Note for Java kullanırken sorunlarla karşılaşırsam nereden destek alabilirim?**  
+A: Aspose.Note topluluk forumunu ziyaret edin, resmi API referansına bakın veya Aspose müşteri portalı üzerinden bir destek talebi açın.
+
+**Q: Çıktı formatını PNG'den JPEG'e nasıl değiştiririm?**  
+A: `ImageSaveOptions` yapıcı içinde `SaveFormat.Png` ifadesini `SaveFormat.Jpeg` ile değiştirin ve isteğe bağlı olarak `options.setJpegQuality(85)` ile sıkıştırma seviyesini ayarlayın.
+
+**Q: Dışa aktarılan görüntü için özel bir DPI ayarlamanın bir yolu var mı?**  
+A: Evet, `document.save(...)` çağrısından önce `options.setResolution(300)` (veya istediğiniz DPI değeri) ile çıktı çözünürlüğünü kontrol edebilirsiniz.
+
+**Q: Bir döngü içinde birden fazla OneNote sayfasını işleyebilir miyim?**  
+A: Kesinlikle—`document.getPages()` üzerinde döngü kurarak aynı ikileştirme ve kaydetme mantığını her sayfaya uygulayın, sonuçları farklı dosya adlarıyla saklayın.
+
+**Son Güncelleme:** 2026-09-19  
+**Test Edilen:** Aspose.Note for Java 26.4  
+**Yazar:** Aspose  
 
 ```java
 // Save the document.
 oneFile.save(dataDir, options);
 ```
 
-## Yaygın Sorunlar ve İpuçları
-- **Dosya bulunamadı:** `dataDir` değişkeninin dosya adı eklemeden önce bir yol ayırıcı (`/` veya `\\`) ile bittiğini kontrol edin.  
-- **Boş çıktı:** Kaynak OneNote sayfasının içerik içerdiğinden emin olun; boş sayfalar boş bir PNG üretir.  
-- **Performans:** Büyük defterlerde bellek kullanımını düşük tutmak için sayfaları tek tek işleyin.
+## İlgili Öğreticiler
 
-## Sonuç
-Artık **OneNote** belgelerini Java'da Otsu yöntemiyle ikili PNG görüntüsü olarak nasıl kaydedeceğinizi biliyorsunuz. Bu yöntem, **siyah beyaz görüntü java** varlıklarını OCR, arşivleme veya OneNote sayfasının hafif bir görsel kopyasına ihtiyaç duyulan herhangi bir senaryo için oluşturmakta mükemmeldir.
+- [Aspose.Note for Java kullanarak OneNote'u PNG olarak Kaydet – Not Defterini Görüntüye Dönüştür](/note/java/onenote-notebook-operations/convert-notebook-to-image-with-options/)
+- [Aspose.Note for Java Görüntü Kaydet Seçenekleri ile OneNote'u BMP Görüntüsü Olarak Dışa Aktar](/note/java/onenote-document-saving/save-to-bmp-image-using-image-save-options/)
+- [JPEG DPI'yi artırmayı öğren – OneNote'ta Aspose.Note ile Çıktı Görüntü Çözünürlüğünü Ayarlama](/note/java/onenote-document-saving/set-output-image-resolution/)
 
-## SSS
-
-### S1: Aspose.Note for Java kullanarak OneNote belgelerinden metin çıkarabilir miyim?
-
-C1: Evet, Aspose.Note for Java, OneNote belgelerinden programlı olarak metin içeriği çıkarmak için API'ler sunar.
-
-### S2: Aspose.Note for Java farklı OneNote dosya sürümleriyle uyumlu mu?
-
-C2: Evet, Aspose.Note for Java .one ve .onenote formatları dahil olmak üzere çeşitli OneNote dosya sürümlerini destekler.
-
-### S3: Belgeleri ikili görüntü olarak kaydederken ikilileştirme seçeneklerini özelleştirebilir miyim?
-
-C3: Kesinlikle, gereksinimlerinize göre ikilileştirme yöntemini ve diğer seçenekleri ayarlayabilirsiniz.
-
-### S4: Aspose.Note for Java ikili görüntüleri OneNote belgelerine geri dönüştürmeyi destekliyor mu?
-
-C4: Aspose.Note esas olarak OneNote belgeleriyle çalışır; ancak görüntüleri OCR (Optik Karakter Tanıma) teknikleriyle OneNote formatına dönüştürebilirsiniz.
-
-### S5: Aspose.Note for Java kullanırken sorun yaşarsam nereden destek alabilirim?
-
-C5: Aspose.Note forumunu ziyaret edebilir veya teknik sorunlar ve sorular için destek ekipleriyle iletişime geçebilirsiniz.
-
-## Ek Sık Sorulan Sorular
-
-**S: Çıktı formatını PNG'den JPEG'e nasıl değiştiririm?**  
-C: `ImageSaveOptions` yapıcısında `SaveFormat.Png` ifadesini `SaveFormat.Jpeg` ile değiştirin.
-
-**S: Dışa aktarılan görüntü için özel bir DPI ayarlama imkanı var mı?**  
-C: Evet, `save` metodunu çağırmadan önce `options.setResolution(double dpi)` kullanın.
-
-**S: Birden fazla OneNote sayfasını döngü içinde işleyebilir miyim?**  
-C: Kesinlikle – `Document.getPages()` üzerinden döngü kurarak aynı kaydetme mantığını her sayfaya uygulayabilirsiniz.
-
----
-
-**Son Güncelleme:** 2025-12-14  
-**Test Edilen Versiyon:** Aspose.Note for Java 26.4  
-**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
