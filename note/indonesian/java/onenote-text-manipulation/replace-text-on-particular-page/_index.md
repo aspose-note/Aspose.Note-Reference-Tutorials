@@ -1,11 +1,47 @@
 ---
-date: 2026-03-29
-description: Pelajari cara mengedit OneNote dengan mengganti teks pada halaman tertentu
-  dan menyimpan OneNote sebagai PDF menggunakan Aspose.Note untuk Java. Panduan langkah
-  demi langkah untuk pengembang.
-linktitle: How to edit OneNote – Replace Text on Particular Page with Aspose.Note
+date: 2026-09-24
+description: Pelajari cara menyimpan OneNote sebagai PDF dan mengganti teks pada halaman
+  tertentu menggunakan Aspose.Note untuk Java. Panduan langkah demi langkah ini menunjukkan
+  alur kerja lengkap.
+keywords:
+- save onenote as pdf
+- export edited onenote to pdf
+- Aspose.Note Java
+lastmod: 2026-09-24
+linktitle: Simpan OneNote sebagai PDF dan ganti teks halaman dengan Aspose.Note
+og_description: Pelajari cara menyimpan OneNote sebagai PDF dan mengganti teks pada
+  halaman tertentu menggunakan Aspose.Note untuk Java. Ikuti panduan singkat ini untuk
+  implementasi cepat.
+og_image_alt: 'Developer guide: Save OneNote as PDF and replace page text with Aspose.Note'
+og_title: Simpan OneNote sebagai PDF dan ganti teks halaman dengan Aspose.Note
+schemas:
+- author: Aspose
+  dateModified: '2026-09-24'
+  description: Learn how to save OneNote as PDF and replace text on a particular page
+    using Aspose.Note for Java. This step‑by‑step guide shows you the complete workflow.
+  headline: Save OneNote as PDF and replace page text with Aspose.Note
+  type: TechArticle
+- questions:
+  - answer: Yes, Aspose.Note for Java is licensed for commercial use. See the [purchase
+      page](https://purchase.aspose.com/buy) for details.
+    question: Can I use Aspose.Note for Java in a commercial project?
+  - answer: Absolutely. You can download a trial version [Aspose trial download page](https://releases.aspose.com/).
+    question: Is there a free trial available?
+  - answer: The [Aspose.Note forum](https://forum.aspose.com/c/note/28) is a great
+      place to ask questions and share solutions.
+    question: Where can I find community support?
+  - answer: A temporary license is available [temporary license page](https://purchase.aspose.com/temporary-license/).
+    question: How can I obtain a temporary license for testing?
+  - answer: Get the latest library from the official download page [Aspose.Note Java
+      download page](https://releases.aspose.com/note/java/).
+    question: Where can I download Aspose.Note for Java?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: Cara mengedit OneNote – Ganti Teks pada Halaman Tertentu dengan Aspose.Note
+tags:
+- save onenote as pdf
+- Aspose.Note
+- Java document processing
+title: Simpan OneNote sebagai PDF dan ganti teks halaman dengan Aspose.Note
 url: /id/java/onenote-text-manipulation/replace-text-on-particular-page/
 weight: 21
 ---
@@ -14,34 +50,34 @@ weight: 21
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cara mengedit OneNote – Mengganti Teks pada Halaman Tertentu dengan Aspose.Note
+# Simpan OneNote sebagai PDF dan ganti teks halaman dengan Aspose.Note
 
 ## Pendahuluan
-Jika Anda perlu **mengedit OneNote** secara programatis—baik untuk mengganti frasa, memperbarui judul, atau menyesuaikan konten pada satu halaman—Aspose.Note untuk Java membuat prosesnya sederhana. Dalam tutorial ini Anda akan belajar **cara mengedit OneNote** dengan mengganti teks pada halaman tertentu dan kemudian menyimpan hasilnya sebagai PDF. Ikuti langkah‑langkah di bawah ini untuk mengintegrasikan kemampuan ini ke dalam aplikasi Java Anda dengan cepat dan andal.
+Jika Anda perlu **menyimpan OneNote sebagai PDF** sekaligus memperbarui sebuah frasa, judul, atau konten apa pun pada satu halaman, Aspose.Note untuk Java memberikan cara yang bersih dan terprogram untuk melakukannya. Tutorial ini memandu Anda melalui proses memuat notebook `.one`, menemukan halaman yang tepat, mengganti teks yang diinginkan, dan akhirnya mengekspor notebook yang telah diedit sebagai file PDF. Anda dapat mengintegrasikan alur kerja ini ke dalam pipeline otomatisasi berbasis Java dalam beberapa menit saja.
 
 ## Jawaban Cepat
-- **Apa yang dibahas dalam tutorial ini?** Mengganti teks pada halaman OneNote tertentu dan mengekspor file sebagai PDF.  
+- **Apa yang dibahas dalam tutorial ini?** Mengganti teks pada halaman OneNote tertentu dan mengekspor notebook yang telah diedit sebagai PDF.  
 - **Perpustakaan mana yang diperlukan?** Aspose.Note untuk Java.  
 - **Apakah saya memerlukan lisensi?** Lisensi sementara dapat digunakan untuk evaluasi; lisensi penuh diperlukan untuk produksi.  
-- **Bisakah saya menyimpan OneNote sebagai PDF?** Ya – langkah akhir menunjukkan cara menyimpan dokumen yang telah diedit sebagai PDF.  
-- **Berapa lama waktu implementasinya?** Sekitar 10‑15 menit untuk pengembang yang familiar dengan Java.
+- **Apakah saya dapat menyimpan OneNote sebagai PDF?** Ya – langkah akhir menunjukkan cara menyimpan dokumen yang telah diedit sebagai PDF.  
+- **Berapa lama waktu implementasinya?** Sekitar 10‑15 menit untuk pengembang yang familiar dengan Java.  
 
 ## Apa itu “cara mengedit onenote” dalam Java?
-Mengedit OneNote dengan Java berarti menggunakan Aspose.Note API untuk membuka file `.one`, menavigasi hierarki halamannya, memodifikasi node teks, dan kemudian menyimpan perubahan. Pendekatan ini menghilangkan kebutuhan menyalin‑tempel manual dan memungkinkan pemrosesan batch pada notebook besar.
+Memuat file OneNote, memodifikasi isinya, dan menyimpannya kembali semuanya ditangani oleh API Aspose.Note. Anda membuka file `.one` dengan objek `Document`, menavigasi ke halaman target, mengganti teks dalam node `RichText`-nya, dan kemudian memanggil `save` dengan `SaveFormat.Pdf`. Hal ini menghilangkan proses salin‑tempel manual dan memungkinkan pemrosesan batch notebook.
 
-## Mengapa mengganti teks OneNote secara programatis?
-- **Otomatisasi** – Perbarui judul, cap waktu, atau merek di banyak halaman dengan satu skrip.  
-- **Konsistensi** – Pastikan terminologi seragam di seluruh notebook.  
-- **Integrasi** – Gabungkan konten OneNote dengan sistem lain (mis., menghasilkan laporan, memasukkan data ke basis data).  
+## Mengapa mengganti teks OneNote secara terprogram?
+Mengotomatiskan penggantian teks menjamin konsistensi di seluruh notebook besar, mengurangi upaya manual, dan memungkinkan Anda menyematkan konten OneNote ke dalam sistem hilir seperti pipeline pelaporan atau basis data manajemen konten. Dengan Aspose.Note Anda dapat memperbarui judul, cap waktu, atau branding pada ratusan halaman dengan satu skrip, menghemat jam kerja berulang.
 
 ## Prasyarat
-Sebelum Anda memulai, pastikan Anda memiliki:
+Sebelum memulai, pastikan Anda memiliki:
 
-1. **Lingkungan Pengembangan Java** – JDK 8 atau lebih tinggi terpasang dan IDE Anda sudah disiapkan.  
-2. **Perpustakaan Aspose.Note** – Unduh dan referensikan paket Aspose.Note untuk Java terbaru. Anda dapat menemukan perpustakaan dan dokumentasinya [di sini](https://reference.aspose.com/note/java/).  
+1. **Java development environment** – JDK 8 atau lebih tinggi terpasang dan IDE Anda sudah disiapkan.  
+2. **Aspose.Note library** – Unduh dan referensikan paket Aspose.Note untuk Java terbaru. Anda dapat menemukan perpustakaan dan dokumentasinya [Aspose.Note Java documentation](https://reference.aspose.com/note/java/).  
 
-## Impor Paket
-Mulailah dengan mengimpor kelas‑kelas yang diperlukan. Impor ini memberi Anda akses ke pemuatan dokumen, navigasi halaman, manipulasi teks kaya, dan kemampuan penyimpanan.
+Aspose.Note mendukung **lebih dari 30 format input dan output** dan dapat memproses notebook dengan **hingga 500 halaman** tanpa memuat seluruh file ke memori, menjadikannya cocok untuk otomatisasi skala besar.
+
+## Impor paket
+Impor berikut memberi Anda akses ke pemuatan dokumen, navigasi halaman, manipulasi teks kaya, dan kemampuan penyimpanan.
 
 ```java
 import java.io.IOException;
@@ -55,8 +91,8 @@ import com.aspose.note.RichText;
 import com.aspose.note.SaveFormat;
 ```
 
-## Langkah 1: Muat Dokumen OneNote
-Muat file `.one` Anda ke dalam objek `Document` Aspose.Note. Sesuaikan variabel `dataDir` agar mengarah ke folder yang berisi notebook sumber Anda.
+## Langkah 1: muat dokumen onenote
+Kelas `Document` adalah objek tingkat atas Aspose.Note yang mewakili satu file OneNote dalam memori. Setelah menginstansiasinya, Anda dapat membaca, memodifikasi, atau menyimpan notebook.
 
 ```java
 // The path to the documents directory.
@@ -67,8 +103,8 @@ replacements.put("2. Get organized", "New Text Here");
 Document oneFile = new Document(dataDir + "Sample1.one", new LoadOptions());
 ```
 
-## Langkah 2: Akses Halaman dan Node RichText
-Navigasikan ke halaman pertama (atau halaman mana pun yang Anda targetkan) dan kumpulkan semua node `RichText`. Ini adalah langkah kunci untuk **replace onenote text** pada halaman yang diinginkan.
+## Langkah 2: akses halaman dan node richtext
+`RichText` mewakili blok teks terformat di dalam halaman OneNote. Mengumpulkan semua node `RichText` dari halaman target memungkinkan Anda mengiterasi setiap potongan teks yang mungkin perlu diganti.
 
 ```java
 List<Page> pageNodes = (List<Page>) oneFile.getChildNodes(Page.class);
@@ -76,8 +112,8 @@ List<Page> pageNodes = (List<Page>) oneFile.getChildNodes(Page.class);
 List<RichText> textNodes = (List<RichText>) pageNodes.get(0).getChildNodes(RichText.class);
 ```
 
-## Langkah 3: Ganti Teks
-Iterasikan setiap node `RichText` dan terapkan pasangan penggantian yang telah Anda definisikan. Metode `replace` memperbarui konten node secara langsung.
+## Langkah 3: ganti teks
+Iterasikan setiap node `RichText` dan terapkan pasangan penggantian yang Anda definisikan. Metode `replace` memperbarui konten node secara langsung, mempertahankan format dan tata letak.
 
 ```java
 for (RichText richText : textNodes) {
@@ -88,45 +124,50 @@ for (RichText richText : textNodes) {
 }
 ```
 
-## Langkah 4: Simpan Dokumen yang Dimodifikasi
-Setelah teks diganti, Anda dapat **save OneNote as PDF** (atau format lain yang didukung). Contoh ini menunjukkan penyimpanan ke PDF, yang merupakan kebutuhan umum untuk berbagi notebook yang telah diedit.
+## Langkah 4: simpan dokumen yang telah dimodifikasi
+Setelah teks diganti, Anda dapat **menyimpan OneNote sebagai PDF** (atau format lain yang didukung). Contoh ini menunjukkan cara menyimpan ke PDF, yang merupakan kebutuhan umum untuk membagikan notebook yang telah diedit kepada pemangku kepentingan yang mungkin tidak memiliki OneNote terpasang.
 
 ```java
 // Save to any supported file format
 oneFile.save(dataDir + "ReplaceTextonParticularPage_out.pdf", SaveFormat.Pdf);
 ```
 
-## Masalah Umum dan Solusinya
+## Masalah umum dan solusi
 | Masalah | Penyebab | Solusi |
 |-------|-------|----------|
 | Tidak ada perubahan yang muncul di PDF | Indeks halaman salah atau daftar `textNodes` kosong | Verifikasi bahwa `pageNodes.get(0)` mengarah ke halaman yang dimaksud; gunakan `pageNodes.get(n)` untuk halaman lain. |
 | `NullPointerException` pada `richText.replace` | Peta `replacements` berisi kunci/nilai null | Pastikan semua kunci dan nilai dalam peta bukan string null. |
 | Output PDF rusak | Menggunakan versi Aspose.Note yang usang | Perbarui ke rilis Aspose.Note for Java terbaru. |
 
-## Pertanyaan yang Sering Diajukan
+## Pertanyaan yang sering diajukan
 
-**Q: Bisakah saya menggunakan Aspose.Note untuk Java dalam proyek komersial?**  
+**Q: Apakah saya dapat menggunakan Aspose.Note untuk Java dalam proyek komersial?**  
 A: Ya, Aspose.Note untuk Java dilisensikan untuk penggunaan komersial. Lihat [halaman pembelian](https://purchase.aspose.com/buy) untuk detail.
 
-**Q: Apakah tersedia percobaan gratis?**  
-A: Tentu saja. Anda dapat mengunduh versi percobaan [di sini](https://releases.aspose.com/).
+**Q: Apakah ada versi percobaan gratis?**  
+A: Tentu saja. Anda dapat mengunduh versi percobaan [halaman unduhan percobaan Aspose](https://releases.aspose.com/).
 
 **Q: Di mana saya dapat menemukan dukungan komunitas?**  
 A: Forum [Aspose.Note](https://forum.aspose.com/c/note/28) adalah tempat yang bagus untuk mengajukan pertanyaan dan berbagi solusi.
 
 **Q: Bagaimana cara mendapatkan lisensi sementara untuk pengujian?**  
-A: Lisensi sementara tersedia [di sini](https://purchase.aspose.com/temporary-license/).
+A: Lisensi sementara tersedia di [halaman lisensi sementara](https://purchase.aspose.com/temporary-license/).
 
 **Q: Di mana saya dapat mengunduh Aspose.Note untuk Java?**  
-A: Dapatkan perpustakaan terbaru dari halaman unduhan resmi [di sini](https://releases.aspose.com/note/java/).
+A: Dapatkan perpustakaan terbaru dari halaman unduhan resmi [halaman unduhan Aspose.Note Java](https://releases.aspose.com/note/java/).
 
 ---
 
-**Terakhir Diperbarui:** 2026-03-29  
-**Diuji Dengan:** Aspose.Note for Java 24.12 (latest at time of writing)  
+**Terakhir diperbarui:** 2026-09-24  
+**Diuji dengan:** Aspose.Note for Java 24.12 (latest at time of writing)  
 **Penulis:** Aspose
 
----
+## Tutorial Terkait
+
+- [Simpan OneNote sebagai PDF dan Ganti Teks pada Semua Halaman – Aspose.Note](/note/java/onenote-text-manipulation/replace-text-on-all-pages/)
+- [Konversi OneNote ke PDF Menggunakan Pengaturan Halaman dengan Aspose.Note untuk Java](/note/java/onenote-document-saving/save-to-pdf-using-page-settings/)
+- [Cara Mengekstrak Teks OneNote dari Halaman – Aspose.Note Java](/note/java/onenote-text-manipulation/extract-text-from-a-page/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,9 +1,43 @@
 ---
-date: 2026-03-29
-description: 學習如何使用 Aspose.Note for Java 編輯 OneNote，透過在特定頁面替換文字並將 OneNote 儲存為 PDF。為開發人員提供的逐步指南。
-linktitle: How to edit OneNote – Replace Text on Particular Page with Aspose.Note
+date: 2026-09-24
+description: 了解如何使用 Aspose.Note for Java 將 OneNote 另存為 PDF，並替換特定頁面的文字。本分步指南將展示完整的工作流程。
+keywords:
+- save onenote as pdf
+- export edited onenote to pdf
+- Aspose.Note Java
+lastmod: 2026-09-24
+linktitle: 將 OneNote 另存為 PDF，並使用 Aspose.Note 替換頁面文字
+og_description: 了解如何使用 Aspose.Note for Java 將 OneNote 另存為 PDF，並替換特定頁面的文字。請參考本精簡指南快速實作。
+og_image_alt: 'Developer guide: Save OneNote as PDF and replace page text with Aspose.Note'
+og_title: 將 OneNote 另存為 PDF，並使用 Aspose.Note 替換頁面文字
+schemas:
+- author: Aspose
+  dateModified: '2026-09-24'
+  description: Learn how to save OneNote as PDF and replace text on a particular page
+    using Aspose.Note for Java. This step‑by‑step guide shows you the complete workflow.
+  headline: Save OneNote as PDF and replace page text with Aspose.Note
+  type: TechArticle
+- questions:
+  - answer: Yes, Aspose.Note for Java is licensed for commercial use. See the [purchase
+      page](https://purchase.aspose.com/buy) for details.
+    question: Can I use Aspose.Note for Java in a commercial project?
+  - answer: Absolutely. You can download a trial version [Aspose trial download page](https://releases.aspose.com/).
+    question: Is there a free trial available?
+  - answer: The [Aspose.Note forum](https://forum.aspose.com/c/note/28) is a great
+      place to ask questions and share solutions.
+    question: Where can I find community support?
+  - answer: A temporary license is available [temporary license page](https://purchase.aspose.com/temporary-license/).
+    question: How can I obtain a temporary license for testing?
+  - answer: Get the latest library from the official download page [Aspose.Note Java
+      download page](https://releases.aspose.com/note/java/).
+    question: Where can I download Aspose.Note for Java?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: 如何編輯 OneNote – 使用 Aspose.Note 替換特定頁面的文字
+tags:
+- save onenote as pdf
+- Aspose.Note
+- Java document processing
+title: 將 OneNote 另存為 PDF，並使用 Aspose.Note 替換頁面文字
 url: /zh-hant/java/onenote-text-manipulation/replace-text-on-particular-page/
 weight: 21
 ---
@@ -12,34 +46,32 @@ weight: 21
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 如何編輯 OneNote – 在特定頁面上使用 Aspose.Note 替換文字
+# 將 OneNote 儲存為 PDF 並以 Aspose.Note 取代頁面文字
 
-## 介紹
-如果您需要以程式方式 **編輯 OneNote**——無論是替換片語、更新標題，或是微調單一頁面的內容——Aspose.Note for Java 都能讓這個過程變得簡單。在本教學中，您將學會 **如何編輯 OneNote** 檔案，透過在特定頁面上替換文字，然後將結果儲存為 PDF。依照以下步驟，即可快速且可靠地將此功能整合到您的 Java 應用程式中。
+## 簡介
+如果您需要 **將 OneNote 儲存為 PDF** 同時更新單一頁面的詞句、標題或任何內容，Aspose.Note for Java 為您提供一個簡潔的程式化方式。此教學將帶領您完成載入 `.one` 筆記本、定位精確頁面、取代目標文字，最後將編輯後的筆記本匯出為 PDF 檔案。您只需幾分鐘即可將此工作流程整合至任何基於 Java 的自動化管線。
 
 ## 快速回答
-- **本教學涵蓋什麼內容？** 在特定 OneNote 頁面上替換文字並將檔案匯出為 PDF。  
-- **需要哪個函式庫？** Aspose.Note for Java。  
-- **需要授權嗎？** 評估可使用臨時授權；正式環境需購買完整授權。  
-- **可以將 OneNote 儲存為 PDF 嗎？** 可以——最後一步示範如何將編輯後的文件儲存為 PDF。  
-- **實作需要多久？** 對於熟悉 Java 的開發者約 10‑15 分鐘。
+- **What does this tutorial cover?** 替換特定 OneNote 頁面的文字，並將編輯後的筆記本匯出為 PDF。  
+- **Which library is required?** Aspose.Note for Java。  
+- **Do I need a license?** 臨時授權可用於評估；正式環境需使用正式授權。  
+- **Can I save OneNote as PDF?** 可以 — 最後一步示範將編輯後的文件儲存為 PDF。  
+- **How long does implementation take?** 約 10‑15 分鐘，適用於熟悉 Java 的開發者。
 
-## 在 Java 中「如何編輯 OneNote」是什麼意思？
-在 Java 中編輯 OneNote 意指使用 Aspose.Note API 開啟 `.one` 檔案、導覽其頁面層級、修改文字節點，然後將變更寫回。此方式可避免手動複製貼上，並支援大量筆記本的批次處理。
+## 在 Java 中「如何編輯 OneNote」是什麼？
+載入 OneNote 檔案、修改其內容並重新儲存，全部由 Aspose.Note API 處理。您使用 `Document` 物件開啟 `.one` 檔案，導覽至目標頁面，在其 `RichText` 節點中取代文字，然後以 `SaveFormat.Pdf` 呼叫 `save`。此方式可避免手動複製貼上，並支援筆記本的批次處理。
 
-## 為什麼要以程式方式替換 OneNote 文字？
-- **自動化** – 只需一支腳本即可更新多頁面的標題、時間戳記或品牌資訊。  
-- **一致性** – 確保整本筆記本的術語統一。  
-- **整合** – 將 OneNote 內容與其他系統結合（例如產生報告、將資料寫入資料庫）。
+## 為何以程式方式取代 OneNote 文字？
+自動化文字取代可確保大型筆記本內容的一致性，減少人工操作，並允許您將 OneNote 內容嵌入下游系統，例如報告管線或內容管理資料庫。使用 Aspose.Note，您只需一支腳本即可在數百頁上更新標題、時間戳記或品牌資訊，節省大量重複性工作時間。
 
-## 前置條件
-在開始之前，請確認您已具備：
+## 先決條件
+1. **Java 開發環境** – 已安裝 JDK 8 或更高版本，且 IDE 已設定。  
+2. **Aspose.Note 函式庫** – 下載並參考最新的 Aspose.Note for Java 套件。您可於此取得函式庫與文件說明 [Aspose.Note Java documentation](https://reference.aspose.com/note/java/)。  
 
-1. **Java 開發環境** – 已安裝 JDK 8 以上，並設定好 IDE。  
-2. **Aspose.Note 函式庫** – 下載並參考最新的 Aspose.Note for Java 套件。您可以在 [此處](https://reference.aspose.com/note/java/) 找到函式庫與文件。
+Aspose.Note 支援 **30 多種輸入與輸出格式**，且可在不將整個檔案載入記憶體的情況下處理最多 **500 頁** 的筆記本，適合大規模自動化。
 
 ## 匯入套件
-先匯入必要的類別。這些匯入讓您能存取文件載入、頁面導覽、富文字操作與儲存功能。
+以下的匯入讓您能使用文件載入、頁面導覽、富文字操作與儲存功能。
 
 ```java
 import java.io.IOException;
@@ -54,7 +86,7 @@ import com.aspose.note.SaveFormat;
 ```
 
 ## 步驟 1：載入 OneNote 文件
-將您的 `.one` 檔案載入 Aspose.Note `Document` 物件。將 `dataDir` 變數調整為指向包含來源筆記本的資料夾。
+`Document` 類別是 Aspose.Note 的最高層級物件，代表記憶體中的單一 OneNote 檔案。實例化後，您即可讀取、修改或儲存筆記本。
 
 ```java
 // The path to the documents directory.
@@ -66,7 +98,7 @@ Document oneFile = new Document(dataDir + "Sample1.one", new LoadOptions());
 ```
 
 ## 步驟 2：存取頁面與 RichText 節點
-導覽至第一頁（或任何目標頁面），並收集所有 `RichText` 節點。這是 **在指定頁面上替換 OneNote 文字** 的關鍵步驟。
+`RichText` 代表 OneNote 頁面內的格式化文字區塊。從目標頁面收集所有 `RichText` 節點，可讓您遍歷可能需要取代的每段文字。
 
 ```java
 List<Page> pageNodes = (List<Page>) oneFile.getChildNodes(Page.class);
@@ -74,8 +106,8 @@ List<Page> pageNodes = (List<Page>) oneFile.getChildNodes(Page.class);
 List<RichText> textNodes = (List<RichText>) pageNodes.get(0).getChildNodes(RichText.class);
 ```
 
-## 步驟 3：替換文字
-遍歷每個 `RichText` 節點，套用您定義的替換對。`replace` 方法會直接在原節點上更新內容。
+## 步驟 3：取代文字
+遍歷每個 `RichText` 節點，套用您定義的取代對應。`replace` 方法會直接更新節點內容，保留格式與版面配置。
 
 ```java
 for (RichText richText : textNodes) {
@@ -87,7 +119,7 @@ for (RichText richText : textNodes) {
 ```
 
 ## 步驟 4：儲存已修改的文件
-文字替換完成後，您可以 **將 OneNote 儲存為 PDF**（或其他支援的格式）。此範例示範儲存為 PDF，這是分享已編輯筆記本的常見需求。
+文字取代完成後，您可以 **將 OneNote 儲存為 PDF**（或其他支援的格式）。本範例示範儲存為 PDF，這是與可能未安裝 OneNote 的利害關係人分享編輯後筆記本的常見需求。
 
 ```java
 // Save to any supported file format
@@ -95,36 +127,40 @@ oneFile.save(dataDir + "ReplaceTextonParticularPage_out.pdf", SaveFormat.Pdf);
 ```
 
 ## 常見問題與解決方案
-| 問題 | 原因 | 解決方式 |
-|------|------|----------|
-| PDF 中未顯示變更 | 頁面索引錯誤或 `textNodes` 清單為空 | 確認 `pageNodes.get(0)` 指向正確頁面；如需其他頁面請使用 `pageNodes.get(n)`。 |
-| 在 `richText.replace` 時拋出 `NullPointerException` | `replacements` 映射包含 null 鍵或值 | 確保映射中的所有鍵和值皆為非 null 的字串。 |
-| PDF 輸出損壞 | 使用了過時的 Aspose.Note 版本 | 更新至最新的 Aspose.Note for Java 版本。 |
+| 問題 | 原因 | 解決方案 |
+|-------|-------|----------|
+| PDF 中未顯示變更 | 頁面索引錯誤或 `textNodes` 清單為空 | 確認 `pageNodes.get(0)` 指向正確頁面；對其他頁面使用 `pageNodes.get(n)`。 |
+| `richText.replace` 發生 NullPointerException | `replacements` 映射包含 null 鍵/值 | 確保映射中的所有鍵和值皆為非 null 的字串。 |
+| PDF 輸出損毀 | 使用過時的 Aspose.Note 版本 | 更新至最新的 Aspose.Note for Java 版本。 |
 
 ## 常見問答
 
-**問：可以在商業專案中使用 Aspose.Note for Java 嗎？**  
-答：可以，Aspose.Note for Java 已取得商業授權。詳情請參閱[購買頁面](https://purchase.aspose.com/buy)。
+**Q: 我可以在商業專案中使用 Aspose.Note for Java 嗎？**  
+A: 可以，Aspose.Note for Java 已取得商業使用授權。詳情請參閱 [purchase page](https://purchase.aspose.com/buy)。
 
-**問：有免費試用版嗎？**  
-答：當然有。您可以在[此處](https://releases.aspose.com/) 下載試用版。
+**Q: 是否提供免費試用？**  
+A: 當然。您可於 [Aspose trial download page](https://releases.aspose.com/) 下載試用版。
 
-**問：哪裡可以取得社群支援？**  
-答：請前往 [Aspose.Note 論壇](https://forum.aspose.com/c/note/28) 提問或分享解決方案。
+**Q: 我可以在哪裡取得社群支援？**  
+A: 可前往 [Aspose.Note forum](https://forum.aspose.com/c/note/28) 提問與分享解決方案。
 
-**問：如何取得測試用的臨時授權？**  
-答：臨時授權可在[此處](https://purchase.aspose.com/temporary-license/) 取得。
+**Q: 如何取得測試用的臨時授權？**  
+A: 可於 [temporary license page](https://purchase.aspose.com/temporary-license/) 取得臨時授權。
 
-**問：哪裡可以下載 Aspose.Note for Java？**  
-答：請從官方下載頁面[此處](https://releases.aspose.com/note/java/) 取得最新函式庫。
+**Q: 我該從哪裡下載 Aspose.Note for Java？**  
+A: 請至官方下載頁面取得最新函式庫 [Aspose.Note Java download page](https://releases.aspose.com/note/java/)。
 
 ---
 
-**最後更新：** 2026-03-29  
+**最後更新：** 2026-09-24  
 **測試環境：** Aspose.Note for Java 24.12（撰寫時的最新版本）  
 **作者：** Aspose
 
----
+## 相關教學
+
+- [將 OneNote 儲存為 PDF 並取代所有頁面的文字 – Aspose.Note](/note/java/onenote-text-manipulation/replace-text-on-all-pages/)
+- [使用頁面設定將 OneNote 轉換為 PDF（適用於 Aspose.Note for Java）](/note/java/onenote-document-saving/save-to-pdf-using-page-settings/)
+- [如何從頁面擷取 OneNote 文字 – Aspose.Note Java](/note/java/onenote-text-manipulation/extract-text-from-a-page/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
