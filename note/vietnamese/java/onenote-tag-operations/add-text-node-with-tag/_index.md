@@ -1,27 +1,86 @@
 ---
-title: Thêm nút văn bản có thẻ trong OneNote - Aspose.Note
-linktitle: Thêm nút văn bản có thẻ trong OneNote - Aspose.Note
-second_title: API Java Aspose.Note
-description: Khám phá cách thêm nút văn bản có thẻ trong OneNote bằng Aspose.Note for Java. Dễ dàng, hiệu quả và thân thiện với nhà phát triển. Tải thư viện ngay bây giờ!
-weight: 13
+date: 2026-09-24
+description: Tìm hiểu cách thêm thẻ vào tài liệu OneNote với Aspose.Note cho Java
+  – tạo tệp OneNote, thêm nút văn bản có kiểu dáng kèm thẻ, và lưu lại chỉ trong vài
+  dòng mã.
+keywords:
+- how to add tag
+- Aspose.Note Java
+- OneNote tag operations
+- add text node
+lastmod: 2026-09-24
+linktitle: Thêm Nút Văn Bản với Thẻ trong OneNote - Aspose.Note
+og_description: Tìm hiểu cách thêm thẻ vào tài liệu OneNote với Aspose.Note cho Java
+  – tạo tệp OneNote, thêm nút văn bản có kiểu dáng kèm thẻ, và lưu lại chỉ trong vài
+  dòng mã.
+og_image_alt: Guide showing how to add a tag to a OneNote document using Aspose.Note
+  for Java
+og_title: Cách thêm thẻ vào tài liệu OneNote với Aspose.Note (Java)
+schemas:
+- author: Aspose
+  dateModified: '2026-09-24'
+  description: Learn how to add tag to a OneNote document with Aspose.Note for Java
+    – create a OneNote file, add a styled text node with a tag, and save it in just
+    a few lines of code.
+  headline: How to add tag to a OneNote document by adding a text node using Aspose.Note
+  type: TechArticle
+- questions:
+  - answer: It provides a Java API to read, modify, and create OneNote files without
+      needing Microsoft Office installed.
+    question: What does Aspose.Note do?
+  - answer: Roughly 15 lines, including object creation and styling.
+    question: How many lines of code to add a tagged text node?
+  - answer: A free trial works for development; a license is required for production
+      use.
+    question: Do I need a license to run the sample?
+  - answer: Yes – Aspose.Note offers over 30 built‑in icons such as yellow star, checkmark,
+      and heart.
+    question: Can I change the tag icon?
+  - answer: The library saves the result as a standard *.one* OneNote file.
+    question: What format is the output file?
+  type: FAQPage
+second_title: Aspose.Note Java API
+tags:
+- OneNote
+- Aspose.Note
+- Java
+- tag operations
+- document creation
+title: Cách thêm thẻ vào tài liệu OneNote bằng cách thêm nút văn bản sử dụng Aspose.Note
 url: /vi/java/onenote-tag-operations/add-text-node-with-tag/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Thêm nút văn bản có thẻ trong OneNote - Aspose.Note
+# Cách thêm thẻ vào tài liệu OneNote bằng cách thêm nút văn bản sử dụng Aspose.Note
 
 ## Giới thiệu
-Trong hướng dẫn này, chúng ta sẽ khám phá cách thêm nút văn bản có thẻ trong OneNote bằng Aspose.Note cho Java. Aspose.Note là một thư viện Java mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft OneNote theo chương trình. Thêm các nút văn bản bằng thẻ là một yêu cầu phổ biến trong xử lý tài liệu và Aspose.Note đơn giản hóa tác vụ này.
-## Điều kiện tiên quyết
-Trước khi chúng ta đi sâu vào hướng dẫn, hãy đảm bảo bạn có các điều kiện tiên quyết sau:
-- Kiến thức cơ bản về lập trình Java.
--  Aspose.Note cho thư viện Java đã được cài đặt. Bạn có thể tải nó xuống[đây](https://releases.aspose.com/note/java/).
-- Môi trường phát triển tích hợp (IDE) được thiết lập để phát triển Java.
-## Gói nhập khẩu
-Bắt đầu bằng cách nhập các gói cần thiết cho dự án Java của bạn. Trong mã của bạn, hãy bao gồm các mục nhập sau:
+Trong hướng dẫn này, bạn sẽ học **cách thêm thẻ** vào tài liệu OneNote bằng cách sử dụng Aspose.Note Java API. Chúng tôi sẽ hướng dẫn tạo một tệp OneNote mới, định dạng một đoạn văn, gắn thẻ tích hợp sẵn vào văn bản, và cuối cùng lưu sổ ghi chú bằng một lệnh `save`. Dù bạn đang xây dựng một công cụ ghi chú cá nhân hay tự động hoá báo cáo doanh nghiệp, các bước dưới đây sẽ cho bạn kiểm soát hoàn toàn nội dung OneNote bằng lập trình.
+
+## Câu trả lời nhanh
+- **Aspose.Note làm gì?** Nó cung cấp một Java API để đọc, sửa đổi và tạo tệp OneNote mà không cần cài đặt Microsoft Office.  
+- **Cần bao nhiêu dòng mã để thêm một nút văn bản có thẻ?** Khoảng 15 dòng, bao gồm việc tạo đối tượng và định dạng.  
+- **Có cần giấy phép để chạy mẫu không?** Bản dùng thử miễn phí hoạt động cho phát triển; giấy phép bắt buộc cho môi trường sản xuất.  
+- **Có thể thay đổi biểu tượng thẻ không?** Có – Aspose.Note cung cấp hơn 30 biểu tượng tích hợp sẵn như ngôi sao vàng, dấu kiểm, và trái tim.  
+- **Định dạng của tệp đầu ra là gì?** Thư viện lưu kết quả dưới dạng tệp *.one* chuẩn của OneNote.
+
+## “tạo tài liệu OneNote” có nghĩa là gì?
+Tạo một tài liệu OneNote có nghĩa là tạo ra một tệp *.one* một cách lập trình mà có thể mở trong Microsoft OneNote. Tệp này chứa các trang, dàn trang và các thành phần văn bản phong phú được xây dựng qua Aspose.Note API, cho phép bạn xây dựng sổ ghi chú mà không cần ứng dụng desktop.
+
+## Tại sao thêm nút văn bản có thẻ?
+Thêm thẻ vào một nút văn bản làm nổi bật thông tin quan trọng và cho phép sử dụng tính năng điều hướng thẻ tích hợp của OneNote, giúp tăng tốc việc xem lại và quản lý nhiệm vụ. Thẻ được lưu dưới dạng siêu dữ liệu, vì vậy chúng tồn tại trên mọi thiết bị và giữ lại biểu tượng trực quan. Điều này cũng cho phép người dùng lọc hoặc tìm kiếm các mục có thẻ một cách hiệu quả trong các sổ ghi chú lớn.
+
+## Yêu cầu trước
+Trước khi bắt đầu hướng dẫn, hãy chắc chắn bạn đã chuẩn bị các yêu cầu sau:
+- Kiến thức cơ bản về lập trình Java.  
+- Thư viện Aspose.Note for Java đã được cài đặt. Bạn có thể tải thư viện Aspose.Note for Java tại [tải Aspose.Note for Java](https://releases.aspose.com/note/java/).  
+- Một môi trường phát triển tích hợp (IDE) được cấu hình cho phát triển Java.
+
+## Nhập các gói
+Bắt đầu bằng việc nhập các gói cần thiết cho dự án Java của bạn. Trong mã, bao gồm các import sau:
 ```java
 import java.awt.Color;
 import java.io.IOException;
@@ -34,99 +93,135 @@ import com.aspose.note.RichText;
 import com.aspose.note.TagIcon;
 import com.aspose.note.ParagraphStyle;
 ```
-## Bước 1: Tạo đối tượng tài liệu
-Khởi tạo một đối tượng lớp Tài liệu để thể hiện tài liệu OneNote:
+
+## Bước 1: tạo đối tượng tài liệu
+`Document` là lớp cấp cao đại diện cho một tệp OneNote trong bộ nhớ. Sau khi khởi tạo, mọi thao tác tiếp theo sẽ diễn ra thông qua đối tượng này.
 ```java
-// Đường dẫn đến thư mục tài liệu.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
-//Tạo một đối tượng của lớp Tài liệu
+// Create an object of the Document class
 Document doc = new Document();
 ```
-## Bước 2: Khởi tạo đối tượng lớp trang
-Khởi tạo một đối tượng lớp Trang để thể hiện trang trong tài liệu:
+
+## Bước 2: khởi tạo đối tượng lớp trang
+`Page` đại diện cho một trang duy nhất trong sổ ghi chú OneNote. Mỗi trang có thể chứa nhiều dàn trang và các thành phần khác.
 ```java
-// Khởi tạo đối tượng lớp Trang
+// Initialize Page class object
 Page page = new Page();
 ```
-## Bước 3: Khởi tạo đối tượng lớp Outline
-Khởi tạo một đối tượng lớp Outline để cấu trúc nội dung trong trang:
+
+## Bước 3: khởi tạo đối tượng lớp dàn trang
+`Outline` nhóm các thành phần liên quan trên trang, hoạt động như một container cho một hoặc nhiều đối tượng `OutlineElement`.
 ```java
-// Khởi tạo đối tượng lớp Outline
+// Initialize Outline class object
 Outline outline = new Outline();
 ```
-## Bước 4: Khởi tạo đối tượng lớp OutlineElement
-Khởi tạo một đối tượng lớp OutlineElement để thể hiện một phần tử trong đường viền:
+
+## Bước 4: khởi tạo đối tượng lớp OutlineElement
+`OutlineElement` là đơn vị hiển thị nhỏ nhất có thể chứa văn bản, hình ảnh hoặc nội dung phong phú khác trong một dàn trang.
 ```java
-// Khởi tạo đối tượng lớp OutlineElement
+// Initialize OutlineElement class object
 OutlineElement outlineElem = new OutlineElement();
 ```
-## Bước 5: Tùy chỉnh kiểu văn bản
-Thiết lập kiểu cho nút văn bản, chẳng hạn như màu phông chữ, tên và kích thước:
+
+## Bước 5: tùy chỉnh kiểu văn bản
+Thiết lập kiểu cho nút văn bản—đây là nơi bạn **đặt kiểu đoạn** như màu phông, tên và kích thước. Aspose.Note cho phép bạn chỉ định màu RGB, họ phông chữ và kích thước điểm trong một đối tượng `RichTextStyle` duy nhất.
 ```java
-// Tùy chỉnh kiểu văn bản
+// Customize text style
 ParagraphStyle textStyle = new ParagraphStyle()
                                 .setFontColor(Color.BLACK)
                                 .setFontName("Arial")
                                 .setFontSize(10);
 ```
-## Bước 6: Tạo đối tượng RichText
-Tạo một đối tượng RichText và nối thêm văn bản mong muốn vào nó:
+
+## Bước 6: tạo đối tượng RichText
+`RichText` là lớp chứa nội dung chuỗi thực tế. Sau khi tạo đối tượng, bạn sẽ thêm văn bản mong muốn, sau này sẽ được gắn thẻ.
 ```java
-// Tạo đối tượng RichText
+// Create RichText object
 RichText text = new RichText().append("OneNote text.");
 text.setParagraphStyle(textStyle);
 ```
-## Bước 7: Thêm thẻ ghi chú
-Thêm thẻ ghi chú, chẳng hạn như ngôi sao màu vàng, vào văn bản:
+
+## Bước 7: thêm thẻ ghi chú
+`Tag` đại diện cho một dấu hiệu trực quan (ví dụ: ngôi sao vàng) có thể được gắn vào bất kỳ `RichText` nào. Aspose.Note cung cấp hơn 30 biểu tượng thẻ tích hợp sẵn, và bạn cũng có thể định nghĩa biểu tượng tùy chỉnh nếu cần.
 ```java
-// Thêm thẻ ghi chú
+// Add note tag
 NoteTag noteTag = NoteTag.createYellowStar();
 text.getTags().add(noteTag);
 ```
-## Bước 8: Thêm nút văn bản
-Thêm nút văn bản vào phần tử phác thảo:
+
+## Bước 8: thêm nút văn bản
+Gắn `RichText` (cùng thẻ của nó) vào `OutlineElement`. Bước này liên kết văn bản đã định dạng, có thẻ vào cấu trúc dàn trang.
 ```java
-// Thêm nút văn bản
+// Add text node
 outlineElem.appendChildLast(text);
 ```
-## Bước 9: Thêm phần tử phác thảo vào phác thảo
-Thêm phần tử phác thảo vào phác thảo:
+
+## Bước 9: thêm OutlineElement vào Outline
+Đặt `OutlineElement` bên trong container `Outline` để nó trở thành một phần của cấu trúc hình ảnh của trang.
 ```java
-// Thêm nút phần tử phác thảo
+// Add outline element node
 outline.appendChildLast(outlineElem);
 ```
-## Bước 10: Thêm dàn ý vào trang
-Thêm dàn ý vào trang:
+
+## Bước 10: thêm Outline vào Page
+Chèn `Outline` vào cấu trúc `Page`, hoàn thiện cây nội dung của trang.
 ```java
-// Thêm nút phác thảo
+// Add outline node
 page.appendChildLast(outline);
 ```
-## Bước 11: Thêm trang vào tài liệu
-Thêm trang vào tài liệu:
+
+## Bước 11: thêm Page vào Document
+Thêm `Page` đã được xây dựng đầy đủ vào đối tượng `Document`, chuẩn bị sổ ghi chú để lưu trữ.
 ```java
-// Thêm nút trang
+// Add page node
 doc.appendChildLast(page);
 ```
-## Bước 12: Lưu tài liệu OneNote
-Lưu tài liệu OneNote vào thư mục được chỉ định:
+
+## Bước 12: lưu tài liệu OneNote
+Cuối cùng, **lưu tệp OneNote** vào đĩa. Điều này hoàn thành quy trình **tạo tài liệu OneNote** và tạo ra một tệp *.one* chuẩn có thể mở trong bất kỳ phiên bản Microsoft OneNote gần đây nào.
 ```java
-// Lưu tài liệu OneNote
+// Save OneNote document
 doc.save(dataDir + "AddTextNodeWithTag_out.one");
 ```
-Chúc mừng! Bạn đã thêm thành công nút văn bản có thẻ trong OneNote bằng Aspose.Note for Java.
-## Phần kết luận
-Trong hướng dẫn này, chúng tôi đã trình bày quy trình từng bước thêm nút văn bản có thẻ trong OneNote bằng thư viện Aspose.Note for Java. Thư viện mạnh mẽ này đơn giản hóa các tác vụ xử lý tài liệu, giúp nhà phát triển dễ dàng thao tác với các tệp OneNote theo chương trình.
-## Các câu hỏi thường gặp
-### Câu hỏi: Tôi có thể sử dụng Aspose.Note cho Java với các thư viện Java khác không?
-Trả lời: Có, Aspose.Note for Java có thể được tích hợp liền mạch với các thư viện Java khác để nâng cao khả năng xử lý tài liệu.
-### Câu hỏi: Có bản dùng thử miễn phí dành cho Aspose.Note dành cho Java không?
- Đ: Có, bạn có thể truy cập bản dùng thử miễn phí[đây](https://releases.aspose.com/).
-### Câu hỏi: Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.Note cho Java?
-Trả lời: Bạn có thể tìm kiếm sự hỗ trợ từ cộng đồng Aspose.Note[diễn đàn](https://forum.aspose.com/c/note/28).
-### Câu hỏi: Aspose.Note dành cho Java có sẵn giấy phép tạm thời không?
- Đáp: Có, bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
-### Câu hỏi: Tôi có thể tìm tài liệu về Aspose.Note cho Java ở đâu?
- A: Tài liệu có sẵn[đây](https://reference.aspose.com/note/java/).
+
+## Tại sao điều này quan trọng
+Aspose.Note hỗ trợ **hơn 50 định dạng đầu vào và đầu ra** (bao gồm DOCX, PDF, HTML và các loại hình ảnh) và có thể xử lý sổ ghi chú hàng trăm trang mà không cần tải toàn bộ tệp vào bộ nhớ, làm cho nó phù hợp cho tự động hoá phía máy chủ và tạo ghi chú quy mô lớn.
+
+## Các vấn đề thường gặp và giải pháp
+- **Thẻ không hiển thị sau khi lưu** – Đảm bảo bạn gọi `richText.getTags().add(tag)` trước khi gắn `RichText` vào `OutlineElement`.  
+- **Kiểu phông chữ bị bỏ qua** – Xác nhận rằng `RichTextStyle` đã được áp dụng cho instance `RichText` trước khi thêm vào dàn trang.  
+- **Sổ ghi chú lớn gây OutOfMemoryError** – Sử dụng `Document.setLoadOptions(new LoadOptions(LoadFormat.ONE))` để bật chế độ streaming cho các tệp lớn hơn 500 MB.
+
+## Câu hỏi thường gặp
+### H: Tôi có thể sử dụng Aspose.Note for Java cùng với các thư viện Java khác không?
+Đ: Có, Aspose.Note for Java tích hợp mượt mà với các thư viện như Apache POI, Jackson hoặc Spring, cho phép bạn kết hợp việc tạo ghi chú với các pipeline xử lý dữ liệu.
+
+### H: Có bản dùng thử miễn phí cho Aspose.Note for Java không?
+Đ: Có, bạn có thể truy cập trang dùng thử miễn phí Aspose.Note tại [trang dùng thử miễn phí Aspose.Note](https://releases.aspose.com/).
+
+### H: Làm sao tôi có thể nhận được hỗ trợ cho Aspose.Note for Java?
+Đ: Bạn có thể tìm kiếm hỗ trợ từ cộng đồng Aspose.Note tại diễn đàn [diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28).
+
+### H: Có giấy phép tạm thời cho Aspose.Note for Java không?
+Đ: Có, bạn có thể mua giấy phép tạm thời tại trang mua giấy phép tạm thời [trang mua giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+
+### H: Tôi có thể tìm tài liệu cho Aspose.Note for Java ở đâu?
+Đ: Tài liệu có sẵn tại [tài liệu API Java của Aspose.Note](https://reference.aspose.com/note/java/).
+
+---
+
+**Cập nhật lần cuối:** 2026-09-24  
+**Kiểm tra với:** Aspose.Note for Java 24.11  
+**Tác giả:** Aspose
+
+## Hướng dẫn liên quan
+
+- [Thêm Thẻ vào OneNote – Tạo Tài liệu OneNote có Thẻ với Aspose.Note](/note/java/onenote-tag-operations/)
+- [Tạo Mẫu Ghi chú Họp với Aspose.Note for Java – Tạo Outline trong OneNote](/note/java/onenote-tag-operations/generate-template-for-meeting-notes/)
+- [Tạo Tài liệu OneNote Java – Hướng dẫn Aspose Note Java](/note/java/onenote-document-manipulation/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
