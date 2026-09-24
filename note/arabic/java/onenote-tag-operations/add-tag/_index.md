@@ -1,10 +1,48 @@
 ---
-date: 2026-01-28
-description: تعرّف على كيفية إنشاء مخطط في OneNote، وإضافة علامة إلى OneNote، وتوليد
-  ملف PDF من OneNote باستخدام Aspose.Note للـ Java.
-linktitle: Create Outline in OneNote and Add Tag – Aspose.Note
+date: 2026-09-24
+description: تعلم كيفية إضافة علامة onenote، وإنشاء مخطط في OneNote، وتصدير OneNote
+  إلى PDF باستخدام Aspose.Note للغة Java.
+keywords:
+- add tag onenote
+- how to add tag
+- how to create outline
+- export onenote pdf
+- java convert onenote pdf
+lastmod: 2026-09-24
+linktitle: كيفية إضافة علامة onenote وإنشاء مخطط في OneNote
+og_description: أضف علامة onenote وأنشئ مخططًا في OneNote باستخدام Aspose.Note للغة
+  Java، ثم صدّر دفتر الملاحظات إلى PDF. اتبع التعليمات البرمجية خطوة بخطوة وأفضل الممارسات.
+og_image_alt: Screenshot showing OneNote outline with tags created via Aspose.Note
+  Java API
+og_title: إضافة علامة onenote وإنشاء مخطط في OneNote – دليل Aspose.Note
+schemas:
+- author: Aspose
+  dateModified: '2026-09-24'
+  description: Learn how to add tag onenote, create outline in OneNote, and export
+    OneNote to PDF using Aspose.Note for Java.
+  headline: How to add tag onenote and create outline in OneNote
+  type: TechArticle
+- questions:
+  - answer: Aspose.Note primarily targets Java, but equivalent libraries exist for
+      .NET and other platforms.
+    question: Can I use Aspose.Note for Java with other programming languages?
+  - answer: Yes—its API is well‑documented, and the step‑by‑step approach in this
+      guide is friendly for developers of any skill level.
+    question: Is Aspose.Note suitable for beginners?
+  - answer: You can get a temporary license from the **[temporary license page](https://purchase.aspose.com/temporary-license/)**.
+    question: How do I obtain a temporary license for Aspose.Note for Java?
+  - answer: Visit the **[Aspose.Note forum](https://forum.aspose.com/c/note/28)**
+      for community help and official assistance.
+    question: Where can I find additional support?
+  - answer: Yes—download a trial version from the **[Aspose releases page](https://releases.aspose.com/)**.
+    question: Is a free trial available?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: إنشاء مخطط في OneNote وإضافة علامة – Aspose.Note
+tags:
+- onenote tagging
+- Aspose.Note
+- Java note processing
+title: كيفية إضافة علامة onenote وإنشاء مخطط في OneNote
 url: /ar/java/onenote-tag-operations/add-tag/
 weight: 12
 ---
@@ -13,32 +51,35 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# إنشاء مخطط في OneNote وإضافة علامة – Aspose.Note
+# كيفية إضافة علامة إلى OneNote وإنشاء مخطط في OneNote
 
-## مقدمة
-هل تبحث عن **إنشاء مخطط في OneNote** وتعزيز التعاون باستخدام العلامات مع Java؟ تجعل Aspose.Note for Java من السهل إضافة العلامات، هيكلة ملاحظاتك، وحتى **إنشاء PDF من ملفات OneNote**. في هذا الدرس سنستعرض كل خطوة، نشرح *لماذا* كل جزء مهم، ونظهر لك كيفية إنتاج ملف PDF مصقول في النهاية.
+## المقدمة
+في هذا الدرس ستتعلم كيفية **add tag onenote** وبناء مخطط منظم داخل دفتر ملاحظات OneNote باستخدام Aspose.Note for Java. سنستعرض كل خطوة، نشرح لماذا كل استدعاء API مهم، وننتهي بـ **exporting the notebook to PDF** حتى تتمكن من مشاركة مستند مصقول وقابل للبحث مع زملائك.
 
 ## إجابات سريعة
-- **ماذا يعني “إنشاء مخطط في OneNote”؟** إنه يبني هيكلًا هرميًا (مخططات) ينظم المحتوى مثل العناوين والأقسام الفرعية.  
-- **أي مكتبة تضيف علامات إلى OneNote؟** توفر Aspose.Note for Java الفئة `NoteTag` للعلامات البصرية.  
-- **هل يمكنني تصدير النتيجة إلى PDF؟** نعم – استخدم `SaveFormat.Pdf` **لإنشاء PDF من OneNote**.  
-- **هل أحتاج إلى ترخيص للإنتاج؟** يتوفر ترخيص مؤقت للاختبار؛ يلزم ترخيص كامل للاستخدام التجاري.  
-- **ما هي المتطلبات الأساسية؟** تثبيت JDK، مكتبة Aspose.Note for Java، ومعرفة أساسية بـ Java.
+- **What does “create outline in OneNote” mean?** يبني شجرة هرمية من العناوين والأقسام الفرعية التي يمكنك توسيعها أو طيها.  
+- **Which class adds tags to OneNote?** استخدم الفئة `NoteTag` من Aspose.Note for Java.  
+- **Can I export the result to PDF?** نعم – استدعِ `doc.save("output.pdf", SaveFormat.Pdf)`.  
+- **Do I need a license for production?** تتوفر رخصة مؤقتة للاختبار؛ يلزم الحصول على رخصة كاملة للاستخدام التجاري.  
+- **What are the main prerequisites?** تثبيت JDK، مكتبة Aspose.Note for Java، ومعرفة أساسية بلغة Java.
 
-## ما هو “إنشاء مخطط في OneNote”؟
-إنشاء مخطط في OneNote يعني إضافة كائنات `Outline` و `OutlineElement` التي تُعرّف هيكلًا شجريًا لملاحظاتك. تسمح لك هذه الهرمية بطي وتوسيع وتنظيم المعلومات كما هو الحال مع العناوين في المستند.
+## ما هو “create outline in OneNote”؟
+إنشاء مخطط في OneNote يعني إضافة كائنات `Outline` و `OutlineElement` التي تعرف بنية شجرية لملاحظاتك. تسمح لك هذه الهرمية بطي وتوسيع المعلومات وتنظيمها مثل العناوين في المستند. كما تدعم التنقل البرمجي وتتيح تصدير الهيكل إلى صيغ مثل PDF حيث يمكن تحويل كل مستوى إلى إشارة مرجعية.
 
 ## لماذا إضافة علامة إلى OneNote؟
-تُعطي العلامات مثل النجوم، العلامات الصح، أو الأيقونات المخصصة للقراء إشارات بصرية، تحسن قابلية البحث، وتساعد الفرق على إعطاء الأولوية للعناصر. باستخدام Aspose.Note يمكنك إرفاق `NoteTag` برمجيًا إلى أي قطعة نصية.
+إضافة علامة إلى OneNote تمنحك مؤشرًا بصريًا—مثل نجمة أو علامة تحقق أو أيقونة مخصصة—تلفت الانتباه فورًا، تحسن قابلية البحث، وتساعد الفرق على إعطاء الأولوية للمهام. باستخدام Aspose.Note يمكنك إرفاق `NoteTag` برمجيًا بأي قطعة نصية، مما يضمن الاتساق عبر الصفحات المتعددة.
+
+## الفوائد الكمية لـ Aspose.Note
+يدعم Aspose.Note **أكثر من 30 تنسيقًا للإدخال والإخراج** (بما في ذلك DOCX، PDF، HTML، وأنواع الصور) ويمكنه معالجة دفاتر ملاحظات تصل إلى **500 صفحة** دون تحميل الملف بالكامل إلى الذاكرة، مما يوفر تحويلات عالية الأداء على خوادم عادية.
 
 ## المتطلبات المسبقة
-قبل البدء، تأكد من أنك تمتلك:
-- مجموعة تطوير Java (JDK) مثبتة.
-- مكتبة Aspose.Note for Java تم تنزيلها. يمكنك الحصول عليها [هنا](https://releases.aspose.com/note/java/).
-- فهم أساسي لبرمجة Java.
+- مجموعة تطوير جافا (JDK) 8 أو أحدث.  
+- مكتبة Aspose.Note for Java – قم بتحميلها من **[Aspose.Note for Java download page](https://releases.aspose.com/note/java/)**.  
+- إلمام أساسي بصياغة Java وإعداد مشروع Maven/Gradle.
 
 ## استيراد الحزم
-تأكد من استيراد الحزم الضرورية لبدء مشروعك:
+توجد الفئات `Document`، `Page`، `Outline`، `OutlineElement`، `RichText`، و `NoteTag` في مساحة الاسم `com.aspose.note`. استوردها في أعلى ملف Java الخاص بك:
+
 ```java
 import java.awt.Color;
 import java.io.IOException;
@@ -52,26 +93,32 @@ import com.aspose.note.SaveFormat;
 import com.aspose.note.TagIcon;
 import com.aspose.note.ParagraphStyle;
 ```
-دعنا نقسم الشيفرة أعلاه إلى دليل خطوة بخطوة.
+
+دعنا نفصل خطوة الاستيراد خطوة بخطوة.
 
 ## الخطوة 1: إعداد المستند والصفحة
-ابدأ بإنشاء كائن `Document` جديد وتهيئة كائن `Page`:
+`Document` يمثل دفتر OneNote بالكامل في الذاكرة، بينما `Page` هي لوحة واحدة داخل الدفتر.  
+
 ```java
 String dataDir = "Your Document Directory";
 Document doc = new Document();
 Page page = new Page();
 ```
-هنا، نحدد المسار إلى دليل المستندات، ننشئ `Document` جديدًا، ونهيئ `Page`.
+
+تمثل الفئة `Document` الملف الكامل لـ OneNote في الذاكرة، بينما كائن `Page` هو اللوحة التي تُوضع عليها المخططات والعلامات.
 
 ## الخطوة 2: إنشاء مخطط
-بعد ذلك، أنشئ كائن `Outline` لتنسيق المحتوى الخاص بك:
+`Outline` هو حاوية تحتفظ بهرمية من كائنات `OutlineElement`، مكوّنةً شجرة هيكلية للدفتر.  
+
 ```java
 Outline outline = new Outline();
 ```
-توفر المخططات هيكلًا هرميًا لمستندك، مما يجعل من السهل **إنشاء مخطط في OneNote** والحفاظ على تنظيم المعلومات.
 
-## الخطوة 3: تهيئة OutlineElement و ParagraphStyle
-الآن، قم بتهيئة `OutlineElement` وتعيين `ParagraphStyle` لتنسيق النص:
+توفر المخططات العمود الفقري الهيكلي الذي يتيح لك **create outline in OneNote** والحفاظ على تنظيم المعلومات.
+
+## الخطوة 3: تهيئة عنصر المخطط ونمط الفقرة
+`OutlineElement` يمثل عقدة فردية (عنوان) في المخطط، و`ParagraphStyle` يحدد الخط والحجم والمسافة البادئة.  
+
 ```java
 OutlineElement outlineElem = new OutlineElement();
 ParagraphStyle textStyle = new ParagraphStyle()
@@ -79,73 +126,83 @@ ParagraphStyle textStyle = new ParagraphStyle()
                                 .setFontName("Arial")
                                 .setFontSize(10);
 ```
-`OutlineElement` يمثل عنصرًا داخل المخطط، و`ParagraphStyle` يحدد خصائص تنسيق النص.
 
-## الخطوة 4: إضافة RichText مع NoteTag
-أنشئ كائن `RichText`، أضف نص OneNote الخاص بك، وأضف `NoteTag`:
+يمثل `OutlineElement` عقدة واحدة (عنوان) داخل المخطط، بينما يتحكم `ParagraphStyle` في الخط والحجم والمسافة البادئة.
+
+## الخطوة 4: إضافة نص غني مع علامة الملاحظة
+`RichText` يخزن محتوى النص الفعلي، و`NoteTag` يرفق علامة بصرية (أيقونة) بهذا النص.  
+
 ```java
 RichText text = new RichText().append("OneNote text.");
 text.setParagraphStyle(textStyle);
 NoteTag noteTag = NoteTag.createYellowStar();
 text.getTags().add(noteTag);
 ```
-`RichText` يتيح لك دمج نص منسق، و`NoteTag` **يضيف علامة إلى OneNote** كإشارة بصرية.
+
+يحمل `RichText` النص الفعلي، بينما **adds tag to OneNote** عبر `NoteTag` كإشارة بصرية بجانب النص.
 
 ## الخطوة 5: بناء هيكل المخطط
-أضف عقدة النص، عقدة عنصر المخطط، وعقدة المخطط لبناء هيكل المستند:
+أضف عقدة `RichText` إلى `OutlineElement`، ثم أضف العنصر إلى `Outline`، وأخيرًا اربط المخطط بالصفحة.  
+
 ```java
 outlineElem.appendChildLast(text);
 outline.appendChildLast(outlineElem);
 page.appendChildLast(outline);
 doc.appendChildLast(page);
 ```
-تضمن هذه الخطوة تنظيم محتواك داخل المستند، مكملة عملية **إنشاء مخطط في OneNote**.
 
-## الخطوة 6: حفظ المستند
-احفظ المستند بصيغة PDF، والتي **تنشئ PDF من OneNote**:
+تُكمل هذه الخطوة التخطيط الهرمي، مُنهية سير عمل **create outline in OneNote**.
+
+## الخطوة 6: حفظ المستند كملف PDF
+`SaveFormat.Pdf` يُخبر Aspose.Note بكتابة الدفتر كملف PDF.  
+
 ```java
 doc.save(dataDir + "AddTag_out.pdf", SaveFormat.Pdf);
 System.out.printf("File Saved: %s\n", dataDir + "AddTag_out.pdf");
 ```
-الآن، تم حفظ مستند OneNote الخاص بك مع العلامات المضافة كملف PDF.
 
-باتباع هذه الخطوات، يمكنك تحسين مستندات OneNote بسهولة باستخدام Aspose.Note for Java.
+يحافظ ملف PDF الناتج على هيكل المخطط والعلامات البصرية، مما يجعله قابلًا للبحث والطباعة.
 
-## الخاتمة
-في هذا الدرس استكشفنا كيفية **إنشاء مخطط في OneNote**، إضافة علامة إلى OneNote، ثم **إنشاء PDF من OneNote** باستخدام Aspose.Note for Java. يمنحك استخدام Java تحكمًا كاملاً في هيكل الملاحظة، العلامات البصرية، وخيارات التصدير، مما يجعل ملاحظاتك أكثر تنظيمًا وقابلية للمشاركة.
+## مشكلات شائعة واستكشاف الأخطاء وإصلاحها
+- **Tag not appearing:** تأكد من إضافة `NoteTag` إلى كائن `RichText` *قبل* ربط النص بعنصر المخطط.  
+- **Outline not collapsible in PDF:** لا تدعم عارضات PDF المخطط التفاعلي في OneNote؛ تُحفظ الهرمية كإشارات مرجعية بدلاً من ذلك.  
+- **Large notebooks cause memory pressure:** استخدم `Document.saveOptions.setLoadOnDemand(true)` لمعالجة الصفحات بشكل كسول.
 
 ## الأسئلة المتكررة
-### 1. هل يمكنني استخدام Aspose.Note for Java مع لغات برمجة أخرى؟
-يدعم Aspose.Note أساسًا Java، ولكن هناك إصدارات متاحة أيضًا لـ .NET.
 
-### 2. هل Aspose.Note for Java مناسب للمبتدئين؟
-نعم، يوفر Aspose.Note for Java وثائق شاملة ودعمًا، مما يجعله متاحًا للمبتدئين والمطورين ذوي الخبرة على حد سواء.
+**س: هل يمكنني استخدام Aspose.Note for Java مع لغات برمجة أخرى؟**  
+ج: يستهدف Aspose.Note أساسًا Java، لكن توجد مكتبات مكافئة لـ .NET ومنصات أخرى.
 
-### 3. كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Note for Java؟
-يمكنك الحصول على ترخيص مؤقت [هنا](https://purchase.aspose.com/temporary-license/).
+**س: هل Aspose.Note مناسب للمبتدئين؟**  
+ج: نعم—API الخاص به موثّق جيدًا، والنهج خطوة بخطوة في هذا الدليل مناسب للمطورين من جميع المستويات.
 
-### 4. أين يمكنني العثور على دعم إضافي؟
-لأي استفسارات أو مساعدة، زر [منتدى Aspose.Note](https://forum.aspose.com/c/note/28).
+**س: كيف أحصل على رخصة مؤقتة لـ Aspose.Note for Java؟**  
+ج: يمكنك الحصول على رخصة مؤقتة من **[temporary license page](https://purchase.aspose.com/temporary-license/)**.
 
-### 5. هل هناك نسخة تجريبية مجانية متاحة؟
-نعم، يمكنك تجربة نسخة تجريبية مجانية [هنا](https://releases.aspose.com/).
+**س: أين يمكنني العثور على دعم إضافي؟**  
+ج: زر **[Aspose.Note forum](https://forum.aspose.com/c/note/28)** للحصول على مساعدة المجتمع والدعم الرسمي.
+
+**س: هل تتوفر نسخة تجريبية مجانية؟**  
+ج: نعم—قم بتحميل نسخة تجريبية من **[Aspose releases page](https://releases.aspose.com/)**.
 
 **أسئلة وإجابات إضافية**
 
 **س: هل يمكنني تخصيص أيقونة العلامة؟**  
-ج: نعم – يوفر Aspose.Note العديد من الأيقونات المحددة مسبقًا عبر `TagIcon` ويسمح أيضًا بصور مخصصة.
+ج: نعم—يوفر Aspose.Note أيقونات مسبقة التعريف عبر تعداد `TagIcon` كما يسمح بإضافة صور مخصصة.
 
-**س: كيف يمكنني تغيير إعدادات إخراج PDF؟**  
-ج: استخدم `PdfSaveOptions` للتحكم في جودة الصورة، الضغط، والأمان قبل استدعاء `doc.save`.
+**س: كيف أغيّر إعدادات إخراج PDF؟**  
+ج: استخدم `PdfSaveOptions` لضبط جودة الصورة، الضغط، والأمان قبل استدعاء `doc.save`.
 
 **س: هل يمكن إضافة علامات متعددة إلى نفس النص؟**  
-ج: بالتأكيد. استدعِ `text.getTags().add()` عدة مرات مع مثيلات `NoteTag` مختلفة.
+ج: بالتأكيد. استدعِ `richText.getTags().add()` عدة مرات مع مثيلات `NoteTag` مختلفة.
 
 ---
 
-**آخر تحديث:** 2026-01-28  
-**تم الاختبار مع:** Aspose.Note for Java 24.12  
-**المؤلف:** Aspose  
+## الدروس ذات الصلة
+
+- [Add Tags to OneNote – Create Tagged OneNote Document with Aspose.Note](/note/java/onenote-tag-operations/)
+- [How to create OneNote document - Add Text Node with Tag using Aspose.Note](/note/java/onenote-tag-operations/add-text-node-with-tag/)
+- [Generate Meeting Notes Template with Aspose.Note for Java – Create Outline in OneNote](/note/java/onenote-tag-operations/generate-template-for-meeting-notes/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
