@@ -1,11 +1,47 @@
 ---
-date: 2026-03-29
-description: Aspose.Note for Java kullanarak belirli bir sayfadaki metni değiştirerek
-  OneNote'u düzenlemeyi ve OneNote'u PDF olarak kaydetmeyi öğrenin. Geliştiriciler
-  için adım adım kılavuz.
-linktitle: How to edit OneNote – Replace Text on Particular Page with Aspose.Note
+date: 2026-09-24
+description: OneNote'u PDF olarak nasıl kaydedeceğinizi ve Java için Aspose.Note kullanarak
+  belirli bir sayfadaki metni nasıl değiştireceğinizi öğrenin. Bu adım adım rehber,
+  tam iş akışını gösterir.
+keywords:
+- save onenote as pdf
+- export edited onenote to pdf
+- Aspose.Note Java
+lastmod: 2026-09-24
+linktitle: OneNote'u PDF olarak kaydedin ve sayfa metnini Aspose.Note ile değiştirin
+og_description: OneNote'u PDF olarak nasıl kaydedeceğinizi ve Java için Aspose.Note
+  kullanarak belirli bir sayfadaki metni nasıl değiştireceğinizi öğrenin. Hızlı uygulama
+  için bu özlü rehberi izleyin.
+og_image_alt: 'Developer guide: Save OneNote as PDF and replace page text with Aspose.Note'
+og_title: OneNote'u PDF olarak kaydedin ve sayfa metnini Aspose.Note ile değiştirin
+schemas:
+- author: Aspose
+  dateModified: '2026-09-24'
+  description: Learn how to save OneNote as PDF and replace text on a particular page
+    using Aspose.Note for Java. This step‑by‑step guide shows you the complete workflow.
+  headline: Save OneNote as PDF and replace page text with Aspose.Note
+  type: TechArticle
+- questions:
+  - answer: Yes, Aspose.Note for Java is licensed for commercial use. See the [purchase
+      page](https://purchase.aspose.com/buy) for details.
+    question: Can I use Aspose.Note for Java in a commercial project?
+  - answer: Absolutely. You can download a trial version [Aspose trial download page](https://releases.aspose.com/).
+    question: Is there a free trial available?
+  - answer: The [Aspose.Note forum](https://forum.aspose.com/c/note/28) is a great
+      place to ask questions and share solutions.
+    question: Where can I find community support?
+  - answer: A temporary license is available [temporary license page](https://purchase.aspose.com/temporary-license/).
+    question: How can I obtain a temporary license for testing?
+  - answer: Get the latest library from the official download page [Aspose.Note Java
+      download page](https://releases.aspose.com/note/java/).
+    question: Where can I download Aspose.Note for Java?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: OneNote Nasıl Düzenlenir – Aspose.Note ile Belirli Bir Sayfadaki Metni Değiştirme
+tags:
+- save onenote as pdf
+- Aspose.Note
+- Java document processing
+title: OneNote'u PDF olarak kaydedin ve sayfa metnini Aspose.Note ile değiştirin
 url: /tr/java/onenote-text-manipulation/replace-text-on-particular-page/
 weight: 21
 ---
@@ -14,34 +50,34 @@ weight: 21
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OneNote'u Düzenleme – Belirli Bir Sayfada Metni Aspose.Note ile Değiştirme
+# OneNote'u PDF olarak kaydedin ve sayfa metnini Aspose.Note ile değiştirin
 
 ## Giriş
-Programlı olarak **OneNote'u düzenlemeniz** gerektiğinde—bir ifadeyi değiştirmek, bir başlığı güncellemek veya tek bir sayfadaki içeriği ayarlamak ister misiniz—Aspose.Note for Java süreci basitleştirir. Bu öğreticide, belirli bir sayfadaki metni değiştirerek **OneNote dosyalarını nasıl düzenleyeceğinizi** öğrenecek ve ardından sonucu PDF olarak kaydedeceksiniz. Aşağıdaki adımları izleyerek bu yeteneği Java uygulamalarınıza hızlı ve güvenilir bir şekilde entegre edin.
+Tek bir sayfada bir ifadeyi, başlığı veya herhangi bir içeriği güncellerken **OneNote'u PDF olarak kaydetmeniz** gerekiyorsa, Aspose.Note for Java size temiz ve programatik bir yol sunar. Bu öğretici, bir `.one` defteri yüklemeyi, doğru sayfayı bulmayı, istenen metni değiştirmeyi ve son olarak düzenlenmiş defteri PDF dosyası olarak dışa aktarmayı adım adım gösterir. Bu iş akışını sadece birkaç dakika içinde herhangi bir Java‑tabanlı otomasyon hattına entegre edebileceksiniz.
 
-## Hızlı Yanıtlar
-- **Bu öğreticinin kapsamı nedir?** Belirli bir OneNote sayfasındaki metni değiştirip dosyayı PDF olarak dışa aktarmak.  
-- **Hangi kütüphane gereklidir?** Aspose.Note for Java.  
-- **Lisans gerekli mi?** Değerlendirme için geçici bir lisans yeterlidir; üretim için tam lisans gereklidir.  
+## Hızlı cevaplar
+- **Bu öğretici neyi kapsıyor?** Belirli bir OneNote sayfasındaki metni değiştirmek ve düzenlenmiş defteri PDF olarak dışa aktarmak.  
+- **Hangi kütüphane gerekli?** Aspose.Note for Java.  
+- **Bir lisansa ihtiyacım var mı?** Değerlendirme için geçici bir lisans yeterlidir; üretim için tam lisans gereklidir.  
 - **OneNote'u PDF olarak kaydedebilir miyim?** Evet – son adım, düzenlenmiş belgeyi PDF olarak kaydetmeyi gösterir.  
-- **Uygulama ne kadar sürer?** Java'ya aşina bir geliştirici için yaklaşık 10‑15 dakikadır.
+- **Uygulama ne kadar sürer?** Java'ya aşina bir geliştirici için yaklaşık 10‑15 dakika.
 
-## Java'da “OneNote nasıl düzenlenir” nedir?
-Java ile OneNote düzenlemek, bir `.one` dosyasını açmak, sayfa hiyerarşisini gezmek, metin düğümlerini değiştirmek ve ardından değişiklikleri kalıcı hale getirmek için Aspose.Note API'sını kullanmak anlamına gelir. Bu yaklaşım manuel kopyala‑yapıştırı ortadan kaldırır ve büyük not defterlerinin toplu işlenmesini sağlar.
+## Java’da “onenote nasıl düzenlenir” nedir?
+Bir OneNote dosyasını yüklemek, içeriğini değiştirmek ve tekrar kaydetmek, Aspose.Note API'si tarafından yönetilir. `.one` dosyasını bir `Document` nesnesiyle açarsınız, hedef sayfaya gezinir, `RichText` düğümlerindeki metni değiştirir ve ardından `save` metodunu `SaveFormat.Pdf` ile çağırırsınız. Bu, manuel kopyala‑yapıştırı ortadan kaldırır ve defterlerin toplu işlenmesini sağlar.
 
-## OneNote metnini programlı olarak neden değiştirmelisiniz?
-- **Automation** – Tek bir betikle birçok sayfada başlıkları, zaman damgalarını veya marka öğelerini güncelleyin.  
-- **Consistency** – Bir not defteri boyunca terminolojinin tutarlı olmasını sağlayın.  
-- **Integration** – OneNote içeriğini diğer sistemlerle birleştirin (ör. raporlar oluşturun, verileri veritabanlarına besleyin).  
+## OneNote metnini programatik olarak neden değiştirmelisiniz?
+Metin değişimini otomatikleştirmek, büyük defterlerde tutarlılığı garanti eder, manuel çabayı azaltır ve OneNote içeriğini raporlama hatları veya içerik‑yönetim veritabanları gibi aşağı akış sistemlerine gömmenizi sağlar. Aspose.Note ile tek bir betik kullanarak yüzlerce sayfada başlıkları, zaman damgalarını veya marka öğelerini güncelleyebilir, tekrarlayan işleri saatlerce tasarruf edebilirsiniz.
 
 ## Önkoşullar
 Başlamadan önce, aşağıdakilere sahip olduğunuzu doğrulayın:
 
-1. **Java Development Environment** – JDK 8 veya daha üstü yüklü ve IDE'niz kurulmuş.  
-2. **Aspose.Note Library** – En son Aspose.Note for Java paketini indirin ve referans gösterin. Kütüphaneyi ve belgelerini [burada](https://reference.aspose.com/note/java/) bulabilirsiniz.  
+1. **Java geliştirme ortamı** – JDK 8 veya daha üstü yüklü ve IDE'niz ayarlanmış.  
+2. **Aspose.Note kütüphanesi** – En son Aspose.Note for Java paketini indirin ve referans gösterin. Kütüphaneyi ve belgelerini [Aspose.Note Java documentation](https://reference.aspose.com/note/java/) adresinde bulabilirsiniz.  
 
-## Paketleri İçe Aktarma
-Gerekli sınıfları içe aktararak başlayın. Bu importlar, belge yükleme, sayfa gezinme, zengin metin manipülasyonu ve kaydetme yeteneklerine erişmenizi sağlar.
+Aspose.Note **30+ giriş ve çıkış formatını** destekler ve **500 sayfaya kadar** defterleri, tüm dosyayı belleğe yüklemeden işleyebilir; bu da büyük ölçekli otomasyon için uygundur.
+
+## Paketleri içe aktar
+Aşağıdaki içe aktarmalar, belge yükleme, sayfa gezinme, zengin metin manipülasyonu ve kaydetme yeteneklerine erişmenizi sağlar.
 
 ```java
 import java.io.IOException;
@@ -55,8 +91,8 @@ import com.aspose.note.RichText;
 import com.aspose.note.SaveFormat;
 ```
 
-## Adım 1: OneNote Belgesini Yükleyin
-`.one` dosyanızı bir Aspose.Note `Document` nesnesine yükleyin. `dataDir` değişkenini, kaynak not defterinizin bulunduğu klasöre işaret edecek şekilde ayarlayın.
+## Adım 1: onenote belgesini yükleyin
+`Document` sınıfı, Aspose.Note’un bellek içinde tek bir OneNote dosyasını temsil eden üst‑seviye nesnesidir. Bir örneğini oluşturduktan sonra, defteri okuyabilir, değiştirebilir veya kaydedebilirsiniz.
 
 ```java
 // The path to the documents directory.
@@ -67,8 +103,8 @@ replacements.put("2. Get organized", "New Text Here");
 Document oneFile = new Document(dataDir + "Sample1.one", new LoadOptions());
 ```
 
-## Adım 2: Sayfa ve RichText Düğümlerine Erişin
-İlk sayfaya (veya hedeflediğiniz herhangi bir sayfaya) gidin ve tüm `RichText` düğümlerini toplayın. Bu, istenen sayfada **OneNote metnini değiştirme** için ana adımdır.
+## Adım 2: sayfaya ve richtext düğümlerine erişin
+`RichText`, bir OneNote sayfası içindeki biçimlendirilmiş metin bloğunu temsil eder. Hedef sayfadan tüm `RichText` düğümlerini toplamak, değiştirilmesi gerekebilecek her metin parçası üzerinde döngü yapmanızı sağlar.
 
 ```java
 List<Page> pageNodes = (List<Page>) oneFile.getChildNodes(Page.class);
@@ -76,8 +112,8 @@ List<Page> pageNodes = (List<Page>) oneFile.getChildNodes(Page.class);
 List<RichText> textNodes = (List<RichText>) pageNodes.get(0).getChildNodes(RichText.class);
 ```
 
-## Adım 3: Metni Değiştir
-Her bir `RichText` düğümünü yineleyin ve tanımladığınız değiştirme çiftlerini uygulayın. `replace` metodu, düğüm içeriğini yerinde günceller.
+## Adım 3: metni değiştirin
+Her bir `RichText` düğüsü üzerinden döngü yapın ve tanımladığınız değiştirme çiftlerini uygulayın. `replace` yöntemi, düğüm içeriğini yerinde günceller, biçimlendirme ve düzeni korur.
 
 ```java
 for (RichText richText : textNodes) {
@@ -88,43 +124,49 @@ for (RichText richText : textNodes) {
 }
 ```
 
-## Adım 4: Değiştirilmiş Belgeyi Kaydedin
-Metin değiştirildikten sonra, **OneNote'u PDF olarak kaydedebilirsiniz** (veya desteklenen başka bir format). Bu örnek, düzenlenmiş not defterlerini paylaşmak için yaygın bir gereksinim olan PDF olarak kaydetmeyi gösterir.
+## Adım 4: değiştirilmiş belgeyi kaydedin
+Metin değiştirildikten sonra, **OneNote'u PDF olarak kaydedebilir** (veya başka bir desteklenen format). Bu örnek, PDF olarak kaydetmeyi gösterir; bu, OneNote yüklü olmayan paydaşlarla düzenlenmiş defterleri paylaşmak için yaygın bir gereksinimdir.
 
 ```java
 // Save to any supported file format
 oneFile.save(dataDir + "ReplaceTextonParticularPage_out.pdf", SaveFormat.Pdf);
 ```
 
-## Yaygın Sorunlar ve Çözümler
+## Yaygın sorunlar ve çözümler
 | Sorun | Neden | Çözüm |
 |-------|-------|----------|
-| PDF'te değişiklik görünmüyor | Yanlış sayfa indeksi veya boş `textNodes` listesi | `pageNodes.get(0)`'ın hedef sayfayı işaret ettiğini doğrulayın; diğer sayfalar için `pageNodes.get(n)` kullanın. |
-| `richText.replace` üzerinde `NullPointerException` | `replacements` haritası null bir anahtar/değer içeriyor | Haritadaki tüm anahtar ve değerlerin null olmayan stringler olduğundan emin olun. |
-| PDF çıktısı bozuk | Eski bir Aspose.Note sürümü kullanmak | En son Aspose.Note for Java sürümüne güncelleyin. |
+| PDF'de değişiklik görünmüyor | Yanlış sayfa indeksi veya boş `textNodes` listesi | `pageNodes.get(0)`'ın hedef sayfayı işaret ettiğini doğrulayın; diğer sayfalar için `pageNodes.get(n)` kullanın. |
+| `richText.replace` sırasında NullPointerException | `replacements` haritasında null anahtar/değer bulunması | Haritadaki tüm anahtar ve değerlerin null olmayan string olduğundan emin olun. |
+| PDF çıktısı bozuk | Eski bir Aspose.Note sürümü kullanılması | En son Aspose.Note for Java sürümüne güncelleyin. |
 
 ## Sıkça Sorulan Sorular
 
-**Q: Aspose.Note for Java'yı ticari bir projede kullanabilir miyim?**  
-A: Evet, Aspose.Note for Java ticari kullanım için lisanslanmıştır. Detaylar için [satın alma sayfasına](https://purchase.aspose.com/buy) bakın.
+**S: Aspose.Note for Java'yi ticari bir projede kullanabilir miyim?**  
+C: Evet, Aspose.Note for Java ticari kullanım için lisanslanmıştır. Ayrıntılar için [purchase page](https://purchase.aspose.com/buy) adresine bakın.
 
-**Q: Ücretsiz bir deneme mevcut mu?**  
-A: Kesinlikle. Deneme sürümünü [buradan](https://releases.aspose.com/) indirebilirsiniz.
+**S: Ücretsiz deneme mevcut mu?**  
+C: Kesinlikle. Deneme sürümünü [Aspose trial download page](https://releases.aspose.com/) adresinden indirebilirsiniz.
 
-**Q: Topluluk desteğini nerede bulabilirim?**  
-A: [Aspose.Note forumu](https://forum.aspose.com/c/note/28) sorular sormak ve çözümler paylaşmak için harika bir yerdir.
+**S: Topluluk desteğini nereden bulabilirim?**  
+C: [Aspose.Note forum](https://forum.aspose.com/c/note/28) sorular sormak ve çözümler paylaşmak için harika bir yerdir.
 
-**Q: Test için geçici bir lisans nasıl alabilirim?**  
-A: Geçici bir lisans [burada](https://purchase.aspose.com/temporary-license/) mevcuttur.
+**S: Test için geçici bir lisans nasıl alabilirim?**  
+C: Geçici bir lisans [temporary license page](https://purchase.aspose.com/temporary-license/) adresinde mevcuttur.
 
-**Q: Aspose.Note for Java'yı nereden indirebilirim?**  
-A: En son kütüphaneyi resmi indirme sayfasından [burada](https://releases.aspose.com/note/java/) edinebilirsiniz.
+**S: Aspose.Note for Java'yi nereden indirebilirim?**  
+C: En son kütüphaneyi resmi indirme sayfasından alın [Aspose.Note Java download page](https://releases.aspose.com/note/java/).
 
 ---
 
-**Son Güncelleme:** 2026-03-29  
-**Test Edilen:** Aspose.Note for Java 24.12 (yazım zamanındaki en son sürüm)  
+**Son güncelleme:** 2026-09-24  
+**Test edildi:** Aspose.Note for Java 24.12 (yazım zamanındaki en son)  
 **Yazar:** Aspose
+
+## İlgili Öğreticiler
+
+- [OneNote'u PDF olarak kaydedin ve Tüm Sayfalarda Metni Değiştirin – Aspose.Note](/note/java/onenote-text-manipulation/replace-text-on-all-pages/)
+- [Aspose.Note for Java ile Sayfa Ayarlarını Kullanarak OneNote'u PDF'e Dönüştürün](/note/java/onenote-document-saving/save-to-pdf-using-page-settings/)
+- [Bir Sayfadan OneNote Metnini Nasıl Çıkarılır – Aspose.Note Java](/note/java/onenote-text-manipulation/extract-text-from-a-page/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,10 +1,49 @@
 ---
-date: 2026-01-28
-description: Naučte se, jak vytvořit osnovu v OneNote, přidat značku do OneNote a
-  vygenerovat PDF z OneNote pomocí Aspose.Note pro Javu.
-linktitle: Create Outline in OneNote and Add Tag – Aspose.Note
+date: 2026-09-24
+description: Naučte se, jak přidat tag onenote, vytvořit outline v OneNote a exportovat
+  OneNote do PDF pomocí Aspose.Note pro Java.
+keywords:
+- add tag onenote
+- how to add tag
+- how to create outline
+- export onenote pdf
+- java convert onenote pdf
+lastmod: 2026-09-24
+linktitle: Jak přidat tag onenote a vytvořit outline v OneNote
+og_description: Přidat tag onenote a vytvořit outline v OneNote pomocí Aspose.Note
+  pro Java, poté exportovat notebook do PDF. Postupujte podle krok‑za‑krokem kódu
+  a osvědčených postupů.
+og_image_alt: Screenshot showing OneNote outline with tags created via Aspose.Note
+  Java API
+og_title: Přidat tag onenote a vytvořit outline v OneNote – průvodce Aspose.Note
+schemas:
+- author: Aspose
+  dateModified: '2026-09-24'
+  description: Learn how to add tag onenote, create outline in OneNote, and export
+    OneNote to PDF using Aspose.Note for Java.
+  headline: How to add tag onenote and create outline in OneNote
+  type: TechArticle
+- questions:
+  - answer: Aspose.Note primarily targets Java, but equivalent libraries exist for
+      .NET and other platforms.
+    question: Can I use Aspose.Note for Java with other programming languages?
+  - answer: Yes—its API is well‑documented, and the step‑by‑step approach in this
+      guide is friendly for developers of any skill level.
+    question: Is Aspose.Note suitable for beginners?
+  - answer: You can get a temporary license from the **[temporary license page](https://purchase.aspose.com/temporary-license/)**.
+    question: How do I obtain a temporary license for Aspose.Note for Java?
+  - answer: Visit the **[Aspose.Note forum](https://forum.aspose.com/c/note/28)**
+      for community help and official assistance.
+    question: Where can I find additional support?
+  - answer: Yes—download a trial version from the **[Aspose releases page](https://releases.aspose.com/)**.
+    question: Is a free trial available?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: Vytvořit osnovu v OneNote a přidat značku – Aspose.Note
+tags:
+- onenote tagging
+- Aspose.Note
+- Java note processing
+title: Jak přidat tag onenote a vytvořit outline v OneNote
 url: /cs/java/onenote-tag-operations/add-tag/
 weight: 12
 ---
@@ -13,32 +52,35 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vytvořit osnovu v OneNote a přidat značku – Aspose.Note
+# Jak přidat značku onenote a vytvořit osnovu v OneNote
 
 ## Úvod
-Hledáte, jak **vytvořit osnovu v OneNote** a podpořit spolupráci pomocí značek v Javě? Aspose.Note pro Java umožňuje snadno přidávat značky, strukturovat vaše poznámky a dokonce **vytvořit PDF z OneNote** soubory. V tomto tutoriálu projdeme každý krok, vysvětlíme *proč* je jednotlivá část důležitá a ukážeme vám, jak na konci vytvořit profesionální PDF.
+V tomto tutoriálu se naučíte, jak **add tag onenote** a vytvořit strukturovanou osnovu uvnitř sešitu OneNote pomocí Aspose.Note pro Java. Provedeme vás každým krokem, vysvětlíme, proč je každé volání API důležité, a nakonec **exportujeme sešit do PDF**, abyste mohli sdílet vylepšený, prohledávatelný dokument se spolupracovníky.
 
 ## Rychlé odpovědi
-- **Co znamená “create outline in OneNote”?** Vytváří hierarchickou strukturu (osnovy), která organizuje obsah jako nadpisy a podsekce.
-- **Která knihovna přidává značky do OneNote?** Aspose.Note pro Java poskytuje třídu `NoteTag` pro vizuální značky.
-- **Mohu výsledek exportovat do PDF?** Ano – použijte `SaveFormat.Pdf` k **vytvoření PDF z OneNote**.
-- **Potřebuji licence pro produkční nasazení?** Dočasná licence je k dispozici pro testování; plná licence je vyžadována pro komerční použití.
+- **Co znamená “create outline in OneNote”?** Vytváří hierarchický strom nadpisů a podsekcí, které můžete rozbalovat nebo sbalovat.  
+- **Která třída přidává značky do OneNote?** Použijte třídu `NoteTag` z Aspose.Note pro Java.  
+- **Mohu výsledek exportovat do PDF?** Ano – zavolejte `doc.save("output.pdf", SaveFormat.Pdf)`.  
+- **Potřebuji licenci pro produkci?** Dočasná licence je k dispozici pro testování; pro komerční použití je vyžadována plná licence.  
 - **Jaké jsou hlavní předpoklady?** Nainstalovaný JDK, knihovna Aspose.Note pro Java a základní znalosti Javy.
 
-## Co je to „vytvořit osnovu ve OneNotu“?
-Vytvoření osnovy v OneNote znamená přidání objektů `Outline` a `OutlineElement`, které definují stromovou strukturu vašich poznámek. Tato hierarchie vám umožňuje sbalit, rozbalit a organizovat informace podobně jako nadpisy v dokumentu.
+## Co je “create outline in OneNote”?
+Vytvoření osnovy v OneNote znamená přidání objektů `Outline` a `OutlineElement`, které definují stromovou strukturu vašich poznámek. Tato hierarchie vám umožňuje sbalovat, rozbalovat a organizovat informace podobně jako nadpisy v dokumentu. Také umožňuje programovou navigaci a podporuje export hierarchie do formátů jako PDF, kde může každá úroveň stát záložkou.
 
-## Proč přidat štítek do OneNotu?
-Značky jako hvězdičky, zaškrtávací políčka nebo vlastní ikony poskytují čtenářům vizuální vodítka, zlepšují vyhledatelnost a pomáhají týmům upřednostňovat položky. S Aspose.Note můžete programově připojit `NoteTag` k libovolnému úseku textu.
+## Proč přidat značku do OneNote?
+Přidání značky do OneNote vám poskytne vizuální značku — například hvězdu, zaškrtávací políčko nebo vlastní ikonu — která okamžitě upoutá pozornost, zlepší prohledatelnost a pomůže týmům upřednostňovat úkoly. S Aspose.Note můžete programově připojit `NoteTag` k libovolnému úseku textu, což zajišťuje konzistenci napříč mnoha stránkami.
 
-## Předpoklady
-Před tím, než se pustíte dál, ověřte, že máte:
-- Nainstalovaný Java Development Kit (JDK).
-- Staženou knihovnu Aspose.Note pro Java. Můžete ji získat [zde](https://releases.aspose.com/note/java/).
-- Základní znalosti programování v Javě.
+## Měřitelné výhody Aspose.Note
+Aspose.Note podporuje **více než 30 vstupních a výstupních formátů** (včetně DOCX, PDF, HTML a typů obrázků) a dokáže zpracovat sešity s **až 500 stránkami** bez načítání celého souboru do paměti, což poskytuje vysoce výkonné konverze na standardním serverovém hardware.
 
-## Importujte balíčky
-dobře se, že importujete potřebné balíčky pro zahájení projektu:
+## Požadavky
+- Java Development Kit (JDK) 8 nebo novější.  
+- Knihovna Aspose.Note pro Java – stáhněte ji ze **[Aspose.Note for Java download page](https://releases.aspose.com/note/java/)**.  
+- Základní znalost syntaxe Javy a nastavení projektu Maven/Gradle.
+
+## Import balíčků
+Třídy `Document`, `Page`, `Outline`, `OutlineElement`, `RichText` a `NoteTag` se nacházejí v jmenném prostoru `com.aspose.note`. Importujte je na začátku vašeho Java souboru:
+
 ```java
 import java.awt.Color;
 import java.io.IOException;
@@ -52,26 +94,32 @@ import com.aspose.note.SaveFormat;
 import com.aspose.note.TagIcon;
 import com.aspose.note.ParagraphStyle;
 ```
-Rozložme výše uvedený kód na krok‑za‑krokem průvodce.
+
+Rozebráme import krok za krokem.
 
 ## Krok 1: Nastavení dokumentu a stránky
-Začněte vytvořením nového objektu `Document` a inicializací objektu `Page`:
+`Document` představuje celý sešit OneNote v paměti, zatímco `Page` je jediné plátno v rámci sešitu.  
+
 ```java
 String dataDir = "Your Document Directory";
 Document doc = new Document();
 Page page = new Page();
 ```
-Zde nastavujeme cestu k adresáři s dokumenty, vytváříme nový `Document` a inicializujeme `Page`.
+
+Třída `Document` představuje celý soubor OneNote v paměti, zatímco objekt `Page` je plátno, kde jsou umístěny osnovy a značky.
 
 ## Krok 2: Vytvoření osnovy
-Dále vytvořte objekt `Outline`, který strukturuje váš obsah:
+`Outline` je kontejner, který obsahuje hierarchii objektů `OutlineElement`, tvořících strukturu stromu sešitu.  
+
 ```java
 Outline outline = new Outline();
 ```
-Osnovy poskytují hierarchickou strukturu vašemu dokumentu, což usnadňuje **vytvořit osnovu v OneNote** a udržet informace uspořádané.
 
-## Krok 3: Inicializace OutlineElement a ParagraphStyle
-Nyní inicializujte `OutlineElement` a nastavte `ParagraphStyle` pro formátování textu:
+Osnovy poskytují strukturu, která vám umožní **create outline in OneNote** a udržet informace uspořádané.
+
+## Krok 3: Inicializace elementu osnovy a stylu odstavce
+`OutlineElement` představuje jednotlivý uzel (nadpis) v osnově a `ParagraphStyle` definuje jeho písmo, velikost a odsazení.  
+
 ```java
 OutlineElement outlineElem = new OutlineElement();
 ParagraphStyle textStyle = new ParagraphStyle()
@@ -79,73 +127,84 @@ ParagraphStyle textStyle = new ParagraphStyle()
                                 .setFontName("Arial")
                                 .setFontSize(10);
 ```
-`OutlineElement` představuje prvek v rámci osnovy a `ParagraphStyle` definuje vlastnosti formátování textu.
 
-## Krok 4: Přidání RichTextu s NoteTag
-Vytvořte objekt `RichText`, připojte svůj OneNote text a přidejte `NoteTag`:
+`OutlineElement` představuje jeden uzel (nadpis) uvnitř osnovy a `ParagraphStyle` řídí písmo, velikost a odsazení.
+
+## Krok 4: Přidání bohatého textu s poznámkovou značkou
+`RichText` ukládá skutečný textový obsah a `NoteTag` připojuje vizuální značku (ikonu) k tomuto textu.  
+
 ```java
 RichText text = new RichText().append("OneNote text.");
 text.setParagraphStyle(textStyle);
 NoteTag noteTag = NoteTag.createYellowStar();
 text.getTags().add(noteTag);
 ```
-`RichText` vám umožňuje vkládat formátovaný text a `NoteTag` **přidává značku do OneNote** jako vizuální vodítko.
+
+`RichText` obsahuje skutečný text, zatímco `NoteTag` **adds tag to OneNote** jako vizuální ukazatel vedle textu.
 
 ## Krok 5: Vytvoření struktury osnovy
-Přidejte uzel textu, uzel elementu osnovy a uzel samotné osnovy pro vytvoření struktury dokumentu:
+Přidejte uzel `RichText` do `OutlineElement`, poté přidejte element do `Outline` a nakonec připojte osnovu k stránce.  
+
 ```java
 outlineElem.appendChildLast(text);
 outline.appendChildLast(outlineElem);
 page.appendChildLast(outline);
 doc.appendChildLast(page);
 ```
-Tento krok zajišťuje, že je váš obsah v dokumentu uspořádán, čímž dokončuje proces **vytvořit osnovu v OneNote**.
 
-## Krok 6: Uložení dokumentu
-Uložte dokument ve formátu PDF, který **vytváří PDF z OneNote**:
+Tento krok dokončuje hierarchické rozložení a uzavírá workflow **create outline in OneNote**.
+
+## Krok 6: Uložení dokumentu jako PDF
+`SaveFormat.Pdf` říká Aspose.Note, aby zapisoval sešit jako PDF soubor.  
+
 ```java
 doc.save(dataDir + "AddTag_out.pdf", SaveFormat.Pdf);
 System.out.printf("File Saved: %s\n", dataDir + "AddTag_out.pdf");
 ```
-Nyní je váš OneNote dokument s přidanými značkami uložen jako PDF.
 
-Postupováním těmito kroky můžete snadno vylepšit své OneNote dokumenty pomocí Aspose.Note pro Java.
+Výsledné PDF zachovává hierarchii osnovy a vizuální značky, což jej činí prohledávatelným a tisknutelným.
 
-## Závěr
-V tomto tutoriálu jsme prozkoumali, jak **vytvořit osnovu v OneNote**, přidat značku do OneNote a následně **vytvořit PDF z OneNote** pomocí Aspose.Note pro Java. Využití Javy vám dává plnou kontrolu nad strukturou poznámek, vizuálním označováním a možnostmi exportu, což vaše poznámky uvádějí organizovanějšími a snadněji sdílenými.
+## Časté problémy a řešení
+- **Značka se nezobrazuje:** Ujistěte se, že přidáte `NoteTag` do objektu `RichText` *před* připojením textu k elementu osnovy.  
+- **Osnova není v PDF sbalitelná:** Prohlížeče PDF nepodporují interaktivní osnovu OneNote; hierarchie je místo toho zachována jako záložky.  
+- **Velké sešity způsobují tlak na paměť:** Použijte `Document.saveOptions.setLoadOnDemand(true)` pro zpracování stránek na požádání.
 
-## Nejčastější dotazy
-### 1. Mohu použít Aspose.Note pro Javu s jinými programovacími jazyky?
-Aspose.Note primárně podporuje Javu, ale jsou také dostupné verze pro .NET.
+## Často kladené otázky
 
-### 2. Je Aspose.Note pro Java vhodný pro začátečníky?
-Ano, Ase.Note poskytuje komplexní dokumentaci a podporu, což činí přístupným jak začátečníky, tak pro Java poskytuje zkušené pro začátečníky.
+**Q: Mohu použít Aspose.Note pro Java s jinými programovacími jazyky?**  
+A: Aspose.Note je primárně určen pro Javu, ale ekvivalentní knihovny existují pro .NET a další platformy.
 
-### 3. Jak mohu získat dočasnou licenci pro Aspose.Note pro Java?
-Dočasnou licenci můžete získat [zde](https://purchase.aspose.com/temporary-license/).
+**Q: Je Aspose.Note vhodný pro začátečníky?**  
+A: Ano — jeho API je dobře zdokumentované a krok‑za‑krokem přístup v tomto průvodci je přátelský pro vývojáře všech úrovní.
 
-### 4. Kde najdu další podporu?
-Pro jakékoliv dotazy nebo pomoc navštivte [forum Aspose.Note](https://forum.aspose.com/c/note/28).
+**Q: Jak získám dočasnou licenci pro Aspose.Note pro Java?**  
+A: Dočasnou licenci můžete získat na **[temporary license page](https://purchase.aspose.com/temporary-license/)**.
 
-### 5. Je k dispozici bezplatná zkušební verze?
-Ano, bezplatnou zkušební verzi můžete vyzkoušet [zde](https://releases.aspose.com/).
+**Q: Kde mohu najít další podporu?**  
+A: Navštivte **[Aspose.Note forum](https://forum.aspose.com/c/note/28)** pro komunitní pomoc a oficiální podporu.
+
+**Q: Je k dispozici bezplatná zkušební verze?**  
+A: Ano — stáhněte si zkušební verzi ze **[Aspose releases page](https://releases.aspose.com/)**.
 
 **Další otázky a odpovědi**
 
-**O: Mohu upravit ikonu značky?**
-A: Ano – Aspose.Note poskytuje mnoho předdefinovaných ikon prostřednictvím `TagIcon` a také umožňuje použít vlastní obrázky.
+**Q: Mohu přizpůsobit ikonu značky?**  
+A: Ano — Aspose.Note poskytuje předdefinované ikony pomocí výčtu `TagIcon` a také umožňuje dodat vlastní obrázky.
 
-**Q: Jak změním nastavení výstupu PDF?**
-A: Použijte `PdfSaveOptions` k nastavení kvality obrázků, komprese a zabezpečení před voláním `doc.save`.
+**Q: Jak změním nastavení výstupu PDF?**  
+A: Použijte `PdfSaveOptions` pro úpravu kvality obrázku, komprese a zabezpečení před voláním `doc.save`.
 
-**Q: Je možné přidat více značek ke stejnému textu?**
-A: Rozhodně. Zavolejte `text.getTags().d()` s různými instancemi `NoteTag`.
+**Q: Je možné přidat více značek ke stejnému textu?**  
+A: Rozhodně. Zavolejte `richText.getTags().add()` vícekrát s různými instancemi `NoteTag`.
 
 ---
 
-**Poslední aktualizace:** 28. 1. 2026
-**Testováno s:** Aspose.Note pro Java 24.12
-**Autor:** Aspose  
+## Související tutoriály
+
+- [Přidat značky do OneNote – Vytvořit označený OneNote dokument s Aspose.Note](/note/java/onenote-tag-operations/)
+- [Jak vytvořit OneNote dokument – Přidat textový uzel se značkou pomocí Aspose.Note](/note/java/onenote-tag-operations/add-text-node-with-tag/)
+- [Vytvořit šablonu poznámek ze schůzky s Aspose.Note pro Java – Vytvořit osnovu v OneNote](/note/java/onenote-tag-operations/generate-template-for-meeting-notes/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

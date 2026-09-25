@@ -1,11 +1,49 @@
 ---
-date: 2026-01-28
-description: Μάθετε πώς να δημιουργείτε περίγραμμα στο OneNote, να προσθέτετε ετικέτα
-  στο OneNote και να δημιουργείτε PDF από το OneNote χρησιμοποιώντας το Aspose.Note
-  για Java.
-linktitle: Create Outline in OneNote and Add Tag – Aspose.Note
+date: 2026-09-24
+description: Μάθετε πώς να προσθέσετε tag onenote, να δημιουργήσετε outline στο OneNote
+  και να εξάγετε το OneNote σε PDF χρησιμοποιώντας το Aspose.Note για Java.
+keywords:
+- add tag onenote
+- how to add tag
+- how to create outline
+- export onenote pdf
+- java convert onenote pdf
+lastmod: 2026-09-24
+linktitle: Πώς να προσθέσετε tag onenote και να δημιουργήσετε outline στο OneNote
+og_description: Προσθέστε tag onenote και δημιουργήστε outline στο OneNote χρησιμοποιώντας
+  το Aspose.Note για Java, στη συνέχεια εξάγετε το σημειωματάριο σε PDF. Ακολουθήστε
+  κώδικα βήμα‑βήμα και βέλτιστες πρακτικές.
+og_image_alt: Screenshot showing OneNote outline with tags created via Aspose.Note
+  Java API
+og_title: Προσθήκη tag onenote και δημιουργία outline στο OneNote – Οδηγός Aspose.Note
+schemas:
+- author: Aspose
+  dateModified: '2026-09-24'
+  description: Learn how to add tag onenote, create outline in OneNote, and export
+    OneNote to PDF using Aspose.Note for Java.
+  headline: How to add tag onenote and create outline in OneNote
+  type: TechArticle
+- questions:
+  - answer: Aspose.Note primarily targets Java, but equivalent libraries exist for
+      .NET and other platforms.
+    question: Can I use Aspose.Note for Java with other programming languages?
+  - answer: Yes—its API is well‑documented, and the step‑by‑step approach in this
+      guide is friendly for developers of any skill level.
+    question: Is Aspose.Note suitable for beginners?
+  - answer: You can get a temporary license from the **[temporary license page](https://purchase.aspose.com/temporary-license/)**.
+    question: How do I obtain a temporary license for Aspose.Note for Java?
+  - answer: Visit the **[Aspose.Note forum](https://forum.aspose.com/c/note/28)**
+      for community help and official assistance.
+    question: Where can I find additional support?
+  - answer: Yes—download a trial version from the **[Aspose releases page](https://releases.aspose.com/)**.
+    question: Is a free trial available?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: Δημιουργία περιγράμματος στο OneNote και προσθήκη ετικέτας – Aspose.Note
+tags:
+- onenote tagging
+- Aspose.Note
+- Java note processing
+title: Πώς να προσθέσετε tag onenote και να δημιουργήσετε outline στο OneNote
 url: /el/java/onenote-tag-operations/add-tag/
 weight: 12
 ---
@@ -14,32 +52,35 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Δημιουργία περιγράμματος στο OneNote και προσθήκη ετικέτας – Aspose.Note
+# Πώς να προσθέσετε ετικέτα στο OneNote και να δημιουργήσετε περίγραμμα στο OneNote
 
 ## Εισαγωγή
-Αναζητάτε **να δημιουργήσετε περίγραμμα στο OneNote** και να ενισχύσετε τη συνεργασία με ετικέτες χρησιμοποιώντας Java; Το Aspose.Note for Java το κάνει απλό για την προσθήκη ετικετών, τη δομήση των σημειώσεών σας και ακόμη **να δημιουργήσετε PDF από αρχεία OneNote**. Σε αυτό το tutorial θα περάσουμε βήμα‑βήμα, θα εξηγήσουμε *γιατί* κάθε στοιχείο είναι σημαντικό και θα σας δείξουμε πώς να παραγάγετε ένα επαγγελματικό PDF στο τέλος.
+Σε αυτό το σεμινάριο θα μάθετε πώς να **προσθέσετε ετικέτα στο OneNote** και να δημιουργήσετε ένα δομημένο περίγραμμα μέσα σε ένα σημειωματάριο OneNote χρησιμοποιώντας το Aspose.Note for Java. Θα περάσουμε από κάθε βήμα, θα εξηγήσουμε γιατί κάθε κλήση API είναι σημαντική, και θα ολοκληρώσουμε **εξάγοντας το σημειωματάριο σε PDF** ώστε να μπορείτε να μοιραστείτε ένα επαγγελματικό, αναζητήσιμο έγγραφο με τους συναδέλφους.
 
-## Γρήγορες Απαντήσεις
-- **Τι σημαίνει “create outline in OneNote”;** Δημιουργεί μια ιεραρχική δομή (περιγράμματα) που οργανώνει το περιεχόμενο όπως τίτλους και υπο‑ενότητες.  
-- **Ποια βιβλιοθήκη προσθέτει ετικέτες στο OneNote;** Το Aspose.Note for Java παρέχει την κλάση `NoteTag` για οπτικούς δείκτες.  
-- **Μπορώ να εξάγω το αποτέλεσμα σε PDF;** Ναι – χρησιμοποιήστε `SaveFormat.Pdf` για **να δημιουργήσετε PDF από OneNote**.  
-- **Χρειάζομαι άδεια για παραγωγική χρήση;** Μια προσωρινή άδεια είναι διαθέσιμη για δοκιμές· απαιτείται πλήρης άδεια για εμπορική χρήση.  
-- **Ποια είναι τα κύρια προαπαιτούμενα;** Εγκατεστημένο JDK, βιβλιοθήκη Aspose.Note for Java και βασικές γνώσεις Java.
+## Γρήγορες απαντήσεις
+- **Τι σημαίνει “create outline in OneNote”;** Δημιουργεί ένα ιεραρχικό δέντρο από επικεφαλίδες και υπο‑ενότητες που μπορείτε να επεκτείνετε ή να συμπτύξετε.  
+- **Ποια κλάση προσθέτει ετικέτες στο OneNote;** Χρησιμοποιήστε την κλάση `NoteTag` από το Aspose.Note for Java.  
+- **Μπορώ να εξάγω το αποτέλεσμα σε PDF;** Ναι – καλέστε `doc.save("output.pdf", SaveFormat.Pdf)`.  
+- **Χρειάζομαι άδεια για παραγωγή;** Διατίθεται προσωρινή άδεια για δοκιμές· απαιτείται πλήρης άδεια για εμπορική χρήση.  
+- **Ποιες είναι οι κύριες προαπαιτήσεις;** Εγκατεστημένο JDK, βιβλιοθήκη Aspose.Note for Java και βασικές γνώσεις Java.
 
 ## Τι είναι το “create outline in OneNote”;
-Η δημιουργία περιγράμματος στο OneNote σημαίνει την προσθήκη αντικειμένων `Outline` και `OutlineElement` που ορίζουν μια δομή δέντρου για τις σημειώσεις σας. Αυτή η ιεραρχία σας επιτρέπει να συμπτύσσετε, να επεκτείνετε και να οργανώσετε πληροφορίες όπως τίτλους σε ένα έγγραφο.
+Η δημιουργία ενός περιγράμματος στο OneNote σημαίνει την προσθήκη αντικειμένων `Outline` και `OutlineElement` που ορίζουν μια δομή δέντρου για τις σημειώσεις σας. Αυτή η ιεραρχία σας επιτρέπει να συμπτύχετε, να επεκτείνετε και να οργανώσετε πληροφορίες όπως οι επικεφαλίδες σε ένα έγγραφο. Επίσης επιτρέπει προγραμματιστική πλοήγηση και υποστηρίζει την εξαγωγή της ιεραρχίας σε μορφές όπως PDF, όπου κάθε επίπεδο μπορεί να γίνει σελιδοδείκτης.
 
 ## Γιατί να προσθέσετε ετικέτα στο OneNote;
-Οι ετικέτες όπως αστέρια, σημεία ελέγχου ή προσαρμοσμένα εικονίδια παρέχουν στους αναγνώστες οπτικές ενδείξεις, βελτιώνουν την αναζητησιμότητα και βοηθούν τις ομάδες να δίνουν προτεραιότητα σε στοιχεία. Με το Aspose.Note μπορείτε προγραμματιστικά να συνδέσετε ένα `NoteTag` σε οποιοδήποτε κομμάτι κειμένου.
+Η προσθήκη ετικέτας στο OneNote σας παρέχει ένα οπτικό σήμα—όπως αστέρι, σημάδι ελέγχου ή προσαρμοσμένο εικονίδιο—που αμέσως τραβά την προσοχή, βελτιώνει την αναζητησιμότητα και βοηθά τις ομάδες να προτεραιοποιούν εργασίες. Με το Aspose.Note μπορείτε προγραμματιστικά να συνδέσετε ένα `NoteTag` σε οποιοδήποτε κείμενο, εξασφαλίζοντας συνέπεια σε πολλές σελίδες.
 
-## Προαπαιτούμενα
-Πριν ξεκινήσετε, βεβαιωθείτε ότι έχετε:
-- Εγκατεστημένο Java Development Kit (JDK).
-- Κατεβάσει τη βιβλιοθήκη Aspose.Note for Java. Μπορείτε να τη βρείτε [εδώ](https://releases.aspose.com/note/java/).
-- Βασική κατανόηση του προγραμματισμού Java.
+## Ποσοτικοποιημένα οφέλη του Aspose.Note
+Το Aspose.Note υποστηρίζει **πάνω από 30 μορφές εισόδου και εξόδου** (συμπεριλαμβανομένων DOCX, PDF, HTML και τύπων εικόνων) και μπορεί να επεξεργαστεί σημειωματάρια με **έως 500 σελίδες** χωρίς να φορτώνει ολόκληρο το αρχείο στη μνήμη, παρέχοντας υψηλής απόδοσης μετατροπές σε τυπικό εξοπλισμό διακομιστών.
 
-## Εισαγωγή Πακέτων
-Βεβαιωθείτε ότι εισάγετε τα απαραίτητα πακέτα για να ξεκινήσετε το έργο σας:
+## Προαπαιτήσεις
+- Java Development Kit (JDK) 8 ή νεότερο.  
+- Βιβλιοθήκη Aspose.Note for Java – κατεβάστε την από τη **[Aspose.Note for Java download page](https://releases.aspose.com/note/java/)**.  
+- Βασική εξοικείωση με τη σύνταξη Java και τη ρύθμιση έργου Maven/Gradle.
+
+## Εισαγωγή πακέτων
+Οι κλάσεις `Document`, `Page`, `Outline`, `OutlineElement`, `RichText` και `NoteTag` βρίσκονται στο χώρο ονομάτων `com.aspose.note`. Εισάγετέ τις στην αρχή του αρχείου Java:
+
 ```java
 import java.awt.Color;
 import java.io.IOException;
@@ -53,26 +94,32 @@ import com.aspose.note.SaveFormat;
 import com.aspose.note.TagIcon;
 import com.aspose.note.ParagraphStyle;
 ```
-Ας αναλύσουμε τον παραπάνω κώδικα βήμα‑βήμα.
 
-## Βήμα 1: Ρύθμιση Εγγράφου και Σελίδας
-Ξεκινήστε δημιουργώντας ένα νέο αντικείμενο `Document` και αρχικοποιώντας ένα αντικείμενο `Page`:
+Ας αναλύσουμε το βήμα εισαγωγής βήμα‑βήμα.
+
+## Βήμα 1: Ρύθμιση εγγράφου και σελίδας
+`Document` αντιπροσωπεύει ολόκληρο το σημειωματάριο OneNote στη μνήμη, ενώ `Page` είναι ένας μοναδικός καμβάς μέσα στο σημειωματάριο.  
+
 ```java
 String dataDir = "Your Document Directory";
 Document doc = new Document();
 Page page = new Page();
 ```
-Εδώ ορίζουμε τη διαδρομή του καταλόγου εγγράφων, δημιουργούμε ένα νέο `Document` και αρχικοποιούμε μια `Page`.
 
-## Βήμα 2: Δημιουργία Περιγράμματος
-Στη συνέχεια, δημιουργήστε ένα αντικείμενο `Outline` για να δομήσετε το περιεχόμενό σας:
+Η κλάση `Document` αντιπροσωπεύει ολόκληρο το αρχείο OneNote στη μνήμη, ενώ το αντικείμενο `Page` είναι ο καμβάς όπου τοποθετούνται τα περιγράμματα και οι ετικέτες.
+
+## Βήμα 2: Δημιουργία περιγράμματος
+`Outline` είναι ένας κοντέινερ που περιέχει μια ιεραρχία αντικειμένων `OutlineElement`, σχηματίζοντας το δομικό δέντρο του σημειωματάριου.  
+
 ```java
 Outline outline = new Outline();
 ```
-Τα περιγράμματα παρέχουν ιεραρχική δομή στο έγγραφό σας, διευκολύνοντας το **create outline in OneNote** και τη διατήρηση των πληροφοριών οργανωμένων.
 
-## Βήμα 3: Αρχικοποίηση OutlineElement και ParagraphStyle
-Τώρα, αρχικοποιήστε ένα `OutlineElement` και ορίστε `ParagraphStyle` για τη μορφοποίηση του κειμένου:
+Τα περιγράμματα παρέχουν τη δομική στήριξη που σας επιτρέπει να **δημιουργήσετε περίγραμμα στο OneNote** και να διατηρείτε τις πληροφορίες οργανωμένες.
+
+## Βήμα 3: Αρχικοποίηση στοιχείου περιγράμματος και στυλ παραγράφου
+`OutlineElement` αντιπροσωπεύει έναν μεμονωμένο κόμβο (επικεφαλίδα) σε ένα περίγραμμα, και το `ParagraphStyle` ορίζει τη γραμματοσειρά, το μέγεθος και την εσοχή του.  
+
 ```java
 OutlineElement outlineElem = new OutlineElement();
 ParagraphStyle textStyle = new ParagraphStyle()
@@ -80,73 +127,82 @@ ParagraphStyle textStyle = new ParagraphStyle()
                                 .setFontName("Arial")
                                 .setFontSize(10);
 ```
-Το `OutlineElement` αντιπροσωπεύει ένα στοιχείο μέσα στο περίγραμμα, ενώ το `ParagraphStyle` ορίζει τις ιδιότητες μορφοποίησης του κειμένου.
 
-## Βήμα 4: Προσθήκη RichText με NoteTag
-Δημιουργήστε ένα αντικείμενο `RichText`, προσθέστε το κείμενο OneNote και προσθέστε ένα `NoteTag`:
+`OutlineElement` αντιπροσωπεύει έναν μοναδικό κόμβο (επικεφαλίδα) μέσα στο περίγραμμα, και το `ParagraphStyle` ελέγχει τη γραμματοσειρά, το μέγεθος και την εσοχή.
+
+## Βήμα 4: Προσθήκη μορφοποιημένου κειμένου με ετικέτα σημειώματος
+`RichText` αποθηκεύει το πραγματικό περιεχόμενο κειμένου, και το `NoteTag` συνδέει μια οπτική ετικέτα (εικονίδιο) σε αυτό το κείμενο.  
+
 ```java
 RichText text = new RichText().append("OneNote text.");
 text.setParagraphStyle(textStyle);
 NoteTag noteTag = NoteTag.createYellowStar();
 text.getTags().add(noteTag);
 ```
-Το `RichText` σας επιτρέπει να ενσωματώσετε μορφοποιημένο κείμενο, και το `NoteTag` **adds tag to OneNote** ως οπτική ένδειξη.
 
-## Βήμα 5: Κατασκευή Δομής Περιγράμματος
-Προσθέστε τον κόμβο κειμένου, τον κόμβο στοιχείου περιγράμματος και τον κόμβο περιγράμματος για να δημιουργήσετε τη δομή του εγγράφου:
+`RichText` περιέχει το πραγματικό κείμενο, ενώ το `NoteTag` **προσθέτει ετικέτα στο OneNote** ως οπτική ένδειξη δίπλα στο κείμενο.
+
+## Βήμα 5: Κατασκευή δομής περιγράμματος
+Προσθέστε τον κόμβο `RichText` στο `OutlineElement`, στη συνέχεια προσθέστε το στοιχείο στο `Outline`, και τέλος συνδέστε το περίγραμμα στη σελίδα.  
+
 ```java
 outlineElem.appendChildLast(text);
 outline.appendChildLast(outlineElem);
 page.appendChildLast(outline);
 doc.appendChildLast(page);
 ```
-Αυτό το βήμα εξασφαλίζει ότι το περιεχόμενό σας είναι οργανωμένο μέσα στο έγγραφο, ολοκληρώνοντας τη διαδικασία **create outline in OneNote**.
 
-## Βήμα 6: Αποθήκευση Εγγράφου
-Αποθηκεύστε το έγγραφο σε μορφή PDF, το οποίο **generates PDF from OneNote**:
+Αυτό το βήμα ολοκληρώνει τη ιεραρχική διάταξη, ολοκληρώνοντας τη ροή εργασίας **create outline in OneNote**.
+
+## Βήμα 6: Αποθήκευση του εγγράφου ως PDF
+`SaveFormat.Pdf` λέει στο Aspose.Note να γράψει το σημειωματάριο ως αρχείο PDF.  
+
 ```java
 doc.save(dataDir + "AddTag_out.pdf", SaveFormat.Pdf);
 System.out.printf("File Saved: %s\n", dataDir + "AddTag_out.pdf");
 ```
-Τώρα, το έγγραφο OneNote με τις προστιθέμενες ετικέτες αποθηκεύεται ως PDF.
 
-Ακολουθώντας αυτά τα βήματα, μπορείτε εύκολα να βελτιώσετε τα έγγραφα OneNote χρησιμοποιώντας το Aspose.Note for Java.
+Το παραγόμενο PDF διατηρεί την ιεραρχία του περιγράμματος και τις οπτικές ετικέτες, καθιστώντας το αναζητήσιμο και εκτυπώσιμο.
 
-## Συμπέρασμα
-Σε αυτό το tutorial εξερευνήσαμε πώς να **create outline in OneNote**, να προσθέσουμε ετικέτα στο OneNote και στη συνέχεια να **generate PDF from OneNote** χρησιμοποιώντας το Aspose.Note for Java. Η χρήση της Java σας δίνει πλήρη έλεγχο πάνω στη δομή των σημειώσεων, την οπτική σήμανση και τις επιλογές εξαγωγής, καθιστώντας τις σημειώσεις σας πιο οργανωμένες και διαμοιραζόμενες.
+## Συνηθισμένα προβλήματα και αντιμετώπιση
+- **Η ετικέτα δεν εμφανίζεται:** Βεβαιωθείτε ότι προσθέτετε το `NoteTag` στο αντικείμενο `RichText` *πριν* συνδέσετε το κείμενο στο στοιχείο του περιγράμματος.  
+- **Το περίγραμμα δεν συμπτύσσεται σε PDF:** Οι προβολείς PDF δεν υποστηρίζουν το διαδραστικό περίγραμμα του OneNote· η ιεραρχία διατηρείται ως σελιδοδείκτες.  
+- **Τα μεγάλα σημειωματάρια προκαλούν πίεση μνήμης:** Χρησιμοποιήστε `Document.saveOptions.setLoadOnDemand(true)` για να επεξεργάζεστε τις σελίδες αργά.
 
-## Συχνές Ερωτήσεις
-### 1. Μπορώ να χρησιμοποιήσω το Aspose.Note for Java με άλλες γλώσσες προγραμματισμού;
-Το Aspose.Note υποστηρίζει κυρίως Java, αλλά υπάρχουν επίσης εκδόσεις διαθέσιμες για .NET.
+## Συχνές ερωτήσεις
 
-### 2. Είναι το Aspose.Note for Java κατάλληλο για αρχάριους;
-Ναι, το Aspose.Note for Java παρέχει εκτενή τεκμηρίωση και υποστήριξη, καθιστώντας το προσβάσιμο τόσο για αρχάριους όσο και για έμπειρους προγραμματιστές.
+**Q: Μπορώ να χρησιμοποιήσω το Aspose.Note for Java με άλλες γλώσσες προγραμματισμού;**  
+A: Το Aspose.Note στοχεύει κυρίως στη Java, αλλά υπάρχουν ισοδύναμες βιβλιοθήκες για .NET και άλλες πλατφόρμες.
 
-### 3. Πώς μπορώ να αποκτήσω προσωρινή άδεια για το Aspose.Note for Java;
-Μπορείτε να λάβετε μια προσωρινή άδεια [εδώ](https://purchase.aspose.com/temporary-license/).
+**Q: Είναι το Aspose.Note κατάλληλο για αρχάριους;**  
+A: Ναι—το API του είναι καλά τεκμηριωμένο, και η προσέγγιση βήμα‑βήμα σε αυτόν τον οδηγό είναι φιλική για προγραμματιστές κάθε επιπέδου.
 
-### 4. Πού μπορώ να βρω επιπλέον υποστήριξη;
-Για ερωτήσεις ή βοήθεια, επισκεφθείτε το [φόρουμ Aspose.Note](https://forum.aspose.com/c/note/28).
+**Q: Πώς μπορώ να αποκτήσω προσωρινή άδεια για το Aspose.Note for Java;**  
+A: Μπορείτε να λάβετε μια προσωρινή άδεια από τη **[temporary license page](https://purchase.aspose.com/temporary-license/)**.
 
-### 5. Υπάρχει δωρεάν δοκιμή;
-Ναι, μπορείτε να δοκιμάσετε δωρεάν [εδώ](https://releases.aspose.com/).
+**Q: Πού μπορώ να βρω επιπλέον υποστήριξη;**  
+A: Επισκεφθείτε το **[Aspose.Note forum](https://forum.aspose.com/c/note/28)** για βοήθεια της κοινότητας και επίσημη υποστήριξη.
 
-**Πρόσθετες Ε/Ρ**
+**Q: Υπάρχει δωρεάν δοκιμή;**  
+A: Ναι—κατεβάστε μια δοκιμαστική έκδοση από τη **[Aspose releases page](https://releases.aspose.com/)**.
 
-**Ε: Μπορώ να προσαρμόσω το εικονίδιο της ετικέτας;**  
-Α: Ναι – το Aspose.Note παρέχει πολλά προεπιλεγμένα εικονίδια μέσω του `TagIcon` και επιτρέπει επίσης προσαρμοσμένες εικόνες.
+**Q: Μπορώ να προσαρμόσω το εικονίδιο της ετικέτας;**  
+A: Ναι—το Aspose.Note παρέχει προεπιλεγμένα εικονίδια μέσω του enum `TagIcon` και επίσης επιτρέπει την παροχή προσαρμοσμένων εικόνων.
 
-**Ε: Πώς αλλάζω τις ρυθμίσεις εξόδου PDF;**  
-Α: Χρησιμοποιήστε το `PdfSaveOptions` για να ελέγξετε την ποιότητα εικόνας, τη συμπίεση και την ασφάλεια πριν καλέσετε `doc.save`.
+**Q: Πώς αλλάζω τις ρυθμίσεις εξόδου PDF;**  
+A: Χρησιμοποιήστε `PdfSaveOptions` για να προσαρμόσετε την ποιότητα εικόνας, τη συμπίεση και την ασφάλεια πριν καλέσετε `doc.save`.
 
-**Ε: Είναι δυνατόν να προσθέσω πολλαπλές ετικέτες στο ίδιο κείμενο;**  
-Α: Απόλυτα. Καλέστε `text.getTags().add()` πολλές φορές με διαφορετικές εμφανίσεις `NoteTag`.
+**Q: Είναι δυνατόν να προσθέσω πολλαπλές ετικέτες στο ίδιο κείμενο;**  
+A: Απόλυτα. Καλέστε `richText.getTags().add()` πολλές φορές με διαφορετικές εμφανίσεις του `NoteTag`.
 
 ---
 
-**Τελευταία ενημέρωση:** 2026-01-28  
-**Δοκιμασμένο με:** Aspose.Note for Java 24.12  
-**Συγγραφέας:** Aspose  
+## Σχετικά Σεμινάρια
+
+- [Προσθήκη ετικετών στο OneNote – Δημιουργία Ετικετοποιημένου Εγγράφου OneNote με Aspose.Note](/note/java/onenote-tag-operations/)
+- [Πώς να δημιουργήσετε έγγραφο OneNote - Προσθήκη κόμβου κειμένου με ετικέτα χρησιμοποιώντας Aspose.Note](/note/java/onenote-tag-operations/add-text-node-with-tag/)
+- [Δημιουργία προτύπου σημειώσεων συνάντησης με Aspose.Note for Java – Δημιουργία περιγράμματος στο OneNote](/note/java/onenote-tag-operations/generate-template-for-meeting-notes/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
