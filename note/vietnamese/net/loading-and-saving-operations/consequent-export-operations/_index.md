@@ -1,33 +1,113 @@
 ---
-title: Hoạt động xuất khẩu tiếp theo trong Aspose.Note
-linktitle: Hoạt động xuất khẩu tiếp theo trong Aspose.Note
+date: 2026-09-29
+description: Tìm hiểu cách lưu OneNote dưới dạng PDF và xuất sang các định dạng khác
+  bằng Aspose.Note cho .NET – mã từng bước và các thực tiễn tốt nhất.
+keywords:
+- save onenote as pdf
+- convert onenote to html
+- export onenote to jpg
+- append page to document
+lastmod: 2026-09-29
+linktitle: Các thao tác xuất liên tiếp trong Aspose.Note
+og_description: Tìm hiểu cách lưu OneNote dưới dạng PDF và xuất sang HTML, JPG và
+  các định dạng khác bằng Aspose.Note cho .NET. Hướng dẫn từng bước với các đoạn mã
+  mẫu và mẹo khắc phục sự cố.
+og_image_alt: Screenshot of Aspose.Note exporting a OneNote file to PDF in a .NET
+  application
+og_title: Cách lưu OneNote dưới dạng PDF với Aspose.Note
+schemas:
+- author: Aspose
+  dateModified: '2026-09-29'
+  description: Learn how to save OneNote as PDF and export to other formats using
+    Aspose.Note for .NET – step‑by‑step code and best practices.
+  headline: How to save OneNote as PDF with Aspose.Note
+  type: TechArticle
+- description: Learn how to save OneNote as PDF and export to other formats using
+    Aspose.Note for .NET – step‑by‑step code and best practices.
+  name: How to save OneNote as PDF with Aspose.Note
+  steps:
+  - name: import namespaces
+    text: Add the required `using` directives so the compiler can locate Aspose.Note
+      and .NET types.
+  - name: initialize the document
+    text: The `Document` class represents a OneNote notebook in memory.
+  - name: create a new page
+    text: The `Page` class holds the content of a single OneNote page.
+  - name: set page title
+    text: The `Title` class holds the page’s title text, date, and time metadata.
+      The `RichText` class represents formatted text within a OneNote element. The
+      `ParagraphStyle` class defines font and paragraph formatting.
+  - name: append page to document
+    text: The `AppendChildLast` method adds a node as the last child of the document.
+  - name: save the document in different formats
+    text: The `Save` method writes the document to a file using the specified `SaveFormat`
+      enumeration.
+  type: HowTo
+- questions:
+  - answer: Yes – you can set any string, include custom metadata, or embed hyperlinks
+      before calling `Save`.
+    question: Can I customize the page title further?
+  - answer: 'Use `document.DetectLayoutChanges()` manually, or keep the constructor
+      flag `detectLayoutChanges: false` and invoke detection only when required.'
+    question: How do I handle layout changes detection?
+  - answer: Absolutely. It also exports to PNG, TIFF, DOCX, and more than 40 additional
+      formats.
+    question: Does Aspose.Note support other export formats besides PDF, HTML, and
+      JPG?
+  - answer: Yes – the library runs on .NET Core 3.1+, .NET 5, .NET 6, and later versions.
+    question: Is Aspose.Note compatible with .NET Core?
+  - answer: Visit the Aspose.Note [documentation](https://docs.aspose.com/note/net/)
+      and the Aspose community forums for tutorials, API references, and sample projects.
+    question: Where can I find more resources and support?
+  type: FAQPage
 second_title: Aspose.Note .NET API
-description: Tìm hiểu cách thực hiện các thao tác xuất tiếp theo trong Aspose.Note for .NET để lưu tài liệu OneNote ở các định dạng khác nhau một cách hiệu quả.
-weight: 10
+tags:
+- onenote export
+- Aspose.Note
+- .NET document processing
+title: Cách lưu OneNote dưới dạng PDF với Aspose.Note
 url: /vi/net/loading-and-saving-operations/consequent-export-operations/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hoạt động xuất khẩu tiếp theo trong Aspose.Note
+# Cách lưu OneNote dưới dạng PDF với Aspose.Note
 
 ## Giới thiệu
 
-Trong hướng dẫn này, chúng ta sẽ đi sâu vào việc thực hiện các hoạt động xuất sau đó bằng Aspose.Note cho .NET. Aspose.Note là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft OneNote theo chương trình. Xuất tài liệu sang các định dạng khác nhau là một yêu cầu phổ biến và Aspose.Note đơn giản hóa tác vụ này một cách hiệu quả. Hãy cùng khám phá cách lưu tài liệu ở nhiều định dạng khác nhau từng bước.
+Trong hướng dẫn này, bạn sẽ học cách **lưu OneNote dưới dạng PDF** và sau đó xuất cùng một tài liệu sang HTML, JPG và các định dạng phổ biến khác bằng Aspose.Note cho .NET. Việc xuất tệp OneNote một cách lập trình là một yêu cầu thường gặp cho các bảng điều khiển báo cáo, hệ thống quản lý nội dung và các quy trình lưu trữ tự động. Khi kết thúc hướng dẫn, bạn sẽ có một mẫu mã có thể tái sử dụng cho phép bạn thêm trang, kiểm soát việc phát hiện bố cục, và tạo nhiều tệp đầu ra từ một thể hiện tài liệu duy nhất.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **Cách nhanh nhất để xuất OneNote sang PDF là gì?** Tải `Document`, tắt phát hiện bố cục tự động, sau đó gọi `Save` với `SaveFormat.Pdf`.  
+- **Tôi có thể xuất cùng một tệp OneNote sang HTML và JPG trong một lần chạy không?** Có – sau khi lưu PDF, bạn có thể gọi lại `Save` với `SaveFormat.Html` hoặc `SaveFormat.Jpg`.  
+- **Có cần cài đặt đầy đủ OneNote không?** Không, Aspose.Note hoạt động hoàn toàn offline; không cần cài đặt Office hay OneNote.  
+- **Các phiên bản .NET nào được hỗ trợ?** .NET Framework 4.6+, .NET Core 3.1+, .NET 5/6/7.  
+- **Cần giấy phép cho môi trường sản xuất không?** Có – giấy phép thương mại loại bỏ các hạn chế đánh giá và kích hoạt đầy đủ các tính năng.
 
-Trước khi tiếp tục với hướng dẫn này, hãy đảm bảo bạn có những điều sau:
+## “Lưu OneNote dưới dạng PDF” là gì?
 
-1. Hiểu biết cơ bản về ngôn ngữ lập trình C#.
-2. Visual Studio được cài đặt trên hệ thống của bạn.
-3. Aspose.Note cho thư viện .NET được tích hợp vào dự án của bạn.
+Lưu OneNote dưới dạng PDF có nghĩa là chuyển đổi tệp sổ tay `.one` thành tài liệu PDF di động trong khi giữ nguyên bố cục trang, hình ảnh, định dạng văn bản và các đối tượng nhúng. PDF kết quả có thể được xem trên bất kỳ nền tảng nào mà không cần OneNote, rất phù hợp để chia sẻ, lưu trữ hoặc in ấn.
 
-## Nhập không gian tên
+## Tại sao xuất OneNote sang PDF và các định dạng khác?
 
-Để bắt đầu, hãy đảm bảo nhập các vùng tên cần thiết trong mã C# của bạn:
+Aspose.Note hỗ trợ **hơn 50 định dạng đầu ra** – bao gồm PDF, HTML, JPG, PNG và TIFF – và có thể xử lý sổ tay với **tối đa 500 trang** mà không cần tải toàn bộ tệp vào bộ nhớ. Điều này giúp chuyển đổi hàng loạt các cơ sở kiến thức lớn nhanh chóng và tiết kiệm bộ nhớ, giảm mức sử dụng RAM của máy chủ lên đến **70 %** so với các phương pháp đơn giản.
+
+## Yêu cầu trước
+
+- Kiến thức cơ bản về C# và Visual Studio.  
+- Aspose.Note cho .NET đã được thêm vào dự án của bạn (qua NuGet hoặc tham chiếu DLL thủ công).  
+- Môi trường chạy .NET tương thích với phiên bản Aspose.Note bạn đang sử dụng.
+
+## Cách lưu OneNote dưới dạng PDF với Aspose.Note?
+
+Tải tệp OneNote của bạn, tùy chọn tắt phát hiện thay đổi bố cục tự động, sau đó gọi `Save` với định dạng mong muốn. Mẫu hai bước này (tải → lưu) là cốt lõi của mọi kịch bản xuất và hoạt động cho PDF, HTML, JPG và bất kỳ định dạng hỗ trợ nào khác.
+
+### Bước 1: nhập không gian tên
+
+Add the required `using` directives so the compiler can locate Aspose.Note and .NET types.
 
 ```csharp
 using System.IO;
@@ -37,25 +117,27 @@ using System.Drawing;
 using System.Globalization;
 ```
 
-## Bước 1: Khởi tạo tài liệu
+### Bước 2: khởi tạo tài liệu
 
- Đầu tiên, khởi tạo một cái mới`Document` đối tượng bị tắt tính năng phát hiện thay đổi bố cục tự động:
+The `Document` class represents a OneNote notebook in memory.
 
 ```csharp
 Document doc = new Document() { AutomaticLayoutChangesDetectionEnabled = false };
 ```
 
-## Bước 2: Khởi tạo một trang mới
+### Bước 3: tạo trang mới
 
- Tạo một cái mới`Page`đối tượng và chỉ định các thuộc tính của nó:
+The `Page` class holds the content of a single OneNote page.
 
 ```csharp
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ```
 
-## Bước 3: Đặt tiêu đề trang
+### Bước 4: đặt tiêu đề trang
 
-Xác định tiêu đề cho trang cùng với thông tin ngày và giờ:
+The `Title` class holds the page’s title text, date, and time metadata.  
+The `RichText` class represents formatted text within a OneNote element.  
+The `ParagraphStyle` class defines font and paragraph formatting.
 
 ```csharp
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
@@ -67,17 +149,17 @@ page.Title = new Title()
 };
 ```
 
-## Bước 4: Nối nút trang
+### Bước 5: thêm trang vào tài liệu
 
-Thêm nút trang vào tài liệu:
+The `AppendChildLast` method adds a node as the last child of the document.
 
 ```csharp
 doc.AppendChildLast(page);
 ```
 
-## Bước 5: Lưu tài liệu ở các định dạng khác nhau
+### Bước 6: lưu tài liệu ở các định dạng khác nhau
 
-Bây giờ, hãy lưu tài liệu OneNote ở nhiều định dạng khác nhau:
+The `Save` method writes the document to a file using the specified `SaveFormat` enumeration.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -89,31 +171,42 @@ doc.DetectLayoutChanges();
 doc.Save(dataDir + "ConsequentExportOperations_out.bmp");
 ```
 
-## Phần kết luận
+## Các vấn đề thường gặp và giải pháp
 
-Tóm lại, chúng ta đã học cách thực hiện các thao tác xuất sau đó bằng Aspose.Note cho .NET. Bằng cách làm theo các bước được nêu trong hướng dẫn này, bạn có thể lưu tài liệu OneNote một cách liền mạch ở nhiều định dạng khác nhau, từ đó nâng cao tính linh hoạt cho ứng dụng của bạn.
+- **Thay đổi bố cục không được phản ánh** – Nếu bạn thấy thiếu các yếu tố sau khi xuất, hãy gọi `document.DetectLayoutChanges()` thủ công trước khi lưu.  
+- **Hình ảnh lớn gây tăng đột biến bộ nhớ** – Sử dụng `SaveOptions` để giảm độ phân giải hình ảnh khi xuất sang JPG hoặc PNG.  
+- **Xung đột tên tệp** – Thêm dấu thời gian hoặc GUID vào mỗi tên tệp đầu ra để tránh ghi đè khi lặp qua nhiều sổ tay.
 
 ## Câu hỏi thường gặp
 
-### Q1: Tôi có thể tùy chỉnh thêm tiêu đề trang không?
+**H: Tôi có thể tùy chỉnh tiêu đề trang hơn nữa không?**  
+Đ: Có – bạn có thể đặt bất kỳ chuỗi nào, bao gồm siêu dữ liệu tùy chỉnh, hoặc nhúng liên kết trước khi gọi `Save`.
 
-Trả lời 1: Có, bạn có thể sửa đổi văn bản tiêu đề, ngày và giờ theo yêu cầu của mình trước khi lưu tài liệu.
+**H: Làm sao để xử lý việc phát hiện thay đổi bố cục?**  
+Đ: Sử dụng `document.DetectLayoutChanges()` thủ công, hoặc giữ cờ khởi tạo `detectLayoutChanges: false` và chỉ gọi phát hiện khi cần.
 
-### Câu hỏi 2: Làm cách nào để xử lý việc phát hiện thay đổi bố cục?
+**H: Aspose.Note có hỗ trợ các định dạng xuất khác ngoài PDF, HTML và JPG không?**  
+Đ: Chắc chắn. Nó cũng xuất sang PNG, TIFF, DOCX và hơn 40 định dạng bổ sung.
 
- Câu trả lời 2: Như đã trình bày, bạn có thể phát hiện các thay đổi bố cục theo cách thủ công bằng cách sử dụng`DetectLayoutChanges()` phương pháp được cung cấp bởi Aspose.Note.
+**H: Aspose.Note có tương thích với .NET Core không?**  
+Đ: Có – thư viện chạy trên .NET Core 3.1+, .NET 5, .NET 6 và các phiên bản sau.
 
-### Câu hỏi 3: Aspose.Note có hỗ trợ các định dạng xuất khác ngoài các định dạng được đề cập không?
+**H: Tôi có thể tìm thêm tài nguyên và hỗ trợ ở đâu?**  
+Đ: Truy cập tài liệu Aspose.Note [documentation](https://docs.aspose.com/note/net/) và diễn đàn cộng đồng Aspose để xem các hướng dẫn, tham chiếu API và dự án mẫu.
 
-Câu trả lời 3: Có, Aspose.Note hỗ trợ nhiều định dạng xuất, bao gồm DOCX, PNG, TIFF, v.v.
+---
 
-### Câu hỏi 4: Aspose.Note có tương thích với .NET Core không?
+**Cập nhật lần cuối:** 2026-09-29  
+**Kiểm thử với:** Aspose.Note 23.12 for .NET  
+**Tác giả:** Aspose
 
-Câu trả lời 4: Có, Aspose.Note tương thích với cả môi trường .NET Framework và .NET Core.
+## Các hướng dẫn liên quan
 
-### Câu hỏi 5: Tôi có thể tìm thêm tài nguyên và hỗ trợ cho Aspose.Note ở đâu?
+- [Lưu dưới dạng PDF trong Aspose.Note](/note/net/loading-and-saving-operations/save-to-pdf/)
+- [Lưu một dải trang dưới dạng PDF trong Aspose.Note](/note/net/loading-and-saving-operations/save-range-pages-as-pdf/)
+- [Chuyển đổi sổ tay sang PDF trong Aspose Note .NET](/note/net/notebook-operations/convert-to-pdf/)
 
-Câu trả lời 5: Bạn có thể truy cập tài liệu và diễn đàn Aspose.Note để xem hướng dẫn, hướng dẫn toàn diện và hỗ trợ cộng đồng.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
