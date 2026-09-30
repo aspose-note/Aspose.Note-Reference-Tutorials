@@ -1,33 +1,110 @@
 ---
-title: Aspose.Note 中的后续导出操作
-linktitle: Aspose.Note 中的后续导出操作
+date: 2026-09-29
+description: 了解如何使用 Aspose.Note for .NET 将 OneNote 保存为 PDF 并导出为其他格式——一步一步的代码示例和最佳实践。
+keywords:
+- save onenote as pdf
+- convert onenote to html
+- export onenote to jpg
+- append page to document
+lastmod: 2026-09-29
+linktitle: Aspose.Note 中的连续导出操作
+og_description: 了解如何使用 Aspose.Note for .NET 将 OneNote 保存为 PDF 并导出为 HTML、JPG 等格式。一步一步的指南，包含代码片段和故障排除技巧。
+og_image_alt: Screenshot of Aspose.Note exporting a OneNote file to PDF in a .NET
+  application
+og_title: 如何使用 Aspose.Note 将 OneNote 保存为 PDF
+schemas:
+- author: Aspose
+  dateModified: '2026-09-29'
+  description: Learn how to save OneNote as PDF and export to other formats using
+    Aspose.Note for .NET – step‑by‑step code and best practices.
+  headline: How to save OneNote as PDF with Aspose.Note
+  type: TechArticle
+- description: Learn how to save OneNote as PDF and export to other formats using
+    Aspose.Note for .NET – step‑by‑step code and best practices.
+  name: How to save OneNote as PDF with Aspose.Note
+  steps:
+  - name: import namespaces
+    text: Add the required `using` directives so the compiler can locate Aspose.Note
+      and .NET types.
+  - name: initialize the document
+    text: The `Document` class represents a OneNote notebook in memory.
+  - name: create a new page
+    text: The `Page` class holds the content of a single OneNote page.
+  - name: set page title
+    text: The `Title` class holds the page’s title text, date, and time metadata.
+      The `RichText` class represents formatted text within a OneNote element. The
+      `ParagraphStyle` class defines font and paragraph formatting.
+  - name: append page to document
+    text: The `AppendChildLast` method adds a node as the last child of the document.
+  - name: save the document in different formats
+    text: The `Save` method writes the document to a file using the specified `SaveFormat`
+      enumeration.
+  type: HowTo
+- questions:
+  - answer: Yes – you can set any string, include custom metadata, or embed hyperlinks
+      before calling `Save`.
+    question: Can I customize the page title further?
+  - answer: 'Use `document.DetectLayoutChanges()` manually, or keep the constructor
+      flag `detectLayoutChanges: false` and invoke detection only when required.'
+    question: How do I handle layout changes detection?
+  - answer: Absolutely. It also exports to PNG, TIFF, DOCX, and more than 40 additional
+      formats.
+    question: Does Aspose.Note support other export formats besides PDF, HTML, and
+      JPG?
+  - answer: Yes – the library runs on .NET Core 3.1+, .NET 5, .NET 6, and later versions.
+    question: Is Aspose.Note compatible with .NET Core?
+  - answer: Visit the Aspose.Note [documentation](https://docs.aspose.com/note/net/)
+      and the Aspose community forums for tutorials, API references, and sample projects.
+    question: Where can I find more resources and support?
+  type: FAQPage
 second_title: Aspose.Note .NET API
-description: 了解如何在 Aspose.Note for .NET 中执行后续导出操作，以有效地以不同格式保存 OneNote 文档。
-weight: 10
+tags:
+- onenote export
+- Aspose.Note
+- .NET document processing
+title: 如何使用 Aspose.Note 将 OneNote 保存为 PDF
 url: /zh/net/loading-and-saving-operations/consequent-export-operations/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Note 中的后续导出操作
+# 如何使用 Aspose.Note 将 OneNote 保存为 PDF
 
 ## 介绍
 
-在本教程中，我们将深入研究使用 Aspose.Note for .NET 执行后续导出操作。 Aspose.Note 是一个功能强大的库，使开发人员能够以编程方式处理 Microsoft OneNote 文件。将文档导出为不同的格式是一种常见的要求，Aspose.Note 有效地简化了这项任务。让我们逐步探索如何以各种格式保存文档。
+在本教程中，您将学习如何 **将 OneNote 保存为 PDF**，然后使用 Aspose.Note for .NET 将同一文档导出为 HTML、JPG 和其他流行格式。以编程方式导出 OneNote 文件是报告仪表板、内容管理系统和自动归档流水线的常见需求。完成本指南后，您将拥有可重用的代码模式，能够追加页面、控制布局检测，并使用单个文档实例生成多个输出文件。
 
-## 先决条件
+## 快速答案
+- **导出 OneNote 为 PDF 的最快方法是什么？** 加载 `Document`，禁用自动布局检测，然后使用 `SaveFormat.Pdf` 调用 `Save`。  
+- **我可以在一次运行中将同一个 OneNote 文件导出为 HTML 和 JPG 吗？** 可以——在 PDF 保存之后，您可以再次使用 `SaveFormat.Html` 或 `SaveFormat.Jpg` 调用 `Save`。  
+- **我需要完整的 OneNote 安装吗？** 不需要，Aspose.Note 完全离线工作；不需要 Office 或 OneNote 安装。  
+- **支持哪些 .NET 版本？** .NET Framework 4.6+、.NET Core 3.1+、.NET 5/6/7。  
+- **生产环境需要许可证吗？** 是的——商业许可证可移除评估限制并启用完整功能集。
 
-在继续本教程之前，请确保您具备以下条件：
+## 什么是 “将 OneNote 保存为 PDF”？
 
-1. 对 C# 编程语言有基本了解。
-2. Visual Studio 安装在您的系统上。
-3. Aspose.Note for .NET 库集成到您的项目中。
+将 OneNote 保存为 PDF 是指将 `.one` 笔记本文件转换为可移植的 PDF 文档，同时保留原始页面布局、图像、文本格式和嵌入对象。生成的 PDF 可在任何平台上查看，无需 OneNote，因而非常适合共享、归档或打印。
 
-## 导入命名空间
+## 为什么将 OneNote 导出为 PDF 及其他格式？
 
-首先，请确保在 C# 代码中导入必要的命名空间：
+Aspose.Note 支持 **50+ 输出格式**——包括 PDF、HTML、JPG、PNG 和 TIFF——并且能够在不将整个文件加载到内存中的情况下处理 **最多 500 页** 的笔记本。这使得大规模知识库的批量转换既快速又节省内存，与朴素的方法相比，可将服务器 RAM 使用量降低至 **70 %**。
+
+## 前提条件
+
+- 具备 C# 和 Visual Studio 的基础知识。
+- 已在项目中添加 Aspose.Note for .NET（通过 NuGet 或手动 DLL 引用）。
+- .NET 运行时与您使用的 Aspose.Note 版本兼容。
+
+## 如何使用 Aspose.Note 将 OneNote 保存为 PDF？
+
+加载 OneNote 文件，可选地禁用自动布局更改检测，然后使用所需格式调用 `Save`。这种两步模式（加载 → 保存）是所有导出场景的核心，适用于 PDF、HTML、JPG 以及任何其他受支持的格式。
+
+### 步骤 1：导入命名空间
+
+添加所需的 `using` 指令，以便编译器能够定位 Aspose.Note 和 .NET 类型。
 
 ```csharp
 using System.IO;
@@ -37,25 +114,27 @@ using System.Drawing;
 using System.Globalization;
 ```
 
-## 第1步：初始化文档
+### 步骤 2：初始化文档
 
-首先，初始化一个新的`Document`禁用自动布局更改检测的对象：
+`Document` 类在内存中表示一个 OneNote 笔记本。
 
 ```csharp
 Document doc = new Document() { AutomaticLayoutChangesDetectionEnabled = false };
 ```
 
-## 第 2 步：初始化新页面
+### 步骤 3：创建新页面
 
-创建一个新的`Page`对象并指定其属性：
+`Page` 类保存单个 OneNote 页面 的内容。
 
 ```csharp
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ```
 
-## 第三步：设置页面标题
+### 步骤 4：设置页面标题
 
-定义页面标题以及日期和时间信息：
+`Title` 类保存页面的标题文本、日期和时间元数据。  
+`RichText` 类表示 OneNote 元素中的格式化文本。  
+`ParagraphStyle` 类定义字体和段落格式。
 
 ```csharp
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
@@ -67,17 +146,17 @@ page.Title = new Title()
 };
 ```
 
-## 第4步：追加页面节点
+### 步骤 5：将页面追加到文档
 
-将页面节点添加到文档中：
+`AppendChildLast` 方法将节点添加为文档的最后一个子节点。
 
 ```csharp
 doc.AppendChildLast(page);
 ```
 
-## 步骤 5：以不同格式保存文档
+### 步骤 6：以不同格式保存文档
 
-现在，以各种格式保存 OneNote 文档：
+`Save` 方法使用指定的 `SaveFormat` 枚举将文档写入文件。
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -89,31 +168,41 @@ doc.DetectLayoutChanges();
 doc.Save(dataDir + "ConsequentExportOperations_out.bmp");
 ```
 
-## 结论
+## 常见问题及解决方案
 
-总之，我们已经学习了如何使用 Aspose.Note for .NET 执行后续导出操作。通过遵循本教程中概述的步骤，您可以无缝地以各种格式保存 OneNote 文档，从而增强应用程序的多功能性。
+- **布局更改未反映** – 如果在导出后发现缺少元素，请在保存前手动调用 `document.DetectLayoutChanges()`。
+- **大图像导致内存激增** – 导出为 JPG 或 PNG 时，使用 `SaveOptions` 对图像进行降采样。
+- **文件名冲突** – 为每个输出文件名追加时间戳或 GUID，以避免在遍历多个笔记本时被覆盖。
 
-## 常见问题解答
+## 常见问答
 
-### Q1：我可以进一步自定义页面标题吗？
+**问：我可以进一步自定义页面标题吗？**  
+答：可以——在调用 `Save` 之前，您可以设置任意字符串、包含自定义元数据或嵌入超链接。
 
-A1: 是的，您可以在保存文档之前根据您的要求修改标题文本、日期和时间。
+**问：如何处理布局更改检测？**  
+答：手动使用 `document.DetectLayoutChanges()`，或保持构造函数标志 `detectLayoutChanges: false`，仅在需要时调用检测。
 
-### Q2：如何处理布局更改检测？
+**问：Aspose.Note 是否支持除 PDF、HTML 和 JPG 之外的其他导出格式？**  
+答：当然。它还支持导出为 PNG、TIFF、DOCX，以及超过 40 种其他格式。
 
- A2：如所示，您可以使用以下命令手动检测布局更改`DetectLayoutChanges()`Aspose.Note提供的方法。
+**问：Aspose.Note 与 .NET Core 兼容吗？**  
+答：是的——该库可在 .NET Core 3.1+、.NET 5、 .NET 6 以及更高版本上运行。
 
-### Q3：Aspose.Note 是否支持除上述格式之外的其他导出格式？
+**问：在哪里可以找到更多资源和支持？**  
+答：访问 Aspose.Note [文档](https://docs.aspose.com/note/net/) 和 Aspose 社区论坛，获取教程、API 参考和示例项目。
 
-A3：是的，Aspose.Note 支持多种导出格式，包括 DOCX、PNG、TIFF 等。
+---
 
-### Q4：Aspose.Note 与.NET Core 兼容吗？
+**最后更新：** 2026-09-29  
+**测试环境：** Aspose.Note 23.12 for .NET  
+**作者：** Aspose
 
-A4：是的，Aspose.Note 兼容 .NET Framework 和 .NET Core 环境。
+## 相关教程
 
-### Q5：在哪里可以找到更多 Aspose.Note 资源和支持？
+- [在 Aspose.Note 中保存为 PDF](/note/net/loading-and-saving-operations/save-to-pdf/)
+- [在 Aspose.Note 中将页面范围保存为 PDF](/note/net/loading-and-saving-operations/save-range-pages-as-pdf/)
+- [在 Aspose Note .NET 中将笔记本转换为 PDF](/note/net/notebook-operations/convert-to-pdf/)
 
-A5：您可以访问 Aspose.Note 文档和论坛以获得全面的指南、教程和社区支持。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

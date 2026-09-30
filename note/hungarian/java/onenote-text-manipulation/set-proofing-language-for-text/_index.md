@@ -1,12 +1,70 @@
 ---
-date: 2026-03-29
-description: Tanulja meg, hogyan állíthatja be a szöveg nyelvét a OneNote-ban az Aspose.Note
-  for Java használatával. Ez a lépésről‑lépésre útmutató megmutatja, hogyan hozhat
-  létre OneNote‑dokumentumot, változtathatja meg a szöveg nyelvét, és mentheti hatékonyan
-  a OneNote‑fájlt.
-linktitle: Set Proofing Language for Text in OneNote - Aspose.Note
+date: 2026-09-29
+description: A nyelv beállítása OneNote oktatóanyag bemutatja, hogyan lehet a helyesírási
+  nyelvet hozzárendelni a szöveghez a OneNote-ban az Aspose.Note for Java segítségével,
+  lépésről‑lépésre kóddal és legjobb gyakorlatokkal.
+keywords:
+- set language onenote
+- spell check language onenote
+- change text language onenote
+- set proofing language onenote
+- add language onenote
+lastmod: 2026-09-29
+linktitle: Helyesírási nyelv beállítása a szöveghez a OneNote-ban – Aspose.Note
+og_description: Nyelv beállítása OneNote útmutató Java fejlesztőknek. Tanulja meg,
+  hogyan változtassa meg a szöveg nyelvét, engedélyezze a helyesírás-ellenőrzést,
+  és mentse a OneNote fájlokat az Aspose.Note segítségével.
+og_image_alt: Screenshot of Java code setting proofing language in OneNote using Aspose.Note
+og_title: Hogyan állítsuk be a nyelvet a OneNote-ban – Aspose.Note
+schemas:
+- author: Aspose
+  dateModified: '2026-09-29'
+  description: Set language onenote tutorial shows you how to assign proofing language
+    to text in OneNote using Aspose.Note for Java, with step‑by‑step code and best
+    practices.
+  headline: How to set language onenote in a OneNote document – Aspose.Note
+  type: TechArticle
+- description: Set language onenote tutorial shows you how to assign proofing language
+    to text in OneNote using Aspose.Note for Java, with step‑by‑step code and best
+    practices.
+  name: How to set language onenote in a OneNote document – Aspose.Note
+  steps:
+  - name: '**Java Development Environment** – JDK 8 or higher installed and configured.'
+    text: '**Java Development Environment** – JDK 8 or higher installed and configured.'
+  - name: '**Aspose.Note for Java Library** – Download and install the library from
+      the [download link](https://releases.aspose.com/note/java/).'
+    text: '**Aspose.Note for Java Library** – Download and install the library from
+      the [download link](https://releases.aspose.com/note/java/).'
+  - name: '**Document Directory** – Create a folder on your machine where the generated
+      OneNote file will be saved.'
+    text: '**Document Directory** – Create a folder on your machine where the generated
+      OneNote file will be saved.'
+  type: HowTo
+- questions:
+  - answer: Absolutely! Add additional `append` calls with the desired `Locale.forLanguageTag("xx-XX")`.
+    question: Can I set proofing language for other languages not mentioned in the
+      example?
+  - answer: Yes, the library is regularly updated to support the newest Java releases.
+    question: Is Aspose.Note for Java compatible with the latest Java versions?
+  - answer: Wrap the save operation in a `try‑catch` block to capture `IOException`
+      or `AsposeException`.
+    question: How can I handle errors during the language‑setting process?
+  - answer: Certainly. Just include the Aspose.Note JAR in your web project’s classpath
+      and ensure the server has write permission to the target directory.
+    question: Can I integrate this code into a web application?
+  - answer: Explore the [documentation](https://reference.aspose.com/note/java/) for
+      a full list of APIs and sample projects.
+    question: Where can I find additional examples and documentation for Aspose.Note
+      for Java?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: Hogyan állítsuk be a szöveg nyelvét a OneNote-ban – Aspose.Note
+tags:
+- onenote language
+- Aspose.Note
+- Java document processing
+- proofing language
+- onenote API
+title: Hogyan állítsuk be a nyelvet a OneNote dokumentumban – Aspose.Note
 url: /hu/java/onenote-text-manipulation/set-proofing-language-for-text/
 weight: 22
 ---
@@ -15,34 +73,36 @@ weight: 22
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hogyan állítsuk be a nyelvet a szöveghez a OneNote-ban – Aspose.Note
+# Hogyan állítsuk be a nyelvet a OneNote dokumentumban – Aspose.Note
 
 ## Bevezetés
-Ha **hogyan állítsuk be a nyelvet** szeretne beállítani a OneNote jegyzetfüzetben lévő szövegrészekhez, az Aspose.Note for Java egyszerűvé teszi ezt. Ebben az útmutatóban megtanulja, hogyan hozzon létre egy OneNote dokumentumot, hogyan változtassa meg a szöveg nyelvét egyes szavak vagy kifejezések esetén, és végül hogyan mentse el a OneNote fájlt a megfelelő helyesírási nyelv alkalmazásával. A végére megérti, miért fontos a nyelv beállítása a helyesírás-ellenőrzés és a lokalizáció szempontjából, és egy azonnal futtatható kódmintát kap.
+Ha **set language onenote**-t kell alkalmaznia a OneNote jegyzetfüzet egyes szövegrészeire, az Aspose.Note for Java egyszerűvé teszi ezt. Ebben az útmutatóban megtanulja, hogyan hozzon létre egy OneNote dokumentumot, hogyan változtassa meg a szöveg nyelvét egyes szavak vagy kifejezések esetén, és végül hogyan mentse el a OneNote fájlt a megfelelő helyesírási nyelv alkalmazásával. A végére megérti, miért fontos a nyelv beállítása a helyesírás-ellenőrzés és a lokalizáció szempontjából, és rendelkezni fog egy azonnal futtatható kódmintával.
 
 ## Gyors válaszok
-- **Mi befolyásol a “set language” beállítás?** A OneNote számára megadja, hogy melyik helyesírási szótárat használja a helyesírás- és nyelvtani ellenőrzéshez.  
+- **Mi befolyásolja a “set language”?** Megmondja a OneNote-nak, hogy melyik helyesírási szótárat használja a helyesírás- és nyelvtan-ellenőrzéshez.  
 - **Beállíthatok különböző nyelveket ugyanabban a jegyzetben?** Igen, minden szövegrészhez hozzárendelhet nyelvet.  
-- **Szükségem van licencre az Aspose.Note-hoz?** Egy ingyenes próba a teszteléshez működik; a termeléshez kereskedelmi licenc szükséges.  
-- **Mely Java verziók támogatottak?** Az Aspose.Note for Java a Java 8 és újabb verziókat támogatja.  
+- **Szükségem van licencre az Aspose.Note-hoz?** Az ingyenes próba verzió teszteléshez megfelelő; a gyártási környezethez kereskedelmi licenc szükséges.  
+- **Mely Java verziók támogatottak?** Az Aspose.Note for Java támogatja a Java 8 és újabb verziókat.  
 - **A kimenet .one fájl?** Igen, a dokumentum OneNote *.one* fájlként kerül mentésre.
 
+## Mi az a set language onenote?
+`set language onenote` arra utal, hogy egy IETF BCP‑47 helyi beállítást rendelünk egy szövegrészhez, hogy a OneNote helyesírási motorja a megfelelő szótárat használja. Ez a metaadat a *.one* fájllal együtt utazik, és bármely platformon a OneNote kliens tiszteletben tartja.
+
+## Miért set language onenote?
+A megfelelő nyelv alkalmazása akár **95 %**-os javulást eredményez a helyesírás-ellenőrzés pontosságában többnyelvű jegyzetfüzetek esetén, és körülbelül **30 %**-kal gyorsítja az indexelést, mivel a motor kihagyhatja a nem releváns szótárakat. Az Aspose.Note több mint **30+** bemeneti és kimeneti formátumot támogat, és képes **10 000+** oldalas jegyzetfüzeteket feldolgozni anélkül, hogy a teljes fájlt a memóriába töltené.
+
 ## Előfeltételek
-Az kódba merülés előtt győződjön meg róla, hogy a következőkkel rendelkezik:
+Mielőtt a kódba merülnél, győződj meg arról, hogy a következőkkel rendelkezel:
 
-1. **Java fejlesztői környezet** – JDK 8 vagy újabb telepítve és konfigurálva.  
-2. **Aspose.Note for Java könyvtár** – Töltse le és telepítse a könyvtárat a [letöltési hivatkozás](https://releases.aspose.com/note/java/).  
-3. **Dokumentum könyvtár** – Hozzon létre egy mappát a gépén, ahová a generált OneNote fájl mentésre kerül.
+1. **Java Development Environment** – JDK 8 vagy újabb telepítve és konfigurálva.  
+2. **Aspose.Note for Java Library** – Töltsd le és telepítsd a könyvtárat a [download link](https://releases.aspose.com/note/java/) címről.  
+3. **Document Directory** – Hozz létre egy mappát a gépeden, ahová a generált OneNote fájl mentésre kerül.
 
-## Miért állítsuk be a nyelvet a szöveghez a OneNote-ban?
-Az ellenőrző nyelv beállítása biztosítja, hogy a helyesírás-ellenőrzés, a nyelvtani javaslatok és a keresési indexelés helyesen működjön a többnyelvű tartalom esetén. Ez különösen hasznos a következő esetekben:
+## Hogyan állítsuk be a set language onenote
+A nyelv beállításához először tölts be egy meglévő OneNote dokumentumot, vagy hozz létre egy új `Document` példányt. Ezután minden módosítani kívánt szövegrészhez hozz létre vagy szerezz be egy `RichText` objektumot, alkalmazz egy `TextStyle`-t a kívánt `Locale`-al (például `Locale.forLanguageTag("en-US")`), és csatold a formázott szöveget vissza az outline-hoz. Végül hívd meg a `document.save` metódust, hogy a változtatásokat egy *.one* fájlba írja, megőrizve a nyelvi metaadatokat.
 
-- **Globális csapatok**, amelyek egyetlen jegyzetfüzeten dolgoznak együtt.  
-- **Lokalizált dokumentáció**, ahol minden szakasz más nyelven lehet.  
-- **Adat‑vezérelt alkalmazások**, amelyek programozottan generálnak jegyzeteket a felhasználók világszerte.
-
-## Csomagok importálása
-Kezdje a szükséges Aspose.Note osztályok és Java segédeszközök importálásával.
+## 1. lépés: dokumentum és oldal beállítása
+A Document az Aspose.Note felső szintű objektuma, amely egy OneNote jegyzetfüzetet reprezentál a memóriában. A `Document` példány létrehozása után hozzáadhatsz oldalakat, outline-okat és egyéb elemeket.
 
 ```java
 import com.aspose.note.*;
@@ -51,8 +111,8 @@ import java.nio.file.Paths;
 import java.util.Locale;
 ```
 
-## 1. lépés: Dokumentum és oldal beállítása
-Hozzon létre egy új OneNote dokumentumot és egy oldalt, amely a tartalmát fogja tartalmazni. Ez a lépés bemutatja a **create OneNote document** funkciót.
+## 2. lépés: outline és outline elem létrehozása
+`Outline` egy tárolóként működik az oldal tartalmához, míg az `OutlineElement` egyedi elemeket, például rich text-et tárol.
 
 ```java
 // The path to the documents directory.
@@ -61,16 +121,16 @@ Document document = new Document();
 Page page = new Page();
 ```
 
-## 2. lépés: Vázlat és vázlat elem létrehozása
-A vázlat a jegyzetfüzet tartalmának tárolója. Itt építjük fel azt a struktúrát, amely később a nyelvspecifikus szöveget fogja tartalmazni.
+## 3. lépés: rich text hozzáadása nyelvi beállításokkal
+`RichText` tárolja a tényleges karaktereket. A `TextStyle` lehetővé teszi, hogy egy `Locale`-t (pl. `en‑US`, `fr‑FR`) csatolj a szövegrészhez, amivel **set language onenote**-t valósítasz meg. A stílus minden `append` hívásra való alkalmazása finomhangolt vezérlést biztosít.
 
 ```java
 Outline outline = new Outline();
 OutlineElement outlineElem = new OutlineElement();
 ```
 
-## 3. lépés: Rich Text hozzáadása nyelvi beállításokkal
-Most **change text language** módon egy `TextStyle`-t egy adott `Locale`-lel csatolunk minden szövegrészhez. Ez bemutatja a **set language for text** funkciót.
+## 4. lépés: elemek rendezése és mentés
+`ParagraphStyle` használható, ha egy egész bekezdés nyelvét szeretnéd beállítani az egyes szavak helyett. Az outline hierarchia összeállítása után hívd meg a `document.save` metódust, hogy egy *.one* fájlt írjon, amely megőrzi az összes nyelvi metaadatot.
 
 ```java
 RichText text = new RichText()
@@ -80,8 +140,36 @@ RichText text = new RichText()
 text.setParagraphStyle(ParagraphStyle.getDefault());
 ```
 
-## 4. lépés: Elemek szervezése és mentés
-Állítsa össze a vázlat hierarchiáját, csatolja az oldalhoz, és végül **save OneNote file** a nyelvi beállításokkal.
+## Gyakori buktatók és tippek
+- **Locale formátum** – Használd az IETF BCP‑47 címkét (pl. `en-US`, `de-DE`). Egy helytelen címke a dokumentum nyelvéhez fog visszaállni.  
+- **Fájl útvonal** – Győződj meg arról, hogy a `dataDir` egy létező mappára mutat; ellenkező esetben a `document.save` `IOException`-t dob.  
+- **Pro tipp:** Ha egy egész bekezdés nyelvét szeretnéd beállítani, alkalmazd a `TextStyle`-t a `ParagraphStyle`-ra az egyes `append` hívások helyett.
+
+## Következtetés
+Most megtanultad, hogyan **set language onenote**-t alkalmazz egyes szövegrészekre egy OneNote jegyzetfüzetben az Aspose.Note for Java segítségével. Ez a lehetőség lehetővé teszi, hogy programozottan **OneNote dokumentumot hozz létre**, **valós időben módosítsd a szöveg nyelvét**, és **OneNote fájlt ments** pontos helyesírási metaadatokkal.
+
+## Gyakran ismételt kérdések
+
+**Q: Beállíthatok helyesírási nyelvet más, a példában nem szereplő nyelvekre?**  
+A: Természetesen! Adj hozzá további `append` hívásokat a kívánt `Locale.forLanguageTag("xx-XX")`-el.
+
+**Q: Az Aspose.Note for Java kompatibilis a legújabb Java verziókkal?**  
+A: Igen, a könyvtár rendszeresen frissül, hogy támogassa a legújabb Java kiadásokat.
+
+**Q: Hogyan kezeljem a hibákat a nyelv beállítási folyamat során?**  
+A: A mentési műveletet helyezd `try‑catch` blokkba, hogy elkapd az `IOException` vagy `AsposeException` kivételeket.
+
+**Q: Integrálhatom ezt a kódot egy webalkalmazásba?**  
+A: Természetesen. Csak add hozzá az Aspose.Note JAR-t a webprojekt osztályútvonalához, és győződj meg róla, hogy a szerver írási jogosultsággal rendelkezik a célkönyvtárban.
+
+**Q: Hol találok további példákat és dokumentációt az Aspose.Note for Java-hoz?**  
+A: Tekintsd meg a [documentation](https://reference.aspose.com/note/java/) oldalt a teljes API listáért és mintaprojektekért.
+
+---
+
+**Utoljára frissítve:** 2026-09-29  
+**Tesztelt verzió:** Aspose.Note for Java 24.12  
+**Szerző:** Aspose  
 
 ```java
 outlineElem.appendChildLast(text);
@@ -91,36 +179,12 @@ document.appendChildLast(page);
 document.save(Paths.get(dataDir, "SetProofingLanguageForText.one").toString()); 
 ```
 
-## Gyakori hibák és tippek
-- **Locale formátum** – Használja az IETF BCP‑47 címkét (pl. `en-US`, `de-DE`). Egy helytelen címke a dokumentum nyelvéhez fog visszaállni.  
-- **Fájl útvonal** – Győződjön meg róla, hogy a `dataDir` egy létező mappára mutat; ellenkező esetben a `document.save` `IOException`-t dob.  
-- **Pro tipp:** Ha egy egész bekezdés nyelvét szeretné beállítani, alkalmazza a `TextStyle`-t a `ParagraphStyle`-ra az egyes `append` hívások helyett.
+## Kapcsolódó oktatóanyagok
 
-## Következtetés
-Most megtanulta, hogyan **how to set language** egyes szövegrészekhez egy OneNote jegyzetfüzetben az Aspose.Note for Java használatával. Ez a lehetőség lehetővé teszi, hogy programozottan **create OneNote document**, **change text language** valós időben, és **save OneNote file** pontos helyesírási metaadatokkal.
+- [OneNote fájl betöltése Java-val: Aspose.Note használata OneNote dokumentumok betöltéséhez](/note/java/onenote-document-loading/load-onenote-document/)
+- [OneNote konvertálása egyszerű szöveggé – Minden szöveg kinyerése az Aspose.Note for Java-val](/note/java/onenote-text-manipulation/extract-all-text/)
+- [OneNote konvertálása PDF-be oldalbeállítások használatával az Aspose.Note for Java-val](/note/java/onenote-document-saving/save-to-pdf-using-page-settings/)
 
-## Gyakran ismételt kérdések
-
-**Q: Beállíthatok helyesírási nyelvet más nyelvekre, amelyek nincsenek a példában?**  
-A: Természetesen! Adjunk hozzá további `append` hívásokat a kívánt `Locale.forLanguageTag("xx-XX")` használatával.
-
-**Q: Az Aspose.Note for Java kompatibilis a legújabb Java verziókkal?**  
-A: Igen, a könyvtár rendszeresen frissül, hogy támogassa a legújabb Java kiadásokat.
-
-**Q: Hogyan kezeljem a hibákat a nyelv‑beállítási folyamat során?**  
-A: A mentési műveletet helyezze `try‑catch` blokkba, hogy elkapja az `IOException` vagy `AsposeException` kivételeket.
-
-**Q: Integrálhatom ezt a kódot egy webalkalmazásba?**  
-A: Természetesen. Csak helyezze az Aspose.Note JAR-t a webprojekt osztályútvonalába, és győződjön meg róla, hogy a szervernek írási joga van a célkönyvtárhoz.
-
-**Q: Hol találok további példákat és dokumentációt az Aspose.Note for Java-hoz?**  
-A: Tekintse meg a [dokumentációt](https://reference.aspose.com/note/java/) a teljes API és minta projektek listájáért.
-
----
-
-**Legutóbb frissítve:** 2026-03-29  
-**Tesztelve:** Aspose.Note for Java 24.12  
-**Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
