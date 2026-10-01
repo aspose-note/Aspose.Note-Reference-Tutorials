@@ -11,13 +11,10 @@ weight: 16
 
   
 
----
 
-Check that we didn't translate any URLs, code placeholders, shortcodes. All good.
 
-Make sure we kept the markdown table formatting. Yes.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

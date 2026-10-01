@@ -10,23 +10,14 @@ url: /id/java/onenote-text-manipulation/extract-text-from-a-page/
 weight: 16
 ---
 
-}}
 
----
 
-**Last Updated:** 2026-03-08  
-**Tested With:** Aspose.Note for Java 24.10 (latest at time of writing)  
-**Author:** Aspose  
 
-All unchanged.
 
-Now produce final content with translation.
 
-Check that we didn't translate URLs, file paths, code placeholders.
 
-Make sure markdown formatting preserved.
 
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

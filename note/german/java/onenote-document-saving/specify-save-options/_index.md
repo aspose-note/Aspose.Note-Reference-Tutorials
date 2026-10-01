@@ -10,11 +10,9 @@ url: /de/java/onenote-document-saving/specify-save-options/
 weight: 24
 ---
 
--backtop-button >}}
 
-Make sure to keep all shortcodes and code block placeholders unchanged. Also keep markdown formatting.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

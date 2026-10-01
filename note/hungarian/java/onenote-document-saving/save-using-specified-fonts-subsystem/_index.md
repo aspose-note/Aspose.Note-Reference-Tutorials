@@ -11,7 +11,7 @@ url: /hu/java/onenote-document-saving/save-using-specified-fonts-subsystem/
 weight: 22
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

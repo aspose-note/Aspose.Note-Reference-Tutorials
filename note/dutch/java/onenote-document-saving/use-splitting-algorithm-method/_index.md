@@ -10,11 +10,9 @@ url: /nl/java/onenote-document-saving/use-splitting-algorithm-method/
 weight: 26
 ---
 
--backtop-button >}}
 
-All good.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -9,29 +9,18 @@ url: /th/java/onenote-text-manipulation/extract-text/
 weight: 17
 ---
 
-" paragraph: we translated.
 
-Check "## Step 1" paragraph: we translated.
 
-Check "## Step 2" paragraph: we translated.
 
-Check "## Step 3" paragraph: we translated.
 
-Check "## Step 4" paragraph: we translated.
 
-Check after code block: we translated.
 
-Check "## Common Issues and Solutions" table: we translated.
 
-Check "## Frequently Asked Questions" subheadings and paragraphs: we translated.
 
-Check "## FAQ" Q&A: we translated.
 
-Check "## Conclusion": we translated.
 
-Check metadata: we translated.
 
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

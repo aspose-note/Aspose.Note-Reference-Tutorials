@@ -9,11 +9,9 @@ url: /vi/java/onenote-text-manipulation/extract-text/
 weight: 17
 ---
 
-.
 
-Also ensure we keep markdown formatting.
 
-Now craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -10,9 +10,8 @@ url: /el/java/onenote-document-manipulation/
 weight: 21
 ---
 
- translate any URLs, file paths, code blocks (none). Keep shortcodes.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

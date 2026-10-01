@@ -10,9 +10,8 @@ url: /tr/java/onenote-text-manipulation/create-chinese-numbered-list/
 weight: 13
 ---
 
- to keep all shortcodes unchanged.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

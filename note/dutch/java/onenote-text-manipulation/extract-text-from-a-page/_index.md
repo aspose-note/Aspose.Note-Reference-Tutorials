@@ -10,15 +10,11 @@ url: /nl/java/onenote-text-manipulation/extract-text-from-a-page/
 weight: 16
 ---
 
-Auteur:**"
 
-Keep dates same.
 
-Now produce final content with all markdown.
 
-Check that we didn't translate URLs, file paths, code placeholders. Good.
 
-Now output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

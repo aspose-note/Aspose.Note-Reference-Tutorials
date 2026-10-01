@@ -9,9 +9,8 @@ url: /sv/java/onenote-text-manipulation/generate-document-from-template/
 weight: 18
 ---
 
- to keep code block placeholders as is.
 
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

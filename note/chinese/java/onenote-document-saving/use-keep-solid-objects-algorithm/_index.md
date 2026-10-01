@@ -8,11 +8,9 @@ url: /zh/java/onenote-document-saving/use-keep-solid-objects-algorithm/
 weight: 25
 ---
 
-/products/products-backtop-button >}}
 
-All preserved.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

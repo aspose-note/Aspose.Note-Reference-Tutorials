@@ -9,23 +9,15 @@ url: /sv/java/onenote-text-manipulation/get-list-properties/
 weight: 19
 ---
 
- 2026-03-08 -> "**Senast uppdaterad:** 2026-03-08"
 
-**Tested With:** Aspose.Note for Java (latest release) -> "**Testat med:** Aspose.Note för Java (senaste versionen)"
 
-**Author:** Aspose -> "**Författare:** Aspose"
 
-Then closing shortcodes.
 
-Also need to keep the backtop button shortcode unchanged.
 
-Now produce final content with all translations.
 
-Check for any missed text: The initial shortcodes lines remain unchanged.
 
-Make sure to keep markdown formatting.
 
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -10,23 +10,15 @@ url: /pl/java/onenote-document-saving/save-to-tiff-image-using-image-save-option
 weight: 21
 ---
 
-b kolorów i rozdzielczość, aby spełnić konkretne wymagania dotyczące **tiff image quality**, i zintegrować te metody w procesach wsadowych dla maksymalnej wydajności."
 
-Then horizontal rule stays.
 
-"**Last Updated:** 2026-03-14" keep same.
 
-"**Tested With:** Aspose.Note for Java 23.12 (latest at time of writing)" keep.
 
-"**Author:** Aspose" keep.
 
-Then closing shortcodes.
 
-Finally backtop button shortcode.
 
-Make sure to keep all shortcodes exactly.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

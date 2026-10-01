@@ -10,15 +10,11 @@ url: /id/java/onenote-document-manipulation/
 weight: 21
 ---
 
-.
 
-Check code blocks: none.
 
-Images: none.
 
-All shortcodes preserved.
 
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

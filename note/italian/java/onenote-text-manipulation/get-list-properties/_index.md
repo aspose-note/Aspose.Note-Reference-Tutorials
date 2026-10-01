@@ -10,9 +10,8 @@ url: /it/java/onenote-text-manipulation/get-list-properties/
 weight: 19
 ---
 
- produce final content with all unchanged shortcodes.
 
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

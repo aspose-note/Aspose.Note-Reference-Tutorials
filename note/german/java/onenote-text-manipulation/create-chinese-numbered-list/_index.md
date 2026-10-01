@@ -10,17 +10,12 @@ url: /de/java/onenote-text-manipulation/create-chinese-numbered-list/
 weight: 13
 ---
 
-..." already done.
 
-Now final metadata lines: "**Last Updated:** 2026-03-08" keep same, maybe translate "Last Updated" to German "Zuletzt aktualisiert". But it's bold text; we can translate. Keep format.
 
-**Tested With:** keep maybe "Getestet mit". **Author:** "Autor". Let's translate.
 
-Now produce final content with all translations.
 
-Be careful to keep placeholders unchanged.
 
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

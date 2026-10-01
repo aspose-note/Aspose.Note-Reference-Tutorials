@@ -10,23 +10,15 @@ url: /pt/java/onenote-text-manipulation/extract-text-from-a-page/
 weight: 16
 ---
 
- programming languages?" etc.
 
-- "Is there a trial version available for Aspose.Note for Java?" etc.
 
-- "Where can I find support for Aspose.Note for Java?" etc.
 
-- "How can I purchase Aspose.Note for Java?" etc.
 
-- "Do I need a temporary license for Aspose.Note for Java?" etc.
 
-- Bottom shortcodes.
 
-- The final metadata lines: "Last Updated:", "Tested With:", "Author:" translate.
 
-Make sure to keep markdown formatting.
 
-Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

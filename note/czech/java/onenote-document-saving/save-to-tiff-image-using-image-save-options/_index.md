@@ -10,9 +10,8 @@ url: /cs/java/onenote-document-saving/save-to-tiff-image-using-image-save-option
 weight: 21
 ---
 
- unchanged. Ensure we didn't translate any URLs (none). Ensure we kept markdown formatting.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

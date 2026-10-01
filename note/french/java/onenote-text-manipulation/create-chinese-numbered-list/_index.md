@@ -10,21 +10,14 @@ url: /fr/java/onenote-text-manipulation/create-chinese-numbered-list/
 weight: 13
 ---
 
- version stable (en 2026) prend en charge toutes les fonctionnalités démontrées ici."
 
----
 
-**Last Updated:** 2026-03-08 (keep same)
 
-**Tested With:** Aspose.Note for Java 24.12
 
-**Author:** Aspose
 
-Then closing shortcodes.
 
-Make sure to keep markdown formatting.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

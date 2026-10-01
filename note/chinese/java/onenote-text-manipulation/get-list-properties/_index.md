@@ -8,15 +8,11 @@ url: /zh/java/onenote-text-manipulation/get-list-properties/
 weight: 19
 ---
 
-) => translate label.
 
-**Author:** Aspose => translate label maybe "作者：Aspose".
 
-Now ensure shortcodes at start and end remain.
 
-We need to keep the outer shortcodes unchanged.
 
-Let's construct final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

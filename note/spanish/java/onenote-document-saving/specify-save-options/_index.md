@@ -10,9 +10,8 @@ url: /es/java/onenote-document-saving/specify-save-options/
 weight: 24
 ---
 
- to keep all shortcodes exactly.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -9,9 +9,8 @@ url: /th/java/onenote-document-saving/use-keep-solid-objects-algorithm/
 weight: 25
 ---
 
- missed text: The initial block includes three opening shortcodes, then content, then closing shortcodes, then backtop button. Keep them.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

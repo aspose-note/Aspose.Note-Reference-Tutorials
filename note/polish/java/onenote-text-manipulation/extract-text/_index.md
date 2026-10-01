@@ -9,19 +9,13 @@ url: /pl/java/onenote-text-manipulation/extract-text/
 weight: 17
 ---
 
-/products-backtop-button >}}
 
-Make sure we keep all placeholders unchanged.
 
-Now produce final content with translations.
 
-Check for any missed items: The quick answers list bullet points need to keep ** bold. Keep same formatting.
 
-Also the table header translation: we changed header names; that's okay.
 
-Make sure we keep code block placeholders exactly as they are.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

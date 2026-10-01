@@ -10,11 +10,9 @@ url: /tr/java/onenote-document-saving/specify-save-options/
 weight: 24
 ---
 
--button >}}
 
-Make sure to keep all markdown formatting.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

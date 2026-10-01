@@ -9,9 +9,8 @@ url: /hi/java/onenote-text-manipulation/generate-document-from-template/
 weight: 18
 ---
 
- keep all markdown formatting.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

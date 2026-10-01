@@ -11,17 +11,12 @@ url: /fr/java/onenote-text-manipulation/generate-document-from-template/
 weight: 18
 ---
 
- >}}
 
-We must keep them unchanged.
 
-Now produce final output with translation.
 
-Check any other text: "Generate Document from Template in OneNote - Aspose.Note" heading.
 
-Make sure we preserve markdown formatting: headings with #.
 
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

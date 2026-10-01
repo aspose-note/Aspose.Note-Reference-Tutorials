@@ -10,9 +10,8 @@ url: /es/java/onenote-text-manipulation/create-chinese-numbered-list/
 weight: 13
 ---
 
- markdown formatting.
 
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -9,13 +9,10 @@ url: /ko/java/onenote-document-saving/save-to-tiff-image-using-image-save-option
 weight: 21
 ---
 
-/products/products-backtop-button >}}
 
-All placeholders unchanged.
 
-Now ensure markdown formatting preserved.
 
-Let's construct final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

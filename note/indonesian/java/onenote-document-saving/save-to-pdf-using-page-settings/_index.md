@@ -10,11 +10,9 @@ url: /id/java/onenote-document-saving/save-to-pdf-using-page-settings/
 weight: 19
 ---
 
-:" keep.
 
-Close shortcodes.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

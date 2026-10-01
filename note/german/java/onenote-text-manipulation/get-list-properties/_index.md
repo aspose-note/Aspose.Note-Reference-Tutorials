@@ -10,7 +10,7 @@ url: /de/java/onenote-text-manipulation/get-list-properties/
 weight: 19
 ---
 
- produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

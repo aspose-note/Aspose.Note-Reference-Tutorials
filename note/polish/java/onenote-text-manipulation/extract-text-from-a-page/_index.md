@@ -10,19 +10,13 @@ url: /pl/java/onenote-text-manipulation/extract-text-from-a-page/
 weight: 16
 ---
 
- at time of writing)" translate "Testowano z:" maybe "Testowano z:".
 
-"**Author:** Aspose" translate "Autor:".
 
-But keep bold formatting.
 
-Let's produce final content.
 
-Check that we didn't miss any list items.
 
-Also note that we have a note: "For Polish, ensure proper RTL formatting if needed" Not needed.
 
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

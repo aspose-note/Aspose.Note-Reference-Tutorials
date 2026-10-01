@@ -9,11 +9,9 @@ url: /hi/java/onenote-text-manipulation/get-list-properties/
 weight: 19
 ---
 
-Make sure not to translate URLs.
 
-Now produce final content with all translations.
 
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

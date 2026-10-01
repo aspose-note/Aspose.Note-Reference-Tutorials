@@ -10,11 +10,9 @@ url: /pl/java/onenote-document-saving/save-using-specified-fonts-subsystem/
 weight: 22
 ---
 
-0}} etc. Keep them.
 
-Make sure to keep markdown formatting.
 
-Now craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

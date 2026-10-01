@@ -10,13 +10,10 @@ url: /it/java/onenote-text-manipulation/generate-document-from-template/
 weight: 18
 ---
 
- bold formatting.
 
-Now produce final content with same shortcodes.
 
-Check link texts: we changed "here" to "qui". Also "documentation", "Aspose.Note forum", "free trial". Should translate link text but keep URL unchanged. That's fine.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

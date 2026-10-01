@@ -10,13 +10,10 @@ url: /ru/java/onenote-document-loading/load-pdf-save-options/
 weight: 23
 ---
 
-/products/products-backtop-button >}}
 
-All good.
 
-Make sure to keep code block placeholders unchanged.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -11,17 +11,12 @@ url: /el/java/onenote-document-saving/save-using-specified-fonts-subsystem/
 weight: 22
 ---
 
-.
 
-**Author:** Aspose -> keep.
 
-Then closing shortcodes.
 
-Also include back the final shortcodes.
 
-Make sure to keep all markdown formatting.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

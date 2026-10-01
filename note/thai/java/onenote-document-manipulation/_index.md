@@ -10,14 +10,10 @@ url: /th/java/onenote-document-manipulation/
 weight: 21
 ---
 
-่นล่าสุด ณ เวลาที่เขียน)". 
-**Author:** Aspose => "**ผู้เขียน:** Aspose"
 
-Now ensure all markdown formatting preserved.
 
-Now produce final content with shortcodes unchanged.
 
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

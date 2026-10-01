@@ -9,9 +9,8 @@ url: /id/java/onenote-text-manipulation/extract-text/
 weight: 17
 ---
 
-.
 
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

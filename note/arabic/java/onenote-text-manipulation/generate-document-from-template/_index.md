@@ -9,9 +9,8 @@ url: /ar/java/onenote-text-manipulation/generate-document-from-template/
 weight: 18
 ---
 
-.
 
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

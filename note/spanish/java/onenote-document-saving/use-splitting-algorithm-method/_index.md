@@ -10,19 +10,13 @@ url: /es/java/onenote-document-saving/use-splitting-algorithm-method/
 weight: 26
 ---
 
-2026-03-16" -> "**Última actualización:** 2026-03-16"
 
-"**Tested With:** Aspose.Note 24.12 for Java" -> "**Probado con:** Aspose.Note 24.12 para Java"
 
-"**Author:** Aspose" -> "**Autor:** Aspose"
 
-Then closing shortcodes.
 
-Then backtop button shortcode unchanged.
 
-Make sure to keep markdown formatting exactly.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

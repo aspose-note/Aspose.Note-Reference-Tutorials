@@ -10,15 +10,11 @@ url: /pt/java/onenote-document-saving/specify-save-options/
 weight: 24
 ---
 
- Aspose -> "**Autor:** Aspose"
 
-Then closing shortcodes.
 
-Also there is a backtop button shortcode.
 
-All good.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

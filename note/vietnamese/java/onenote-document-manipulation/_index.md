@@ -10,19 +10,13 @@ url: /vi/java/onenote-document-manipulation/
 weight: 21
 ---
 
- ở đâu?" A: "Visit the official Aspose.Note for Java API documentation on the Aspose website." translate.
 
-Then the horizontal rule "---" keep.
 
-Then "Last Updated:" etc. Keep as is? Should translate labels: "Last Updated:" => "Cập nhật lần cuối:"; "Tested With:" => "Được kiểm tra với:"; "Author:" => "Tác giả:" Keep dates unchanged.
 
-Make sure to preserve markdown formatting.
 
-Now produce final content with all shortcodes and translations.
 
-Check for any code blocks: none.
 
-Now craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

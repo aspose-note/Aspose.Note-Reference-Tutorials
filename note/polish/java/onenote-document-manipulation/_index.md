@@ -10,7 +10,7 @@ url: /pl/java/onenote-document-manipulation/
 weight: 21
 ---
 
- with all content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

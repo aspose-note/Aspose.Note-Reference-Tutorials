@@ -10,15 +10,11 @@ url: /ru/java/onenote-document-saving/save-to-pdf-using-page-settings/
 weight: 19
 ---
 
-.
 
-"**Author:** Aspose" translate "Автор: Aspose".
 
-Then closing shortcodes.
 
-Make sure to keep shortcodes exactly.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

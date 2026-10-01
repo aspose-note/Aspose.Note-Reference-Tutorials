@@ -8,11 +8,9 @@ url: /ja/java/onenote-text-manipulation/extract-text/
 weight: 17
 ---
 
-‑ASCII characters appear garbled. | Ensure your console or output writer uses UTF‑8 encoding. |
 
-Translate each cell.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

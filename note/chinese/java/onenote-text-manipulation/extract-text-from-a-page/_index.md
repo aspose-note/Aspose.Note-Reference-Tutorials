@@ -9,11 +9,9 @@ url: /zh/java/onenote-text-manipulation/extract-text-from-a-page/
 weight: 16
 ---
 
- shortcodes, code block placeholders, links, etc.
 
-Check that we didn't translate any URLs or file paths. Good.
 
-Now output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

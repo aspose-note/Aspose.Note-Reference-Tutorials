@@ -9,11 +9,9 @@ url: /nl/java/onenote-document-saving/use-keep-solid-objects-algorithm/
 weight: 25
 ---
 
-.
 
-Now final.
 
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

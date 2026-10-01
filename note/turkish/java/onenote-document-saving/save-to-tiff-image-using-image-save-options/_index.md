@@ -11,11 +11,9 @@ url: /tr/java/onenote-document-saving/save-to-tiff-image-using-image-save-option
 weight: 21
 ---
 
-? Should translate header as well. Let's translate to "Sorun" and "Çözüm". We'll keep markdown table.
 
-Make sure code block placeholders remain as is.
 
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

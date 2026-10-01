@@ -10,20 +10,13 @@ url: /cs/java/onenote-document-manipulation/
 weight: 21
 ---
 
-nejnovější v době psaní)  
-**Autor:** Aspose
 
-Make sure bold formatting preserved.
 
-Now ensure we didn't miss any markdown formatting. There are no code blocks.
 
-Check for any other shortcodes: at top and bottom we have them.
 
-Now produce final content with all translations.
 
-Be careful to keep spaces and line breaks.
 
-Let's construct final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

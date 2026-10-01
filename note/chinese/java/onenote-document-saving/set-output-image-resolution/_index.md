@@ -8,9 +8,8 @@ url: /zh/java/onenote-document-saving/set-output-image-resolution/
 weight: 23
 ---
 
-}} etc.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
