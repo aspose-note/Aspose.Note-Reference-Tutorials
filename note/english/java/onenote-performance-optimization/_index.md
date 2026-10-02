@@ -87,13 +87,13 @@ Exporting OneNote files efficiently requires leveraging Aspose.Note’s optimize
 
 ## Unlocking export efficiency in oneNote with java
 
-Exporting OneNote documents can sometimes be a time‑consuming task, impacting overall productivity. With Aspose.Note for Java, you can streamline this process and achieve optimal export performance. The tutorial {{< relref "optimize-export-performance/_index.md" >}} is your go‑to resource for mastering this technique.
+Exporting OneNote documents can sometimes be a time‑consuming task, impacting overall productivity. With Aspose.Note for Java, you can streamline this process and achieve optimal export performance. The tutorial {{< relref "/java/onenote-performance-optimization/optimize-export-performance/" >}} is your go‑to resource for mastering this technique.
 
 In this tutorial, we break down the steps to help you efficiently export your OneNote documents to various formats. From PDFs to images, Aspose.Note for Java empowers you to seamlessly convert your files, ensuring a swift and smooth export process. Say goodbye to sluggish exports and hello to a more productive workflow.
 
 ## Maximizing performance for export operations in oneNote - java mastery
 
-If you're seeking in‑depth insights into optimizing performance for export operations in OneNote, our tutorial {{< relref "optimize-performance-consequent-export/_index.md" >}} is tailored just for you. Dive into the world of Java programming and harness the capabilities of Aspose.Note to elevate your export operations.
+If you're seeking in‑depth insights into optimizing performance for export operations in OneNote, our tutorial {{< relref "/java/onenote-performance-optimization/optimize-performance-consequent-export/" >}} is tailored just for you. Dive into the world of Java programming and harness the capabilities of Aspose.Note to elevate your export operations.
 
 This tutorial provides a step‑by‑step guide, allowing you to navigate through the intricacies of performance optimization. Learn how to fine‑tune your Java code to achieve efficient conversion, ensuring that your OneNote export operations are not only fast but also seamless. Boost your productivity and save valuable time with the expert guidance provided in this tutorial.
 
@@ -112,10 +112,10 @@ Aspose.Note for Java stands out as a powerful library that caters specifically t
 - **Enable multi‑threaded processing** for bulk operations (ensure thread‑safety of Aspose objects).  
 
 ## OneNote performance optimization tutorials
-### {{< relref "optimize-export-performance/_index.md" >}}
+### {{< relref "/java/onenote-performance-optimization/optimize-export-performance/" >}}
 Learn how to optimize export performance in OneNote using Java with Aspose.Note. Efficiently export documents to various formats with step‑by‑step guidance.
 
-### {{< relref "optimize-performance-consequent-export/_index.md" >}}
+### {{< relref "/java/onenote-performance-optimization/optimize-performance-consequent-export/" >}}
 Learn how to optimize performance for export operations in OneNote using Aspose.Note for Java. Step‑by‑step guide for efficient conversion.
 
 ## Frequently asked questions

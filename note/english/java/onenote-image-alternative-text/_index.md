@@ -93,7 +93,7 @@ doc.save("sample_updated.one");
 ```
 
 ## Adding alternative text to oneNote images with java
-### [Add alternative text to image in OneNote using Java]({{< relref "./add-alternative-text-to-image/_index.md" >}})
+### [Add alternative text to image in OneNote using Java]({{< relref "/java/onenote-image-alternative-text/add-alternative-text-to-image/" >}})
 
 Java’s versatility and Aspose.Note’s capabilities come together seamlessly in this step‑by‑step guide. We walk you through opening a OneNote file, locating images, and assigning meaningful alternative text. The concise code snippets (shown in the linked sub‑tutorial) make this task straightforward, letting you focus on content rather than boilerplate.
 
@@ -137,7 +137,7 @@ A: Any recent version that supports Java 8+; we tested with the latest stable 
 In the realm of OneNote image alternative text, Java and Aspose.Note are powerful allies. By following this tutorial you’ll not only add alt text—you’ll actively **make onenote accessible java**, fostering inclusivity and improving the overall quality of your digital content. Dive in, code with confidence, and make a lasting impact on accessibility.
 
 ## OneNote image alternative text tutorials
-### [Add alternative text to image in OneNote using Java]({{< relref "./add-alternative-text-to-image/_index.md" >}})
+### [Add alternative text to image in OneNote using Java]({{< relref "/java/onenote-image-alternative-text/add-alternative-text-to-image/" >}})
 Learn how to add alternative text to images in OneNote documents using Java with Aspose.Note, enhancing accessibility and inclusivity.
 
 ---
@@ -150,9 +150,9 @@ Learn how to add alternative text to images in OneNote documents using Java with
 
 ## Related Tutorials
 
-- [Create OneNote Document with Aspose.Note for Java – Comprehensive Tutorials]({{< relref "note/java/_index.md" >}})
-- [How to Save OneNote Documents with Aspose.Note for Java]({{< relref "note/java/onenote-document-saving/_index.md" >}})
-- [How to Save OneNote as PDF with Aspose.Note for Java]({{< relref "note/java/onenote-document-loading/load-save-format/_index.md" >}})
+- [Create OneNote Document with Aspose.Note for Java – Comprehensive Tutorials]({{< relref "/java/" >}})
+- [How to Save OneNote Documents with Aspose.Note for Java]({{< relref "/java/onenote-document-saving/" >}})
+- [How to Save OneNote as PDF with Aspose.Note for Java]({{< relref "/java/onenote-document-loading/load-save-format/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

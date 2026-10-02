@@ -139,9 +139,8 @@ A: You can purchase Aspose.Note licenses [Aspose.Note purchase page](https://pur
 
 ## Related Tutorials
 
-- [Apply Aspose.Note License from Path]({{< relref "/note/net/licensing/apply-license-from-path/" >}})
-- [Apply Aspose.Note License using FileStream]({{< relref "/note/net/licensing/apply-license-using-filestream/" >}})
-- [Mastering Aspose.Note Licensing for OneNote Integration]({{< relref "/note/net/licensing/mastering-licensing/" >}})
+- [Apply Aspose.Note License from Path]({{< relref "/net/licensing/apply-license-from-path/" >}})
+- [Apply Aspose.Note License using FileStream]({{< relref "/net/licensing/apply-license-using-filestream/" >}})
 
 ```csharp
 license.SetLicense("Aspose.Note.lic");
