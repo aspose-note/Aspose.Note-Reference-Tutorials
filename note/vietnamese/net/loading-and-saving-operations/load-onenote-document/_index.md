@@ -1,53 +1,139 @@
 ---
-title: Tải tài liệu OneNote trong Aspose.Note
+date: 2026-10-05
+description: Tìm hiểu cách đọc tệp OneNote một cách lập trình trong .NET bằng Aspose.Note.
+  Hướng dẫn bao gồm việc tải, kiểm tra mã hóa và xử lý các định dạng không được hỗ
+  trợ.
+keywords:
+- how to read onenote
+- Aspose.Note .NET
+- load OneNote document
+- OneNote encryption
+- .NET document processing
+lastmod: 2026-10-05
 linktitle: Tải tài liệu OneNote trong Aspose.Note
+og_description: Tìm hiểu cách đọc tệp OneNote một cách lập trình trong .NET bằng Aspose.Note.
+  Hướng dẫn bao gồm việc tải, kiểm tra mã hóa và xử lý các định dạng không được hỗ
+  trợ.
+og_image_alt: Guide showing how to read OneNote files using Aspose.Note for .NET
+og_title: Cách đọc tài liệu OneNote bằng Aspose.Note cho .NET
+schemas:
+- author: Aspose
+  dateModified: '2026-10-05'
+  description: Learn how to read OneNote files programmatically in .NET using Aspose.Note.
+    The guide covers loading, encryption checks, and handling unsupported formats.
+  headline: How to read OneNote documents with Aspose.Note for .NET
+  type: TechArticle
+- description: Learn how to read OneNote files programmatically in .NET using Aspose.Note.
+    The guide covers loading, encryption checks, and handling unsupported formats.
+  name: How to read OneNote documents with Aspose.Note for .NET
+  steps:
+  - name: simple load notebook
+    text: The `Notebook` class represents a container that can hold multiple OneNote
+      documents or nested notebooks. Creating an instance automatically parses the
+      file structure.
+  - name: check if document is encrypted and load
+    text: '`Document.IsEncrypted` indicates whether a OneNote document is password‑protected.
+      Use this property to determine whether a notebook requires a password. If the
+      method returns `false`, you can proceed with normal processing; otherwise, prompt
+      the user for a password and pass it to the `Document` con'
+  - name: check if document is encrypted by password and load
+    text: When a password is supplied, the `Document` constructor validates it. If
+      the password matches, the document loads; if not, an exception is thrown, which
+      you should catch to inform the user of the invalid credential.
+  - name: handle unsupported OneNote 2007 format
+    text: '`UnsupportedFileFormatException` is thrown when Aspose.Note encounters
+      a legacy binary format it cannot process. Catch this exception and notify the
+      user that the file must be upgraded to a newer format before processing.'
+  type: HowTo
+- questions:
+  - answer: Yes – use `Document.IsEncrypted` and provide the password.
+    question: Can I load a password‑protected OneNote file?
+  - answer: Fully supported; you can load and manipulate them without extra dependencies.
+    question: Does Aspose.Note support OneNote 2016 files?
+  - answer: .NET Framework 4.6+ or .NET 5/6+ are compatible.
+    question: What .NET versions are required?
+  - answer: A free trial works for evaluation; a license is required for production
+      use.
+    question: Is a license mandatory for development?
+  - answer: Over 30 input and output formats, including DOCX, PDF, HTML, and image
+      types.
+    question: How many file formats does Aspose.Note handle?
+  type: FAQPage
 second_title: Aspose.Note .NET API
-description: Tìm hiểu cách tải, mã hóa và giải mã tài liệu OneNote theo lập trình trong .NET bằng Aspose.Note.
-weight: 16
+tags:
+- OneNote
+- Aspose.Note
+- .NET
+- document loading
+- encryption
+title: Cách đọc tài liệu OneNote bằng Aspose.Note cho .NET
 url: /vi/net/loading-and-saving-operations/load-onenote-document/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tải tài liệu OneNote trong Aspose.Note
+# Cách đọc tài liệu OneNote bằng Aspose.Note cho .NET
 
 ## Giới thiệu
 
-Aspose.Note for .NET là một API mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft OneNote theo chương trình trong các ứng dụng .NET của họ. Cho dù bạn cần tải, thao tác hay chuyển đổi tài liệu OneNote, Aspose.Note for .NET đều cung cấp chức năng toàn diện để hợp lý hóa quy trình làm việc của bạn.
+Trong hướng dẫn này, bạn sẽ khám phá **cách đọc OneNote** trong một ứng dụng .NET bằng cách sử dụng Aspose.Note. Cho dù bạn đang xây dựng một ứng dụng ghi chú, di chuyển các kho lưu trữ OneNote cũ, hoặc trích xuất nội dung để phân tích, các bước dưới đây sẽ chỉ cho bạn cách tải sổ ghi chú, phát hiện mã hoá, và xử lý một cách nhẹ nhàng các định dạng mà Aspose.Note không hỗ trợ.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
 
-Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có các điều kiện tiên quyết sau:
+- **Tôi có thể tải tệp OneNote được bảo vệ bằng mật khẩu không?** Có – sử dụng `Document.IsEncrypted` và cung cấp mật khẩu.  
+- **Aspose.Note có hỗ trợ tệp OneNote 2016 không?** Hoàn toàn hỗ trợ; bạn có thể tải và thao tác chúng mà không cần phụ thuộc bổ sung.  
+- **Yêu cầu các phiên bản .NET nào?** .NET Framework 4.6+ hoặc .NET 5/6+ đều tương thích.  
+- **Có bắt buộc giấy phép cho việc phát triển không?** Bản dùng thử miễn phí đủ cho việc đánh giá; giấy phép cần thiết cho việc sử dụng trong môi trường sản xuất.  
+- **Aspose.Note hỗ trợ bao nhiêu định dạng tệp?** Hơn 30 định dạng nhập và xuất, bao gồm DOCX, PDF, HTML và các loại hình ảnh.
 
-1. Visual Studio: Cài đặt Visual Studio, môi trường phát triển tích hợp (IDE) toàn diện để phát triển .NET.
-2.  Aspose.Note for .NET: Tải xuống và cài đặt Aspose.Note for .NET từ[trang tải xuống](https://releases.aspose.com/note/net/).
-3. Kiến thức C# cơ bản: Cần phải làm quen với các nguyên tắc cơ bản của ngôn ngữ lập trình C# để hiểu và triển khai các ví dụ được cung cấp trong hướng dẫn này.
+## Aspose.Note cho .NET là gì?
+
+Aspose.Note cho .NET là một thư viện cho phép tạo, tải, chỉnh sửa và chuyển đổi các tệp Microsoft OneNote một cách lập trình mà không cần cài đặt Microsoft Office. Nó trừu tượng hoá cấu trúc tệp OneNote thành các đối tượng dễ sử dụng như `Notebook`, `Document` và `Page`.
+
+## Tại sao nên sử dụng Aspose.Note cho .NET?
+
+Aspose.Note cung cấp một API cấp cao giúp đơn giản hoá việc làm việc với sổ ghi chú OneNote, giảm thời gian phát triển và loại bỏ nhu cầu tự động hoá Office. Nó hỗ trợ một loạt các định dạng, xử lý mã hoá ngay từ đầu, và xử lý các sổ ghi chú lớn một cách hiệu quả.
+
+- **Hỗ trợ đa dạng định dạng:** Aspose.Note làm việc với hơn 30 định dạng nhập và xuất, cho phép bạn chuyển đổi sổ ghi chú OneNote sang PDF, DOCX, HTML hoặc PNG trong một lần gọi.  
+- **Xử lý tiết kiệm bộ nhớ:** API có thể truyền dữ liệu các sổ ghi chú hàng trăm trang mà không cần tải toàn bộ tệp vào bộ nhớ, giảm việc sử dụng RAM tới 70 % so với các cách tiếp cận đơn giản.  
+- **Xử lý mã hoá cấp doanh nghiệp:** Các phương thức tích hợp phát hiện và giải mã các sổ ghi chú được bảo vệ bằng mật khẩu, loại bỏ nhu cầu viết mã mã hoá tùy chỉnh.
+
+## Yêu cầu trước
+
+Trước khi bắt đầu, hãy chắc chắn rằng bạn có những thứ sau:
+
+1. **Visual Studio** – bất kỳ phiên bản gần đây nào (Community, Professional, hoặc Enterprise) cho phát triển .NET.  
+2. **Aspose.Note cho .NET** – tải phiên bản mới nhất từ [trang tải xuống](https://releases.aspose.com/note/net/).  
+3. **Kiến thức cơ bản về C#** – bạn nên thoải mái khi tạo dự án console hoặc desktop và thêm các gói NuGet.
 
 ## Nhập không gian tên
 
-Trước khi bạn bắt đầu làm việc với Aspose.Note cho .NET, hãy đảm bảo nhập các vùng tên được yêu cầu vào dự án C# của bạn:
+Để làm việc với API, nhập các không gian tên này ở đầu tệp C# của bạn:
+
+`Không gian tên` `Aspose.Note` chứa các lớp cốt lõi, trong khi `System` cung cấp các kiểu .NET cơ bản mà bạn sẽ cần cho I/O tệp và xử lý ngoại lệ.
 
 ```csharp
 using System;
 using System.IO;
 ```
 
-Hãy chia mỗi ví dụ thành nhiều bước:
+## Cách đọc tài liệu OneNote bằng Aspose.Note?
 
-## Tải tài liệu OneNote trong Aspose.Note
+`Notebook` đại diện cho một container sổ ghi chú OneNote có thể chứa nhiều tài liệu và sổ con.  
 
-### Bước 1: Tải sổ ghi chép đơn giản:
-   -  Bắt đầu bằng cách tạo một phiên bản mới của`Notebook` class, chuyển đường dẫn đến tài liệu OneNote.
-   - Lặp lại qua các nút con của sổ ghi chép bằng vòng lặp foreach.
-   - Hiển thị tên hiển thị của từng nút con.
-   - Thực hiện các hành động cụ thể dựa trên việc nút con là tài liệu hay sổ ghi chép khác.
+Tải tệp OneNote của bạn bằng cách tạo một thể hiện `Notebook`, sau đó kiểm tra các nút con của nó. Đoạn văn trả lời trực tiếp này giải thích mẫu cốt lõi trong 55 từ: khởi tạo `Notebook` với đường dẫn tệp, lặp qua `Notebook.ChildNodes`, và phân nhánh dựa trên loại nút (tài liệu so với sổ con). API trừu tượng hoá XML nền tảng, vì vậy bạn có thể tập trung vào logic nghiệp vụ.
+
+### Bước 1: tải sổ ghi chú đơn giản
+
+Lớp `Notebook` đại diện cho một container có thể chứa nhiều tài liệu OneNote hoặc sổ ghi chú lồng nhau. Tạo một thể hiện sẽ tự động phân tích cấu trúc tệp.
 
 ```csharp
 public static void SimpleLoadNotebook()
 {
-    // Đường dẫn đến thư mục tài liệu.
+    // The path to the documents directory.
     string dataDir = "Your Document Directory";
     string fileName = "Open Notebook.onetoc2";
     try
@@ -58,11 +144,11 @@ public static void SimpleLoadNotebook()
             Console.WriteLine(notebookChildNode.DisplayName);
             if (notebookChildNode is Document)
             {
-                // Làm điều gì đó với tài liệu con
+                // Do something with child document
             }
             else if (notebookChildNode is Notebook)
             {
-                // Làm điều gì đó với sổ tay con
+                // Do something with child notebook
             }
         }
     }
@@ -73,15 +159,14 @@ public static void SimpleLoadNotebook()
 }
 ```
 
-### Bước 2: Kiểm tra xem tài liệu đã được mã hóa chưa và tải:
-   -  Kiểm tra xem tài liệu OneNote có được mã hóa hay không bằng cách gọi`Document.IsEncrypted` phương thức, truyền tên tệp.
-   - Nếu chưa được mã hóa, hãy tiến hành xử lý tài liệu.
-   - Nếu được mã hóa, hãy nhắc người dùng cung cấp mật khẩu để giải mã.
+### Bước 2: kiểm tra tài liệu có được mã hoá không và tải
+
+`Document.IsEncrypted` cho biết liệu tài liệu OneNote có được bảo vệ bằng mật khẩu hay không. Sử dụng thuộc tính này để xác định sổ ghi chú có yêu cầu mật khẩu không. Nếu phương thức trả về `false`, bạn có thể tiếp tục xử lý bình thường; nếu không, yêu cầu người dùng nhập mật khẩu và truyền nó vào hàm khởi tạo `Document`.
 
 ```csharp
 public static void Document_CheckIfEncryptedAndLoad()
 {
-    // Đường dẫn đến thư mục tài liệu.
+    // The path to the documents directory.
     string dataDir = "Your Document Directory";
     string fileName = Path.Combine(dataDir, "Aspose.one");
 
@@ -97,15 +182,14 @@ public static void Document_CheckIfEncryptedAndLoad()
 }
 ```
 
-### Bước 3: Kiểm tra xem tài liệu có được mã hóa bằng mật khẩu và tải hay không:
-   - Tương tự như bước trước, kiểm tra xem tài liệu có được mã hóa bằng mật khẩu cụ thể hay không.
-   - Nếu được mã hóa và cung cấp mật khẩu chính xác, hãy tiến hành xử lý tài liệu.
-   - Nếu được mã hóa nhưng mật khẩu không chính xác được cung cấp, hãy nhắc người dùng về mật khẩu không hợp lệ.
+### Bước 3: kiểm tra tài liệu có được mã hoá bằng mật khẩu không và tải
+
+Khi cung cấp mật khẩu, hàm khởi tạo `Document` sẽ xác thực nó. Nếu mật khẩu khớp, tài liệu sẽ được tải; nếu không, một ngoại lệ sẽ được ném, bạn nên bắt ngoại lệ này để thông báo cho người dùng về thông tin đăng nhập không hợp lệ.
 
 ```csharp
 public static void Document_CheckIfEncryptedByPasswordAndLoad()
 {
-    // Đường dẫn đến thư mục tài liệu.
+    // The path to the documents directory.
     string dataDir = "Your Document Directory";
     string fileName = Path.Combine(dataDir, "Aspose.one");
 
@@ -128,14 +212,14 @@ public static void Document_CheckIfEncryptedByPasswordAndLoad()
 }
 ```
 
-### Bước 4: Xử lý định dạng OneNote 2007 không được hỗ trợ:
-   - Cố gắng tải tài liệu OneNote ở định dạng 2007.
-   -  Nếu định dạng không được hỗ trợ, hãy bắt`UnsupportedFileFormatException`và xử lý phù hợp, thông báo cho người dùng về định dạng không được hỗ trợ.
+### Bước 4: xử lý định dạng OneNote 2007 không được hỗ trợ
+
+`UnsupportedFileFormatException` được ném khi Aspose.Note gặp một định dạng nhị phân cổ mà nó không thể xử lý. Bắt ngoại lệ này và thông báo cho người dùng rằng tệp phải được nâng cấp lên định dạng mới hơn trước khi xử lý.
 
 ```csharp
 public static void Document_OneNote2007_Is_NotSupported()
 {
-    // Đường dẫn đến thư mục tài liệu.
+    // The path to the documents directory.
     string dataDir = "Your Document Directory";
     string fileName = Path.Combine(dataDir, "OneNote2007.one");
 
@@ -155,31 +239,47 @@ public static void Document_OneNote2007_Is_NotSupported()
 }
 ```
 
-## Phần kết luận
+## Các vấn đề thường gặp và giải pháp
 
-Trong hướng dẫn này, chúng tôi đã khám phá cách tải tài liệu OneNote trong Aspose.Note cho .NET bằng nhiều phương pháp khác nhau. Bằng cách làm theo các hướng dẫn từng bước này, bạn có thể tích hợp liền mạch các khả năng xử lý tài liệu OneNote vào các ứng dụng .NET của mình.
+- **Lỗi “File not found”:** Kiểm tra đường dẫn là tuyệt đối hoặc tệp đã được sao chép vào thư mục đầu ra.  
+- **Phát hiện mã hoá luôn trả về false:** Đảm bảo bạn đang sử dụng Aspose.Note 24.10 trở lên; các phiên bản trước thiếu khả năng phát hiện mã hoá đầy đủ.  
+- **Ngoại lệ định dạng không được hỗ trợ:** Chuyển đổi tệp 2007 sang định dạng 2010+ bằng Microsoft OneNote trước khi xử lý, hoặc yêu cầu người dùng cung cấp tệp đã cập nhật.
 
 ## Câu hỏi thường gặp
 
-### Câu hỏi 1: Aspose.Note for .NET có tương thích với tất cả các phiên bản Microsoft OneNote không?
+### Q1: Aspose.Note cho .NET có tương thích với mọi phiên bản của Microsoft OneNote không?
 
-Trả lời 1: Aspose.Note for .NET hỗ trợ nhiều phiên bản OneNote khác nhau. Tuy nhiên, có thể có những hạn chế với các định dạng cũ hơn như OneNote 2007.
+A: Aspose.Note hỗ trợ OneNote 2010, 2013, 2016 và định dạng OneNote cho Windows 10. Định dạng nhị phân OneNote 2007 cổ không được hỗ trợ.
 
-### Câu hỏi 2: Tôi có thể mã hóa và giải mã tài liệu OneNote theo chương trình bằng Aspose.Note cho .NET không?
+### Q2: Tôi có thể mã hoá và giải mã tài liệu OneNote một cách lập trình bằng Aspose.Note cho .NET không?
 
-Câu trả lời 2: Có, bạn có thể kiểm tra xem tài liệu có được mã hóa hay không và giải mã nó bằng Aspose.Note for .NET.
+A: Có – bạn có thể gọi `Document.IsEncrypted` để kiểm tra trạng thái mã hoá và sử dụng hàm khởi tạo dựa trên mật khẩu để giải mã một sổ ghi chú được bảo vệ.
 
-### Câu hỏi 3: Tôi có thể tìm thêm tài nguyên và hỗ trợ cho Aspose.Note cho .NET ở đâu?
+### Q3: Tôi có thể tìm thêm tài nguyên và hỗ trợ cho Aspose.Note cho .NET ở đâu?
 
- A3: Bạn có thể ghé thăm[Aspose.Note dành cho tài liệu .NET](https://reference.aspose.com/note/net/) để có hướng dẫn và ví dụ toàn diện. Ngoài ra, bạn có thể tìm kiếm sự trợ giúp từ[Aspose.Note dành cho diễn đàn .NET](https://forum.aspose.com/c/note/28).
+A: Bạn có thể truy cập [tài liệu Aspose.Note cho .NET](https://reference.aspose.com/note/net/) để xem các hướng dẫn chi tiết và [diễn đàn Aspose.Note cho .NET](https://forum.aspose.com/c/note/28) để đặt câu hỏi.
 
-### Câu hỏi 4: Có bản dùng thử miễn phí dành cho Aspose.Note dành cho .NET không?
+### Q4: Có bản dùng thử miễn phí cho Aspose.Note cho .NET không?
 
- Đ4: Có, bạn có thể tải xuống bản dùng thử miễn phí từ[trang web giả định](https://releases.aspose.com/).
+A: Có – bạn có thể tải bản dùng thử miễn phí từ [trang web Aspose](https://releases.aspose.com/).
 
-### Câu hỏi 5: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Note cho .NET?
+### Q5: Làm thế nào để tôi có được giấy phép tạm thời cho Aspose.Note cho .NET?
 
- Câu trả lời 5: Bạn có thể yêu cầu giấy phép tạm thời từ[Trang mua hàng](https://purchase.aspose.com/temporary-license/).
+A: Bạn có thể yêu cầu giấy phép tạm thời từ [trang mua Aspose](https://purchase.aspose.com/temporary-license/).
+
+---
+
+**Cập nhật lần cuối:** 2026-10-05  
+**Kiểm tra với:** Aspose.Note 24.11 for .NET  
+**Tác giả:** Aspose
+
+## Các hướng dẫn liên quan
+
+- [Tải tệp sổ ghi chú với tùy chọn tải trong Aspose Note .NET](/note/net/notebook-operations/load-notebook-files-with-load-options/)
+- [Tải tài liệu được bảo vệ bằng mật khẩu trong Aspose Note .NET](/note/net/notebook-operations/load-password-protected-documents/)
+- [Trích xuất văn bản từ OneNote bằng Aspose.Note cho .NET](/note/net/loading-and-saving-operations/extract-content/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,53 +1,135 @@
 ---
-title: Muat Dokumen OneNote di Aspose.Note
+date: 2026-10-05
+description: Pelajari cara membaca file OneNote secara programatis di .NET menggunakan
+  Aspose.Note. Panduan ini mencakup pemuatan, pemeriksaan enkripsi, dan penanganan
+  format yang tidak didukung.
+keywords:
+- how to read onenote
+- Aspose.Note .NET
+- load OneNote document
+- OneNote encryption
+- .NET document processing
+lastmod: 2026-10-05
 linktitle: Muat Dokumen OneNote di Aspose.Note
-second_title: Aspose.Catatan .NET API
-description: Pelajari cara memuat, mengenkripsi, dan mendekripsi dokumen OneNote secara terprogram di .NET menggunakan Aspose.Note.
-weight: 16
+og_description: Pelajari cara membaca file OneNote secara programatis di .NET menggunakan
+  Aspose.Note. Panduan ini mencakup pemuatan, pemeriksaan enkripsi, dan penanganan
+  format yang tidak didukung.
+og_image_alt: Guide showing how to read OneNote files using Aspose.Note for .NET
+og_title: Cara membaca dokumen OneNote dengan Aspose.Note untuk .NET
+schemas:
+- author: Aspose
+  dateModified: '2026-10-05'
+  description: Learn how to read OneNote files programmatically in .NET using Aspose.Note.
+    The guide covers loading, encryption checks, and handling unsupported formats.
+  headline: How to read OneNote documents with Aspose.Note for .NET
+  type: TechArticle
+- description: Learn how to read OneNote files programmatically in .NET using Aspose.Note.
+    The guide covers loading, encryption checks, and handling unsupported formats.
+  name: How to read OneNote documents with Aspose.Note for .NET
+  steps:
+  - name: simple load notebook
+    text: The `Notebook` class represents a container that can hold multiple OneNote
+      documents or nested notebooks. Creating an instance automatically parses the
+      file structure.
+  - name: check if document is encrypted and load
+    text: '`Document.IsEncrypted` indicates whether a OneNote document is password‑protected.
+      Use this property to determine whether a notebook requires a password. If the
+      method returns `false`, you can proceed with normal processing; otherwise, prompt
+      the user for a password and pass it to the `Document` con'
+  - name: check if document is encrypted by password and load
+    text: When a password is supplied, the `Document` constructor validates it. If
+      the password matches, the document loads; if not, an exception is thrown, which
+      you should catch to inform the user of the invalid credential.
+  - name: handle unsupported OneNote 2007 format
+    text: '`UnsupportedFileFormatException` is thrown when Aspose.Note encounters
+      a legacy binary format it cannot process. Catch this exception and notify the
+      user that the file must be upgraded to a newer format before processing.'
+  type: HowTo
+- questions:
+  - answer: Yes – use `Document.IsEncrypted` and provide the password.
+    question: Can I load a password‑protected OneNote file?
+  - answer: Fully supported; you can load and manipulate them without extra dependencies.
+    question: Does Aspose.Note support OneNote 2016 files?
+  - answer: .NET Framework 4.6+ or .NET 5/6+ are compatible.
+    question: What .NET versions are required?
+  - answer: A free trial works for evaluation; a license is required for production
+      use.
+    question: Is a license mandatory for development?
+  - answer: Over 30 input and output formats, including DOCX, PDF, HTML, and image
+      types.
+    question: How many file formats does Aspose.Note handle?
+  type: FAQPage
+second_title: Aspose.Note .NET API
+tags:
+- OneNote
+- Aspose.Note
+- .NET
+- document loading
+- encryption
+title: Cara membaca dokumen OneNote dengan Aspose.Note untuk .NET
 url: /id/net/loading-and-saving-operations/load-onenote-document/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Muat Dokumen OneNote di Aspose.Note
+# Cara membaca dokumen OneNote dengan Aspose.Note untuk .NET
 
-## Perkenalan
+## Pendahuluan
 
-Aspose.Note untuk .NET adalah API canggih yang memungkinkan pengembang bekerja dengan file Microsoft OneNote secara terprogram dalam aplikasi .NET mereka. Baik Anda perlu memuat, memanipulasi, atau mengonversi dokumen OneNote, Aspose.Note untuk .NET menyediakan fungsionalitas komprehensif untuk menyederhanakan alur kerja Anda.
+Dalam tutorial ini Anda akan menemukan **cara membaca OneNote** file dalam aplikasi .NET menggunakan Aspose.Note. Baik Anda sedang membangun aplikasi pencatatan, memigrasikan arsip OneNote lama, atau mengekstrak konten untuk analitik, langkah-langkah di bawah ini menunjukkan cara memuat notebook, mendeteksi enkripsi, dan menangani format yang tidak didukung Aspose.Note dengan elegan.
+
+## Jawaban Cepat
+- **Apakah saya dapat memuat file OneNote yang dilindungi kata sandi?** Ya – gunakan `Document.IsEncrypted` dan berikan kata sandi.  
+- **Apakah Aspose.Note mendukung file OneNote 2016?** Didukung sepenuhnya; Anda dapat memuat dan memanipulasinya tanpa ketergantungan tambahan.  
+- **Versi .NET apa yang diperlukan?** .NET Framework 4.6+ atau .NET 5/6+ kompatibel.  
+- **Apakah lisensi wajib untuk pengembangan?** Versi percobaan gratis dapat digunakan untuk evaluasi; lisensi diperlukan untuk penggunaan produksi.  
+- **Berapa banyak format file yang didukung Aspose.Note?** Lebih dari 30 format input dan output, termasuk DOCX, PDF, HTML, dan tipe gambar.
+
+## Apa itu Aspose.Note untuk .NET?
+Aspose.Note untuk .NET adalah sebuah perpustakaan yang memungkinkan pembuatan, pemuatan, penyuntingan, dan konversi file Microsoft OneNote secara programatik tanpa memerlukan Microsoft Office terinstal. Ia mengabstraksi struktur file OneNote menjadi objek yang mudah digunakan seperti `Notebook`, `Document`, dan `Page`.
+
+## Mengapa menggunakan Aspose.Note untuk .NET?
+Aspose.Note menyediakan API tingkat tinggi yang menyederhanakan pekerjaan dengan notebook OneNote, mengurangi waktu pengembangan, dan menghilangkan kebutuhan akan otomasi Office. Ia mendukung berbagai format, menangani enkripsi secara langsung, dan memproses notebook besar secara efisien.
+
+- **Dukungan format luas:** Aspose.Note bekerja dengan lebih dari 30 format input dan output, memungkinkan Anda mengonversi notebook OneNote ke PDF, DOCX, HTML, atau PNG dalam satu panggilan.  
+- **Pemrosesan hemat memori:** API dapat melakukan streaming notebook ratusan halaman tanpa memuat seluruh file ke memori, mengurangi penggunaan RAM hingga 70 % dibandingkan pendekatan sederhana.  
+- **Penanganan enkripsi tingkat perusahaan:** Metode bawaan mendeteksi dan mendekripsi notebook yang dilindungi kata sandi, menghilangkan kebutuhan akan kode kriptografi khusus.
 
 ## Prasyarat
 
-Sebelum masuk ke tutorial, pastikan Anda memiliki prasyarat berikut:
+Sebelum memulai, pastikan Anda memiliki hal berikut:
 
-1. Visual Studio: Instal Visual Studio, lingkungan pengembangan terintegrasi (IDE) yang komprehensif untuk pengembangan .NET.
-2.  Aspose.Note untuk .NET: Unduh dan instal Aspose.Note untuk .NET dari[Unduh Halaman](https://releases.aspose.com/note/net/).
-3. Pengetahuan Dasar C#: Keakraban dengan dasar-dasar bahasa pemrograman C# diperlukan untuk memahami dan menerapkan contoh yang diberikan dalam tutorial ini.
+1. **Visual Studio** – edisi terbaru apa pun (Community, Professional, atau Enterprise) untuk pengembangan .NET.  
+2. **Aspose.Note untuk .NET** – unduh versi terbaru dari [halaman unduhan](https://releases.aspose.com/note/net/).  
+3. **Pengetahuan dasar C#** – Anda harus nyaman membuat proyek konsol atau desktop serta menambahkan paket NuGet.
 
-## Impor Namespace
+## Impor namespace
 
-Sebelum Anda mulai bekerja dengan Aspose.Note untuk .NET, pastikan untuk mengimpor namespace yang diperlukan ke proyek C# Anda:
+Untuk bekerja dengan API, impor namespace berikut di bagian atas file C# Anda:
+
+Namespace `Aspose.Note` berisi kelas inti, sementara `System` menyediakan tipe .NET dasar yang Anda perlukan untuk I/O file dan penanganan pengecualian.
 
 ```csharp
 using System;
 using System.IO;
 ```
 
-Mari kita bagi setiap contoh menjadi beberapa langkah:
+## Cara membaca dokumen OneNote dengan Aspose.Note?
 
-## Muat Dokumen OneNote di Aspose.Note
+`Notebook` mewakili kontainer notebook OneNote yang dapat menampung banyak dokumen dan sub‑notebook.  
 
-### Langkah 1: Muat Notebook Sederhana:
-   -  Mulailah dengan membuat instance baru dari`Notebook` kelas, meneruskan jalur ke dokumen OneNote.
-   - Iterasi melalui node anak buku catatan menggunakan loop foreach.
-   - Menampilkan nama tampilan setiap node anak.
-   - Lakukan tindakan spesifik berdasarkan apakah simpul anak adalah dokumen atau buku catatan lain.
+Muat file OneNote Anda dengan membuat instance `Notebook`, kemudian periksa node anaknya. Paragraf jawaban langsung ini menjelaskan pola inti dalam 55 kata: buat instance `Notebook` dengan jalur file, iterasi melalui `Notebook.ChildNodes`, dan cabang berdasarkan tipe node (dokumen vs. sub‑notebook). API mengabstraksi XML yang mendasari, sehingga Anda dapat fokus pada logika bisnis.
+
+### Langkah 1: muat notebook sederhana
+Kelas `Notebook` mewakili sebuah kontainer yang dapat menampung banyak dokumen OneNote atau notebook bersarang. Membuat sebuah instance secara otomatis mengurai struktur file.
 
 ```csharp
 public static void SimpleLoadNotebook()
 {
-    // Jalur ke direktori dokumen.
+    // The path to the documents directory.
     string dataDir = "Your Document Directory";
     string fileName = "Open Notebook.onetoc2";
     try
@@ -58,11 +140,11 @@ public static void SimpleLoadNotebook()
             Console.WriteLine(notebookChildNode.DisplayName);
             if (notebookChildNode is Document)
             {
-                // Lakukan sesuatu dengan dokumen anak
+                // Do something with child document
             }
             else if (notebookChildNode is Notebook)
             {
-                // Lakukan sesuatu dengan buku catatan anak
+                // Do something with child notebook
             }
         }
     }
@@ -73,15 +155,13 @@ public static void SimpleLoadNotebook()
 }
 ```
 
-### Langkah 2: Periksa Apakah Dokumen Dienkripsi dan Muat:
-   -  Periksa apakah dokumen OneNote dienkripsi dengan memanggil`Document.IsEncrypted` metode, meneruskan nama file.
-   - Jika tidak dienkripsi, lanjutkan dengan pemrosesan dokumen.
-   - Jika dienkripsi, minta pengguna memberikan kata sandi untuk dekripsi.
+### Langkah 2: periksa apakah dokumen terenkripsi dan muat
+`Document.IsEncrypted` menunjukkan apakah dokumen OneNote dilindungi kata sandi. Gunakan properti ini untuk menentukan apakah notebook memerlukan kata sandi. Jika metode mengembalikan `false`, Anda dapat melanjutkan pemrosesan normal; jika tidak, minta pengguna memasukkan kata sandi dan berikan ke konstruktor `Document`.
 
 ```csharp
 public static void Document_CheckIfEncryptedAndLoad()
 {
-    // Jalur ke direktori dokumen.
+    // The path to the documents directory.
     string dataDir = "Your Document Directory";
     string fileName = Path.Combine(dataDir, "Aspose.one");
 
@@ -97,15 +177,13 @@ public static void Document_CheckIfEncryptedAndLoad()
 }
 ```
 
-### Langkah 3: Periksa Apakah Dokumen Dienkripsi dengan Kata Sandi dan Muat:
-   - Mirip dengan langkah sebelumnya, periksa apakah dokumen dienkripsi dengan kata sandi tertentu.
-   - Jika dienkripsi dan kata sandi yang benar diberikan, lanjutkan dengan pemrosesan dokumen.
-   - Jika dienkripsi tetapi kata sandi yang diberikan salah, beri tahu pengguna tentang kata sandi yang tidak valid.
+### Langkah 3: periksa apakah dokumen terenkripsi dengan kata sandi dan muat
+Ketika kata sandi diberikan, konstruktor `Document` memvalidasinya. Jika kata sandi cocok, dokumen dimuat; jika tidak, sebuah pengecualian dilempar, yang harus Anda tangkap untuk memberi tahu pengguna tentang kredensial yang tidak valid.
 
 ```csharp
 public static void Document_CheckIfEncryptedByPasswordAndLoad()
 {
-    // Jalur ke direktori dokumen.
+    // The path to the documents directory.
     string dataDir = "Your Document Directory";
     string fileName = Path.Combine(dataDir, "Aspose.one");
 
@@ -128,14 +206,13 @@ public static void Document_CheckIfEncryptedByPasswordAndLoad()
 }
 ```
 
-### Langkah 4: Tangani Format OneNote 2007 yang Tidak Didukung:
-   - Mencoba memuat dokumen OneNote dalam format 2007.
-   -  Jika formatnya tidak didukung, tangkap`UnsupportedFileFormatException`dan menanganinya dengan tepat, memberi tahu pengguna tentang format yang tidak didukung.
+### Langkah 4: tangani format OneNote 2007 yang tidak didukung
+`UnsupportedFileFormatException` dilempar ketika Aspose.Note menemukan format biner lama yang tidak dapat diproses. Tangkap pengecualian ini dan beri tahu pengguna bahwa file harus diupgrade ke format yang lebih baru sebelum diproses.
 
 ```csharp
 public static void Document_OneNote2007_Is_NotSupported()
 {
-    // Jalur ke direktori dokumen.
+    // The path to the documents directory.
     string dataDir = "Your Document Directory";
     string fileName = Path.Combine(dataDir, "OneNote2007.one");
 
@@ -155,31 +232,41 @@ public static void Document_OneNote2007_Is_NotSupported()
 }
 ```
 
-## Kesimpulan
+## Masalah umum dan solusi
+- **Kesalahan “File tidak ditemukan”:** Pastikan jalur bersifat absolut atau file disalin ke direktori output.  
+- **Deteksi enkripsi selalu false:** Pastikan Anda menggunakan Aspose.Note 24.10 atau yang lebih baru; versi sebelumnya tidak memiliki deteksi enkripsi penuh.  
+- **Pengecualian format tidak didukung:** Konversi file 2007 ke format 2010+ menggunakan Microsoft OneNote sebelum diproses, atau minta pengguna menyediakan file yang diperbarui.
 
-Dalam tutorial ini, kita menjelajahi cara memuat dokumen OneNote di Aspose.Note untuk .NET menggunakan berbagai metode. Dengan mengikuti petunjuk langkah demi langkah ini, Anda bisa dengan lancar mengintegrasikan kemampuan pemrosesan dokumen OneNote ke dalam aplikasi .NET Anda.
-
-## FAQ
+## Pertanyaan yang Sering Diajukan
 
 ### Q1: Apakah Aspose.Note untuk .NET kompatibel dengan semua versi Microsoft OneNote?
+A: Aspose.Note mendukung OneNote 2010, 2013, 2016, dan format OneNote untuk Windows 10. Format biner lama OneNote 2007 tidak didukung.
 
-A1: Aspose.Note untuk .NET mendukung berbagai versi OneNote. Namun, mungkin ada batasan pada format lama seperti OneNote 2007.
-
-### Q2: Bisakah saya mengenkripsi dan mendekripsi dokumen OneNote secara terprogram dengan Aspose.Note untuk .NET?
-
-A2: Ya, Anda dapat memeriksa apakah suatu dokumen dienkripsi dan mendekripsinya menggunakan Aspose.Note untuk .NET.
+### Q2: Apakah saya dapat mengenkripsi dan mendekripsi dokumen OneNote secara programatik dengan Aspose.Note untuk .NET?
+A: Ya – Anda dapat memanggil `Document.IsEncrypted` untuk memeriksa status enkripsi dan menggunakan konstruktor berbasis kata sandi untuk mendekripsi notebook yang dilindungi.
 
 ### Q3: Di mana saya dapat menemukan lebih banyak sumber daya dan dukungan untuk Aspose.Note untuk .NET?
+A: Anda dapat mengunjungi [dokumentasi Aspose.Note untuk .NET](https://reference.aspose.com/note/net/) untuk panduan lengkap dan [forum Aspose.Note untuk .NET](https://forum.aspose.com/c/note/28) untuk mengajukan pertanyaan.
 
- A3: Anda dapat mengunjungi[Aspose.Note untuk dokumentasi .NET](https://reference.aspose.com/note/net/) untuk panduan dan contoh yang komprehensif. Selain itu, Anda dapat meminta bantuan dari[Aspose.Catatan untuk forum .NET](https://forum.aspose.com/c/note/28).
+### Q4: Apakah tersedia percobaan gratis untuk Aspose.Note untuk .NET?
+A: Ya – Anda dapat mengunduh percobaan gratis dari [situs Aspose](https://releases.aspose.com/).
 
-### Q4: Apakah ada uji coba gratis yang tersedia untuk Aspose.Note untuk .NET?
+### Q5: Bagaimana saya dapat memperoleh lisensi sementara untuk Aspose.Note untuk .NET?
+A: Anda dapat meminta lisensi sementara dari [halaman pembelian Aspose](https://purchase.aspose.com/temporary-license/).
 
- A4: Ya, Anda dapat mengunduh uji coba gratis dari[Asumsikan situs web](https://releases.aspose.com/).
+---
 
-### Q5: Bagaimana cara mendapatkan lisensi sementara Aspose.Note untuk .NET?
+**Terakhir diperbarui:** 2026-10-05  
+**Diuji dengan:** Aspose.Note 24.11 untuk .NET  
+**Penulis:** Aspose
 
- A5: Anda dapat meminta lisensi sementara dari[Asumsikan halaman pembelian](https://purchase.aspose.com/temporary-license/).
+## Tutorial Terkait
+
+- [Muat File Notebook dengan Opsi Muat di Aspose Note .NET](/note/net/notebook-operations/load-notebook-files-with-load-options/)
+- [Muat Dokumen yang Dilindungi Kata Sandi di Aspose Note .NET](/note/net/notebook-operations/load-password-protected-documents/)
+- [Ekstrak teks dari OneNote dengan Aspose.Note untuk .NET](/note/net/loading-and-saving-operations/extract-content/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

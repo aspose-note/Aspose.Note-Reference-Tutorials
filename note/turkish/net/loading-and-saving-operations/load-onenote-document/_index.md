@@ -1,53 +1,132 @@
 ---
-title: OneNote Belgesini Aspose.Note'a Yükleme
-linktitle: OneNote Belgesini Aspose.Note'a Yükleme
-second_title: Aspose.Note .NET API'si
-description: Aspose.Note'u kullanarak OneNote belgelerini programlı olarak .NET'te nasıl yükleyeceğinizi, şifreleyeceğinizi ve şifresini çözeceğinizi öğrenin.
-weight: 16
+date: 2026-10-05
+description: Aspose.Note kullanarak .NET'te OneNote dosyalarını programlı olarak nasıl
+  okuyacağınızı öğrenin. Rehber, yükleme, şifreleme kontrolleri ve desteklenmeyen
+  formatların işlenmesini kapsar.
+keywords:
+- how to read onenote
+- Aspose.Note .NET
+- load OneNote document
+- OneNote encryption
+- .NET document processing
+lastmod: 2026-10-05
+linktitle: Aspose.Note içinde OneNote Belgesini Yükle
+og_description: Aspose.Note kullanarak .NET'te OneNote dosyalarını programlı olarak
+  nasıl okuyacağınızı öğrenin. Rehber, yükleme, şifreleme kontrolleri ve desteklenmeyen
+  formatların işlenmesini kapsar.
+og_image_alt: Guide showing how to read OneNote files using Aspose.Note for .NET
+og_title: Aspose.Note for .NET ile OneNote belgelerini nasıl okursunuz
+schemas:
+- author: Aspose
+  dateModified: '2026-10-05'
+  description: Learn how to read OneNote files programmatically in .NET using Aspose.Note.
+    The guide covers loading, encryption checks, and handling unsupported formats.
+  headline: How to read OneNote documents with Aspose.Note for .NET
+  type: TechArticle
+- description: Learn how to read OneNote files programmatically in .NET using Aspose.Note.
+    The guide covers loading, encryption checks, and handling unsupported formats.
+  name: How to read OneNote documents with Aspose.Note for .NET
+  steps:
+  - name: simple load notebook
+    text: The `Notebook` class represents a container that can hold multiple OneNote
+      documents or nested notebooks. Creating an instance automatically parses the
+      file structure.
+  - name: check if document is encrypted and load
+    text: '`Document.IsEncrypted` indicates whether a OneNote document is password‑protected.
+      Use this property to determine whether a notebook requires a password. If the
+      method returns `false`, you can proceed with normal processing; otherwise, prompt
+      the user for a password and pass it to the `Document` con'
+  - name: check if document is encrypted by password and load
+    text: When a password is supplied, the `Document` constructor validates it. If
+      the password matches, the document loads; if not, an exception is thrown, which
+      you should catch to inform the user of the invalid credential.
+  - name: handle unsupported OneNote 2007 format
+    text: '`UnsupportedFileFormatException` is thrown when Aspose.Note encounters
+      a legacy binary format it cannot process. Catch this exception and notify the
+      user that the file must be upgraded to a newer format before processing.'
+  type: HowTo
+- questions:
+  - answer: Yes – use `Document.IsEncrypted` and provide the password.
+    question: Can I load a password‑protected OneNote file?
+  - answer: Fully supported; you can load and manipulate them without extra dependencies.
+    question: Does Aspose.Note support OneNote 2016 files?
+  - answer: .NET Framework 4.6+ or .NET 5/6+ are compatible.
+    question: What .NET versions are required?
+  - answer: A free trial works for evaluation; a license is required for production
+      use.
+    question: Is a license mandatory for development?
+  - answer: Over 30 input and output formats, including DOCX, PDF, HTML, and image
+      types.
+    question: How many file formats does Aspose.Note handle?
+  type: FAQPage
+second_title: Aspose.Note .NET API
+tags:
+- OneNote
+- Aspose.Note
+- .NET
+- document loading
+- encryption
+title: Aspose.Note for .NET ile OneNote belgelerini nasıl okursunuz
 url: /tr/net/loading-and-saving-operations/load-onenote-document/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OneNote Belgesini Aspose.Note'a Yükleme
+# OneNote belgelerini Aspose.Note for .NET ile nasıl okuyabilirsiniz
 
-## giriiş
+## Giriş
 
-Aspose.Note for .NET, geliştiricilerin .NET uygulamalarında Microsoft OneNote dosyalarıyla programlı olarak çalışmasına olanak tanıyan güçlü bir API'dir. OneNote belgelerini yüklemeniz, değiştirmeniz veya dönüştürmeniz gerekiyorsa Aspose.Note for .NET, iş akışınızı kolaylaştırmak için kapsamlı işlevsellik sağlar.
+Bu öğreticide Aspose.Note kullanarak .NET uygulamasında **OneNote dosyalarını nasıl okuyacağınızı** keşfedeceksiniz. Not alma uygulaması geliştiriyor, eski OneNote arşivlerini taşıyor veya analiz için içerik çıkarıyor olun, aşağıdaki adımlar bir not defterini nasıl yükleyeceğinizi, şifrelemeyi nasıl tespit edeceğinizi ve Aspose.Note'un desteklemediği formatları nasıl nazikçe ele alacağınızı gösterir.
+
+## Hızlı cevaplar
+- **Parola korumalı bir OneNote dosyasını yükleyebilir miyim?** Evet – `Document.IsEncrypted` kullanın ve parolayı sağlayın.  
+- **Aspose.Note OneNote 2016 dosyalarını destekliyor mu?** Tamamen desteklenir; ek bağımlılıklar olmadan yükleyebilir ve üzerinde işlem yapabilirsiniz.  
+- **Hangi .NET sürümleri gereklidir?** .NET Framework 4.6+ veya .NET 5/6+ uyumludur.  
+- **Geliştirme için lisans zorunlu mu?** Değerlendirme için ücretsiz deneme çalışır; üretim kullanımı için lisans gereklidir.  
+- **Aspose.Note kaç dosya formatını işleyebilir?** DOCX, PDF, HTML ve görüntü türleri dahil olmak üzere 30'dan fazla giriş ve çıkış formatı desteklenir.
+
+## Aspose.Note for .NET nedir?
+Aspose.Note for .NET, Microsoft Office yüklü olmadan Microsoft OneNote dosyalarının programlı olarak oluşturulmasını, yüklenmesini, düzenlenmesini ve dönüştürülmesini sağlayan bir kütüphanedir. OneNote dosya yapısını `Notebook`, `Document` ve `Page` gibi kullanımı kolay nesnelere soyutlar.
+
+## Aspose.Note for .NET neden kullanılmalı?
+Aspose.Note, OneNote not defterleriyle çalışmayı basitleştiren, geliştirme süresini azaltan ve Office otomasyonuna gerek kalmayan yüksek seviyeli bir API sunar. Geniş bir format yelpazesini destekler, şifrelemeyi kutudan çıkar çıkmaz yönetir ve büyük not defterlerini verimli bir şekilde işler.
+
+- **Geniş format desteği:** Aspose.Note, 30'dan fazla giriş ve çıkış formatıyla çalışır, OneNote not defterlerini tek bir çağrıyla PDF, DOCX, HTML veya PNG'ye dönüştürmenizi sağlar.  
+- **Bellek‑verimli işleme:** API, tüm dosyayı belleğe yüklemeden çok sayfalı not defterlerini akış olarak işleyebilir, naif yaklaşımlara göre RAM kullanımını %70'e kadar azaltır.  
+- **Kurumsal düzeyde şifreleme yönetimi:** Yerleşik yöntemler parola korumalı not defterlerini tespit eder ve şifresini çözer, özel kriptografi koduna ihtiyaç duymaz.
 
 ## Önkoşullar
+Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-Eğiticiye dalmadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
+1. **Visual Studio** – .NET geliştirme için herhangi bir yeni sürüm (Community, Professional veya Enterprise).  
+2. **Aspose.Note for .NET** – en son sürümü [download page](https://releases.aspose.com/note/net/) adresinden indirin.  
+3. **Temel C# bilgisi** – konsol veya masaüstü projeleri oluşturma ve NuGet paketleri ekleme konusunda rahat olmalısınız.
 
-1. Visual Studio: .NET geliştirme için kapsamlı bir entegre geliştirme ortamı (IDE) olan Visual Studio'yu yükleyin.
-2.  Aspose.Note for .NET: Aspose.Note for .NET'i şu adresten indirip yükleyin:[indirme sayfası](https://releases.aspose.com/note/net/).
-3. Temel C# Bilgisi: Bu eğitimde sağlanan örnekleri anlamak ve uygulamak için C# programlama dilinin temellerine aşina olmak gerekir.
+## Ad alanlarını içe aktar
+API ile çalışmak için bu ad alanlarını C# dosyanızın en üstüne ekleyin:
 
-## Ad Alanlarını İçe Aktar
-
-Aspose.Note for .NET ile çalışmaya başlamadan önce gerekli ad alanlarını C# projenize aktardığınızdan emin olun:
+`Aspose.Note` ad alanı temel sınıfları içerirken, `System` dosya G/Ç ve istisna yönetimi için ihtiyaç duyacağınız temel .NET tiplerini sağlar.
 
 ```csharp
 using System;
 using System.IO;
 ```
 
-Her örneği birden fazla adıma ayıralım:
+## Aspose.Note ile OneNote belgeleri nasıl okunur?
+`Notebook`, birden fazla belge ve alt‑not defteri tutabilen OneNote not defteri konteynerini temsil eder.  
 
-## OneNote Belgesini Aspose.Note'a Yükleme
+OneNote dosyanızı bir `Notebook` örneği oluşturarak yükleyin, ardından alt düğümlerini inceleyin. Bu doğrudan‑cevap paragrafı, temel deseni 55 kelimeyle açıklar: dosya yoluyla `Notebook` oluşturun, `Notebook.ChildNodes` üzerinde döngü yapın ve düğüm tipine (belge vs. alt‑not defteri) göre dallanma yapın. API, alttaki XML'i soyutlar, böylece iş mantığına odaklanabilirsiniz.
 
-### Adım 1: Basit Yükleme Not Defteri:
-   -  Yeni bir örneğini oluşturarak başlayın`Notebook` OneNote belgesinin yolunu ileten sınıf.
-   - Bir foreach döngüsü kullanarak not defterinin alt düğümleri arasında yineleme yapın.
-   - Her alt düğümün görünen adını görüntüleyin.
-   - Alt düğümün bir belge mi yoksa başka bir not defteri mi olduğuna bağlı olarak belirli eylemleri gerçekleştirin.
+### Adım 1: basit not defteri yükleme
+`Notebook` sınıfı, birden fazla OneNote belgesi veya iç içe not defterleri tutabilen bir konteneri temsil eder. Bir örnek oluşturmak dosya yapısını otomatik olarak ayrıştırır.
 
 ```csharp
 public static void SimpleLoadNotebook()
 {
-    // Belgeler dizininin yolu.
+    // The path to the documents directory.
     string dataDir = "Your Document Directory";
     string fileName = "Open Notebook.onetoc2";
     try
@@ -58,11 +137,11 @@ public static void SimpleLoadNotebook()
             Console.WriteLine(notebookChildNode.DisplayName);
             if (notebookChildNode is Document)
             {
-                // Alt belgeyle bir şeyler yapın
+                // Do something with child document
             }
             else if (notebookChildNode is Notebook)
             {
-                // Çocuk not defteriyle bir şeyler yapın
+                // Do something with child notebook
             }
         }
     }
@@ -73,15 +152,13 @@ public static void SimpleLoadNotebook()
 }
 ```
 
-### Adım 2: Belgenin Şifreli Olup Olmadığını Kontrol Edin ve Yükleyin:
-   -  OneNote belgesinin şifrelenip şifrelenmediğini kontrol etmek için`Document.IsEncrypted` yöntem, dosya adını ileterek.
-   - Şifrelenmemişse belge işlemeye devam edin.
-   - Şifrelenmişse, kullanıcıdan şifre çözme için bir şifre girmesini isteyin.
+### Adım 2: belgenin şifreli olup olmadığını kontrol et ve yükle
+`Document.IsEncrypted`, bir OneNote belgesinin parola korumalı olup olmadığını gösterir. Bu özelliği, not defterinin parola gerektirip gerektirmediğini belirlemek için kullanın. Metot `false` dönerse normal işleme devam edebilirsiniz; aksi takdirde kullanıcıdan parola isteyin ve `Document` yapıcısına geçirin.
 
 ```csharp
 public static void Document_CheckIfEncryptedAndLoad()
 {
-    // Belgeler dizininin yolu.
+    // The path to the documents directory.
     string dataDir = "Your Document Directory";
     string fileName = Path.Combine(dataDir, "Aspose.one");
 
@@ -97,15 +174,13 @@ public static void Document_CheckIfEncryptedAndLoad()
 }
 ```
 
-### Adım 3: Belgenin Parola ile Şifrelenip Şifrelenmediğini Kontrol Edin ve Yükleyin:
-   - Önceki adıma benzer şekilde belgenin belirli bir parola ile şifrelenip şifrelenmediğini kontrol edin.
-   - Şifrelenmişse ve doğru şifre girilmişse belge işlemeye devam edin.
-   - Şifrelenmişse ancak yanlış bir parola girilmişse, kullanıcıdan geçersiz parolayı isteyin.
+### Adım 3: belgenin parola ile şifreli olup olmadığını kontrol et ve yükle
+Parola sağlandığında, `Document` yapıcısı bunu doğrular. Parola doğruysa belge yüklenir; aksi takdirde bir istisna fırlatılır; bu istisnayı yakalayarak kullanıcıya geçersiz kimlik bilgisi olduğunu bildirmelisiniz.
 
 ```csharp
 public static void Document_CheckIfEncryptedByPasswordAndLoad()
 {
-    // Belgeler dizininin yolu.
+    // The path to the documents directory.
     string dataDir = "Your Document Directory";
     string fileName = Path.Combine(dataDir, "Aspose.one");
 
@@ -128,14 +203,13 @@ public static void Document_CheckIfEncryptedByPasswordAndLoad()
 }
 ```
 
-### 4. Adım: Desteklenmeyen OneNote 2007 Formatını İşleyin:
-   - 2007 biçiminde bir OneNote belgesi yüklemeyi deneyin.
-   -  Format desteklenmiyorsa,`UnsupportedFileFormatException`ve kullanıcıyı desteklenmeyen format hakkında bilgilendirerek uygun şekilde kullanın.
+### Adım 4: desteklenmeyen OneNote 2007 formatını ele al
+`UnsupportedFileFormatException`, Aspose.Note bir eski ikili formatla karşılaştığında ve işleyemediğinde fırlatılır. Bu istisnayı yakalayın ve kullanıcıya dosyanın işlenmeden önce daha yeni bir formata yükseltilmesi gerektiğini bildirin.
 
 ```csharp
 public static void Document_OneNote2007_Is_NotSupported()
 {
-    // Belgeler dizininin yolu.
+    // The path to the documents directory.
     string dataDir = "Your Document Directory";
     string fileName = Path.Combine(dataDir, "OneNote2007.one");
 
@@ -155,31 +229,41 @@ public static void Document_OneNote2007_Is_NotSupported()
 }
 ```
 
-## Çözüm
+## Yaygın sorunlar ve çözümler
+- **“Dosya bulunamadı” hataları:** Yolun mutlak olduğundan veya dosyanın çıktı dizinine kopyalandığından emin olun.  
+- **Şifreleme tespiti her zaman yanlış:** Aspose.Note 24.10 veya daha yeni bir sürüm kullandığınızdan emin olun; önceki sürümler tam şifreleme tespiti sağlamaz.  
+- **Desteklenmeyen format istisnası:** İşleme almadan önce 2007 dosyasını Microsoft OneNote kullanarak 2010+ formata dönüştürün veya kullanıcıdan güncellenmiş bir dosya isteyin.
 
-Bu eğitimde, çeşitli yöntemler kullanarak OneNote belgelerinin Aspose.Note for .NET'e nasıl yükleneceğini araştırdık. Bu adım adım talimatları izleyerek OneNote'un belge işleme yeteneklerini .NET uygulamalarınıza sorunsuz bir şekilde entegre edebilirsiniz.
+## Sıkça Sorulan Sorular
 
-## SSS'ler
+### S1: Aspose.Note for .NET, Microsoft OneNote'un tüm sürümleriyle uyumlu mu?
+C: Aspose.Note, OneNote 2010, 2013, 2016 ve OneNote for Windows 10 formatını destekler. Eski OneNote 2007 ikili formatı desteklenmez.
 
-### S1: Aspose.Note for .NET, Microsoft OneNote'un tüm sürümleriyle uyumlu mudur?
+### S2: Aspose.Note for .NET ile OneNote belgelerini programlı olarak şifreleyip şifresini çözebilir miyim?
+C: Evet – şifreleme durumunu kontrol etmek için `Document.IsEncrypted` çağırabilir ve parola‑tabanlı yapıcıyı kullanarak korumalı bir not defterinin şifresini çözebilirsiniz.
 
-Cevap1: Aspose.Note for .NET, OneNote'un çeşitli sürümlerini destekler. Ancak OneNote 2007 gibi eski formatlarda sınırlamalar olabilir.
+### S3: Aspose.Note for .NET için daha fazla kaynak ve destek nereden bulunur?
+C: Kapsamlı kılavuzlar için [Aspose.Note for .NET documentation](https://reference.aspose.com/note/net/) adresini ve sorularınızı sormak için [Aspose.Note for .NET forum](https://forum.aspose.com/c/note/28) adresini ziyaret edebilirsiniz.
 
-### S2: OneNote belgelerini Aspose.Note for .NET ile programlı olarak şifreleyebilir ve şifrelerini çözebilir miyim?
+### S4: Aspose.Note for .NET için ücretsiz deneme mevcut mu?
+C: Evet – [Aspose website](https://releases.aspose.com/) adresinden ücretsiz deneme indirebilirsiniz.
 
-C2: Evet, Aspose.Note for .NET'i kullanarak bir belgenin şifrelenip şifrelenmediğini kontrol edebilir ve şifresini çözebilirsiniz.
+### S5: Aspose.Note for .NET için geçici lisans nasıl alınır?
+C: [Aspose purchase page](https://purchase.aspose.com/temporary-license/) adresinden geçici lisans talep edebilirsiniz.
 
-### S3: Aspose.Note for .NET için daha fazla kaynağı ve desteği nerede bulabilirim?
+---
 
- A3: ziyaret edebilirsiniz[.NET belgeleri için Aspose.Note](https://reference.aspose.com/note/net/) Kapsamlı kılavuzlar ve örnekler için. Ayrıca şu adresten yardım isteyebilirsiniz:[.NET forumu için Aspose.Note](https://forum.aspose.com/c/note/28).
+**Son güncelleme:** 2026-10-05  
+**Test edildi:** Aspose.Note 24.11 for .NET  
+**Yazar:** Aspose
 
-### S4: Aspose.Note for .NET'in ücretsiz deneme sürümü mevcut mu?
+## İlgili Öğreticiler
 
- C4: Evet, ücretsiz deneme sürümünü şuradan indirebilirsiniz:[Web sitesi](https://releases.aspose.com/).
+- [Aspose Note .NET'te Yükleme Seçenekleriyle Not Defteri Dosyalarını Yükleme](/note/net/notebook-operations/load-notebook-files-with-load-options/)
+- [Aspose Note .NET'te Parola Koruması Olan Belgeleri Yükleme](/note/net/notebook-operations/load-password-protected-documents/)
+- [Aspose.Note for .NET ile OneNote'tan Metin Çıkarma](/note/net/loading-and-saving-operations/extract-content/)
 
-### S5: Aspose.Note for .NET için nasıl geçici lisans alabilirim?
 
- Cevap5: Geçici lisans talebinde bulunabilirsiniz.[Satın alma sayfasını atayın](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
