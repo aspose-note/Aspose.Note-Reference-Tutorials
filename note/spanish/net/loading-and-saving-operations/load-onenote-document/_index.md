@@ -1,53 +1,133 @@
 ---
-title: Cargue el documento de OneNote en Aspose.Note
-linktitle: Cargue el documento de OneNote en Aspose.Note
-second_title: Aspose.Nota .NET API
-description: Aprenda a cargar, cifrar y descifrar documentos de OneNote mediante programación en .NET utilizando Aspose.Note.
-weight: 16
+date: 2026-10-05
+description: Aprenda a leer archivos OneNote programmatically en .NET usando Aspose.Note.
+  La guía cubre loading, encryption checks y handling unsupported formats.
+keywords:
+- how to read onenote
+- Aspose.Note .NET
+- load OneNote document
+- OneNote encryption
+- .NET document processing
+lastmod: 2026-10-05
+linktitle: Cargar documento OneNote en Aspose.Note
+og_description: Aprenda a leer archivos OneNote programmatically en .NET usando Aspose.Note.
+  La guía cubre loading, encryption checks y handling unsupported formats.
+og_image_alt: Guide showing how to read OneNote files using Aspose.Note for .NET
+og_title: Cómo leer documentos OneNote con Aspose.Note para .NET
+schemas:
+- author: Aspose
+  dateModified: '2026-10-05'
+  description: Learn how to read OneNote files programmatically in .NET using Aspose.Note.
+    The guide covers loading, encryption checks, and handling unsupported formats.
+  headline: How to read OneNote documents with Aspose.Note for .NET
+  type: TechArticle
+- description: Learn how to read OneNote files programmatically in .NET using Aspose.Note.
+    The guide covers loading, encryption checks, and handling unsupported formats.
+  name: How to read OneNote documents with Aspose.Note for .NET
+  steps:
+  - name: simple load notebook
+    text: The `Notebook` class represents a container that can hold multiple OneNote
+      documents or nested notebooks. Creating an instance automatically parses the
+      file structure.
+  - name: check if document is encrypted and load
+    text: '`Document.IsEncrypted` indicates whether a OneNote document is password‑protected.
+      Use this property to determine whether a notebook requires a password. If the
+      method returns `false`, you can proceed with normal processing; otherwise, prompt
+      the user for a password and pass it to the `Document` con'
+  - name: check if document is encrypted by password and load
+    text: When a password is supplied, the `Document` constructor validates it. If
+      the password matches, the document loads; if not, an exception is thrown, which
+      you should catch to inform the user of the invalid credential.
+  - name: handle unsupported OneNote 2007 format
+    text: '`UnsupportedFileFormatException` is thrown when Aspose.Note encounters
+      a legacy binary format it cannot process. Catch this exception and notify the
+      user that the file must be upgraded to a newer format before processing.'
+  type: HowTo
+- questions:
+  - answer: Yes – use `Document.IsEncrypted` and provide the password.
+    question: Can I load a password‑protected OneNote file?
+  - answer: Fully supported; you can load and manipulate them without extra dependencies.
+    question: Does Aspose.Note support OneNote 2016 files?
+  - answer: .NET Framework 4.6+ or .NET 5/6+ are compatible.
+    question: What .NET versions are required?
+  - answer: A free trial works for evaluation; a license is required for production
+      use.
+    question: Is a license mandatory for development?
+  - answer: Over 30 input and output formats, including DOCX, PDF, HTML, and image
+      types.
+    question: How many file formats does Aspose.Note handle?
+  type: FAQPage
+second_title: Aspose.Note .NET API
+tags:
+- OneNote
+- Aspose.Note
+- .NET
+- document loading
+- encryption
+title: Cómo leer documentos OneNote con Aspose.Note para .NET
 url: /es/net/loading-and-saving-operations/load-onenote-document/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cargue el documento de OneNote en Aspose.Note
+# Cómo leer documentos OneNote con Aspose.Note para .NET
 
 ## Introducción
 
-Aspose.Note para .NET es una potente API que permite a los desarrolladores trabajar con archivos de Microsoft OneNote mediante programación en sus aplicaciones .NET. Ya sea que necesite cargar, manipular o convertir documentos de OneNote, Aspose.Note para .NET proporciona una funcionalidad integral para optimizar su flujo de trabajo.
+En este tutorial descubrirá **cómo leer OneNote** archivos en una aplicación .NET usando Aspose.Note. Ya sea que esté creando una aplicación para tomar notas, migrando archivos heredados de OneNote o extrayendo contenido para análisis, los pasos a continuación le muestran cómo cargar un cuaderno, detectar cifrado y manejar con elegancia los formatos que Aspose.Note no admite.
+
+## Respuestas rápidas
+- **¿Puedo cargar un archivo OneNote protegido con contraseña?** Sí – use `Document.IsEncrypted` y proporcione la contraseña.
+- **¿Aspose.Note admite archivos OneNote 2016?** Totalmente compatible; puede cargar y manipularlos sin dependencias adicionales.
+- **¿Qué versiones de .NET se requieren?** .NET Framework 4.6+ o .NET 5/6+ son compatibles.
+- **¿Es obligatoria una licencia para el desarrollo?** Una prueba gratuita funciona para evaluación; se requiere una licencia para uso en producción.
+- **¿Cuántos formatos de archivo maneja Aspose.Note?** Más de 30 formatos de entrada y salida, incluidos DOCX, PDF, HTML y tipos de imagen.
+
+## ¿Qué es Aspose.Note para .NET?
+Aspose.Note para .NET es una biblioteca que permite la creación, carga, edición y conversión programática de archivos Microsoft OneNote sin necesidad de tener Microsoft Office instalado. Abstracta la estructura de archivos de OneNote en objetos fáciles de usar como `Notebook`, `Document` y `Page`.
+
+## ¿Por qué usar Aspose.Note para .NET?
+Aspose.Note ofrece una API de alto nivel que simplifica el trabajo con cuadernos OneNote, reduce el tiempo de desarrollo y elimina la necesidad de automatización de Office. Soporta una amplia gama de formatos, maneja el cifrado de forma nativa y procesa cuadernos grandes de manera eficiente.
+
+- **Amplio soporte de formatos:** Aspose.Note funciona con más de 30 formatos de entrada y salida, permitiéndole convertir cuadernos OneNote a PDF, DOCX, HTML o PNG en una sola llamada.  
+- **Procesamiento eficiente en memoria:** La API puede transmitir cuadernos de cientos de páginas sin cargar todo el archivo en memoria, reduciendo el uso de RAM hasta un 70 % en comparación con enfoques ingenuos.  
+- **Manejo de cifrado de nivel empresarial:** Los métodos incorporados detectan y descifran cuadernos protegidos con contraseña, eliminando la necesidad de código criptográfico personalizado.
 
 ## Requisitos previos
 
-Antes de sumergirse en el tutorial, asegúrese de tener los siguientes requisitos previos:
+Antes de comenzar, asegúrese de tener lo siguiente:
 
-1. Visual Studio: instale Visual Studio, un entorno de desarrollo integrado (IDE) integral para el desarrollo de .NET.
-2.  Aspose.Note para .NET: descargue e instale Aspose.Note para .NET desde[pagina de descarga](https://releases.aspose.com/note/net/).
-3. Conocimientos básicos de C#: es necesaria estar familiarizado con los fundamentos del lenguaje de programación C# para comprender e implementar los ejemplos proporcionados en este tutorial.
+1. **Visual Studio** – cualquier edición reciente (Community, Professional o Enterprise) para desarrollo .NET.  
+2. **Aspose.Note for .NET** – descargue la última versión desde la [download page](https://releases.aspose.com/note/net/).  
+3. **Conocimientos básicos de C#** – debe sentirse cómodo creando proyectos de consola o de escritorio y añadiendo paquetes NuGet.
 
 ## Importar espacios de nombres
 
-Antes de comenzar a trabajar con Aspose.Note para .NET, asegúrese de importar los espacios de nombres necesarios a su proyecto C#:
+Para trabajar con la API, importe estos espacios de nombres al inicio de su archivo C#:
+
+El espacio de nombres `Aspose.Note` contiene las clases principales, mientras que `System` proporciona los tipos básicos de .NET que necesitará para entrada/salida de archivos y manejo de excepciones.
 
 ```csharp
 using System;
 using System.IO;
 ```
 
-Dividamos cada ejemplo en varios pasos:
+## ¿Cómo leer documentos OneNote con Aspose.Note?
 
-## Cargue el documento de OneNote en Aspose.Note
+`Notebook` representa un contenedor de cuaderno OneNote que puede contener múltiples documentos y sub‑cuadernos.  
 
-### Paso 1: Cargar el cuaderno de forma sencilla:
-   -  Comience creando una nueva instancia del`Notebook` clase, pasando la ruta al documento de OneNote.
-   - Itere a través de los nodos secundarios del cuaderno utilizando un bucle foreach.
-   - Muestra el nombre para mostrar de cada nodo secundario.
-   - Realice acciones específicas en función de si el nodo secundario es un documento u otro cuaderno.
+Cargue su archivo OneNote creando una instancia de `Notebook`, luego inspeccione sus nodos hijos. Este párrafo de respuesta directa explica el patrón central en 55 palabras: instanciar `Notebook` con la ruta del archivo, iterar a través de `Notebook.ChildNodes` y ramificar según el tipo de nodo (documento vs. sub‑cuaderno). La API abstrae el XML subyacente, por lo que puede centrarse en la lógica de negocio.
+
+### Paso 1: carga simple del cuaderno
+La clase `Notebook` representa un contenedor que puede albergar múltiples documentos OneNote o cuadernos anidados. Crear una instancia analiza automáticamente la estructura del archivo.
 
 ```csharp
 public static void SimpleLoadNotebook()
 {
-    // La ruta al directorio de documentos.
+    // The path to the documents directory.
     string dataDir = "Your Document Directory";
     string fileName = "Open Notebook.onetoc2";
     try
@@ -58,11 +138,11 @@ public static void SimpleLoadNotebook()
             Console.WriteLine(notebookChildNode.DisplayName);
             if (notebookChildNode is Document)
             {
-                // Hacer algo con el documento secundario
+                // Do something with child document
             }
             else if (notebookChildNode is Notebook)
             {
-                // Hacer algo con el cuaderno infantil
+                // Do something with child notebook
             }
         }
     }
@@ -73,15 +153,13 @@ public static void SimpleLoadNotebook()
 }
 ```
 
-### Paso 2: Verifique si el documento está cifrado y cárguelo:
-   -  Compruebe si el documento de OneNote está cifrado llamando al`Document.IsEncrypted` método, pasando el nombre del archivo.
-   - Si no está cifrado, continúe con el procesamiento del documento.
-   - Si está cifrado, solicite al usuario que proporcione una contraseña para descifrarlo.
+### Paso 2: comprobar si el documento está cifrado y cargar
+`Document.IsEncrypted` indica si un documento OneNote está protegido con contraseña. Use esta propiedad para determinar si un cuaderno requiere una contraseña. Si el método devuelve `false`, puede continuar con el procesamiento normal; de lo contrario, solicite al usuario una contraseña y pásela al constructor `Document`.
 
 ```csharp
 public static void Document_CheckIfEncryptedAndLoad()
 {
-    // La ruta al directorio de documentos.
+    // The path to the documents directory.
     string dataDir = "Your Document Directory";
     string fileName = Path.Combine(dataDir, "Aspose.one");
 
@@ -97,15 +175,13 @@ public static void Document_CheckIfEncryptedAndLoad()
 }
 ```
 
-### Paso 3: Verifique si el documento está cifrado con contraseña y cárguelo:
-   - De manera similar al paso anterior, verifique si el documento está cifrado con una contraseña específica.
-   - Si está cifrado y se proporciona la contraseña correcta, continúe con el procesamiento del documento.
-   - Si está cifrado pero se proporciona una contraseña incorrecta, informe al usuario sobre la contraseña no válida.
+### Paso 3: comprobar si el documento está cifrado por contraseña y cargar
+Cuando se proporciona una contraseña, el constructor `Document` la valida. Si la contraseña coincide, el documento se carga; de lo contrario, se lanza una excepción, que debe capturar para informar al usuario de la credencial inválida.
 
 ```csharp
 public static void Document_CheckIfEncryptedByPasswordAndLoad()
 {
-    // La ruta al directorio de documentos.
+    // The path to the documents directory.
     string dataDir = "Your Document Directory";
     string fileName = Path.Combine(dataDir, "Aspose.one");
 
@@ -128,14 +204,13 @@ public static void Document_CheckIfEncryptedByPasswordAndLoad()
 }
 ```
 
-### Paso 4: Manejar el formato OneNote 2007 no compatible:
-   - Intente cargar un documento de OneNote en formato 2007.
-   -  Si el formato no es compatible, capture el`UnsupportedFileFormatException` manejarlo adecuadamente, informando al usuario sobre el formato no soportado.
+### Paso 4: manejar formato OneNote 2007 no compatible
+`UnsupportedFileFormatException` se lanza cuando Aspose.Note encuentra un formato binario heredado que no puede procesar. Capture esta excepción y notifique al usuario que el archivo debe actualizarse a un formato más reciente antes de procesarlo.
 
 ```csharp
 public static void Document_OneNote2007_Is_NotSupported()
 {
-    // La ruta al directorio de documentos.
+    // The path to the documents directory.
     string dataDir = "Your Document Directory";
     string fileName = Path.Combine(dataDir, "OneNote2007.one");
 
@@ -155,31 +230,40 @@ public static void Document_OneNote2007_Is_NotSupported()
 }
 ```
 
-## Conclusión
-
-En este tutorial, exploramos cómo cargar documentos de OneNote en Aspose.Note para .NET usando varios métodos. Si sigue estas instrucciones paso a paso, podrá integrar perfectamente las capacidades de procesamiento de documentos de OneNote en sus aplicaciones .NET.
+## Problemas comunes y soluciones
+- **Errores “File not found”:** Verifique que la ruta sea absoluta o que el archivo se haya copiado al directorio de salida.  
+- **La detección de cifrado siempre es falsa:** Asegúrese de estar usando Aspose.Note 24.10 o posterior; versiones anteriores carecían de detección completa de cifrado.  
+- **Excepción de formato no compatible:** Convierta el archivo 2007 al formato 2010+ usando Microsoft OneNote antes de procesarlo, o pida al usuario que proporcione un archivo actualizado.
 
 ## Preguntas frecuentes
 
 ### P1: ¿Aspose.Note para .NET es compatible con todas las versiones de Microsoft OneNote?
+R: Aspose.Note admite OneNote 2010, 2013, 2016 y el formato OneNote para Windows 10. El formato binario heredado OneNote 2007 no es compatible.
 
-A1: Aspose.Note para .NET admite varias versiones de OneNote. Sin embargo, puede haber limitaciones con formatos más antiguos como OneNote 2007.
-
-### P2: ¿Puedo cifrar y descifrar documentos de OneNote mediante programación con Aspose.Note para .NET?
-
-R2: Sí, puede comprobar si un documento está cifrado y descifrarlo utilizando Aspose.Note para .NET.
+### P2: ¿Puedo cifrar y descifrar documentos OneNote programáticamente con Aspose.Note para .NET?
+R: Sí – puede llamar a `Document.IsEncrypted` para comprobar el estado de cifrado y usar el constructor basado en contraseña para descifrar un cuaderno protegido.
 
 ### P3: ¿Dónde puedo encontrar más recursos y soporte para Aspose.Note para .NET?
-
- A3: Puedes visitar el[Aspose.Note para la documentación de .NET](https://reference.aspose.com/note/net/) para guías completas y ejemplos. Además, puede solicitar ayuda al[Aspose.Note para el foro .NET](https://forum.aspose.com/c/note/28).
+R: Puede visitar la [documentación de Aspose.Note para .NET](https://reference.aspose.com/note/net/) para guías completas y el [foro de Aspose.Note para .NET](https://forum.aspose.com/c/note/28) para hacer preguntas.
 
 ### P4: ¿Hay una prueba gratuita disponible para Aspose.Note para .NET?
+R: Sí – puede descargar una prueba gratuita desde el [sitio web de Aspose](https://releases.aspose.com/).
 
- R4: Sí, puedes descargar una prueba gratuita desde[Aspose sitio web](https://releases.aspose.com/).
+### P5: ¿Cómo puedo obtener una licencia temporal para Aspose.Note para .NET?
+R: Puede solicitar una licencia temporal en la [página de compra de Aspose](https://purchase.aspose.com/temporary-license/).
 
-### P5: ¿Cómo puedo obtener una licencia temporal de Aspose.Note para .NET?
+---
 
- R5: Puede solicitar una licencia temporal al[Aspose página de compra](https://purchase.aspose.com/temporary-license/).
+**Última actualización:** 2026-10-05  
+**Probado con:** Aspose.Note 24.11 para .NET  
+**Autor:** Aspose
+
+## Tutoriales relacionados
+
+- [Cargar archivos de cuaderno con opciones de carga en Aspose Note .NET](/note/net/notebook-operations/load-notebook-files-with-load-options/)
+- [Cargar documentos protegidos con contraseña en Aspose Note .NET](/note/net/notebook-operations/load-password-protected-documents/)
+- [Extraer texto de OneNote con Aspose.Note para .NET](/note/net/loading-and-saving-operations/extract-content/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

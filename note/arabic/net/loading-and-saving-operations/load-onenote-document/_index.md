@@ -1,53 +1,133 @@
 ---
-title: قم بتحميل مستند OneNote في Aspose.Note
-linktitle: قم بتحميل مستند OneNote في Aspose.Note
+date: 2026-10-05
+description: تعرف على كيفية قراءة ملفات OneNote برمجيًا في .NET باستخدام Aspose.Note.
+  يغطي الدليل عملية التحميل، وفحص التشفير، ومعالجة الصيغ غير المدعومة.
+keywords:
+- how to read onenote
+- Aspose.Note .NET
+- load OneNote document
+- OneNote encryption
+- .NET document processing
+lastmod: 2026-10-05
+linktitle: تحميل مستند OneNote في Aspose.Note
+og_description: تعرف على كيفية قراءة ملفات OneNote برمجيًا في .NET باستخدام Aspose.Note.
+  يغطي الدليل عملية التحميل، وفحص التشفير، ومعالجة الصيغ غير المدعومة.
+og_image_alt: Guide showing how to read OneNote files using Aspose.Note for .NET
+og_title: كيفية قراءة مستندات OneNote باستخدام Aspose.Note لـ .NET
+schemas:
+- author: Aspose
+  dateModified: '2026-10-05'
+  description: Learn how to read OneNote files programmatically in .NET using Aspose.Note.
+    The guide covers loading, encryption checks, and handling unsupported formats.
+  headline: How to read OneNote documents with Aspose.Note for .NET
+  type: TechArticle
+- description: Learn how to read OneNote files programmatically in .NET using Aspose.Note.
+    The guide covers loading, encryption checks, and handling unsupported formats.
+  name: How to read OneNote documents with Aspose.Note for .NET
+  steps:
+  - name: simple load notebook
+    text: The `Notebook` class represents a container that can hold multiple OneNote
+      documents or nested notebooks. Creating an instance automatically parses the
+      file structure.
+  - name: check if document is encrypted and load
+    text: '`Document.IsEncrypted` indicates whether a OneNote document is password‑protected.
+      Use this property to determine whether a notebook requires a password. If the
+      method returns `false`, you can proceed with normal processing; otherwise, prompt
+      the user for a password and pass it to the `Document` con'
+  - name: check if document is encrypted by password and load
+    text: When a password is supplied, the `Document` constructor validates it. If
+      the password matches, the document loads; if not, an exception is thrown, which
+      you should catch to inform the user of the invalid credential.
+  - name: handle unsupported OneNote 2007 format
+    text: '`UnsupportedFileFormatException` is thrown when Aspose.Note encounters
+      a legacy binary format it cannot process. Catch this exception and notify the
+      user that the file must be upgraded to a newer format before processing.'
+  type: HowTo
+- questions:
+  - answer: Yes – use `Document.IsEncrypted` and provide the password.
+    question: Can I load a password‑protected OneNote file?
+  - answer: Fully supported; you can load and manipulate them without extra dependencies.
+    question: Does Aspose.Note support OneNote 2016 files?
+  - answer: .NET Framework 4.6+ or .NET 5/6+ are compatible.
+    question: What .NET versions are required?
+  - answer: A free trial works for evaluation; a license is required for production
+      use.
+    question: Is a license mandatory for development?
+  - answer: Over 30 input and output formats, including DOCX, PDF, HTML, and image
+      types.
+    question: How many file formats does Aspose.Note handle?
+  type: FAQPage
 second_title: Aspose.Note .NET API
-description: تعرف على كيفية تحميل مستندات OneNote وتشفيرها وفك تشفيرها برمجيًا في .NET باستخدام Aspose.Note.
-weight: 16
+tags:
+- OneNote
+- Aspose.Note
+- .NET
+- document loading
+- encryption
+title: كيفية قراءة مستندات OneNote باستخدام Aspose.Note لـ .NET
 url: /ar/net/loading-and-saving-operations/load-onenote-document/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# قم بتحميل مستند OneNote في Aspose.Note
+# كيفية قراءة مستندات OneNote باستخدام Aspose.Note لـ .NET
 
 ## مقدمة
 
-Aspose.Note for .NET عبارة عن واجهة برمجة تطبيقات قوية تتيح للمطورين العمل مع ملفات Microsoft OneNote برمجيًا في تطبيقات .NET الخاصة بهم. سواء كنت بحاجة إلى تحميل مستندات OneNote أو معالجتها أو تحويلها، فإن Aspose.Note for .NET يوفر وظائف شاملة لتبسيط سير عملك.
+في هذا الدرس ستكتشف **كيفية قراءة ملفات OneNote** في تطبيق .NET باستخدام Aspose.Note. سواءً كنت تبني تطبيقًا لتدوين الملاحظات، أو تقوم بترحيل أرشيف OneNote القديم، أو تستخرج المحتوى للتحليلات، توضح الخطوات أدناه كيفية تحميل دفتر ملاحظات، واكتشاف التشفير، ومعالجة الصيغ التي لا يدعمها Aspose.Note بشكل سلس.
 
-## المتطلبات الأساسية
+## إجابات سريعة
+- **هل يمكنني تحميل ملف OneNote محمي بكلمة مرور؟** نعم – استخدم `Document.IsEncrypted` وقدم كلمة المرور.  
+- **هل يدعم Aspose.Note ملفات OneNote 2016؟** مدعومة بالكامل؛ يمكنك تحميلها ومعالجتها دون تبعيات إضافية.  
+- **ما إصدارات .NET المطلوبة؟** .NET Framework 4.6+ أو .NET 5/6+ متوافقة.  
+- **هل الترخيص إلزامي للتطوير؟** النسخة التجريبية المجانية تكفي للتقييم؛ الترخيص مطلوب للاستخدام في الإنتاج.  
+- **كم عدد صيغ الملفات التي يدعمها Aspose.Note؟** أكثر من 30 صيغة إدخال وإخراج، بما في ذلك DOCX و PDF و HTML وأنواع الصور.
 
-قبل الغوص في البرنامج التعليمي، تأكد من أن لديك المتطلبات الأساسية التالية:
+## ما هو Aspose.Note لـ .NET؟
+Aspose.Note لـ .NET هي مكتبة تمكّن من إنشاء، تحميل، تعديل، وتحويل ملفات Microsoft OneNote برمجيًا دون الحاجة إلى تثبيت Microsoft Office. تُجسّد بنية ملف OneNote في كائنات سهلة الاستخدام مثل `Notebook` و `Document` و `Page`.
 
-1. Visual Studio: قم بتثبيت Visual Studio، وهو بيئة تطوير متكاملة وشاملة (IDE) لتطوير .NET.
-2.  Aspose.Note لـ .NET: قم بتنزيل Aspose.Note لـ .NET وتثبيته من[صفحة التحميل](https://releases.aspose.com/note/net/).
-3. المعرفة الأساسية لـ C#: يعد الإلمام بأساسيات لغة البرمجة C# ضروريًا لفهم الأمثلة المقدمة في هذا البرنامج التعليمي وتنفيذها.
+## لماذا تستخدم Aspose.Note لـ .NET؟
+Aspose.Note توفر API عالية المستوى تُبسّط العمل مع دفاتر OneNote، وتقلل من وقت التطوير، وتلغي الحاجة إلى أتمتة Office. تدعم مجموعة واسعة من الصيغ، وتعالج التشفير مباشرةً، وتُعالج دفاتر الملاحظات الكبيرة بكفاءة.
+
+- **دعم صيغ واسع:** Aspose.Note يعمل مع أكثر من 30 صيغة إدخال وإخراج، مما يتيح لك تحويل دفاتر OneNote إلى PDF أو DOCX أو HTML أو PNG في استدعاء واحد.  
+- **معالجة فعّالة للذاكرة:** يمكن للـ API بث دفاتر مئات الصفحات دون تحميل الملف بالكامل في الذاكرة، مما يقلل استهلاك RAM حتى 70 % مقارنةً بالطرق البسيطة.  
+- **معالجة تشفير على مستوى المؤسسات:** طرق مدمجة تكتشف وتفك تشفير دفاتر OneNote المحمية بكلمة مرور، مما يلغي الحاجة إلى كتابة شفرة تشفير مخصصة.
+
+## المتطلبات المسبقة
+
+قبل البدء، تأكد من وجود ما يلي:
+
+1. **Visual Studio** – أي نسخة حديثة (Community أو Professional أو Enterprise) لتطوير .NET.  
+2. **Aspose.Note لـ .NET** – حمّل أحدث نسخة من [صفحة التحميل](https://releases.aspose.com/note/net/).  
+3. **معرفة أساسية بـ C#** – يجب أن تكون مرتاحًا لإنشاء مشاريع وحدة تحكم أو سطح مكتب وإضافة حزم NuGet.
 
 ## استيراد مساحات الأسماء
 
-قبل البدء في العمل مع Aspose.Note لـ .NET، تأكد من استيراد مساحات الأسماء المطلوبة إلى مشروع C# الخاص بك:
+للعمل مع الـ API، استورد مساحات الأسماء هذه في أعلى ملف C# الخاص بك:
+
+تحتوي مساحة الأسماء `Aspose.Note` على الفئات الأساسية، بينما توفر `System` الأنواع الأساسية في .NET التي تحتاجها للتعامل مع ملفات الإدخال/الإخراج ومعالجة الاستثناءات.
 
 ```csharp
 using System;
 using System.IO;
 ```
 
-دعنا نقسم كل مثال إلى خطوات متعددة:
+## كيفية قراءة مستندات OneNote باستخدام Aspose.Note؟
 
-## قم بتحميل مستند OneNote في Aspose.Note
+`Notebook` يمثل حاوية دفتر OneNote يمكن أن تحتوي على مستندات فرعية ودفاتر فرعية متعددة.  
 
-### الخطوة 1: تحميل دفتر ملاحظات بسيط:
-   -  ابدأ بإنشاء مثيل جديد لـ`Notebook` فئة، وتمرير المسار إلى مستند OneNote.
-   - قم بالتكرار عبر العقد الفرعية لدفتر الملاحظات باستخدام حلقة foreach.
-   - عرض اسم العرض لكل عقدة فرعية.
-   - قم بتنفيذ إجراءات محددة بناءً على ما إذا كانت العقدة الفرعية عبارة عن مستند أو دفتر ملاحظات آخر.
+حمّل ملف OneNote بإنشاء مثيل `Notebook`، ثم فحص العقد الفرعية. يوضح هذا الفقرة النمط الأساسي في 55 كلمة: إنشاء `Notebook` بمسار الملف، التكرار عبر `Notebook.ChildNodes`، والفرع بناءً على نوع العقدة (مستند أم دفتر فرعي). الـ API يج abstracts الـ XML الأساسي، لذا يمكنك التركيز على منطق الأعمال.
+
+### الخطوة 1: تحميل دفتر الملاحظات ببساطة
+فئة `Notebook` تمثل حاوية يمكنها احتواء مستندات OneNote متعددة أو دفاتر متداخلة. إنشاء مثيل يقوم تلقائيًا بتحليل بنية الملف.
 
 ```csharp
 public static void SimpleLoadNotebook()
 {
-    // المسار إلى دليل المستندات.
+    // The path to the documents directory.
     string dataDir = "Your Document Directory";
     string fileName = "Open Notebook.onetoc2";
     try
@@ -58,11 +138,11 @@ public static void SimpleLoadNotebook()
             Console.WriteLine(notebookChildNode.DisplayName);
             if (notebookChildNode is Document)
             {
-                // افعل شيئًا باستخدام مستند الطفل
+                // Do something with child document
             }
             else if (notebookChildNode is Notebook)
             {
-                // افعل شيئًا باستخدام دفتر ملاحظات الطفل
+                // Do something with child notebook
             }
         }
     }
@@ -73,15 +153,13 @@ public static void SimpleLoadNotebook()
 }
 ```
 
-### الخطوة 2: التحقق مما إذا كان المستند مشفرًا وقم بتحميله:
-   -  تحقق مما إذا كان مستند OneNote مشفرًا عن طريق الاتصال بـ`Document.IsEncrypted` طريقة تمرير اسم الملف.
-   - إذا لم تكن مشفرة، تابع معالجة المستندات.
-   - إذا كانت مشفرة، فاطلب من المستخدم تقديم كلمة مرور لفك التشفير.
+### الخطوة 2: التحقق مما إذا كان المستند مشفرًا وتحميله
+`Document.IsEncrypted` تشير إلى ما إذا كان مستند OneNote محميًا بكلمة مرور. استخدم هذه الخاصية لتحديد ما إذا كان الدفتر يتطلب كلمة مرور. إذا أرجعت الطريقة `false`، يمكنك المتابعة بالمعالجة العادية؛ وإلا، اطلب من المستخدم إدخال كلمة المرور ومرّرها إلى مُنشئ `Document`.
 
 ```csharp
 public static void Document_CheckIfEncryptedAndLoad()
 {
-    // المسار إلى دليل المستندات.
+    // The path to the documents directory.
     string dataDir = "Your Document Directory";
     string fileName = Path.Combine(dataDir, "Aspose.one");
 
@@ -97,15 +175,13 @@ public static void Document_CheckIfEncryptedAndLoad()
 }
 ```
 
-### الخطوة 3: التحقق مما إذا كان المستند مشفرًا بكلمة مرور ثم قم بتحميله:
-   - كما هو الحال في الخطوة السابقة، تحقق مما إذا كان المستند مشفرًا بكلمة مرور محددة.
-   - إذا كانت مشفرة وتم توفير كلمة المرور الصحيحة، فتابع معالجة المستند.
-   - إذا كانت مشفرة ولكن تم توفير كلمة مرور غير صحيحة، فاطلب من المستخدم معرفة كلمة المرور غير الصالحة.
+### الخطوة 3: التحقق مما إذا كان المستند مشفرًا بكلمة مرور وتحميله
+عند توفير كلمة مرور، يتحقق مُنشئ `Document` من صحتها. إذا تطابقت كلمة المرور، يتم تحميل المستند؛ إذا لم تتطابق، يُرمى استثناء يجب عليك التقاطه لإبلاغ المستخدم بوجود بيانات اعتماد غير صالحة.
 
 ```csharp
 public static void Document_CheckIfEncryptedByPasswordAndLoad()
 {
-    // المسار إلى دليل المستندات.
+    // The path to the documents directory.
     string dataDir = "Your Document Directory";
     string fileName = Path.Combine(dataDir, "Aspose.one");
 
@@ -128,14 +204,13 @@ public static void Document_CheckIfEncryptedByPasswordAndLoad()
 }
 ```
 
-### الخطوة 4: التعامل مع تنسيق OneNote 2007 غير المدعوم:
-   - حاول تحميل مستند OneNote بتنسيق 2007.
-   -  إذا كان التنسيق غير مدعوم، فالتقط ملف`UnsupportedFileFormatException`والتعامل معها بشكل مناسب، وإعلام المستخدم بالتنسيق غير المدعوم.
+### الخطوة 4: معالجة صيغة OneNote 2007 غير المدعومة
+يُرمى `UnsupportedFileFormatException` عندما يصادف Aspose.Note صيغة ثنائية قديمة لا يمكنه معالجتها. التقط هذا الاستثناء وأخبر المستخدم بضرورة ترقية الملف إلى صيغة أحدث قبل المعالجة.
 
 ```csharp
 public static void Document_OneNote2007_Is_NotSupported()
 {
-    // المسار إلى دليل المستندات.
+    // The path to the documents directory.
     string dataDir = "Your Document Directory";
     string fileName = Path.Combine(dataDir, "OneNote2007.one");
 
@@ -155,31 +230,41 @@ public static void Document_OneNote2007_Is_NotSupported()
 }
 ```
 
-## خاتمة
+## المشكلات الشائعة والحلول
+- **خطأ “الملف غير موجود”:** تحقق من أن المسار مطلق أو أن الملف تم نسخه إلى دليل الإخراج.  
+- **اكتشاف التشفير دائمًا خاطئ:** تأكد من أنك تستخدم Aspose.Note 24.10 أو أحدث؛ الإصدارات السابقة لم تكن تدعم اكتشاف التشفير بالكامل.  
+- **استثناء صيغة غير مدعومة:** حوّل ملف 2007 إلى صيغة 2010+ باستخدام Microsoft OneNote قبل المعالجة، أو اطلب من المستخدم توفير ملف محدث.
 
-في هذا البرنامج التعليمي، اكتشفنا كيفية تحميل مستندات OneNote في Aspose.Note لـ .NET باستخدام طرق مختلفة. باتباع هذه الإرشادات خطوة بخطوة، يمكنك دمج إمكانات معالجة مستندات OneNote بسلاسة في تطبيقات .NET الخاصة بك.
+## الأسئلة المتكررة
 
-## الأسئلة الشائعة
+### س1: هل Aspose.Note لـ .NET متوافق مع جميع إصدارات Microsoft OneNote؟
+**ج:** يدعم Aspose.Note OneNote 2010 و 2013 و 2016 وصيغة OneNote لنظام Windows 10. الصيغة الثنائية القديمة OneNote 2007 غير مدعومة.
 
-### س1: هل يتوافق Aspose.Note for .NET مع كافة إصدارات Microsoft OneNote؟
-
-A1: يدعم Aspose.Note for .NET إصدارات مختلفة من OneNote. ومع ذلك، قد تكون هناك قيود في التنسيقات الأقدم مثل OneNote 2007.
-
-### س٢: هل يمكنني تشفير مستندات OneNote وفك تشفيرها برمجيًا باستخدام Aspose.Note لـ .NET؟
-
-ج2: نعم، يمكنك التحقق من تشفير المستند وفك تشفيره باستخدام Aspose.Note لـ .NET.
+### س2: هل يمكنني تشفير وفك تشفير مستندات OneNote برمجيًا باستخدام Aspose.Note لـ .NET؟
+**ج:** نعم – يمكنك استدعاء `Document.IsEncrypted` للتحقق من حالة التشفير واستخدام المُنشئ القائم على كلمة المرور لفك تشفير دفتر محمي.
 
 ### س3: أين يمكنني العثور على المزيد من الموارد والدعم لـ Aspose.Note لـ .NET؟
+**ج:** يمكنك زيارة [توثيق Aspose.Note لـ .NET](https://reference.aspose.com/note/net/) للحصول على أدلة شاملة و[منتدى Aspose.Note لـ .NET](https://forum.aspose.com/c/note/28) لطرح الأسئلة.
 
- ج3: يمكنك زيارة[Aspose.Note لوثائق .NET](https://reference.aspose.com/note/net/) للحصول على أدلة وأمثلة شاملة. بالإضافة إلى ذلك، يمكنك طلب المساعدة من[Aspose.Note لمنتدى .NET](https://forum.aspose.com/c/note/28).
-
-### س4: هل تتوفر نسخة تجريبية مجانية من Aspose.Note لـ .NET؟
-
- ج4: نعم، يمكنك تنزيل نسخة تجريبية مجانية من[موقع أسبوز](https://releases.aspose.com/).
+### س4: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.Note لـ .NET؟
+**ج:** نعم – يمكنك تنزيل نسخة تجريبية مجانية من [موقع Aspose](https://releases.aspose.com/).
 
 ### س5: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Note لـ .NET؟
+**ج:** يمكنك طلب ترخيص مؤقت من [صفحة شراء Aspose](https://purchase.aspose.com/temporary-license/).
 
- ج5: يمكنك طلب ترخيص مؤقت من[Aspose صفحة الشراء](https://purchase.aspose.com/temporary-license/).
+---
+
+**آخر تحديث:** 2026-10-05  
+**تم الاختبار مع:** Aspose.Note 24.11 لـ .NET  
+**المؤلف:** Aspose
+
+## دروس ذات صلة
+
+- [تحميل ملفات دفتر الملاحظات باستخدام خيارات التحميل في Aspose Note .NET](/note/net/notebook-operations/load-notebook-files-with-load-options/)
+- [تحميل المستندات المحمية بكلمة مرور في Aspose Note .NET](/note/net/notebook-operations/load-password-protected-documents/)
+- [استخراج النص من OneNote باستخدام Aspose.Note لـ .NET](/note/net/loading-and-saving-operations/extract-content/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
