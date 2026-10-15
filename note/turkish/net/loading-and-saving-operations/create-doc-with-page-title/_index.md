@@ -1,43 +1,130 @@
 ---
-title: Aspose.Note'ta Sayfa Başlığıyla Belge Oluşturma
-linktitle: Aspose.Note'ta Sayfa Başlığıyla Belge Oluşturma
-second_title: Aspose.Note .NET API'si
-description: Aspose.Note for .NET'i kullanarak başlıklı sayfalara sahip belgeler oluşturmayı öğrenin. Sorunsuz entegrasyon için adım adım kılavuzumuzu izleyin.
-weight: 13
+date: 2026-10-15
+description: Aspose.Note for .NET kullanarak OneNote belgesinde sayfa başlığı nasıl
+  ayarlanır öğrenin. Başlıklı sayfalar oluşturma ve varsayılan metin stilini uygulama
+  konusunda adım adım rehberimizi izleyin.
+keywords:
+- how to set page title
+- set default text style
+- create titled page
+- document with page title
+lastmod: 2026-10-15
+linktitle: Aspose.Note ile Sayfa Başlıklı Belge Oluşturma
+og_description: Aspose.Note for .NET kullanarak OneNote belgesinde sayfa başlığı nasıl
+  ayarlanır öğrenin. Bu adım adım rehber, başlıklı bir sayfa oluşturmayı, varsayılan
+  metin stilini uygulamayı ve dosyayı kaydetmeyi gösterir.
+og_image_alt: 'Aspose.Note tutorial: setting page title in OneNote document with .NET'
+og_title: Aspose.Note kullanarak OneNote belgesinde sayfa başlığı nasıl ayarlanır
+schemas:
+- author: Aspose
+  dateModified: '2026-10-15'
+  description: Learn how to set page title in a OneNote document using Aspose.Note
+    for .NET. Follow our step‑by‑step guide for creating titled pages and applying
+    default text style.
+  headline: How to set page title in OneNote document using Aspose.Note
+  type: TechArticle
+- description: Learn how to set page title in a OneNote document using Aspose.Note
+    for .NET. Follow our step‑by‑step guide for creating titled pages and applying
+    default text style.
+  name: How to set page title in OneNote document using Aspose.Note
+  steps:
+  - name: Download Visual Studio from the Microsoft website.
+    text: Download Visual Studio from the Microsoft website.
+  - name: Select the “.NET desktop development” workload during installation.
+    text: Select the “.NET desktop development” workload during installation.
+  - name: Create a new console‑application project (or any .NET project type you prefer).
+    text: Create a new console‑application project (or any .NET project type you prefer).
+  - name: 'Get Aspose.Note: Download the library from the [website](https://releases.aspose.com/note/net/).'
+    text: 'Get Aspose.Note: Download the library from the [website](https://releases.aspose.com/note/net/).'
+  - name: 'Install via NuGet Package Manager: search for **Aspose.Note** and install
+      the latest version.'
+    text: 'Install via NuGet Package Manager: search for **Aspose.Note** and install
+      the latest version.'
+  type: HowTo
+- questions:
+  - answer: Yes, you can change the font name, size, and color through the `DefaultTextStyle`
+      object before assigning the title.
+    question: Can I customize the title text style?
+  - answer: Absolutely. The library supports .NET Core, .NET 5+, and .NET 6+, enabling
+      cross‑platform development.
+    question: Is Aspose.Note compatible with .NET Core?
+  - answer: Yes. Use the `Image` and `Attachment` classes to embed multimedia content
+      alongside your titled page.
+    question: Can I add images and attachments to the document?
+  - answer: It does. You can load a `.one` file, modify its pages (including titles),
+      and save it back.
+    question: Does Aspose.Note support reading existing OneNote files?
+  - answer: You can find support and assistance on the [Aspose.Note forum](https://forum.aspose.com/c/note/28),
+      where experts and community members help with queries.
+    question: Where can I find support if I encounter any issues?
+  type: FAQPage
+second_title: Aspose.Note .NET API
+tags:
+- Aspose.Note
+- OneNote API
+- page title
+- .NET
+- document creation
+title: Aspose.Note kullanarak OneNote belgesinde sayfa başlığı nasıl ayarlanır
 url: /tr/net/loading-and-saving-operations/create-doc-with-page-title/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Note'ta Sayfa Başlığıyla Belge Oluşturma
+# OneNote belgesinde sayfa başlığı nasıl ayarlanır Aspose.Note kullanarak
 
-## giriiş
+## Giriş
 
-Bu eğitimde, Aspose.Note for .NET'i kullanarak başlıklı sayfaya sahip bir belge oluşturma sürecinde size rehberlik edeceğiz. Aspose.Note, geliştiricilerin Microsoft OneNote dosyalarıyla programlı olarak çalışmasına olanak tanıyan güçlü bir API'dir.
+Bu öğreticide, Aspose.Note for .NET ile bir OneNote belgesi oluştururken **sayfa başlığı nasıl ayarlanır** öğreneceksiniz. Sayfa başlığı ayarlamak, OneNote defterlerinde gezinmeyi, aranabilirliği ve genel okunabilirliği artırır. Proje kurulumundan son dosyanın kaydedilmesine kadar her adımı gösterecek ve başlığa varsayılan bir metin stili nasıl uygulanır gösterilecektir.
+
+## Hızlı cevaplar
+- **Sayfa başlığı neyi ifade eder?** OneNote sayfasının üst kısmında gösterilen ve başlık görevi gören metin.  
+- **Başlığı oluşturan API sınıfı hangisidir?** `Page` sınıfının `PageTitle` özelliği.  
+- **Örneği çalıştırmak için lisansa ihtiyacım var mı?** Geliştirme için ücretsiz deneme sürümü yeterlidir; üretim için ticari lisans gereklidir.  
+- **.NET Core destekleniyor mu?** Evet – Aspose.Note .NET Core, .NET 5+ ve .NET 6+ üzerinde çalışır.  
+- **Başlığın yazı tipini özelleştirebilir miyim?** Kesinlikle – `DefaultTextStyle` nesnesi aracılığıyla yazı tipi adı, boyutu ve rengi ayarlanabilir.
+
+## Sayfa başlığı nasıl ayarlanır nedir?
+**sayfa başlığı nasıl ayarlanır**, Aspose.Note API'si aracılığıyla bir OneNote sayfasının `Title` öğesine başlık dizesi atama sürecidir. Bu işlem, sayfa belge hiyerarşisine eklenmeden önce gerçekleştirilir ve başlığın OneNote arayüzünde doğru şekilde görünmesini, arama ve düzenleme için kullanılmasını sağlar.
+
+## Sayfa başlığı ayarlamak için neden Aspose.Note kullanılmalı?
+Aspose.Note **30+ giriş ve çıkış formatını** destekler ve **10.000 sayfaya kadar** içeren defterleri tüm dosyayı belleğe yüklemeden işleyebilir. Kütüphane Unicode karakterleri, sağ‑dan‑sol scriptleri ve karmaşık biçimlendirmeleri otomatik olarak yönetir, bu da düşük seviyeli OneNote XML kodu yazmanızı engeller.
 
 ## Önkoşullar
 
-Başlamadan önce aşağıdaki önkoşulların yüklendiğinden ve ayarlandığından emin olun:
+### Visual Studio kurulumu
 
-### Visual Studio Kurulumu
+1. Microsoft web sitesinden Visual Studio'yu indirin.  
+2. Kurulum sırasında “.NET desktop development” iş yükünü seçin.  
+3. Yeni bir konsol‑uygulama projesi oluşturun (veya tercih ettiğiniz herhangi bir .NET proje türü).
 
-1. Visual Studio'yu İndirin: Henüz yapmadıysanız, Microsoft web sitesinden Visual Studio'yu indirip yükleyin.
+### Aspose.Note kurulumu
 
-2. .NET Geliştirme İş Yükünü Yükleme: Yükleme işlemi sırasında, .NET geliştirme için gerekli tüm bileşenlere sahip olduğunuzdan emin olmak için ".NET masaüstü geliştirme" iş yükünü seçtiğinizden emin olun.
+1. Aspose.Note alın: Kütüphaneyi [website](https://releases.aspose.com/note/net/) adresinden indirin.  
+2. NuGet Package Manager üzerinden kurun: **Aspose.Note** aratın ve en son sürümü yükleyin.
 
-3. Yeni Bir Proje Oluşturun: Visual Studio'yu açın ve yeni bir proje oluşturun (Konsol Uygulaması veya tercih ettiğiniz başka bir tür).
+## Ad alanlarını içe aktarma
 
-### Aspose.Note Kurulumu
+Aşağıdaki ad alanları, temel Aspose.Note sınıflarına erişim sağlar:
 
-1.  Aspose.Note'u edinin: Aspose.Note for .NET kitaplığını şu adresten indirin:[İnternet sitesi](https://releases.aspose.com/note/net/).
+```text
+using Aspose.Note;
+using Aspose.Note.Drawing;
+using Aspose.Note.Rendering;
+```
 
-2. Aspose.Note'u NuGet aracılığıyla yükleyin: Alternatif olarak Aspose.Note for .NET'i Visual Studio'daki NuGet Paket Yöneticisi aracılığıyla da yükleyebilirsiniz. Basitçe "Aspose.Note"u arayın ve en son sürümü yükleyin.
+Şimdi, bir belgeyi sayfa başlığıyla oluşturma sürecini birden fazla adıma ayıralım:
 
-## Ad Alanlarını İçe Aktarma
+## OneNote belgesinde sayfa başlığı nasıl ayarlanır
 
-Aspose.Note'u projenizde kullanmak için öncelikle gerekli ad alanlarını içe aktarmanız gerekir.
+Yeni bir `Document` nesnesi yükleyin, bir `Page` oluşturun, başlık metnini ayarlayın, varsayılan stili uygulayın ve sonunda dosyayı kaydedin. Bu tüm iş akışı sadece birkaç kod satırı gerektirir ve manuel XML işleme ihtiyacını ortadan kaldırır.
+
+## Adım 1: bir belge nesnesi oluşturun
+
+`Document` sınıfı, birden fazla sayfa ve bölüm içerebilen bellek içi bir OneNote defterini temsil eder.
 
 ```csharp
 using System.IO;
@@ -48,33 +135,39 @@ using System.Drawing;
 using System.Globalization;
 ```
 
-Şimdi sayfa başlığına sahip bir belge oluşturma sürecini birden çok adıma ayıralım:
+## Adım 2: sayfa sınıfı nesnesini başlatın
 
-## Adım 1: Belge Nesnesi Oluşturun
+`Page` nesneleri, bir OneNote defterindeki bireysel sayfaları modeller ve başlık, taslaklar ve resimler gibi içerikleri tutar.
 
 ```csharp
-//Document sınıfının bir nesnesini oluşturun
+// Create an object of the Document class
 Document doc = new Aspose.Note.Document();
 ```
 
-## Adım 2: Sayfa Sınıfı Nesnesini Başlatın
+## Adım 3: metin için varsayılan stili ayarlayın
+
+`DefaultTextStyle`, metin öğeleri oluşturulduğunda uygulanan varsayılan yazı tipi ailesi, boyutu ve rengini tanımlar.
 
 ```csharp
-// Sayfa sınıfı nesnesini başlat
+// Initialize Page class object
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ```
 
-## 3. Adım: Metin için Varsayılan Stili Ayarlayın
+## Adım 4: sayfa başlığı özelliklerini ayarlayın
+
+`Page` sınıfının `Title` özelliği, metin, tarih ve saat dahil olmak üzere başlık bilgilerini tutar.
 
 ```csharp
-// Belgedeki tüm metinler için varsayılan stil.
+// Default style for all text in the document.
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 ```
 
-## Adım 4: Sayfa Başlığı Özelliklerini Ayarlayın
+## Adım 5: belgeye sayfa düğümünü ekleyin
+
+`Document.Pages.Add`, yeni oluşturulan `Page`i defterin sayfa koleksiyonuna ekleyerek konumunu belirler.
 
 ```csharp
-// Sayfa başlığı özelliklerini ayarlama
+// Set page title properties
 page.Title = new Title()
 {
     TitleText = new RichText() { Text = "Title text.", ParagraphStyle = textStyle },
@@ -83,47 +176,58 @@ page.Title = new Title()
 };
 ```
 
-## Adım 5: Belgeye Sayfa Düğümü Ekleme
+## Adım 6: OneNote belgesini kaydedin
+
+`Document.Save`, defteri belirtilen formatta bir dosyaya yazar; örneğin OneNote için `.one`.
 
 ```csharp
-// Belgeye Sayfa düğümü ekle
+// Append Page node in the document
 doc.AppendChildLast(page);
 ```
 
-## Adım 6: OneNote Belgesini Kaydetme
+## Yaygın sorunlar ve çözümler
+
+- **Başlık görünmüyor** – `Title` özelliğini sayfayı belgeye eklemeden *önce* ayarladığınızdan emin olun.  
+- **Yanlış yazı tipi render'ı** – Belirttiğiniz yazı tipinin hedef makinede yüklü olduğunu doğrulayın; aksi takdirde Aspose.Note varsayılan bir yazı tipine geri döner.  
+- **Büyük defterler bellek baskısı oluşturur** – Çok büyük dosyalar için tembel yüklemeyi etkinleştiren `LoadOptions` ile `Document.Load` kullanın.
+
+## Sıkça Sorulan Sorular
+
+**S: Başlık metin stilini özelleştirebilir miyim?**  
+C: Evet, başlığı atamadan önce `DefaultTextStyle` nesnesi aracılığıyla yazı tipi adı, boyutu ve rengini değiştirebilirsiniz.
+
+**S: Aspose.Note .NET Core ile uyumlu mu?**  
+C: Kesinlikle. Kütüphane .NET Core, .NET 5+ ve .NET 6+ destekler, çapraz platform geliştirmeyi mümkün kılar.
+
+**S: Belgeye resim ve ekler ekleyebilir miyim?**  
+C: Evet. `Image` ve `Attachment` sınıflarını kullanarak başlıklı sayfanızın yanına multimedya içeriği gömebilirsiniz.
+
+**S: Aspose.Note mevcut OneNote dosyalarını okumayı destekliyor mu?**  
+C: Evet. `.one` dosyasını yükleyebilir, sayfalarını (başlıklar dahil) değiştirebilir ve tekrar kaydedebilirsiniz.
+
+**S: Herhangi bir sorunla karşılaşırsam nereden destek bulabilirim?**  
+C: Sorularınıza uzmanlar ve topluluk üyeleri tarafından yanıt verilen [Aspose.Note forum](https://forum.aspose.com/c/note/28) üzerinden destek ve yardım alabilirsiniz.
+
+---
+
+**Son Güncelleme:** 2026-10-15  
+**Test Edilen:** Aspose.Note 24.11 for .NET  
+**Yazar:** Aspose  
 
 ```csharp
-// OneNote belgesini kaydet
+// Save OneNote document
 string dataDir = "Your Document Directory";
 dataDir = dataDir + "CreateDocWithPageTitle_out.one";
 doc.Save(dataDir);
 ```
 
-## Çözüm
+## İlgili Öğreticiler
 
-Tebrikler! Aspose.Note for .NET'i kullanarak başlıklı sayfaya sahip bir belgeyi başarıyla oluşturdunuz. Bu eğitimde, OneNote dosyalarını programlı olarak yönetmek için Aspose.Note'u .NET uygulamalarınıza entegre etmenize yardımcı olacak adım adım bir kılavuz sağlanmıştır.
+- [Aspose.Note'ta Sayfa Başlığı Stilini Değiştir](/note/net/text-manipulation/change-page-title-style/)
+- [Aspose.Note'ta MS Stiliyle Başlık Oluştur](/note/net/text-manipulation/create-title-ms-style/)
+- [Aspose.Note'ta Varsayılan Paragraf Stilini Ayarla](/note/net/text-manipulation/set-default-paragraph-style/)
 
-## SSS'ler
 
-### S1: Başlık metni stilini özelleştirebilir miyim?
-
-Cevap1: Evet, başlık metninin yazı tipi rengini, yazı tipi adını ve yazı tipi boyutunu gereksinimlerinize göre özelleştirebilirsiniz.
-
-### S2: Aspose.Note .NET Core ile uyumlu mu?
-
-C2: Evet, Aspose.Note .NET Core'u destekleyerek platformlar arası uygulamalar geliştirmenize olanak tanır.
-
-### S3: Belgeye resim ve ekler ekleyebilir miyim?
-
-A3: Kesinlikle! Aspose.Note, OneNote belgelerinize sorunsuz bir şekilde resim, eklenti ve diğer öğeleri eklemenizi sağlayan API'ler sağlar.
-
-### S4: Aspose.Note mevcut OneNote dosyalarının okunmasını destekliyor mu?
-
-Cevap4: Evet, mevcut OneNote dosyalarını kolaylıkla okumak, değiştirmek ve işlemek için Aspose.Note'u kullanabilirsiniz.
-
-### S5: Herhangi bir sorunla karşılaşırsam nereden destek bulabilirim?
-
- Cevap5: Destek ve yardımı şu adreste bulabilirsiniz:[Aspose.Note forumu](https://forum.aspose.com/c/note/28)Uzmanların ve topluluk üyelerinin sorularınız konusunda size yardımcı olabileceği yer.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

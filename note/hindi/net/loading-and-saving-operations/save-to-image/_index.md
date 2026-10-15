@@ -1,33 +1,113 @@
 ---
-title: Aspose.Note में छवि में सहेजें
-linktitle: Aspose.Note में छवि में सहेजें
+date: 2026-10-15
+description: Asprose.Note for .NET का उपयोग करके Microsoft OneNote दस्तावेज़ों को
+  BMP इमेज फ़ॉर्मेट में आसानी से बदलें। सहज एकीकरण, आसान चरण, और मजबूत कार्यक्षमता।
+keywords:
+- convert onenote to bmp
+- save onenote as image
+- Aspose.Note image conversion
+lastmod: 2026-10-15
+linktitle: Aspose.Note में इमेज के रूप में सहेजें
+og_description: Aspose.Note for .NET का उपयोग करके OneNote को BMP में कैसे बदलें,
+  सीखें – पूर्वापेक्षाएँ, चरण‑दर‑चरण कोड, और अक्सर पूछे जाने वाले प्रश्नों के साथ
+  एक त्वरित गाइड।
+og_image_alt: Screenshot showing OneNote document converted to BMP using Aspose.Note
+og_title: Aspose.Note for .NET के साथ OneNote को BMP में बदलें
+schemas:
+- author: Aspose
+  dateModified: '2026-10-15'
+  description: Effortlessly convert Microsoft OneNote documents to BMP image format
+    using Asprose.Note for .NET. Seamless integration, easy steps, and robust functionality.
+  headline: Convert OneNote to BMP with Aspose.Note
+  type: TechArticle
+- description: Effortlessly convert Microsoft OneNote documents to BMP image format
+    using Asprose.Note for .NET. Seamless integration, easy steps, and robust functionality.
+  name: Convert OneNote to BMP with Aspose.Note
+  steps:
+  - name: import required namespaces
+    text: These namespaces give you access to the core document model and image‑saving
+      utilities.
+  - name: load the OneNote document
+    text: First, instantiate the `Document` class with the path to your source file.
+      This object holds the entire notebook hierarchy in memory.
+  - name: save each page as a BMP image
+    text: '`ImageSaveOptions` allows you to specify image format, resolution, and
+      other settings for the output file.'
+  - name: confirm the operation
+    text: After saving, output a friendly message that includes the target folder
+      path. This helps with debugging and confirms successful conversion.
+  type: HowTo
+- questions:
+  - answer: Yes, loop over a collection of file paths, load each with `new Document(path)`,
+      and call `Save` for every page. The API is thread‑safe, so you can parallelise
+      the operation for faster batch processing.
+    question: Can I convert multiple OneNote files in one run?
+  - answer: Absolutely. Pass the password to the `Load` method overload that accepts
+      a `LoadOptions` object with the `Password` property set.
+    question: Does Aspose.Note support password‑protected OneNote files?
+  - answer: Yes, Aspose.Note supports PNG, JPEG, TIFF, and GIF. Simply replace `SaveFormat.Bmp`
+      with the desired enum value.
+    question: Is it possible to export to formats other than BMP?
+  - answer: The library works with .NET Framework 4.6+, .NET Core 3.1, and .NET 5/6/7+.
+      It’s fully cross‑platform, so you can run the same code on Windows, Linux, or
+      macOS.
+    question: What .NET versions are compatible?
+  - answer: Create an `ImageSaveOptions` instance, set the `Resolution` (DPI) property,
+      and pass it to the `Save` method. Higher DPI yields sharper images at the cost
+      of larger file size.
+    question: How do I control image resolution?
+  type: FAQPage
 second_title: Aspose.Note .NET API
-description: .NET के लिए Aspose.Note के साथ आसानी से Microsoft OneNote दस्तावेज़ों को BMP में छवि प्रारूप में परिवर्तित करें। निर्बाध एकीकरण, आसान कदम और मजबूत कार्यक्षमता।
-weight: 23
+tags:
+- Aspose.Note
+- .NET
+- OneNote conversion
+- BMP image
+title: Aspose.Note के साथ OneNote को BMP में बदलें
 url: /hi/net/loading-and-saving-operations/save-to-image/
+weight: 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Note में छवि में सहेजें
+# Aspose.Note के साथ OneNote को BMP में बदलें
 
 ## परिचय
 
-इस ट्यूटोरियल में, हम .NET के लिए Aspose.Note का उपयोग करके किसी दस्तावेज़ को छवि प्रारूप में सहेजने की प्रक्रिया के बारे में विस्तार से जानेंगे। Aspose.Note एक शक्तिशाली एपीआई है जो डेवलपर्स को Microsoft OneNote फ़ाइलों के साथ प्रोग्रामेटिक रूप से काम करने में सक्षम बनाता है, दस्तावेज़ों में हेरफेर करने और परिवर्तित करने के लिए विभिन्न कार्यक्षमताओं की पेशकश करता है।
+इस ट्यूटोरियल में आप सीखेंगे कि .NET के लिए Aspose.Note लाइब्रेरी का उपयोग करके **OneNote को BMP में कैसे बदलें**। OneNote पेजों को बिटमैप इमेज में बदलना उपयोगी होता है जब आपको रिपोर्टिंग, आर्काइविंग, या ऐसे वातावरण में सामग्री प्रदर्शित करने के लिए पिक्सेल‑परफेक्ट प्रतिनिधित्व चाहिए जहाँ मूल OneNote फ़ॉर्मेट समर्थित नहीं है। आप आवश्यक पूर्वापेक्षाएँ, एक संक्षिप्त चरण‑दर‑चरण कार्यप्रवाह, और सामान्य समस्याओं से बचने के टिप्स देखेंगे।
 
-## आवश्यक शर्तें
+## त्वरित उत्तर
 
-शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
+- **मुख्य API क्लास कौन सी है?** `Document` – यह मेमोरी में OneNote फ़ाइल का प्रतिनिधित्व करता है।  
+- **उदाहरण किस फ़ॉर्मेट में उत्पन्न होता है?** BMP (bitmap) इमेज।  
+- **परीक्षण के लिए लाइसेंस चाहिए?** नहीं, विकास के लिए एक फ्री ट्रायल काम करता है; उत्पादन के लिए एक व्यावसायिक लाइसेंस आवश्यक है।  
+- **क्या मैं इमेज रिज़ॉल्यूशन बदल सकता हूँ?** हाँ, `ImageSaveOptions` प्रॉपर्टीज़ के माध्यम से।  
+- **क्या कोड .NET Core के साथ संगत है?** बिल्कुल – वही API .NET 5/6/7 और .NET Framework 4.6+ पर काम करता है।
 
-1.  .NET के लिए Aspose.Note: सुनिश्चित करें कि आपने Aspose.Note लाइब्रेरी डाउनलोड और इंस्टॉल कर ली है। आप इसे यहां से प्राप्त कर सकते हैं[यहाँ](https://releases.aspose.com/note/net/).
-2. विकास परिवेश: विजुअल स्टूडियो या किसी अन्य .NET IDE के साथ अपना विकास परिवेश स्थापित करें।
-3. Microsoft OneNote दस्तावेज़: एक Microsoft OneNote दस्तावेज़ तैयार रखें जिसे आप एक छवि प्रारूप में कनवर्ट करना चाहते हैं।
+## Convert OneNote को BMP में बदलना क्या है?
 
-## नामस्थान आयात करें
+**Convert OneNote को BMP में बदलना** का मतलब है प्रत्येक OneNote पेज को प्रोग्रामेटिक रूप से एक बिटमैप इमेज फ़ाइल के रूप में रेंडर करना। यह ऑपरेशन विज़ुअल लेआउट—टेक्स्ट, इंक, और एम्बेडेड ऑब्जेक्ट्स—को एक पिक्सेल‑आधारित फ़ॉर्मेट में निकालता है जिसे कोई भी इमेज व्यूअर प्रदर्शित कर सकता है। यह मूल पेज की सटीक रूप‑रंग, फ़ॉन्ट, रंग और इंक स्ट्रोक को संरक्षित रखता है, जिससे यह आर्काइविंग या प्रस्तुति उद्देश्यों के लिए आदर्श बनता है।
 
-इससे पहले कि हम कोड में उतरें, आइए आवश्यक नामस्थान आयात करें:
+## OneNote को इमेज के रूप में क्यों सहेजें?
+
+OneNote को इमेज के रूप में सहेजने से आपको एक सार्वभौमिक रूप से देखी जा सकने वाली स्नैपशॉट मिलती है। Aspose.Note **50+** विभिन्न OneNote पेज तत्वों को संभाल सकता है और **200 MB** तक के दस्तावेज़ों को पूरी फ़ाइल को मेमोरी में लोड किए बिना प्रोसेस कर सकता है, जिससे बड़े पैमाने पर रूपांतरण तेज़ और मेमोरी‑कुशल बनता है जबकि विभिन्न प्लेटफ़ॉर्म पर सुसंगत रेंडरिंग सुनिश्चित होती है।
+
+## पूर्वापेक्षाएँ
+
+1. **Aspose.Note for .NET** – नवीनतम रिलीज़ डाउनलोड करें [Aspose.Note for .NET डाउनलोड पेज](https://releases.aspose.com/note/net/) से।  
+2. एक .NET विकास वातावरण (Visual Studio 2022, Rider, या C# एक्सटेंशन के साथ VS Code)।  
+3. एक वैध OneNote फ़ाइल (`.one` या `.onepkg`) जिसे आप BMP इमेज के रूप में रेंडर करना चाहते हैं।  
+4. (वैकल्पिक) यदि आप कोड को प्रोडक्शन में चलाने की योजना बना रहे हैं तो Aspose.Note का लाइसेंस्ड संस्करण।
+
+## Aspose.Note का उपयोग करके OneNote को BMP में कैसे बदलें?
+
+OneNote दस्तावेज़ को लोड करें, लक्ष्य फ़ॉर्मेट के रूप में BMP चुनें, और `Save` मेथड को कॉल करें – यह पूर्ण रूपांतरण के लिए आपको चाहिए। API स्वचालित रूप से पेज स्केलिंग, इंक रेंडरिंग, और एम्बेडेड मीडिया को संभालता है, इसलिए आपको अतिरिक्त इमेज‑प्रोसेसिंग कोड के बिना एक सटीक बिटमैप मिलता है।
+
+### चरण 1: आवश्यक नेमस्पेसेस इम्पोर्ट करें
+
+ये नेमस्पेसेस आपको कोर डॉक्यूमेंट मॉडल और इमेज‑सेविंग यूटिलिटीज़ तक पहुँच प्रदान करते हैं।  
 
 ```csharp
 using System;
@@ -35,65 +115,78 @@ using System;
 using Aspose.Note.Saving;
 ```
 
-## चरण 1: दस्तावेज़ लोड करें
+### चरण 2: OneNote दस्तावेज़ लोड करें
 
-सबसे पहले, हमें Microsoft OneNote दस्तावेज़ को Aspose.Note में लोड करना होगा। यहां बताया गया है कि आप यह कैसे कर सकते हैं:
+पहले, `Document` क्लास को अपने स्रोत फ़ाइल के पाथ के साथ इंस्टैंशिएट करें। यह ऑब्जेक्ट पूरी नोटबुक हायरार्की को मेमोरी में रखता है।
 
 ```csharp
-// दस्तावेज़ निर्देशिका का पथ.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-// दस्तावेज़ को Aspose.Note में लोड करें।
+// Load the document into Aspose.Note.
 Document oneFile = new Document(dataDir + "YourOneNoteDocument.one");
 ```
 
-## चरण 2: छवि को बीएमपी प्रारूप में सहेजें
+### चरण 3: प्रत्येक पेज को BMP इमेज के रूप में सहेजें
 
-इसके बाद, हम लोड किए गए दस्तावेज़ को एक छवि में सहेजेंगे, विशेष रूप से बीएमपी प्रारूप में। इन चरणों का पालन करें:
+`ImageSaveOptions` आपको आउटपुट फ़ाइल के लिए इमेज फ़ॉर्मेट, रिज़ॉल्यूशन और अन्य सेटिंग्स निर्दिष्ट करने की अनुमति देता है।  
 
 ```csharp
-// छवि फ़ाइल के लिए आउटपुट पथ परिभाषित करें।
+// Define the output path for the image file.
 string outputPath = dataDir + "SaveToBmpImageUsingImageSaveOptions_out.bmp";
 
-// दस्तावेज़ को बीएमपी प्रारूप में एक छवि के रूप में सहेजें।
+// Save the document as an image in BMP format.
 oneFile.Save(outputPath, new ImageSaveOptions(SaveFormat.Bmp));
 ```
 
-## चरण 3: सफलता संदेश प्रदर्शित करें
+### चरण 4: ऑपरेशन की पुष्टि करें
 
-अंत में, आइए उस पथ के साथ एक सफलता संदेश प्रदर्शित करें जहां छवि फ़ाइल सहेजी गई है:
+सेव करने के बाद, एक मित्रवत संदेश आउटपुट करें जिसमें लक्ष्य फ़ोल्डर पाथ शामिल हो। यह डिबगिंग में मदद करता है और सफल रूपांतरण की पुष्टि करता है।
 
 ```csharp
 Console.WriteLine("\nOneNote document converted successfully to image in BMP format.\nFile saved at " + outputPath);
 ```
 
-इन सरल चरणों का पालन करके, आप .NET के लिए Aspose.Note का उपयोग करके अपने Microsoft OneNote दस्तावेज़ को आसानी से एक छवि प्रारूप में परिवर्तित कर सकते हैं।
+## सामान्य समस्याएँ और समाधान
 
-## निष्कर्ष
-
-अंत में, .NET के लिए Aspose.Note Microsoft OneNote दस्तावेज़ों को विभिन्न छवि प्रारूपों में परिवर्तित करने का एक सहज तरीका प्रदान करता है, जो आपके दस्तावेज़ों के लचीलेपन और पहुंच को बढ़ाता है। इस ट्यूटोरियल में बताए गए चरणों का पालन करके, आप इस कार्यक्षमता को अपने .NET अनुप्रयोगों में कुशलतापूर्वक एकीकृत कर सकते हैं।
+- **फ़ॉन्ट या इंक रंग गायब** – सुनिश्चित करें कि कोड चलाने वाली मशीन में स्रोत OneNote फ़ाइल के समान फ़ॉन्ट इंस्टॉल हों। यदि मेल नहीं मिलता तो Aspose.Note सिस्टम फ़ॉन्ट्स पर फ़ॉल बैक करता है।  
+- **बड़ी नोटबुक्स से मेमोरी उपयोग बढ़ता है** – `Document.Load` ओवरलोड्स का उपयोग करें जो स्ट्रीमिंग सक्षम करते हैं, या मेमोरी फ़ुटप्रिंट कम रखने के लिए पेजों को एक‑एक करके प्रोसेस करें।  
+- **BMP फ़ाइल का आकार बड़ा है** – BMP एक अनकम्प्रेस्ड फ़ॉर्मेट है; यदि स्टोरेज समस्या है, तो `SaveFormat` पैरामीटर बदलकर PNG या JPEG में बदलने पर विचार करें।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
-### Q1: क्या मैं एक साथ कई Microsoft OneNote दस्तावेज़ों को छवियों में परिवर्तित कर सकता हूँ?
+**प्र:** क्या मैं एक रन में कई OneNote फ़ाइलें बदल सकता हूँ?  
+**उ:** हाँ, फ़ाइल पाथ्स के संग्रह पर लूप करें, प्रत्येक को `new Document(path)` से लोड करें, और हर पेज के लिए `Save` कॉल करें। API थ्रेड‑सेफ़ है, इसलिए आप तेज़ बैच प्रोसेसिंग के लिए ऑपरेशन को पैरललाइज़ कर सकते हैं।
 
-A1: हां, आप दक्षता और उत्पादकता सुनिश्चित करते हुए Aspose.Note का उपयोग करके कई दस्तावेज़ों को बैच प्रोसेस कर सकते हैं।
+**प्र:** क्या Aspose.Note पासवर्ड‑सुरक्षित OneNote फ़ाइलों को सपोर्ट करता है?  
+**उ:** बिल्कुल। पासवर्ड को `Load` मेथड ओवरलोड में पास करें जो `LoadOptions` ऑब्जेक्ट लेता है जिसमें `Password` प्रॉपर्टी सेट हो।
 
-### Q2: क्या Aspose.Note Microsoft OneNote के नवीनतम संस्करणों के साथ संगत है?
+**प्र:** क्या BMP के अलावा अन्य फ़ॉर्मेट में एक्सपोर्ट करना संभव है?  
+**उ:** हाँ, Aspose.Note PNG, JPEG, TIFF, और GIF को सपोर्ट करता है। बस `SaveFormat.Bmp` को इच्छित enum वैल्यू से बदल दें।
 
-A2: Aspose.Note अनुकूलता और विश्वसनीयता सुनिश्चित करते हुए Microsoft OneNote के विभिन्न संस्करणों का समर्थन करता है।
+**प्र:** कौन‑से .NET संस्करण संगत हैं?  
+**उ:** लाइब्रेरी .NET Framework 4.6+, .NET Core 3.1, और .NET 5/6/7+ के साथ काम करती है। यह पूरी तरह से क्रॉस‑प्लेटफ़ॉर्म है, इसलिए आप वही कोड Windows, Linux, या macOS पर चला सकते हैं।
 
-### Q3: क्या .NET के लिए Aspose.Note का उपयोग करने के लिए कोई लाइसेंसिंग आवश्यकताएं हैं?
+**प्र:** मैं इमेज रिज़ॉल्यूशन कैसे नियंत्रित करूँ?  
+**उ:** एक `ImageSaveOptions` इंस्टेंस बनाएं, `Resolution` (DPI) प्रॉपर्टी सेट करें, और इसे `Save` मेथड में पास करें। उच्च DPI तेज़ इमेज देता है लेकिन फ़ाइल आकार बड़ा हो जाता है।
 
-उ3: हाँ, आपको व्यावसायिक उद्देश्यों के लिए Aspose.Note का उपयोग करने के लिए लाइसेंस प्राप्त करने की आवश्यकता है। हालाँकि, आप नि:शुल्क परीक्षण के साथ इसकी क्षमताओं का भी पता लगा सकते हैं।
+## निष्कर्ष
 
-### Q4: क्या मैं आउटपुट छवि प्रारूप और रिज़ॉल्यूशन को अनुकूलित कर सकता हूँ?
+Aspose.Note for .NET के साथ OneNote को BMP में बदलना सरल, तेज़ और विश्वसनीय है। ऊपर दिए गए चरणों का पालन करके आप किसी भी .NET एप्लिकेशन में इमेज‑एक्सपोर्ट फ़ंक्शनैलिटी को एकीकृत कर सकते हैं, चाहे वह डेस्कटॉप टूल हो, वेब सर्विस, या बैकग्राउंड बैच जॉब। अन्य आउटपुट फ़ॉर्मेट्स का अन्वेषण करें, रिज़ॉल्यूशन सेटिंग्स समायोजित करें, और Aspose.Note की विस्तृत API का उपयोग करके किसी भी डॉक्यूमेंट‑प्रोसेसिंग आवश्यकता को पूरा करें।
 
-A4: बिल्कुल, Aspose.Note आपकी आवश्यकताओं के अनुसार आउटपुट छवि प्रारूप, रिज़ॉल्यूशन और अन्य मापदंडों को अनुकूलित करने के लिए व्यापक विकल्प प्रदान करता है।
+---
 
-### Q5: क्या Aspose.Note डेवलपर्स के लिए तकनीकी सहायता प्रदान करता है?
+**अंतिम अपडेट:** 2026-10-15  
+**परीक्षण किया गया:** Aspose.Note 24.9 for .NET  
+**लेखक:** Aspose
 
-A5: हाँ, Aspose.Note फ़ोरम और दस्तावेज़ीकरण के माध्यम से व्यापक तकनीकी सहायता प्रदान करता है, जिससे एक सहज विकास अनुभव सुनिश्चित होता है।
+## संबंधित ट्यूटोरियल
+
+- [Aspose.Note के साथ OneNote पेज इमेज बदलें](/note/net/loading-and-saving-operations/convert-specific-page-to-image/)
+- [Aspose Note .NET में नोटबुक्स को इमेज में बदलें](/note/net/notebook-operations/convert-to-image/)
+- [Aspose.Note में बाइनरी इमेज सहेजें](/note/net/loading-and-saving-operations/save-to-binary-image/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

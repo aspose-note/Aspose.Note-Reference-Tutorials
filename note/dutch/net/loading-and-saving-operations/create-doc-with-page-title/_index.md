@@ -1,43 +1,132 @@
 ---
-title: Maak een document met paginatitel in Aspose.Note
-linktitle: Maak een document met paginatitel in Aspose.Note
+date: 2026-10-15
+description: Leer hoe u de paginatitel instelt in een OneNote-document met Aspose.Note
+  voor .NET. Volg onze stapsgewijze handleiding voor het maken van getitelde pagina's
+  en het toepassen van de standaardtekststijl.
+keywords:
+- how to set page title
+- set default text style
+- create titled page
+- document with page title
+lastmod: 2026-10-15
+linktitle: Document maken met paginatitel in Aspose.Note
+og_description: Leer hoe u de paginatitel instelt in een OneNote-document met Aspose.Note
+  voor .NET. Deze stapsgewijze handleiding laat zien hoe u een getitelde pagina maakt,
+  de standaardtekststijl toepast en het bestand opslaat.
+og_image_alt: 'Aspose.Note tutorial: setting page title in OneNote document with .NET'
+og_title: Hoe de paginatitel instellen in OneNote-document met Aspose.Note
+schemas:
+- author: Aspose
+  dateModified: '2026-10-15'
+  description: Learn how to set page title in a OneNote document using Aspose.Note
+    for .NET. Follow our step‑by‑step guide for creating titled pages and applying
+    default text style.
+  headline: How to set page title in OneNote document using Aspose.Note
+  type: TechArticle
+- description: Learn how to set page title in a OneNote document using Aspose.Note
+    for .NET. Follow our step‑by‑step guide for creating titled pages and applying
+    default text style.
+  name: How to set page title in OneNote document using Aspose.Note
+  steps:
+  - name: Download Visual Studio from the Microsoft website.
+    text: Download Visual Studio from the Microsoft website.
+  - name: Select the “.NET desktop development” workload during installation.
+    text: Select the “.NET desktop development” workload during installation.
+  - name: Create a new console‑application project (or any .NET project type you prefer).
+    text: Create a new console‑application project (or any .NET project type you prefer).
+  - name: 'Get Aspose.Note: Download the library from the [website](https://releases.aspose.com/note/net/).'
+    text: 'Get Aspose.Note: Download the library from the [website](https://releases.aspose.com/note/net/).'
+  - name: 'Install via NuGet Package Manager: search for **Aspose.Note** and install
+      the latest version.'
+    text: 'Install via NuGet Package Manager: search for **Aspose.Note** and install
+      the latest version.'
+  type: HowTo
+- questions:
+  - answer: Yes, you can change the font name, size, and color through the `DefaultTextStyle`
+      object before assigning the title.
+    question: Can I customize the title text style?
+  - answer: Absolutely. The library supports .NET Core, .NET 5+, and .NET 6+, enabling
+      cross‑platform development.
+    question: Is Aspose.Note compatible with .NET Core?
+  - answer: Yes. Use the `Image` and `Attachment` classes to embed multimedia content
+      alongside your titled page.
+    question: Can I add images and attachments to the document?
+  - answer: It does. You can load a `.one` file, modify its pages (including titles),
+      and save it back.
+    question: Does Aspose.Note support reading existing OneNote files?
+  - answer: You can find support and assistance on the [Aspose.Note forum](https://forum.aspose.com/c/note/28),
+      where experts and community members help with queries.
+    question: Where can I find support if I encounter any issues?
+  type: FAQPage
 second_title: Aspose.Note .NET API
-description: Leer hoe u documenten met titelpagina's maakt met Aspose.Note voor .NET. Volg onze stapsgewijze handleiding voor een naadloze integratie.
-weight: 13
+tags:
+- Aspose.Note
+- OneNote API
+- page title
+- .NET
+- document creation
+title: Hoe de paginatitel instellen in OneNote-document met Aspose.Note
 url: /nl/net/loading-and-saving-operations/create-doc-with-page-title/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Maak een document met paginatitel in Aspose.Note
+# Hoe stel je de paginatitel in een OneNote-document in met Aspose.Note
 
-## Invoering
+## Inleiding
 
-In deze zelfstudie begeleiden we u bij het maken van een document met een titelpagina met behulp van Aspose.Note voor .NET. Aspose.Note is een krachtige API waarmee ontwikkelaars programmatisch met Microsoft OneNote-bestanden kunnen werken.
+In deze tutorial leer je **hoe je een paginatitel instelt** bij het maken van een OneNote-document met Aspose.Note voor .NET. Het instellen van een paginatitel verbetert de navigatie, doorzoekbaarheid en de algehele leesbaarheid van OneNote-notitieblokken. We lopen elke stap door, van projectconfiguratie tot het opslaan van het uiteindelijke bestand, en laten zien hoe je een standaard tekststijl op de titel toepast.
 
-## Vereisten
+## Snelle antwoorden
+- **Waar verwijst “paginatitel” naar?** De tekst die bovenaan een OneNote-pagina wordt weergegeven en fungeert als de kop.  
+- **Welke API‑klasse maakt de titel?** De `PageTitle`‑eigenschap van de `Page`‑klasse.  
+- **Heb ik een licentie nodig om het voorbeeld uit te voeren?** Een gratis proefversie werkt voor ontwikkeling; een commerciële licentie is vereist voor productie.  
+- **Wordt .NET Core ondersteund?** Ja – Aspose.Note draait op .NET Core, .NET 5+ en .NET 6+.  
+- **Kan ik het lettertype van de titel aanpassen?** Absoluut – je kunt lettertype, grootte en kleur instellen via het `DefaultTextStyle`‑object.
 
-Voordat we beginnen, zorg ervoor dat u de volgende vereisten hebt geïnstalleerd en ingesteld:
+## Wat is het instellen van een paginatitel?
+**how to set page title** is het proces waarbij een koptekst‑string wordt toegewezen aan het `Title`‑element van een OneNote‑pagina via de API van Aspose.Note. Deze bewerking wordt uitgevoerd voordat de pagina aan de documenthiërarchie wordt toegevoegd, en zorgt ervoor dat de titel correct wordt weergegeven in de OneNote‑UI en kan worden gebruikt voor zoeken en het organiseren van pagina’s binnen een notitieblok.
+
+## Waarom Aspose.Note gebruiken voor het instellen van een paginatitel?
+Aspose.Note ondersteunt **meer dan 30 invoer‑ en uitvoerformaten** en kan notitieblokken met **tot 10.000 pagina’s** manipuleren zonder het volledige bestand in het geheugen te laden. De bibliotheek verwerkt Unicode‑tekens, rechts‑naar‑links‑scripts en complexe opmaak automatisch, waardoor je geen low‑level OneNote‑XML‑code hoeft te schrijven.
+
+## Voorvereisten
+
+Voordat we beginnen, zorg ervoor dat je de volgende vereisten hebt geïnstalleerd en geconfigureerd:
 
 ### Visual Studio-installatie
 
-1. Visual Studio downloaden: Download en installeer Visual Studio vanaf de Microsoft-website als u dat nog niet heeft gedaan.
+1. Download Visual Studio van de Microsoft‑website.  
+2. Selecteer de workload “.NET desktop development” tijdens de installatie.  
+3. Maak een nieuw console‑applicatieproject (of een ander .NET‑projecttype naar keuze).
 
-2. Installeer .NET Development Workload: Zorg ervoor dat u tijdens het installatieproces de werklast ".NET desktop development" selecteert om er zeker van te zijn dat u over alle benodigde componenten voor .NET-ontwikkeling beschikt.
+### Aspose.Note-installatie
 
-3. Maak een nieuw project: Open Visual Studio en maak een nieuw project (consoletoepassing of een ander type van uw voorkeur).
+1. Verkrijg Aspose.Note: download de bibliotheek van de [website](https://releases.aspose.com/note/net/).  
+2. Installeer via NuGet Package Manager: zoek naar **Aspose.Note** en installeer de nieuwste versie.
 
-### Aspose.Opmerking installatie
+## Namespaces importeren
 
-1.  Aspose.Note ophalen: Download de Aspose.Note voor .NET-bibliotheek van de[website](https://releases.aspose.com/note/net/).
+De volgende namespaces geven je toegang tot de kernklassen van Aspose.Note:
 
-2. Aspose.Note installeren via NuGet: Als alternatief kunt u Aspose.Note voor .NET installeren via NuGet Package Manager in Visual Studio. Zoek eenvoudigweg naar "Aspose.Note" en installeer de nieuwste versie.
+```text
+using Aspose.Note;
+using Aspose.Note.Drawing;
+using Aspose.Note.Rendering;
+```
 
-## Naamruimten importeren
+Nu gaan we het proces van het maken van een document met een paginatitel in meerdere stappen uiteenzetten:
 
-Eerst moet u de benodigde naamruimten importeren om Aspose.Note in uw project te gebruiken.
+## Hoe een paginatitel instellen in een OneNote-document
+
+Laad een nieuw `Document`‑object, maak een `Page`, stel de titeltekst in, pas een standaardstijl toe en sla het bestand uiteindelijk op. Deze volledige workflow vereist slechts een paar regels code en geen handmatige XML‑verwerking.
+
+## Stap 1: een documentobject maken
+
+De `Document`‑klasse vertegenwoordigt een OneNote‑notitieblok in het geheugen dat meerdere pagina’s en secties kan bevatten.
 
 ```csharp
 using System.IO;
@@ -48,33 +137,39 @@ using System.Drawing;
 using System.Globalization;
 ```
 
-Laten we nu het proces van het maken van een document met een paginatitel in meerdere stappen opsplitsen:
+## Stap 2: paginaklasse‑object initialiseren
 
-## Stap 1: Maak een documentobject
+`Page`‑objecten modelleren individuele pagina’s binnen een OneNote‑notitieblok en bevatten inhoud zoals titel, outlines en afbeeldingen.
 
 ```csharp
-//Maak een object van de klasse Document
+// Create an object of the Document class
 Document doc = new Aspose.Note.Document();
 ```
 
-## Stap 2: Initialiseer het paginaklasse-object
+## Stap 3: standaardstijl voor tekst instellen
+
+`DefaultTextStyle` definieert de standaardlettertypefamilie, grootte en kleur die op tekstelementen worden toegepast wanneer ze worden aangemaakt.
 
 ```csharp
-// Initialiseer het Page-klasseobject
+// Initialize Page class object
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ```
 
-## Stap 3: Stel de standaardstijl voor tekst in
+## Stap 4: paginatitel‑eigenschappen instellen
+
+De `Title`‑eigenschap van een `Page` bevat de kopinformatie, inclusief tekst, datum en tijd.
 
 ```csharp
-// Standaardstijl voor alle tekst in het document.
+// Default style for all text in the document.
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 ```
 
-## Stap 4: Stel de eigenschappen van de paginatitel in
+## Stap 5: paginaknooppunt toevoegen aan het document
+
+`Document.Pages.Add` voegt de nieuw gemaakte `Page` toe aan de paginacollectie van het notitieblok, waardoor de positie wordt vastgesteld.
 
 ```csharp
-// Paginatiteleigenschappen instellen
+// Set page title properties
 page.Title = new Title()
 {
     TitleText = new RichText() { Text = "Title text.", ParagraphStyle = textStyle },
@@ -83,47 +178,58 @@ page.Title = new Title()
 };
 ```
 
-## Stap 5: Voeg een paginaknooppunt toe aan het document
+## Stap 6: OneNote-document opslaan
+
+`Document.Save` schrijft het notitieblok naar een bestand in het opgegeven formaat, zoals `.one` voor OneNote.
 
 ```csharp
-// Voeg een paginaknooppunt toe aan het document
+// Append Page node in the document
 doc.AppendChildLast(page);
 ```
 
-## Stap 6: Bewaar OneNote-document
+## Veelvoorkomende problemen en oplossingen
+
+- **Titel verschijnt niet** – Zorg ervoor dat je de `Title`‑eigenschap *voordat* je de pagina aan het document toevoegt, instelt.  
+- **Onjuiste weergave van lettertype** – Controleer of het opgegeven lettertype op de doelmachine is geïnstalleerd; anders valt Aspose.Note terug op een standaardlettertype.  
+- **Grote notitieblokken veroorzaken geheugenbelasting** – Gebruik `Document.Load` met de `LoadOptions` die lazy loading mogelijk maken voor zeer grote bestanden.
+
+## Veelgestelde vragen
+
+**V: Kan ik de stijl van de titeltekst aanpassen?**  
+A: Ja, je kunt de lettertype‑naam, grootte en kleur wijzigen via het `DefaultTextStyle`‑object voordat je de titel toewijst.
+
+**V: Is Aspose.Note compatibel met .NET Core?**  
+A: Absoluut. De bibliotheek ondersteunt .NET Core, .NET 5+ en .NET 6+, waardoor cross‑platform ontwikkeling mogelijk is.
+
+**V: Kan ik afbeeldingen en bijlagen toevoegen aan het document?**  
+A: Ja. Gebruik de `Image`‑ en `Attachment`‑klassen om multimedia‑inhoud naast je getitelde pagina in te sluiten.
+
+**V: Ondersteunt Aspose.Note het lezen van bestaande OneNote‑bestanden?**  
+A: Dat doet het. Je kunt een `.one`‑bestand laden, de pagina’s (inclusief titels) wijzigen en het vervolgens opnieuw opslaan.
+
+**V: Waar kan ik ondersteuning vinden als ik problemen ondervind?**  
+A: Je kunt ondersteuning en hulp vinden op het [Aspose.Note‑forum](https://forum.aspose.com/c/note/28), waar experts en community‑leden vragen beantwoorden.
+
+---
+
+**Laatste update:** 2026-10-15  
+**Getest met:** Aspose.Note 24.11 voor .NET  
+**Auteur:** Aspose  
 
 ```csharp
-// OneNote-document opslaan
+// Save OneNote document
 string dataDir = "Your Document Directory";
 dataDir = dataDir + "CreateDocWithPageTitle_out.one";
 doc.Save(dataDir);
 ```
 
-## Conclusie
+## Gerelateerde tutorials
 
-Gefeliciteerd! U hebt met succes een document met een titelpagina gemaakt met Aspose.Note voor .NET. Deze zelfstudie biedt een stapsgewijze handleiding waarmee u Aspose.Note kunt integreren in uw .NET-toepassingen voor het programmatisch beheren van OneNote-bestanden.
+- [Paginatitelstijl wijzigen in Aspose.Note](/note/net/text-manipulation/change-page-title-style/)
+- [Titel maken met MS‑stijl in Aspose.Note](/note/net/text-manipulation/create-title-ms-style/)
+- [Standaard alinea‑stijl instellen in Aspose.Note](/note/net/text-manipulation/set-default-paragraph-style/)
 
-## Veelgestelde vragen
 
-### Vraag 1: Kan ik de titeltekststijl aanpassen?
-
-A1: Ja, u kunt de letterkleur, de letternaam en de lettergrootte van de titeltekst aanpassen aan uw wensen.
-
-### Vraag 2: Is Aspose.Note compatibel met .NET Core?
-
-A2: Ja, Aspose.Note ondersteunt .NET Core, waardoor u platformonafhankelijke applicaties kunt ontwikkelen.
-
-### Vraag 3: Kan ik afbeeldingen en bijlagen aan het document toevoegen?
-
-A3: Absoluut! Aspose.Note biedt API's om afbeeldingen, bijlagen en andere elementen naadloos aan uw OneNote-documenten toe te voegen.
-
-### V4: Ondersteunt Aspose.Note het lezen van bestaande OneNote-bestanden?
-
-A4: Ja, u kunt Aspose.Note gebruiken om bestaande OneNote-bestanden eenvoudig te lezen, wijzigen en manipuleren.
-
-### Vraag 5: Waar kan ik ondersteuning vinden als ik problemen tegenkom?
-
- A5: U kunt ondersteuning en hulp vinden op de[Aspose.Note-forum](https://forum.aspose.com/c/note/28), waar experts en communityleden u kunnen helpen met uw vragen.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

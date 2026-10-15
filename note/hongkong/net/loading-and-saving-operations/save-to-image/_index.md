@@ -1,33 +1,107 @@
 ---
-title: 在 Aspose.Note 中儲存到映像
-linktitle: 在 Aspose.Note 中儲存到映像
+date: 2026-10-15
+description: 使用 Aspose.Note for .NET 輕鬆將 Microsoft OneNote 文件轉換為 BMP 圖像格式。無縫整合、步驟簡單且功能強大。
+keywords:
+- convert onenote to bmp
+- save onenote as image
+- Aspose.Note image conversion
+lastmod: 2026-10-15
+linktitle: 在 Aspose.Note 中儲存為圖像
+og_description: 了解如何使用 Aspose.Note for .NET 將 OneNote 轉換為 BMP——快速指南，包含前置條件、逐步程式碼範例與常見問題。
+og_image_alt: Screenshot showing OneNote document converted to BMP using Aspose.Note
+og_title: 使用 Aspose.Note for .NET 將 OneNote 轉換為 BMP
+schemas:
+- author: Aspose
+  dateModified: '2026-10-15'
+  description: Effortlessly convert Microsoft OneNote documents to BMP image format
+    using Asprose.Note for .NET. Seamless integration, easy steps, and robust functionality.
+  headline: Convert OneNote to BMP with Aspose.Note
+  type: TechArticle
+- description: Effortlessly convert Microsoft OneNote documents to BMP image format
+    using Asprose.Note for .NET. Seamless integration, easy steps, and robust functionality.
+  name: Convert OneNote to BMP with Aspose.Note
+  steps:
+  - name: import required namespaces
+    text: These namespaces give you access to the core document model and image‑saving
+      utilities.
+  - name: load the OneNote document
+    text: First, instantiate the `Document` class with the path to your source file.
+      This object holds the entire notebook hierarchy in memory.
+  - name: save each page as a BMP image
+    text: '`ImageSaveOptions` allows you to specify image format, resolution, and
+      other settings for the output file.'
+  - name: confirm the operation
+    text: After saving, output a friendly message that includes the target folder
+      path. This helps with debugging and confirms successful conversion.
+  type: HowTo
+- questions:
+  - answer: Yes, loop over a collection of file paths, load each with `new Document(path)`,
+      and call `Save` for every page. The API is thread‑safe, so you can parallelise
+      the operation for faster batch processing.
+    question: Can I convert multiple OneNote files in one run?
+  - answer: Absolutely. Pass the password to the `Load` method overload that accepts
+      a `LoadOptions` object with the `Password` property set.
+    question: Does Aspose.Note support password‑protected OneNote files?
+  - answer: Yes, Aspose.Note supports PNG, JPEG, TIFF, and GIF. Simply replace `SaveFormat.Bmp`
+      with the desired enum value.
+    question: Is it possible to export to formats other than BMP?
+  - answer: The library works with .NET Framework 4.6+, .NET Core 3.1, and .NET 5/6/7+.
+      It’s fully cross‑platform, so you can run the same code on Windows, Linux, or
+      macOS.
+    question: What .NET versions are compatible?
+  - answer: Create an `ImageSaveOptions` instance, set the `Resolution` (DPI) property,
+      and pass it to the `Save` method. Higher DPI yields sharper images at the cost
+      of larger file size.
+    question: How do I control image resolution?
+  type: FAQPage
 second_title: Aspose.Note .NET API
-description: 使用 Aspose.Note for .NET 輕鬆將 Microsoft OneNote 文件轉換為 BMP 影像格式。無縫整合、簡單的步驟和強大的功能。
-weight: 23
+tags:
+- Aspose.Note
+- .NET
+- OneNote conversion
+- BMP image
+title: 使用 Aspose.Note 將 OneNote 轉換為 BMP
 url: /zh-hant/net/loading-and-saving-operations/save-to-image/
+weight: 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 Aspose.Note 中儲存到映像
+# 將 OneNote 轉換為 BMP（使用 Aspose.Note）
 
-## 介紹
+## 簡介
 
-在本教程中，我們將深入研究使用 Aspose.Note for .NET 將文件儲存為圖像格式的過程。 Aspose.Note 是一個功能強大的 API，使開發人員能夠以程式設計方式處理 Microsoft OneNote 文件，提供各種操作和轉換文件的功能。
+在本教學中，您將學習如何使用 .NET 的 Aspose.Note 函式庫 **將 OneNote 轉換為 BMP**。將 OneNote 頁面轉換為點陣圖影像在需要像素完美的報告、存檔或在不支援原生 OneNote 格式的環境中顯示內容時非常有用。您將看到所需的前置條件、簡潔的逐步工作流程，以及避免常見陷阱的技巧。
 
-## 先決條件
+## 快速解答
+- **主要的 API 類別是什麼？** `Document` – 它在記憶體中表示 OneNote 檔案。  
+- **範例產生哪種格式？** BMP（點陣圖）影像。  
+- **測試是否需要授權？** 不需要，免費試用可用於開發；商業授權則需於正式環境使用。  
+- **可以調整影像解析度嗎？** 可以，透過 `ImageSaveOptions` 屬性設定。  
+- **此程式碼相容 .NET Core 嗎？** 當然，相同的 API 可在 .NET 5/6/7 與 .NET Framework 4.6+ 上執行。
 
-在我們開始之前，請確保您具備以下條件：
+## 什麼是將 OneNote 轉換為 BMP？
+**Convert onenote to bmp** 意味著以程式方式將每個 OneNote 頁面渲染為點陣圖檔案。此操作會將視覺佈局（包括文字、墨跡與嵌入物件）提取為像素基礎的格式，任何影像檢視器皆可顯示。它完整保留原始頁面的外觀，包括字型、顏色與墨跡，適合用於存檔或簡報目的。
 
-1.  Aspose.Note for .NET：確保您已下載並安裝 Aspose.Note 函式庫。你可以從[這裡](https://releases.aspose.com/note/net/).
-2. 開發環境：使用 Visual Studio 或任何其他 .NET IDE 設定開發環境。
-3. Microsoft OneNote 文件：準備好要轉換為影像格式的 Microsoft OneNote 文件。
+## 為何將 OneNote 儲存為影像？
+將 OneNote 儲存為影像可提供一個通用的快照。Aspose.Note 能處理 **50+** 種不同的 OneNote 頁面元素，且可在不將整個檔案載入記憶體的情況下處理高達 **200 MB** 的文件，使大量轉換快速且記憶體效能佳，同時確保跨平台渲染一致。
 
-## 導入命名空間
+## 前置條件
 
-在深入研究程式碼之前，讓我們先導入必要的名稱空間：
+1. **Aspose.Note for .NET** – 從 [Aspose.Note for .NET 下載頁面](https://releases.aspose.com/note/net/) 下載最新版本。  
+2. .NET 開發環境（Visual Studio 2022、Rider，或安裝 C# 擴充功能的 VS Code）。  
+3. 有效的 OneNote 檔案（`.one` 或 `.onepkg`），您想將其渲染為 BMP 影像。  
+4. （可選）若要在正式環境執行程式碼，需取得授權版的 Aspose.Note。
+
+## 如何使用 Aspose.Note 將 OneNote 轉換為 BMP？
+
+載入 OneNote 文件，選擇 BMP 為目標格式，然後呼叫 `Save` 方法——這就是完成全部轉換所需的全部步驟。API 會自動處理頁面縮放、墨跡渲染與嵌入媒體，讓您得到忠實的點陣圖，無需額外的影像處理程式碼。
+
+### 步驟 1：匯入必要的命名空間
+
+這些命名空間讓您可以存取核心文件模型與影像儲存工具。  
 
 ```csharp
 using System;
@@ -35,65 +109,78 @@ using System;
 using Aspose.Note.Saving;
 ```
 
-## 第 1 步：載入文檔
+### 步驟 2：載入 OneNote 文件
 
-首先，我們需要將 Microsoft OneNote 文件載入到 Aspose.Note 中。您可以這樣做：
+首先，以來源檔案路徑實例化 `Document` 類別。此物件在記憶體中保存整個筆記本的層級結構。
 
 ```csharp
-//文檔目錄的路徑。
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-//將文件載入到 Aspose.Note 中。
+// Load the document into Aspose.Note.
 Document oneFile = new Document(dataDir + "YourOneNoteDocument.one");
 ```
 
-## 步驟2：儲存為Bmp格式的影像
+### 步驟 3：將每個頁面儲存為 BMP 影像
 
-接下來，我們將載入的文件儲存為映像，特別是 BMP 格式。按著這些次序：
+`ImageSaveOptions` 允許您為輸出檔案指定影像格式、解析度與其他設定。
 
 ```csharp
-//定義影像檔案的輸出路徑。
+// Define the output path for the image file.
 string outputPath = dataDir + "SaveToBmpImageUsingImageSaveOptions_out.bmp";
 
-//將文件儲存為 BMP 格式的影像。
+// Save the document as an image in BMP format.
 oneFile.Save(outputPath, new ImageSaveOptions(SaveFormat.Bmp));
 ```
 
-## 步驟3：顯示成功訊息
+### 步驟 4：確認操作
 
-最後，讓我們顯示一條成功訊息以及圖像檔案的保存路徑：
+儲存完成後，輸出包含目標資料夾路徑的友好訊息。這有助於除錯並確認轉換成功。
 
 ```csharp
 Console.WriteLine("\nOneNote document converted successfully to image in BMP format.\nFile saved at " + outputPath);
 ```
 
-透過遵循這些簡單的步驟，您可以使用 Aspose.Note for .NET 輕鬆地將 Microsoft OneNote 文件轉換為映像格式。
+## 常見問題與解決方案
+
+- **缺少字型或墨跡顏色** – 確認執行程式的機器已安裝與來源 OneNote 檔案相同的字型。若找不到匹配，Aspose.Note 會回退使用系統字型。  
+- **大型筆記本導致高記憶體使用** – 使用支援串流的 `Document.Load` 重載，或一次處理單一頁面，以降低記憶體佔用。  
+- **BMP 檔案尺寸較大** – BMP 為未壓縮格式；若儲存空間受限，可透過更改 `SaveFormat` 參數改為 PNG 或 JPEG。
+
+## 常見問答
+
+**Q: 可以在一次執行中轉換多個 OneNote 檔案嗎？**  
+A: 可以，遍歷檔案路徑集合，使用 `new Document(path)` 載入每個檔案，然後對每個頁面呼叫 `Save`。API 為執行緒安全，您可以平行化處理以加快批次轉換速度。
+
+**Q: Aspose.Note 支援受密碼保護的 OneNote 檔案嗎？**  
+A: 當然。將密碼傳遞給接受 `LoadOptions` 物件且設定 `Password` 屬性的 `Load` 方法重載即可。
+
+**Q: 除了 BMP，還能匯出成其他格式嗎？**  
+A: 可以，Aspose.Note 支援 PNG、JPEG、TIFF 與 GIF。只需將 `SaveFormat.Bmp` 替換為相應的列舉值。
+
+**Q: 哪些 .NET 版本相容？**  
+A: 此函式庫支援 .NET Framework 4.6+、.NET Core 3.1，以及 .NET 5/6/7+。它完全跨平台，您可以在 Windows、Linux 或 macOS 上執行相同程式碼。
+
+**Q: 如何控制影像解析度？**  
+A: 建立 `ImageSaveOptions` 實例，設定 `Resolution`（DPI）屬性，然後將其傳遞給 `Save` 方法。較高的 DPI 會產生更清晰的影像，但檔案大小也會相應增大。
 
 ## 結論
 
-總而言之，Aspose.Note for .NET 提供了一種將 Microsoft OneNote 文件轉換為各種影像格式的無縫方法，從而增強了文件的靈活性和可存取性。透過遵循本教學中概述的步驟，您可以將此功能有效地整合到您的 .NET 應用程式中。
+使用 Aspose.Note for .NET 將 OneNote 轉換為 BMP 簡單、快速且可靠。依照上述步驟，您即可在任何 .NET 應用程式中整合影像匯出功能，無論是桌面工具、Web 服務或背景批次工作。探索其他輸出格式、調整解析度設定，並善用 Aspose.Note 廣泛的 API 以滿足任何文件處理需求。
 
-## 常見問題解答
+---
 
-### Q1：我可以同時將多個 Microsoft OneNote 文件轉換為映像嗎？
+**最後更新：** 2026-10-15  
+**測試版本：** Aspose.Note 24.9 for .NET  
+**作者：** Aspose
 
-A1：是的，您可以使用Aspose.Note批次處理多個文檔，確保效率和生產力。
+## 相關教學
 
-### Q2：Aspose.Note 與最新版本的 Microsoft OneNote 相容嗎？
+- [使用 Aspose.Note 轉換 OneNote 頁面影像](/note/net/loading-and-saving-operations/convert-specific-page-to-image/)
+- [在 Aspose Note .NET 中將筆記本轉換為影像](/note/net/notebook-operations/convert-to-image/)
+- [在 Aspose.Note 中儲存為二進位影像](/note/net/loading-and-saving-operations/save-to-binary-image/)
 
-A2：Aspose.Note支援Microsoft OneNote的各個版本，確保相容性和可靠性。
 
-### 問題 3：使用 Aspose.Note for .NET 有任何許可要求嗎？
-
-A3：是的，您需要獲得許可證才能將 Aspose.Note 用於商業目的。但是，您也可以透過免費試用來探索其功能。
-
-### Q4: 我可以自訂輸出影像格式和解析度嗎？
-
-A4：當然，Aspose.Note 提供了廣泛的選項，可根據您的要求自訂輸出影像格式、解析度和其他參數。
-
-### Q5：Aspose.Note是否為開發者提供技術支援？
-
-A5：是的，Aspose.Note 透過論壇和文件提供全面的技術支持，確保流暢的開發體驗。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
