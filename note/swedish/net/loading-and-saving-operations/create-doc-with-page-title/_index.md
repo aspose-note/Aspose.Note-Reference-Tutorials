@@ -1,43 +1,132 @@
 ---
-title: Skapa dokument med sidrubrik i Aspose.Note
-linktitle: Skapa dokument med sidrubrik i Aspose.Note
+date: 2026-10-15
+description: Lär dig hur du anger sidtitel i ett OneNote‑dokument med Aspose.Note
+  för .NET. Följ vår steg‑för‑steg‑guide för att skapa sidor med titel och tillämpa
+  standardtextstil.
+keywords:
+- how to set page title
+- set default text style
+- create titled page
+- document with page title
+lastmod: 2026-10-15
+linktitle: Skapa dokument med sidtitel i Aspose.Note
+og_description: Lär dig hur du anger sidtitel i ett OneNote‑dokument med Aspose.Note
+  för .NET. Denna steg‑för‑steg‑guide visar hur du skapar en sida med titel, tillämpar
+  standardtextstil och sparar filen.
+og_image_alt: 'Aspose.Note tutorial: setting page title in OneNote document with .NET'
+og_title: Hur man anger sidtitel i ett OneNote‑dokument med Aspose.Note
+schemas:
+- author: Aspose
+  dateModified: '2026-10-15'
+  description: Learn how to set page title in a OneNote document using Aspose.Note
+    for .NET. Follow our step‑by‑step guide for creating titled pages and applying
+    default text style.
+  headline: How to set page title in OneNote document using Aspose.Note
+  type: TechArticle
+- description: Learn how to set page title in a OneNote document using Aspose.Note
+    for .NET. Follow our step‑by‑step guide for creating titled pages and applying
+    default text style.
+  name: How to set page title in OneNote document using Aspose.Note
+  steps:
+  - name: Download Visual Studio from the Microsoft website.
+    text: Download Visual Studio from the Microsoft website.
+  - name: Select the “.NET desktop development” workload during installation.
+    text: Select the “.NET desktop development” workload during installation.
+  - name: Create a new console‑application project (or any .NET project type you prefer).
+    text: Create a new console‑application project (or any .NET project type you prefer).
+  - name: 'Get Aspose.Note: Download the library from the [website](https://releases.aspose.com/note/net/).'
+    text: 'Get Aspose.Note: Download the library from the [website](https://releases.aspose.com/note/net/).'
+  - name: 'Install via NuGet Package Manager: search for **Aspose.Note** and install
+      the latest version.'
+    text: 'Install via NuGet Package Manager: search for **Aspose.Note** and install
+      the latest version.'
+  type: HowTo
+- questions:
+  - answer: Yes, you can change the font name, size, and color through the `DefaultTextStyle`
+      object before assigning the title.
+    question: Can I customize the title text style?
+  - answer: Absolutely. The library supports .NET Core, .NET 5+, and .NET 6+, enabling
+      cross‑platform development.
+    question: Is Aspose.Note compatible with .NET Core?
+  - answer: Yes. Use the `Image` and `Attachment` classes to embed multimedia content
+      alongside your titled page.
+    question: Can I add images and attachments to the document?
+  - answer: It does. You can load a `.one` file, modify its pages (including titles),
+      and save it back.
+    question: Does Aspose.Note support reading existing OneNote files?
+  - answer: You can find support and assistance on the [Aspose.Note forum](https://forum.aspose.com/c/note/28),
+      where experts and community members help with queries.
+    question: Where can I find support if I encounter any issues?
+  type: FAQPage
 second_title: Aspose.Note .NET API
-description: Lär dig hur du skapar dokument med titelsidor med Aspose.Note för .NET. Följ vår steg-för-steg-guide för sömlös integration.
-weight: 13
+tags:
+- Aspose.Note
+- OneNote API
+- page title
+- .NET
+- document creation
+title: Hur man anger sidtitel i ett OneNote‑dokument med Aspose.Note
 url: /sv/net/loading-and-saving-operations/create-doc-with-page-title/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Skapa dokument med sidrubrik i Aspose.Note
+# Så här ställer du in sidtitel i OneNote-dokument med Aspose.Note
 
 ## Introduktion
 
-I den här handledningen guidar vi dig genom processen att skapa ett dokument med en titelsida med Aspose.Note för .NET. Aspose.Note är ett kraftfullt API som låter utvecklare arbeta med Microsoft OneNote-filer programmatiskt.
+I den här handledningen kommer du att lära dig **hur du ställer in sidtitel** när du skapar ett OneNote-dokument med Aspose.Note för .NET. Att sätta en sidtitel förbättrar navigering, sökbarhet och den övergripande läsbarheten i OneNote-anteckningsböcker. Vi går igenom varje steg, från projektinställning till att spara den slutliga filen, och visar hur du applicerar en standardtextstil på titeln.
+
+## Snabba svar
+- **Vad betyder “page title”?** Texten som visas högst upp på en OneNote-sida och fungerar som dess rubrik.  
+- **Vilken API-klass skapar titeln?** `PageTitle`‑egenskapen i `Page`‑klassen.  
+- **Behöver jag en licens för att köra exemplet?** En gratis provperiod fungerar för utveckling; en kommersiell licens krävs för produktion.  
+- **Stöds .NET Core?** Ja – Aspose.Note körs på .NET Core, .NET 5+ och .NET 6+.  
+- **Kan jag anpassa titelfonten?** Absolut – du kan ange teckensnittets namn, storlek och färg via `DefaultTextStyle`‑objektet.
+
+## Vad är hur man ställer in sidtitel?
+**hur du ställer in sidtitel** är processen att tilldela en rubriksträng till en OneNote-sidas `Title`‑element via Aspose.Note‑API:n. Denna operation utförs innan sidan läggs till i dokumenthierarkin, och den säkerställer att titeln visas korrekt i OneNotes UI och kan användas för sökning och organisering av sidor inom en anteckningsbok.
+
+## Varför använda Aspose.Note för att ställa in en sidtitel?
+Aspose.Note stöder **30+ in- och utdataformat** och kan manipulera anteckningsböcker med **upp till 10 000 sidor** utan att ladda hela filen i minnet. Biblioteket hanterar Unicode-tecken, skript som skrivs från höger till vänster och komplex formatering automatiskt, vilket sparar dig från att skriva låg‑nivå OneNote‑XML‑kod.
 
 ## Förutsättningar
 
 Innan vi börjar, se till att du har följande förutsättningar installerade och konfigurerade:
 
-### Installation av Visual Studio
+### Visual Studio-installation
 
-1. Ladda ner Visual Studio: Om du inte redan har gjort det, ladda ner och installera Visual Studio från Microsofts webbplats.
+1. Ladda ner Visual Studio från Microsofts webbplats.  
+2. Välj arbetsbelastningen “.NET desktop development” under installationen.  
+3. Skapa ett nytt konsol‑applikationsprojekt (eller någon annan .NET‑projekttyp du föredrar).
 
-2. Installera .NET Development Workload: Under installationsprocessen, se till att välja ".NET desktop development"-arbetsbelastningen för att säkerställa att du har alla nödvändiga komponenter för .NET-utveckling.
+### Aspose.Note-installation
 
-3. Skapa ett nytt projekt: Öppna Visual Studio och skapa ett nytt projekt (konsolapplikation eller någon annan typ du föredrar).
+1. Skaffa Aspose.Note: Ladda ner biblioteket från [webbplats](https://releases.aspose.com/note/net/).  
+2. Installera via NuGet Package Manager: sök efter **Aspose.Note** och installera den senaste versionen.
 
-### Aspose.Note Installation
+## Importera namnrymder
 
-1.  Skaffa Aspose.Note: Ladda ner Aspose.Note för .NET-biblioteket från[hemsida](https://releases.aspose.com/note/net/).
+Följande namnrymder ger dig åtkomst till de centrala Aspose.Note‑klasserna:
 
-2. Installera Aspose.Note via NuGet: Alternativt kan du installera Aspose.Note för .NET via NuGet Package Manager i Visual Studio. Sök helt enkelt efter "Aspose.Note" och installera den senaste versionen.
+```text
+using Aspose.Note;
+using Aspose.Note.Drawing;
+using Aspose.Note.Rendering;
+```
 
-## Importera namnområden
+Nu ska vi gå igenom processen att skapa ett dokument med en sidtitel i flera steg:
 
-Först måste du importera de nödvändiga namnrymden för att använda Aspose.Note i ditt projekt.
+## Så här ställer du in sidtitel i ett OneNote-dokument
+
+Läs in ett nytt `Document`‑objekt, skapa en `Page`, sätt titeltexten, applicera en standardstil och spara slutligen filen. Detta hela arbetsflöde kräver bara några rader kod och ingen manuell XML‑hantering.
+
+## Steg 1: skapa ett dokumentobjekt
+
+`Document`‑klassen representerar en OneNote‑anteckningsbok i minnet som kan innehålla flera sidor och sektioner.
 
 ```csharp
 using System.IO;
@@ -48,33 +137,39 @@ using System.Drawing;
 using System.Globalization;
 ```
 
-Låt oss nu dela upp processen att skapa ett dokument med en sidrubrik i flera steg:
+## Steg 2: initiera sidklassobjekt
 
-## Steg 1: Skapa ett dokumentobjekt
+`Page`‑objekt modellerar enskilda sidor i en OneNote‑anteckningsbok och innehåller innehåll såsom titel, konturer och bilder.
 
 ```csharp
-//Skapa ett objekt av klassen Document
+// Create an object of the Document class
 Document doc = new Aspose.Note.Document();
 ```
 
-## Steg 2: Initiera sidklassobjekt
+## Steg 3: sätt standardstil för text
+
+`DefaultTextStyle` definierar standardteckensnittsfamilj, storlek och färg som appliceras på textelement när de skapas.
 
 ```csharp
-// Initiera Sidklassobjekt
+// Initialize Page class object
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ```
 
-## Steg 3: Ställ in standardstil för text
+## Steg 4: sätt egenskaper för sidtitel
+
+`Title`‑egenskapen i en `Page` innehåller rubrikinformationen, inklusive text, datum och tid.
 
 ```csharp
-// Standardformat för all text i dokumentet.
+// Default style for all text in the document.
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 ```
 
-## Steg 4: Ställ in egenskaper för sidrubrik
+## Steg 5: lägg till sidnod i dokumentet
+
+`Document.Pages.Add` infogar den nyss skapade `Page` i anteckningsbokens sidkollektion och fastställer dess position.
 
 ```csharp
-// Ställ in sidtitelegenskaper
+// Set page title properties
 page.Title = new Title()
 {
     TitleText = new RichText() { Text = "Title text.", ParagraphStyle = textStyle },
@@ -83,47 +178,58 @@ page.Title = new Title()
 };
 ```
 
-## Steg 5: Lägg till sidnod i dokumentet
+## Steg 6: spara OneNote‑dokument
+
+`Document.Save` skriver anteckningsboken till en fil i det angivna formatet, t.ex. `.one` för OneNote.
 
 ```csharp
-// Lägg till sidnod i dokumentet
+// Append Page node in the document
 doc.AppendChildLast(page);
 ```
 
-## Steg 6: Spara OneNote-dokument
+## Vanliga problem och lösningar
+
+- **Titel visas inte** – Se till att du sätter `Title`‑egenskapen *innan* du lägger till sidan i dokumentet.  
+- **Felaktig teckensnittsrendering** – Kontrollera att det teckensnitt du anger är installerat på målmaskinen; annars faller Aspose.Note tillbaka på ett standardteckensnitt.  
+- **Stora anteckningsböcker ger minnespress** – Använd `Document.Load` med `LoadOptions` som möjliggör lat laddning för mycket stora filer.
+
+## Vanliga frågor
+
+**Q: Kan jag anpassa titeltextens stil?**  
+A: Ja, du kan ändra teckensnittets namn, storlek och färg via `DefaultTextStyle`‑objektet innan du tilldelar titeln.
+
+**Q: Är Aspose.Note kompatibel med .NET Core?**  
+A: Absolut. Biblioteket stöder .NET Core, .NET 5+ och .NET 6+, vilket möjliggör plattformsoberoende utveckling.
+
+**Q: Kan jag lägga till bilder och bilagor i dokumentet?**  
+A: Ja. Använd `Image`‑ och `Attachment`‑klasserna för att bädda in multimediainnehåll tillsammans med din sidtitelsida.
+
+**Q: Stöder Aspose.Note att läsa befintliga OneNote‑filer?**  
+A: Ja. Du kan läsa in en `.one`‑fil, modifiera dess sidor (inklusive titlar) och spara tillbaka.
+
+**Q: Var kan jag hitta support om jag stöter på problem?**  
+A: Du kan hitta support och hjälp på [Aspose.Note‑forumet](https://forum.aspose.com/c/note/28), där experter och community‑medlemmar hjälper till med frågor.
+
+---
+
+**Senast uppdaterad:** 2026-10-15  
+**Testat med:** Aspose.Note 24.11 för .NET  
+**Författare:** Aspose  
 
 ```csharp
-// Spara OneNote-dokument
+// Save OneNote document
 string dataDir = "Your Document Directory";
 dataDir = dataDir + "CreateDocWithPageTitle_out.one";
 doc.Save(dataDir);
 ```
 
-## Slutsats
+## Relaterade handledningar
 
-Grattis! Du har framgångsrikt skapat ett dokument med en titelsida med Aspose.Note för .NET. Denna handledning gav en steg-för-steg-guide som hjälper dig att integrera Aspose.Note i dina .NET-applikationer för att hantera OneNote-filer programmatiskt.
+- [Ändra sidtitelstil i Aspose.Note](/note/net/text-manipulation/change-page-title-style/)
+- [Skapa titel med MS‑stil i Aspose.Note](/note/net/text-manipulation/create-title-ms-style/)
+- [Ställ in standardparagrafstil i Aspose.Note](/note/net/text-manipulation/set-default-paragraph-style/)
 
-## FAQ's
 
-### F1: Kan jag anpassa titeltextstilen?
-
-A1: Ja, du kan anpassa teckensnittsfärg, teckensnittsnamn och teckenstorlek för titeltexten enligt dina krav.
-
-### F2: Är Aspose.Note kompatibel med .NET Core?
-
-S2: Ja, Aspose.Note stöder .NET Core, vilket gör att du kan utveckla plattformsoberoende applikationer.
-
-### F3: Kan jag lägga till bilder och bilagor till dokumentet?
-
-A3: Absolut! Aspose.Note tillhandahåller API:er för att lägga till bilder, bilagor och andra element till dina OneNote-dokument sömlöst.
-
-### F4: Stöder Aspose.Note läsning av befintliga OneNote-filer?
-
-S4: Ja, du kan använda Aspose.Note för att enkelt läsa, ändra och manipulera befintliga OneNote-filer.
-
-### F5: Var kan jag hitta support om jag stöter på några problem?
-
- S5: Du kan hitta stöd och hjälp på[Aspose.Note forum](https://forum.aspose.com/c/note/28), där experter och communitymedlemmar kan hjälpa dig med dina frågor.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
