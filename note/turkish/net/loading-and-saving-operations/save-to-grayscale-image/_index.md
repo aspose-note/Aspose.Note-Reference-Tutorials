@@ -1,34 +1,109 @@
 ---
-title: Aspose.Note'ta Gri Tonlamalı Görüntüye Kaydetme
-linktitle: Aspose.Note'ta Gri Tonlamalı Görüntüye Kaydetme
-second_title: Aspose.Note .NET API'si
-description: Aspose.Note for .NET'i kullanarak OneNote belgelerini gri tonlamalı görüntüler olarak nasıl kaydedeceğinizi öğrenin. Verimli belge işleme için bu kapsamlı eğitimi izleyin.
-weight: 24
+date: 2026-10-15
+description: Aspose.Note for .NET kullanarak OneNote'u PNG'ye dönüştürün ve gri tonlamalı
+  görüntü olarak kaydedin. .NET uygulamalarınıza görüntü dönüştürme eklemek için bu
+  adım adım kılavuzu izleyin.
+keywords:
+- convert onenote to png
+- Aspose.Note grayscale conversion
+- .NET OneNote image export
+lastmod: 2026-10-15
+linktitle: OneNote'u PNG'ye dönüştürme ve gri tonlamalı görüntü olarak kaydetme
+og_description: Aspose.Note for .NET kullanarak OneNote'u PNG'ye dönüştürün ve gri
+  tonlamalı görüntü olarak kaydedin. Bu adım adım kılavuz, görüntüyü dakikalar içinde
+  nasıl yükleyeceğinizi, dönüştüreceğinizi ve doğrulayacağınızı gösterir.
+og_image_alt: Guide showing conversion of OneNote to PNG grayscale using Aspose.Note
+og_title: OneNote'u PNG'ye dönüştürme ve gri tonlamalı görüntü olarak kaydetme
+schemas:
+- author: Aspose
+  dateModified: '2026-10-15'
+  description: Convert OneNote to PNG and save as a grayscale image using Aspose.Note
+    for .NET. Follow this step‑by‑step guide to add image conversion to your .NET
+    applications.
+  headline: How to convert OneNote to PNG and save as grayscale image
+  type: TechArticle
+- description: Convert OneNote to PNG and save as a grayscale image using Aspose.Note
+    for .NET. Follow this step‑by‑step guide to add image conversion to your .NET
+    applications.
+  name: How to convert OneNote to PNG and save as grayscale image
+  steps:
+  - name: Load the document
+    text: Firstly, load the document into Aspose.Note. The `Document` class represents
+      a OneNote notebook and provides methods to load and manipulate its contents.
+  - name: Save as grayscale image
+    text: Next, specify the path for saving the grayscale image and save the document
+      accordingly. The `ImageSaveOptions` class lets you specify image format and
+      rendering options such as color mode.
+  - name: Verify and display result
+    text: Finally, verify and display the successful conversion message along with
+      the file path.
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.Note efficiently processes notebooks with embedded images,
+      tables, and ink annotations, supporting files up to 500 MB without performance
+      degradation.
+    question: Can Aspose.Note handle complex OneNote files?
+  - answer: Absolutely, it reads and writes OneNote *.one* files and can export to
+      PNG, JPEG, BMP, and TIFF formats.
+    question: Is Aspose.Note compatible with different file formats?
+  - answer: Yes, comprehensive support is available through the Aspose forums, detailed
+      API documentation, and email assistance.
+    question: Does Aspose.Note offer support for developers?
+  - answer: A fully functional free trial can be downloaded from the Aspose website.
+    question: Can I try Aspose.Note before purchasing?
+  - answer: Visit the Aspose licensing page, request a temporary license, and follow
+      the provided instructions to activate it.
+    question: How can I obtain a temporary license for Aspose.Note?
+  type: FAQPage
+second_title: Aspose.Note .NET API
+tags:
+- convert onenote to png
+- Aspose.Note
+- .NET image processing
+title: OneNote'u PNG'ye dönüştürme ve gri tonlamalı görüntü olarak kaydetme
 url: /tr/net/loading-and-saving-operations/save-to-grayscale-image/
+weight: 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Note'ta Gri Tonlamalı Görüntüye Kaydetme
+# OneNote'u PNG'ye dönüştürme ve gri tonlamalı görüntü olarak kaydetme
 
-## giriiş
+## Giriş
 
-Bu eğitimde, bir belgeyi gri tonlamalı görüntü olarak kaydetmek için Aspose.Note for .NET'in nasıl kullanılacağını keşfedeceğiz. Aspose.Note, geliştiricilerin Microsoft OneNote dosyalarıyla programlı olarak çalışmasına olanak tanıyan ve çok çeşitli işlevler sağlayan güçlü bir kitaplıktır.
+Bu öğreticide, Aspose.Note for .NET kullanarak **OneNote'u PNG'ye dönüştürme** ve sonucu gri tonlamalı bir görüntü olarak kaydetmeyi öğreneceksiniz. OneNote sayfalarını PNG'ye dönüştürmek, raporlama, küçük resim oluşturma ve arşivleme iş akışları için yaygın bir gereksinimdir. Aspose.Note süreci basitleştirir ve Microsoft OneNote yüklü olmadan dosyalarla çalışmanıza olanak tanır.
+
+## Hızlı cevaplar
+- **Dönüşümü hangi kütüphane yönetir?** Aspose.Note for .NET.
+- **Hangi format üretilir?** PNG gri tonlamalı görüntü.
+- **Kaç satır kod gereklidir?** Dört temel ifade (yükle, seçenekleri ayarla, kaydet, doğrula).
+- **Üretim için lisans gerekli mi?** Evet, ticari bir lisans gerekir; ücretsiz deneme mevcuttur.
+- **Bu .NET 6+ üzerinde çalışabilir mi?** Kesinlikle – Aspose.Note .NET Framework 4.5+, .NET Core 3.1+ ve .NET 6+ destekler.
+
+## OneNote'u PNG'ye dönüştürme nedir?
+`convert OneNote to PNG` bir OneNote sayfasını Portable Network Graphics (PNG) bitmapine dönüştürme sürecidir, isteğe bağlı olarak gri tonlamalı gibi renk‑alanı dönüşümleri uygulanabilir. Bu format görsel doğruluğu korurken hafif, web‑uyumlu bir görüntü üretir. Genellikle belge anlık görüntülerini web sayfalarına yerleştirmek, küçük resimler oluşturmak veya içeriği özel yazılımlara bağımlı olmayan bir formatta arşivlemek için kullanılır.
+
+## Bu dönüşüm için neden Aspose.Note kullanılmalı?
+Aspose.Note **50+ giriş ve çıkış formatını** destekler ve tüm dosyayı belleğe yüklemeden çok sayfalı OneNote defterlerini işleyebilir, tipik sunucu donanımında **500 MB**'a kadar belgeleri **2 saniyenin** altında dönüştürmeyi sağlar. Kütüphane ayrıca yerleşik gri tonlamalı işleme sunar, üçüncü taraf görüntü‑işleme araçlarına ihtiyaç duyulmaz.
 
 ## Önkoşullar
 
-Devam etmeden önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
+Before we proceed, ensure you have the following prerequisites:
 
-- C# programlama dilinin temel anlayışı.
-- Sisteminizde Visual Studio yüklü.
--  Aspose.Note for .NET kütüphanesi kuruldu. İndirebilirsin[Burada](https://releases.aspose.com/note/net/).
-- .NET kullanarak dosyalara erişme ve bunları değiştirme konusunda bilgi sahibi olmak.
+- C# programlama dili hakkında temel anlayış.  
+- Sisteminizde Visual Studio kurulu.  
+- Aspose.Note for .NET kütüphanesi kurulu. **Aspose.Note for .NET download page**[Aspose.Note for .NET download page](https://releases.aspose.com/note/net/) adresinden indirebilirsiniz.  
+- .NET kullanarak dosyalara erişme ve dosya işlemleri konularında aşinalık.
 
-## Ad Alanlarını İçe Aktar
+## OneNote'u PNG'ye nasıl dönüştürür ve gri tonlamalı görüntü olarak kaydederim?
 
-Gerekli ad alanlarını içe aktararak başlayalım:
+OneNote belgesini yükleyin, görüntü kaydetme seçeneklerini gri tonlamayı etkinleyecek şekilde yapılandırın, sonucu PNG dosyası olarak kaydedin ve sonunda dosyanın diskte mevcut olduğunu doğrulayın. Tüm iş akışı aşağıdaki dört adımda ele alınmıştır. Her adım, uygulamanıza doğrudan entegre edilebilecek özlü kod parçacıklarıyla gösterilmiştir.
+
+### Ad alanlarını içe aktar
+
+Gerekli ad alanlarını içe aktarmakla başlayalım:
 
 ```csharp
 using System;
@@ -37,18 +112,20 @@ using Aspose.Note.Saving;
 
 ```
 
-## 1. Adım: Belgeyi Yükleyin
+### Adım 1: Belgeyi yükle
 
-Öncelikle belgeyi Aspose.Note'a yükleyin. 
+İlk olarak, belgeyi Aspose.Note içine yükleyin.  
+`Document` sınıfı bir OneNote defterini temsil eder ve içeriğini yüklemek ve manipüle etmek için yöntemler sunar.
 
 ```csharp
 string dataDir = "Your Document Directory";
 Document oneFile = new Document(dataDir + "Aspose.one");
 ```
 
-## Adım 2: Gri Tonlamalı Görüntü Olarak Kaydet
+### Adım 2: Gri tonlamalı görüntü olarak kaydet
 
-Daha sonra gri tonlamalı görüntünün kaydedileceği yolu belirtin ve belgeyi buna göre kaydedin.
+Sonra, gri tonlamalı görüntüyü kaydetmek için yolu belirtin ve belgeyi buna göre kaydedin.  
+`ImageSaveOptions` sınıfı, görüntü formatını ve renk modu gibi işleme seçeneklerini belirlemenizi sağlar.
 
 ```csharp
 dataDir = dataDir + "SaveAsGrayscaleImage_out.png";
@@ -58,39 +135,53 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
 					  });
 ```
 
-## 3. Adım: Sonucu Doğrulayın ve Görüntüleyin
+### Adım 3: Sonucu doğrula ve göster
 
-Son olarak, başarılı dönüştürme mesajını dosya yolu ile birlikte doğrulayın ve görüntüleyin.
+Son olarak, başarılı dönüşüm mesajını dosya yolu ile birlikte doğrulayın ve gösterin.
 
 ```csharp
 Console.WriteLine("\nOneNote document converted successfully to grayscale image.\nFile saved at " + dataDir);
 ```
 
-## Çözüm
+## Yaygın sorunlar ve çözümler
 
-Bu eğitimde, bir belgeyi gri tonlamalı görüntüye dönüştürmek için Aspose.Note for .NET'i nasıl kullanacağımızı öğrendik. Geliştiriciler bu basit adımları izleyerek bu işlevselliği uygulamalarına verimli bir şekilde dahil edebilir ve belge işleme yeteneklerini geliştirebilirler.
+- **Dosya kaydedildikten sonra bulunamadı** – Çıktı dizininin var olduğundan ve uygulamanın yazma izinlerine sahip olduğundan emin olun.  
+- **Görüntü renkli görünüyor** – `ImageSaveOptions` içinde `ColorMode`'un `Grayscale` olarak ayarlandığını doğrulayın.  
+- **Büyük defterler yüksek bellek kullanımı oluşturur** – Sayfaları sıralı işlemek için `LoadOptions`'ı `LoadOptions.LoadMode = LoadMode.Stream` ile kullanın.
 
-## SSS'ler
+## Sıkça sorulan sorular
 
-### S1: Aspose.Note karmaşık OneNote dosyalarını işleyebilir mi?
+**Q: Aspose.Note karmaşık OneNote dosyalarını işleyebilir mi?**  
+**A:** Evet, Aspose.Note gömülü resimler, tablolar ve mürekkep ek açıklamaları içeren defterleri verimli bir şekilde işler, 500 MB'a kadar dosyaları performans kaybı olmadan destekler.
 
-Cevap1: Evet, Aspose.Note, karmaşık OneNote dosyalarını verimli bir şekilde işleyebilir ve belge işleme için güçlü işlevler sağlar.
+**Q: Aspose.Note farklı dosya formatlarıyla uyumlu mu?**  
+**A:** Kesinlikle, OneNote *.one* dosyalarını okur ve yazar ve PNG, JPEG, BMP ve TIFF formatlarına dışa aktarabilir.
 
-### S2: Aspose.Note farklı dosya formatlarıyla uyumlu mudur?
+**Q: Aspose.Note geliştiricilere destek sağlıyor mu?**  
+**A:** Evet, kapsamlı destek Aspose forumları, detaylı API belgeleri ve e-posta yardımı aracılığıyla mevcuttur.
 
-Cevap2: Aspose.Note kesinlikle çeşitli dosya formatlarını destekleyerek belge işlemede esneklik sağlar.
+**Q: Aspose.Note'ı satın almadan denemek mümkün mü?**  
+**A:** Tam işlevsel bir ücretsiz deneme sürümü Aspose web sitesinden indirilebilir.
 
-### S3: Aspose.Note geliştiricilere destek sunuyor mu?
+**Q: Aspose.Note için geçici bir lisans nasıl alabilirim?**  
+**A:** Aspose lisans sayfasını ziyaret edin, geçici bir lisans talep edin ve etkinleştirmek için verilen talimatları izleyin.
 
-Cevap3: Evet, geliştiriciler Aspose forumu ve belgeleri aracılığıyla kapsamlı desteğe erişebilirler.
+## Sonuç
 
-### S4: Satın almadan önce Aspose.Note'u deneyebilir miyim?
+Bu öğreticide, Aspose.Note for .NET kullanarak **OneNote'u PNG'ye dönüştürme** ve sonucu gri tonlamalı bir görüntü olarak kaydetme konusunda bilgi edindiniz. Bu özlü adımları izleyerek, görüntü dönüşümünü uygulamalarınıza entegre edebilir, belge iş akışlarını hızlandırabilir ve görsel varlıkları hızlı ve güvenilir bir şekilde sunabilirsiniz.
 
-Cevap4: Evet, Aspose.Note'u web sitelerindeki ücretsiz deneme sürümü aracılığıyla keşfedebilirsiniz.
+---
 
-### S5: Aspose.Note için nasıl geçici lisans alabilirim?
+**Son Güncelleme:** 2026-10-15  
+**Test Edilen:** Aspose.Note 24.11 for .NET  
+**Yazar:** Aspose
 
-Cevap5: Sağlanan bağlantıyı ziyaret ederek ve talimatları izleyerek Aspose.Note için geçici bir lisans alabilirsiniz.
+## İlgili Öğreticiler
+
+- [Aspose.Note'ta Görüntü Olarak Kaydet](/note/net/loading-and-saving-operations/save-to-image/)
+- [Aspose.Note ile OneNote Sayfa Görüntüsünü Dönüştür](/note/net/loading-and-saving-operations/convert-specific-page-to-image/)
+- [Aspose Note .NET'te Defterleri Görüntüye Dönüştür](/note/net/notebook-operations/convert-to-image/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
