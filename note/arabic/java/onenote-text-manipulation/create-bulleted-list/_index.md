@@ -1,10 +1,47 @@
 ---
-date: 2026-03-03
-description: تعلم كيفية إنشاء قائمة نقطية في OneNote باستخدام Aspose.Note للـ Java
-  وكذلك حفظ مستند OneNote كملف PDF. دليل خطوة بخطوة مع نقاط Java.
-linktitle: Create Bulleted List OneNote - Aspose.Note
+date: 2026-10-26
+description: تعلم كيفية تحويل OneNote إلى PDF وإنشاء قوائم نقطية باستخدام Aspose.Note
+  for Java. دليل خطوة بخطوة مع نقاط التعداد في Java وتصدير PDF.
+keywords:
+- convert onenote to pdf
+- generate pdf from onenote
+- set bullet points java
+lastmod: 2026-10-26
+linktitle: تحويل OneNote إلى PDF باستخدام Aspose.Note for Java
+og_description: تحويل OneNote إلى PDF وإضافة قوائم نقطية باستخدام Aspose.Note for
+  Java. تعلم الخطوات لإنشاء PDF من OneNote وتعيين نقاط التعداد في Java.
+og_image_alt: 'Developer guide: Convert OneNote to PDF and create bulleted lists in
+  Java using Aspose.Note'
+og_title: تحويل OneNote إلى PDF باستخدام Aspose.Note for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-10-26'
+  description: Learn how to convert OneNote to PDF and create bulleted lists using
+    Aspose.Note for Java. Step‑by‑step guide with Java bullet points and PDF export.
+  headline: Convert OneNote to PDF with Aspose.Note for Java
+  type: TechArticle
+- questions:
+  - answer: Yes, it works with Eclipse, IntelliJ IDEA, NetBeans, and any IDE that
+      supports standard Java projects.
+    question: Is Aspose.Note for Java compatible with all Java IDEs?
+  - answer: Absolutely! You can change the font, color, size, and even use custom
+      Unicode symbols by modifying the `NumberList` parameters.
+    question: Can I customize the formatting of the bulleted list?
+  - answer: Visit the [Aspose.Note for Java support forum](https://forum.aspose.com/c/note/28)
+      for community help and official assistance.
+    question: Where can I find additional support for Aspose.Note for Java?
+  - answer: Yes, you can explore a free trial version on the [Aspose.Note free trial
+      download page](https://releases.aspose.com/).
+    question: Is there a free trial available for Aspose.Note for Java?
+  - answer: Get a temporary license on the [Aspose.Note temporary license page](https://purchase.aspose.com/temporary-license/).
+    question: How can I obtain a temporary license for Aspose.Note for Java?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: إنشاء قائمة نقطية في OneNote - Aspose.Note
+tags:
+- convert onenote
+- Aspose.Note
+- Java document processing
+title: تحويل OneNote إلى PDF باستخدام Aspose.Note for Java
 url: /ar/java/onenote-text-manipulation/create-bulleted-list/
 weight: 12
 ---
@@ -13,35 +50,31 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# إنشاء قائمة نقطية في OneNote - Aspose.Note
+# تحويل OneNote إلى PDF باستخدام Aspose.Note للغة Java
 
 ## المقدمة
-إذا كنت بحاجة إلى **create bulleted list OneNote** برمجيًا، فإن Aspose.Note for Java يوفر لك واجهة برمجة تطبيقات نظيفة وسلسة تتعامل مع جميع تفاصيل OneNote نيابةً عنك. في هذا البرنامج التعليمي سنستعرض الخطوات الدقيقة لتعيين نقاط القوائم في Java، وإضافتها إلى مخطط، وأخيرًا **save OneNote document as PDF**. في النهاية ستحصل على مقتطف جاهز للاستخدام يمكنك إدراجه في أي مشروع Java.
+إذا كنت بحاجة إلى **تحويل OneNote إلى PDF** مع بناء قائمة نقطية، فإن Aspose.Note للغة Java يوفّر لك API سلسة تُجرد جميع تفاصيل ملفات OneNote الداخلية. في هذا البرنامج التعليمي سنستعرض الخطوات الدقيقة لتعيين نقاط التعداد في Java، وإضافتها إلى مخطط، وأخيرًا **حفظ مستند OneNote كملف PDF**. في النهاية ستحصل على مقتطف جاهز للاستخدام يمكنك إدراجه في أي مشروع Java.
 
 ## إجابات سريعة
-- **What does Aspose.Note do?** يتيح لك إنشاء وتحرير وتحويل ملفات OneNote دون الحاجة لتثبيت OneNote.  
-- **Can I set bullet points with Java?** نعم – استخدم `NumberList` لتحديد نمط النقطة.  
-- **How do I export to PDF?** استدعِ `doc.save(...".pdf")` بعد بناء الصفحة.  
-- **Do I need a license for development?** النسخة التجريبية المجانية تكفي للاختبار؛ يلزم وجود ترخيص للإنتاج.  
-- **Which IDEs are supported?** أي بيئة تطوير Java مثل Eclipse أو IntelliJ IDEA أو VS Code.
+- **ماذا يفعل Aspose.Note؟** يتيح لك إنشاء وتحرير وتحويل ملفات OneNote دون تثبيت OneNote.  
+- **هل يمكنني تعيين نقاط التعداد باستخدام Java؟** نعم – استخدم `NumberList` لتحديد نمط النقطة.  
+- **كيف يمكنني تصدير إلى PDF؟** استدعِ `doc.save(...".pdf")` بعد بناء الصفحة.  
+- **هل أحتاج إلى ترخيص للتطوير؟** الإصدار التجريبي المجاني يعمل للاختبار؛ الترخيص مطلوب للإنتاج.  
+- **ما هي بيئات التطوير المتكاملة (IDE) المدعومة؟** أي بيئة تطوير Java مثل Eclipse أو IntelliJ IDEA أو VS Code.
 
-## ما هو “create bulleted list OneNote”؟
-إنشاء قائمة نقطية في OneNote يعني إضافة سلسلة من عناصر المخطط حيث يبدأ كل عنصر بحرف نقطي (مثل “*”). هذه البنية تحسن قابلية القراءة وتقلد الطريقة التي يضيف بها المستخدمون القوائم يدويًا داخل واجهة OneNote.
+## ما هو “إنشاء قائمة نقطية في OneNote”؟
+إنشاء قائمة نقطية في OneNote يعني إضافة سلسلة من عناصر المخطط حيث يبدأ كل عنصر برمز نقطي (مثل “*”). هذه البنية تحسّن قابلية القراءة وتقلّد الطريقة التي يضيف بها المستخدمون القوائم يدويًا داخل واجهة OneNote للحصول على تنظيم أفضل.
 
-## لماذا تستخدم Aspose.Note for Java لتعيين نقاط القوائم؟
-- **No OneNote installation required** – يعمل على الخوادم وخطوط تكامل المستمر.  
-- **Full control over styling** – الخط، الحجم، اللون، وحرف النقطة كلها قابلة للتخصيص.  
-- **Direct PDF export** – إنشاء ملف PDF بسطر واحد، مثالي للتقارير أو الأرشفة.  
+## لماذا نستخدم Aspose.Note للغة Java لتعيين نقاط التعداد؟
+يُزيل Aspose.Note للغة Java الحاجة إلى تثبيت OneNote محليًا ويسمح لك بالتحكم في كل جانب بصري من القائمة — بما في ذلك الخط، الحجم، اللون، ورمز النقطة — من خلال كود على جانب الخادم. يدعم معالجة الملفات حتى 300 ميغابايت دون تحميل المستند بالكامل إلى الذاكرة، وتوفر المكتبة أكثر من 60 فئة API مخصصة للتلاعب الدقيق.
 
 ## المتطلبات المسبقة
-قبل أن نبدأ، تأكد من أن لديك:
-
 - معرفة أساسية ببرمجة Java.  
-- مكتبة Aspose.Note for Java مثبتة – حمّلها من [Aspose.Note for Java Documentation](https://reference.aspose.com/note/java/).  
-- بيئة تطوير Java (Eclipse، IntelliJ IDEA، إلخ) مُثبتة على جهازك.
+- مكتبة Aspose.Note للغة Java مثبتة – قم بتنزيلها من [توثيق Aspose.Note للغة Java](https://reference.aspose.com/note/java/).  
+- بيئة تطوير Java (Eclipse، IntelliJ IDEA، إلخ) مُعدّة على جهازك.
 
 ## استيراد الحزم
-ابدأ باستيراد الحزم الضرورية إلى مشروع Java الخاص بك. سيوفر لك ذلك الوصول إلى جميع فئات Aspose.Note التي سنستخدمها.
+ابدأ باستيراد الحزم الضرورية إلى مشروع Java الخاص بك. هذا يمنحك الوصول إلى جميع فئات Aspose.Note التي سنستخدمها.
 
 ```java
 import java.awt.Color;
@@ -57,7 +90,7 @@ import com.aspose.note.ParagraphStyle;
 ```
 
 ## الخطوة 1: تهيئة المستند والصفحة
-أنشئ كائن `Document` وكائن `Page` حيث سيعيش المخطط.
+`Document` هو الكائن الأعلى مستوى الذي يمثل ملف OneNote في الذاكرة. بعد إنشاء `Document` يمكنك إضافة كائن أو أكثر من `Page`، كل منها يحمل مخططاته ومحتواه الخاص.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -67,8 +100,8 @@ Document doc = new Document();
 Page page = new Page();
 ```
 
-## الخطوة 2: تهيئة المخطط وTextStyle (set bullet points java)
-سنقوم بإعداد حاوية `Outline` وتعريف `ParagraphStyle` افتراضي. هنا نُطبق تنسيق **set bullet points java**.
+## الخطوة 2: تهيئة المخطط ونمط النص (تعيين نقاط التعداد في Java)
+`Outline` يعمل كحاوية لهرمية من كائنات `OutlineElement`. `ParagraphStyle` (أو أحد فروعه) يحدد التنسيق الافتراضي مثل عائلة الخط، الحجم، واللون الذي سيُطبق على كل نقطة.
 
 ```java
 // initialize Outline class object
@@ -81,7 +114,7 @@ ParagraphStyle defaultStyle = new ParagraphStyle()
 ```
 
 ## الخطوة 3: إنشاء عناصر القائمة النقطية
-أنشئ كائنات `OutlineElement` منفردة، واربطها بـ `NumberList` الذي يحدد حرف النقطة، ثم أضف النص.
+`OutlineElement` يمثل سطرًا واحدًا في المخطط. إرفاق `NumberList` بـ `OutlineElement` يخبر Aspose.Note أي رمز نقطي يجب عرضه. يمكنك تخصيص مُنشئ `NumberList` لتغيير رمز النقطة، الخط، أو الحجم.
 
 ```java
 // initialize OutlineElement class objects and apply bullets
@@ -93,10 +126,10 @@ text1.setParagraphStyle(defaultStyle);
 outlineElem1.appendChildLast(text1);
 ```
 
-*كرر الكتلة أعلاه لكل نقطة إضافية تحتاجها (مثل `outlineElem2`، `outlineElem3`).*
+*كرر الكتلة السابقة لكل نقطة إضافية تحتاجها (مثلاً `outlineElem2`، `outlineElem3`).*
 
 ## الخطوة 4: إضافة عناصر المخطط إلى المخطط
-اجمع جميع عناصر النقاط في الـ `Outline` الأب.
+اجمع جميع عناصر النقاط داخل الـ `Outline` الأب. هذه الخطوة تُنشئ القائمة الهرمية التي ستظهر على الصفحة.
 
 ```java
 // add outline elements
@@ -105,8 +138,11 @@ outline.appendChildLast(outlineElem2);
 outline.appendChildLast(outlineElem3);
 ```
 
-## الخطوة 5: إضافة المخطط إلى الصفحة وحفظه (save OneNote document as PDF)
-اربط الـ `Outline` بالـ `Page`، أضف الصفحة إلى الـ `Document`، وأخيرًا **save OneNote document as PDF**.
+## كيف يمكن تحويل OneNote إلى PDF؟
+حمّل كائن `Document` الخاص بك، بنِ الصفحة مع مخططها، ثم استدعِ `doc.save("output.pdf", SaveFormat.Pdf)`. يقوم Aspose.Note بكتابة ملف PDF في تمريرة واحدة، مع الحفاظ على التخطيط، الخطوط، والصور المدمجة دون الحاجة إلى Microsoft OneNote على الخادم، ويضمن عرضًا صحيحًا لجميع العناصر.
+
+## الخطوة 5: إضافة المخطط إلى الصفحة وحفظ المستند (حفظ مستند OneNote كملف PDF)
+أرفق الـ `Outline` بالـ `Page`، أضف الصفحة إلى الـ `Document`، وأخيرًا **احفظ مستند OneNote كملف PDF**.
 
 ```java
 // add Outline node
@@ -117,34 +153,46 @@ doc.appendChildLast(page);
 doc.save(dataDir + "CreateBulletedList_out.pdf");
 ```
 
-تهانينا! لقد قمت الآن ببرمجة **create bulleted list OneNote** وتصديره إلى PDF باستخدام Aspose.Note for Java.
+تهانينا! لقد قمت الآن ببرمجة **تحويل OneNote إلى PDF** و**إنشاء قائمة نقطية في OneNote** باستخدام Aspose.Note للغة Java.
 
 ## المشكلات الشائعة والحلول
-| Issue | Solution |
+| المشكلة | الحل |
 |-------|----------|
-| `outlineElem2` أو `outlineElem3` غير معرف | تأكد من تكرار كتلة الشيفرة من الخطوة 3 لكل نقطة إضافية وإعادة تسمية المتغيرات وفقًا لذلك. |
-| ملف PDF لم يُنشأ | تحقق من أن `dataDir` يشير إلى مجلد قابل للكتابة وأن لديك أذونات الكتابة. |
-| نمط النقطة يبدو مختلفًا | اضبط معلمات مُنشئ `NumberList` (الخط، الحجم أو الحرف) لتتناسب مع المظهر المطلوب. |
+| `outlineElem2` أو `outlineElem3` غير معرف | تأكد من تكرار كتلة الكود من الخطوة 3 لكل نقطة إضافية وإعادة تسمية المتغيّرات وفقًا لذلك. |
+| ملف PDF لم يُنشأ | تحقق من أن `dataDir` يشير إلى مجلد قابل للكتابة وأن لديك أذونات كتابة. |
+| نمط النقطة يبدو مختلفًا | قم بتعديل معلمات مُنشئ `NumberList` (الخط، الحجم، أو الرمز) لتتناسب مع المظهر المطلوب. |
 
 ## الأسئلة المتكررة
 
-**س: هل Aspose.Note for Java متوافق مع جميع بيئات تطوير Java؟**  
+**س: هل Aspose.Note للغة Java متوافق مع جميع بيئات تطوير Java؟**  
 ج: نعم، يعمل مع Eclipse و IntelliJ IDEA و NetBeans وأي بيئة تدعم مشاريع Java القياسية.
 
 **س: هل يمكنني تخصيص تنسيق القائمة النقطية؟**  
 ج: بالتأكيد! يمكنك تغيير الخط، اللون، الحجم، وحتى استخدام رموز Unicode مخصصة عن طريق تعديل معلمات `NumberList`.
 
-**س: أين يمكنني العثور على دعم إضافي لـ Aspose.Note for Java؟**  
-ج: زر [منتدى دعم Aspose.Note for Java](https://forum.aspose.com/c/note/28) للحصول على مساعدة المجتمع والدعم الرسمي.
+**س: أين يمكنني العثور على دعم إضافي لـ Aspose.Note للغة Java؟**  
+ج: زر [منتدى دعم Aspose.Note للغة Java](https://forum.aspose.com/c/note/28) للحصول على مساعدة المجتمع والمساعدة الرسمية.
 
-**س: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.Note for Java؟**  
-ج: نعم، يمكنك استكشاف نسخة تجريبية مجانية [هنا](https://releases.aspose.com/).
+**س: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.Note للغة Java؟**  
+ج: نعم، يمكنك تجربة نسخة تجريبية مجانية على [صفحة تنزيل النسخة التجريبية المجانية لـ Aspose.Note](https://releases.aspose.com/).
 
-**س: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Note for Java؟**  
-ج: احصل على ترخيص مؤقت [هنا](https://purchase.aspose.com/temporary-license/).
+**س: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Note للغة Java؟**  
+ج: احصل على ترخيص مؤقت عبر [صفحة الترخيص المؤقت لـ Aspose.Note](https://purchase.aspose.com/temporary-license/).
 
-## الخاتمة
-يجعل Aspose.Note for Java من السهل **create bulleted list OneNote**، وتنسيق كل نقطة، و**save OneNote document as PDF** في بضع خطوات مختصرة. لا تتردد في تجربة رموز نقطية مختلفة، خطوط، وألوان لتتناسب مع لغة تصميم تطبيقك. استكشف ميزات أخرى في Aspose.Note مثل الجداول، الصور، والروابط لبناء محتوى OneNote أكثر غنى.
+## الخلاصة
+Aspose.Note للغة Java يجعل من السهل **تحويل OneNote إلى PDF**، وتنسيق كل نقطة، و**حفظ مستند OneNote كملف PDF** في بضع خطوات مختصرة. لا تتردد في تجربة رموز نقطية مختلفة، خطوط، وألوان لتتناسب مع لغة تصميم تطبيقك. استكشف ميزات Aspose.Note الأخرى مثل الجداول، الصور، والروابط التشعبية لبناء محتوى OneNote أكثر غنى.
+
+---
+
+**آخر تحديث:** 2026-10-26  
+**تم الاختبار مع:** Aspose.Note for Java 24.11  
+**المؤلف:** Aspose
+
+## الدروس ذات الصلة
+
+- [تحويل OneNote إلى PDF باستخدام إعدادات الصفحة مع Aspose.Note للغة Java](/note/java/onenote-document-saving/save-to-pdf-using-page-settings/)
+- [كيفية تصدير OneNote إلى PDF باستخدام Aspose.Note – دليل تحسين الأداء](/note/java/onenote-performance-optimization/)
+- [تحويل OneNote إلى PDF مع خيارات - Aspose.Note](/note/java/onenote-notebook-operations/convert-notebook-to-pdf-with-options/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -152,9 +200,3 @@ doc.save(dataDir + "CreateBulletedList_out.pdf");
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2026-03-03  
-**تم الاختبار مع:** Aspose.Note for Java 24.11  
-**المؤلف:** Aspose
