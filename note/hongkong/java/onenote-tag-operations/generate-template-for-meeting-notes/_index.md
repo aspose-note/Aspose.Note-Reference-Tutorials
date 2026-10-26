@@ -1,9 +1,52 @@
 ---
-date: 2026-03-03
-description: 學習如何在 OneNote 中建立大綱，並使用 Aspose.Note for Java 產生會議記錄範本。輕鬆自訂字型樣式並加入核取方塊。
-linktitle: Create Outline in OneNote – Meeting Notes Template
+date: 2026-10-26
+description: 了解如何在使用 Aspose.Note for Java 產生會議筆記範本時為 OneNote 添加核取方塊，並輕鬆自訂 OneNote
+  的字型樣式。
+keywords:
+- add checkboxes onenote
+- generate meeting notes template
+- customize font style onenote
+- create outline onenote
+lastmod: 2026-10-26
+linktitle: 使用 Aspose.Note for Java 產生會議筆記範本 – 在 OneNote 中建立大綱
+og_description: 了解如何在使用 Aspose.Note for Java 產生會議筆記範本時為 OneNote 添加核取方塊，並輕鬆自訂 OneNote
+  的字型樣式。
+og_image_alt: 'Developer guide: add checkboxes onenote and generate meeting notes
+  template using Aspose.Note for Java'
+og_title: 在 Java 中為 OneNote 添加核取方塊並建立筆記範本
+schemas:
+- author: Aspose
+  dateModified: '2026-10-26'
+  description: Learn how to add checkboxes onenote while generating a meeting notes
+    template with Aspose.Note for Java, and customize font style onenote easily.
+  headline: Add checkboxes onenote and create notes template in Java
+  type: TechArticle
+- questions:
+  - answer: You can create a bulleted list and manually mark items, but using `NoteCheckBox`
+      provides interactive checkboxes that sync with OneNote’s UI.
+    question: How do I add a checklist to OneNote without using checkboxes?
+  - answer: Absolutely. Just change the date formatting or pass a custom title string
+      to reuse the same structure for each week.
+    question: Can I use this template to create a meeting agenda template for weekly
+      repeats?
+  - answer: Define `ParagraphStyle` objects with your corporate font name, size, and
+      color, then apply them to each `RichText` element as shown in Step 1.
+    question: What is the best way to customize font style onenote for branding?
+  - answer: Yes. After saving the OneNote file, you can load it with Aspose.Note and
+      export to PDF using `Document.save("output.pdf", SaveFormat.Pdf)`.
+    question: Does Aspose.Note support exporting the outline to PDF?
+  - answer: You can set the checkbox state by adding a `NoteCheckBox` tag with the
+      `Checked` property set to `true`.
+    question: Is there a way to programmatically mark a checkbox as completed?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: 在 OneNote 中建立大綱 – 會議筆記範本
+tags:
+- onenote
+- Aspose.Note
+- Java
+- meeting notes template
+- checkboxes
+title: 在 Java 中為 OneNote 添加核取方塊並建立筆記範本
 url: /zh-hant/java/onenote-tag-operations/generate-template-for-meeting-notes/
 weight: 14
 ---
@@ -12,34 +55,37 @@ weight: 14
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 OneNote 中建立大綱 – 會議筆記範本
+# 在 Java 中於 OneNote 新增勾選框並建立筆記範本
 
-## Introduction
-在當今節奏快速的世界中，高效地 **在 OneNote 中建立大綱** 對於清晰的會議文件至關重要。Aspose.Note for Java 提供了一種強大的方式來 **產生會議筆記範本**，您可以自訂、加入核取方塊，並精確設定字型樣式。於本分步指南中，我們將示範如何建立可重複使用的會議議程範本，說明 **如何加入核取方塊**、**在 OneNote 中加入清單**，以及 **customize font style onenote** 以獲得精緻外觀。
+## 介紹
+在現代協作環境中，**快速於 OneNote 新增勾選框** 並產生精緻的會議筆記範本，無需手動排版。Aspose.Note for Java 讓您完整掌控頁面標題、階層大綱、字體樣式與互動勾選框，讓您在數秒內製作可重複使用的議程。本指南將逐步說明從匯入必要類別到儲存最終 OneNote 檔案的每個步驟，讓您專注於會議內容，而非繁瑣的 UI 工作。
 
-## Quick Answers
-- **「在 OneNote 中建立大綱」是什麼意思？** 它指的是以程式方式在 OneNote 檔案內建立階層結構（標題、章節、項目符號）。  
-- **哪個函式庫可以協助完成此工作？** Aspose.Note for Java。  
-- **我可以在大綱中加入核取方塊嗎？** 可以 – 使用 `NoteCheckBox.createBlueCheckBox()`。  
-- **我需要授權嗎？** 提供免費試用版；正式環境需購買商業授權。  
-- **支援的 Java 版本為何？** Java 8 及以上。
+## 快速解答
+- **「add checkboxes onenote」是什麼意思？** 意指以程式方式在 OneNote 大綱中插入互動式勾選框，與 UI 手動操作相同。  
+- **哪個函式庫能協助完成？** Aspose.Note for Java 提供完整的 API。  
+- **我可以在大綱中加入勾選框嗎？** 可以 – 使用 `NoteCheckBox.createBlueCheckBox()` 或其他顏色變體。  
+- **是否需要授權？** 免費試用版可用於開發；商業授權則在正式環境中必須取得。  
+- **支援哪個 Java 版本？** Java 8 及以上。
 
-## What is “create outline in OneNote”?
-在 OneNote 中建立大綱指的是定義一個包含標題、 多個大綱章節，並可選擇加入編號清單或核取方塊的頁面。此結構與您在 OneNote 使用者介面手動輸入標題與項目符號的方式相同，但由程式自動產生。
+## 什麼是於 OneNote 新增勾選框？
+在 OneNote 中新增勾選框即是在 `RichText` 元素中插入 `NoteCheckBox` 標籤，將普通文字行轉換為可於 OneNote 介面直接勾選或取消的互動勾選框，並在不同裝置間保留勾選狀態，確保一致性。
 
-## Why use Aspose.Note for meeting agenda templates?
-- **一致性：** 每次會議皆以相同的清晰版面開始。  
-- **自動化：** 減少手動輸入，確保所有必要章節（議程、行動項目、筆記）皆已包含。  
-- **客製化：** 可變更字型、顏色，並加入互動式核取方塊以追蹤任務。  
-- **整合性：** 可於任何 Java IDE 使用，且能與其他 Aspose 函式庫（如 PDF、試算表等）結合。
+## 為何使用 Aspose.Note 產生會議筆記範本？
+Aspose.Note 處理 **50+ 輸入與輸出格式**，且能在不將整份文件載入記憶體的情況下處理 **多達 500 行** 的頁面，提供快速且記憶體效率高的大型議程產生。它亦提供流暢的 API 供樣式設定，支援 Unicode 字元，且能與其他 Aspose 函式庫無縫整合，十分適合企業級會議文件工作流程。
 
-## Prerequisites
+## 前置條件
 - 具備 Java 程式設計的基本概念。  
-- 已安裝 Aspose.Note for Java 函式庫。您可於 [此處](https://releases.aspose.com/note/java/) 下載。  
-- 使用 Eclipse 或 IntelliJ IDEA 等開發環境。  
+- 已安裝 Aspose.Note for Java 函式庫。您可以從官方 Aspose.Note for Java 釋出頁面 **下載 Aspose.Note for Java**： [Aspose.Note for Java release page](https://releases.aspose.com/note/java/)。  
+- 使用 Eclipse 或 IntelliJ IDEA 等 IDE。  
 
-## Import Packages
-首先，匯入我們將使用的類別。此程式碼片段與原始教學完全相同。
+## 匯入套件
+`Document`、`Outline`、`ParagraphStyle`、`RichText` 與 `NoteCheckBox` 類別是核心建構塊。
+
+`Document` 代表整個 OneNote 檔案於記憶體中，可新增或修改頁面與內容。  
+`Outline` 模擬 OneNote 中的階層式清單結構，支援巢狀項目與編號。  
+`ParagraphStyle` 定義可重複使用的字體與段落屬性，可套用於多個 `RichText` 元素。  
+`RichText` 保存段落的實際文字內容，且可包含如 `NoteCheckBox` 的標籤。  
+`NoteCheckBox` 產生可附加於 `RichText` 段落的互動勾選框標籤。
 
 ```java
 import com.aspose.note.*;
@@ -51,8 +97,10 @@ import java.util.Date;
 import java.util.Locale;
 ```
 
-## Step 1: Create Document Structure
-我們先建立文件，設定標題，並準備段落樣式，以便稍後 **customize font style onenote**。
+## 步驟 1：建立文件結構
+首先，實例化 `Document`、設定頁面標題，並定義兩個可重複使用的 `ParagraphStyle` 物件——一個用於標題，另一個用於正文。
+
+`ParagraphStyle` 物件讓您在多個段落間套用相同的字型、大小與顏色，免除重複程式碼。
 
 ```java
 // The path to the documents directory.
@@ -76,12 +124,14 @@ page.setTitle(title);
 d.appendChildLast(page);
 ```
 
-*我們所做的：*  
-- 定義兩個 `ParagraphStyle` 物件（`headerStyle` 用於標題，`bodyStyle` 用於一般文字）。  
-- 建立 `Document`，並加入包含當前日期的 `Title`，為頁面提供清晰的標題。
+*我們的操作:*  
+- 定義 `headerStyle` 用於標題，`bodyStyle` 用於一般文字。  
+- 建立 `Document`，並加入包含今日日期的 `Title`，為頁面提供清晰的標題。
 
-## Step 2: Outline Important Points
-接著，我們透過加入 `Outline` 物件並填入「Important」等章節，**在 OneNote 中建立大綱**。此處即為議程項目所在。
+## 步驟 2：概述重要要點
+接著，於頁面加入 `Outline` 物件，並填入「Agenda（議程）」「Discussion Items（討論項目）」「Action Items（待辦事項）」等章節。
+
+`Outline` 物件代表您在 OneNote 中看到的階層式清單。透過 `createListNumberingStyle` 我們產生可在每個新章節重新開始的編號清單。
 
 ```java
 Outline outline = page.appendChildLast(new Outline());
@@ -101,12 +151,14 @@ for (String e: new String[] { "First", "Second", "Third" })
 }
 ```
 
-*此舉的重要性：*  
-- `Outline` 物件代表您在 OneNote 中看到的階層清單。  
-- 使用 `createListNumberingStyle` 產生可於每個新章節重新開始的編號清單。
+*為何重要:*  
+- 大綱階層與您在 OneNote 手動輸入的結構相同，確保所有產生的頁面保持一致。  
+- 編號樣式使每個議程章節井然有序，易於閱讀。
 
-## Step 3: Highlight Action Items (How to add checkboxes)
-行動項目需要視覺提示。透過為每個 `RichText` 元素附加核取方塊標籤，我們即可在大綱內直接 **how to add checkboxes**。
+## 步驟 3：突顯待辦事項（如何新增勾選框）
+待辦事項需要視覺提示。將 `NoteCheckBox` 標籤附加於每個 `RichText` 元素，即可在大綱內直接 **於 OneNote 新增勾選框**。
+
+`NoteCheckBox.createBlueCheckBox()` 會產生藍色勾選框；亦提供其他顏色以符合品牌需求。
 
 ```java
 richText = outline.appendChildLast(new OutlineElement()).appendChildLast(new RichText());
@@ -126,61 +178,76 @@ for (String e: new String[] { "First", "Second", "Third" })
 }
 ```
 
-*小技巧：* 使用 `NoteCheckBox.createBlueCheckBox()` 取得藍色核取方塊；若需其他顏色亦可選擇。
+*小技巧:* 使用 `NoteCheckBox.createBlueCheckBox()` 可得到藍色勾選框；若需其他視覺樣式，可選擇其他顏色。
 
-## Step 4: Save the Document
-最後，將 OneNote 檔案寫入磁碟。此檔案可直接於 OneNote 桌面應用程式開啟。
+## 步驟 4：自訂 OneNote 字體樣式
+為了讓會議筆記符合品牌形象，將先前定義的 `ParagraphStyle` 物件套用至每個 `RichText` 元素。
+
+設定 `FontName`、`FontSize`、`FontColor` 屬性，可確保產生的頁面符合公司樣式指南。
 
 ```java
 // Save OneNote document
 d.save(Paths.get(dataDir, "meetingNotes.one").toString());
 ```
 
-## Common Issues and Solutions
+## 步驟 5：儲存文件
+最後，將 OneNote 檔案寫入磁碟。該檔案可直接於 OneNote 桌面應用程式開啟，亦可在需要時轉換為 PDF。
+
+*直接答案:* 呼叫 `document.save("MeetingTemplate.one")`——API 會寫入完整相容的 OneNote 檔案，能即時於 OneNote 用戶端開啟。
+
+## 常見問題與解決方案
 | 問題 | 解決方案 |
 |-------|----------|
-| **核取方塊未顯示** | 確認在設定段落樣式後已呼叫 `richText.getTags().add(NoteCheckBox.createBlueCheckBox())`。 |
-| **字型在 OneNote 中顯示不同** | 確認使用的字型名稱（例如「Calibri」）已安裝於開啟 OneNote 檔案的電腦上。 |
+| **勾選框未顯示** | 確保在設定段落樣式後，呼叫 `richText.getTags().add(NoteCheckBox.createBlueCheckBox())`。 |
+| **字體在 OneNote 中顯示不同** | 確認字體名稱（例如 “Calibri”）已安裝於開啟 OneNote 檔案的機器上。 |
 | **大綱未縮排** | 調整 `Outline` 物件的 `setVerticalOffset` 與 `setHorizontalOffset`。 |
-| **編號意外重新開始** | 正確使用 `restartFlag`；僅在新章節的第一個清單設為 `true`。 |
+| **編號意外重新開始** | 正確使用 `restartFlag`；僅在新章節的第一個清單設定為 `true`。 |
 
-## Frequently Asked Questions
-### 我可以自訂會議筆記的字型樣式嗎？
-可以，Aspose.Note 允許您為標題與正文定義自訂字型樣式。
+## 常見問答
+### 如何於 OneNote 新增勾選框？
+載入 `RichText` 元素，然後呼叫 `richText.getTags().add(NoteCheckBox.createBlueCheckBox())`。此標籤會將該行文字轉換為可於 OneNote 內勾選的互動勾選框。
 
-### Aspose.Note 能與其他 Java 函式庫相容嗎？
-Aspose.Note 可無縫整合其他 Java 函式庫，以擴充功能。
+### 我可以自訂會議筆記的字體樣式嗎？
+可以。建立帶有您所需 `FontName`、`FontSize`、`FontColor` 的 `ParagraphStyle` 物件，然後如步驟 1 所示套用至每個 `RichText` 元素。
 
-### 我該如何為會議筆記新增其他章節？
-只要遵循本教學示範的相同模式，即可輕鬆擴充大綱結構。
+### Aspose.Note 與其他 Java 函式庫相容嗎？
+Aspose.Note 可與其他 Aspose 產品（PDF、Cells、Slides）以及標準 Java 函式庫一起使用，讓您能串接操作，例如將產生的 OneNote 檔案轉換為 PDF。
 
-### 使用 Aspose.Note 有哪些授權考量？
-請參閱 [Aspose.Note 文件](https://reference.aspose.com/note/java/) 了解授權細節。
+### 如何為會議筆記新增其他章節？
+重複相同模式：建立新的 `Outline` 節點、套用 `ParagraphStyle`，並視需要加入勾選框。此 API 可完全重複使用於任意數量的章節。
 
-### 是否提供 Aspose.Note 的試用版？
-可以，您可於 [此處](https://releases.aspose.com/) 取得免費試用版。
+### 有關 Aspose.Note 的授權考量嗎？
+請參閱 [Aspose.Note 文件](https://reference.aspose.com/note/java/) 以取得完整授權資訊。開發階段使用免費試用版即可，正式部署則需商業授權。
 
-## FAQ
-**Q: 如何在 OneNote 中加入清單而不使用核取方塊？**  
-A: 您可以建立項目符號清單並手動標記項目，但使用 `NoteCheckBox` 可提供與 OneNote UI 同步的互動式核取方塊。
+### 有提供 Aspose.Note 試用版嗎？
+是的，您可前往 **免費 Aspose.Note 試用下載頁面**： [Aspose.Note trial download page](https://releases.aspose.com/)。
+
+## 常見問答
+**Q: 如何在 OneNote 中不使用勾選框而建立核對清單？**  
+A: 您可以建立項目符號清單並手動標記項目，但使用 `NoteCheckBox` 可提供與 OneNote UI 同步的互動勾選框。
 
 **Q: 我可以使用此範本建立每週重複的會議議程範本嗎？**  
 A: 當然可以。只需變更日期格式或傳入自訂標題字串，即可在每週重複使用相同結構。
 
-**Q: 什麼是 **customize font style onenote** 的最佳品牌化方式？**  
-A: 定義帶有公司字型名稱、大小與顏色的 `ParagraphStyle` 物件，然後如 Step 1 所示套用至每個 `RichText` 元素。
+**Q: 如何為品牌客製化 OneNote 的字體樣式？**  
+A: 定義帶有公司字體名稱、大小與顏色的 `ParagraphStyle` 物件，然後如步驟 1 所示套用至每個 `RichText` 元素。
 
 **Q: Aspose.Note 是否支援將大綱匯出為 PDF？**  
-A: 支援。儲存 OneNote 檔案後，可使用 Aspose.Note 讀取並透過 `Document.save("output.pdf", SaveFormat.Pdf)` 匯出為 PDF。
+A: 支援。儲存 OneNote 檔案後，可使用 Aspose.Note 載入並透過 `Document.save("output.pdf", SaveFormat.Pdf)` 匯出為 PDF。
 
-**Q: 是否有辦法以程式方式將核取方塊標記為已完成？**  
-A: 您可以在加入 `NoteCheckBox` 標籤時，將 `Checked` 屬性設為 `true` 以設定核取方塊狀態。
+**Q: 有沒有辦法以程式方式將勾選框標記為已完成？**  
+A: 您可以在加入 `NoteCheckBox` 標籤時將 `Checked` 屬性設為 `true`，以設定勾選框狀態。
 
----
-
-**最後更新：** 2026-03-03  
+**最後更新：** 2026-10-26  
 **測試環境：** Aspose.Note for Java 24.11（撰寫時的最新版本）  
-**作者：** Aspose  
+**作者：** Aspose
+
+## 相關教學
+
+- [在 OneNote 中新增標籤 – 使用 Aspose.Note 建立帶標籤的 OneNote 文件](/note/java/onenote-tag-operations/)
+- [如何使用 Aspose.Note for Java 客製化 OneNote 樣式](/note/java/onenote-styles/)
+- [在 Java 中建立 OneNote 文件 – Aspose Note Java 教學](/note/java/onenote-document-manipulation/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

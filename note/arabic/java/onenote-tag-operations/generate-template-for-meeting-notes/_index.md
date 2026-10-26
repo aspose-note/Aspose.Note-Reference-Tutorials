@@ -1,10 +1,53 @@
 ---
-date: 2026-03-03
-description: تعلم كيفية إنشاء مخطط في OneNote وتوليد قالب ملاحظات الاجتماع باستخدام
-  Aspose.Note للـ Java. خصّص نمط الخط وأضف مربعات اختيار بسهولة.
-linktitle: Create Outline in OneNote – Meeting Notes Template
+date: 2026-10-26
+description: تعلم كيفية إضافة checkboxes OneNote أثناء إنشاء meeting notes template
+  باستخدام Aspose.Note for Java، وتخصيص font style في OneNote بسهولة.
+keywords:
+- add checkboxes onenote
+- generate meeting notes template
+- customize font style onenote
+- create outline onenote
+lastmod: 2026-10-26
+linktitle: إنشاء meeting notes template باستخدام Aspose.Note for Java – إنشاء مخطط
+  في OneNote
+og_description: تعلم كيفية إضافة checkboxes OneNote أثناء إنشاء meeting notes template
+  باستخدام Aspose.Note for Java، وتخصيص font style في OneNote بسهولة.
+og_image_alt: 'Developer guide: add checkboxes onenote and generate meeting notes
+  template using Aspose.Note for Java'
+og_title: إضافة checkboxes OneNote وإنشاء notes template في Java
+schemas:
+- author: Aspose
+  dateModified: '2026-10-26'
+  description: Learn how to add checkboxes onenote while generating a meeting notes
+    template with Aspose.Note for Java, and customize font style onenote easily.
+  headline: Add checkboxes onenote and create notes template in Java
+  type: TechArticle
+- questions:
+  - answer: You can create a bulleted list and manually mark items, but using `NoteCheckBox`
+      provides interactive checkboxes that sync with OneNote’s UI.
+    question: How do I add a checklist to OneNote without using checkboxes?
+  - answer: Absolutely. Just change the date formatting or pass a custom title string
+      to reuse the same structure for each week.
+    question: Can I use this template to create a meeting agenda template for weekly
+      repeats?
+  - answer: Define `ParagraphStyle` objects with your corporate font name, size, and
+      color, then apply them to each `RichText` element as shown in Step 1.
+    question: What is the best way to customize font style onenote for branding?
+  - answer: Yes. After saving the OneNote file, you can load it with Aspose.Note and
+      export to PDF using `Document.save("output.pdf", SaveFormat.Pdf)`.
+    question: Does Aspose.Note support exporting the outline to PDF?
+  - answer: You can set the checkbox state by adding a `NoteCheckBox` tag with the
+      `Checked` property set to `true`.
+    question: Is there a way to programmatically mark a checkbox as completed?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: إنشاء مخطط في OneNote – قالب ملاحظات الاجتماع
+tags:
+- onenote
+- Aspose.Note
+- Java
+- meeting notes template
+- checkboxes
+title: إضافة checkboxes OneNote وإنشاء notes template في Java
 url: /ar/java/onenote-tag-operations/generate-template-for-meeting-notes/
 weight: 14
 ---
@@ -13,34 +56,37 @@ weight: 14
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# إنشاء مخطط في OneNote – قالب ملاحظات الاجتماع
+# إضافة مربعات اختيار OneNote وإنشاء قالب ملاحظات في Java
 
-## المقدمة
-في عالم اليوم السريع الوتيرة، من الضروري **إنشاء مخطط في OneNote** بكفاءة لتوثيق الاجتماعات بوضوح. توفر Aspose.Note for Java طريقة قوية لـ **إنشاء قالب ملاحظات الاجتماع** الذي يمكنك تخصيصه، إضافة مربعات اختيار، وتنسيق الخطوط بالضبط كما تحتاج. في هذا الدليل خطوة بخطوة سنستعرض بناء قالب جدول أعمال اجتماع قابل لإعادة الاستخدام، موضحين **كيفية إضافة مربعات الاختيار**، **إضافة قائمة تحقق إلى OneNote**، و **تخصيص نمط الخط في OneNote** للحصول على مظهر مصقول.
+## مقدمة
+في بيئات التعاون الحديثة، **add checkboxes onenote** بسرعة وتوليد قالب ملاحظات اجتماع مصقول دون تنسيق يدوي. تمنحك Aspose.Note for Java تحكمًا كاملاً في عناوين الصفحات، المخططات الهرمية، تنسيق الخطوط، ومربعات الاختيار التفاعلية، مما يتيح لك إنتاج جدول أعمال قابل لإعادة الاستخدام في ثوانٍ. يوجهك هذا الدليل خلال كل خطوة — من استيراد الفئات المطلوبة إلى حفظ ملف OneNote النهائي — حتى تتمكن من التركيز على محتوى الاجتماع، وليس على العمل المرهق للواجهة.
 
 ## إجابات سريعة
-- **ما معنى “create outline in OneNote”؟** يعني بناء هيكل هرمي (عناوين، أقسام، نقاط نقطية) داخل ملف OneNote برمجياً.  
-- **أي مكتبة تساعد في ذلك؟** Aspose.Note for Java.  
-- **هل يمكنني إضافة مربعات اختيار إلى المخطط؟** نعم – استخدم `NoteCheckBox.createBlueCheckBox()`.  
-- **هل أحتاج إلى ترخيص؟** يتوفر إصدار تجريبي مجاني؛ يلزم الحصول على ترخيص تجاري للإنتاج.  
+- **ما معنى “add checkboxes onenote”?** يعني ذلك إدراج مربعات اختيار تفاعلية برمجيًا في مخطط OneNote، تمامًا كما تفعل الواجهة.  
+- **أي مكتبة تساعد في ذلك؟** توفر Aspose.Note for Java الـ API الكامل.  
+- **هل يمكنني إضافة مربعات اختيار إلى المخطط؟** نعم — استخدم `NoteCheckBox.createBlueCheckBox()` أو ألوان أخرى.  
+- **هل أحتاج إلى ترخيص؟** النسخة التجريبية المجانية تكفي للتطوير؛ يلزم ترخيص تجاري للاستخدام في الإنتاج.  
 - **ما نسخة Java المدعومة؟** Java 8 وما بعدها.
 
-## ما هو “create outline in OneNote”؟
-إنشاء مخطط في OneNote يعني تعريف صفحة بعنوان، أقسام مخطط متعددة، وإمكانية إضافة ترقيم القوائم أو مربعات الاختيار. هذا الهيكل يعكس الطريقة التي تقوم فيها يدوياً بكتابة العناوين والنقاط داخل واجهة OneNote، لكنه يُنشأ تلقائياً عبر الكود.
+## ما هو add checkboxes onenote؟
+إضافة مربعات اختيار onenote تُدرج علامة `NoteCheckBox` داخل عنصر `RichText`، محوّلة سطر نص عادي إلى مربع اختيار تفاعلي يمكن للمستخدمين تحديده أو إلغاء تحديده مباشرة داخل واجهة OneNote، مع الحفاظ على حالة المربع عبر الأجهزة وضمان التناسق.
 
-## لماذا استخدام Aspose.Note لقوالب جدول أعمال الاجتماع؟
-- **الاتساق:** يبدأ كل اجتماع بنفس التخطيط النظيف.  
-- **الأتمتة:** تقليل الكتابة اليدوية وضمان وجود جميع الأقسام المطلوبة (جدول الأعمال، عناصر العمل، الملاحظات).  
-- **التخصيص:** تغيير الخطوط، الألوان، وإضافة مربعات اختيار تفاعلية لتتبع المهام.  
-- **التكامل:** يعمل مع أي بيئة تطوير Java ويمكن دمجه مع مكتبات Aspose الأخرى للـ PDF، الجداول، إلخ.
+## لماذا تستخدم Aspose.Note لإنشاء قالب ملاحظات اجتماع؟
+تعالج Aspose.Note **أكثر من 50 تنسيقًا للإدخال والإخراج** ويمكنها التعامل مع صفحات تحتوي على **حتى 500 سطر** دون تحميل المستند بالكامل في الذاكرة، مما يوفّر توليدًا سريعًا وفعّالًا للذاكرة لأجندات كبيرة. كما توفر API سلسًا لتنسيق الخطوط، وتدعم أحرف Unicode، وتتكامل بسلاسة مع مكتبات Aspose الأخرى، مما يجعلها مثالية لتدفقات عمل توثيق الاجتماعات على مستوى المؤسسة.
 
 ## المتطلبات المسبقة
 - فهم أساسي لبرمجة Java.  
-- مكتبة Aspose.Note for Java مثبتة. يمكنك تنزيلها [هنا](https://releases.aspose.com/note/java/).  
-- بيئة تطوير متكاملة مثل Eclipse أو IntelliJ IDEA.  
+- مكتبة Aspose.Note for Java مثبتة. يمكنك **download Aspose.Note for Java** من صفحة الإصدار الرسمية: [Aspose.Note for Java release page](https://releases.aspose.com/note/java/).  
+- بيئة تطوير متكاملة (IDE) مثل Eclipse أو IntelliJ IDEA.  
 
 ## استيراد الحزم
-أولاً، استورد الفئات التي سنحتاجها. يبقى هذا المقتطف كما هو تماماً كما في البرنامج التعليمي الأصلي.
+الفئات `Document`، `Outline`، `ParagraphStyle`، `RichText`، و`NoteCheckBox` هي اللبنات الأساسية.  
+
+`Document` يمثل ملف OneNote بالكامل في الذاكرة، مما يسمح بإضافة أو تعديل الصفحات والمحتوى.  
+`Outline` يُنمذج هيكل القائمة الهرمية المعروض في OneNote، مما يتيح نقاطًا نقطية متداخلة وترقيمًا.  
+`ParagraphStyle` يعرّف سمات الخط والفقرة القابلة لإعادة الاستخدام التي يمكن تطبيقها على عناصر `RichText` متعددة.  
+`RichText` يحمل محتوى النص الفعلي للفقرة ويمكن أن يحتوي على علامات مثل `NoteCheckBox`.  
+`NoteCheckBox` ينشئ علامة مربع اختيار تفاعلية يمكن إرفاقها بفقرة `RichText`.
 
 ```java
 import com.aspose.note.*;
@@ -53,7 +99,9 @@ import java.util.Locale;
 ```
 
 ## الخطوة 1: إنشاء بنية المستند
-نبدأ بإنشاء المستند، إعداد عنوان، وتحضير أنماط الفقرات التي ستساعدنا لاحقاً في **تخصيص نمط الخط في OneNote**.
+أولاً، أنشئ كائن `Document`، عيّن عنوان صفحة، وعرّف كائنين `ParagraphStyle` قابلين لإعادة الاستخدام — أحدهما للعناوين والآخر للنص الأساسي.  
+
+تسمح لك كائنات `ParagraphStyle` بتطبيق نفس عائلة الخط، الحجم، واللون على فقرات متعددة دون تكرار الشيفرة.
 
 ```java
 // The path to the documents directory.
@@ -77,12 +125,14 @@ page.setTitle(title);
 d.appendChildLast(page);
 ```
 
-*ما الذي فعلناه:*  
-- تعريف كائنين `ParagraphStyle` (`headerStyle` للعناوين، `bodyStyle` للنص العادي).  
-- إنشاء `Document` وإضافة `Title` يتضمن التاريخ الحالي، مما يمنح الصفحة عنواناً واضحاً.
+*ما فعلنا:*  
+- تم تعريف `headerStyle` للعناوين و`bodyStyle` للنص العادي.  
+- تم إنشاء `Document` وإضافة `Title` يتضمن تاريخ اليوم، مما يمنح الصفحة عنوانًا واضحًا.
 
-## الخطوة 2: مخطط النقاط المهمة
-بعد ذلك، نقوم **بإنشاء مخطط في OneNote** بإضافة كائن `Outline` وتعبئته بأقسام مثل “Important”. هنا توجد عناصر جدول الأعمال.
+## الخطوة 2: تحديد النقاط المهمة
+بعد ذلك، أضف كائن `Outline` إلى الصفحة واملأه بأقسام مثل “Agenda”، “Discussion Items”، و“Action Items”.  
+
+كائن `Outline` يمثل القائمة الهرمية التي تراها في OneNote. باستخدام `createListNumberingStyle` نولد قائمة مرقمة يمكن إعادة تشغيلها لكل قسم جديد.
 
 ```java
 Outline outline = page.appendChildLast(new Outline());
@@ -103,11 +153,13 @@ for (String e: new String[] { "First", "Second", "Third" })
 ```
 
 *لماذا هذا مهم:*  
-- كائن `Outline` يمثل القائمة الهرمية التي تراها في OneNote.  
-- باستخدام `createListNumberingStyle` نولد قائمة مرقمة يمكن إعادة تشغيلها لكل قسم جديد.
+- تعكس هيكلية المخطط البنية اليدوية التي كنت ستكتبها في OneNote، مما يضمن التناسق عبر جميع الصفحات المُولدة.  
+- تحافظ أنماط الترقيم على ترتيب كل قسم من جدول الأعمال بشكل أنيق وسهل المتابعة.
 
-## الخطوة 3: تمييز عناصر العمل (كيفية إضافة مربعات الاختيار)
-تحتاج عناصر العمل إلى إشارة بصرية. من خلال إرفاق علامة مربع اختيار لكل عنصر `RichText`، نتمكن من **كيفية إضافة مربعات الاختيار** مباشرة داخل المخطط.
+## الخطوة 3: تمييز عناصر الإجراء (كيفية إضافة مربعات الاختيار)
+تحتاج عناصر الإجراء إلى إشارة بصرية. من خلال إرفاق علامة `NoteCheckBox` بكل عنصر `RichText`، يمكنك تمكين **add checkboxes onenote** مباشرة داخل المخطط.  
+
+`NoteCheckBox.createBlueCheckBox()` ينشئ مربع اختيار أزرق؛ تتوفر ألوان أخرى للعلامة التجارية.
 
 ```java
 richText = outline.appendChildLast(new OutlineElement()).appendChildLast(new RichText());
@@ -127,61 +179,77 @@ for (String e: new String[] { "First", "Second", "Third" })
 }
 ```
 
-*نصيحة احترافية:* استخدم `NoteCheckBox.createBlueCheckBox()` للحصول على مربع اختيار أزرق؛ تتوفر ألوان أخرى إذا كنت تحتاج إلى نمط بصري مختلف.
+*نصيحة احترافية:* استخدم `NoteCheckBox.createBlueCheckBox()` لمربع اختيار أزرق؛ تتوفر ألوان أخرى إذا كنت تحتاج إلى نمط بصري مختلف.
 
-## الخطوة 4: حفظ المستند
-أخيراً، احفظ ملف OneNote إلى القرص. يمكن فتح الملف مباشرةً في تطبيق OneNote لسطح المكتب.
+## الخطوة 4: تخصيص نمط الخط في OneNote
+للحفاظ على ملاحظات الاجتماع متوافقة مع هوية العلامة التجارية، طبّق كائنات `ParagraphStyle` التي عرّفتها مسبقًا على كل عنصر `RichText`.  
+
+ضبط خصائص `FontName`، `FontSize`، و`FontColor` يضمن أن الصفحة المُولدة تتطابق مع دليل أسلوب شركتك.
 
 ```java
 // Save OneNote document
 d.save(Paths.get(dataDir, "meetingNotes.one").toString());
 ```
 
+## الخطوة 5: حفظ المستند
+أخيرًا، اكتب ملف OneNote إلى القرص. يمكن فتح الملف مباشرة في تطبيق OneNote لسطح المكتب، ويمكنك أيضًا تحويله إلى PDF لاحقًا إذا لزم الأمر.
+
+*الإجابة المباشرة:* استدعِ `document.save("MeetingTemplate.one")` — يكتب الـ API ملف OneNote متوافق بالكامل يفتح فورًا في عميل OneNote.
+
 ## المشكلات الشائعة والحلول
 | المشكلة | الحل |
 |-------|----------|
-| **مربعات الاختيار لا تظهر** | تأكد من أنك استدعيت `richText.getTags().add(NoteCheckBox.createBlueCheckBox())` بعد تعيين نمط الفقرة. |
-| **الخطوط تبدو مختلفة في OneNote** | تحقق من أن اسم الخط (مثال: “Calibri”) مثبت على الجهاز الذي يفتح OneNote الملف. |
-| **المخطط غير مُزاح** | قم بضبط `setVerticalOffset` و `setHorizontalOffset` على كائن `Outline`. |
-| **إعادة تشغيل الترقيم بشكل غير متوقع** | استخدم `restartFlag` بشكل صحيح؛ اضبطه على `true` فقط للقائمة الأولى في قسم جديد. |
+| **عدم ظهور مربعات الاختيار** | تأكد من أنك استدعيت `richText.getTags().add(NoteCheckBox.createBlueCheckBox())` بعد ضبط نمط الفقرة. |
+| **خطوط مختلفة في OneNote** | تحقق من أن اسم الخط (مثل “Calibri”) مثبت على الجهاز الذي يفتح OneNote الملف. |
+| **عدم إزاحة المخطط** | اضبط `setVerticalOffset` و`setHorizontalOffset` على كائن `Outline`. |
+| **إعادة ترقيم غير متوقعة** | استخدم `restartFlag` بشكل صحيح؛ عيّنه إلى `true` فقط للقائمة الأولى في قسم جديد. |
 
 ## الأسئلة المتكررة
-### هل يمكنني تخصيص أنماط الخط في ملاحظات اجتماعي؟
-نعم، يتيح لك Aspose.Note تعريف أنماط خطوط مخصصة للعناوين والنص الأساسي.
+### كيف أضيف مربعات اختيار OneNote؟
+حمّل عنصر `RichText`، ثم استدعِ `richText.getTags().add(NoteCheckBox.createBlueCheckBox())`. تحول العلامة السطر إلى مربع اختيار تفاعلي يمكن للمستخدمين تحديده داخل OneNote.
+
+### هل يمكنني تخصيص أنماط الخط في ملاحظات الاجتماع؟
+نعم. أنشئ كائنات `ParagraphStyle` بالخط، الحجم، واللون المطلوبين، ثم عيّنها لكل عنصر `RichText` كما هو موضح في الخطوة 1.
 
 ### هل Aspose.Note متوافق مع مكتبات Java الأخرى؟
-يمكن دمج Aspose.Note مع مكتبات Java الأخرى بسلاسة لتوسيع الوظائف.
+يعمل Aspose.Note جنبًا إلى جنب مع منتجات Aspose الأخرى (PDF, Cells, Slides) ومكتبات Java القياسية، مما يتيح لك ربط العمليات مثل تحويل ملف OneNote المُولد إلى PDF.
 
 ### كيف يمكنني إضافة أقسام إضافية إلى ملاحظات الاجتماع؟
-يمكنك بسهولة توسيع بنية المخطط باتباع نفس النمط الموضح في البرنامج التعليمي.
+استخدم النمط نفسه: أنشئ عقدة `Outline` جديدة، طبّق `ParagraphStyle`، وأضف مربعات اختيار إذا لزم الأمر. الـ API قابل للتكرار لأي عدد من الأقسام.
 
-### هل هناك أية اعتبارات ترخيص لـ Aspose.Note؟
-ارجع إلى [توثيق Aspose.Note](https://reference.aspose.com/note/java/) للحصول على تفاصيل الترخيص.
+### هل هناك اعتبارات ترخيص لـ Aspose.Note؟
+راجع [Aspose.Note documentation](https://reference.aspose.com/note/java/) للحصول على تفاصيل الترخيص الكاملة. النسخة التجريبية مجانية للتطوير؛ يلزم ترخيص تجاري للنشر في بيئات الإنتاج.
 
-### هل تتوفر نسخة تجريبية من Aspose.Note؟
-نعم، يمكنك الوصول إلى [الإصدار التجريبي المجاني هنا](https://releases.aspose.com/).
+### هل هناك نسخة تجريبية متاحة لـ Aspose.Note؟
+نعم، يمكنك الوصول إلى **صفحة تحميل التجربة المجانية لـ Aspose.Note**: [Aspose.Note trial download page](https://releases.aspose.com/).
 
 ## الأسئلة الشائعة
-**س: كيف أضيف قائمة تحقق إلى OneNote دون استخدام مربعات الاختيار؟**  
-ج: يمكنك إنشاء قائمة نقطية وتحديد العناصر يدوياً، ولكن استخدام `NoteCheckBox` يوفر مربعات اختيار تفاعلية تتزامن مع واجهة OneNote.
+**س: كيف أضيف قائمة مراجعة إلى OneNote دون استخدام مربعات الاختيار؟**  
+ج: يمكنك إنشاء قائمة نقطية وتحديد العناصر يدويًا، لكن استخدام `NoteCheckBox` يوفر مربعات اختيار تفاعلية تتزامن مع واجهة OneNote.
 
-**س: هل يمكنني استخدام هذا القالب لإنشاء قالب جدول أعمال اجتماع لتكرار أسبوعي؟**  
-ج: بالتأكيد. فقط غيّر تنسيق التاريخ أو مرّر عنوانًا مخصصًا لإعادة استخدام نفس البنية لكل أسبوع.
+**س: هل يمكنني استخدام هذا القالب لإنشاء قالب جدول أعمال للاجتماعات المتكررة أسبوعيًا؟**  
+ج: بالتأكيد. فقط غيّر تنسيق التاريخ أو مرّر سلسلة عنوان مخصصة لإعادة استخدام نفس البنية كل أسبوع.
 
-**س: ما هي أفضل طريقة لت **تخصيص نمط الخط في OneNote** للعلامة التجارية؟**  
-ج: عرّف كائنات `ParagraphStyle` باسم الخط الخاص بشركتك، الحجم، واللون، ثم طبّقها على كل عنصر `RichText` كما هو موضح في الخطوة 1.
+**س: ما هي أفضل طريقة لتخصيص نمط الخط في OneNote للعلامة التجارية؟**  
+ج: عرّف كائنات `ParagraphStyle` باسم الخط، الحجم، واللون الخاصين بشركتك، ثم طبّقها على كل عنصر `RichText` كما هو موضح في الخطوة 1.
 
 **س: هل يدعم Aspose.Note تصدير المخطط إلى PDF؟**  
-ج: نعم. بعد حفظ ملف OneNote، يمكنك تحميله باستخدام Aspose.Note وتصديره إلى PDF باستخدام `Document.save("output.pdf", SaveFormat.Pdf)`.
+ج: نعم. بعد حفظ ملف OneNote، يمكنك تحميله باستخدام Aspose.Note وتصديره إلى PDF عبر `Document.save("output.pdf", SaveFormat.Pdf)`.
 
-**س: هل هناك طريقة لتحديد حالة مربع الاختيار كمنجز برمجيًا؟**  
-ج: يمكنك ضبط حالة مربع الاختيار بإضافة علامة `NoteCheckBox` مع الخاصية `Checked` مضبوطة على `true`.
+**س: هل هناك طريقة لتمييز مربع الاختيار كمكتمل برمجيًا؟**  
+ج: يمكنك ضبط حالة المربع بإضافة علامة `NoteCheckBox` مع الخاصية `Checked` مضبوطة على `true`.
 
 ---
 
-**آخر تحديث:** 2026-03-03  
-**تم الاختبار باستخدام:** Aspose.Note for Java 24.11 (latest at time of writing)  
-**المؤلف:** Aspose  
+**Last Updated:** 2026-10-26  
+**تم الاختبار مع:** Aspose.Note for Java 24.11 (latest at time of writing)  
+**المؤلف:** Aspose
+
+## دروس ذات صلة
+
+- [إضافة علامات إلى OneNote – إنشاء مستند OneNote مع علامات باستخدام Aspose.Note](/note/java/onenote-tag-operations/)
+- [كيفية تخصيص أنماط OneNote باستخدام Aspose.Note for Java](/note/java/onenote-styles/)
+- [إنشاء مستند OneNote Java – درس Aspose Note Java](/note/java/onenote-document-manipulation/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

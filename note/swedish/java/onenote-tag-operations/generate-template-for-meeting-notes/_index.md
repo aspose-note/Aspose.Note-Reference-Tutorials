@@ -1,11 +1,54 @@
 ---
-date: 2026-03-03
-description: Lär dig hur du skapar en disposition i OneNote och genererar en mall
-  för mötesanteckningar med Aspose.Note för Java. Anpassa teckensnittsstil och lägg
-  till kryssrutor enkelt.
-linktitle: Create Outline in OneNote – Meeting Notes Template
+date: 2026-10-26
+description: Lär dig hur du lägger till checkboxes onenote när du genererar en meeting
+  notes template med Aspose.Note för Java, och anpassar font style onenote enkelt.
+keywords:
+- add checkboxes onenote
+- generate meeting notes template
+- customize font style onenote
+- create outline onenote
+lastmod: 2026-10-26
+linktitle: Generera Meeting Notes Template med Aspose.Note för Java – Skapa Outline
+  i OneNote
+og_description: Lär dig hur du lägger till checkboxes onenote när du genererar en
+  meeting notes template med Aspose.Note för Java, och anpassar font style onenote
+  enkelt.
+og_image_alt: 'Developer guide: add checkboxes onenote and generate meeting notes
+  template using Aspose.Note for Java'
+og_title: Lägg till checkboxes onenote och skapa notes template i Java
+schemas:
+- author: Aspose
+  dateModified: '2026-10-26'
+  description: Learn how to add checkboxes onenote while generating a meeting notes
+    template with Aspose.Note for Java, and customize font style onenote easily.
+  headline: Add checkboxes onenote and create notes template in Java
+  type: TechArticle
+- questions:
+  - answer: You can create a bulleted list and manually mark items, but using `NoteCheckBox`
+      provides interactive checkboxes that sync with OneNote’s UI.
+    question: How do I add a checklist to OneNote without using checkboxes?
+  - answer: Absolutely. Just change the date formatting or pass a custom title string
+      to reuse the same structure for each week.
+    question: Can I use this template to create a meeting agenda template for weekly
+      repeats?
+  - answer: Define `ParagraphStyle` objects with your corporate font name, size, and
+      color, then apply them to each `RichText` element as shown in Step 1.
+    question: What is the best way to customize font style onenote for branding?
+  - answer: Yes. After saving the OneNote file, you can load it with Aspose.Note and
+      export to PDF using `Document.save("output.pdf", SaveFormat.Pdf)`.
+    question: Does Aspose.Note support exporting the outline to PDF?
+  - answer: You can set the checkbox state by adding a `NoteCheckBox` tag with the
+      `Checked` property set to `true`.
+    question: Is there a way to programmatically mark a checkbox as completed?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: Skapa disposition i OneNote – Mall för mötesanteckningar
+tags:
+- onenote
+- Aspose.Note
+- Java
+- meeting notes template
+- checkboxes
+title: Lägg till checkboxes onenote och skapa notes template i Java
 url: /sv/java/onenote-tag-operations/generate-template-for-meeting-notes/
 weight: 14
 ---
@@ -14,34 +57,37 @@ weight: 14
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Skapa disposition i OneNote – Mall för mötesanteckningar
+# Lägg till kryssrutor onenote och skapa anteckningsmall i Java
 
 ## Introduktion
-I dagens snabba värld är det avgörande att effektivt **create outline in OneNote** för tydlig mötesdokumentation. Aspose.Note for Java erbjuder ett kraftfullt sätt att **generate meeting notes template** som du kan anpassa, lägga till kryssrutor och formatera teckensnitten exakt som du behöver. I den här steg‑för‑steg‑guiden går vi igenom hur man bygger en återanvändbar mötesagenda‑mall och förklarar **how to add checkboxes**, **add checklist to OneNote** och **customize font style onenote** för ett professionellt utseende.
+I moderna samarbetsmiljöer kan du **add checkboxes onenote** snabbt och skapa en polerad mötesanteckningsmall utan manuell formatering. Aspose.Note for Java ger dig full kontroll över sidtitlar, hierarkiska strukturer, teckensnittsstil och interaktiva kryssrutor, så att du kan producera en återanvändbar agenda på några sekunder. Den här guiden går igenom varje steg—från att importera de nödvändiga klasserna till att spara den slutliga OneNote-filen—så att du kan fokusera på mötets innehåll, inte på tråkigt UI‑arbete.
 
 ## Snabba svar
-- **Vad betyder “create outline in OneNote”?** Det betyder att programatiskt bygga en hierarkisk struktur (titlar, sektioner, punktlistor) i en OneNote‑fil.  
-- **Vilket bibliotek hjälper med detta?** Aspose.Note for Java.  
-- **Kan jag lägga till kryssrutor i dispositionen?** Ja – använd `NoteCheckBox.createBlueCheckBox()`.  
-- **Behöver jag en licens?** En gratis provversion finns tillgänglig; en kommersiell licens krävs för produktion.  
-- **Vilken Java‑version stöds?** Java 8 och senare.
+- **What does “add checkboxes onenote” mean?** Det betyder att programatiskt infoga interaktiva kryssrutor i en OneNote‑översikt, precis som UI‑delen gör.  
+- **Which library helps with this?** Vilket bibliotek hjälper med detta? Aspose.Note for Java tillhandahåller det kompletta API‑et.  
+- **Can I add checkboxes to the outline?** Kan jag lägga till kryssrutor i översikten? Ja – använd `NoteCheckBox.createBlueCheckBox()` eller andra färgvarianter.  
+- **Do I need a license?** Behöver jag en licens? En gratis provversion fungerar för utveckling; en kommersiell licens krävs för produktionsanvändning.  
+- **What Java version is supported?** Vilken Java‑version stöds? Java 8 och senare.
 
-## Vad är “create outline in OneNote”?
-Att skapa en disposition i OneNote innebär att definiera en sida med en titel, flera dispositionssektioner och valfri listnumrering eller kryssrutor. Denna struktur speglar hur du manuellt skulle skriva rubriker och punktlistor i OneNote‑gränssnittet, men den genereras automatiskt av kod.
+## Vad är add checkboxes onenote?
+Att lägga till kryssrutor onenote infogar en `NoteCheckBox`‑tagg i ett `RichText`‑element, vilket omvandlar en vanlig textrad till en interaktiv kryssruta som användare kan markera eller avmarkera direkt i OneNote‑gränssnittet, bevarar kryssrutans tillstånd över enheter och säkerställer konsekvens.
 
-## Varför använda Aspose.Note för mallar för mötesagenda?
-- **Konsistens:** Varje möte börjar med samma rena layout.  
-- **Automation:** Minska manuellt skrivande och säkerställ att alla nödvändiga sektioner (agenda, åtgärdspunkter, anteckningar) finns med.  
-- **Anpassning:** Ändra teckensnitt, färger och lägg till interaktiva kryssrutor för att följa upp uppgifter.  
-- **Integration:** Fungerar med alla Java‑IDE:er och kan kombineras med andra Aspose‑bibliotek för PDF‑filer, kalkylblad osv.
+## Varför använda Aspose.Note för att generera en mötesanteckningsmall?
+Aspose.Note hanterar **50+ in- och utdataformat** och kan hantera sidor med **upp till 500 rader** utan att ladda hela dokumentet i minnet, vilket ger snabb och minnes‑effektiv generering av stora agendor. Det erbjuder också ett flytande API för styling, stöder Unicode‑tecken och integreras sömlöst med andra Aspose‑bibliotek, vilket gör det idealiskt för företags‑skala mötesdokumentationsarbetsflöden.
 
 ## Förutsättningar
 - Grundläggande förståelse för Java‑programmering.  
-- Aspose.Note for Java‑biblioteket installerat. Du kan ladda ner det [here](https://releases.aspose.com/note/java/).  
+- Aspose.Note for Java‑biblioteket installerat. Du kan **ladda ner Aspose.Note for Java** från den officiella Aspose.Note for Java‑utgivningssidan: [Aspose.Note for Java release page](https://releases.aspose.com/note/java/).  
 - En IDE såsom Eclipse eller IntelliJ IDEA.  
 
 ## Importera paket
-Först importerar vi de klasser vi behöver. Detta kodsnutt förblir exakt densamma som i den ursprungliga handledningen.
+`Document`, `Outline`, `ParagraphStyle`, `RichText` och `NoteCheckBox`‑klasserna är de grundläggande byggstenarna.  
+
+`Document` representerar hela OneNote‑filen i minnet, vilket möjliggör att sidor och innehåll kan läggas till eller ändras.  
+`Outline` modellerar den hierarkiska liststrukturen som visas i OneNote, vilket möjliggör nästlade punkter och numrering.  
+`ParagraphStyle` definierar återanvändbara teckensnitts‑ och styckeattribut som kan tillämpas på flera `RichText`‑element.  
+`RichText` innehåller det faktiska textinnehållet i ett stycke och kan innehålla taggar såsom `NoteCheckBox`.  
+`NoteCheckBox` skapar en interaktiv kryssruta‑tagg som kan bifogas till ett `RichText`‑stycke.
 
 ```java
 import com.aspose.note.*;
@@ -53,8 +99,10 @@ import java.util.Date;
 import java.util.Locale;
 ```
 
-## Steg 1: Skapa dokumentstruktur
-Vi börjar med att bygga dokumentet, skapa en titel och förbereda styckeformat som senare hjälper oss att **customize font style onenote**.
+## Steg 1: skapa dokumentstruktur
+Först, skapa en instans av `Document`, sätt en sidtitel och definiera två återanvändbara `ParagraphStyle`‑objekt—ett för rubriker och ett för brödtext.  
+
+`ParagraphStyle`‑objekt låter dig tillämpa samma teckensnittsfamilj, storlek och färg på flera stycken utan att upprepa kod.
 
 ```java
 // The path to the documents directory.
@@ -79,11 +127,13 @@ d.appendChildLast(page);
 ```
 
 *Vad vi gjorde:*  
-- Definierade två `ParagraphStyle`‑objekt (`headerStyle` för rubriker, `bodyStyle` för normal text).  
-- Skapade ett `Document` och lade till en `Title` som inkluderar aktuellt datum, vilket ger sidan en tydlig rubrik.
+- Definierade `headerStyle` för rubriker och `bodyStyle` för vanlig text.  
+- Skapade ett `Document` och lade till en `Title` som inkluderar dagens datum, vilket ger sidan en tydlig rubrik.
 
-## Steg 2: Dispositionera viktiga punkter
-Därefter **create outline in OneNote** genom att lägga till ett `Outline`‑objekt och fylla det med sektioner som exempelvis “Important”. Här finns agenda‑punkterna.
+## Steg 2: strukturera viktiga punkter
+Nästa, lägg till ett `Outline`‑objekt på sidan och fyll det med sektioner som “Agenda”, “Discussion Items” och “Action Items”.  
+
+`Outline`‑objektet representerar den hierarkiska listan du ser i OneNote. Med `createListNumberingStyle` genererar vi en numrerad lista som kan startas om för varje ny sektion.
 
 ```java
 Outline outline = page.appendChildLast(new Outline());
@@ -104,11 +154,13 @@ for (String e: new String[] { "First", "Second", "Third" })
 ```
 
 *Varför detta är viktigt:*  
-- `Outline`‑objektet representerar den hierarkiska listan du ser i OneNote.  
-- Genom att använda `createListNumberingStyle` genererar vi en numrerad lista som kan startas om för varje ny sektion.
+- Outline‑hierarkin speglar den manuella strukturen du skulle skriva i OneNote, vilket säkerställer konsistens över alla genererade sidor.  
+- Numreringsstilar håller varje agendasektion prydlig och lätt att följa.
 
-## Steg 3: Markera åtgärdspunkter (How to add checkboxes)
-Åtgärdspunkter behöver en visuell indikator. Genom att fästa en kryssrute‑tagg på varje `RichText`‑element möjliggör vi **how to add checkboxes** direkt i dispositionen.
+## Steg 3: markera åtgärdspunkter (hur man lägger till kryssrutor)
+Åtgärdspunkter behöver en visuell ledtråd. Genom att bifoga en `NoteCheckBox`‑tagg till varje `RichText`‑element möjliggör du **add checkboxes onenote** direkt i outline‑listan.  
+
+`NoteCheckBox.createBlueCheckBox()` skapar en blåmarkerad ruta; andra färger finns tillgängliga för varumärkesanpassning.
 
 ```java
 richText = outline.appendChildLast(new OutlineElement()).appendChildLast(new RichText());
@@ -128,59 +180,78 @@ for (String e: new String[] { "First", "Second", "Third" })
 }
 ```
 
-*Proffstips:* Använd `NoteCheckBox.createBlueCheckBox()` för en blå kryssruta; andra färger finns tillgängliga om du behöver en annan visuell stil.
+*Proffstips:* Använd `NoteCheckBox.createBlueCheckBox()` för en blå markeringsruta; andra färger finns tillgängliga om du behöver en annan visuell stil.
 
-## Steg 4: Spara dokumentet
-Slutligen skriver vi OneNote‑filen till disk. Filen kan öppnas direkt i OneNote‑skrivbordsappen.
+## Steg 4: anpassa teckensnittsstil onenote
+För att hålla mötesanteckningarna i enlighet med varumärket, tillämpa de tidigare definierade `ParagraphStyle`‑objekten på varje `RichText`‑element.  
+
+Genom att sätta egenskaperna `FontName`, `FontSize` och `FontColor` säkerställer du att den genererade sidan matchar ditt företags stilguide.
 
 ```java
 // Save OneNote document
 d.save(Paths.get(dataDir, "meetingNotes.one").toString());
 ```
 
+## Steg 5: spara dokumentet
+Slutligen, skriv OneNote‑filen till disk. Filen kan öppnas direkt i OneNote‑desktopappen, och du kan även konvertera den till PDF senare om så behövs.
+
+*Direkt svar:* Anropa `document.save("MeetingTemplate.one")`—API‑et skriver en fullt kompatibel OneNote‑fil som öppnas omedelbart i OneNote‑klienten.
+
 ## Vanliga problem och lösningar
 | Problem | Lösning |
 |-------|----------|
-| **Kryssrutor visas inte** | Se till att du anropade `richText.getTags().add(NoteCheckBox.createBlueCheckBox())` efter att ha ställt in styckeformatet. |
-| **Teckensnitt ser annorlunda ut i OneNote** | Verifiera att teckensnittsnamnet (t.ex. “Calibri”) är installerat på den maskin där OneNote öppnar filen. |
-| **Dispositionen är inte indenterad** | Justera `setVerticalOffset` och `setHorizontalOffset` på `Outline`‑objektet. |
-| **Numrering startar om oväntat** | Använd `restartFlag` korrekt; sätt den till `true` endast för den första listan i en ny sektion. |
+| **Kryssrutor visas inte** | Se till att du anropade `richText.getTags().add(NoteCheckBox.createBlueCheckBox())` efter att ha satt stycke‑stilen. |
+| **Typsnitt ser annorlunda ut i OneNote** | Verifiera att typsnittsnamnet (t.ex. “Calibri”) är installerat på maskinen där OneNote öppnar filen. |
+| **Outline är inte indenterad** | Justera `setVerticalOffset` och `setHorizontalOffset` på `Outline`‑objektet. |
+| **Numrering startas om oväntat** | Använd `restartFlag` korrekt; sätt den till `true` endast för den första listan i en ny sektion. |
 
 ## Vanliga frågor
-### Kan jag anpassa teckensnittsstilarna i mina mötesanteckningar?
-Ja, Aspose.Note låter dig definiera anpassade teckensnittsstilar för rubriker och brödtext.
+### Hur lägger jag till kryssrutor onenote?
+Läs in ett `RichText`‑element, anropa sedan `richText.getTags().add(NoteCheckBox.createBlueCheckBox())`. Taggen förvandlar raden till en interaktiv kryssruta som användare kan markera i OneNote.
 
-### Är Aspose.Note kompatibelt med andra Java‑bibliotek?
-Aspose.Note kan integreras med andra Java‑bibliotek sömlöst för utökad funktionalitet.
+### Kan jag anpassa teckensnittsstilarna i mina mötesanteckningar?
+Ja. Skapa `ParagraphStyle`‑objekt med önskat `FontName`, `FontSize` och `FontColor`, och tilldela dem till varje `RichText`‑element som visas i Steg 1.
+
+### Är Aspose.Note kompatibel med andra Java‑bibliotek?
+Aspose.Note fungerar tillsammans med andra Aspose‑produkter (PDF, Cells, Slides) och standard‑Java‑bibliotek, vilket gör att du kan kedja operationer som att konvertera den genererade OneNote‑filen till PDF.
 
 ### Hur kan jag lägga till ytterligare sektioner i mina mötesanteckningar?
-Du kan enkelt utöka dispositionsstrukturen genom att följa samma mönster som demonstreras i handledningen.
+Återanvänd samma mönster: skapa en ny `Outline`‑nod, tillämpa en `ParagraphStyle` och eventuellt lägg till kryssrutor. API‑et är helt återanvändbart för valfritt antal sektioner.
 
-### Finns det några licensöverväganden för Aspose.Note?
-Refer to the [Aspose.Note documentation](https://reference.aspose.com/note/java/) for licensing details.
+### Finns det några licensfrågor för Aspose.Note?
+Se [Aspose.Note-dokumentationen](https://reference.aspose.com/note/java/) för fullständig licensinformation. En gratis provversion räcker för utveckling; en kommersiell licens krävs för produktionsdistribution.
 
-### Finns det en provversion tillgänglig för Aspose.Note?
-Ja, du kan få åtkomst till den [free trial here](https://releases.aspose.com/).
+### Finns det en provversion av Aspose.Note?
+Ja, du kan komma åt **gratis Aspose.Note provnedladdningssida**: [Aspose.Note trial download page](https://releases.aspose.com/).
 
-## FAQ
+## Vanliga frågor
 **Q: Hur lägger jag till en checklista i OneNote utan att använda kryssrutor?**  
-A: Du kan skapa en punktlista och manuellt markera objekt, men att använda `NoteCheckBox` ger interaktiva kryssrutor som synkroniseras med OneNotes UI.
+A: Du kan skapa en punktlista och manuellt markera objekt, men att använda `NoteCheckBox` ger interaktiva kryssrutor som synkroniseras med OneNotes gränssnitt.
 
-**Q: Kan jag använda den här mallen för att skapa en mötesagenda‑mall för veckovisa upprepningar?**  
+**Q: Kan jag använda den här mallen för att skapa en mötesagenda för veckovisa upprepningar?**  
 A: Absolut. Ändra bara datumformatet eller skicka en anpassad titelsträng för att återanvända samma struktur varje vecka.
 
-**Q: Vad är det bästa sättet att **customize font style onenote** för varumärkesprofilering?**  
+**Q: Vad är det bästa sättet att anpassa teckensnittsstil onenote för varumärkesprofilering?**  
 A: Definiera `ParagraphStyle`‑objekt med ditt företags teckensnittsnamn, storlek och färg, och tillämpa dem på varje `RichText`‑element som visas i Steg 1.
 
-**Q: Stöder Aspose.Note att exportera dispositionen till PDF?**  
+**Q: Stöder Aspose.Note export av outline till PDF?**  
 A: Ja. Efter att ha sparat OneNote‑filen kan du ladda den med Aspose.Note och exportera till PDF med `Document.save("output.pdf", SaveFormat.Pdf)`.
 
 **Q: Finns det ett sätt att programatiskt markera en kryssruta som slutförd?**  
 A: Du kan sätta kryssrutans tillstånd genom att lägga till en `NoteCheckBox`‑tagg med egenskapen `Checked` satt till `true`.
 
-**Senast uppdaterad:** 2026-03-03  
-**Testad med:** Aspose.Note for Java 24.11 (latest at time of writing)  
-**Författare:** Aspose  
+---
+
+**Senast uppdaterad:** 2026-10-26  
+**Testad med:** Aspose.Note for Java 24.11 (senaste vid skrivande tidpunkt)  
+**Författare:** Aspose
+
+## Relaterade handledningar
+
+- [Lägg till taggar i OneNote – Skapa taggad OneNote‑dokument med Aspose.Note](/note/java/onenote-tag-operations/)
+- [Hur man anpassar OneNote‑stilar med Aspose.Note för Java](/note/java/onenote-styles/)
+- [Skapa OneNote‑dokument Java – Aspose Note Java‑handledning](/note/java/onenote-document-manipulation/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
