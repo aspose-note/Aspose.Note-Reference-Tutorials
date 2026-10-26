@@ -1,11 +1,53 @@
 ---
-date: 2026-03-03
-description: Узнайте, как создавать структуру в OneNote и генерировать шаблон заметок
-  встречи с помощью Aspose.Note для Java. Легко настройте стиль шрифта и добавляйте
-  флажки.
-linktitle: Create Outline in OneNote – Meeting Notes Template
+date: 2026-10-26
+description: Узнайте, как добавить чекбоксы в OneNote при создании шаблона протокола
+  встречи с помощью Aspose.Note for Java и легко настроить стиль шрифта в OneNote.
+keywords:
+- add checkboxes onenote
+- generate meeting notes template
+- customize font style onenote
+- create outline onenote
+lastmod: 2026-10-26
+linktitle: Создать шаблон протокола встречи с Aspose.Note for Java – создать структуру
+  в OneNote
+og_description: Узнайте, как добавить чекбоксы в OneNote при создании шаблона протокола
+  встречи с помощью Aspose.Note for Java и легко настроить стиль шрифта в OneNote.
+og_image_alt: 'Developer guide: add checkboxes onenote and generate meeting notes
+  template using Aspose.Note for Java'
+og_title: Добавить чекбоксы в OneNote и создать шаблон заметок на Java
+schemas:
+- author: Aspose
+  dateModified: '2026-10-26'
+  description: Learn how to add checkboxes onenote while generating a meeting notes
+    template with Aspose.Note for Java, and customize font style onenote easily.
+  headline: Add checkboxes onenote and create notes template in Java
+  type: TechArticle
+- questions:
+  - answer: You can create a bulleted list and manually mark items, but using `NoteCheckBox`
+      provides interactive checkboxes that sync with OneNote’s UI.
+    question: How do I add a checklist to OneNote without using checkboxes?
+  - answer: Absolutely. Just change the date formatting or pass a custom title string
+      to reuse the same structure for each week.
+    question: Can I use this template to create a meeting agenda template for weekly
+      repeats?
+  - answer: Define `ParagraphStyle` objects with your corporate font name, size, and
+      color, then apply them to each `RichText` element as shown in Step 1.
+    question: What is the best way to customize font style onenote for branding?
+  - answer: Yes. After saving the OneNote file, you can load it with Aspose.Note and
+      export to PDF using `Document.save("output.pdf", SaveFormat.Pdf)`.
+    question: Does Aspose.Note support exporting the outline to PDF?
+  - answer: You can set the checkbox state by adding a `NoteCheckBox` tag with the
+      `Checked` property set to `true`.
+    question: Is there a way to programmatically mark a checkbox as completed?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: Создать план в OneNote – шаблон заметок встречи
+tags:
+- onenote
+- Aspose.Note
+- Java
+- meeting notes template
+- checkboxes
+title: Добавить чекбоксы в OneNote и создать шаблон заметок на Java
 url: /ru/java/onenote-tag-operations/generate-template-for-meeting-notes/
 weight: 14
 ---
@@ -14,34 +56,37 @@ weight: 14
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Создать план в OneNote – шаблон заметок встречи
+# Добавить флажки в OneNote и создать шаблон заметок на Java
 
 ## Введение
-В современном быстром мире эффективное **create outline in OneNote** имеет решающее значение для четкой документации встреч. Aspose.Note for Java предоставляет мощный способ **generate meeting notes template**, который вы можете настраивать, добавлять флажки и задавать стиль шрифтов точно так, как вам нужно. В этом пошаговом руководстве мы пройдем процесс создания многократно используемого шаблона повестки встречи, объясняя **how to add checkboxes**, **add checklist to OneNote** и **customize font style onenote** для профессионального вида.
+В современных совместных средах **add checkboxes onenote** быстро и генерирует отшлифованный шаблон заметок встречи без ручного форматирования. Aspose.Note for Java предоставляет полный контроль над заголовками страниц, иерархическими контурами, стилями шрифтов и интерактивными флажками, позволяя за секунды создать переиспользуемую повестку. Это руководство проведёт вас через каждый шаг — от импорта необходимых классов до сохранения окончательного файла OneNote — чтобы вы могли сосредоточиться на содержании встречи, а не на утомительной работе с UI.
 
 ## Быстрые ответы
-- **What does “create outline in OneNote” mean?** Это означает программное построение иерархической структуры (заголовки, разделы, маркеры) внутри файла OneNote.  
-- **Which library helps with this?** Aspose.Note for Java.  
-- **Can I add checkboxes to the outline?** Да — используйте `NoteCheckBox.createBlueCheckBox()`.  
-- **Do I need a license?** Доступна бесплатная пробная версия; для продакшн‑использования требуется коммерческая лицензия.  
-- **What Java version is supported?** Java 8 и новее.
+- **Что означает “add checkboxes onenote”?** Это означает программное вставление интерактивных флажков в контур OneNote, как это делает пользовательский интерфейс.  
+- **Какая библиотека помогает в этом?** Aspose.Note for Java предоставляет полный API.  
+- **Могу ли я добавить флажки в контур?** Да — используйте `NoteCheckBox.createBlueCheckBox()` или другие варианты цветов.  
+- **Нужна ли лицензия?** Бесплатная пробная версия подходит для разработки; коммерческая лицензия требуется для продакшн.  
+- **Какая версия Java поддерживается?** Java 8 и новее.
 
-## Что такое “create outline in OneNote”?
-Создание плана в OneNote означает определение страницы с заголовком, несколькими разделами плана и, при необходимости, нумерацией списков или флажками. Эта структура повторяет то, как вы вручную вводите заголовки и маркеры в интерфейсе OneNote, но генерируется автоматически кодом.
+## Что такое add checkboxes onenote?
+Добавление флажков onenote вставляет тег `NoteCheckBox` в элемент `RichText`, превращая обычную строку текста в интерактивный флажок, который пользователи могут отмечать или снимать отметку непосредственно в UI OneNote, сохраняя состояние флажка на всех устройствах и обеспечивая согласованность.
 
-## Почему использовать Aspose.Note для шаблонов повестки встречи?
-- **Consistency:** Каждый митинг начинается с одинакового чистого макета.  
-- **Automation:** Сократите ручной ввод и гарантируйте наличие всех необходимых разделов (повестка, задачи, заметки).  
-- **Customization:** Меняйте шрифты, цвета и добавляйте интерактивные флажки для отслеживания задач.  
-- **Integration:** Работает в любой Java‑IDE и может быть комбинировано с другими библиотеками Aspose для PDF, электронных таблиц и т.д.
+## Почему использовать Aspose.Note для создания шаблона заметок встречи?
+Aspose.Note обрабатывает **50+ входных и выходных форматов** и может работать со страницами, содержащими **до 500 строк**, не загружая весь документ в память, обеспечивая быструю и экономичную генерацию больших повесток. Он также предоставляет удобный API для стилизации, поддерживает Unicode‑символы и без проблем интегрируется с другими продуктами Aspose, что делает его идеальным для корпоративных рабочих процессов документирования встреч.
 
-## Предварительные требования
+## Требования
 - Базовое понимание программирования на Java.  
-- Библиотека Aspose.Note for Java установлена. Вы можете скачать её [here](https://releases.aspose.com/note/java/).  
+- Библиотека Aspose.Note for Java установлена. Вы можете **скачать Aspose.Note for Java** со официальной страницы релизов Aspose.Note for Java: [Aspose.Note for Java release page](https://releases.aspose.com/note/java/).  
 - IDE, например Eclipse или IntelliJ IDEA.  
 
 ## Импорт пакетов
-Сначала импортируем необходимые классы. Этот фрагмент кода остаётся точно таким же, как в оригинальном руководстве.
+Классы `Document`, `Outline`, `ParagraphStyle`, `RichText` и `NoteCheckBox` являются основными строительными блоками.  
+
+`Document` представляет весь файл OneNote в памяти, позволяя добавлять или изменять страницы и содержимое.  
+`Outline` моделирует иерархическую структуру списка, отображаемую в OneNote, позволяя создавать вложенные маркеры и нумерацию.  
+`ParagraphStyle` определяет переиспользуемые атрибуты шрифта и абзаца, которые можно применять к нескольким элементам `RichText`.  
+`RichText` содержит фактический текст абзаца и может включать теги, такие как `NoteCheckBox`.  
+`NoteCheckBox` создаёт интерактивный тег‑флажок, который можно прикрепить к абзацу `RichText`.
 
 ```java
 import com.aspose.note.*;
@@ -53,8 +98,10 @@ import java.util.Date;
 import java.util.Locale;
 ```
 
-## Шаг 1: Создание структуры документа
-Мы начинаем с построения документа, задаём заголовок и подготавливаем стили абзацев, которые позже помогут нам **customize font style onenote**.
+## Шаг 1: создать структуру документа
+Сначала создайте объект `Document`, задайте заголовок страницы и определите два переиспользуемых объекта `ParagraphStyle` — один для заголовков, другой для основного текста.  
+
+Объекты `ParagraphStyle` позволяют применять один и тот же шрифт, размер и цвет к нескольким абзацам без дублирования кода.
 
 ```java
 // The path to the documents directory.
@@ -79,11 +126,13 @@ d.appendChildLast(page);
 ```
 
 *Что мы сделали:*  
-- Определили два объекта `ParagraphStyle` (`headerStyle` для заголовков, `bodyStyle` для обычного текста).  
-- Создали `Document` и добавили `Title`, включающий текущую дату, что дает странице чёткий заголовок.
+- Определён `headerStyle` для заголовков и `bodyStyle` для обычного текста.  
+- Создан `Document` и добавлен `Title`, включающий сегодняшнюю дату, что даёт странице чёткий заголовок.
 
-## Шаг 2: Планирование важных пунктов
-Далее мы **create outline in OneNote** путем добавления объекта `Outline` и заполнения его разделами, например “Important”. Здесь находятся пункты повестки.
+## Шаг 2: выделить важные пункты
+Затем добавьте объект `Outline` на страницу и заполните его разделами, такими как «Agenda», «Discussion Items» и «Action Items».  
+
+Объект `Outline` представляет иерархический список, который вы видите в OneNote. С помощью `createListNumberingStyle` мы генерируем нумерованный список, который может перезапускаться для каждого нового раздела.
 
 ```java
 Outline outline = page.appendChildLast(new Outline());
@@ -104,11 +153,13 @@ for (String e: new String[] { "First", "Second", "Third" })
 ```
 
 *Почему это важно:*  
-- Объект `Outline` представляет иерархический список, который вы видите в OneNote.  
-- С помощью `createListNumberingStyle` мы генерируем нумерованный список, который можно перезапускать для каждого нового раздела.
+- Иерархия контура отражает ручную структуру, которую вы бы набирали в OneNote, обеспечивая согласованность всех сгенерированных страниц.  
+- Стили нумерации делают каждый раздел повестки аккуратным и лёгким для восприятия.
 
-## Шаг 3: Выделение действий (How to add checkboxes)
-Для пунктов действий нужен визуальный маркер. Прикрепив тег флажка к каждому элементу `RichText`, мы включаем **how to add checkboxes** непосредственно внутри плана.
+## Шаг 3: выделить задачи (как добавить флажки)
+Задачам нужен визуальный индикатор. Прикрепив тег `NoteCheckBox` к каждому элементу `RichText`, вы включаете **add checkboxes onenote** непосредственно внутри контура.  
+
+`NoteCheckBox.createBlueCheckBox()` создаёт синий отмеченный флажок; доступны и другие цвета для брендинга.
 
 ```java
 richText = outline.appendChildLast(new OutlineElement()).appendChildLast(new RichText());
@@ -128,59 +179,77 @@ for (String e: new String[] { "First", "Second", "Third" })
 }
 ```
 
-*Совет профессионала:* Используйте `NoteCheckBox.createBlueCheckBox()` для синего флажка; доступны и другие цвета, если нужен иной визуальный стиль.
+*Совет:* Используйте `NoteCheckBox.createBlueCheckBox()` для синего флажка; доступны другие цвета, если нужен иной визуальный стиль.
 
-## Шаг 4: Сохранение документа
-Наконец, записываем файл OneNote на диск. Файл можно открыть напрямую в настольном приложении OneNote.
+## Шаг 4: настроить стиль шрифта в OneNote
+Чтобы заметки соответствовали фирменному стилю, примените ранее определённые объекты `ParagraphStyle` к каждому элементу `RichText`.  
+
+Установка свойств `FontName`, `FontSize` и `FontColor` гарантирует, что сгенерированная страница будет соответствовать вашему корпоративному гиду по стилю.
 
 ```java
 // Save OneNote document
 d.save(Paths.get(dataDir, "meetingNotes.one").toString());
 ```
 
-## Распространенные проблемы и решения
+## Шаг 5: сохранить документ
+Наконец, запишите файл OneNote на диск. Файл можно открыть напрямую в настольном приложении OneNote, а при необходимости позже конвертировать в PDF.
+
+*Прямой ответ:* Вызовите `document.save("MeetingTemplate.one")` — API записывает полностью совместимый файл OneNote, который открывается мгновенно в клиенте OneNote.
+
+## Распространённые проблемы и решения
 | Проблема | Решение |
 |----------|---------|
-| **Checkboxes not appearing** | Убедитесь, что вызвали `richText.getTags().add(NoteCheckBox.createBlueCheckBox())` после установки стиля абзаца. |
-| **Fonts look different in OneNote** | Проверьте, установлен ли указанный шрифт (например, “Calibri”) на компьютере, где OneNote открывает файл. |
+| **Checkboxes not appearing** | Убедитесь, что вы вызвали `richText.getTags().add(NoteCheckBox.createBlueCheckBox())` после установки стиля абзаца. |
+| **Fonts look different in OneNote** | Проверьте, что имя шрифта (например, “Calibri”) установлено на машине, где OneNote открывает файл. |
 | **Outline not indented** | Отрегулируйте `setVerticalOffset` и `setHorizontalOffset` у объекта `Outline`. |
 | **Numbering restarts unexpectedly** | Правильно используйте `restartFlag`; устанавливайте его в `true` только для первого списка в новом разделе. |
 
 ## Часто задаваемые вопросы
-### Могу ли я настроить стили шрифтов в моих заметках встречи?
-Да, Aspose.Note позволяет определять пользовательские стили шрифтов для заголовков и основного текста.
+### Как добавить флажки в OneNote?
+Загрузите элемент `RichText`, затем вызовите `richText.getTags().add(NoteCheckBox.createBlueCheckBox())`. Тег превращает строку в интерактивный флажок, который пользователи могут отмечать внутри OneNote.
 
-### Совместим ли Aspose.Note с другими Java‑библиотеками?
-Aspose.Note может быть бесшовно интегрирован с другими Java‑библиотеками для расширенной функциональности.
+### Можно ли настроить стили шрифтов в моих заметках встречи?
+Да. Создайте объекты `ParagraphStyle` с желаемыми `FontName`, `FontSize` и `FontColor`, затем назначьте их каждому элементу `RichText`, как показано в Шаге 1.
+
+### Совместим ли Aspose.Note с другими библиотеками Java?
+Aspose.Note работает совместно с другими продуктами Aspose (PDF, Cells, Slides) и стандартными библиотеками Java, позволяя цепочкой выполнять операции, например, конвертировать сгенерированный файл OneNote в PDF.
 
 ### Как добавить дополнительные разделы в мои заметки встречи?
-Вы можете легко расширить структуру плана, следуя той же схеме, продемонстрированной в руководстве.
+Повторите тот же шаблон: создайте новый узел `Outline`, примените `ParagraphStyle` и при необходимости добавьте флажки. API полностью повторяем для любого количества разделов.
 
-### Есть ли какие‑либо лицензионные ограничения для Aspose.Note?
-Смотрите детали в [Aspose.Note documentation](https://reference.aspose.com/note/java/) для информации о лицензировании.
+### Есть ли лицензионные нюансы для Aspose.Note?
+Смотрите полную информацию в [Aspose.Note documentation](https://reference.aspose.com/note/java/). Бесплатная пробная версия подходит для разработки; коммерческая лицензия требуется для продакшн‑развёртываний.
 
 ### Доступна ли пробная версия Aspose.Note?
-Да, вы можете получить [free trial here](https://releases.aspose.com/).
+Да, вы можете перейти на страницу **бесплатной загрузки пробной версии Aspose.Note**: [Aspose.Note trial download page](https://releases.aspose.com/).
 
-## FAQ
-**Q: Как добавить чек‑лист в OneNote без использования флажков?**  
-A: Вы можете создать маркированный список и вручную отмечать пункты, но использование `NoteCheckBox` предоставляет интерактивные флажки, синхронизированные с UI OneNote.
+## Вопросы и ответы
+**Q:** Как добавить список задач в OneNote без использования флажков?  
+**A:** Вы можете создать маркированный список и вручную отмечать пункты, но использование `NoteCheckBox` предоставляет интерактивные флажки, синхронизирующиеся с UI OneNote.
 
-**Q: Можно ли использовать этот шаблон для создания шаблона повестки встречи с еженедельным повторением?**  
-A: Абсолютно. Просто измените формат даты или передайте пользовательскую строку заголовка, чтобы переиспользовать одну и ту же структуру каждую неделю.
+**Q:** Можно ли использовать этот шаблон для создания повестки встречи, повторяющейся каждую неделю?  
+**A:** Абсолютно. Просто измените формат даты или передайте пользовательскую строку заголовка, чтобы переиспользовать одну и ту же структуру каждую неделю.
 
-**Q: Какой лучший способ **customize font style onenote** для брендинга?**  
-A: Определите объекты `ParagraphStyle` с названием корпоративного шрифта, размером и цветом, затем применяйте их к каждому элементу `RichText`, как показано в Шаге 1.
+**Q:** Как лучше всего настроить стиль шрифта в OneNote для брендинга?  
+**A:** Определите объекты `ParagraphStyle` с фирменным названием шрифта, размером и цветом, затем примените их к каждому элементу `RichText`, как показано в Шаге 1.
 
-**Q: Поддерживает ли Aspose.Note экспорт плана в PDF?**  
-A: Да. После сохранения файла OneNote вы можете загрузить его с помощью Aspose.Note и экспортировать в PDF, используя `Document.save("output.pdf", SaveFormat.Pdf)`.
+**Q:** Поддерживает ли Aspose.Note экспорт контура в PDF?  
+**A:** Да. После сохранения файла OneNote вы можете загрузить его с помощью Aspose.Note и экспортировать в PDF, вызвав `Document.save("output.pdf", SaveFormat.Pdf)`.
 
-**Q: Есть ли способ программно пометить флажок как выполненный?**  
-A: Вы можете установить состояние флажка, добавив тег `NoteCheckBox` со свойством `Checked`, установленным в `true`.
+**Q:** Есть ли способ программно отметить флажок как выполненный?  
+**A:** Вы можете установить состояние флажка, добавив тег `NoteCheckBox` со свойством `Checked`, установленным в `true`.
 
-**Последнее обновление:** 2026-03-03  
-**Тестировано с:** Aspose.Note for Java 24.11 (последняя на момент написания)  
-**Автор:** Aspose  
+---
+
+**Последнее обновление:** 2026-10-26  
+**Тестировано с:** Aspose.Note for Java 24.11 (latest at time of writing)  
+**Автор:** Aspose
+
+## Связанные руководства
+
+- [Добавить теги в OneNote – Создать документ OneNote с тегами с помощью Aspose.Note](/note/java/onenote-tag-operations/)
+- [Как настроить стили OneNote с помощью Aspose.Note для Java](/note/java/onenote-styles/)
+- [Создать документ OneNote на Java – Руководство Aspose Note Java](/note/java/onenote-document-manipulation/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

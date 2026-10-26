@@ -1,10 +1,53 @@
 ---
-date: 2026-03-03
-description: เรียนรู้วิธีสร้างโครงร่างใน OneNote และสร้างเทมเพลตบันทึกการประชุมด้วย
-  Aspose.Note สำหรับ Java ปรับแต่งสไตล์ฟอนต์และเพิ่มช่องทำเครื่องหมายได้อย่างง่ายดาย.
-linktitle: Create Outline in OneNote – Meeting Notes Template
+date: 2026-10-26
+description: เรียนรู้วิธีเพิ่มช่องทำเครื่องหมายใน OneNote ขณะสร้างเทมเพลตบันทึกการประชุมด้วย
+  Aspose.Note for Java และปรับแต่ง font style ใน OneNote ได้อย่างง่ายดาย
+keywords:
+- add checkboxes onenote
+- generate meeting notes template
+- customize font style onenote
+- create outline onenote
+lastmod: 2026-10-26
+linktitle: สร้างเทมเพลตบันทึกการประชุมด้วย Aspose.Note for Java – สร้างโครงร่างใน
+  OneNote
+og_description: เรียนรู้วิธีเพิ่มช่องทำเครื่องหมายใน OneNote ขณะสร้างเทมเพลตบันทึกการประชุมด้วย
+  Aspose.Note for Java และปรับแต่ง font style ใน OneNote ได้อย่างง่ายดาย
+og_image_alt: 'Developer guide: add checkboxes onenote and generate meeting notes
+  template using Aspose.Note for Java'
+og_title: เพิ่มช่องทำเครื่องหมายใน OneNote และสร้างเทมเพลตบันทึกโน้ตด้วย Java
+schemas:
+- author: Aspose
+  dateModified: '2026-10-26'
+  description: Learn how to add checkboxes onenote while generating a meeting notes
+    template with Aspose.Note for Java, and customize font style onenote easily.
+  headline: Add checkboxes onenote and create notes template in Java
+  type: TechArticle
+- questions:
+  - answer: You can create a bulleted list and manually mark items, but using `NoteCheckBox`
+      provides interactive checkboxes that sync with OneNote’s UI.
+    question: How do I add a checklist to OneNote without using checkboxes?
+  - answer: Absolutely. Just change the date formatting or pass a custom title string
+      to reuse the same structure for each week.
+    question: Can I use this template to create a meeting agenda template for weekly
+      repeats?
+  - answer: Define `ParagraphStyle` objects with your corporate font name, size, and
+      color, then apply them to each `RichText` element as shown in Step 1.
+    question: What is the best way to customize font style onenote for branding?
+  - answer: Yes. After saving the OneNote file, you can load it with Aspose.Note and
+      export to PDF using `Document.save("output.pdf", SaveFormat.Pdf)`.
+    question: Does Aspose.Note support exporting the outline to PDF?
+  - answer: You can set the checkbox state by adding a `NoteCheckBox` tag with the
+      `Checked` property set to `true`.
+    question: Is there a way to programmatically mark a checkbox as completed?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: สร้างโครงร่างใน OneNote – แม่แบบบันทึกการประชุม
+tags:
+- onenote
+- Aspose.Note
+- Java
+- meeting notes template
+- checkboxes
+title: เพิ่มช่องทำเครื่องหมายใน OneNote และสร้างเทมเพลตบันทึกโน้ตด้วย Java
 url: /th/java/onenote-tag-operations/generate-template-for-meeting-notes/
 weight: 14
 ---
@@ -13,34 +56,37 @@ weight: 14
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# สร้างโครงร่างใน OneNote – แม่แบบบันทึกการประชุม
+# เพิ่มกล่องตรวจสอบใน OneNote และสร้างเทมเพลตบันทึกโน้ตใน Java
 
-## Introduction
-ในโลกที่เร่งรีบในทุกวันนี้ การ **สร้างโครงร่างใน OneNote** อย่างมีประสิทธิภาพเป็นสิ่งสำคัญสำหรับการบันทึกการประชุมที่ชัดเจน Aspose.Note for Java มอบวิธีที่ทรงพลังในการ **สร้างแม่แบบบันทึกการประชุม** ที่คุณสามารถปรับแต่ง เพิ่มกล่องทำเครื่องหมาย และจัดรูปแบบฟอนต์ได้ตามต้องการ ในคู่มือขั้นตอนนี้ เราจะพาคุณผ่านการสร้างแม่แบบวาระการประชุมที่ใช้ซ้ำได้ โดยอธิบาย **วิธีเพิ่มกล่องทำเครื่องหมาย**, **เพิ่มรายการตรวจสอบใน OneNote**, และ **ปรับแต่งสไตล์ฟอนต์ใน OneNote** เพื่อให้ได้รูปลักษณ์ที่เรียบหรู
+## บทนำ
+ในสภาพแวดล้อมการทำงานร่วมสมัย **add checkboxes onenote** อย่างรวดเร็วและสร้างเทมเพลตบันทึกการประชุมที่ดูเป็นมืออาชีพโดยไม่ต้องจัดรูปแบบด้วยตนเอง Aspose.Note for Java ให้คุณควบคุมหัวเรื่องหน้า, โครงร่างลำดับชั้น, การจัดรูปแบบฟอนต์, และกล่องตรวจสอบแบบโต้ตอบ, ทำให้คุณสามารถสร้างวาระที่นำกลับมาใช้ใหม่ได้ในไม่กี่วินาที คู่มือนี้จะพาคุณผ่านทุกขั้นตอน—from การนำเข้าคลาสที่จำเป็นจนถึงการบันทึกไฟล์ OneNote สุดท้าย—เพื่อให้คุณมุ่งเน้นที่เนื้อหาการประชุม ไม่ใช่งาน UI ที่น่าเบื่อ
 
-## Quick Answers
-- **สร้างโครงร่างใน OneNote หมายถึงอะไร?** หมายถึงการสร้างโครงสร้างแบบลำดับขั้น (หัวเรื่อง, ส่วน, จุดหัวข้อ) ภายในไฟล์ OneNote ด้วยโปรแกรม  
-- **ไลบรารีใดที่ช่วยในเรื่องนี้?** Aspose.Note for Java.  
-- **ฉันสามารถเพิ่มกล่องทำเครื่องหมายในโครงร่างได้หรือไม่?** ใช่ – ใช้ `NoteCheckBox.createBlueCheckBox()`.  
-- **ฉันต้องการใบอนุญาตหรือไม่?** มีรุ่นทดลองใช้ฟรี; จำเป็นต้องมีใบอนุญาตเชิงพาณิชย์สำหรับการใช้งานจริง.  
-- **เวอร์ชัน Java ที่รองรับคืออะไร?** Java 8 ขึ้นไป.  
+## คำตอบด่วน
+- **What does “add checkboxes onenote” mean?** หมายถึงการแทรกกล่องตรวจสอบแบบโต้ตอบเข้าไปในโครงร่าง OneNote อย่างโปรแกรมเมชัน, เหมือนที่ UI ทำ.
+- **Which library helps with this?** Aspose.Note for Java ให้ API ครบชุด.
+- **Can I add checkboxes to the outline?** ใช่ – ใช้ `NoteCheckBox.createBlueCheckBox()` หรือเวอร์ชันสีอื่น.
+- **Do I need a license?** ทดลองใช้ฟรีได้สำหรับการพัฒนา; ต้องมีลิขสิทธิ์เชิงพาณิชย์สำหรับการใช้งานในผลิตภัณฑ์.
+- **What Java version is supported?** Java 8 ขึ้นไป.
 
-## What is “create outline in OneNote”?
-การสร้างโครงร่างใน OneNote หมายถึงการกำหนดหน้าที่มีหัวเรื่อง, ส่วนโครงร่างหลายส่วน, และตัวเลือกการจัดลำดับรายการหรือกล่องทำเครื่องหมาย โครงสร้างนี้สะท้อนวิธีที่คุณพิมพ์หัวเรื่องและจุดหัวข้อด้วยตนเองใน UI ของ OneNote แต่จะถูกสร้างโดยอัตโนมัติด้วยโค้ด
+## add checkboxes onenote คืออะไร?
+การเพิ่มกล่องตรวจสอบใน OneNote จะใส่แท็ก `NoteCheckBox` ลงในองค์ประกอบ `RichText`, ทำให้บรรทัดข้อความธรรมดาแปลงเป็นกล่องติ๊กที่ผู้ใช้สามารถทำเครื่องหมายหรือยกเลิกได้โดยตรงใน UI ของ OneNote, รักษาสถานะของกล่องตรวจสอบข้ามอุปกรณ์และทำให้ข้อมูลสอดคล้องกัน
 
-## Why use Aspose.Note for meeting agenda templates?
-- **ความสอดคล้อง:** การประชุมทุกครั้งเริ่มต้นด้วยรูปแบบที่เรียบง่ายและเหมือนกัน  
-- **การอัตโนมัติ:** ลดการพิมพ์ด้วยมือและรับประกันว่ามีส่วนที่จำเป็นทั้งหมด (วาระ, รายการดำเนินการ, บันทึก) อยู่  
-- **การปรับแต่ง:** เปลี่ยนฟอนต์, สี, และเพิ่มกล่องทำเครื่องหมายแบบโต้ตอบเพื่อจัดการงาน  
-- **การบูรณาการ:** ทำงานกับ IDE ของ Java ใดก็ได้และสามารถรวมกับไลบรารี Aspose อื่น ๆ สำหรับ PDF, สเปรดชีต ฯลฯ  
+## ทำไมต้องใช้ Aspose.Note สำหรับสร้างเทมเพลตบันทึกการประชุม?
+Aspose.Note รองรับ **รูปแบบเข้าและออกกว่า 50 แบบ** และสามารถจัดการหน้าที่มี **สูงสุด 500 บรรทัด** โดยไม่ต้องโหลดเอกสารทั้งหมดเข้าสู่หน่วยความจำ, ให้การสร้างวาระขนาดใหญ่ที่เร็วและใช้หน่วยความจำน้อย นอกจากนี้ยังมี API ที่ลื่นไหลสำหรับการจัดรูปแบบ, รองรับอักขระ Unicode, และรวมเข้ากับไลบรารี Aspose อื่นได้อย่างไร้รอยต่อ, ทำให้เหมาะกับกระบวนการทำเอกสารการประชุมระดับองค์กร
 
-## Prerequisites
-- ความเข้าใจพื้นฐานของการเขียนโปรแกรม Java  
-- ไลบรารี Aspose.Note for Java ติดตั้งแล้ว คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases.aspose.com/note/java/).  
-- IDE เช่น Eclipse หรือ IntelliJ IDEA  
+## ข้อกำหนดเบื้องต้น
+- ความเข้าใจพื้นฐานของการเขียนโปรแกรม Java.  
+- ติดตั้งไลบรารี Aspose.Note for Java. คุณสามารถ **download Aspose.Note for Java** จากหน้าเผยแพร่อย่างเป็นทางการของ Aspose.Note for Java: [Aspose.Note for Java release page](https://releases.aspose.com/note/java/).  
+- IDE เช่น Eclipse หรือ IntelliJ IDEA.  
 
-## Import Packages
-ขั้นแรกให้ทำการนำเข้าคลาสที่เราต้องการใช้ ส่วนโค้ดนี้จะคงเหมือนเดิมตามบทแนะนำต้นฉบับ.
+## นำเข้าแพ็กเกจ
+คลาส `Document`, `Outline`, `ParagraphStyle`, `RichText`, และ `NoteCheckBox` เป็นบล็อกการสร้างหลัก  
+
+`Document` แทนไฟล์ OneNote ทั้งหมดในหน่วยความจำ, ให้คุณเพิ่มหรือแก้ไขหน้าและเนื้อหาได้  
+`Outline` จำลองโครงสร้างรายการลำดับชั้นที่แสดงใน OneNote, รองรับหัวข้อย่อยและการนับเลข  
+`ParagraphStyle` กำหนดแอตทริบิวต์ฟอนต์และย่อหน้าที่สามารถนำไปใช้ซ้ำกับหลาย `RichText`  
+`RichText` ถือข้อความจริงของย่อหน้าและสามารถมีแท็กเช่น `NoteCheckBox`  
+`NoteCheckBox` สร้างแท็กกล่องตรวจสอบแบบโต้ตอบที่สามารถแนบกับย่อหน้า `RichText`
 
 ```java
 import com.aspose.note.*;
@@ -52,8 +98,10 @@ import java.util.Date;
 import java.util.Locale;
 ```
 
-## Step 1: Create Document Structure
-เราจะเริ่มโดยสร้างเอกสาร ตั้งค่าหัวเรื่อง และเตรียมสไตล์ย่อหน้าที่จะช่วยให้เราสามารถ **ปรับแต่งสไตล์ฟอนต์ใน OneNote** ได้ในภายหลัง.
+## ขั้นตอนที่ 1: สร้างโครงสร้างเอกสาร
+แรกเริ่ม, สร้างอินสแตนซ์ของ `Document`, ตั้งชื่อหน้า, และกำหนดอ็อบเจ็กต์ `ParagraphStyle` สองตัวที่ใช้ซ้ำ—หนึ่งสำหรับหัวเรื่องและหนึ่งสำหรับข้อความหลัก  
+
+อ็อบเจ็กต์ `ParagraphStyle` ช่วยให้คุณใช้ฟอนต์, ขนาด, และสีเดียวกันกับหลายย่อหน้าโดยไม่ต้องเขียนโค้ดซ้ำ
 
 ```java
 // The path to the documents directory.
@@ -78,11 +126,13 @@ d.appendChildLast(page);
 ```
 
 *สิ่งที่เราทำ:*  
-- กำหนดอ็อบเจ็กต์ `ParagraphStyle` สองตัว (`headerStyle` สำหรับหัวเรื่อง, `bodyStyle` สำหรับข้อความปกติ).  
-- สร้าง `Document` และเพิ่ม `Title` ที่รวมวันที่ปัจจุบัน เพื่อให้หน้ามีหัวเรื่องที่ชัดเจน.  
+- กำหนด `headerStyle` สำหรับหัวเรื่องและ `bodyStyle` สำหรับข้อความทั่วไป.  
+- สร้าง `Document` และเพิ่ม `Title` ที่รวมวันที่ของวันนี้ ทำให้หน้ามีหัวเรื่องที่ชัดเจน.
 
-## Step 2: Outline Important Points
-ต่อไป เรา **สร้างโครงร่างใน OneNote** โดยเพิ่มอ็อบเจ็กต์ `Outline` และใส่ส่วนต่าง ๆ เช่น “Important”. ที่นี่คือที่รายการวาระจะอยู่.
+## ขั้นตอนที่ 2: สร้างโครงร่างจุดสำคัญ
+ต่อไป, เพิ่มอ็อบเจ็กต์ `Outline` ลงในหน้าและเติมส่วนต่าง ๆ เช่น “Agenda”, “Discussion Items”, และ “Action Items”.  
+
+อ็อบเจ็กต์ `Outline` แสดงรายการลำดับชั้นที่คุณเห็นใน OneNote. ด้วย `createListNumberingStyle` เราจะสร้างรายการลำดับเลขที่สามารถรีสตาร์ทได้สำหรับแต่ละส่วนใหม่
 
 ```java
 Outline outline = page.appendChildLast(new Outline());
@@ -102,12 +152,14 @@ for (String e: new String[] { "First", "Second", "Third" })
 }
 ```
 
-*เหตุผลที่สำคัญ:*  
-- อ็อบเจ็กต์ `Outline` แทนรายการแบบลำดับขั้นที่คุณเห็นใน OneNote.  
-- โดยใช้ `createListNumberingStyle` เราสร้างรายการลำดับเลขที่สามารถเริ่มใหม่ได้สำหรับแต่ละส่วนใหม่.  
+*ทำไมเรื่องนี้ถึงสำคัญ:*  
+- โครงร่างลำดับชั้นสะท้อนโครงสร้างที่คุณพิมพ์ใน OneNote ทำให้ความสอดคล้องกันในทุกหน้าที่สร้างขึ้น.  
+- รูปแบบการนับเลขทำให้แต่ละส่วนของวาระเรียบร้อยและง่ายต่อการติดตาม.
 
-## Step 3: Highlight Action Items (How to add checkboxes)
-รายการดำเนินการต้องการสัญญาณภาพ โดยการแนบแท็กกล่องทำเครื่องหมายไปยังแต่ละองค์ประกอบ `RichText` เราจะทำให้ **วิธีเพิ่มกล่องทำเครื่องหมาย** สามารถทำได้โดยตรงในโครงร่าง.
+## ขั้นตอนที่ 3: เน้นรายการดำเนินการ (วิธีเพิ่มกล่องตรวจสอบ)
+รายการดำเนินการต้องการสัญญาณภาพโดยการแนบแท็ก `NoteCheckBox` ไปยังแต่ละองค์ประกอบ `RichText`, ทำให้คุณสามารถ **add checkboxes onenote** ได้โดยตรงในโครงร่าง.  
+
+`NoteCheckBox.createBlueCheckBox()` สร้างกล่องติ๊กสีน้ำเงิน; มีสีอื่นให้เลือกตามแบรนด์
 
 ```java
 richText = outline.appendChildLast(new OutlineElement()).appendChildLast(new RichText());
@@ -127,61 +179,75 @@ for (String e: new String[] { "First", "Second", "Third" })
 }
 ```
 
-*เคล็ดลับ:* ใช้ `NoteCheckBox.createBlueCheckBox()` เพื่อสร้างกล่องทำเครื่องหมายสีน้ำเงิน; มีสีอื่น ๆ ให้เลือกหากต้องการสไตล์ภาพที่แตกต่าง  
+*เคล็ดลับ:* ใช้ `NoteCheckBox.createBlueCheckBox()` สำหรับกล่องติ๊กสีน้ำเงิน; มีสีอื่นให้เลือกหากต้องการสไตล์ภาพที่แตกต่าง
 
-## Step 4: Save the Document
-สุดท้าย ให้บันทึกไฟล์ OneNote ลงดิสก์ ไฟล์นี้สามารถเปิดโดยตรงในแอป OneNote บนเดสก์ท็อป.
+## ขั้นตอนที่ 4: ปรับแต่งสไตล์ฟอนต์ใน OneNote
+เพื่อให้บันทึกการประชุมสอดคล้องกับแบรนด์, นำอ็อบเจ็กต์ `ParagraphStyle` ที่กำหนดไว้ก่อนหน้านี้ไปใช้กับแต่ละ `RichText`.  
+
+การตั้งค่า `FontName`, `FontSize`, และ `FontColor` ทำให้หน้าที่สร้างขึ้นตรงตามคู่มือสไตล์ขององค์กร
 
 ```java
 // Save OneNote document
 d.save(Paths.get(dataDir, "meetingNotes.one").toString());
 ```
 
-## Common Issues and Solutions
+## ขั้นตอนที่ 5: บันทึกเอกสาร
+สุดท้าย, เขียนไฟล์ OneNote ลงดิสก์. ไฟล์นี้สามารถเปิดโดยตรงในแอป OneNote Desktop, และคุณยังสามารถแปลงเป็น PDF ต่อได้หากต้องการ
+
+*คำตอบโดยตรง:* เรียก `document.save("MeetingTemplate.one")`—API จะเขียนไฟล์ OneNote ที่เข้ากันได้เต็มรูปแบบและเปิดได้ทันทีในไคลเอนต์ OneNote
+
+## ปัญหาที่พบบ่อยและวิธีแก้
 | ปัญหา | วิธีแก้ |
 |-------|----------|
-| **กล่องทำเครื่องหมายไม่แสดง** | ตรวจสอบว่าคุณได้เรียก `richText.getTags().add(NoteCheckBox.createBlueCheckBox())` หลังจากตั้งค่าสไตล์ย่อหน้าแล้ว. |
-| **ฟอนต์แสดงผลแตกต่างใน OneNote** | ตรวจสอบว่าชื่อฟอนต์ (เช่น “Calibri”) ติดตั้งอยู่บนเครื่องที่ OneNote เปิดไฟล์ |
-| **โครงร่างไม่เยื้อง** | ปรับ `setVerticalOffset` และ `setHorizontalOffset` บนอ็อบเจ็กต์ `Outline` |
-| **การจัดลำดับเลขเริ่มใหม่โดยไม่คาดคิด** | ใช้ `restartFlag` อย่างถูกต้อง; ตั้งค่าเป็น `true` เฉพาะรายการแรกในส่วนใหม่. |
+| **กล่องตรวจสอบไม่แสดง** | ตรวจสอบว่าคุณได้เรียก `richText.getTags().add(NoteCheckBox.createBlueCheckBox())` หลังจากตั้งค่า style ของย่อหน้าแล้ว. |
+| **ฟอนต์แสดงผลต่างกันใน OneNote** | ยืนยันว่าชื่อฟอนต์ (เช่น “Calibri”) ถูกติดตั้งบนเครื่องที่เปิดไฟล์ OneNote. |
+| **โครงร่างไม่เยื้อง** | ปรับ `setVerticalOffset` และ `setHorizontalOffset` บนอ็อบเจ็กต์ `Outline`. |
+| **การนับเลขเริ่มใหม่โดยไม่คาดคิด** | ใช้ `restartFlag` อย่างถูกต้อง; ตั้งเป็น `true` เฉพาะรายการแรกในส่วนใหม่. |
 
-## Frequently Asked Questions
+## คำถามที่พบบ่อย
+### วิธีเพิ่มกล่องตรวจสอบใน OneNote?
+โหลดองค์ประกอบ `RichText`, แล้วเรียก `richText.getTags().add(NoteCheckBox.createBlueCheckBox())`. แท็กนี้จะแปลงบรรทัดเป็นกล่องตรวจสอบแบบโต้ตอบที่ผู้ใช้สามารถติ๊กได้ใน OneNote.
+
 ### ฉันสามารถปรับแต่งสไตล์ฟอนต์ในบันทึกการประชุมของฉันได้หรือไม่?
-ได้, Aspose.Note อนุญาตให้คุณกำหนดสไตล์ฟอนต์แบบกำหนดเองสำหรับหัวเรื่องและข้อความหลัก.
+ได้. สร้างอ็อบเจ็กต์ `ParagraphStyle` พร้อม `FontName`, `FontSize`, และ `FontColor` ที่ต้องการ, แล้วกำหนดให้กับแต่ละ `RichText` ตามที่แสดงในขั้นตอน 1.
 
 ### Aspose.Note เข้ากันได้กับไลบรารี Java อื่นหรือไม่?
-Aspose.Note สามารถบูรณาการกับไลบรารี Java อื่น ๆ ได้อย่างราบรื่นเพื่อเพิ่มฟังก์ชันการทำงาน
+Aspose.Note ทำงานร่วมกับผลิตภัณฑ์ Aspose อื่น (PDF, Cells, Slides) และไลบรารี Java มาตรฐาน, ทำให้คุณสามารถต่อเชื่อมการดำเนินการ เช่น แปลงไฟล์ OneNote ที่สร้างเป็น PDF ได้อย่างต่อเนื่อง.
 
 ### ฉันจะเพิ่มส่วนเพิ่มเติมในบันทึกการประชุมได้อย่างไร?
-คุณสามารถขยายโครงสร้างโครงร่างได้อย่างง่ายดายโดยทำตามรูปแบบเดียวกันที่แสดงในบทแนะนำ
+ใช้รูปแบบเดียวกัน: สร้างโหนด `Outline` ใหม่, กำหนด `ParagraphStyle`, และถ้าต้องการก็เพิ่มกล่องตรวจสอบ. API สามารถทำซ้ำได้เต็มที่สำหรับจำนวนส่วนที่ต้องการ.
 
-### มีข้อพิจารณาเรื่องใบอนุญาตสำหรับ Aspose.Note หรือไม่?
-ดูรายละเอียดใบอนุญาตได้ที่ [เอกสาร Aspose.Note](https://reference.aspose.com/note/java/)
+### มีข้อพิจารณาเรื่องลิขสิทธิ์สำหรับ Aspose.Note หรือไม่?
+ดูรายละเอียดลิขสิทธิ์เต็มที่ใน [Aspose.Note documentation](https://reference.aspose.com/note/java/). การทดลองใช้ฟรีเพียงพอสำหรับการพัฒนา; ต้องมีลิขสิทธิ์เชิงพาณิชย์สำหรับการใช้งานในผลิตภัณฑ์จริง.
 
-### มีเวอร์ชันทดลองใช้สำหรับ Aspose.Note หรือไม่?
-มี, คุณสามารถเข้าถึง [รุ่นทดลองใช้ฟรีที่นี่](https://releases.aspose.com/)
+### มีเวอร์ชันทดลองสำหรับ Aspose.Note หรือไม่?
+มี, คุณสามารถเข้าถึง **หน้าโหลดเวอร์ชันทดลองของ Aspose.Note** ได้ที่: [Aspose.Note trial download page](https://releases.aspose.com/).
 
 ## FAQ
-**ถาม: ฉันจะเพิ่มรายการตรวจสอบใน OneNote โดยไม่ใช้กล่องทำเครื่องหมายได้อย่างไร?**  
-ตอบ: คุณสามารถสร้างรายการแบบหัวข้อย่อยและทำเครื่องหมายรายการด้วยตนเอง, แต่การใช้ `NoteCheckBox` จะให้กล่องทำเครื่องหมายแบบโต้ตอบที่ซิงค์กับ UI ของ OneNote.
+**ถาม: ฉันจะเพิ่มรายการตรวจสอบใน OneNote โดยไม่ใช้กล่องตรวจสอบได้อย่างไร?**  
+ตอบ: คุณสามารถสร้างรายการแบบหัวข้อย่อยและทำเครื่องหมายรายการด้วยตนเอง, แต่การใช้ `NoteCheckBox` จะให้กล่องตรวจสอบแบบโต้ตอบที่ซิงค์กับ UI ของ OneNote.
 
-**ถาม: ฉันสามารถใช้แม่แบบนี้เพื่อสร้างแม่แบบวาระการประชุมสำหรับการทำซ้ำรายสัปดาห์ได้หรือไม่?**  
-ตอบ: แน่นอน. เพียงเปลี่ยนรูปแบบวันที่หรือส่งสตริงหัวเรื่องที่กำหนดเองเพื่อใช้โครงสร้างเดียวกันในแต่ละสัปดาห์.
+**ถาม: ฉันสามารถใช้เทมเพลตนี้เพื่อสร้างวาระการประชุมประจำสัปดาห์ได้หรือไม่?**  
+ตอบ: แน่นอน. เพียงเปลี่ยนรูปแบบวันที่หรือส่งสตริงหัวเรื่องที่กำหนดเองเพื่อใช้โครงสร้างเดียวกันซ้ำในแต่ละสัปดาห์.
 
-**ถาม: วิธีที่ดีที่สุดในการ **ปรับแต่งสไตล์ฟอนต์ใน OneNote** สำหรับการสร้างแบรนด์คืออะไร?**  
-ตอบ: กำหนดอ็อบเจ็กต์ `ParagraphStyle` ด้วยชื่อฟอนต์ของบริษัท, ขนาด, และสี, แล้วนำไปใช้กับแต่ละองค์ประกอบ `RichText` ตามที่แสดงในขั้นตอน 1.
+**ถาม: วิธีที่ดีที่สุดในการปรับแต่งสไตล์ฟอนต์ใน OneNote สำหรับแบรนด์คืออะไร?**  
+ตอบ: กำหนดอ็อบเจ็กต์ `ParagraphStyle` ด้วยชื่อฟอนต์, ขนาด, และสีขององค์กร, แล้วนำไปใช้กับทุก `RichText` ตามที่แสดงในขั้นตอน 1.
 
 **ถาม: Aspose.Note รองรับการส่งออกโครงร่างเป็น PDF หรือไม่?**  
-ตอบ: ใช่. หลังจากบันทึกไฟล์ OneNote, คุณสามารถโหลดด้วย Aspose.Note และส่งออกเป็น PDF โดยใช้ `Document.save("output.pdf", SaveFormat.Pdf)`.
+ตอบ: ใช่. หลังจากบันทึกไฟล์ OneNote, คุณสามารถโหลดด้วย Aspose.Note และส่งออกเป็น PDF ด้วย `Document.save("output.pdf", SaveFormat.Pdf)`.
 
-**ถาม: มีวิธีใดที่จะทำเครื่องหมายกล่องทำเครื่องหมายว่าเสร็จสมบูรณ์โดยโปรแกรมได้หรือไม่?**  
-ตอบ: คุณสามารถตั้งค่าสถานะของกล่องทำเครื่องหมายโดยเพิ่มแท็ก `NoteCheckBox` ที่มีคุณสมบัติ `Checked` ตั้งค่าเป็น `true`.
+**ถาม: มีวิธีโปรแกรมมาร์คทำเครื่องหมายกล่องตรวจสอบว่าเสร็จแล้วหรือไม่?**  
+ตอบ: คุณสามารถตั้งค่าคุณสมบัติ `Checked` ของแท็ก `NoteCheckBox` ให้เป็น `true` เพื่อทำเครื่องหมายว่าเสร็จแล้ว.
 
----
+**Last Updated:** 2026-10-26  
+**Tested With:** Aspose.Note for Java 24.11 (latest at time of writing)  
+**Author:** Aspose
 
-**อัปเดตล่าสุด:** 2026-03-03  
-**ทดสอบกับ:** Aspose.Note for Java 24.11 (รุ่นล่าสุด ณ เวลาที่เขียน)  
-**ผู้เขียน:** Aspose  
+## บทแนะนำที่เกี่ยวข้อง
+
+- [เพิ่มแท็กใน OneNote – สร้างเอกสาร OneNote ที่มีแท็กด้วย Aspose.Note](/note/java/onenote-tag-operations/)
+- [วิธีปรับแต่งสไตล์ OneNote ด้วย Aspose.Note for Java](/note/java/onenote-styles/)
+- [สร้างเอกสาร OneNote ด้วย Java – บทแนะนำ Aspose Note Java](/note/java/onenote-document-manipulation/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

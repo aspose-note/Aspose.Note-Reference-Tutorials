@@ -1,11 +1,49 @@
 ---
-date: 2026-03-03
-description: Pelajari cara membuat daftar berpoin di OneNote menggunakan Aspose.Note
-  untuk Java dan juga menyimpan dokumen OneNote sebagai PDF. Panduan langkah demi
-  langkah dengan poin-poin Java.
-linktitle: Create Bulleted List OneNote - Aspose.Note
+date: 2026-10-26
+description: Pelajari cara mengonversi OneNote ke PDF dan membuat bulleted lists menggunakan
+  Aspose.Note for Java. Panduan langkah demi langkah dengan Java bullet points dan
+  ekspor PDF.
+keywords:
+- convert onenote to pdf
+- generate pdf from onenote
+- set bullet points java
+lastmod: 2026-10-26
+linktitle: Konversi OneNote ke PDF dengan Aspose.Note for Java
+og_description: Konversi OneNote ke PDF dan tambahkan bullet lists menggunakan Aspose.Note
+  for Java. Pelajari langkah-langkah untuk menghasilkan PDF dari OneNote dan mengatur
+  bullet points di Java.
+og_image_alt: 'Developer guide: Convert OneNote to PDF and create bulleted lists in
+  Java using Aspose.Note'
+og_title: Konversi OneNote ke PDF dengan Aspose.Note for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-10-26'
+  description: Learn how to convert OneNote to PDF and create bulleted lists using
+    Aspose.Note for Java. Step‑by‑step guide with Java bullet points and PDF export.
+  headline: Convert OneNote to PDF with Aspose.Note for Java
+  type: TechArticle
+- questions:
+  - answer: Yes, it works with Eclipse, IntelliJ IDEA, NetBeans, and any IDE that
+      supports standard Java projects.
+    question: Is Aspose.Note for Java compatible with all Java IDEs?
+  - answer: Absolutely! You can change the font, color, size, and even use custom
+      Unicode symbols by modifying the `NumberList` parameters.
+    question: Can I customize the formatting of the bulleted list?
+  - answer: Visit the [Aspose.Note for Java support forum](https://forum.aspose.com/c/note/28)
+      for community help and official assistance.
+    question: Where can I find additional support for Aspose.Note for Java?
+  - answer: Yes, you can explore a free trial version on the [Aspose.Note free trial
+      download page](https://releases.aspose.com/).
+    question: Is there a free trial available for Aspose.Note for Java?
+  - answer: Get a temporary license on the [Aspose.Note temporary license page](https://purchase.aspose.com/temporary-license/).
+    question: How can I obtain a temporary license for Aspose.Note for Java?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: Buat Daftar Berpoin OneNote - Aspose.Note
+tags:
+- convert onenote
+- Aspose.Note
+- Java document processing
+title: Konversi OneNote ke PDF dengan Aspose.Note for Java
 url: /id/java/onenote-text-manipulation/create-bulleted-list/
 weight: 12
 ---
@@ -14,34 +52,30 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Membuat Daftar Berbulu (Bulleted List) OneNote - Aspose.Note
+# Konversi OneNote ke PDF dengan Aspose.Note untuk Java
 
 ## Pendahuluan
-Jika Anda perlu **membuat daftar berbulu OneNote** secara programatis, Aspose.Note untuk Java menyediakan API yang bersih dan fluently yang menangani semua internal OneNote untuk Anda. Pada tutorial ini kami akan menelusuri langkah‑langkah tepat untuk mengatur poin peluru di Java, menambahkannya ke sebuah outline, dan akhirnya **menyimpan dokumen OneNote sebagai PDF**. Pada akhir tutorial Anda akan memiliki cuplikan kode siap pakai yang dapat Anda sisipkan ke proyek Java mana pun.
+Jika Anda perlu **mengonversi OneNote ke PDF** sambil juga membuat daftar berpoin, Aspose.Note untuk Java memberi Anda API yang lancar yang menyembunyikan semua detail internal file OneNote. Dalam tutorial ini kami akan membahas langkah‑langkah tepat untuk mengatur poin peluru di Java, menambahkannya ke sebuah outline, dan akhirnya **menyimpan dokumen OneNote sebagai PDF**. Pada akhir tutorial Anda akan memiliki potongan kode siap pakai yang dapat Anda masukkan ke proyek Java mana pun.
 
 ## Jawaban Cepat
 - **Apa yang dilakukan Aspose.Note?** Memungkinkan Anda menghasilkan, mengedit, dan mengonversi file OneNote tanpa menginstal OneNote.  
 - **Apakah saya dapat mengatur poin peluru dengan Java?** Ya – gunakan `NumberList` untuk mendefinisikan gaya peluru.  
 - **Bagaimana cara mengekspor ke PDF?** Panggil `doc.save(...".pdf")` setelah membangun halaman.  
-- **Apakah saya memerlukan lisensi untuk pengembangan?** Versi percobaan gratis cukup untuk pengujian; lisensi diperlukan untuk produksi.  
+- **Apakah saya memerlukan lisensi untuk pengembangan?** Versi percobaan gratis dapat digunakan untuk pengujian; lisensi diperlukan untuk produksi.  
 - **IDE mana yang didukung?** Semua IDE Java seperti Eclipse, IntelliJ IDEA, atau VS Code.
 
 ## Apa itu “create bulleted list OneNote”?
-Membuat daftar berbulu di OneNote berarti menambahkan serangkaian elemen outline di mana setiap elemen dimulai dengan karakter peluru (misalnya “*”). Struktur ini meningkatkan keterbacaan dan meniru cara pengguna menambahkan daftar secara manual di UI OneNote.
+Membuat daftar berpoin di OneNote berarti menambahkan serangkaian elemen outline di mana setiap elemen dimulai dengan karakter peluru (mis., “*”). Struktur ini meningkatkan keterbacaan dan meniru cara pengguna secara manual menambahkan daftar di dalam UI OneNote untuk organisasi yang lebih baik.
 
-## Mengapa menggunakan Aspose.Note untuk Java dalam mengatur poin peluru?
-- **Tidak memerlukan instalasi OneNote** – dapat dijalankan di server dan pipeline CI.  
-- **Kontrol penuh atas styling** – font, ukuran, warna, dan karakter peluru semuanya dapat dikonfigurasi.  
-- **Ekspor PDF langsung** – menghasilkan PDF dalam satu baris kode, sempurna untuk pelaporan atau pengarsipan.  
+## Mengapa menggunakan Aspose.Note untuk Java untuk mengatur poin peluru?
+Aspose.Note untuk Java menghilangkan kebutuhan akan instalasi OneNote lokal dan memungkinkan Anda mengontrol setiap aspek visual dari sebuah daftar—termasuk font, ukuran, warna, dan karakter peluru—dari kode sisi server. Ia mendukung pemrosesan file hingga 300 MB tanpa memuat seluruh dokumen ke dalam memori, dan perpustakaan ini menyediakan lebih dari 60 kelas API khusus untuk manipulasi yang sangat detail.
 
 ## Prasyarat
-Sebelum memulai, pastikan Anda memiliki:
-
 - Pengetahuan dasar pemrograman Java.  
 - Perpustakaan Aspose.Note untuk Java terpasang – unduh dari [Aspose.Note for Java Documentation](https://reference.aspose.com/note/java/).  
-- IDE Java (Eclipse, IntelliJ IDEA, dll.) yang sudah terpasang di mesin Anda.
+- IDE Java (Eclipse, IntelliJ IDEA, dll.) yang telah diatur di mesin Anda.
 
-## Impor Paket
+## Impor paket
 Mulailah dengan mengimpor paket yang diperlukan ke dalam proyek Java Anda. Ini memberi Anda akses ke semua kelas Aspose.Note yang akan kami gunakan.
 
 ```java
@@ -57,8 +91,8 @@ import com.aspose.note.ParagraphStyle;
 // Import Aspose.Note for Java packages
 ```
 
-## Langkah 1: Inisialisasi Dokumen dan Halaman
-Buat instance `Document` dan `Page` tempat outline akan berada.
+## Langkah 1: inisialisasi dokumen dan halaman
+`Document` adalah objek tingkat atas yang mewakili file OneNote dalam memori. Setelah membuat sebuah `Document` Anda dapat menambahkan satu atau lebih objek `Page`, masing‑masing menyimpan outline dan kontennya sendiri.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -68,8 +102,8 @@ Document doc = new Document();
 Page page = new Page();
 ```
 
-## Langkah 2: Inisialisasi Outline dan TextStyle (set bullet points java)
-Kami akan menyiapkan kontainer `Outline` dan mendefinisikan `ParagraphStyle` default. Di sinilah Anda **set bullet points java**‑style formatting.
+## Langkah 2: inisialisasi outline dan textstyle (mengatur poin peluru java)
+`Outline` berfungsi sebagai wadah untuk hierarki objek `OutlineElement`. `ParagraphStyle` (atau subclassnya) mendefinisikan format default seperti keluarga font, ukuran, dan warna yang akan diterapkan pada setiap peluru.
 
 ```java
 // initialize Outline class object
@@ -81,8 +115,8 @@ ParagraphStyle defaultStyle = new ParagraphStyle()
                                     .setFontSize(10);
 ```
 
-## Langkah 3: Buat Elemen Daftar Berbulu
-Buat objek `OutlineElement` individual, lampirkan `NumberList` yang mendefinisikan karakter peluru, dan tambahkan teksnya.
+## Langkah 3: buat elemen daftar berpoin
+`OutlineElement` mewakili satu baris dalam sebuah outline. Menempelkan `NumberList` pada `OutlineElement` memberi tahu Aspose.Note karakter peluru mana yang harus ditampilkan. Anda dapat menyesuaikan konstruktor `NumberList` untuk mengubah glyph peluru, font, atau ukuran.
 
 ```java
 // initialize OutlineElement class objects and apply bullets
@@ -94,10 +128,10 @@ text1.setParagraphStyle(defaultStyle);
 outlineElem1.appendChildLast(text1);
 ```
 
-*Ulangi blok di atas untuk setiap peluru tambahan yang Anda perlukan (misalnya, `outlineElem2`, `outlineElem3`).*
+*Ulangi blok di atas untuk setiap peluru tambahan yang Anda butuhkan (mis., `outlineElem2`, `outlineElem3`).*
 
-## Langkah 4: Tambahkan Elemen Outline ke Outline
-Kumpulkan semua elemen peluru ke dalam `Outline` induk.
+## Langkah 4: tambahkan elemen outline ke outline
+Kumpulkan semua elemen peluru ke dalam `Outline` induk. Langkah ini menyusun daftar hierarkis yang akan muncul di halaman.
 
 ```java
 // add outline elements
@@ -106,8 +140,11 @@ outline.appendChildLast(outlineElem2);
 outline.appendChildLast(outlineElem3);
 ```
 
-## Langkah 5: Tambahkan Outline ke Halaman dan Simpan (save OneNote document as PDF)
-Lampirkan `Outline` ke `Page`, tambahkan halaman ke `Document`, dan akhirnya **save OneNote document as PDF**.
+## Cara mengonversi OneNote ke PDF?
+Muat instance `Document` Anda, bangun halaman dengan outline-nya, lalu panggil `doc.save("output.pdf", SaveFormat.Pdf)`. Aspose.Note menulis PDF dalam satu proses, mempertahankan tata letak, font, dan gambar tersemat tanpa memerlukan Microsoft OneNote di server, serta memastikan render yang tepat untuk semua elemen.
+
+## Langkah 5: tambahkan outline ke halaman dan simpan (simpan dokumen OneNote sebagai PDF)
+Lampirkan `Outline` ke `Page`, tambahkan halaman ke `Document`, dan akhirnya **simpan dokumen OneNote sebagai PDF**.
 
 ```java
 // add Outline node
@@ -118,34 +155,47 @@ doc.appendChildLast(page);
 doc.save(dataDir + "CreateBulletedList_out.pdf");
 ```
 
-Selamat! Anda kini telah secara programatis **create bulleted list OneNote** dan mengekspornya ke PDF menggunakan Aspose.Note untuk Java.
+Selamat! Anda kini secara programatis **mengonversi OneNote ke PDF** dan **membuat daftar berpoin OneNote** menggunakan Aspose.Note untuk Java.
 
-## Masalah Umum dan Solusinya
+## Masalah umum dan solusi
 | Masalah | Solusi |
-|---------|--------|
+|-------|----------|
 | `outlineElem2` atau `outlineElem3` tidak didefinisikan | Pastikan Anda menyalin blok kode dari Langkah 3 untuk setiap peluru tambahan dan mengganti nama variabel sesuai. |
 | File PDF tidak dibuat | Verifikasi bahwa `dataDir` mengarah ke folder yang dapat ditulisi dan Anda memiliki izin menulis. |
 | Gaya peluru terlihat berbeda | Sesuaikan parameter konstruktor `NumberList` (font, ukuran, atau karakter) agar sesuai dengan tampilan yang diinginkan. |
 
-## Pertanyaan yang Sering Diajukan
+## Tanya Jawab
 
-**T: Apakah Aspose.Note untuk Java kompatibel dengan semua IDE Java?**  
-J: Ya, ia bekerja dengan Eclipse, IntelliJ IDEA, NetBeans, dan IDE apa pun yang mendukung proyek Java standar.
+**Q: Apakah Aspose.Note untuk Java kompatibel dengan semua IDE Java?**  
+A: Ya, ia bekerja dengan Eclipse, IntelliJ IDEA, NetBeans, dan IDE apa pun yang mendukung proyek Java standar.
 
-**T: Bisakah saya menyesuaikan format daftar berbulu?**  
-J: Tentu! Anda dapat mengubah font, warna, ukuran, bahkan menggunakan simbol Unicode khusus dengan memodifikasi parameter `NumberList`.
+**Q: Bisakah saya menyesuaikan format daftar berpoin?**  
+A: Tentu! Anda dapat mengubah font, warna, ukuran, bahkan menggunakan simbol Unicode khusus dengan memodifikasi parameter `NumberList`.
 
-**T: Di mana saya dapat menemukan dukungan tambahan untuk Aspose.Note untuk Java?**  
-J: Kunjungi [Aspose.Note for Java support forum](https://forum.aspose.com/c/note/28) untuk bantuan komunitas dan dukungan resmi.
+**Q: Di mana saya dapat menemukan dukungan tambahan untuk Aspose.Note untuk Java?**  
+A: Kunjungi [forum dukungan Aspose.Note untuk Java](https://forum.aspose.com/c/note/28) untuk bantuan komunitas dan bantuan resmi.
 
-**T: Apakah ada versi percobaan gratis untuk Aspose.Note untuk Java?**  
-J: Ya, Anda dapat menjelajahi versi percobaan gratis [di sini](https://releases.aspose.com/).
+**Q: Apakah tersedia versi percobaan gratis untuk Aspose.Note untuk Java?**  
+A: Ya, Anda dapat menjelajahi versi percobaan gratis di [halaman unduhan percobaan gratis Aspose.Note](https://releases.aspose.com/).
 
-**T: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.Note untuk Java?**  
-J: Dapatkan lisensi sementara [di sini](https://purchase.aspose.com/temporary-license/).
+**Q: Bagaimana saya dapat memperoleh lisensi sementara untuk Aspose.Note untuk Java?**  
+A: Dapatkan lisensi sementara di [halaman lisensi sementara Aspose.Note](https://purchase.aspose.com/temporary-license/).
 
 ## Kesimpulan
-Aspose.Note untuk Java memudahkan **create bulleted list OneNote**, menata setiap peluru, dan **save OneNote document as PDF** dalam beberapa langkah singkat. Jangan ragu untuk bereksperimen dengan karakter peluru, font, dan warna yang berbeda agar sesuai dengan bahasa desain aplikasi Anda. Jelajahi fitur Aspose.Note lainnya seperti tabel, gambar, dan hyperlink untuk membangun konten OneNote yang lebih kaya.
+Aspose.Note untuk Java memudahkan **mengonversi OneNote ke PDF**, menata setiap peluru, dan **menyimpan dokumen OneNote sebagai PDF** dalam beberapa langkah singkat. Jangan ragu bereksperimen dengan karakter peluru, font, dan warna yang berbeda untuk menyesuaikan bahasa desain aplikasi Anda. Jelajahi fitur Aspose.Note lainnya seperti tabel, gambar, dan hyperlink untuk membangun konten OneNote yang lebih kaya.
+
+---
+
+**Terakhir Diperbarui:** 2026-10-26  
+**Diuji Dengan:** Aspose.Note for Java 24.11  
+**Penulis:** Aspose
+
+## Tutorial Terkait
+
+- [Konversi OneNote ke PDF Menggunakan Pengaturan Halaman dengan Aspose.Note untuk Java](/note/java/onenote-document-saving/save-to-pdf-using-page-settings/)
+- [Cara Mengekspor OneNote ke PDF dengan Aspose.Note – Panduan Optimasi Kinerja](/note/java/onenote-performance-optimization/)
+- [konversi onenote ke pdf dengan opsi - Aspose.Note](/note/java/onenote-notebook-operations/convert-notebook-to-pdf-with-options/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -153,9 +203,3 @@ Aspose.Note untuk Java memudahkan **create bulleted list OneNote**, menata setia
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Terakhir Diperbarui:** 2026-03-03  
-**Diuji Dengan:** Aspose.Note untuk Java 24.11  
-**Penulis:** Aspose

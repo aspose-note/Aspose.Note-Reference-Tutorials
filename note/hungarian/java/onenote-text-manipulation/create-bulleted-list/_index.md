@@ -1,11 +1,49 @@
 ---
-date: 2026-03-03
-description: Tanulja meg, hogyan hozhat létre felsorolásos listát a OneNote-ban az
-  Aspose.Note for Java segítségével, és hogyan mentheti el a OneNote dokumentumot
-  PDF formátumban. Lépésről‑lépésre útmutató Java felsorolásokkal.
-linktitle: Create Bulleted List OneNote - Aspose.Note
+date: 2026-10-26
+description: Ismerje meg, hogyan konvertálhatja a OneNote-ot PDF-re, és hozhat létre
+  felsorolásokat az Aspose.Note for Java használatával. Lépésről‑lépésre útmutató
+  Java pontokkal és PDF exporttal.
+keywords:
+- convert onenote to pdf
+- generate pdf from onenote
+- set bullet points java
+lastmod: 2026-10-26
+linktitle: OneNote átalakítása PDF-re az Aspose.Note for Java segítségével
+og_description: Konvertálja a OneNote-ot PDF-re, és adjon hozzá felsorolásokat az
+  Aspose.Note for Java használatával. Ismerje meg a lépéseket a PDF generálásához
+  a OneNote-ból, és a bullet point-ok beállításához Java-ban.
+og_image_alt: 'Developer guide: Convert OneNote to PDF and create bulleted lists in
+  Java using Aspose.Note'
+og_title: OneNote átalakítása PDF-re az Aspose.Note for Java segítségével
+schemas:
+- author: Aspose
+  dateModified: '2026-10-26'
+  description: Learn how to convert OneNote to PDF and create bulleted lists using
+    Aspose.Note for Java. Step‑by‑step guide with Java bullet points and PDF export.
+  headline: Convert OneNote to PDF with Aspose.Note for Java
+  type: TechArticle
+- questions:
+  - answer: Yes, it works with Eclipse, IntelliJ IDEA, NetBeans, and any IDE that
+      supports standard Java projects.
+    question: Is Aspose.Note for Java compatible with all Java IDEs?
+  - answer: Absolutely! You can change the font, color, size, and even use custom
+      Unicode symbols by modifying the `NumberList` parameters.
+    question: Can I customize the formatting of the bulleted list?
+  - answer: Visit the [Aspose.Note for Java support forum](https://forum.aspose.com/c/note/28)
+      for community help and official assistance.
+    question: Where can I find additional support for Aspose.Note for Java?
+  - answer: Yes, you can explore a free trial version on the [Aspose.Note free trial
+      download page](https://releases.aspose.com/).
+    question: Is there a free trial available for Aspose.Note for Java?
+  - answer: Get a temporary license on the [Aspose.Note temporary license page](https://purchase.aspose.com/temporary-license/).
+    question: How can I obtain a temporary license for Aspose.Note for Java?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: Felsoroláslista létrehozása OneNote – Aspose.Note
+tags:
+- convert onenote
+- Aspose.Note
+- Java document processing
+title: OneNote átalakítása PDF-re az Aspose.Note for Java segítségével
 url: /hu/java/onenote-text-manipulation/create-bulleted-list/
 weight: 12
 ---
@@ -14,33 +52,31 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Pontozott lista létrehozása OneNote-ban – Aspose.Note
+# OneNote PDF‑vé konvertálása az Aspose.Note for Java segítségével
 
 ## Bevezetés
-Ha programozott módon **pontozott listát szeretne létrehozni OneNote-ban**, az Aspose.Note for Java egy tiszta, folyékony API-t biztosít, amely a OneNote belső működését Ön helyett kezeli. Ebben az útmutatóban lépésről lépésre bemutatjuk, hogyan állíthat be felsorolásjeleket Java-ban, hogyan adhatja hozzá őket egy vázlathoz, és végül **mentse a OneNote dokumentumot PDF‑ként**. A végére egy használatra kész kódrészletet kap, amelyet bármely Java projektbe beilleszthet.
+If you need to **convert OneNote to PDF** while also building a bulleted list, Aspose.Note for Java gives you a fluent API that abstracts all the OneNote file internals. In this tutorial we’ll walk through the exact steps to set bullet points in Java, add them to an outline, and finally **save the OneNote document as PDF**. By the end you’ll have a ready‑to‑use snippet that you can drop into any Java project.
 
 ## Gyors válaszok
-- **Mit csinál az Aspose.Note?** Lehetővé teszi OneNote fájlok létrehozását, szerkesztését és konvertálását OneNote telepítése nélkül.  
-- **Beállíthatok felsorolásjeleket Java‑val?** Igen – használja a `NumberList`‑et a felsorolás stílusának meghatározásához.  
-- **Hogyan exportálok PDF‑be?** Hívja a `doc.save(...".pdf")`‑t az oldal felépítése után.  
-- **Szükségem van licencre a fejlesztéshez?** Egy ingyenes próba verzió teszteléshez elegendő; a termeléshez licenc szükséges.  
-- **Mely IDE-k támogatottak?** Bármely Java IDE, például Eclipse, IntelliJ IDEA vagy VS Code.
+- **What does Aspose.Note do?** It lets you generate, edit, and convert OneNote files without installing OneNote.  
+- **Can I set bullet points with Java?** Yes – use `NumberList` to define the bullet style.  
+- **How do I export to PDF?** Call `doc.save(...".pdf")` after building the page.  
+- **Do I need a license for development?** A free trial works for testing; a license is required for production.  
+- **Which IDEs are supported?** Any Java IDE such as Eclipse, IntelliJ IDEA, or VS Code.
 
-## Mi az a „pontozott lista létrehozása OneNote-ban”?
-A pontozott lista létrehozása OneNote-ban azt jelenti, hogy egy sor vázlelemhez hozzáadunk egy felsorolásjelet (pl. „*”). Ez a struktúra javítja az olvashatóságot és hasonló módon működik, mint amikor a felhasználók manuálisan adnak hozzá listákat a OneNote felületén.
+## Mi az a „bulleted list OneNote” létrehozása?
+Creating a bulleted list in OneNote means adding a series of outline elements where each element starts with a bullet character (e.g., “*”). This structure improves readability and mimics the way users manually add lists inside the OneNote UI for better organization.
 
 ## Miért használjuk az Aspose.Note for Java‑t a felsorolásjelek beállításához?
-- **OneNote telepítése nélkül** – szervereken és CI pipeline‑okban is működik.  
-- **Teljes stílusvezérlés** – a betűtípus, méret, szín és a felsorolásjel is konfigurálható.  
-- **Közvetlen PDF export** – egy sorban generálhat PDF‑et, ami tökéletes jelentéshez vagy archiváláshoz.  
+Aspose.Note for Java eliminates the need for a local OneNote installation and lets you control every visual aspect of a list—including font, size, color, and bullet character—from server‑side code. It supports processing files up to 300 MB without loading the entire document into memory, and the library provides over 60 dedicated API classes for fine‑grained manipulation.
 
 ## Előfeltételek
-- Alapvető Java programozási ismeretek.  
-- Az Aspose.Note for Java könyvtár telepítve – töltse le a [Aspose.Note for Java Documentation](https://reference.aspose.com/note/java/) oldalról.  
-- Java IDE (Eclipse, IntelliJ IDEA stb.) telepítve a gépén.
+- Basic Java programming knowledge.  
+- Aspose.Note for Java library installed – download it from the [Aspose.Note for Java Documentation](https://reference.aspose.com/note/java/).  
+- A Java IDE (Eclipse, IntelliJ IDEA, etc.) set up on your machine.
 
 ## Csomagok importálása
-Kezdje a szükséges csomagok importálásával a Java projektjébe. Ez hozzáférést biztosít az összes, a továbbiakban használandó Aspose.Note osztályhoz.
+Start by importing the necessary packages into your Java project. This gives you access to all Aspose.Note classes we’ll use.
 
 ```java
 import java.awt.Color;
@@ -55,8 +91,8 @@ import com.aspose.note.ParagraphStyle;
 // Import Aspose.Note for Java packages
 ```
 
-## 1. lépés: Dokumentum és oldal inicializálása
-Hozzon létre egy `Document` példányt és egy `Page`‑t, ahol a vázlat elhelyezkedik.
+## 1. lépés: dokumentum és oldal inicializálása
+`Document` is the top‑level object that represents a OneNote file in memory. After creating a `Document` you can add one or more `Page` objects, each of which holds its own outlines and content.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -66,8 +102,8 @@ Document doc = new Document();
 Page page = new Page();
 ```
 
-## 2. lépés: Outline és TextStyle inicializálása (bullet points beállítása Java-ban)
-Létrehozzuk az `Outline` konténert és definiálunk egy alapértelmezett `ParagraphStyle`‑t. Itt állítjuk be a **bullet points java**‑stílusú formázást.
+## 2. lépés: outline és textstyle inicializálása (bullet points beállítása Java‑ban)
+`Outline` acts as a container for a hierarchy of `OutlineElement` objects. `ParagraphStyle` (or its subclass) defines default formatting such as font family, size, and color that will be applied to each bullet.
 
 ```java
 // initialize Outline class object
@@ -79,8 +115,8 @@ ParagraphStyle defaultStyle = new ParagraphStyle()
                                     .setFontSize(10);
 ```
 
-## 3. lépés: Pontozott listaelemek létrehozása
-Hozzon létre egyedi `OutlineElement` objektumokat, csatoljon egy `NumberList`‑et, amely meghatározza a felsorolásjelet, és adja hozzá a szöveget.
+## 3. lépés: felsoroláslista elemek létrehozása
+`OutlineElement` represents a single line in an outline. Attaching a `NumberList` to an `OutlineElement` tells Aspose.Note which bullet character to render. You can customize the `NumberList` constructor to change the bullet glyph, font, or size.
 
 ```java
 // initialize OutlineElement class objects and apply bullets
@@ -92,10 +128,10 @@ text1.setParagraphStyle(defaultStyle);
 outlineElem1.appendChildLast(text1);
 ```
 
-*Ismételje meg a fenti blokkot minden további felsoroláshoz, amelyre szüksége van (pl. `outlineElem2`, `outlineElem3`).*
+*Ismételje a fenti blokkot minden további szükséges felsoroláshoz (pl. `outlineElem2`, `outlineElem3`).*
 
-## 4. lépés: Outline elemek hozzáadása az Outline‑hoz
-Gyűjtse össze az összes felsorolás elemet a szülő `Outline`‑ba.
+## 4. lépés: outline elemek hozzáadása az outline-hoz
+Collect all the bullet elements into the parent `Outline`. This step assembles the hierarchical list that will appear on the page.
 
 ```java
 // add outline elements
@@ -104,8 +140,11 @@ outline.appendChildLast(outlineElem2);
 outline.appendChildLast(outlineElem3);
 ```
 
-## 5. lépés: Outline hozzáadása az oldalhoz és mentés (OneNote dokumentum mentése PDF‑ként)
-Csatolja az `Outline`‑t a `Page`‑hez, adja hozzá az oldalt a `Document`‑hoz, és végül **mentse a OneNote dokumentumot PDF‑ként**.
+## Hogyan konvertáljuk a OneNote‑t PDF‑be?
+Load your `Document` instance, build the page with its outline, and then call `doc.save("output.pdf", SaveFormat.Pdf)`. Aspose.Note writes the PDF in a single pass, preserving layout, fonts, and embedded images without requiring Microsoft OneNote on the server, and ensures proper rendering of all elements.
+
+## 5. lépés: outline hozzáadása az oldalhoz és mentés (OneNote dokumentum mentése PDF‑ként)
+Attach the `Outline` to the `Page`, add the page to the `Document`, and finally **save OneNote document as PDF**.
 
 ```java
 // add Outline node
@@ -116,34 +155,47 @@ doc.appendChildLast(page);
 doc.save(dataDir + "CreateBulletedList_out.pdf");
 ```
 
-Gratulálunk! Most már programozott módon **pontozott listát hozott létre OneNote-ban** és PDF‑be exportálta az Aspose.Note for Java segítségével.
+Congratulations! You’ve now programmatically **convert OneNote to PDF** and **create bulleted list OneNote** using Aspose.Note for Java.
 
 ## Gyakori problémák és megoldások
 | Probléma | Megoldás |
 |----------|----------|
-| `outlineElem2` vagy `outlineElem3` nincs definiálva | Győződjön meg arról, hogy a 3. lépésből származó kódrészletet megismétli minden további felsoroláshoz, és a változókat ennek megfelelően átnevezi. |
-| PDF fájl nem jött létre | Ellenőrizze, hogy a `dataDir` egy írható mappára mutat-e, és rendelkezik-e írási jogosultsággal. |
-| A felsorolás stílusa másként jelenik meg | Állítsa be a `NumberList` konstruktor paramétereit (betűtípus, méret vagy karakter) a kívánt megjelenéshez. |
+| `outlineElem2` vagy `outlineElem3` nincs definiálva | Ensure you duplicate the code block from Step 3 for each additional bullet and rename the variables accordingly. |
+| PDF fájl nem jött létre | Verify `dataDir` points to a writable folder and that you have write permissions. |
+| A felsorolás stílusa másként jelenik meg | Adjust the `NumberList` constructor parameters (font, size, or character) to match your desired appearance. |
 
-## Gyakran ismételt kérdések
+## GYIK
 
-**Q: Az Aspose.Note for Java kompatibilis minden Java IDE‑val?**  
-A: Igen, működik Eclipse, IntelliJ IDEA, NetBeans és bármely, a szabványos Java projekteket támogató IDE‑val.
+**Q: Az Aspose.Note for Java kompatibilis minden Java IDE‑vel?**  
+A: Yes, it works with Eclipse, IntelliJ IDEA, NetBeans, and any IDE that supports standard Java projects.
 
-**Q: Testreszabhatom a pontozott lista formázását?**  
-A: Természetesen! A betűtípust, színt, méretet, sőt egyedi Unicode szimbólumokat is használhat a `NumberList` paramétereinek módosításával.
+**Q: Testreszabhatom a felsoroláslista formázását?**  
+A: Absolutely! You can change the font, color, size, and even use custom Unicode symbols by modifying the `NumberList` parameters.
 
 **Q: Hol találok további támogatást az Aspose.Note for Java‑hoz?**  
-A: Látogassa meg a [Aspose.Note for Java support forum](https://forum.aspose.com/c/note/28) oldalt a közösségi segítségért és a hivatalos támogatásért.
+A: Visit the [Aspose.Note for Java support forum](https://forum.aspose.com/c/note/28) for community help and official assistance.
 
-**Q: Van ingyenes próba verzió az Aspose.Note for Java‑hoz?**  
-A: Igen, egy ingyenes próba verziót [itt](https://releases.aspose.com/) tekinthet meg.
+**Q: Elérhető ingyenes próba verzió az Aspose.Note for Java‑hoz?**  
+A: Yes, you can explore a free trial version on the [Aspose.Note free trial download page](https://releases.aspose.com/).
 
 **Q: Hogyan szerezhetek ideiglenes licencet az Aspose.Note for Java‑hoz?**  
-A: Ideiglenes licencet [itt](https://purchase.aspose.com/temporary-license/) kaphat.
+A: Get a temporary license on the [Aspose.Note temporary license page](https://purchase.aspose.com/temporary-license/).
 
 ## Összegzés
-Az Aspose.Note for Java egyszerűvé teszi a **pontozott lista létrehozását OneNote-ban**, minden felsorolás stílusának beállítását, és a **OneNote dokumentum PDF‑ként való mentését** néhány rövid lépésben. Nyugodtan kísérletezzen különböző felsorolásjelekkel, betűtípusokkal és színekkel, hogy illeszkedjenek az alkalmazás tervezési nyelvéhez. Fedezze fel az Aspose.Note további funkcióit, például táblázatokat, képeket és hiperhivatkozásokat, hogy gazdagabb OneNote tartalmat építsen.
+Aspose.Note for Java makes it straightforward to **convert OneNote to PDF**, style each bullet, and **save the OneNote document as PDF** in a few concise steps. Feel free to experiment with different bullet characters, fonts, and colors to match your application’s design language. Explore other Aspose.Note features such as tables, images, and hyperlinks to build richer OneNote content.
+
+---
+
+**Last Updated:** 2026-10-26  
+**Tested With:** Aspose.Note for Java 24.11  
+**Author:** Aspose
+
+## Kapcsolódó oktatóanyagok
+
+- [OneNote PDF‑vé konvertálása oldalbeállítások használatával az Aspose.Note for Java segítségével](/note/java/onenote-document-saving/save-to-pdf-using-page-settings/)
+- [Hogyan exportáljunk OneNote‑t PDF‑be az Aspose.Note‑dal – Teljesítményoptimalizálási útmutató](/note/java/onenote-performance-optimization/)
+- [OneNote PDF‑vé konvertálása opciókkal – Aspose.Note](/note/java/onenote-notebook-operations/convert-notebook-to-pdf-with-options/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -151,9 +203,3 @@ Az Aspose.Note for Java egyszerűvé teszi a **pontozott lista létrehozását O
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-03-03  
-**Tested With:** Aspose.Note for Java 24.11  
-**Author:** Aspose

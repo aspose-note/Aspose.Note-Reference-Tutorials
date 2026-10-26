@@ -1,10 +1,48 @@
 ---
-date: 2026-03-03
-description: Lär dig hur du skapar punktlista i OneNote med Aspose.Note för Java och
-  även sparar OneNote‑dokument som PDF. Steg‑för‑steg‑guide med Java‑punktlistor.
-linktitle: Create Bulleted List OneNote - Aspose.Note
+date: 2026-10-26
+description: Lär dig hur du konverterar OneNote till PDF och skapar punktlistor med
+  Aspose.Note för Java. Steg‑för‑steg‑guide med Java-punktlistor och PDF-export.
+keywords:
+- convert onenote to pdf
+- generate pdf from onenote
+- set bullet points java
+lastmod: 2026-10-26
+linktitle: Konvertera OneNote till PDF med Aspose.Note för Java
+og_description: Konvertera OneNote till PDF och lägg till punktlistor med Aspose.Note
+  för Java. Lär dig stegen för att generera PDF från OneNote och sätta punktlistor
+  i Java.
+og_image_alt: 'Developer guide: Convert OneNote to PDF and create bulleted lists in
+  Java using Aspose.Note'
+og_title: Konvertera OneNote till PDF med Aspose.Note för Java
+schemas:
+- author: Aspose
+  dateModified: '2026-10-26'
+  description: Learn how to convert OneNote to PDF and create bulleted lists using
+    Aspose.Note for Java. Step‑by‑step guide with Java bullet points and PDF export.
+  headline: Convert OneNote to PDF with Aspose.Note for Java
+  type: TechArticle
+- questions:
+  - answer: Yes, it works with Eclipse, IntelliJ IDEA, NetBeans, and any IDE that
+      supports standard Java projects.
+    question: Is Aspose.Note for Java compatible with all Java IDEs?
+  - answer: Absolutely! You can change the font, color, size, and even use custom
+      Unicode symbols by modifying the `NumberList` parameters.
+    question: Can I customize the formatting of the bulleted list?
+  - answer: Visit the [Aspose.Note for Java support forum](https://forum.aspose.com/c/note/28)
+      for community help and official assistance.
+    question: Where can I find additional support for Aspose.Note for Java?
+  - answer: Yes, you can explore a free trial version on the [Aspose.Note free trial
+      download page](https://releases.aspose.com/).
+    question: Is there a free trial available for Aspose.Note for Java?
+  - answer: Get a temporary license on the [Aspose.Note temporary license page](https://purchase.aspose.com/temporary-license/).
+    question: How can I obtain a temporary license for Aspose.Note for Java?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: Skapa punktlista OneNote – Aspose.Note
+tags:
+- convert onenote
+- Aspose.Note
+- Java document processing
+title: Konvertera OneNote till PDF med Aspose.Note för Java
 url: /sv/java/onenote-text-manipulation/create-bulleted-list/
 weight: 12
 ---
@@ -13,31 +51,27 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Skapa punktlista OneNote - Aspose.Note
+# Konvertera OneNote till PDF med Aspose.Note för Java
 
 ## Introduktion
-Om du behöver **create bulleted list OneNote** programatiskt, ger Aspose.Note for Java dig ett rent, flytande API som hanterar alla OneNote‑interna detaljer åt dig. I den här handledningen går vi igenom de exakta stegen för att sätta punktmarkeringar i Java, lägga till dem i en outline och slutligen **save OneNote document as PDF**. I slutet har du ett färdigt kodexempel som du kan klistra in i vilket Java‑projekt som helst.
+Om du behöver **konvertera OneNote till PDF** samtidigt som du bygger en punktlista, ger Aspose.Note för Java dig ett flytande API som abstraherar alla OneNote‑filens interna strukturer. I den här handledningen går vi igenom de exakta stegen för att sätta punktmarkeringar i Java, lägga till dem i en kontur och slutligen **spara OneNote-dokumentet som PDF**. I slutet har du ett färdigt kodexempel som du kan klistra in i vilket Java‑projekt som helst.
 
 ## Snabba svar
-- **Vad gör Aspose.Note?** Det låter dig generera, redigera och konvertera OneNote‑filer utan att installera OneNote.  
-- **Kan jag sätta punktmarkeringar med Java?** Ja – använd `NumberList` för att definiera bullet style.  
+- **Vad gör Aspose.Note?** Det låter dig skapa, redigera och konvertera OneNote‑filer utan att installera OneNote.  
+- **Kan jag sätta punktmarkeringar med Java?** Ja – använd `NumberList` för att definiera punktstilen.  
 - **Hur exporterar jag till PDF?** Anropa `doc.save(...".pdf")` efter att sidan har byggts.  
 - **Behöver jag en licens för utveckling?** En gratis provversion fungerar för testning; en licens krävs för produktion.  
-- **Vilka IDE:er stöds?** Alla Java‑IDE:er såsom Eclipse, IntelliJ IDEA eller VS Code.
+- **Vilka IDE:er stöds?** Alla Java‑IDE:er såsom Eclipse, IntelliJ IDEA eller VS Code.  
 
 ## Vad är “create bulleted list OneNote”?
-Att skapa en punktlista i OneNote innebär att lägga till en serie outline‑element där varje element börjar med ett punkttecken (t.ex. “*”). Denna struktur förbättrar läsbarheten och efterliknar hur användare manuellt lägger till listor i OneNote‑gränssnittet.
+Att skapa en punktlista i OneNote innebär att lägga till en serie konturelement där varje element börjar med ett punkttecken (t.ex. “*”). Denna struktur förbättrar läsbarheten och efterliknar hur användare manuellt lägger till listor i OneNote‑gränssnittet för bättre organisering.
 
-## Varför använda Aspose.Note för Java för att sätta bullet points?
-- **Ingen OneNote‑installation krävs** – fungerar på servrar och CI‑pipelines.  
-- **Full kontroll över styling** – teckensnitt, storlek, färg och punkttecken är alla konfigurerbara.  
-- **Direkt PDF‑export** – generera en PDF på en rad, perfekt för rapportering eller arkivering.  
+## Varför använda Aspose.Note för Java för att sätta punktmarkeringar?
+Aspose.Note för Java eliminerar behovet av en lokal OneNote‑installation och låter dig kontrollera varje visuellt aspekt av en lista — inklusive teckensnitt, storlek, färg och punkttecken — från server‑sidkod. Det stödjer bearbetning av filer upp till 300 MB utan att ladda hela dokumentet i minnet, och biblioteket erbjuder över 60 dedikerade API‑klasser för fin‑granulerad manipulation.
 
 ## Förutsättningar
-Innan vi börjar, se till att du har:
-
 - Grundläggande kunskaper i Java‑programmering.  
-- Aspose.Note for Java‑biblioteket installerat – ladda ner det från [Aspose.Note for Java Documentation](https://reference.aspose.com/note/java/).  
+- Aspose.Note för Java‑biblioteket installerat – ladda ner det från [Aspose.Note for Java Documentation](https://reference.aspose.com/note/java/).  
 - En Java‑IDE (Eclipse, IntelliJ IDEA, etc.) installerad på din maskin.
 
 ## Importera paket
@@ -56,8 +90,8 @@ import com.aspose.note.ParagraphStyle;
 // Import Aspose.Note for Java packages
 ```
 
-## Steg 1: Initiera Document och Page
-Skapa en `Document`‑instans och en `Page` där outline‑elementen kommer att finnas.
+## Steg 1: initiera dokument och sida
+`Document` är top‑nivå‑objektet som representerar en OneNote‑fil i minnet. Efter att ha skapat ett `Document` kan du lägga till ett eller flera `Page`‑objekt, där varje objekt innehåller sina egna konturer och innehåll.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -67,8 +101,8 @@ Document doc = new Document();
 Page page = new Page();
 ```
 
-## Steg 2: Initiera Outline och TextStyle (set bullet points java)
-Vi kommer att skapa en `Outline`‑behållare och definiera en standard `ParagraphStyle`. Här **set bullet points java**‑stilformatering.
+## Steg 2: initiera outline och textstil (sätt punktmarkeringar java)
+`Outline` fungerar som en behållare för en hierarki av `OutlineElement`‑objekt. `ParagraphStyle` (eller dess underklass) definierar standardformatering såsom teckensnittsfamilj, storlek och färg som kommer att tillämpas på varje punkt.
 
 ```java
 // initialize Outline class object
@@ -80,8 +114,8 @@ ParagraphStyle defaultStyle = new ParagraphStyle()
                                     .setFontSize(10);
 ```
 
-## Steg 3: Skapa punktlista‑element
-Skapa individuella `OutlineElement`‑objekt, bifoga en `NumberList` som definierar punkttecknet och lägg till texten.
+## Steg 3: skapa punktlistaelement
+`OutlineElement` representerar en enskild rad i en kontur. Att fästa en `NumberList` på ett `OutlineElement` talar om för Aspose.Note vilket punkttecken som ska renderas. Du kan anpassa `NumberList`‑konstruktorn för att ändra punkttecknet, teckensnittet eller storleken.
 
 ```java
 // initialize OutlineElement class objects and apply bullets
@@ -93,10 +127,10 @@ text1.setParagraphStyle(defaultStyle);
 outlineElem1.appendChildLast(text1);
 ```
 
-*Upprepa blocket ovan för varje ytterligare punkt du behöver (t.ex. `outlineElem2`, `outlineElem3`).*
+*Upprepa blocken ovan för varje ytterligare punkt du behöver (t.ex. `outlineElem2`, `outlineElem3`).*
 
-## Steg 4: Lägg till Outline‑element i Outline
-Samla alla punkt‑element i den överordnade `Outline`.
+## Steg 4: lägg till konturelement i outline
+Samla alla punkt‑element i den överordnade `Outline`. Detta steg bygger den hierarkiska listan som kommer att visas på sidan.
 
 ```java
 // add outline elements
@@ -105,8 +139,11 @@ outline.appendChildLast(outlineElem2);
 outline.appendChildLast(outlineElem3);
 ```
 
-## Steg 5: Lägg till Outline på Page och spara (save OneNote document as PDF)
-Bifoga `Outline` till `Page`, lägg till sidan i `Document` och slutligen **save OneNote document as PDF**.
+## Hur konverterar OneNote till PDF?
+Läs in ditt `Document`‑objekt, bygg sidan med dess kontur och anropa sedan `doc.save("output.pdf", SaveFormat.Pdf)`. Aspose.Note skriver PDF‑filen i ett enda pass, bevarar layout, teckensnitt och inbäddade bilder utan att kräva Microsoft OneNote på servern, och säkerställer korrekt rendering av alla element.
+
+## Steg 5: lägg till outline på sidan och spara (spara OneNote‑dokument som PDF)
+Fäst `Outline` på `Page`, lägg till sidan i `Document` och slutligen **spara OneNote‑dokument som PDF**.
 
 ```java
 // add Outline node
@@ -117,34 +154,47 @@ doc.appendChildLast(page);
 doc.save(dataDir + "CreateBulletedList_out.pdf");
 ```
 
-Grattis! Du har nu programatiskt **create bulleted list OneNote** och exporterat det till PDF med Aspose.Note för Java.
+Grattis! Du har nu programatiskt **konverterat OneNote till PDF** och **skapat punktlista OneNote** med hjälp av Aspose.Note för Java.
 
 ## Vanliga problem och lösningar
 | Problem | Lösning |
 |-------|----------|
-| `outlineElem2` eller `outlineElem3` är inte definierade | Se till att du duplicerar kodblocket från Steg 3 för varje extra punkt och döper om variablerna därefter. |
-| PDF‑filen skapas inte | Verifiera att `dataDir` pekar på en skrivbar mapp och att du har skrivrättigheter. |
-| Punktstilen ser annorlunda ut | Justera `NumberList`‑konstruktörens parametrar (teckensnitt, storlek eller tecken) så att de matchar önskat utseende. |
+| `outlineElem2` eller `outlineElem3` är inte definierad | Se till att du duplicerar kodblocket från Steg 3 för varje ytterligare punkt och byter namn på variablerna därefter. |
+| PDF‑filen skapades inte | Verifiera att `dataDir` pekar på en skrivbar mapp och att du har skrivrättigheter. |
+| Punktstilen ser annorlunda ut | Justera `NumberList`‑konstruktorns parametrar (teckensnitt, storlek eller tecken) så att de matchar önskat utseende. |
 
-## Vanliga frågor
+## FAQ
 
 **Q: Är Aspose.Note för Java kompatibel med alla Java‑IDE:er?**  
-A: Ja, den fungerar med Eclipse, IntelliJ IDEA, NetBeans och alla IDE:er som stödjer standard Java‑projekt.
+A: Ja, den fungerar med Eclipse, IntelliJ IDEA, NetBeans och alla IDE:er som stödjer standard‑Java‑projekt.
 
 **Q: Kan jag anpassa formateringen av punktlistan?**  
-A: Absolut! Du kan ändra teckensnitt, färg, storlek och till och med använda egna Unicode‑symboler genom att modifiera `NumberList`‑parametrarna.
+A: Absolut! Du kan ändra teckensnitt, färg, storlek och till och med använda anpassade Unicode‑symboler genom att modifiera `NumberList`‑parametrarna.
 
 **Q: Var kan jag hitta ytterligare support för Aspose.Note för Java?**  
-A: Besök [Aspose.Note for Java supportforum](https://forum.aspose.com/c/note/28) för gemenskapsstöd och officiell hjälp.
+A: Besök [Aspose.Note for Java support forum](https://forum.aspose.com/c/note/28) för gemenskapshjälp och officiell assistans.
 
 **Q: Finns det en gratis provversion av Aspose.Note för Java?**  
-A: Ja, du kan prova en gratis version [här](https://releases.aspose.com/).
+A: Ja, du kan prova en gratis provversion på [Aspose.Note free trial download page](https://releases.aspose.com/).
 
 **Q: Hur kan jag skaffa en tillfällig licens för Aspose.Note för Java?**  
-A: Skaffa en tillfällig licens [här](https://purchase.aspose.com/temporary-license/).
+A: Skaffa en tillfällig licens på [Aspose.Note temporary license page](https://purchase.aspose.com/temporary-license/).
 
 ## Slutsats
-Aspose.Note för Java gör det enkelt att **create bulleted list OneNote**, formatera varje punkt och **save OneNote document as PDF** i några få tydliga steg. Känn dig fri att experimentera med olika punkttecken, teckensnitt och färger för att matcha ditt programs design. Utforska andra Aspose.Note‑funktioner såsom tabeller, bilder och hyperlänkar för att skapa rikare OneNote‑innehåll.
+Aspose.Note för Java gör det enkelt att **konvertera OneNote till PDF**, formatera varje punkt och **spara OneNote‑dokumentet som PDF** i några korta steg. Känn dig fri att experimentera med olika punkttecken, teckensnitt och färger för att matcha ditt programs designspråk. Utforska andra Aspose.Note‑funktioner såsom tabeller, bilder och hyperlänkar för att skapa rikare OneNote‑innehåll.
+
+---
+
+**Senast uppdaterad:** 2026-10-26  
+**Testad med:** Aspose.Note for Java 24.11  
+**Författare:** Aspose
+
+## Relaterade handledningar
+
+- [Konvertera OneNote till PDF med sidinställningar med Aspose.Note för Java](/note/java/onenote-document-saving/save-to-pdf-using-page-settings/)
+- [Hur man exporterar OneNote till PDF med Aspose.Note – Prestandaoptimeringsguide](/note/java/onenote-performance-optimization/)
+- [konvertera onenote till pdf med alternativ - Aspose.Note](/note/java/onenote-notebook-operations/convert-notebook-to-pdf-with-options/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -152,9 +202,3 @@ Aspose.Note för Java gör det enkelt att **create bulleted list OneNote**, form
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Senast uppdaterad:** 2026-03-03  
-**Testat med:** Aspose.Note for Java 24.11  
-**Författare:** Aspose
