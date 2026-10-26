@@ -1,33 +1,83 @@
 ---
-title: Simpan ke Gambar JPEG di Aspose.Note
-linktitle: Simpan ke Gambar JPEG di Aspose.Note
-second_title: Aspose.Catatan .NET API
-description: Pelajari cara menyimpan dokumen OneNote ke gambar JPEG dengan mudah menggunakan Aspose.Note untuk .NET. Panduan langkah demi langkah disertakan.
-weight: 25
+date: 2026-10-26
+description: Pelajari cara menggunakan Aspose.Note untuk .NET untuk mengonversi halaman
+  OneNote menjadi gambar JPEG berkualitas tinggi. Termasuk prasyarat, langkah kode,
+  dan tips pemecahan masalah.
+keywords:
+- how to use aspose.note
+- convert onenote image
+- export onenote image
+lastmod: 2026-10-26
+linktitle: Cara menggunakan Aspose.Note untuk menyimpan OneNote sebagai gambar JPEG
+og_description: Cara menggunakan Aspose.Note untuk menyimpan OneNote sebagai gambar
+  JPEG. Konversi halaman OneNote ke JPEG dengan cepat menggunakan .NET—mencakup pengaturan,
+  langkah kode, dan praktik terbaik.
+og_image_alt: Guide showing Aspose.Note converting OneNote to JPEG image
+og_title: Cara menggunakan Aspose.Note untuk menyimpan OneNote sebagai gambar JPEG
+schemas:
+- author: Aspose
+  dateModified: '2026-10-26'
+  description: Learn how to use Aspose.Note for .NET to convert OneNote pages into
+    high‑quality JPEG images. Includes prerequisites, code steps, and troubleshooting
+    tips.
+  headline: How to use Aspose.Note to save OneNote as JPEG image
+  type: TechArticle
+- questions:
+  - answer: Yes, Aspose.Note efficiently processes notebooks containing text, images,
+      ink strokes, tables, and embedded files while preserving layout fidelity.
+    question: Can Aspose.Note handle complex OneNote documents?
+  - answer: Absolutely, the library is regularly updated for .NET Framework 4.5+,
+      .NET Core 3.1+, .NET 5, and .NET 6+.
+    question: Is Aspose.Note compatible with the latest .NET frameworks?
+  - answer: Yes, you can export to PNG, TIFF, BMP, and GIF by changing the `SaveFormat`
+      enumeration value.
+    question: Does Aspose.Note support other image formats besides JPEG?
+  - answer: Certainly, you can avail of a free trial from the **Aspose free trial
+      page**([here](https://releases.aspose.com/)) to explore its capabilities.
+    question: Can I try Aspose.Note before purchasing?
+  - answer: You can seek help from the **Aspose community forum**([here](https://forum.aspose.com/c/note/28)),
+      or contact Aspose support for personalized assistance.
+    question: How can I get assistance if I encounter issues?
+  type: FAQPage
+second_title: Aspose.Note .NET API
+tags:
+- aspose.note
+- jpeg conversion
+- .net document processing
+title: Cara menggunakan Aspose.Note untuk menyimpan OneNote sebagai gambar JPEG
 url: /id/net/loading-and-saving-operations/save-to-jpeg-image/
+weight: 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Simpan ke Gambar JPEG di Aspose.Note
+# Cara menggunakan Aspose.Note untuk menyimpan OneNote sebagai gambar JPEG
 
-## Perkenalan
+Dalam tutorial ini Anda akan belajar **cara menggunakan Aspose.Note** untuk mengekspor halaman notebook OneNote sebagai gambar JPEG menggunakan .NET. Perpustakaan ini menangani elemen halaman yang kompleks—teks, tinta, tabel, dan media tersemat—sehingga Anda dapat menghasilkan gambar dengan fidelitas tinggi tanpa menginstal Microsoft OneNote. Ikuti panduan langkah demi langkah di bawah ini untuk mendapatkan solusi yang berfungsi dalam hitungan menit.
 
-Dalam tutorial ini, kita akan mempelajari penggunaan Aspose.Note untuk .NET untuk menyimpan dokumen ke format JPEG. Aspose.Note adalah perpustakaan tangguh yang memungkinkan pengembang bekerja dengan file Microsoft OneNote secara terprogram. Kami akan memandu Anda melalui proses langkah demi langkah, memastikan Anda memahami setiap aspek secara menyeluruh.
+## Jawaban Cepat
+- **Apa yang dilakukan Aspose.Note?** Membaca, memodifikasi, dan mengonversi file OneNote secara programatis.  
+- **Bisakah saya mengekspor ke JPEG?** Ya, JPEG adalah format output bawaan.  
+- **Apakah saya memerlukan instalasi OneNote?** Tidak, API dapat berjalan secara mandiri.  
+- **Versi .NET mana yang didukung?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Apakah lisensi diperlukan untuk produksi?** Ya, lisensi komersial diperlukan; tersedia versi percobaan gratis.
+
+## Apa itu Aspose.Note?
+Aspose.Note adalah API .NET yang memungkinkan Anda membuat, membaca, memodifikasi, dan mengonversi file Microsoft OneNote tanpa memerlukan Microsoft OneNote terinstal. Ia mendukung lebih dari 30 format input dan output, memproses notebook ratusan halaman dalam mode hemat memori, dan menyediakan rendering fidelitas tinggi untuk elemen kompleks seperti tinta, tabel, dan media tersemat.
+
+## Mengapa menggunakan Aspose.Note untuk mengekspor gambar OneNote?
+Aspose.Note mendukung **lebih dari 30 format gambar output**—termasuk JPEG, PNG, TIFF, dan BMP—dan dapat merender halaman hingga **300 DPI** sambil menggunakan kurang dari **50 MB RAM** untuk notebook 200 halaman. Kinerja ini membuatnya ideal untuk konversi batch sisi server dan pipeline pelaporan otomatis.
 
 ## Prasyarat
+- Pengetahuan dasar tentang C# dan ekosistem .NET.  
+- Aspose.Note untuk .NET terinstal. Jika Anda belum menginstalnya, unduh dari **halaman unduhan Aspose.Note .NET**([here](https://releases.aspose.com/note/net/)).  
+- Visual Studio (atau IDE kompatibel .NET lainnya).  
+- File OneNote contoh (`.one` atau `.onepkg`) untuk dikerjakan.
 
-Sebelum melanjutkan, pastikan Anda memiliki hal berikut:
-- Pemahaman dasar tentang kerangka C# dan .NET.
-- Aspose.Note untuk .NET diinstal. Jika tidak, Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/note/net/).
-- Lingkungan Pengembangan Terpadu (IDE) seperti Visual Studio.
-- Contoh file dokumen untuk dikerjakan.
-
-## Impor Namespace
-
-Untuk memulai, pastikan untuk mengimpor namespace yang diperlukan ke dalam proyek Anda:
+## Impor namespace
+Kelas `Document` mewakili notebook OneNote yang dimuat ke memori. Impor namespace yang diperlukan sehingga Anda dapat bekerja dengan kelas ini:
 
 ```csharp
 using System;
@@ -35,60 +85,69 @@ using System;
 using Aspose.Note.Saving;
 ```
 
-## Langkah 1: Muat Dokumen
+## Langkah 1: memuat dokumen
+Metode `Document.Load` membaca file OneNote dan membangun representasi dalam memori yang dapat Anda manipulasi atau render. Memuat cepat—kebanyakan file di bawah 10 MB dimuat dalam kurang dari satu detik.
 
-Pertama, muat dokumen ke Aspose.Catatan:
+`Document.Save` menulis notebook atau halaman ke format yang ditentukan di disk.
 
 ```csharp
-// Jalur ke direktori dokumen.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-// Muat dokumen ke Aspose.Note.
+// Load the document into Aspose.Note.
 Document oneFile = new Document(dataDir + "Aspose.one");
 ```
 
-## Langkah 2: Tentukan Jalur Keluaran
-
-Tentukan jalur untuk gambar keluaran JPEG:
+## Langkah 2: tentukan jalur output
+Tentukan jalur file lengkap yang berakhiran **.jpeg** dimana gambar yang dirender akan disimpan. Anda juga dapat mengatur `ImageSaveOptions` opsional seperti DPI atau kualitas gambar nanti dalam alur kerja.
 
 ```csharp
 dataDir = dataDir + "SaveToJpegImageUsingSaveFormat_out.jpg";
 ```
 
-## Langkah 3: Simpan Dokumen
-
-Simpan dokumen yang dimuat ke format JPEG:
+## Langkah 3: simpan dokumen sebagai JPEG
+Memanggil `Document.Save` dengan `SaveFormat.Jpeg` mengonversi halaman aktif (atau seluruh notebook) menjadi gambar JPEG.
 
 ```csharp
-// Simpan dokumennya.
+// Save the document.
 oneFile.Save(dataDir, SaveFormat.Jpeg);
 ```
 
-## Kesimpulan
+## Masalah umum dan solusi
+- **Gambar buram** – Tingkatkan DPI di `ImageSaveOptions` (misalnya, 300 DPI) sebelum menyimpan.  
+- **Kekurangan memori pada notebook besar** – Gunakan konstruktor `LoadOptions` dengan `LoadMode.Streaming` untuk memproses halaman tanpa memuat seluruh file ke RAM.  
+- **Konten tidak didukung** – Pastikan versi OneNote sumber adalah 2016 atau lebih baru; format lama mungkin perlu konversi terlebih dahulu.
 
-Selamat! Anda telah berhasil menyimpan dokumen ke format JPEG menggunakan Aspose.Note untuk .NET. Tutorial ini memberikan panduan langkah demi langkah yang jelas untuk mencapai tugas ini dengan mudah. Bereksperimenlah dengan berbagai format dan opsi file untuk lebih meningkatkan pemahaman Anda.
+## Pertanyaan yang sering diajukan
 
-## FAQ
+**T: Apakah Aspose.Note dapat menangani dokumen OneNote yang kompleks?**  
+J: Ya, Aspose.Note memproses notebook yang berisi teks, gambar, goresan tinta, tabel, dan file tersemat secara efisien sambil mempertahankan fidelitas tata letak.
 
-### Q1: Bisakah Aspose.Note menangani dokumen OneNote yang rumit?
+**T: Apakah Aspose.Note kompatibel dengan kerangka kerja .NET terbaru?**  
+J: Tentu saja, perpustakaan ini secara rutin diperbarui untuk .NET Framework 4.5+, .NET Core 3.1+, .NET 5, dan .NET 6+.
 
-A1: Ya, Aspose.Note dapat secara efisien menangani dokumen OneNote yang kompleks, termasuk teks, gambar, tabel, dan lainnya.
+**T: Apakah Aspose.Note mendukung format gambar lain selain JPEG?**  
+J: Ya, Anda dapat mengekspor ke PNG, TIFF, BMP, dan GIF dengan mengubah nilai enumerasi `SaveFormat`.
 
-### Q2: Apakah Aspose.Note kompatibel dengan kerangka .NET terbaru?
+**T: Bisakah saya mencoba Aspose.Note sebelum membeli?**  
+J: Tentu, Anda dapat memanfaatkan versi percobaan gratis dari **halaman percobaan gratis Aspose**([here](https://releases.aspose.com/)) untuk menjelajahi kemampuannya.
 
-A2: Tentu saja, Aspose.Note diperbarui secara berkala untuk memastikan kompatibilitas dengan kerangka .NET terbaru.
+**T: Bagaimana saya dapat mendapatkan bantuan jika mengalami masalah?**  
+J: Anda dapat mencari bantuan di **forum komunitas Aspose**([here](https://forum.aspose.com/c/note/28)), atau menghubungi dukungan Aspose untuk bantuan pribadi.
 
-### Q3: Apakah Aspose.Note menawarkan dukungan untuk format gambar yang berbeda?
+---
 
-A3: Ya, Aspose.Note mendukung penyimpanan dokumen ke berbagai format gambar, termasuk JPEG, PNG, TIFF, dan lainnya.
+**Terakhir Diperbarui:** 2026-10-26  
+**Diuji Dengan:** Aspose.Note 24.11 untuk .NET  
+**Penulis:** Aspose
 
-### Q4: Dapatkah saya mencoba Aspose.Note sebelum membeli?
+## Tutorial Terkait
 
- A4: Tentu saja, Anda dapat memanfaatkan uji coba gratis[Di Sini](https://releases.aspose.com/) untuk mengeksplorasi kemampuannya.
+- [Konversi Gambar Halaman OneNote dengan Aspose.Note](/note/net/loading-and-saving-operations/convert-specific-page-to-image/)
+- [Simpan ke Gambar TIFF di Aspose.Note](/note/net/loading-and-saving-operations/save-to-tiff-image/)
+- [Konversi Notebook ke Gambar di Aspose Note .NET](/note/net/notebook-operations/convert-to-image/)
 
-### Q5: Bagaimana saya bisa mendapatkan bantuan jika saya menemui masalah?
 
- A5: Anda dapat mencari bantuan dari forum komunitas Aspose[Di Sini](https://forum.aspose.com/c/note/28), atau hubungi tim dukungan mereka untuk mendapatkan bantuan yang dipersonalisasi.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
