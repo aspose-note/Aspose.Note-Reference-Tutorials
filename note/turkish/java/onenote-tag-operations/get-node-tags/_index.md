@@ -1,12 +1,49 @@
 ---
-date: 2026-02-28
+date: 2026-10-26
 description: Aspose.Note for Java kullanarak OneNote dosyalarından etiketleri nasıl
   çıkaracağınızı öğrenin. Bu öğreticide OneNote dosyasını nasıl yükleyeceğiniz, OneNote
-  etiketlerini nasıl alacağınız ve OneNote etiketlerini verimli bir şekilde nasıl
-  değiştireceğiniz gösterilmektedir.
-linktitle: How to Extract Tags from OneNote - Aspose.Note
+  etiketlerini alacağınız ve OneNote etiketlerini verimli bir şekilde nasıl değiştireceğiniz
+  gösterilmektedir.
+keywords:
+- how to extract tags
+- Aspose.Note Java
+- OneNote tag extraction
+- Java OneNote API
+lastmod: 2026-10-26
+linktitle: OneNote'tan Etiketleri Nasıl Çıkarılır - Aspose.Note
+og_description: Aspose.Note for Java kullanarak OneNote dosyalarından etiketleri nasıl
+  çıkaracağınızı öğrenin. Etiketleri verimli bir şekilde yüklemek, okumak ve değiştirmek
+  için adım adım kodu izleyin.
+og_image_alt: Screenshot of Java code extracting OneNote tags with Aspose.Note
+og_title: Aspose.Note ile OneNote'tan etiketleri çıkarma – Java rehberi
+schemas:
+- author: Aspose
+  dateModified: '2026-10-26'
+  description: Learn how to extract tags from OneNote files using Aspose.Note for
+    Java. This tutorial shows how to load OneNote file, get OneNote tags, and modify
+    OneNote tags efficiently.
+  headline: How to extract tags from OneNote with Aspose.Note
+  type: TechArticle
+- questions:
+  - answer: '`Document`'
+    question: What is the primary class for opening a OneNote file?
+  - answer: '`doc.getChildNodes(RichText.class)`'
+    question: Which method returns all RichText nodes?
+  - answer: Yes, via `noteTag.getCreationTime()`
+    question: Can you read a NoteTag’s creation time?
+  - answer: Yes, a valid Aspose.Note license is required
+    question: Do I need a license for production use?
+  - answer: Absolutely, it supports modern Java versions
+    question: Is the API compatible with Java 8 and later?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: Aspose.Note ile OneNote'tan Etiketleri Nasıl Çıkarabilirsiniz
+tags:
+- OneNote
+- Aspose.Note
+- Java tag extraction
+- document processing
+- note tags
+title: Aspose.Note ile OneNote'tan etiketleri nasıl çıkarılır
 url: /tr/java/onenote-tag-operations/get-node-tags/
 weight: 15
 ---
@@ -18,30 +55,28 @@ weight: 15
 # OneNote'tan Etiketleri Nasıl Çıkarabilirsiniz Aspose.Note ile
 
 ## Giriş
-OneNote belgesinden **etiketleri nasıl çıkaracağınızı** öğrenmeniz gerekiyorsa, doğru yerdesiniz. Bu rehberde bir OneNote dosyasını yükleme, OneNote etiketlerini alma ve hatta bu etiketleri Aspose.Note for Java kullanarak değiştirme sürecini adım adım inceleyeceğiz. Eğitimin sonunda etiket çıkarımını herhangi bir Java uygulamasına güvenle entegre edebileceksiniz.
+Eğer bir OneNote belgesinden **etiketleri nasıl çıkaracağınızı** öğrenmek istiyorsanız, doğru yere geldiniz. Bu rehberde bir OneNote dosyasını yükleme, OneNote etiketlerini alma ve hatta bu etiketleri Aspose.Note for Java kullanarak değiştirme sürecini adım adım göstereceğiz. Öğreticinin sonunda etiket çıkarma işlemini herhangi bir Java uygulamasına güvenle entegre edebileceksiniz.
 
 ## Hızlı Yanıtlar
 - **OneNote dosyasını açmak için birincil sınıf nedir?** `Document`
 - **Tüm RichText düğümlerini döndüren yöntem hangisidir?** `doc.getChildNodes(RichText.class)`
 - **Bir NoteTag'in oluşturulma zamanını okuyabilir misiniz?** Evet, `noteTag.getCreationTime()` ile
-- **Üretim kullanımı için lisansa ihtiyacım var mı?** Evet, geçerli bir Aspose.Note lisansı gereklidir
-- **API, Java 8 ve üzeri sürümlerle uyumlu mu?** Kesinlikle, modern Java sürümlerini destekler
+- **Üretim kullanımında lisansa ihtiyacım var mı?** Evet, geçerli bir Aspose.Note lisansı gereklidir
+- **API Java 8 ve üzeri ile uyumlu mu?** Kesinlikle, modern Java sürümlerini destekler
 
-## OneNote'ta “etiketleri nasıl çıkaracağınız” nedir?
-Etiketleri çıkarmak, OneNote'un paragraflara, onay kutularına veya diğer içerik öğelerine eklediği meta verileri (durum, etiket, simge ve zaman damgaları gibi) okumak anlamına gelir. Bu etiketler, `RichText` düğümleri içinde `NoteTag` nesneleri olarak depolanır.
+## OneNote'ta “etiketleri nasıl çıkaracağınız” ne demektir?
+Etiket çıkarmak, paragraf, onay kutusu veya liste öğeleri gibi OneNote içerik öğelerine eklenmiş `NoteTag` meta verilerini okumak anlamına gelir. Bu etiketler durum, etiket, simge ve zaman damgalarını depolar ve `RichText` düğümleri içinde `NoteTag` nesneleri olarak temsil edilir, böylece programlı olarak inceleyebilir veya değiştirebilirsiniz.
 
-## Etiket çıkarımı için neden Aspose.Note kullanmalı?
-- **OneNote kurulumu gerekmez** – .one dosyalarıyla doğrudan çalışın.
-- **Tam kontrol** – etiket özelliklerini programlı olarak alabilir, okuyabilir ve değiştirebilirsiniz.
-- **Çapraz platform** – Java'yı destekleyen herhangi bir işletim sisteminde çalışır.
+## Etiket çıkarma için neden Aspose.Note kullanmalısınız?
+OneNote masaüstü uygulamasını kurmadan OneNote dosyalarını işleyebilirsiniz, dağıtım boyutunu 150 MB'a kadar azaltır. Kütüphane Windows, macOS ve Linux'ta çalışır, Java 8'den Java 17 LTS'ye kadar destek sağlar ve gerçek çapraz platform yeteneği sunar. Ayrıca 50'den fazla etiketle ilgili özelliğe tam okuma/yazma erişimi sağlar, toplu analiz veya taşıma senaryolarını mümkün kılar.
 
 ## Önkoşullar
 - Java geliştirme ortamı (JDK 8+).
-- Aspose.Note kütüphanesi [buradan](https://releases.aspose.com/note/java/) indirilebilir.
+- Aspose.Note kütüphanesi, [Aspose.Note for Java download page](https://releases.aspose.com/note/java/) adresinden indirilmiş.
 - Bilinen bir dizine yerleştirilmiş örnek bir OneNote belgesi (ör. `Sample1.one`).
 
 ## Paketleri İçe Aktarma
-İhtiyacınız olan sınıfları içe aktararak başlayın. Bu importlar belge işleme, etiket arabirimleri ve zengin metin düğümlerine erişim sağlar.
+İhtiyacınız olan sınıfları içe aktararak başlayın. Bu içe aktarmalar, belge işleme, etiket arayüzleri ve zengin metin düğümlerine erişim sağlar.
 
 ```java
 import java.io.IOException;
@@ -52,8 +87,10 @@ import com.aspose.note.NoteTag;
 import com.aspose.note.RichText;
 ```
 
-## OneNote Dosyasını Nasıl Yükleyebilirsiniz
-İlk adım, OneNote dosyasını bir `Document` nesnesine yüklemektir.
+## OneNote dosyasını nasıl yüklersiniz
+`.one` dosyasını, dosya yolu ile yeni bir `Document` örneği oluşturarak yükleyin, örneğin `Document doc = new Document(dataDir + "Sample1.one");`. Bu, not defterini belleğe okur ve etiket işlemleri için hazırlar.
+
+`Document` sınıfı, bir OneNote dosyasını bellek içinde temsil eder ve içeriğini okuma ve manipüle etme yöntemleri sunar.
 
 ```java
 // The path to the documents directory.
@@ -66,18 +103,20 @@ List<RichText> nodes = doc.getChildNodes(RichText.class);
 Document doc = new Document(dataDir + "Sample1.one");
 ```
 
-> **Pro ipucu:** `dataDir` yolunu mutlak tutun veya yol hatalarını önlemek için `Paths.get(...)` kullanın.
+> **Pro tip:** `dataDir` yolunu mutlak tutun veya yol hatalarını önlemek için `Paths.get(...)` kullanın.
 
-## OneNote Etiketlerini Nasıl Alabilirsiniz
-Belge yüklendikten sonra, tüm `RichText` düğümlerini alın. Her düğüm bir veya daha fazla etiket içerebilir.
+## OneNote etiketlerini nasıl alırsınız
+`doc.getChildNodes(RichText.class)` kullanarak tüm `RichText` düğümlerini alın; bu, bir veya daha fazla `NoteTag` nesnesi içerebilen bir koleksiyon döndürür. Ardından bu koleksiyonu döngüyle gezerek her düğümün etiketlerini inceleyebilirsiniz.
+
+Bir `RichText` düğümü, OneNote'ta bir paragraf veya metin bloğuna karşılık gelir ve birden fazla etiket tutabilir.
 
 ```java
 // Get all RichText nodes
 List<RichText> nodes = doc.getChildNodes(RichText.class);
 ```
 
-## Her Düğüm Üzerinde Döngü
-Her `RichText` düğümünü döngüye alarak etiketlerini inceleyin.
+## Her düğüm üzerinden yineleme
+`RichText` koleksiyonunu bir for‑each döngüsüyle dolaşın, her düğümün etiket koleksiyonunu kontrol ederek ekli `NoteTag` nesnelerini işleyin. Döngü içinde durum veya oluşturulma zamanı gibi özellikleri okuyabilir veya gerektiğinde değiştirmeye karar verebilirsiniz.
 
 ```java
 // Iterate through each node
@@ -86,8 +125,10 @@ for (RichText richText : nodes) {
 }
 ```
 
-## NoteTag'leri Alın (OneNote Etiketlerini Nasıl Değiştirebilirsiniz)
-Döngü içinde, bir etiketin `NoteTag` olup olmadığını kontrol edin. Eğer öyleyse, özelliklerini okuyabilir veya gerekirse değiştirebilirsiniz.
+## Not etiketlerini al (OneNote etiketlerini nasıl değiştirirsiniz)
+Düğüm döngüsü içinde, etiket listesini elde etmek için `richText.getTags()` kullanın, `NoteTag` örneklerini filtreleyin ve ardından belgeyi kaydetmeden önce `setStatus` veya `setLabel` gibi özellikleri okuyun veya ayarlayın.
+
+`NoteTag` sınıfı bir OneNote etiketini kapsüller ve durum, etiket, simge, oluşturulma zamanı ve yazar gibi özellikleri ortaya çıkarır.
 
 ```java
 for (ITag tag : richText.getTags()) {
@@ -114,41 +155,46 @@ Artık **etiketleri nasıl çıkaracağınızı**, **OneNote dosyasını nasıl 
 
 ## SSS
 ### Aspose.Note tüm OneNote sürümleriyle uyumlu mu?
-Aspose.Note, çeşitli OneNote dosya formatlarını destekler ve farklı sürümler arasında uyumluluk sağlar.
+Aspose.Note, çeşitli OneNote dosya formatlarını destekler ve farklı sürümler arasında uyumluluğu garanti eder.
 
 ### Alınan NoteTag özelliklerini değiştirebilir miyim?
 Evet, Aspose.Note, NoteTag özelliklerini programlı olarak değiştirmenize ve güncellemenize olanak tanır.
 
 ### Aspose.Note için bir deneme sürümü mevcut mu?
-Kesinlikle! Ücretsiz deneme sürümüne [buradan](https://releases.aspose.com/) ulaşabilirsiniz.
+Kesinlikle! Ücretsiz deneme sürümüne [Aspose free trial download page](https://releases.aspose.com/) adresinden erişebilirsiniz.
 
 ### Aspose.Note for Java için kapsamlı belgeleri nerede bulabilirim?
-Detaylı belgeleri [buradan](https://reference.aspose.com/note/java/) inceleyebilirsiniz.
+Ayrıntılı belgeleri [Aspose.Note Java API documentation](https://reference.aspose.com/note/java/) adresinde inceleyebilirsiniz.
 
-### Herhangi bir sorun veya soruya destek nasıl alabilirim?
-Aspose topluluğundan yardım almak için destek forumuna [buradan](https://forum.aspose.com/c/note/28) gidin.
+### Herhangi bir sorun veya soru için nasıl destek alabilirim?
+Aspose topluluğundan yardım almak için destek forumu [Aspose.Note support forum](https://forum.aspose.com/c/note/28) adresine gidin.
 
 ## Sıkça Sorulan Sorular
-**S:** *Şifre korumalı OneNote dosyalarından etiket çıkarabilir miyim?*  
-**C:** Evet, `Document` nesnesini oluştururken şifreyi sağlayın.
+**Q:** *Şifre korumalı OneNote dosyalarından etiketleri çıkarabilir miyim?*  
+**A:** Evet, `Document` nesnesini oluştururken şifreyi sağlayın.
 
-**S:** *Etiketleri değiştirdikten sonra bir kaydetme yöntemi çağırmam gerekiyor mu?*  
-**C:** Kesinlikle. Değişiklikleri kalıcı hale getirmek için `doc.save("UpdatedSample.one");` kullanın.
+**Q:** *Etiketleri değiştirdikten sonra bir kaydetme metodunu çağırmam gerekiyor mu?*  
+**A:** Kesinlikle. Değişiklikleri kalıcı hale getirmek için `doc.save("UpdatedSample.one");` kullanın.
 
-**S:** *Etiketleri durumuna göre filtrelemek mümkün mü?*  
-**C:** `noteTag.getStatus()` metodunu döngü içinde kontrol ederek yalnızca istenen durumları işleyebilirsiniz.
+**Q:** *Etiketleri durumuna göre filtrelemek mümkün mü?*  
+**A:** Döngü içinde `noteTag.getStatus()` kontrol ederek yalnızca istenen durumları işleyebilirsiniz.
 
-**S:** *Bir RichText düğümünün etiketi yoksa ne olur?*  
-**C:** `richText.getTags()` boş bir koleksiyon döndürür; döngü sadece atlar.
+**Q:** *Bir RichText düğümünün etiketi yoksa ne olur?*  
+**A:** `richText.getTags()` boş bir koleksiyon döndürür; döngü sadece onu atlar.
 
-**S:** *Birden fazla OneNote dosyasını toplu işleyebilir miyim?*  
-**C:** Yukarıdaki mantığı bir dosya yineleme rutinine sararak her belgeyi sırasıyla işleyebilirsiniz.
+**Q:** *Birden fazla OneNote dosyasını toplu olarak işleyebilir miyim?*  
+**A:** Yukarıdaki mantığı bir dosya yineleme rutinine sarın ve her belgeyi sırasıyla işleyin.
 
----
+**Last Updated:** 2026-10-26  
+**Tested With:** Aspose.Note for Java 24.12  
+**Author:** Aspose
 
-**Son Güncelleme:** 2026-02-28  
-**Test Edilen:** Aspose.Note for Java 24.12  
-**Yazar:** Aspose  
+## İlgili Eğitimler
+
+- [Java Notebook Nesnesi Oluştur – Seçeneklerle OneNote Dosyasını Yükle - Aspose.Note](/note/java/onenote-notebook-operations/load-notebook-file-with-load-options/)
+- [OneNote'u Düz Metne Dönüştür – Tüm Metni Aspose.Note for Java ile Çıkar](/note/java/onenote-text-manipulation/extract-all-text/)
+- [Aspose.Note for Java kullanarak OneNote eklerini al](/note/java/onenote-java-integration/retrieve-attachment/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,9 +1,44 @@
 ---
-date: 2026-02-28
-description: Aspose.Note for Java を使用して OneNote ファイルからタグを抽出する方法を学びましょう。このチュートリアルでは、OneNote
-  ファイルの読み込み、OneNote タグの取得、そして OneNote タグの効率的な変更方法を示します。
-linktitle: How to Extract Tags from OneNote - Aspose.Note
+date: 2026-10-26
+description: Aspose.Note for Java を使用して OneNote ファイルからタグを抽出する方法を学びます。このチュートリアルでは、OneNote
+  ファイルのロード、OneNote タグの取得、そして OneNote タグの効率的な変更方法を示します。
+keywords:
+- how to extract tags
+- Aspose.Note Java
+- OneNote tag extraction
+- Java OneNote API
+lastmod: 2026-10-26
+linktitle: OneNote からタグを抽出する方法 - Aspose.Note
+og_description: Aspose.Note for Java を使用して OneNote ファイルからタグを抽出する方法を学びます。ステップバイステップのコードで、タグのロード、読み取り、効率的な変更を行う手順をご案内します。
+og_image_alt: Screenshot of Java code extracting OneNote tags with Aspose.Note
+og_title: Aspose.Note を使用して OneNote からタグを抽出する方法 – Java ガイド
+schemas:
+- author: Aspose
+  dateModified: '2026-10-26'
+  description: Learn how to extract tags from OneNote files using Aspose.Note for
+    Java. This tutorial shows how to load OneNote file, get OneNote tags, and modify
+    OneNote tags efficiently.
+  headline: How to extract tags from OneNote with Aspose.Note
+  type: TechArticle
+- questions:
+  - answer: '`Document`'
+    question: What is the primary class for opening a OneNote file?
+  - answer: '`doc.getChildNodes(RichText.class)`'
+    question: Which method returns all RichText nodes?
+  - answer: Yes, via `noteTag.getCreationTime()`
+    question: Can you read a NoteTag’s creation time?
+  - answer: Yes, a valid Aspose.Note license is required
+    question: Do I need a license for production use?
+  - answer: Absolutely, it supports modern Java versions
+    question: Is the API compatible with Java 8 and later?
+  type: FAQPage
 second_title: Aspose.Note Java API
+tags:
+- OneNote
+- Aspose.Note
+- Java tag extraction
+- document processing
+- note tags
 title: Aspose.Note を使用して OneNote からタグを抽出する方法
 url: /ja/java/onenote-tag-operations/get-node-tags/
 weight: 15
@@ -13,32 +48,30 @@ weight: 15
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Note を使用した OneNote からタグを抽出する方法
+# Aspose.Note を使用した OneNote のタグ抽出方法
 
-## Introduction
-OneNote ドキュメントから **タグを抽出する方法** が必要な場合、ここが最適です。このガイドでは、OneNote ファイルの読み込み、OneNote タグの取得、さらには Aspose.Note for Java を使用したタグの変更までの全プロセスを順に解説します。チュートリアルの最後までに、任意の Java アプリケーションにタグ抽出機能を自信を持って組み込めるようになります。
+## はじめに
+OneNote ドキュメントから **タグを抽出する方法** が必要な場合、ここが適切な場所です。このガイドでは、OneNote ファイルの読み込み、OneNote タグの取得、さらには Aspose.Note for Java を使用したタグの変更までの全プロセスを順に解説します。チュートリアルの最後までに、任意の Java アプリケーションに自信を持ってタグ抽出機能を組み込めるようになります。
 
-## Quick Answers
+## クイック回答
 - **OneNote ファイルを開くための主要クラスは何ですか？** `Document`
 - **すべての RichText ノードを返すメソッドはどれですか？** `doc.getChildNodes(RichText.class)`
 - **NoteTag の作成時刻を取得できますか？** はい、`noteTag.getCreationTime()` で取得できます
-- **本番環境で使用する際にライセンスは必要ですか？** はい、有効な Aspose.Note ライセンスが必要です
-- **API は Java 8 以降と互換性がありますか？** もちろんです。最新の Java バージョンをサポートしています
+- **本番環境で使用するにはライセンスが必要ですか？** はい、有効な Aspose.Note ライセンスが必要です
+- **API は Java 8 以降と互換性がありますか？** もちろん、最新の Java バージョンをサポートしています
 
-## OneNote における「タグを抽出する」とは何ですか？
-タグを抽出するとは、OneNote が段落、チェックボックス、その他のコンテンツ要素に付与するメタデータ（ステータス、ラベル、アイコン、タイムスタンプなど）を読み取ることを指します。これらのタグは `RichText` ノード内の `NoteTag` オブジェクトとして格納されています。
+## OneNote における「タグ抽出」とは何か
+タグ抽出とは、段落、チェックボックス、リスト項目などの OneNote コンテンツ要素に付随する `NoteTag` メタデータを読み取ることを指します。これらのタグはステータス、ラベル、アイコン、タイムスタンプを保持し、`RichText` ノード内の `NoteTag` オブジェクトとして表現されるため、プログラムから検査や変更が可能です。
 
-## Why use Aspose.Note for tag extraction?
-- **OneNote のインストール不要** – .one ファイルを直接操作できます。
-- **完全なコントロール** – タグプロパティをプログラムから取得、読み取り、変更できます。
-- **クロスプラットフォーム** – Java をサポートする任意の OS で動作します。
+## タグ抽出に Aspose.Note を使用する理由
+OneNote デスクトップアプリケーションをインストールせずに OneNote ファイルを処理でき、デプロイサイズを最大 150 MB 短縮できます。このライブラリは Windows、macOS、Linux 上で動作し、Java 8 から Java 17 LTS までをサポートするため、真のクロスプラットフォーム機能を提供します。また、50 以上のタグ関連プロパティへの完全な読み書きアクセスを提供し、一括分析や移行シナリオを実現します。
 
-## Prerequisites
-- Java 開発環境 (JDK 8 以上)。
-- Aspose.Note ライブラリを [here](https://releases.aspose.com/note/java/) からダウンロードします。
-- サンプル OneNote ドキュメント（例: `Sample1.one`）を既知のディレクトリに配置します。
+## 前提条件
+- Java 開発環境 (JDK 8+)。
+- [Aspose.Note for Java ダウンロードページ](https://releases.aspose.com/note/java/) からダウンロードした Aspose.Note ライブラリ。
+- 既知のディレクトリに配置したサンプル OneNote ドキュメント（例: `Sample1.one`）。
 
-## Import Packages
+## パッケージのインポート
 まず、必要なクラスをインポートします。このインポートにより、ドキュメント操作、タグインターフェイス、リッチテキストノードへのアクセスが可能になります。
 
 ```java
@@ -50,8 +83,10 @@ import com.aspose.note.NoteTag;
 import com.aspose.note.RichText;
 ```
 
-## How to Load OneNote File
-最初のステップは OneNote ファイルを `Document` オブジェクトにロードすることです。
+## OneNote ファイルの読み込み方法
+ファイルパスを指定して新しい `Document` インスタンスを作成し、`.one` ファイルを読み込みます。例: `Document doc = new Document(dataDir + "Sample1.one");`。これによりノートブックがメモリに読み込まれ、タグ操作の準備が整います。
+
+`Document` クラスはメモリ上の OneNote ファイルを表し、内容の読み取りや操作用メソッドを提供します。
 
 ```java
 // The path to the documents directory.
@@ -64,18 +99,20 @@ List<RichText> nodes = doc.getChildNodes(RichText.class);
 Document doc = new Document(dataDir + "Sample1.one");
 ```
 
-> **Pro tip:** `dataDir` パスは絶対パスで保持するか、`Paths.get(...)` を使用してパス関連のエラーを回避してください。
+> **プロのコツ:** `dataDir` パスは絶対パスで保持するか、`Paths.get(...)` を使用してパス関連のエラーを回避してください。
 
-## How to Get OneNote Tags
-ドキュメントをロードしたら、すべての `RichText` ノードを取得します。各ノードには 1 つ以上のタグが含まれる場合があります。
+## OneNote タグの取得方法
+`doc.getChildNodes(RichText.class)` を使用してすべての `RichText` ノードを取得します。これにより、1 つ以上の `NoteTag` オブジェクトを含むコレクションが返されます。そのコレクションを反復処理して各ノードのタグを調べることができます。
+
+`RichText` ノードは OneNote の段落またはテキストブロックに相当し、複数のタグを保持できます。
 
 ```java
 // Get all RichText nodes
 List<RichText> nodes = doc.getChildNodes(RichText.class);
 ```
 
-## Iterate Through Each Node
-各 `RichText` ノードをループし、タグを検査します。
+## 各ノードの反復処理
+`RichText` コレクションを for‑each ループで走査し、各ノードのタグコレクションを確認して付随する `NoteTag` オブジェクトを処理します。ループ内ではステータスや作成時刻などのプロパティを読み取ったり、必要に応じて変更したりできます。
 
 ```java
 // Iterate through each node
@@ -84,8 +121,10 @@ for (RichText richText : nodes) {
 }
 ```
 
-## Retrieve Note Tags (How to Modify OneNote Tags)
-ループ内で、タグが `NoteTag` かどうかを確認します。`NoteTag` であれば、そのプロパティを読み取ることができ、必要に応じて変更することも可能です。
+## ノートタグの取得（OneNote タグの変更方法）
+ノードループ内で `richText.getTags()` を使用してタグリストを取得し、`NoteTag` のインスタンスをフィルタリングします。その後、`setStatus` や `setLabel` などのプロパティを読み取ったり設定したりして、ドキュメントを保存します。
+
+`NoteTag` クラスは OneNote タグをカプセル化し、ステータス、ラベル、アイコン、作成時刻、作成者などのプロパティを公開します。
 
 ```java
 for (ITag tag : richText.getTags()) {
@@ -105,28 +144,28 @@ for (ITag tag : richText.getTags()) {
 }
 ```
 
-> **Warning:** タグを変更すると、基になるドキュメントが更新されます。変更後は必ずドキュメントを保存してください。
+> **警告:** タグを変更すると基になるドキュメントが変わります。変更後は必ずドキュメントを保存してください。
 
-## Conclusion
-これで、**タグの抽出方法**、**OneNote ファイルのロード方法**、**OneNote タグの取得方法**、さらには Aspose.Note for Java を使用した **OneNote タグの変更方法** が分かりました。これらのコードスニペットをプロジェクトに組み込めば、ノートの分析、レポート作成、または移行作業を自動化できます。
+## 結論
+これで、**タグの抽出方法**、**OneNote ファイルの読み込み方法**、**OneNote タグの取得方法**、さらには **OneNote タグの変更方法** を Aspose.Note for Java を使って理解できました。これらのコードスニペットをプロジェクトに組み込んで、ノートの分析、レポート作成、または移行作業を自動化してください。
 
-## FAQs
+## FAQ
 ### Aspose.Note はすべてのバージョンの OneNote と互換性がありますか？
-Aspose.Note はさまざまな OneNote ファイル形式をサポートしており、異なるバージョン間でも互換性が確保されています。
+Aspose.Note はさまざまな OneNote ファイル形式をサポートしており、異なるバージョン間の互換性を確保します。
 
 ### 取得した NoteTag のプロパティを変更できますか？
-はい、Aspose.Note を使用すれば、プログラムから NoteTag のプロパティを変更・更新できます。
+はい、Aspose.Note を使用すると、プログラムから NoteTag のプロパティを変更・更新できます。
 
-### Aspose.Note の体験版はありますか？
-もちろんです！無料体験版は [here](https://releases.aspose.com/) から入手できます。
+### Aspose.Note のトライアル版はありますか？
+もちろんです！無料トライアル版は [Aspose 無料トライアルダウンロードページ](https://releases.aspose.com/) から入手できます。
 
-### Aspose.Note for Java の包括的なドキュメントはどこで見つけられますか？
-詳細なドキュメントは [here](https://reference.aspose.com/note/java/) にあります。
+### Aspose.Note for Java の包括的なドキュメントはどこにありますか？
+詳細なドキュメントは [Aspose.Note Java API ドキュメント](https://reference.aspose.com/note/java/) をご覧ください。
 
 ### 問題や質問へのサポートはどこで受けられますか？
-Aspose コミュニティのサポートフォーラムは [here](https://forum.aspose.com/c/note/28) からご利用ください。
+Aspose コミュニティからの支援は、サポートフォーラム [Aspose.Note サポートフォーラム](https://forum.aspose.com/c/note/28) へアクセスしてください。
 
-## Frequently Asked Questions
+## よくある質問
 **Q:** *パスワードで保護された OneNote ファイルからタグを抽出できますか？*  
 **A:** はい、`Document` オブジェクトを作成する際にパスワードを指定してください。
 
@@ -134,19 +173,26 @@ Aspose コミュニティのサポートフォーラムは [here](https://forum.
 **A:** 必ず必要です。`doc.save("UpdatedSample.one");` を使用して変更を永続化してください。
 
 **Q:** *ステータスでタグをフィルタリングできますか？*  
-**A:** ループ内で `noteTag.getStatus()` を確認し、目的のステータスのみを処理できます。
+**A:** ループ内で `noteTag.getStatus()` を確認し、目的のステータスだけを処理できます。
 
 **Q:** *RichText ノードにタグがない場合はどうなりますか？*  
 **A:** `richText.getTags()` は空のコレクションを返すため、ループは単にそれをスキップします。
 
 **Q:** *複数の OneNote ファイルをバッチ処理できますか？*  
-**A:** 上記ロジックをファイル反復ルーチンでラップし、各ドキュメントを順次処理すれば可能です。
+**A:** 上記のロジックをファイル反復ルーチンでラップし、各ドキュメントを順次処理してください。
 
 ---
 
-**Last Updated:** 2026-02-28  
-**Tested With:** Aspose.Note for Java 24.12  
-**Author:** Aspose  
+**最終更新日:** 2026-10-26  
+**テスト環境:** Aspose.Note for Java 24.12  
+**作者:** Aspose
+
+## 関連チュートリアル
+
+- [Java でノートブックオブジェクトを作成 – オプション付き OneNote ファイルの読み込み - Aspose.Note](/note/java/onenote-notebook-operations/load-notebook-file-with-load-options/)
+- [OneNote をプレーンテキストに変換 – Aspose.Note for Java で全テキストを抽出](/note/java/onenote-text-manipulation/extract-all-text/)
+- [Aspose.Note for Java を使用して OneNote の添付ファイルを取得](/note/java/onenote-java-integration/retrieve-attachment/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

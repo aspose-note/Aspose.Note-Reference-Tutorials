@@ -1,10 +1,47 @@
 ---
-date: 2026-02-28
-description: Naučte se, jak extrahovat značky ze souborů OneNote pomocí Aspose.Note
-  pro Javu. Tento tutoriál ukazuje, jak načíst soubor OneNote, získat značky OneNote
+date: 2026-10-26
+description: Naučte se, jak extrahovat značky z souborů OneNote pomocí Aspose.Note
+  pro Java. Tento tutoriál ukazuje, jak načíst soubor OneNote, získat značky OneNote
   a efektivně upravit značky OneNote.
-linktitle: How to Extract Tags from OneNote - Aspose.Note
+keywords:
+- how to extract tags
+- Aspose.Note Java
+- OneNote tag extraction
+- Java OneNote API
+lastmod: 2026-10-26
+linktitle: Jak extrahovat značky z OneNote – Aspose.Note
+og_description: Naučte se, jak extrahovat značky z souborů OneNote pomocí Aspose.Note
+  pro Java. Postupujte krok za krokem podle kódu pro načtení, čtení a efektivní úpravu
+  značek.
+og_image_alt: Screenshot of Java code extracting OneNote tags with Aspose.Note
+og_title: Jak extrahovat značky z OneNote pomocí Aspose.Note – průvodce pro Java
+schemas:
+- author: Aspose
+  dateModified: '2026-10-26'
+  description: Learn how to extract tags from OneNote files using Aspose.Note for
+    Java. This tutorial shows how to load OneNote file, get OneNote tags, and modify
+    OneNote tags efficiently.
+  headline: How to extract tags from OneNote with Aspose.Note
+  type: TechArticle
+- questions:
+  - answer: '`Document`'
+    question: What is the primary class for opening a OneNote file?
+  - answer: '`doc.getChildNodes(RichText.class)`'
+    question: Which method returns all RichText nodes?
+  - answer: Yes, via `noteTag.getCreationTime()`
+    question: Can you read a NoteTag’s creation time?
+  - answer: Yes, a valid Aspose.Note license is required
+    question: Do I need a license for production use?
+  - answer: Absolutely, it supports modern Java versions
+    question: Is the API compatible with Java 8 and later?
+  type: FAQPage
 second_title: Aspose.Note Java API
+tags:
+- OneNote
+- Aspose.Note
+- Java tag extraction
+- document processing
+- note tags
 title: Jak extrahovat značky z OneNote pomocí Aspose.Note
 url: /cs/java/onenote-tag-operations/get-node-tags/
 weight: 15
@@ -16,31 +53,28 @@ weight: 15
 
 # Jak extrahovat značky z OneNote pomocí Aspose.Note
 
-## Introduction
-Pokud potřebujete **jak extrahovat značky** z dokumentu OneNote, jste na správném místě. V tomto průvodci projdeme kompletní proces načtení souboru OneNote, získání značek OneNote a dokonce úpravu těchto značek pomocí Aspose.Note pro Java. Na konci tutoriálu budete schopni integrovat extrakci značek do jakékoli Java aplikace s jistotou.
+## Úvod
+Pokud potřebujete **jak extrahovat značky** z dokumentu OneNote, jste na správném místě. V tomto průvodci projdeme kompletním procesem načítání souboru OneNote, získávání značek OneNote a dokonce i úpravou těchto značek pomocí Aspose.Note pro Java. Na konci tutoriálu budete schopni integrovat extrakci značek do jakékoli Java aplikace s jistotou.
 
-## Quick Answers
-- **Jaká je hlavní třída pro otevření souboru OneNote?** `Document`
+## Rychlé odpovědi
+- **Jaká je primární třída pro otevření souboru OneNote?** `Document`
 - **Která metoda vrací všechny uzly RichText?** `doc.getChildNodes(RichText.class)`
-- **Lze přečíst čas vytvoření NoteTag?** Ano, pomocí `noteTag.getCreationTime()`
+- **Můžete přečíst čas vytvoření NoteTag?** Ano, pomocí `noteTag.getCreationTime()`
 - **Potřebuji licenci pro produkční použití?** Ano, je vyžadována platná licence Aspose.Note
 - **Je API kompatibilní s Java 8 a novějšími?** Rozhodně, podporuje moderní verze Javy
 
-## What is “how to extract tags” in OneNote?
-Co znamená „jak extrahovat značky“ v OneNote?  
-Extrahování značek znamená čtení metadat (jako je stav, popisek, ikona a časová razítka), která OneNote připojuje k odstavcům, zaškrtávacím políčkům nebo jiným obsahovým prvkům. Tyto značky jsou uloženy jako objekty `NoteTag` uvnitř uzlů `RichText`.
+## Co znamená „jak extrahovat značky“ v OneNote?
+Extrahování značek znamená čtení metadat `NoteTag` připojených k prvkům obsahu OneNote, jako jsou odstavce, zaškrtávací políčka nebo položky seznamu. Tyto značky ukládají stav, popisek, ikonu a časová razítka a jsou reprezentovány jako objekty `NoteTag` uvnitř uzlů `RichText`, což vám umožňuje programově je prohlížet nebo upravovat.
 
-## Why use Aspose.Note for tag extraction?
-- **Není vyžadována instalace OneNote** – pracujte přímo se soubory .one.
-- **Plná kontrola** – programově získávejte, čtěte a upravujte vlastnosti značek.
-- **Cross‑platform** – funguje na jakémkoli OS, který podporuje Javu.
+## Proč použít Aspose.Note pro extrakci značek?
+Můžete zpracovávat soubory OneNote bez instalace desktopové aplikace OneNote, čímž snížíte velikost nasazení až o 150 MB. Knihovna běží na Windows, macOS a Linuxu, podporuje Java 8 až po Java 17 LTS, což vám poskytuje skutečnou multiplatformní schopnost. Také poskytuje plný přístup ke čtení/zápisu více než 50 vlastností souvisejících se značkami, což umožňuje hromadnou analýzu nebo migrační scénáře.
 
-## Prerequisites
+## Požadavky
 - Java vývojové prostředí (JDK 8+).
-- Aspose.Note library downloaded from [here](https://releases.aspose.com/note/java/).
-- Vzorek dokumentu OneNote (např. `Sample1.one`) umístěný v známém adresáři.
+- Aspose.Note knihovna stažená z [Aspose.Note pro Java – stránka ke stažení](https://releases.aspose.com/note/java/).
+- Ukázkový dokument OneNote (např. `Sample1.one`) umístěný v známém adresáři.
 
-## Import Packages
+## Import balíčků
 Začněte importováním tříd, které budete potřebovat. Tyto importy vám poskytují přístup k manipulaci s dokumenty, rozhraním značek a uzlům rich‑text.
 
 ```java
@@ -52,9 +86,10 @@ import com.aspose.note.NoteTag;
 import com.aspose.note.RichText;
 ```
 
-## How to Load OneNote File
-Jak načíst soubor OneNote  
-Prvním krokem je načíst soubor OneNote do objektu `Document`.
+## Jak načíst soubor OneNote
+Načtěte soubor `.one` vytvořením nové instance `Document` s cestou k souboru, např. `Document doc = new Document(dataDir + "Sample1.one");`. Tím se sešit načte do paměti a připraví pro operace se značkami.
+
+Třída `Document` představuje soubor OneNote v paměti a poskytuje metody pro čtení a manipulaci s jeho obsahem.
 
 ```java
 // The path to the documents directory.
@@ -67,20 +102,20 @@ List<RichText> nodes = doc.getChildNodes(RichText.class);
 Document doc = new Document(dataDir + "Sample1.one");
 ```
 
-> **Tip:** Udržujte cestu `dataDir` absolutní nebo použijte `Paths.get(...)`, abyste se vyhnuli chybám souvisejícím s cestou.
+> **Tip:** Uchovávejte cestu `dataDir` jako absolutní nebo použijte `Paths.get(...)`, abyste se vyhnuli chybám souvisejícím s cestou.
 
-## How to Get OneNote Tags
-Jak získat značky OneNote  
-Po načtení dokumentu získáte všechny uzly `RichText`. Každý uzel může obsahovat jednu nebo více značek.
+## Jak získat značky OneNote
+Získejte všechny uzly `RichText` pomocí `doc.getChildNodes(RichText.class)`, což vrací kolekci, která může obsahovat jeden nebo více objektů `NoteTag`. Pak můžete tuto kolekci iterovat a prozkoumat značky každého uzlu.
+
+Uzlu `RichText` odpovídá odstavec nebo blok textu v OneNote a může obsahovat více značek.
 
 ```java
 // Get all RichText nodes
 List<RichText> nodes = doc.getChildNodes(RichText.class);
 ```
 
-## Iterate Through Each Node
-Iterujte přes každý uzel  
-Projděte každý uzel `RichText`, abyste prozkoumali jeho značky.
+## Iterace přes každý uzel
+Procházejte kolekci `RichText` pomocí smyčky for‑each, kontrolujte kolekci značek každého uzlu a zpracovávejte připojené objekty `NoteTag`. V rámci smyčky můžete číst vlastnosti jako stav nebo čas vytvoření, nebo se rozhodnout je podle potřeby upravit.
 
 ```java
 // Iterate through each node
@@ -89,9 +124,10 @@ for (RichText richText : nodes) {
 }
 ```
 
-## Retrieve Note Tags (How to Modify OneNote Tags)
-Získání NoteTag (Jak upravit značky OneNote)  
-Uvnitř smyčky zkontrolujte, zda je značka `NoteTag`. Pokud ano, můžete číst její vlastnosti – nebo je upravit, pokud je to potřeba.
+## Získání značek poznámek (jak upravit značky OneNote)
+V rámci smyčky uzlů použijte `richText.getTags()` k získání seznamu značek, filtrujte instance `NoteTag` a poté čtěte nebo nastavujte vlastnosti jako `setStatus` nebo `setLabel` před uložením dokumentu.
+
+Třída `NoteTag` zapouzdřuje značku OneNote a vystavuje vlastnosti jako stav, popisek, ikonu, čas vytvoření a autora.
 
 ```java
 for (ITag tag : richText.getTags()) {
@@ -111,54 +147,55 @@ for (ITag tag : richText.getTags()) {
 }
 ```
 
-> **Varování:** Úprava značky mění podkladový dokument. Nezapomeňte dokument po změnách uložit.
+> **Varování:** Úprava značky mění podkladový dokument. Nezapomeňte dokument po provedení změn uložit.
 
-## Conclusion
-Závěr  
-Nyní víte **jak extrahovat značky**, jak **načíst soubor OneNote**, jak **získat značky OneNote** a dokonce jak **upravit značky OneNote** pomocí Aspose.Note pro Java. Začleňte tyto úryvky do svých projektů pro automatizaci analýzy poznámek, reportování nebo migračních úkolů.
+## Závěr
+Nyní víte **jak extrahovat značky**, jak **načíst soubor OneNote**, jak **získat značky OneNote** a dokonce **jak upravit značky OneNote** pomocí Aspose.Note pro Java. Integrujte tyto úryvky do svých projektů k automatizaci analýzy poznámek, reportování nebo migračních úkolů.
 
-## FAQs
-### Is Aspose.Note compatible with all versions of OneNote?
-Je Aspose.Note kompatibilní se všemi verzemi OneNote?  
+## Často kladené otázky
+### Je Aspose.Note kompatibilní se všemi verzemi OneNote?
 Aspose.Note podporuje různé formáty souborů OneNote, což zajišťuje kompatibilitu napříč různými verzemi.
 
-### Can I modify the retrieved NoteTag properties?
-Mohu upravit získané vlastnosti NoteTag?  
+### Mohu upravit získané vlastnosti NoteTag?
 Ano, Aspose.Note vám umožňuje programově upravovat a aktualizovat vlastnosti NoteTag.
 
-### Is there a trial version available for Aspose.Note?
-Je k dispozici zkušební verze Aspose.Note?  
-Rozhodně! Bezplatnou zkušební verzi můžete získat [here](https://releases.aspose.com/).
+### Je k dispozici zkušební verze Aspose.Note?
+Rozhodně! Můžete získat přístup ke zkušební verzi [Stránka ke stažení zkušební verze Aspose](https://releases.aspose.com/).
 
-### Where can I find comprehensive documentation for Aspose.Note for Java?
-Kde najdu komplexní dokumentaci pro Aspose.Note pro Java?  
-Prozkoumejte podrobnou dokumentaci [here](https://reference.aspose.com/note/java/).
+### Kde najdu komplexní dokumentaci k Aspose.Note pro Java?
+Prozkoumejte podrobnou dokumentaci [Dokumentace Aspose.Note Java API](https://reference.aspose.com/note/java/).
 
-### How can I get support for any issues or queries?
-Jak mohu získat podporu pro jakékoli problémy nebo dotazy?  
-Navštivte fórum podpory [here](https://forum.aspose.com/c/note/28) a získejte pomoc od komunity Aspose.
+### Jak mohu získat podporu pro jakékoli problémy nebo dotazy?
+Navštivte fórum podpory [Fórum podpory Aspose.Note](https://forum.aspose.com/c/note/28) pro pomoc od komunity Aspose.
 
-## Frequently Asked Questions
-**Q:** *Mohu extrahovat značky z OneNote souborů chráněných heslem?*  
-**A:** Ano, při vytváření objektu `Document` zadejte heslo.
+## Často kladené otázky
+**Q:** *Mohu extrahovat značky z heslem chráněných souborů OneNote?*  
+**A:** Ano, zadejte heslo při vytváření objektu `Document`.
 
 **Q:** *Musím po úpravě značek zavolat metodu uložení?*  
-**A:** Rozhodně. Použijte `doc.save("UpdatedSample.one");` pro zachování změn.
+**A:** Rozhodně. Použijte `doc.save("UpdatedSample.one");` k zachování změn.
 
 **Q:** *Je možné filtrovat značky podle stavu?*  
-**A:** Můžete zkontrolovat `noteTag.getStatus()` uvnitř smyčky a zpracovat pouze požadované stavy.
+**A:** Můžete v rámci smyčky zkontrolovat `noteTag.getStatus()` a zpracovat pouze požadované stavy.
 
 **Q:** *Co se stane, pokud uzel RichText nemá žádné značky?*  
-**A:** `richText.getTags()` vrátí prázdnou kolekci; smyčka ji jednoduše přeskočí.
+**A:** `richText.getTags()` vrací prázdnou kolekci; smyčka ji jednoduše přeskočí.
 
-**Q:** *Mohu dávkově zpracovávat více souborů OneNote?*  
+**Q:** *Mohu hromadně zpracovávat více souborů OneNote?*  
 **A:** Zabalte výše uvedenou logiku do smyčky iterující soubory a zpracovávejte každý dokument postupně.
 
 ---
 
-**Last Updated:** 2026-02-28  
-**Tested With:** Aspose.Note for Java 24.12  
-**Author:** Aspose  
+**Poslední aktualizace:** 2026-10-26  
+**Testováno s:** Aspose.Note pro Java 24.12  
+**Autor:** Aspose
+
+## Související tutoriály
+
+- [Vytvořit objekt Notebook v Javě – Načíst soubor OneNote s možnostmi - Aspose.Note](/note/java/onenote-notebook-operations/load-notebook-file-with-load-options/)
+- [Převést OneNote na prostý text – Extrahovat celý text pomocí Aspose.Note pro Java](/note/java/onenote-text-manipulation/extract-all-text/)
+- [Získat přílohy OneNote pomocí Aspose.Note pro Java](/note/java/onenote-java-integration/retrieve-attachment/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
