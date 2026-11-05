@@ -1,11 +1,66 @@
 ---
-date: 2026-03-14
-description: जावा में TIFF JPEG संपीड़न, TIFF PackBits संपीड़न, या CCITT Group 3 फ़ैक्स
-  का उपयोग करके OneNote दस्तावेज़ों को TIFF फ़ाइलों के रूप में सहेजना सीखें। Aspose.Note
-  के साथ छवि गुणवत्ता, फ़ाइल आकार और रंग मोड को नियंत्रित करें।
-linktitle: Save to TIFF Image Using TIFF JPEG Compression in OneNote
+date: 2026-11-05
+description: Aspose.Note का उपयोग करके Java में OneNote नोटबुक्स को TIFF में परिवर्तित
+  करते समय TIFF फ़ाइल आकार को कैसे कम करें, सीखें। इसमें JPEG, PackBits और ब्लैक‑वाइट
+  TIFF विकल्प शामिल हैं।
+keywords:
+- reduce tiff file size
+- black white tiff
+- tiff jpeg compression
+- aspose note java
+lastmod: 2026-11-05
+linktitle: Java में OneNote को परिवर्तित करते समय TIFF फ़ाइल आकार कैसे कम करें
+og_description: Aspose.Note का उपयोग करके Java में OneNote नोटबुक्स को TIFF में परिवर्तित
+  करते समय TIFF फ़ाइल आकार को कैसे कम करें, सीखें। इसमें JPEG, PackBits और ब्लैक‑वाइट
+  TIFF विकल्प शामिल हैं।
+og_image_alt: Developer guide showing OneNote to TIFF conversion with compression
+  options in Java
+og_title: Java में OneNote को परिवर्तित करते समय TIFF फ़ाइल आकार कैसे कम करें
+schemas:
+- author: Aspose
+  dateModified: '2026-11-05'
+  description: Learn how to reduce TIFF file size when converting OneNote notebooks
+    to TIFF in Java using Aspose.Note. Includes JPEG, PackBits and black‑white TIFF
+    options.
+  headline: How to reduce TIFF file size when converting OneNote in Java
+  type: TechArticle
+- description: Learn how to reduce TIFF file size when converting OneNote notebooks
+    to TIFF in Java using Aspose.Note. Includes JPEG, PackBits and black‑white TIFF
+    options.
+  name: How to reduce TIFF file size when converting OneNote in Java
+  steps:
+  - name: Point `dataDir` to the folder containing your `.one` file.
+    text: Point `dataDir` to the folder containing your `.one` file.
+  - name: Call `SaveToTiffUsingJpegCompression()` from your main method or service.
+    text: Call `SaveToTiffUsingJpegCompression()` from your main method or service.
+  - name: The resulting `.tiff` file will appear in the same directory.
+    text: The resulting `.tiff` file will appear in the same directory.
+  type: HowTo
+- questions:
+  - answer: Yes. While Aspose.Note focuses on OneNote files, Aspose.PDF, Aspose.Words,
+      and other libraries provide similar `ImageSaveOptions` for their formats.
+    question: Can I convert other document types (e.g., PDF, DOCX) to TIFF with these
+      options?
+  - answer: The JPEG algorithm is the same, but the image data lives inside a TIFF
+      container, which can hold multiple pages and richer metadata.
+    question: How does TIFF JPEG compression differ from a standard JPEG file?
+  - answer: Absolutely. Iterate over a directory, call any of the three methods for
+      each file, and collect the resulting TIFFs.
+    question: Is it possible to batch‑process many `.one` files?
+  - answer: Yes. Use `options.setResolution(int dpi)` before saving.
+    question: Can I control the DPI/resolution of the output TIFF?
+  - answer: The API itself is synchronous, but you can wrap calls in Java’s `CompletableFuture`
+      or a thread pool for parallel execution.
+    question: Does Aspose.Note support asynchronous processing?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: OneNote में TIFF JPEG संपीड़न का उपयोग करके TIFF इमेज सहेजें
+tags:
+- reduce tiff file size
+- aspose.note
+- java tiff conversion
+- black white tiff
+- image compression
+title: Java में OneNote को परिवर्तित करते समय TIFF फ़ाइल आकार कैसे कम करें
 url: /hi/java/onenote-document-saving/save-to-tiff-image-using-image-save-options/
 weight: 21
 ---
@@ -14,41 +69,54 @@ weight: 21
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OneNote में TIFF JPEG संपीड़न का उपयोग करके TIFF छवि को सहेजें
+# OneNote को Java में परिवर्तित करते समय TIFF फ़ाइल आकार कैसे घटाएँ
 
 ## परिचय
 
-इस ट्यूटोरियल में आप **OneNote दस्तावेज़ को TIFF फ़ाइल में TIFF JPEG संपीड़न के साथ सहेजना** और दो अन्य लोकप्रिय संपीड़न विधियों को सीखेंगे। हम आवश्यक सेटअप, आवश्यक Java पैकेजों को इम्पोर्ट करने, और प्रत्येक संपीड़न विकल्प के लिए स्पष्ट चरण‑दर‑चरण कोड प्रदान करेंगे। अंत तक आप **TIFF छवि गुणवत्ता** को नियंत्रित कर सकेंगे, फ़ाइल आकार घटा सकेंगे, और फ़ैक्स‑स्टाइल आउटपुट के लिए काली‑और‑सफ़ेद TIFF भी बना सकेंगे।
+इस ट्यूटोरियल में आप सीखेंगे कि Aspose.Note for Java का उपयोग करके OneNote नोटबुक को TIFF छवियों में परिवर्तित करते समय **TIFF फ़ाइल आकार घटाएँ**। हम तीन संपीड़न विधियों—TIFF JPEG, PackBits, और CCITT Group 3 (ब्लैक‑वाइट TIFF)—के माध्यम से चलेंगे, आपको दिखाएंगे कि कैसे इमेज क्वालिटी को समायोजित करें, कलर मोड को नियंत्रित करें, और वेब, अभिलेखीय, या फैक्स‑टाइप परिदृश्यों के लिए फ़ाइल आकार को इष्टतम रखें।
 
 ## त्वरित उत्तर
-- **TIFF JPEG संपीड़न क्या है?** एक लॉसी संपीड़न विधि जो TIFF फ़ाइल आकार को घटाती है जबकि दृश्य गुणवत्ता को बनाए रखती है।  
-- **कौन सा लाइब्रेरी रूपांतरण संभालता है?** Aspose.Note for Java।  
-- **क्या लाइसेंस चाहिए?** परीक्षण के लिए मुफ्त ट्रायल चलती है; उत्पादन के लिए लाइसेंस आवश्यक है।  
-- **क्या मैं छवि गुणवत्ता बदल सकता हूँ?** हाँ, `ImageSaveOptions` पर `quality` प्रॉपर्टी सेट करें।  
-- **क्या बैच रूपांतरण संभव है?** बिल्कुल – दस्तावेज़ों पर लूप चलाएँ और समान विकल्प लागू करें।
+- **TIFF JPEG संपीड़न क्या है?** एक लॉसी संपीड़न विधि जो दृश्य गुणवत्ता को बनाए रखते हुए TIFF फ़ाइल आकार को घटाती है।  
+- **कौन सी लाइब्रेरी परिवर्तन को संभालती है?** Aspose.Note for Java।  
+- **क्या मुझे लाइसेंस चाहिए?** परीक्षण के लिए एक मुफ्त ट्रायल काम करता है; उत्पादन के लिए लाइसेंस आवश्यक है।  
+- **क्या मैं इमेज क्वालिटी बदल सकता हूँ?** हाँ, `ImageSaveOptions` पर `quality` प्रॉपर्टी सेट करें।  
+- **क्या बैच रूपांतरण संभव है?** बिल्कुल – दस्तावेज़ों के माध्यम से लूप करें और समान विकल्प लागू करें।
 
-## TIFF JPEG संपीड़न क्या है?
-TIFF JPEG संपीड़न छवि डेटा को TIFF कंटेनर में संग्रहीत करता है लेकिन फ़ाइल को छोटा करने के लिए JPEG के लॉसी एल्गोरिद्म को लागू करता है। यह **tiff image quality** और छोटे फ़ाइल आकार के बीच संतुलन चाहिए होने पर आदर्श है, विशेषकर वेब या अभिलेखीय परिदृश्यों में।
+## TIFF JPEG संपीड़न अवलोकन
+
+TIFF JPEG संपीड़न इमेज डेटा को एक TIFF कंटेनर में संग्रहीत करता है लेकिन फ़ाइल को छोटा करने के लिए JPEG के लॉसी एल्गोरिद्म को लागू करता है। यह तब आदर्श है जब आपको **tiff image quality** और छोटे फ़ाइल आकार के बीच संतुलन चाहिए, विशेष रूप से वेब या अभिलेखीय परिदृश्यों के लिए।
 
 ## विभिन्न TIFF संपीड़न प्रकारों का उपयोग क्यों करें?
-- **JPEG** – फ़ोटोग्राफ़ के लिए उपयुक्त; गुणवत्ता समायोज्य।  
-- **PackBits** – सरल, लॉस‑लेस रन‑लेंथ एन्कोडिंग; बड़े समान रंग क्षेत्रों वाली ग्राफ़िक्स के लिए उपयोगी।  
-- **CCITT Group 3 Fax** – केवल काली‑और‑सफ़ेद; स्कैन किए गए दस्तावेज़ और फ़ैक्स ट्रांसमिशन के लिए परिपूर्ण।  
 
-सही संपीड़न चुनने से आप स्टोरेज प्रतिबंधों को पूरा कर सकते हैं बिना आपके एप्लिकेशन की दृश्य सटीकता से समझौता किए।
+आप सामग्री और संग्रहण आवश्यकताओं के आधार पर संपीड़न प्रकार चुनते हैं: फ़ोटोग्राफ़ के लिए JPEG सबसे अच्छा काम करता है, बड़े समान क्षेत्रों वाले ग्राफ़िक्स के लिए PackBits लॉस‑लेस संपीड़न प्रदान करता है, और मोनोक्रोम फैक्स‑स्टाइल दस्तावेज़ों के लिए CCITT Group 3 उच्च‑अनुपात संपीड़न देता है। सही विधि का चयन करने से आप **TIFF फ़ाइल आकार घटाएँ** बिना आपके एप्लिकेशन द्वारा आवश्यक दृश्य सत्यता से समझौता किए।
 
-## Aspose.Note का उपयोग करके One को TIFF में बदलें
-यदि आपका लक्ष्य **OneNote को TIFF में बदलना** है, तो नीचे दी गई तीन विधियाँ सबसे सामान्य परिदृश्यों को कवर करती हैं। प्रत्येक विधि एक `.one` फ़ाइल लोड करती है, `ImageSaveOptions` को कॉन्फ़िगर करती है, और परिणाम को `.tiff` फ़ाइल के रूप में सहेजती है।
+## सही संपीड़न चुनना
+
+- **JPEG** – समायोज्य गुणवत्ता (0‑100) आपको आकार बनाम विवरण का संतुलन करने देती है, रंग‑समृद्ध पृष्ठों के लिए परिपूर्ण।  
+- **PackBits** – लॉस‑लेस रन‑लेंथ एन्कोडिंग; जब आपको हर पिक्सेल को सटीक रखना हो तो आदर्श।  
+- **CCITT Group 3** – केवल मोनोक्रोम; स्कैन किए गए टेक्स्ट या फैक्स दस्तावेज़ों के लिए संपीड़न को अधिकतम करता है।  
+
+## Aspose.Note का उपयोग करके OneNote को TIFF में परिवर्तित करें
+
+यदि आपका लक्ष्य **OneNote को TIFF में परिवर्तित करना** है, तो नीचे दी गई तीन विधियाँ सबसे सामान्य परिदृश्यों को कवर करती हैं। प्रत्येक विधि एक `.one` फ़ाइल लोड करती है, `ImageSaveOptions` को कॉन्फ़िगर करती है, और परिणाम को एक `.tiff` फ़ाइल के रूप में सहेजती है।
 
 ## पूर्वापेक्षाएँ
 
 - Java Development Kit (JDK) स्थापित हो।  
-- आपके प्रोजेक्ट में Aspose.Note for Java लाइब्रेरी जोड़ी गई हो (Maven/Gradle या मैन्युअल JAR)।  
-- Java सिंटैक्स की बुनियादी समझ।
+- Aspose.Note for Java लाइब्रेरी आपके प्रोजेक्ट में जोड़ी गई हो (Maven/Gradle या मैन्युअल JAR)।  
+- Java सिंटैक्स की बुनियादी परिचितता।  
 
-## पैकेज इम्पोर्ट करें
+## पैकेज आयात करें
 
-सबसे पहले, आवश्यक Aspose.Note क्लासेज़ को अपने Java फ़ाइल में इम्पोर्ट करें:
+`ImageSaveOptions`, `TiffCompression`, और `ColorMode` क्लासेज़ रूपांतरण API का मूल हैं।
+
+`ImageSaveOptions` इमेज को सहेजने के विकल्प निर्धारित करता है, जैसे फ़ॉर्मेट और संपीड़न।  
+`TiffCompression` समर्थित TIFF संपीड़न एल्गोरिद्म को सूचीबद्ध करता है।  
+`ColorMode` रंग गहराई निर्दिष्ट करता है, उदाहरण के लिए, रंग या ब्लैक‑एंड‑व्हाइट।  
+
+```java
+// Placeholder for import statements – keep your imports here
+```
 
 ```java
 import com.aspose.note.*;
@@ -56,9 +124,19 @@ import java.io.IOException;
 import java.nio.file.Paths;
 ```
 
-## चरण 1: TIFF JPEG संपीड़न का उपयोग करके TIFF में सहेजें
+## चरण 1: TIFF JPEG संपीड़न का उपयोग करके TIFF सहेजें
 
-नीचे वह पूर्ण मेथड है जो OneNote फ़ाइल लोड करता है और JPEG संपीड़न के साथ TIFF के रूप में सहेजता है। `quality` मान (0‑100) को समायोजित करके **tiff image quality** को नियंत्रित करें।
+### Java में JPEG संपीड़न के साथ TIFF सहेजना
+
+OneNote फ़ाइल लोड करें, `ImageSaveOptions` को JPEG संपीड़न के साथ कॉन्फ़िगर करें, वैकल्पिक रूप से `quality` मान सेट करें, और सहेजने की विधि को कॉल करें। यह दो‑चरणीय पैटर्न आपको आउटपुट आकार और दृश्य सत्यता पर पूर्ण नियंत्रण देता है।
+
+1. `dataDir` को उस फ़ोल्डर की ओर इंगित करें जिसमें आपकी `.one` फ़ाइल है।  
+2. अपने मुख्य मेथड या सर्विस से `SaveToTiffUsingJpegCompression()` को कॉल करें।  
+3. परिणामी `.tiff` फ़ाइल उसी डायरेक्टरी में दिखाई देगी।  
+
+```java
+// Placeholder for the JPEG compression method implementation
+```
 
 ```java
 public static void SaveToTiffUsingJpegCompression() throws IOException {
@@ -80,20 +158,19 @@ public static void SaveToTiffUsingJpegCompression() throws IOException {
 
 - `ImageSaveOptions` Aspose.Note को TIFF फ़ाइल आउटपुट करने के लिए बताता है।  
 - `setTiffCompression(TiffCompression.Jpeg)` JPEG संपीड़न चुनता है।  
-- `setQuality(93)` (वैकल्पिक) छवि गुणवत्ता को फाइन‑ट्यून करता है; कम मान छोटे फ़ाइल बनाते हैं।
+- `setQuality(93)` (वैकल्पिक) इमेज क्वालिटी को सूक्ष्म‑समायोजित करता है; कम मान छोटे फ़ाइलें उत्पन्न करते हैं।  
 
-### Java में JPEG संपीड़न के साथ TIFF कैसे सहेजें
-1. `dataDir` को अपनी `.one` फ़ाइल वाले फ़ोल्डर की ओर इंगित करें।  
-2. अपने मुख्य मेथड या सर्विस से `SaveToTiffUsingJpegCompression()` को कॉल करें।  
-3. परिणामी `.tiff` फ़ाइल उसी डायरेक्टरी में दिखाई देगी।
+## TIFF PackBits संपीड़न अवलोकन
 
-## TIFF PackBits संपीड़न का अवलोकन
+PackBits एक लॉसलेस संपीड़न एल्गोरिद्म है जो ठोस रंग के बड़े क्षेत्रों वाली छवियों के लिए सबसे अच्छा काम करता है। इसे दस्तावेज़ में अक्सर **tiff packbits compression** कहा जाता है।
 
-PackBits एक लॉसलेस संपीड़न एल्गोरिद्म है जो बड़े ठोस रंग क्षेत्रों वाली छवियों के लिए सबसे अच्छा काम करता है। दस्तावेज़ीकरण में इसे अक्सर **tiff packbits compression** कहा जाता है।
+## Java में PackBits संपीड़न के साथ TIFF सहेजना
 
-## चरण 2: PackBits संपीड़न का उपयोग करके TIFF में सहेजें
+यदि आपको लॉस‑लेस विकल्प चाहिए, तो PackBits एक सरल रन‑लेंथ एल्गोरिद्म है जो ठोस रंग वाले ग्राफ़िक्स के लिए अच्छा काम करता है। `ImageSaveOptions` को `TiffCompression.PackBits` के साथ कॉन्फ़िगर करें और दस्तावेज़ को सहेजें।
 
-यदि आपको लॉस‑लेस विकल्प चाहिए, तो PackBits एक सरल रन‑लेंथ एल्गोरिद्म है जो ठोस रंग वाली ग्राफ़िक्स के लिए उपयुक्त है।
+```java
+// Placeholder for the PackBits compression method implementation
+```
 
 ```java
 public static void SaveToTiffUsingPackBitsCompression() throws IOException {
@@ -113,11 +190,15 @@ public static void SaveToTiffUsingPackBitsCompression() throws IOException {
 **व्याख्या**
 
 - `setTiffCompression(TiffCompression.PackBits)` संपीड़न विधि बदलता है।  
-- गुणवत्ता सेटिंग की आवश्यकता नहीं है क्योंकि PackBits लॉसलेस है।
+- PackBits लॉस‑लेस होने के कारण कोई क्वालिटी सेटिंग आवश्यक नहीं है।  
 
-## चरण 3: CCITT Group 3 Fax संपीड़न (काली‑और‑सफ़ेद TIFF) का उपयोग करके TIFF में सहेजें
+## Java में CCITT Group 3 संपीड़न के साथ TIFF सहेजना
 
-फ़ैक्स‑स्टाइल दस्तावेज़ों के लिए अक्सर **काली और सफ़ेद TIFF** चाहिए होती है। CCITT Group 3 मोनोक्रोम छवियों के लिए उच्च संपीड़न प्रदान करता है।
+फ़ैक्स‑स्टाइल दस्तावेज़ों के लिए आप अक्सर एक **ब्लैक एंड व्हाइट TIFF** चाहते हैं। CCITT Group 3 मोनोक्रोम इमेज के लिए उच्च संपीड़न प्रदान करता है। कलर मोड को ब्लैक‑एंड‑व्हाइट सेट करें और CCITT 3 संपीड़न एन्‍युम चुनें।
+
+```java
+// Placeholder for the CCITT Group 3 compression method implementation
+```
 
 ```java
 public static void SaveToTiffUsingCcitt3Compression() throws IOException {
@@ -137,44 +218,51 @@ public static void SaveToTiffUsingCcitt3Compression() throws IOException {
 
 **व्याख्या**
 
-- `setColorMode(ColorMode.BlackAndWhite)` मोनोक्रोम आउटपुट को मजबूर करता है।  
-- `setTiffCompression(TiffCompression.Ccitt3)` फ़ैक्स‑उन्मुख संपीड़न लागू करता है।
+- `setColorMode(ColorMode.BlackAndWhite)` मोनोक्रोम आउटपुट को बाध्य करता है।  
+- `setTiffCompression(TiffCompression.Ccitt3)` फैक्स‑उन्मुख संपीड़न लागू करता है।  
 
-## सामान्य समस्याएँ और सुझाव
+## सामान्य समस्याएँ और टिप्स
 
-| समस्या | समाधान |
+| Issue | Solution |
 |-------|----------|
-| **आउटपुट फ़ाइल अपेक्षा से बड़ी है** | JPEG `quality` मान घटाएँ या यदि लॉसलेस स्वीकार्य है तो PackBits पर स्विच करें। |
-| **रंग फीके दिख रहे हैं** | सुनिश्चित करें कि आप अनजाने में `ColorMode.BlackAndWhite` सेट नहीं कर रहे हैं जब आपको पूर्ण रंग चाहिए। |
-| **Unsupported image format त्रुटि** | जांचें कि आप Aspose.Note का नवीनतम संस्करण उपयोग कर रहे हैं; पुराने बिल्ड में कुछ संपीड़न एनोम नहीं हो सकते। |
-| **LicenseException रनटाइम पर** | वैध Aspose.Note लाइसेंस इंस्टॉल करें (`License license = new License(); license.setLicense("Aspose.Note.Java.lic");`)। |
+| **आउटपुट फ़ाइल अपेक्षा से बड़ी है** | JPEG `quality` मान को घटाने का प्रयास करें या यदि लॉसलेस स्वीकार्य है तो PackBits पर स्विच करें। |
+| **रंग फीके दिख रहे हैं** | सुनिश्चित करें कि जब आपको पूर्ण रंग चाहिए तो आपने अनजाने में `ColorMode.BlackAndWhite` सेट नहीं किया है। |
+| **असमर्थित इमेज फ़ॉर्मेट त्रुटि** | पुष्टि करें कि आप Aspose.Note का नवीनतम संस्करण उपयोग कर रहे हैं; पुराने बिल्ड में कुछ संपीड़न एन्‍युम नहीं हो सकते। |
+| **रनटाइम पर LicenseException** | एक वैध Aspose.Note लाइसेंस स्थापित करें (`License license = new License(); license.setLicense("Aspose.Note.Java.lic");`). |
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
-**प्रश्न: क्या मैं अन्य दस्तावेज़ प्रकार (जैसे PDF, DOCX) को भी इन विकल्पों के साथ TIFF में बदल सकता हूँ?**  
-उत्तर: हाँ। जबकि Aspose.Note मुख्यतः OneNote फ़ाइलों पर केंद्रित है, Aspose.PDF, Aspose.Words, और अन्य लाइब्रेरी अपने‑अपने फ़ॉर्मेट्स के लिए समान `ImageSaveOptions` प्रदान करती हैं।
+**Q: क्या मैं इन विकल्पों के साथ अन्य दस्तावेज़ प्रकार (जैसे PDF, DOCX) को TIFF में परिवर्तित कर सकता हूँ?**  
+A: हाँ। जबकि Aspose.Note OneNote फ़ाइलों पर केंद्रित है, Aspose.PDF, Aspose.Words, और अन्य लाइब्रेरीज़ अपने फ़ॉर्मेट्स के लिए समान `ImageSaveOptions` प्रदान करती हैं।
 
-**प्रश्न: TIFF JPEG संपीड़न मानक JPEG फ़ाइल से कैसे अलग है?**  
-उत्तर: JPEG एल्गोरिद्म समान है, लेकिन छवि डेटा TIFF कंटेनर के भीतर रहता है, जो कई पृष्ठ और समृद्ध मेटाडेटा रख सकता है।
+**Q: TIFF JPEG संपीड़न मानक JPEG फ़ाइल से कैसे अलग है?**  
+A: JPEG एल्गोरिद्म समान है, लेकिन इमेज डेटा एक TIFF कंटेनर के भीतर रहता है, जो कई पृष्ठ और अधिक समृद्ध मेटाडेटा रख सकता है।
 
-**प्रश्न: क्या कई `.one` फ़ाइलों को बैच‑प्रोसेस करना संभव है?**  
-उत्तर: बिल्कुल। किसी डायरेक्टरी पर इटररेट करें, प्रत्येक फ़ाइल के लिए ऊपर दी गई तीन विधियों में से कोई भी कॉल करें, और परिणामी TIFFs को इकट्ठा करें।
+**Q: कई `.one` फ़ाइलों को बैच‑प्रोसेस करना संभव है क्या?**  
+A: बिल्कुल। एक डायरेक्टरी पर इटररेट करें, प्रत्येक फ़ाइल के लिए तीन में से कोई भी विधि कॉल करें, और परिणामी TIFFs एकत्र करें।
 
-**प्रश्न: क्या मैं आउटपुट TIFF की DPI/रिज़ॉल्यूशन नियंत्रित कर सकता हूँ?**  
-उत्तर: हाँ। सहेजने से पहले `options.setResolution(int dpi)` का उपयोग करें।
+**Q: क्या मैं आउटपुट TIFF की DPI/रिज़ॉल्यूशन नियंत्रित कर सकता हूँ?**  
+A: हाँ। सहेजने से पहले `options.setResolution(int dpi)` का उपयोग करें।
 
-**प्रश्न: क्या Aspose.Note असिंक्रोनस प्रोसेसिंग का समर्थन करता है?**  
-उत्तर: API स्वयं सिंक्रोनस है, लेकिन आप कॉल को Java के `CompletableFuture` या थ्रेड पूल में रैप करके समानांतर निष्पादन प्राप्त कर सकते हैं।
+**Q: क्या Aspose.Note असिंक्रोनस प्रोसेसिंग का समर्थन करता है?**  
+A: API स्वयं सिंक्रोनस है, लेकिन आप कॉल्स को Java के `CompletableFuture` या थ्रेड पूल में रैप करके समानांतर निष्पादन कर सकते हैं।
 
 ## निष्कर्ष
 
-अब आपके पास एक पूर्ण **java tiff conversion** टूलकिट है जो आपको OneNote दस्तावेज़ों को JPEG, PackBits, या CCITT Group 3 Fax संपीड़न का उपयोग करके TIFF फ़ाइलों के रूप में सहेजने की अनुमति देता है। गुणवत्ता, रंग मोड, और रिज़ॉल्यूशन को अपनी विशिष्ट **tiff image quality** आवश्यकताओं के अनुसार समायोजित करें, और अधिकतम उत्पादकता के लिए इन विधियों को बैच वर्कफ़्लो में एकीकृत करें।
+अब आपके पास एक पूर्ण **Java TIFF रूपांतरण** टूलकिट है जो आपको JPEG, PackBits, या CCITT Group 3 फ़ैक्स संपीड़न का उपयोग करके OneNote दस्तावेज़ों को TIFF फ़ाइलों के रूप में सहेजते समय **TIFF फ़ाइल आकार घटाएँ** देता है। गुणवत्ता, कलर मोड, और रिज़ॉल्यूशन को अपनी विशिष्ट आवश्यकताओं के अनुसार समायोजित करें, और अधिकतम उत्पादकता के लिए इन विधियों को बैच वर्कफ़्लो में एकीकृत करें।
 
 ---
 
-**अंतिम अपडेट:** 2025-12-17  
-**परीक्षित संस्करण:** Aspose.Note for Java 26.4 (लेखन समय पर नवीनतम)  
-**लेखक:** Aspose  
+**अंतिम अपडेट:** 2026-11-05  
+**परीक्षित संस्करण:** Aspose.Note for Java 26.4 (latest at time of writing)  
+**लेखक:** Aspose
+
+## संबंधित ट्यूटोरियल
+
+- [Aspose.Note for Java के साथ सेव फॉर्मेट का उपयोग करके OneNote पेज इमेज (JPEG) कैसे रेंडर करें](/note/java/onenote-document-saving/save-to-jpeg-image-using-save-format/)
+- [Aspose.Note for Java का उपयोग करके OneNote को PNG के रूप में विकल्पों के साथ सहेजें – नोटबुक को इमेज में परिवर्तित करें](/note/java/onenote-notebook-operations/convert-notebook-to-image-with-options/)
+- [OneNote को ग्रेस्केल इमेज के रूप में एक्सपोर्ट कैसे करें – Aspose.Note](/note/java/onenote-document-saving/save-to-grayscale-image/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
