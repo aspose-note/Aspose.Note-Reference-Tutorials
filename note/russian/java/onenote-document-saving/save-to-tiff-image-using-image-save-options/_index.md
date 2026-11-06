@@ -1,11 +1,66 @@
 ---
-date: 2026-03-14
-description: Узнайте, как сохранять документы OneNote в виде файлов TIFF, используя
-  сжатие TIFF JPEG, сжатие TIFF PackBits или CCITT Group 3 Fax в Java. Управляйте
-  качеством изображения, размером файла и режимом цвета с помощью Aspose.Note.
-linktitle: Save to TIFF Image Using TIFF JPEG Compression in OneNote
+date: 2026-11-05
+description: Узнайте, как уменьшить размер файла TIFF при конвертации блокнотов OneNote
+  в TIFF в Java с помощью Aspose.Note. Включает варианты JPEG, PackBits и черно‑белый
+  TIFF.
+keywords:
+- reduce tiff file size
+- black white tiff
+- tiff jpeg compression
+- aspose note java
+lastmod: 2026-11-05
+linktitle: Как уменьшить размер файла TIFF при конвертации OneNote в Java
+og_description: Узнайте, как уменьшить размер файла TIFF при конвертации блокнотов
+  OneNote в TIFF в Java с помощью Aspose.Note. Включает варианты JPEG, PackBits и
+  черно‑белый TIFF.
+og_image_alt: Developer guide showing OneNote to TIFF conversion with compression
+  options in Java
+og_title: Как уменьшить размер файла TIFF при конвертации OneNote в Java
+schemas:
+- author: Aspose
+  dateModified: '2026-11-05'
+  description: Learn how to reduce TIFF file size when converting OneNote notebooks
+    to TIFF in Java using Aspose.Note. Includes JPEG, PackBits and black‑white TIFF
+    options.
+  headline: How to reduce TIFF file size when converting OneNote in Java
+  type: TechArticle
+- description: Learn how to reduce TIFF file size when converting OneNote notebooks
+    to TIFF in Java using Aspose.Note. Includes JPEG, PackBits and black‑white TIFF
+    options.
+  name: How to reduce TIFF file size when converting OneNote in Java
+  steps:
+  - name: Point `dataDir` to the folder containing your `.one` file.
+    text: Point `dataDir` to the folder containing your `.one` file.
+  - name: Call `SaveToTiffUsingJpegCompression()` from your main method or service.
+    text: Call `SaveToTiffUsingJpegCompression()` from your main method or service.
+  - name: The resulting `.tiff` file will appear in the same directory.
+    text: The resulting `.tiff` file will appear in the same directory.
+  type: HowTo
+- questions:
+  - answer: Yes. While Aspose.Note focuses on OneNote files, Aspose.PDF, Aspose.Words,
+      and other libraries provide similar `ImageSaveOptions` for their formats.
+    question: Can I convert other document types (e.g., PDF, DOCX) to TIFF with these
+      options?
+  - answer: The JPEG algorithm is the same, but the image data lives inside a TIFF
+      container, which can hold multiple pages and richer metadata.
+    question: How does TIFF JPEG compression differ from a standard JPEG file?
+  - answer: Absolutely. Iterate over a directory, call any of the three methods for
+      each file, and collect the resulting TIFFs.
+    question: Is it possible to batch‑process many `.one` files?
+  - answer: Yes. Use `options.setResolution(int dpi)` before saving.
+    question: Can I control the DPI/resolution of the output TIFF?
+  - answer: The API itself is synchronous, but you can wrap calls in Java’s `CompletableFuture`
+      or a thread pool for parallel execution.
+    question: Does Aspose.Note support asynchronous processing?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: Сохранить в TIFF‑изображение с использованием JPEG‑сжатия в OneNote
+tags:
+- reduce tiff file size
+- aspose.note
+- java tiff conversion
+- black white tiff
+- image compression
+title: Как уменьшить размер файла TIFF при конвертации OneNote в Java
 url: /ru/java/onenote-document-saving/save-to-tiff-image-using-image-save-options/
 weight: 21
 ---
@@ -14,41 +69,54 @@ weight: 21
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Сохранение изображения TIFF с использованием сжатия TIFF JPEG в OneNote
+# Как уменьшить размер TIFF‑файла при конвертации OneNote в Java
 
 ## Введение
 
-В этом руководстве вы узнаете **как сохранить документ OneNote в файл TIFF, используя сжатие TIFF JPEG**, а также два других популярных метода сжатия. Мы пройдём через необходимую настройку, импортируем нужные пакеты Java и предоставим чёткий пошаговый код для каждого варианта сжатия. К концу вы сможете управлять **качеством изображения TIFF**, уменьшать размер файла и даже создавать чёрно‑белые TIFF‑файлы для факсимильного вывода.
+В этом руководстве вы узнаете, как **уменьшить размер TIFF‑файла** при конвертации блокнотов OneNote в изображения TIFF с помощью Aspose.Note for Java. Мы рассмотрим три метода сжатия — TIFF JPEG, PackBits и CCITT Group 3 (чёрно‑белый TIFF) — покажем, как настроить качество изображения, управлять режимом цвета и поддерживать оптимальный размер файлов для веб‑использования, архивирования или факсимильных сценариев.
 
 ## Быстрые ответы
 - **Что такое сжатие TIFF JPEG?** Потерянное (lossy) сжатие, которое уменьшает размер TIFF‑файла, сохраняя визуальное качество.  
-- **Какая библиотека обрабатывает конвертацию?** Aspose.Note for Java.  
+- **Какая библиотека выполняет конвертацию?** Aspose.Note for Java.  
 - **Нужна ли лицензия?** Бесплатная пробная версия подходит для тестирования; для продакшна требуется лицензия.  
 - **Можно ли изменить качество изображения?** Да, задайте свойство `quality` у `ImageSaveOptions`.  
-- **Возможна ли пакетная конвертация?** Абсолютно — пройдитесь по документам в цикле и примените те же параметры.
+- **Возможна ли пакетная конвертация?** Абсолютно — пройдитесь по документам в цикле и примените те же параметры.
 
-## Что такое сжатие TIFF JPEG?
-Сжатие TIFF JPEG хранит данные изображения в контейнере TIFF, но применяет алгоритм JPEG с потерями для уменьшения файла. Это идеальный вариант, когда нужен баланс между **качеством изображения TIFF** и меньшим размером файла, особенно для веб‑или архивных сценариев.
+## Обзор сжатия TIFF JPEG
+
+Сжатие TIFF JPEG хранит данные изображения в контейнере TIFF, но применяет алгоритм JPEG с потерями для уменьшения файла. Это идеальный вариант, когда нужен баланс между **качеством TIFF‑изображения** и меньшим размером файла, особенно для веб‑или архивных сценариев.
 
 ## Почему использовать разные типы сжатия TIFF?
-- **JPEG** – Хорошо подходит для фотографий; предлагает регулируемое качество.  
-- **PackBits** – Простой, без потерь, алгоритм кодирования повторов; полезен для графики с большими однородными областями.  
-- **CCITT Group 3 Fax** – Только чёрно‑белый; идеально для отсканированных документов и факсимильной передачи.  
 
-Выбор правильного сжатия позволяет удовлетворить ограничения по хранению без ущерба визуальной точности, необходимой вашему приложению.
+Выбираете тип сжатия в зависимости от содержимого и требований к хранению: JPEG лучше всего подходит для фотографий, PackBits обеспечивает безпотерьное сжатие графики с большими однородными областями, а CCITT Group 3 дает высокий коэффициент сжатия для монохромных факсимильных документов. Правильный выбор метода позволяет **уменьшить размер TIFF‑файла** без ущерба визуальной достоверности, необходимой вашему приложению.
+
+## Выбор подходящего сжатия
+
+- **JPEG** — регулируемое качество (0‑100) позволяет находить компромисс между размером и детализацией, идеально для страниц с насыщенными цветами.  
+- **PackBits** — безпотерьное сжатие последовательностей; подходит, когда каждый пиксель должен оставаться точным.  
+- **CCITT Group 3** — только монохром; максимизирует сжатие для отсканированного текста или факсимильных документов.  
 
 ## Конвертация OneNote в TIFF с помощью Aspose.Note
-Если ваша цель — **конвертировать OneNote в TIFF**, три метода ниже покрывают самые распространённые сценарии. Каждый метод загружает файл `.one`, настраивает `ImageSaveOptions` и сохраняет результат как файл `.tiff`.
+
+Если ваша цель — **конвертировать OneNote в TIFF**, три метода ниже покрывают наиболее распространённые сценарии. Каждый метод загружает файл `.one`, настраивает `ImageSaveOptions` и сохраняет результат в файл `.tiff`.
 
 ## Предварительные требования
 
-- Установленный Java Development Kit (JDK).  
-- Библиотека Aspose.Note for Java, добавленная в ваш проект (Maven/Gradle или вручную JAR).  
+- Установлен Java Development Kit (JDK).  
+- Библиотека Aspose.Note for Java добавлена в проект (Maven/Gradle или вручную JAR).  
 - Базовое знакомство с синтаксисом Java.
 
 ## Импорт пакетов
 
-Сначала импортируйте необходимые классы Aspose.Note в ваш Java‑файл:
+Классы `ImageSaveOptions`, `TiffCompression` и `ColorMode` являются ядром API конвертации.  
+
+`ImageSaveOptions` определяет параметры сохранения изображений, такие как формат и сжатие.  
+`TiffCompression` перечисляет поддерживаемые алгоритмы сжатия TIFF.  
+`ColorMode` задаёт глубину цвета, например, цветной или чёрно‑белый.  
+
+```java
+// Placeholder for import statements – keep your imports here
+```
 
 ```java
 import com.aspose.note.*;
@@ -56,9 +124,19 @@ import java.io.IOException;
 import java.nio.file.Paths;
 ```
 
-## Шаг 1: Сохранение в TIFF с использованием сжатия TIFF JPEG
+## Шаг 1: сохранение в TIFF с использованием сжатия TIFF JPEG
 
-Ниже представлен полный метод, который загружает файл OneNote и сохраняет его как TIFF с JPEG‑сжатием. Отрегулируйте значение `quality` (0‑100), чтобы контролировать **качество изображения TIFF**.
+### Сохранение TIFF с JPEG‑сжатием в Java
+
+Загрузите файл OneNote, настройте `ImageSaveOptions` с JPEG‑сжатием, при необходимости задайте значение `quality` и вызовите метод сохранения. Этот двухшаговый шаблон даёт полный контроль над размером вывода и визуальной достоверностью.
+
+1. Укажите `dataDir`, указывающий на папку, содержащую ваш файл `.one`.  
+2. Вызовите `SaveToTiffUsingJpegCompression()` из вашего основного метода или сервиса.  
+3. Полученный файл `.tiff` появится в той же директории.
+
+```java
+// Placeholder for the JPEG compression method implementation
+```
 
 ```java
 public static void SaveToTiffUsingJpegCompression() throws IOException {
@@ -80,20 +158,19 @@ public static void SaveToTiffUsingJpegCompression() throws IOException {
 
 - `ImageSaveOptions` указывает Aspose.Note выводить файл TIFF.  
 - `setTiffCompression(TiffCompression.Jpeg)` выбирает JPEG‑сжатие.  
-- `setQuality(93)` (необязательно) тонко настраивает качество изображения; более низкие значения дают меньший размер файлов.
-
-### Как сохранить TIFF с JPEG‑сжатием в Java
-1. Укажите `dataDir` как папку, содержащую ваш файл `.one`.  
-2. Вызовите `SaveToTiffUsingJpegCompression()` из вашего метода `main` или сервиса.  
-3. Полученный файл `.tiff` появится в той же директории.
+- `setQuality(93)` (необязательно) точно настраивает качество изображения; более низкие значения дают меньший размер файлов.
 
 ## Обзор сжатия TIFF PackBits
 
-PackBits — алгоритм сжатия без потерь, который лучше всего работает с изображениями, содержащими большие участки сплошного цвета. В документации его часто называют **tiff packbits compression**.
+PackBits — алгоритм безпотерьного сжатия, который лучше всего работает с изображениями, содержащими большие области сплошного цвета. В документации его часто называют **tiff packbits compression**.
 
-## Шаг 2: Сохранение в TIFF с использованием сжатия PackBits
+## Сохранение TIFF с PackBits‑сжатием в Java
 
-Если вам нужен вариант без потерь, PackBits представляет собой простой алгоритм кодирования повторов, хорошо подходящий для графики с однородными цветами.
+Если нужен безпотерьный вариант, PackBits представляет собой простой алгоритм кодирования повторов, хорошо подходящий для графики с однородными цветами. Настройте `ImageSaveOptions` с `TiffCompression.PackBits` и сохраните документ.
+
+```java
+// Placeholder for the PackBits compression method implementation
+```
 
 ```java
 public static void SaveToTiffUsingPackBitsCompression() throws IOException {
@@ -113,11 +190,15 @@ public static void SaveToTiffUsingPackBitsCompression() throws IOException {
 **Пояснение**
 
 - `setTiffCompression(TiffCompression.PackBits)` переключает метод сжатия.  
-- Настройка качества не требуется, так как PackBits работает без потерь.
+- Настройка качества не требуется, поскольку PackBits — безпотерьный.
 
-## Шаг 3: Сохранение в TIFF с использованием сжатия CCITT Group 3 Fax (чёрно‑белый TIFF)
+## Сохранение TIFF с CCITT Group 3‑сжатием в Java
 
-Для документов в стиле факса часто требуется **чёрно‑белый TIFF**. CCITT Group 3 обеспечивает высокое сжатие для монохромных изображений.
+Для факсимильных документов часто требуется **чёрно‑белый TIFF**. CCITT Group 3 обеспечивает высокое сжатие монохромных изображений. Установите режим цвета в чёрно‑белый и выберите перечисление сжатия CCITT 3.
+
+```java
+// Placeholder for the CCITT Group 3 compression method implementation
+```
 
 ```java
 public static void SaveToTiffUsingCcitt3Compression() throws IOException {
@@ -137,16 +218,16 @@ public static void SaveToTiffUsingCcitt3Compression() throws IOException {
 
 **Пояснение**
 
-- `setColorMode(ColorMode.BlackAndWhite)` принуждает вывод в монохроме.  
+- `setColorMode(ColorMode.BlackAndWhite)` принудительно задаёт монохромный вывод.  
 - `setTiffCompression(TiffCompression.Ccitt3)` применяет сжатие, ориентированное на факс.
 
 ## Распространённые проблемы и советы
 
 | Проблема | Решение |
 |----------|---------|
-| **Полученный файл больше, чем ожидалось** | Попробуйте уменьшить значение JPEG `quality` или переключитесь на PackBits, если приемлемо сжатие без потерь. |
-| **Цвета выглядят вымытыми** | Убедитесь, что вы не установили `ColorMode.BlackAndWhite`, когда нужен полноцветный вывод. |
-| **Ошибка «Unsupported image format»** | Проверьте, что используете актуальную версию Aspose.Note; в старых сборках могут отсутствовать некоторые перечисления сжатия. |
+| **Полученный файл больше, чем ожидалось** | Попробуйте уменьшить значение JPEG `quality` или переключиться на PackBits, если безпотерьный вариант приемлем. |
+| **Цвета выглядят выцветшими** | Убедитесь, что вы случайно не задали `ColorMode.BlackAndWhite`, когда нужен полноцветный режим. |
+| **Ошибка «Unsupported image format»** | Проверьте, что используете актуальную версию Aspose.Note; старые сборки могут не поддерживать некоторые перечисления сжатия. |
 | **LicenseException во время выполнения** | Установите действующую лицензию Aspose.Note (`License license = new License(); license.setLicense("Aspose.Note.Java.lic");`). |
 
 ## Часто задаваемые вопросы
@@ -155,7 +236,7 @@ public static void SaveToTiffUsingCcitt3Compression() throws IOException {
 О: Да. Хотя Aspose.Note ориентирован на файлы OneNote, библиотеки Aspose.PDF, Aspose.Words и другие предоставляют аналогичные `ImageSaveOptions` для своих форматов.
 
 **В: Чем сжатие TIFF JPEG отличается от обычного JPEG‑файла?**  
-О: Алгоритм JPEG одинаков, но данные изображения находятся внутри контейнера TIFF, который может хранить несколько страниц и более богатые метаданные.
+О: Алгоритм JPEG одинаков, но данные изображения находятся внутри контейнера TIFF, который может содержать несколько страниц и более богатые метаданные.
 
 **В: Можно ли пакетно обрабатывать множество файлов `.one`?**  
 О: Абсолютно. Пройдитесь по директории, вызовите любой из трёх методов для каждого файла и соберите полученные TIFF‑файлы.
@@ -164,17 +245,24 @@ public static void SaveToTiffUsingCcitt3Compression() throws IOException {
 О: Да. Используйте `options.setResolution(int dpi)` перед сохранением.
 
 **В: Поддерживает ли Aspose.Note асинхронную обработку?**  
-О: Сам API синхронный, но вы можете обернуть вызовы в `CompletableFuture` или пул потоков Java для параллельного выполнения.
+О: Сам API синхронный, но вы можете обернуть вызовы в `CompletableFuture` Java или использовать пул потоков для параллельного выполнения.
 
 ## Заключение
 
-Теперь у вас есть полноценный набор **java tiff conversion** инструментов, позволяющих сохранять документы OneNote в файлы TIFF с использованием JPEG, PackBits или CCITT Group 3 Fax‑сжатия. Регулируйте качество, режим цвета и разрешение, чтобы соответствовать вашим требованиям к **качеству изображения TIFF**, и интегрируйте эти методы в пакетные рабочие процессы для максимальной продуктивности.
+Теперь у вас есть полноценный набор инструментов **конвертации Java в TIFF**, позволяющий **уменьшить размер TIFF‑файла** при сохранении документов OneNote в формате TIFF с помощью JPEG, PackBits или CCITT Group 3 Fax‑сжатия. Регулируйте качество, режим цвета и разрешение в соответствии с вашими требованиями и интегрируйте эти методы в пакетные рабочие процессы для максимальной продуктивности.
 
 ---
 
-**Последнее обновление:** 2025-12-17  
-**Тестировано с:** Aspose.Note for Java 26.4 (latest at time of writing)  
-**Автор:** Aspose  
+**Последнее обновление:** 2026-11-05  
+**Тестировано с:** Aspose.Note for Java 26.4 (последняя на момент написания)  
+**Автор:** Aspose
+
+## Похожие руководства
+
+- [How to Render OneNote Page Image (JPEG) Using Save Format with Aspose.Note for Java](/note/java/onenote-document-saving/save-to-jpeg-image-using-save-format/)
+- [Use Aspose.Note for Java to Save OneNote as PNG with Options – Convert Notebook to Image](/note/java/onenote-notebook-operations/convert-notebook-to-image-with-options/)
+- [How to Export OneNote as Grayscale Image – Aspose.Note](/note/java/onenote-document-saving/save-to-grayscale-image/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
