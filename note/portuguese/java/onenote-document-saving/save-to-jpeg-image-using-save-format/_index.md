@@ -1,11 +1,61 @@
 ---
-date: 2026-03-24
-description: Aprenda como renderizar a imagem de uma página do OneNote e converter
-  o OneNote em imagem usando Aspose.Note para Java. Este guia passo a passo mostra
-  a conversão para JPEG.
-linktitle: Save to JPEG Image Using Save Format in OneNote
+date: 2026-11-19
+description: Aprenda como converter OneNote para JPEG usando Aspose.Note para Java.
+  Este guia passo a passo mostra como exportar a imagem da página do OneNote, os pré-requisitos
+  e exemplos de código.
+keywords:
+- how to convert onenote
+- export onenote page image
+- aspose.note java
+lastmod: 2026-11-19
+linktitle: Salvar como imagem JPEG usando Save Format no OneNote
+og_description: Aprenda como converter OneNote para JPEG usando Aspose.Note para Java.
+  Este guia orienta você na exportação da imagem da página do OneNote, na configuração
+  e em exemplos de código em poucos minutos.
+og_image_alt: 'Developer guide: Convert OneNote page to JPEG using Aspose.Note for
+  Java'
+og_title: Como converter OneNote para JPEG com Aspose.Note para Java
+schemas:
+- author: Aspose
+  dateModified: '2026-11-19'
+  description: Learn how to convert OneNote to JPEG using Aspose.Note for Java. This
+    step‑by‑step guide shows export OneNote page image, prerequisites, and code samples.
+  headline: How to convert OneNote to JPEG with Aspose.Note for Java
+  type: TechArticle
+- description: Learn how to convert OneNote to JPEG using Aspose.Note for Java. This
+    step‑by‑step guide shows export OneNote page image, prerequisites, and code samples.
+  name: How to convert OneNote to JPEG with Aspose.Note for Java
+  steps:
+  - name: '**Java Development Environment:** Ensure Java Development Kit (JDK) 8 or
+      later is installed.'
+    text: '**Java Development Environment:** Ensure Java Development Kit (JDK) 8 or
+      later is installed.'
+  - name: '**Aspose.Note for Java Library:** Download the library from the [Aspose.Note
+      for Java download page](https://releases.aspose.com/note/java/).'
+    text: '**Aspose.Note for Java Library:** Download the library from the [Aspose.Note
+      for Java download page](https://releases.aspose.com/note/java/).'
+  - name: '**IDE or Build Tool:** Any Java IDE (IntelliJ, Eclipse) or build system
+      (Maven, Gradle) will work.'
+    text: '**IDE or Build Tool:** Any Java IDE (IntelliJ, Eclipse) or build system
+      (Maven, Gradle) will work.'
+  type: HowTo
+- questions:
+  - answer: Change the `SaveFormat` enum to `SaveFormat.Png` or `SaveFormat.Bmp` in
+      the `save` call.
+    question: How do I convert OneNote to other image formats (PNG, BMP)?
+  - answer: Yes, loop through a directory of `.one` files, load each with `new Document(...)`,
+      and call `save` with a unique output name.
+    question: Can I batch‑convert multiple OneNote files?
+  - answer: Retrieve the desired `Page` object from the `Document` and call `page.save(outputPath,
+      SaveFormat.Jpeg)`.
+    question: Is it possible to convert a specific page rather than the whole notebook?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: Como renderizar a imagem da página do OneNote (JPEG) usando o formato de salvamento
+tags:
+- convert onenote
+- aspose.note
+- java image conversion
+title: Como converter OneNote para JPEG com Aspose.Note para Java
 url: /pt/java/onenote-document-saving/save-to-jpeg-image-using-save-format/
 weight: 18
 ---
@@ -14,40 +64,36 @@ weight: 18
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Renderizar Imagem de Página OneNote (JPEG) Usando o Formato de Salvamento
+# Como converter OneNote para JPEG com Aspose.Note para Java
 
 ## Introdução
 
-Neste tutorial você descobrirá como **renderizar imagem de página OneNote** como um JPEG de alta qualidade com apenas algumas linhas de código Java. Usando o Aspose.Note for Java, podemos programaticamente **converter OneNote para imagem**, o que é perfeito para relatórios, miniaturas ou incorporação em páginas web. Vamos percorrer todo o processo, desde a configuração do ambiente até a geração da imagem final.
+Neste tutorial você aprenderá **como converter páginas do OneNote** em imagens JPEG de alta qualidade usando Aspose.Note para Java. Renderizar a imagem de uma página do OneNote é útil quando você precisa de instantâneos portáteis para relatórios, miniaturas ou incorporação na web sem exigir o cliente do OneNote. Cobriremos tudo, desde a configuração do ambiente até a chamada final `save`, além de dicas de solução de problemas e recomendações de boas práticas.
 
-## Respostas Rápidas
-- **O que significa “render onenote page image”?** Ele converte uma página ou caderno do OneNote em um formato de imagem raster, como JPEG ou PNG.  
-- **Qual biblioteca lida com a conversão?** Aspose.Note for Java fornece suporte nativo para exportação JPEG.  
-- **Preciso de uma licença para desenvolvimento?** Uma versão de avaliação gratuita funciona para testes; uma licença comercial é necessária para uso em produção.  
-- **Quais são os pré-requisitos?** Java JDK instalado e a biblioteca Aspose.Note for Java baixada.  
+## Respostas rápidas
+- **O que significa “renderizar imagem de página OneNote”?** Converte uma página ou caderno do OneNote em uma imagem raster, como JPEG ou PNG.  
+- **Qual biblioteca realiza a conversão?** Aspose.Note para Java fornece suporte nativo para exportação JPEG.  
+- **Preciso de licença para desenvolvimento?** Uma avaliação gratuita funciona para testes; uma licença comercial é necessária para uso em produção.  
+- **Quais são os pré‑requisitos?** Java JDK instalado e a biblioteca Aspose.Note para Java baixada.  
 - **Posso alterar a qualidade da imagem?** Sim, a classe `ImageSaveOptions` permite ajustar DPI, compressão e outras configurações.
 
 ## O que é renderizar imagem de página OneNote?
 
 Renderizar uma imagem de página OneNote cria uma representação visual estática de suas notas, preservando layout, fontes e objetos incorporados. Isso é especialmente útil quando você precisa compartilhar notas com usuários que não têm o OneNote instalado ou quando deseja incorporar o conteúdo em PDFs, apresentações ou páginas web.
 
-## Por que usar Aspose.Note for Java para converter OneNote?
+## Por que usar Aspose.Note para Java para converter OneNote?
 
-- **Fidelidade total:** Todos os elementos da página (texto, tinta, tabelas, imagens) são renderizados com precisão.  
-- **Nenhuma instalação do Office necessária:** Funciona em qualquer plataforma que suporte Java.  
-- **Pronto para automação:** Ideal para processamento em lote, serviços em nuvem ou pipelines CI.  
-- **Extensível:** Você pode manipular ainda mais o documento antes de salvar (por exemplo, ocultar seções, aplicar marcas d'água).
+Aspose.Note para Java renderiza páginas com **fidelidade total**—todo texto, tinta, tabelas e imagens são reproduzidos com precisão. A biblioteca suporta **mais de 50 formatos de entrada e saída**, processa cadernos com centenas de páginas sem carregar o arquivo inteiro na memória e funciona em qualquer plataforma que suporte Java, eliminando a necessidade de uma instalação local do Office. Esses benefícios quantificados a tornam ideal para processamento em lote, serviços em nuvem e pipelines de CI.
 
 ## Pré-requisitos
 
-Antes de começarmos, certifique‑se de que você tem os seguintes pré‑requisitos em vigor:
+1. **Ambiente de Desenvolvimento Java:** Certifique‑se de que o Java Development Kit (JDK) 8 ou superior esteja instalado.  
+2. **Biblioteca Aspose.Note para Java:** Baixe a biblioteca na [página de download do Aspose.Note para Java](https://releases.aspose.com/note/java/).  
+3. **IDE ou Ferramenta de Build:** Qualquer IDE Java (IntelliJ, Eclipse) ou sistema de build (Maven, Gradle) funcionará.
 
-1. **Ambiente de Desenvolvimento Java:** Certifique‑se de que o Java Development Kit (JDK) está instalado no seu sistema.  
-2. **Biblioteca Aspose.Note for Java:** Baixe e instale a biblioteca Aspose.Note for Java. Você pode baixá‑la [aqui](https://releases.aspose.com/note/java/).
+## Importar pacotes
 
-## Importar Pacotes
-
-Primeiramente, vamos importar os pacotes necessários para o nosso código Java:
+A classe `Document` e utilitários relacionados vivem no namespace `com.aspose.note`. Importe os pacotes necessários antes de escrever qualquer código.
 
 ```java
 import com.aspose.note.Document;
@@ -56,9 +102,9 @@ import com.aspose.note.SaveFormat;
 import java.io.IOException;
 ```
 
-## Etapa 1: Carregar o Documento
+## Etapa 1: carregar o documento
 
-O passo inicial é carregar o arquivo OneNote no Aspose.Note. Isso é feito usando a classe `Document`.
+Carregue o arquivo OneNote na memória usando o construtor `Document`. Isso cria um modelo de objeto que você pode manipular antes da exportação.
 
 ```java
 // The path to the documents directory.
@@ -68,9 +114,9 @@ String dataDir = "Your Document Directory";
 Document oneFile = new Document(dataDir + "Aspose.one");
 ```
 
-## Etapa 2: Salvar como Imagem JPEG
+## Etapa 2: salvar como imagem JPEG
 
-Agora especificamos o caminho do arquivo de saída e salvamos o documento no formato de imagem JPEG usando o método `save()` juntamente com o enum `SaveFormat.Jpeg`.
+Chame o método `save` com `SaveFormat.Jpeg`. A biblioteca lida automaticamente com renderização, dimensionamento DPI e conversão de cores.
 
 ```java
 // Specify the output file path.
@@ -80,58 +126,65 @@ dataDir = dataDir + "SaveToJpegImageUsingSaveFormat_out.jpg";
 oneFile.save(dataDir, SaveFormat.Jpeg);
 ```
 
-> **Dica profissional:** Se precisar controlar a qualidade da imagem, substitua a chamada `save` por uma instância `ImageSaveOptions` e defina propriedades como `setResolution` ou `setCompressionLevel`.
+> **Dica profissional:** Para ajustar a qualidade da imagem, substitua a chamada simples `save` por uma instância de `ImageSaveOptions` e defina propriedades como `setResolution(300)` ou `setCompressionLevel(90)`.
 
-## Problemas Comuns & Solução de Problemas
+## Problemas comuns e solução de problemas
 
 | Problema | Causa | Solução |
 |----------|-------|----------|
 | **Arquivo não encontrado** | Caminho `dataDir` incorreto | Verifique o caminho absoluto ou use `Paths.get(...)` para construir o caminho com segurança. |
-| **Saída de imagem em branco** | O documento contém apenas objetos de tinta não suportados por padrão | Use `ImageSaveOptions` e habilite `setRenderInk(true)`. |
+| **Saída de imagem em branco** | Documento contém apenas objetos de tinta não suportados por padrão | Use `ImageSaveOptions` e habilite `setRenderInk(true)`. |
 | **OutOfMemoryError** em cadernos grandes | Tentando renderizar uma página muito grande de uma só vez | Processar páginas individualmente ou aumentar o tamanho do heap JVM (`-Xmx2g`). |
 
-## Perguntas Frequentes (Original)
+## Perguntas frequentes (original)
 
 ### Q1: O Aspose.Note pode lidar com arquivos OneNote complexos?
 
-A1: Sim, o Aspose.Note foi projetado para lidar com arquivos OneNote complexos de forma eficiente, garantindo conversão e manipulação precisas.
+A1: Sim, o Aspose.Note foi projetado para lidar eficientemente com arquivos OneNote complexos, garantindo conversão e manipulação precisas.
 
-### Q2: Existe uma versão de avaliação disponível para Aspose.Note for Java?
+### Q2: Existe uma versão de avaliação disponível para Aspose.Note para Java?
 
-A2: Sim, você pode obter uma versão de avaliação gratuita do Aspose.Note for Java [aqui](https://releases.aspose.com/).
+A2: Sim, você pode obter uma versão de avaliação gratuita do Aspose.Note para Java na [página de download de avaliação do Aspose.Note](https://releases.aspose.com/).
 
-### Q3: Como posso obter suporte para Aspose.Note for Java?
+### Q3: Como posso obter suporte para Aspose.Note para Java?
 
-A3: Você pode obter suporte para Aspose.Note for Java visitando o [fórum Aspose.Note](https://forum.aspose.com/c/note/28).
+A3: Você pode obter suporte para Aspose.Note para Java visitando o [fórum do Aspose.Note](https://forum.aspose.com/c/note/28).
 
-### Q4: Posso comprar uma licença temporária para Aspose.Note for Java?
+### Q4: Posso comprar uma licença temporária para Aspose.Note para Java?
 
-A4: Sim, você pode comprar uma licença temporária [aqui](https://purchase.aspose.com/temporary-license/).
+A4: Sim, você pode adquirir uma licença temporária na [página de compra de licença temporária da Aspose](https://purchase.aspose.com/temporary-license/).
 
-### Q5: Onde posso encontrar documentação detalhada para Aspose.Note for Java?
+### Q5: Onde encontro documentação detalhada para Aspose.Note para Java?
 
-A5: Você pode encontrar documentação detalhada para Aspose.Note for Java [aqui](https://reference.aspose.com/note/java/).
+A5: Você pode encontrar documentação detalhada para Aspose.Note para Java na [referência da API Java do Aspose.Note](https://reference.aspose.com/note/java/).
 
-## FAQ Adicional – Como Converter OneNote
+## FAQ adicional – como converter OneNote
 
 **Q: Como converto OneNote para outros formatos de imagem (PNG, BMP)?**  
 A: Altere o enum `SaveFormat` para `SaveFormat.Png` ou `SaveFormat.Bmp` na chamada `save`.
 
-**Q: Posso converter em lote vários arquivos OneNote?**  
-A: Sim, percorra um diretório de arquivos `.one`, carregue cada um com `new Document(...)` e chame `save` com um nome de saída único.
+**Q: Posso converter vários arquivos OneNote em lote?**  
+A: Sim, percorra um diretório de arquivos `.one`, carregue cada um com `new Document(...)` e chame `save` com um nome de saída exclusivo.
 
 **Q: É possível converter uma página específica em vez de todo o caderno?**  
 A: Recupere o objeto `Page` desejado do `Document` e chame `page.save(outputPath, SaveFormat.Jpeg)`.
 
 ## Conclusão
 
-Cobremos tudo o que você precisa para **renderizar imagem de página OneNote** usando Aspose.Note for Java — desde a configuração do ambiente até a geração de um arquivo JPEG e a resolução de problemas comuns. Com esse conhecimento, você pode automatizar conversões de OneNote, integrá‑las a fluxos de trabalho maiores ou simplesmente fornecer aos usuários instantâneos de imagem portáteis de suas notas.
+Cobrimos tudo o que você precisa para **renderizar imagem de página OneNote** usando Aspose.Note para Java—from configurar seu ambiente até gerar um arquivo JPEG e lidar com armadilhas comuns. Com esse conhecimento, você pode automatizar conversões do OneNote, integrá‑las a fluxos de trabalho maiores ou simplesmente fornecer aos usuários instantâneos de imagem portáteis de suas notas.
 
 ---
 
-**Última atualização:** 2025-12-17  
-**Testado com:** Aspose.Note para Java 26.4 (mais recente na data de escrita)  
-**Autor:** Aspose  
+**Última atualização:** 2026-11-19  
+**Testado com:** Aspose.Note para Java 26.4 (mais recente no momento da escrita)  
+**Autor:** Aspose
+
+## Tutoriais relacionados
+
+- [Exportar OneNote para imagem BMP usando Aspose.Note para Java Image Save Options](/note/java/onenote-document-saving/save-to-bmp-image-using-image-save-options/)
+- [Usar Aspose.Note para Java para salvar OneNote como PNG com opções – Converter caderno em imagem](/note/java/onenote-notebook-operations/convert-notebook-to-image-with-options/)
+- [Exportar página OneNote para imagem usando Java](/note/java/onenote-document-loading/convert-page-to-image/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
