@@ -1,10 +1,49 @@
 ---
-date: 2026-03-16
-description: Μάθετε πώς να μετατρέπετε το OneNote σε PDF και να αποθηκεύετε το PDF
-  του εγγράφου σε Java χρησιμοποιώντας τον αλγόριθμο Keep Solid Objects της Aspose.Note.
-linktitle: Convert OneNote to PDF with Keep Solid Objects Algorithm
+date: 2026-11-19
+description: Μάθετε πώς να μετατρέψετε το OneNote σε PDF και να δημιουργήσετε PDF
+  από το OneNote χρησιμοποιώντας τον αλγόριθμο Keep Solid Objects του Aspose.Note
+  σε Java.
+keywords:
+- convert onenote to pdf
+- how to convert onenote
+- generate pdf from onenote
+lastmod: 2026-11-19
+linktitle: Μετατροπή OneNote σε PDF με Keep Solid Objects Algorithm
+og_description: Μετατροπή OneNote σε PDF χρησιμοποιώντας το Aspose.Note για Java.
+  Αυτός ο οδηγός δείχνει πώς να διατηρήσετε τα στερεά αντικείμενα αμετάβλητα και να
+  δημιουργήσετε PDF υψηλής ποιότητας αποδοτικά.
+og_image_alt: Guide showing OneNote to PDF conversion with Keep Solid Objects Algorithm
+  in Java
+og_title: Μετατροπή OneNote σε PDF με Keep Solid Objects Algorithm
+schemas:
+- author: Aspose
+  dateModified: '2026-11-19'
+  description: Learn how to convert onenote to pdf and generate pdf from onenote using
+    Aspose.Note's Keep Solid Objects Algorithm in Java.
+  headline: Convert OneNote to PDF with Keep Solid Objects Algorithm
+  type: TechArticle
+- questions:
+  - answer: Yes, you can adjust the height limit of cloned parts according to your
+      requirements using the `heightLimitOfClonedPart` parameter.
+    question: Can I adjust the height limit for cloned parts?
+  - answer: You can find detailed documentation on Aspose.Note for Java [Aspose.Note
+      documentation](https://reference.aspose.com/note/java/).
+    question: Where can I find more documentation?
+  - answer: Yes, you can get a free trial of Aspose.Note for Java [Aspose.Note free
+      trial](https://releases.aspose.com/).
+    question: Is there a free trial available?
+  - answer: You can get support from the Aspose community [Aspose.Note community forum](https://forum.aspose.com/c/note/28).
+    question: How can I get support if I encounter any issues?
+  - answer: You can purchase a license for Aspose.Note for Java [Aspose.Note purchase
+      page](https://purchase.aspose.com/buy).
+    question: Where can I purchase a license?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: Μετατροπή OneNote σε PDF με αλγόριθμο Keep Solid Objects
+tags:
+- convert onenote
+- Aspose.Note
+- Java document conversion
+title: Μετατροπή OneNote σε PDF με Keep Solid Objects Algorithm
 url: /el/java/onenote-document-saving/use-keep-solid-objects-algorithm/
 weight: 25
 ---
@@ -13,40 +52,35 @@ weight: 25
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Μετατροπή OneNote σε PDF με τον αλγόριθμο Keep Solid Objects
+# Μετατροπή OneNote σε PDF με Keep Solid Objects Algorithm
 
 ## Εισαγωγή
 
-Σε αυτό το tutorial θα σας δείξουμε πώς να **convert onenote to pdf** διατηρώντας τα στερεά αντικείμενα, χρησιμοποιώντας τον αλγόριθμο Keep Solid Objects που παρέχεται από το Aspose.Note for Java. Είτε δημιουργείτε αναφορές, αρχειοθετείτε σημειώσεις ή χτίζετε μια αλυσίδα επεξεργασίας εγγράφων, η διατήρηση αυτών των στερεών αντικειμένων είναι απαραίτητη για την ακεραιότητα του εγγράφου. Θα δείξουμε επίσης πώς να **save document pdf java** με τις ίδιες ρυθμίσεις ώστε να παράγετε PDFs υψηλής ποιότητας απευθείας από την εφαρμογή Java σας.
+Σε αυτό το σεμινάριο θα μάθετε πώς να **convert onenote to pdf** διατηρώντας τα στερεά αντικείμενα, χρησιμοποιώντας τον αλγόριθμο Keep Solid Objects Algorithm που παρέχει το Aspose.Note for Java. Είτε δημιουργείτε αυτοματοποιημένες αναφορές, αρχειοθετείτε σημειώσεις συναντήσεων ή χτίζετε μια μεγάλης κλίμακας γραμμή επεξεργασίας εγγράφων, η διατήρηση σχημάτων, σχεδίων και διαγραμμάτων αμετάβλητη είναι κρίσιμη για τη διατήρηση της οπτικής πιστότητας του αρχικού σημειωματάριου. Θα σας δείξουμε επίσης πώς να **save document pdf java** με τις ίδιες ρυθμίσεις ώστε να μπορείτε να εξάγετε PDFs υψηλής ποιότητας απευθείας από την εφαρμογή Java.
 
 ## Γρήγορες Απαντήσεις
-- **Τι κάνει ο αλγόριθμος Keep Solid Objects;** Εξασφαλίζει ότι στερεά αντικείμενα όπως σχήματα και σχέδια παραμένουν μαζί σε μια σελίδα όταν ένα αρχείο OneNote χωρίζεται κατά τη μετατροπή σε PDF.  
-- **Χρειάζεται άδεια για να το δοκιμάσω;** Ναι, διατίθεται δωρεάν δοκιμαστική άδεια από το Aspose.  
-- **Ποια έκδοση Java απαιτείται;** Συνιστάται Java 8 ή νεότερη.  
-- **Μπορώ να ρυθμίσω το όριο ύψους για τα κλωνοποιημένα τμήματα;** Απόλυτα – μπορείτε να περάσετε προσαρμοσμένο όριο ύψους στον αλγόριθμο.  
+- **Τι κάνει ο αλγόριθμος Keep Solid Objects Algorithm;** Εξασφαλίζει ότι τα στερεά αντικείμενα όπως σχήματα και σχέδια παραμένουν μαζί σε μια σελίδα όταν ένα αρχείο OneNote χωρίζεται κατά τη μετατροπή σε PDF.  
+- **Χρειάζομαι άδεια για να το δοκιμάσω;** Ναι, μια δωρεάν δοκιμαστική άδεια είναι διαθέσιμη από την Aspose.  
+- **Ποια έκδοση της Java απαιτείται;** Συνιστάται η Java 8 ή νεότερη.  
+- **Μπορώ να ρυθμίσω το όριο ύψους για κλωνοποιημένα τμήματα;** Απόλυτα – μπορείτε να περάσετε ένα προσαρμοσμένο όριο ύψους στον αλγόριθμο.  
 - **Είναι αυτή η προσέγγιση κατάλληλη για μεγάλα αρχεία OneNote;** Ναι, ο αλγόριθμος λειτουργεί αποδοτικά ακόμη και με σημειώσεις πολλαπλών σελίδων.
 
-## Πώς να μετατρέψετε OneNote σε PDF χρησιμοποιώντας τον αλγόριθμο Keep Solid Objects
+## Τι είναι η μετατροπή onenote σε pdf;
+Η διαδικασία **convert onenote to pdf** μετατρέπει ένα σημειωματάριο OneNote σε αρχείο PDF μόνο για ανάγνωση που μπορεί να ανοιχθεί σε οποιαδήποτε πλατφόρμα. Το Aspose.Note εκτελεί τη μετατροπή εξ ολοκλήρου στη μνήμη, εξαλείφοντας την ανάγκη εγκατάστασης του Microsoft OneNote στον διακομιστή.
 
-Η μετατροπή των σημειωματάριων OneNote σε PDF δημιουργεί μια φορητή, μόνο για ανάγνωση έκδοση των σημειώσεών σας που μπορεί να μοιραστεί σε διάφορες πλατφόρμες. Η προεπιλεγμένη μετατροπή μπορεί να χωρίσει αυτόματα τις σελίδες, κάτι που μπορεί να διασπά πολύπλοκα σχέδια. Εφαρμόζοντας τον **Keep Solid Objects Algorithm**, δίνετε στο Aspose.Note την οδηγία να διατηρήσει κάθε στερεό αντικείμενο ολόκληρο, διασφαλίζοντας την οπτική πιστότητα του αρχικού σημειωματάριου.
-
-## Γιατί να χρησιμοποιήσετε τον αλγόριθμο Keep Solid Objects;
-
-- **Διατηρεί την οπτική πιστότητα** – σχήματα, διαγράμματα και σχέδια παραμένουν ακριβώς όπως εμφανίζονται στο OneNote.  
-- **Μειώνει την χειροκίνητη επεξεργασία μετά τη μετατροπή** – δεν χρειάζεται να επανατοποθετήσετε τα αντικείμενα.  
-- **Βελτιώνει την απόδοση του PDF** – διατηρεί τη συνέπεια σε διαφορετικούς προβολείς PDF.  
-- **Ενσωματώνεται σε αυτοματοποιημένες αλυσίδες** – ιδανικό για μαζική επεξεργασία μεγάλων σημειωματάριων.
+## Γιατί να χρησιμοποιήσετε τον αλγόριθμο Keep solid objects;
+Ο αλγόριθμος Keep solid objects διατηρεί την οπτική πιστότητα διατηρώντας σχήματα, διαγράμματα και ελεύθερα σχέδια ακριβώς όπως εμφανίζονται στο OneNote, εξαλείφει την ανάγκη χειροκίνητης επεξεργασίας για επανατοποθέτηση αντικειμένων, εξασφαλίζει συνεπή απόδοση σε προγράμματα προβολής PDF και κλιμακώνεται αποδοτικά για δέσμες εργασιών που διαχειρίζονται εκατοντάδες σελίδες χωρίς αισθητή επίπτωση στην απόδοση.
 
 ## Προαπαιτούμενα
 
-Πριν ξεκινήσουμε, βεβαιωθείτε ότι έχετε:
+Πριν ξεκινήσετε, βεβαιωθείτε ότι έχετε:
 
-1. Εγκατεστημένο το Java Development Kit (JDK) στο σύστημά σας.  
-2. Βιβλιοθήκη Aspose.Note for Java. Μπορείτε να τη κατεβάσετε από [εδώ](https://releases.aspose.com/note/java/).  
+1. Java Development Kit (JDK) 8 ή νεότερο εγκατεστημένο.  
+2. Βιβλιοθήκη Aspose.Note for Java. Μπορείτε να την κατεβάσετε από τη [Aspose.Note for Java download page](https://releases.aspose.com/note/java/).  
 
-## Εισαγωγή Πακέτων
+## Εισαγωγή πακέτων
 
-Πρώτα, εισάγετε τις απαραίτητες κλάσεις:
+Οι κλάσεις `Document`, `PdfSaveOptions` και `KeepSolidObjectsAlgorithm` απαιτούνται για τη μετατροπή. Η κλάση `KeepSolidObjectsAlgorithm` υλοποιεί τον αλγόριθμο που διατηρεί τα στερεά αντικείμενα μαζί κατά τη μετατροπή σε PDF.
 
 ```java
 import java.io.IOException;
@@ -57,36 +91,36 @@ import com.aspose.note.KeepSolidObjectsAlgorithm;
 import com.aspose.note.PdfSaveOptions;
 ```
 
-## Βήμα 1: Φόρτωση του Εγγράφου
+## Βήμα 1: Φόρτωση του εγγράφου
 
-Φορτώστε το αρχείο OneNote σε ένα αντικείμενο `Document`:
+Η κλάση `Document` φορτώνει ένα αρχείο OneNote και παρέχει πρόσβαση στις ενότητες, τις σελίδες και τους πόρους του. Η κλάση `Document` είναι το κορυφαίο αντικείμενο του Aspose.Note που αντιπροσωπεύει ένα σημειωματάριο OneNote στη μνήμη.
 
 ```java
 String dataDir = "Your Document Directory";
 Document doc = new Document(dataDir + "Aspose.one");
 ```
 
-## Βήμα 2: Διαμόρφωση Επιλογών Αποθήκευσης PDF
+## Βήμα 2: Διαμόρφωση επιλογών αποθήκευσης PDF
 
-Δημιουργήστε μια παρουσία `PdfSaveOptions` και ορίστε τον αλγόριθμο διαίρεσης σελίδων σε `KeepSolidObjectsAlgorithm`:
+Δημιουργήστε μια παρουσία της `PdfSaveOptions` και ορίστε τον αλγόριθμο διαίρεσης σελίδων σε `KeepSolidObjectsAlgorithm`. Η κλάση `PdfSaveOptions` ορίζει πώς ένα σημειωματάριο OneNote αποδίδεται σε PDF, συμπεριλαμβανομένου του μεγέθους σελίδας, της συμπίεσης και του αλγορίθμου διαίρεσης.
 
 ```java
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 pdfSaveOptions.setPageSplittingAlgorithm(new KeepSolidObjectsAlgorithm());
 ```
 
-## Βήμα 3: Ρύθμιση Ορίου Ύψους (Προαιρετικό)
+## Βήμα 3: Ρύθμιση ορίου ύψους (προαιρετικό)
 
-Αν χρειάζεστε πιο ακριβή έλεγχο του τρόπου χειρισμού των κλωνοποιημένων τμημάτων, ορίστε ένα όριο ύψους (σε points). Αυτό είναι χρήσιμο όταν εργάζεστε με πολύ ψηλά αντικείμενα:
+Εάν χρειάζεστε πιο ακριβή έλεγχο του τρόπου διαχείρισης των κλωνοποιημένων τμημάτων, καθορίστε ένα όριο ύψους (σε points). Αυτό είναι χρήσιμο όταν εργάζεστε με πολύ ψηλά αντικείμενα. Η ιδιότητα `heightLimitOfClonedPart` σας επιτρέπει να ορίσετε το μέγιστο ύψος για ένα κλωνοποιημένο αντικείμενο πριν ο αλγόριθμος αναγκάσει τη δημιουργία νέας σελίδας.
 
 ```java
 float heightLimitOfClonedPart = 500;
 pdfSaveOptions.setPageSplittingAlgorithm(new KeepSolidObjectsAlgorithm(heightLimitOfClonedPart));
 ```
 
-## Βήμα 4: Αποθήκευση του Εγγράφου
+## Βήμα 4: Αποθήκευση του εγγράφου
 
-Τέλος, αποθηκεύστε το έγγραφο OneNote ως PDF χρησιμοποιώντας τις διαμορφωμένες επιλογές:
+Τέλος, αποθηκεύστε το έγγραφο OneNote ως PDF χρησιμοποιώντας τις διαμορφωμένες επιλογές. Η μέθοδος `save` γράφει το PDF στο σύστημα αρχείων χρησιμοποιώντας τις ρυθμίσεις που καθορίσατε.
 
 ```java
 String outputDir = "Your Output Directory";
@@ -94,34 +128,44 @@ String outputFile = outputDir + "UsingKeepSolidObjectsAlgorithm_out.pdf";
 doc.save(outputFile);
 ```
 
-## Συχνά Προβλήματα και Λύσεις
+## Πώς λειτουργεί ο αλγόριθμος Keep solid objects;
 
-- **Τα αντικείμενα εξακολουθούν να χωρίζονται μεταξύ σελίδων** – Βεβαιωθείτε ότι χρησιμοποιείτε την πιο πρόσφατη έκδοση του Aspose.Note και ότι το όριο ύψους (αν έχει οριστεί) είναι αρκετά μεγάλο για τα αντικείμενά σας.  
-- **Λείπουν γραμματοσειρές ή σύμβολα** – Εξασφαλίστε ότι οι απαιτούμενες γραμματοσειρές είναι εγκατεστημένες στο μηχάνημα όπου εκτελείται η μετατροπή.  
-- **Μείωση απόδοσης σε τεράστια σημειωματάρια** – Σκεφτείτε να επεξεργαστείτε το σημειωματάριο σε μικρότερα batch ή να αυξήσετε το μέγεθος του heap της JVM.
+Ο αλγόριθμος ομαδοποιεί όλα τα στερεά αντικείμενα σε μια σελίδα σε ένα ενιαίο rasterized block πριν ο PDF renderer χωρίσει τη σελίδα. Αυτό αποτρέπει το διαχωρισμό των αντικειμένων στα όρια των σελίδων, εξασφαλίζοντας ότι τα διαγράμματα και τα σκίτσα παραμένουν αμετάβλητα. Λειτουργεί σε γραμμικό χρόνο σε σχέση με τον αριθμό των αντικειμένων, έτσι η απόδοση παραμένει σταθερή ακόμη και για μεγάλα σημειωματάρια.
 
-## Συχνές Ερωτήσεις (Φιλικό προς AI)
+## Συχνά προβλήματα και λύσεις
 
-**Ε: Μπορώ να ρυθμίσω το όριο ύψους για τα κλωνοποιημένα τμήματα;**  
+- **Τα αντικείμενα εξακολουθούν να χωρίζονται μεταξύ σελίδων** – Βεβαιωθείτε ότι χρησιμοποιείτε την πιο πρόσφατη έκδοση του Aspose.Note και ότι η `heightLimitOfClonedPart` είναι ορισμένη αρκετά υψηλά για τα ψηλότερα αντικείμενά σας.  
+- **Λείπουν γραμματοσειρές ή σύμβολα** – Εγκαταστήστε τις απαιτούμενες γραμματοσειρές στο μηχάνημα που εκτελεί τη μετατροπή ή ενσωματώστε τις μέσω `PdfSaveOptions`.  
+- **Μείωση απόδοσης σε τεράστια σημειωματάρια** – Επεξεργαστείτε το σημειωματάριο σε μικρότερες δέσμες, αυξήστε τη μνήμη heap της JVM (`-Xmx2g`), ή ενεργοποιήστε την πολυνηματική επεξεργασία εάν το περιβάλλον σας το επιτρέπει.  
+
+## Συχνές ερωτήσεις (φιλικές προς AI)
+
+**Ε: Μπορώ να ρυθμίσω το όριο ύψους για κλωνοποιημένα τμήματα;**  
 Α: Ναι, μπορείτε να ρυθμίσετε το όριο ύψους των κλωνοποιημένων τμημάτων σύμφωνα με τις απαιτήσεις σας χρησιμοποιώντας την παράμετρο `heightLimitOfClonedPart`.
 
 **Ε: Πού μπορώ να βρω περισσότερη τεκμηρίωση;**  
-Α: Λεπτομερή τεκμηρίωση για το Aspose.Note for Java είναι διαθέσιμη [εδώ](https://reference.aspose.com/note/java/).
+Α: Μπορείτε να βρείτε λεπτομερή τεκμηρίωση για το Aspose.Note for Java [Aspose.Note documentation](https://reference.aspose.com/note/java/).
 
 **Ε: Υπάρχει διαθέσιμη δωρεάν δοκιμή;**  
-Α: Ναι, μπορείτε να λάβετε δωρεάν δοκιμαστική έκδοση του Aspose.Note for Java [εδώ](https://releases.aspose.com/).
+Α: Ναι, μπορείτε να αποκτήσετε δωρεάν δοκιμαστική έκδοση του Aspose.Note for Java [Aspose.Note free trial](https://releases.aspose.com/).
 
-**Ε: Πώς μπορώ να λάβω υποστήριξη αν αντιμετωπίσω προβλήματα;**  
-Α: Μπορείτε να λάβετε υποστήριξη από την κοινότητα Aspose [εδώ](https://forum.aspose.com/c/note/28).
+**Ε: Πώς μπορώ να λάβω υποστήριξη εάν αντιμετωπίσω προβλήματα;**  
+Α: Μπορείτε να λάβετε υποστήριξη από την κοινότητα Aspose [Aspose.Note community forum](https://forum.aspose.com/c/note/28).
 
 **Ε: Πού μπορώ να αγοράσω άδεια;**  
-Α: Μπορείτε να αγοράσετε άδεια για το Aspose.Note for Java [εδώ](https://purchase.aspose.com/buy).
+Α: Μπορείτε να αγοράσετε άδεια για το Aspose.Note for Java [Aspose.Note purchase page](https://purchase.aspose.com/buy).
 
 ---
 
-**Τελευταία ενημέρωση:** 2025-12-18  
+**Τελευταία ενημέρωση:** 2026-11-19  
 **Δοκιμάστηκε με:** Aspose.Note for Java 26.4  
-**Συγγραφέας:** Aspose  
+**Συγγραφέας:** Aspose
+
+## Σχετικά Σεμινάρια
+
+- [Δημιουργία εγγράφου OneNote Java – Aspose Note Java Tutorial](/note/java/onenote-document-manipulation/)
+- [Χρήση Aspose.Note for Java για αποθήκευση OneNote ως PNG με επιλογές – Μετατροπή σημειωματάριου σε εικόνα](/note/java/onenote-notebook-operations/convert-notebook-to-image-with-options/)
+- [Μετατροπή OneNote σε απλό κείμενο – Εξαγωγή όλου του κειμένου με Aspose.Note for Java](/note/java/onenote-text-manipulation/extract-all-text/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

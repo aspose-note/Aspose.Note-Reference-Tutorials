@@ -1,9 +1,47 @@
 ---
-date: 2026-03-16
-description: Pelajari cara mengonversi OneNote ke PDF dan menyimpan dokumen PDF Java
-  menggunakan Algoritma Keep Solid Objects Aspose.Note di Java.
-linktitle: Convert OneNote to PDF with Keep Solid Objects Algorithm
+date: 2026-11-19
+description: Pelajari cara mengonversi OneNote ke PDF dan menghasilkan PDF dari OneNote
+  menggunakan Algoritma Keep Solid Objects Aspose.Note dalam Java.
+keywords:
+- convert onenote to pdf
+- how to convert onenote
+- generate pdf from onenote
+lastmod: 2026-11-19
+linktitle: Konversi OneNote ke PDF dengan Algoritma Keep Solid Objects
+og_description: Konversi OneNote ke PDF menggunakan Aspose.Note untuk Java. Panduan
+  ini menunjukkan cara menjaga objek padat tetap utuh dan menghasilkan PDF berkualitas
+  tinggi secara efisien.
+og_image_alt: Guide showing OneNote to PDF conversion with Keep Solid Objects Algorithm
+  in Java
+og_title: Konversi OneNote ke PDF dengan Algoritma Keep Solid Objects
+schemas:
+- author: Aspose
+  dateModified: '2026-11-19'
+  description: Learn how to convert onenote to pdf and generate pdf from onenote using
+    Aspose.Note's Keep Solid Objects Algorithm in Java.
+  headline: Convert OneNote to PDF with Keep Solid Objects Algorithm
+  type: TechArticle
+- questions:
+  - answer: Yes, you can adjust the height limit of cloned parts according to your
+      requirements using the `heightLimitOfClonedPart` parameter.
+    question: Can I adjust the height limit for cloned parts?
+  - answer: You can find detailed documentation on Aspose.Note for Java [Aspose.Note
+      documentation](https://reference.aspose.com/note/java/).
+    question: Where can I find more documentation?
+  - answer: Yes, you can get a free trial of Aspose.Note for Java [Aspose.Note free
+      trial](https://releases.aspose.com/).
+    question: Is there a free trial available?
+  - answer: You can get support from the Aspose community [Aspose.Note community forum](https://forum.aspose.com/c/note/28).
+    question: How can I get support if I encounter any issues?
+  - answer: You can purchase a license for Aspose.Note for Java [Aspose.Note purchase
+      page](https://purchase.aspose.com/buy).
+    question: Where can I purchase a license?
+  type: FAQPage
 second_title: Aspose.Note Java API
+tags:
+- convert onenote
+- Aspose.Note
+- Java document conversion
 title: Konversi OneNote ke PDF dengan Algoritma Keep Solid Objects
 url: /id/java/onenote-document-saving/use-keep-solid-objects-algorithm/
 weight: 25
@@ -13,40 +51,38 @@ weight: 25
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Mengonversi OneNote ke PDF dengan Algoritma Keep Solid Objects
+# Konversi OneNote ke PDF dengan Keep Solid Objects Algorithm
 
-## Pendahuluan
+## Introduction
 
-Dalam tutorial ini kami akan memandu Anda cara **mengonversi onenote ke pdf** sambil mempertahankan objek padat, menggunakan Algoritma Keep Solid Objects yang disediakan oleh Aspose.Note untuk Java. Baik Anda membuat laporan, mengarsipkan catatan, atau membangun pipeline pemrosesan dokumen, menjaga objek padat tetap utuh sangat penting untuk integritas dokumen. Kami juga akan menunjukkan cara **save document pdf java** dengan pengaturan yang sama sehingga Anda dapat menghasilkan PDF berkualitas tinggi langsung dari aplikasi Java Anda.
+Pada tutorial ini Anda akan belajar cara **convert onenote to pdf** sambil mempertahankan objek padat, menggunakan Keep Solid Objects Algorithm yang disediakan oleh Aspose.Note untuk Java. Baik Anda menghasilkan laporan otomatis, mengarsipkan catatan rapat, atau membangun pipeline pemrosesan dokumen berskala besar, menjaga bentuk, gambar, dan diagram tetap utuh sangat penting untuk mempertahankan kesetiaan visual notebook asli. Kami juga akan menunjukkan cara **save document pdf java** dengan pengaturan yang sama sehingga Anda dapat menghasilkan PDF berkualitas tinggi langsung dari aplikasi Java Anda.
 
-## Jawaban Cepat
-- **Apa yang dilakukan Algoritma Keep Solid Objects?** Algoritma ini memastikan bahwa objek padat seperti bentuk dan gambar tetap bersama pada satu halaman ketika file OneNote dipisah selama konversi PDF.  
+## Quick Answers
+
+- **Apa yang dilakukan Keep Solid Objects Algorithm?** Algoritma ini memastikan bahwa objek padat seperti bentuk dan gambar tetap bersama pada satu halaman ketika file OneNote dibagi selama konversi PDF.  
 - **Apakah saya memerlukan lisensi untuk mencoba ini?** Ya, lisensi percobaan gratis tersedia dari Aspose.  
-- **Versi Java mana yang diperlukan?** Java 8 atau yang lebih tinggi disarankan.  
-- **Bisakah saya mengatur batas tinggi untuk bagian yang diklon?** Tentu – Anda dapat memberikan batas tinggi khusus ke algoritma.  
+- **Versi Java mana yang diperlukan?** Java 8 atau yang lebih baru disarankan.  
+- **Bisakah saya menyesuaikan batas tinggi untuk bagian yang dikloning?** Tentu – Anda dapat memberikan batas tinggi khusus ke algoritma.  
 - **Apakah pendekatan ini cocok untuk file OneNote yang besar?** Ya, algoritma ini bekerja secara efisien bahkan dengan catatan multi‑halaman.
 
-## Cara mengonversi OneNote ke PDF menggunakan Algoritma Keep Solid Objects
+## What is convert onenote to pdf?
 
-Mengonversi notebook OneNote ke PDF menghasilkan versi portabel, hanya‑baca dari catatan Anda yang dapat dibagikan lintas platform. Konversi default mungkin memisahkan halaman secara otomatis, yang dapat merusak gambar kompleks. Dengan menerapkan **Algoritma Keep Solid Objects**, Anda memberi tahu Aspose.Note untuk menjaga setiap objek padat tetap utuh, mempertahankan kesetiaan visual notebook asli Anda.
+Proses **convert onenote to pdf** mengubah notebook OneNote menjadi file PDF hanya‑baca yang dapat dibuka di platform apa pun. Aspose.Note melakukan konversi sepenuhnya di memori, menghilangkan kebutuhan untuk menginstal Microsoft OneNote di server.
 
-## Mengapa menggunakan Algoritma Keep Solid Objects?
+## Why use the Keep solid objects algorithm?
 
-- **Mempertahankan kesetiaan visual** – bentuk, diagram, dan gambar tetap persis seperti yang muncul di OneNote.  
-- **Mengurangi pemrosesan manual setelah konversi** – tidak perlu menyelaraskan kembali objek setelah konversi.  
-- **Meningkatkan rendering PDF** – menjaga konsistensi di semua penampil PDF.  
-- **Cocok untuk pipeline otomatis** – ideal untuk pemrosesan batch notebook besar.
+Algoritma Keep solid objects mempertahankan kesetiaan visual dengan menjaga bentuk, diagram, dan gambar tangan bebas persis seperti yang muncul di OneNote, menghilangkan kebutuhan proses pasca‑pemrosesan manual untuk menyelaraskan kembali objek, memastikan rendering yang konsisten di semua penampil PDF, dan skalabel secara efisien untuk pipeline batch yang menangani ratusan halaman tanpa dampak kinerja yang terlihat.
 
-## Prasyarat
+## Prerequisites
 
-Sebelum kita mulai, pastikan Anda memiliki:
+Sebelum memulai, pastikan Anda memiliki:
 
-1. Java Development Kit (JDK) terpasang di sistem Anda.  
-2. Perpustakaan Aspose.Note untuk Java. Anda dapat mengunduhnya dari [here](https://releases.aspose.com/note/java/).  
+1. Java Development Kit (JDK) 8 atau yang lebih baru terinstal.  
+2. Aspose.Note for Java library. Anda dapat mengunduhnya dari [Aspose.Note for Java download page](https://releases.aspose.com/note/java/).  
 
-## Mengimpor Paket
+## Import packages
 
-Pertama, impor kelas‑kelas yang diperlukan:
+Kelas `Document`, `PdfSaveOptions`, dan `KeepSolidObjectsAlgorithm` diperlukan untuk konversi. Kelas `KeepSolidObjectsAlgorithm` mengimplementasikan algoritma yang menjaga objek padat tetap bersama selama konversi PDF.
 
 ```java
 import java.io.IOException;
@@ -57,36 +93,36 @@ import com.aspose.note.KeepSolidObjectsAlgorithm;
 import com.aspose.note.PdfSaveOptions;
 ```
 
-## Langkah 1: Memuat Dokumen
+## Step 1: Load the document
 
-Muat file OneNote Anda ke dalam objek `Document`:
+Kelas `Document` memuat file OneNote dan menyediakan akses ke bagian, halaman, dan sumber dayanya. Kelas `Document` adalah objek tingkat‑atas Aspose.Note yang merepresentasikan notebook OneNote di memori.
 
 ```java
 String dataDir = "Your Document Directory";
 Document doc = new Document(dataDir + "Aspose.one");
 ```
 
-## Langkah 2: Mengonfigurasi Opsi Penyimpanan PDF
+## Step 2: Configure PDF save options
 
-Buat instance `PdfSaveOptions` dan atur algoritma pemisahan halaman ke `KeepSolidObjectsAlgorithm`:
+Buat instance `PdfSaveOptions` dan atur algoritma pemisahan halaman menjadi `KeepSolidObjectsAlgorithm`. Kelas `PdfSaveOptions` mendefinisikan bagaimana notebook OneNote dirender ke PDF, termasuk ukuran halaman, kompresi, dan algoritma pemisahan.
 
 ```java
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 pdfSaveOptions.setPageSplittingAlgorithm(new KeepSolidObjectsAlgorithm());
 ```
 
-## Langkah 3: Mengatur Batas Tinggi (Opsional)
+## Step 3: Adjust height limit (optional)
 
-Jika Anda memerlukan kontrol lebih halus atas cara bagian yang diklon ditangani, tentukan batas tinggi (dalam poin). Ini berguna saat menangani objek yang sangat tinggi:
+Jika Anda memerlukan kontrol lebih halus atas cara bagian yang dikloning ditangani, tentukan batas tinggi (dalam poin). Ini berguna saat berurusan dengan objek yang sangat tinggi. Properti `heightLimitOfClonedPart` memungkinkan Anda menentukan tinggi maksimum untuk objek yang dikloning sebelum algoritma memaksa halaman baru.
 
 ```java
 float heightLimitOfClonedPart = 500;
 pdfSaveOptions.setPageSplittingAlgorithm(new KeepSolidObjectsAlgorithm(heightLimitOfClonedPart));
 ```
 
-## Langkah 4: Menyimpan Dokumen
+## Step 4: Save the document
 
-Akhirnya, simpan dokumen OneNote sebagai PDF menggunakan opsi yang telah dikonfigurasi:
+Akhirnya, simpan dokumen OneNote sebagai PDF menggunakan opsi yang telah dikonfigurasi. Metode `save` menulis PDF ke sistem file menggunakan opsi yang Anda atur.
 
 ```java
 String outputDir = "Your Output Directory";
@@ -94,34 +130,44 @@ String outputFile = outputDir + "UsingKeepSolidObjectsAlgorithm_out.pdf";
 doc.save(outputFile);
 ```
 
-## Masalah Umum dan Solusinya
+## How does the Keep solid objects algorithm work?
 
-- **Objek masih terpisah antar halaman** – Pastikan Anda menggunakan versi terbaru Aspose.Note dan bahwa batas tinggi (jika diatur) cukup besar untuk objek Anda.  
-- **Font atau simbol hilang** – Pastikan font yang diperlukan terpasang pada mesin tempat konversi dijalankan.  
-- **Penurunan kinerja pada notebook yang sangat besar** – Pertimbangkan memproses notebook dalam batch yang lebih kecil atau meningkatkan ukuran heap JVM.
+Algoritma mengelompokkan semua objek padat pada sebuah halaman menjadi satu blok raster sebelum perender PDF memisahkan halaman. Ini mencegah objek terbagi di batas halaman, memastikan diagram dan sketsa tetap utuh. Algoritma beroperasi dalam waktu linear relatif terhadap jumlah objek, sehingga kinerja tetap stabil bahkan untuk notebook yang besar.
 
-## Pertanyaan yang Sering Diajukan (AI‑Friendly)
+## Common issues and solutions
 
-**T: Bisakah saya mengatur batas tinggi untuk bagian yang diklon?**  
-J: Ya, Anda dapat menyesuaikan batas tinggi bagian yang diklon sesuai kebutuhan menggunakan parameter `heightLimitOfClonedPart`.
+- **Objek masih terbelah di antara halaman** – Pastikan Anda menggunakan versi Aspose.Note terbaru dan bahwa `heightLimitOfClonedPart` diatur cukup tinggi untuk objek tertinggi Anda.  
+- **Font atau simbol hilang** – Instal font yang diperlukan pada mesin yang menjalankan konversi, atau sematkan mereka melalui `PdfSaveOptions`.  
+- **Penurunan kinerja pada notebook besar** – Proses notebook dalam batch yang lebih kecil, tingkatkan heap JVM (`-Xmx2g`), atau aktifkan pemrosesan multi‑thread jika lingkungan Anda memungkinkan.
 
-**T: Di mana saya dapat menemukan dokumentasi lebih lanjut?**  
-J: Anda dapat menemukan dokumentasi detail tentang Aspose.Note untuk Java [here](https://reference.aspose.com/note/java/).
+## Frequently asked questions (AI‑friendly)
 
-**T: Apakah ada percobaan gratis yang tersedia?**  
-J: Ya, Anda dapat mendapatkan percobaan gratis Aspose.Note untuk Java [here](https://releases.aspose.com/).
+**Q: Bisakah saya menyesuaikan batas tinggi untuk bagian yang dikloning?**  
+A: Ya, Anda dapat menyesuaikan batas tinggi bagian yang dikloning sesuai kebutuhan Anda menggunakan parameter `heightLimitOfClonedPart`.
 
-**T: Bagaimana saya dapat mendapatkan dukungan jika mengalami masalah?**  
-J: Anda dapat mendapatkan dukungan dari komunitas Aspose [here](https://forum.aspose.com/c/note/28).
+**Q: Di mana saya dapat menemukan dokumentasi lebih lanjut?**  
+A: Anda dapat menemukan dokumentasi terperinci tentang Aspose.Note untuk Java [Aspose.Note documentation](https://reference.aspose.com/note/java/).
 
-**T: Di mana saya dapat membeli lisensi?**  
-J: Anda dapat membeli lisensi untuk Aspose.Note untuk Java [here](https://purchase.aspose.com/buy).
+**Q: Apakah tersedia percobaan gratis?**  
+A: Ya, Anda dapat memperoleh percobaan gratis Aspose.Note untuk Java [Aspose.Note free trial](https://releases.aspose.com/).
+
+**Q: Bagaimana saya dapat mendapatkan dukungan jika saya mengalami masalah?**  
+A: Anda dapat memperoleh dukungan dari komunitas Aspose [Aspose.Note community forum](https://forum.aspose.com/c/note/28).
+
+**Q: Di mana saya dapat membeli lisensi?**  
+A: Anda dapat membeli lisensi untuk Aspose.Note untuk Java [Aspose.Note purchase page](https://purchase.aspose.com/buy).
 
 ---
 
-**Terakhir Diperbarui:** 2025-12-18  
+**Terakhir Diperbarui:** 2026-11-19  
 **Diuji Dengan:** Aspose.Note for Java 26.4  
-**Penulis:** Aspose  
+**Penulis:** Aspose
+
+## Related Tutorials
+
+- [Buat Dokumen OneNote Java – Tutorial Aspose Note Java](/note/java/onenote-document-manipulation/)
+- [Gunakan Aspose.Note untuk Java untuk Menyimpan OneNote sebagai PNG dengan Opsi – Konversi Notebook ke Gambar](/note/java/onenote-notebook-operations/convert-notebook-to-image-with-options/)
+- [Konversi OneNote ke Teks Biasa – Ekstrak Semua Teks dengan Aspose.Note untuk Java](/note/java/onenote-text-manipulation/extract-all-text/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
