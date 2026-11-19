@@ -1,11 +1,61 @@
 ---
-date: 2026-03-24
-description: Tìm hiểu cách hiển thị hình ảnh trang OneNote và chuyển đổi OneNote sang
-  hình ảnh bằng Aspose.Note cho Java. Hướng dẫn từng bước này cho thấy việc chuyển
-  đổi sang JPEG.
-linktitle: Save to JPEG Image Using Save Format in OneNote
+date: 2026-11-19
+description: Tìm hiểu cách chuyển đổi OneNote sang JPEG bằng Aspose.Note for Java.
+  Hướng dẫn từng bước này hiển thị cách xuất ảnh trang OneNote, các yêu cầu trước,
+  và mẫu mã.
+keywords:
+- how to convert onenote
+- export onenote page image
+- aspose.note java
+lastmod: 2026-11-19
+linktitle: Lưu thành ảnh JPEG bằng Save Format trong OneNote
+og_description: Tìm hiểu cách chuyển đổi OneNote sang JPEG bằng Aspose.Note for Java.
+  Hướng dẫn này sẽ đưa bạn qua quá trình xuất ảnh trang OneNote, cài đặt, và mã mẫu
+  trong vài phút.
+og_image_alt: 'Developer guide: Convert OneNote page to JPEG using Aspose.Note for
+  Java'
+og_title: Cách chuyển đổi OneNote sang JPEG bằng Aspose.Note for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-11-19'
+  description: Learn how to convert OneNote to JPEG using Aspose.Note for Java. This
+    step‑by‑step guide shows export OneNote page image, prerequisites, and code samples.
+  headline: How to convert OneNote to JPEG with Aspose.Note for Java
+  type: TechArticle
+- description: Learn how to convert OneNote to JPEG using Aspose.Note for Java. This
+    step‑by‑step guide shows export OneNote page image, prerequisites, and code samples.
+  name: How to convert OneNote to JPEG with Aspose.Note for Java
+  steps:
+  - name: '**Java Development Environment:** Ensure Java Development Kit (JDK) 8 or
+      later is installed.'
+    text: '**Java Development Environment:** Ensure Java Development Kit (JDK) 8 or
+      later is installed.'
+  - name: '**Aspose.Note for Java Library:** Download the library from the [Aspose.Note
+      for Java download page](https://releases.aspose.com/note/java/).'
+    text: '**Aspose.Note for Java Library:** Download the library from the [Aspose.Note
+      for Java download page](https://releases.aspose.com/note/java/).'
+  - name: '**IDE or Build Tool:** Any Java IDE (IntelliJ, Eclipse) or build system
+      (Maven, Gradle) will work.'
+    text: '**IDE or Build Tool:** Any Java IDE (IntelliJ, Eclipse) or build system
+      (Maven, Gradle) will work.'
+  type: HowTo
+- questions:
+  - answer: Change the `SaveFormat` enum to `SaveFormat.Png` or `SaveFormat.Bmp` in
+      the `save` call.
+    question: How do I convert OneNote to other image formats (PNG, BMP)?
+  - answer: Yes, loop through a directory of `.one` files, load each with `new Document(...)`,
+      and call `save` with a unique output name.
+    question: Can I batch‑convert multiple OneNote files?
+  - answer: Retrieve the desired `Page` object from the `Document` and call `page.save(outputPath,
+      SaveFormat.Jpeg)`.
+    question: Is it possible to convert a specific page rather than the whole notebook?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: Cách tạo hình ảnh trang OneNote (JPEG) bằng định dạng lưu
+tags:
+- convert onenote
+- aspose.note
+- java image conversion
+title: Cách chuyển đổi OneNote sang JPEG bằng Aspose.Note for Java
 url: /vi/java/onenote-document-saving/save-to-jpeg-image-using-save-format/
 weight: 18
 ---
@@ -14,40 +64,36 @@ weight: 18
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Render OneNote Page Image (JPEG) Using Save Format
+# Cách chuyển đổi OneNote sang JPEG bằng Aspose.Note cho Java
 
-## Introduction
+## Giới thiệu
 
-Trong hướng dẫn này, bạn sẽ khám phá cách **render OneNote page image** thành một tệp JPEG chất lượng cao chỉ với vài dòng mã Java. Bằng cách sử dụng Aspose.Note for Java, chúng ta có thể lập trình **convert OneNote to image**, rất phù hợp cho báo cáo, ảnh thu nhỏ, hoặc nhúng vào các trang web. Hãy cùng đi qua toàn bộ quy trình, từ việc thiết lập môi trường đến tạo ra hình ảnh cuối cùng.
+Trong hướng dẫn này, bạn sẽ học **cách chuyển đổi các trang OneNote** thành các ảnh JPEG chất lượng cao bằng Aspose.Note cho Java. Việc render ảnh trang OneNote hữu ích khi bạn cần các bản sao nhanh gọn cho báo cáo, hình thu nhỏ, hoặc nhúng vào web mà không cần client OneNote. Chúng tôi sẽ bao quát mọi thứ từ thiết lập môi trường đến lời gọi `save` cuối cùng, cùng các mẹo khắc phục sự cố và khuyến nghị thực tiễn tốt nhất.
 
-## Quick Answers
-- **“render onenote page image” có nghĩa là gì?** Nó chuyển đổi một trang hoặc sổ OneNote thành định dạng ảnh raster như JPEG hoặc PNG.  
-- **Thư viện nào thực hiện việc chuyển đổi?** Aspose.Note for Java cung cấp hỗ trợ xuất JPEG tích hợp sẵn.  
-- **Có cần giấy phép cho việc phát triển không?** Bản dùng thử miễn phí đủ cho việc thử nghiệm; cần giấy phép thương mại cho môi trường sản xuất.  
-- **Các yêu cầu tiên quyết là gì?** Cài đặt Java JDK và tải thư viện Aspose.Note for Java.  
-- **Có thể thay đổi chất lượng ảnh không?** Có, lớp `ImageSaveOptions` cho phép bạn điều chỉnh DPI, mức nén và các thiết lập khác.
+## Câu trả lời nhanh
+- **“render OneNote page image” có nghĩa là gì?** Nó chuyển đổi một trang hoặc sổ OneNote thành hình ảnh raster như JPEG hoặc PNG.  
+- **Thư viện nào thực hiện việc chuyển đổi?** Aspose.Note cho Java cung cấp hỗ trợ xuất JPEG tích hợp.  
+- **Tôi có cần giấy phép cho việc phát triển không?** Bản dùng thử miễn phí đủ cho việc thử nghiệm; giấy phép thương mại cần thiết cho môi trường sản xuất.  
+- **Các yêu cầu trước là gì?** Cài đặt Java JDK và tải thư viện Aspose.Note cho Java.  
+- **Tôi có thể thay đổi chất lượng ảnh không?** Có, lớp `ImageSaveOptions` cho phép điều chỉnh DPI, nén và các thiết lập khác.
 
-## What is render onenote page image?
+## Render hình ảnh trang OneNote là gì?
 
-Việc render OneNote page image tạo ra một hình ảnh tĩnh mô phỏng các ghi chú của bạn, giữ nguyên bố cục, phông chữ và các đối tượng nhúng. Điều này đặc biệt hữu ích khi bạn cần chia sẻ ghi chú với người dùng không có OneNote hoặc muốn nhúng nội dung vào PDF, bản trình chiếu, hoặc trang web.
+Render hình ảnh trang OneNote tạo ra một biểu diễn tĩnh của ghi chú của bạn, giữ nguyên bố cục, phông chữ và các đối tượng nhúng. Điều này đặc biệt hữu ích khi bạn cần chia sẻ ghi chú với người dùng không có OneNote cài đặt hoặc khi muốn nhúng nội dung vào PDF, bản trình chiếu, hoặc trang web.
 
-## Why use Aspose.Note for Java to convert OneNote?
+## Tại sao sử dụng Aspose.Note cho Java để chuyển đổi OneNote?
 
-- **Full fidelity:** Tất cả các thành phần trang (văn bản, mực, bảng, hình ảnh) được render một cách chính xác.  
-- **Không cần cài đặt Office:** Hoạt động trên bất kỳ nền tảng nào hỗ trợ Java.  
-- **Automation‑ready:** Thích hợp cho xử lý hàng loạt, dịch vụ đám mây, hoặc pipeline CI.  
-- **Extensible:** Bạn có thể thao tác thêm tài liệu trước khi lưu (ví dụ: ẩn phần, áp dụng watermark).
+Aspose.Note cho Java render các trang với **độ trung thực đầy đủ**—tất cả văn bản, mực, bảng và hình ảnh được tái tạo chính xác. Thư viện hỗ trợ **hơn 50 định dạng đầu vào và đầu ra**, xử lý sổ ghi chú hàng trăm trang mà không cần tải toàn bộ tệp vào bộ nhớ, và chạy trên bất kỳ nền tảng nào hỗ trợ Java, loại bỏ nhu cầu cài đặt Office cục bộ. Những lợi ích định lượng này làm cho nó trở thành lựa chọn lý tưởng cho xử lý hàng loạt, dịch vụ đám mây và pipeline CI.
 
-## Prerequisites
+## Yêu cầu trước
 
-Trước khi bắt đầu, hãy chắc chắn rằng bạn đã chuẩn bị các yêu cầu sau:
+1. **Môi trường phát triển Java:** Đảm bảo Java Development Kit (JDK) 8 hoặc mới hơn đã được cài đặt.  
+2. **Thư viện Aspose.Note cho Java:** Tải thư viện từ [trang tải xuống Aspose.Note cho Java](https://releases.aspose.com/note/java/).  
+3. **IDE hoặc công cụ xây dựng:** Bất kỳ IDE Java nào (IntelliJ, Eclipse) hoặc hệ thống xây dựng (Maven, Gradle) đều hoạt động.
 
-1. **Java Development Environment:** Đảm bảo đã cài đặt Java Development Kit (JDK) trên hệ thống của bạn.  
-2. **Aspose.Note for Java Library:** Tải và cài đặt thư viện Aspose.Note for Java. Bạn có thể tải về từ [here](https://releases.aspose.com/note/java/).
+## Nhập gói
 
-## Import Packages
-
-Đầu tiên, hãy import các gói cần thiết cho mã Java của chúng ta:
+Lớp `Document` và các tiện ích liên quan nằm trong không gian tên `com.aspose.note`. Nhập các gói cần thiết trước khi viết bất kỳ mã nào.
 
 ```java
 import com.aspose.note.Document;
@@ -56,9 +102,9 @@ import com.aspose.note.SaveFormat;
 import java.io.IOException;
 ```
 
-## Step 1: Load the Document
+## Bước 1: tải tài liệu
 
-Bước đầu tiên là tải tệp OneNote vào Aspose.Note. Điều này được thực hiện bằng lớp `Document`.
+Tải tệp OneNote vào bộ nhớ bằng hàm khởi tạo `Document`. Điều này tạo ra một mô hình đối tượng mà bạn có thể thao tác trước khi xuất.
 
 ```java
 // The path to the documents directory.
@@ -68,9 +114,9 @@ String dataDir = "Your Document Directory";
 Document oneFile = new Document(dataDir + "Aspose.one");
 ```
 
-## Step 2: Save as JPEG Image
+## Bước 2: lưu dưới dạng ảnh JPEG
 
-Bây giờ chúng ta chỉ định đường dẫn tệp đầu ra và lưu tài liệu ở định dạng ảnh JPEG bằng phương thức `save()` kết hợp với enum `SaveFormat.Jpeg`.
+Gọi phương thức `save` với `SaveFormat.Jpeg`. Thư viện tự động xử lý việc render, tỷ lệ DPI và chuyển đổi màu.
 
 ```java
 // Specify the output file path.
@@ -80,58 +126,65 @@ dataDir = dataDir + "SaveToJpegImageUsingSaveFormat_out.jpg";
 oneFile.save(dataDir, SaveFormat.Jpeg);
 ```
 
-> **Pro tip:** Nếu bạn cần kiểm soát chất lượng ảnh, hãy thay thế lời gọi `save` bằng một thể hiện `ImageSaveOptions` và thiết lập các thuộc tính như `setResolution` hoặc `setCompressionLevel`.
+> **Mẹo chuyên nghiệp:** Để tinh chỉnh chất lượng ảnh, thay thế lời gọi `save` đơn giản bằng một thể hiện `ImageSaveOptions` và đặt các thuộc tính như `setResolution(300)` hoặc `setCompressionLevel(90)`.
 
-## Common Issues & Troubleshooting
+## Các vấn đề thường gặp & khắc phục
 
-| Issue | Cause | Solution |
+| Vấn đề | Nguyên nhân | Giải pháp |
 |-------|-------|----------|
-| **File not found** | Đường dẫn `dataDir` không đúng | Kiểm tra lại đường dẫn tuyệt đối hoặc sử dụng `Paths.get(...)` để xây dựng đường dẫn một cách an toàn. |
+| **File not found** | Đường dẫn `dataDir` không đúng | Xác minh đường dẫn tuyệt đối hoặc sử dụng `Paths.get(...)` để xây dựng đường dẫn một cách an toàn. |
 | **Blank image output** | Tài liệu chỉ chứa các đối tượng mực không được hỗ trợ mặc định | Sử dụng `ImageSaveOptions` và bật `setRenderInk(true)`. |
 | **OutOfMemoryError** on large notebooks | Cố gắng render một trang rất lớn trong một lần | Xử lý các trang riêng lẻ hoặc tăng kích thước heap JVM (`-Xmx2g`). |
 
-## Frequently Asked Questions (Original)
+## Câu hỏi thường gặp (gốc)
 
 ### Q1: Aspose.Note có thể xử lý các tệp OneNote phức tạp không?
 
 A1: Có, Aspose.Note được thiết kế để xử lý các tệp OneNote phức tạp một cách hiệu quả, đảm bảo chuyển đổi và thao tác chính xác.
 
-### Q2: Có phiên bản dùng thử cho Aspose.Note for Java không?
+### Q2: Có phiên bản dùng thử cho Aspose.Note cho Java không?
 
-A2: Có, bạn có thể nhận phiên bản dùng thử miễn phí của Aspose.Note for Java từ [here](https://releases.aspose.com/).
+A2: Có, bạn có thể tải phiên bản dùng thử miễn phí của Aspose.Note cho Java từ [trang tải xuống dùng thử Aspose.Note](https://releases.aspose.com/).
 
-### Q3: Làm sao để nhận hỗ trợ cho Aspose.Note for Java?
+### Q3: Làm thế nào để tôi nhận được hỗ trợ cho Aspose.Note cho Java?
 
-A3: Bạn có thể nhận hỗ trợ cho Aspose.Note for Java bằng cách truy cập [Aspose.Note forum](https://forum.aspose.com/c/note/28).
+A3: Bạn có thể nhận hỗ trợ cho Aspose.Note cho Java bằng cách truy cập [diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28).
 
-### Q4: Có thể mua giấy phép tạm thời cho Aspose.Note for Java không?
+### Q4: Tôi có thể mua giấy phép tạm thời cho Aspose.Note cho Java không?
 
-A4: Có, bạn có thể mua giấy phép tạm thời từ [here](https://purchase.aspose.com/temporary-license/).
+A4: Có, bạn có thể mua giấy phép tạm thời từ [trang mua giấy phép tạm thời của Aspose](https://purchase.aspose.com/temporary-license/).
 
-### Q5: Tôi có thể tìm tài liệu chi tiết cho Aspose.Note for Java ở đâu?
+### Q5: Tôi có thể tìm tài liệu chi tiết cho Aspose.Note cho Java ở đâu?
 
-A5: Bạn có thể tìm tài liệu chi tiết cho Aspose.Note for Java [here](https://reference.aspose.com/note/java/).
+A5: Bạn có thể tìm tài liệu chi tiết cho Aspose.Note cho Java tại [tham chiếu API Java của Aspose.Note](https://reference.aspose.com/note/java/).
 
-## Additional FAQ – How to Convert OneNote
+## Câu hỏi thường gặp bổ sung – cách chuyển đổi OneNote
 
-**Q: Làm thế nào để chuyển đổi OneNote sang các định dạng ảnh khác (PNG, BMP)?**  
+**Q: Làm thế nào để tôi chuyển đổi OneNote sang các định dạng ảnh khác (PNG, BMP)?**  
 A: Thay đổi enum `SaveFormat` thành `SaveFormat.Png` hoặc `SaveFormat.Bmp` trong lời gọi `save`.
 
 **Q: Tôi có thể chuyển đổi hàng loạt nhiều tệp OneNote không?**  
 A: Có, lặp qua một thư mục chứa các tệp `.one`, tải mỗi tệp bằng `new Document(...)`, và gọi `save` với tên đầu ra duy nhất.
 
-**Q: Có thể chuyển đổi một trang cụ thể thay vì toàn bộ sổ không?**  
+**Q: Có thể chuyển đổi một trang cụ thể thay vì toàn bộ sổ ghi chú không?**  
 A: Lấy đối tượng `Page` mong muốn từ `Document` và gọi `page.save(outputPath, SaveFormat.Jpeg)`.
 
-## Conclusion
+## Kết luận
 
-Chúng ta đã bao quát mọi thứ bạn cần để **render OneNote page image** bằng Aspose.Note for Java—từ việc thiết lập môi trường đến tạo tệp JPEG và xử lý các vấn đề thường gặp. Với kiến thức này, bạn có thể tự động hoá việc chuyển đổi OneNote, tích hợp chúng vào quy trình làm việc lớn hơn, hoặc đơn giản cung cấp cho người dùng các ảnh chụp nhanh gọn gàng của ghi chú.
+Chúng tôi đã bao quát mọi thứ bạn cần để **render hình ảnh trang OneNote** bằng Aspose.Note cho Java—from thiết lập môi trường đến tạo file JPEG và xử lý các vấn đề thường gặp. Với kiến thức này, bạn có thể tự động hoá việc chuyển đổi OneNote, tích hợp chúng vào quy trình làm việc lớn hơn, hoặc đơn giản cung cấp cho người dùng các bản sao ảnh di động của ghi chú.
 
 ---
 
-**Last Updated:** 2025-12-17  
-**Được kiểm tra với:** Aspose.Note for Java 26.4 (phiên bản mới nhất tại thời điểm viết)  
-**Tác giả:** Aspose  
+**Cập nhật lần cuối:** 2026-11-19  
+**Kiểm tra với:** Aspose.Note cho Java 26.4 (phiên bản mới nhất tại thời điểm viết)  
+**Tác giả:** Aspose
+
+## Hướng dẫn liên quan
+
+- [Xuất OneNote sang ảnh BMP bằng Aspose.Note cho Java - Tùy chọn lưu ảnh](/note/java/onenote-document-saving/save-to-bmp-image-using-image-save-options/)
+- [Sử dụng Aspose.Note cho Java để lưu OneNote dưới dạng PNG với các tùy chọn – Chuyển đổi sổ ghi chú sang ảnh](/note/java/onenote-notebook-operations/convert-notebook-to-image-with-options/)
+- [Xuất trang OneNote sang ảnh bằng Java](/note/java/onenote-document-loading/convert-page-to-image/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
